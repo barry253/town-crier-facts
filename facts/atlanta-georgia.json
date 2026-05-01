@@ -1,5 +1,10 @@
 {
   "place": "Atlanta, Georgia",
+  "town": "Atlanta",
+  "state": "Georgia",
+  "region": "Georgia",
+  "country": "",
+  "slug": "atlanta-georgia",
   "sources": [
     {
       "label": "Wikipedia",
@@ -7,47 +12,21 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://atlanta.com/articles/georgia/facts-about-atlanta-georgia"
+      "url": "https://www.britannica.com/place/Atlanta-Georgia"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Atlanta-Georgia"
+      "url": "https://atlanta.com/articles/georgia/facts-about-atlanta-georgia"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Atlanta was renamed in 1845 to honor the Western and Atlantic Railroad, a feminine version of \"Atlantic\".",
+      "text": "Atlanta was renamed in 1845 to honor the Western and Atlantic Railroad, a feminine take on \"Atlantic\".",
       "sourceSentenceIds": [
-        12,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Atlanta"
-    },
-    {
-      "id": 2,
-      "text": "The city hosted the 1996 Summer Olympics, becoming the first U.S. city to win the bid and host the Games.",
-      "sourceSentenceIds": [
-        15,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Atlanta"
-    },
-    {
-      "id": 3,
-      "text": "Hartsfield‑Jackson Atlanta International Airport, just south of downtown, is the world’s busiest airport by passenger traffic.",
-      "sourceSentenceIds": [
-        2,
-        3,
-        4,
-        10
+        8,
+        9,
+        21
       ],
       "sourceLabels": [
         "Wikipedia",
@@ -56,10 +35,35 @@
       "source": "https://en.wikipedia.org/wiki/Atlanta"
     },
     {
-      "id": 4,
-      "text": "Atlanta is home to the global headquarters of Coca‑Cola, a company founded in the city in 1886.",
+      "id": 2,
+      "text": "The city hosted the 1996 Summer Olympics, becoming the first U.S. city to win the bid and host the Games.",
       "sourceSentenceIds": [
-        25
+        10,
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Atlanta"
+    },
+    {
+      "id": 3,
+      "text": "Hartsfield‑Jackson International Airport, opened in 1926, grew into the world’s busiest airport by 1998, making Atlanta a global air hub.",
+      "sourceSentenceIds": [
+        24,
+        25,
+        27
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Atlanta"
+    },
+    {
+      "id": 4,
+      "text": "The World of Coca‑Cola museum chronicles the history of the soft‑drink giant headquartered in Atlanta, showcasing its advertising evolution.",
+      "sourceSentenceIds": [
+        1
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -68,24 +72,10 @@
     },
     {
       "id": 5,
-      "text": "The Martin Luther King Jr. National Historical Park preserves the civil‑rights leader’s childhood home and the historic Ebenezer Baptist Church.",
+      "text": "Atlanta was a central hub for the civil rights movement in the 1950s and 1960s, with leaders like Martin Luther King Jr. organizing protests.",
       "sourceSentenceIds": [
-        6,
-        11,
-        27,
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Atlanta"
-    },
-    {
-      "id": 6,
-      "text": "The World of Coca‑Cola museum showcases the brand’s advertising history and the famous “Coca‑Cola” logo evolution.",
-      "sourceSentenceIds": [
-        1
+        3,
+        5
       ],
       "sourceLabels": [
         "Wikipedia"
