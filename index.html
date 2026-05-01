@@ -149,7 +149,7 @@
     }
 
     async function loadIndex() {
-      const res = await fetch("./facts-index.json");
+      const res = await fetch(`./facts-index.json?v=${Date.now()}`);
       const towns = await res.json();
 
       towns.sort((a, b) =>
