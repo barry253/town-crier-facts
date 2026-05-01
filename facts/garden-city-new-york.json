@@ -17,7 +17,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Founded in 1869 by Alexander Turney Stewart, Garden City was one of America’s first planned communities, complete with wide avenues and a private railroad.",
+      "text": "Garden City was founded in 1869 by Alexander Turney Stewart, a department store magnate, as one of America's first planned communities.",
       "sourceSentenceIds": [
         9,
         18,
@@ -31,7 +31,20 @@
     },
     {
       "id": 2,
-      "text": "After Stewart’s death, his wife Cornelia erected the Cathedral of the Incarnation, a Gothic Revival landmark that still graces Garden City’s skyline.",
+      "text": "Stewart also built the Central Railroad of Long Island, giving Garden City its own rail line that connected to Long Island City and Farmingdale.",
+      "sourceSentenceIds": [
+        11,
+        12,
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Garden_City%2C_New_York"
+    },
+    {
+      "id": 3,
+      "text": "The Cathedral of the Incarnation, a Gothic Revival landmark, was erected by Stewart's wife Cornelia in memory of her husband after his death in 1876.",
       "sourceSentenceIds": [
         4,
         5,
@@ -45,8 +58,8 @@
       "source": "https://www.longislandguide.com/visit/garden-city/"
     },
     {
-      "id": 3,
-      "text": "The Cradle of Aviation Museum in Garden City showcases Long Island’s pivotal role in early aviation history.",
+      "id": 4,
+      "text": "The village hosts the Cradle of Aviation Museum, celebrating Long Island's deep aviation history, including early aircraft and the 1920s airfield.",
       "sourceSentenceIds": [
         15
       ],
@@ -56,10 +69,10 @@
       "source": "https://www.longislandguide.com/visit/garden-city/"
     },
     {
-      "id": 4,
-      "text": "The Waldorf School, opened in 1947, was one of the first Waldorf schools in the United States and remains a notable educational institution in Garden City.",
+      "id": 5,
+      "text": "Garden City’s historic Garden City Hotel once hosted Charles Lindbergh, who stayed there while preparing for his solo transatlantic flight.",
       "sourceSentenceIds": [
-        2
+        25
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -67,10 +80,10 @@
       "source": "https://en.wikipedia.org/wiki/Garden_City%2C_New_York"
     },
     {
-      "id": 5,
-      "text": "Charles Lindbergh stayed at the Garden City Hotel before his flight, and the hotel was a filming location for the 1930 movie 'The Spirit of St. Louis'.",
+      "id": 6,
+      "text": "The Waldorf School of Garden City, founded in 1947 as part of Adelphi University, was one of the first Waldorf schools in the United States.",
       "sourceSentenceIds": [
-        25
+        2
       ],
       "sourceLabels": [
         "Wikipedia"
