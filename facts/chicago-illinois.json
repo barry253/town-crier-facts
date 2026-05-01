@@ -1,5 +1,10 @@
 {
   "place": "Chicago, Illinois",
+  "town": "Chicago",
+  "state": "Illinois",
+  "region": "Illinois",
+  "country": "",
+  "slug": "chicago-illinois",
   "sources": [
     {
       "label": "Wikipedia",
@@ -11,15 +16,15 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Chicago"
+      "url": "https://www.choosechicago.com/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Chicago was founded in 1833, when fewer than 200 people settled on the American frontier.",
+      "text": "Poetry magazine, founded in 1912 by Harriet Monroe while she worked as a Chicago Tribune art critic, began as a literary voice.",
       "sourceSentenceIds": [
-        12
+        1
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -28,18 +33,7 @@
     },
     {
       "id": 2,
-      "text": "Jean Baptiste Point du Sable, a free black trader from Haiti, became Chicago’s first permanent non‑indigenous resident in the 1770s.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.chicago.gov/city/en/about/history.html"
-    },
-    {
-      "id": 3,
-      "text": "O’Hare International Airport, located on Chicago’s far northwest side, was the world’s busiest airport by aircraft movements in 2005.",
+      "text": "The 1893 World’s Fair drew 27.5 million visitors, cementing Chicago’s reputation as a hub of innovation and design.",
       "sourceSentenceIds": [
         4
       ],
@@ -49,10 +43,21 @@
       "source": "https://en.wikipedia.org/wiki/Chicago"
     },
     {
-      "id": 4,
-      "text": "The Willis Tower, formerly Sears Tower, stands as Chicago’s tallest building and a landmark of its skyline.",
+      "id": 3,
+      "text": "Jean Baptiste Point du Sable, a free black trader from Haiti, became Chicago’s first permanent non‑indigenous resident in the 1770s.",
       "sourceSentenceIds": [
-        17
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.chicago.gov/city/en/about/history.html"
+    },
+    {
+      "id": 4,
+      "text": "The Willis Tower, once the world’s tallest building, remains a skyline icon and a symbol of Chicago’s architectural ambition.",
+      "sourceSentenceIds": [
+        15
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -61,9 +66,9 @@
     },
     {
       "id": 5,
-      "text": "Chicago Symphony Orchestra, founded in 1891, is one of the world’s leading orchestras and a cultural pillar of the city.",
+      "text": "Chicago hosts the world‑renowned Symphony Orchestra and the Lyric Opera, showcasing the city’s enduring commitment to classical music.",
       "sourceSentenceIds": [
-        24
+        22
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -72,7 +77,7 @@
     },
     {
       "id": 6,
-      "text": "House music, a genre that blends electronic beats with soulful vocals, originated in Chicago’s underground club scene in the 1980s.",
+      "text": "The Chicago Bears, one of the NFL’s oldest teams, have claimed nine championships, including the 1985 Super Bowl XX victory.",
       "sourceSentenceIds": [
         29
       ],
