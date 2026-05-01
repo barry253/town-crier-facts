@@ -1,9 +1,9 @@
 {
   "place": "Holliswood, Queens, New York",
   "town": "Holliswood",
-  "state": "Queens",
+  "state": "New York",
   "region": "Queens",
-  "country": "New York",
+  "country": "United States",
   "slug": "holliswood-queens-new-york",
   "sources": [
     {
@@ -22,31 +22,41 @@
   "facts": [
     {
       "id": 1,
-      "text": "Holliswood got its name from developer William Dunton, who honored his New Hampshire hometown and first marketed the area as an upscale subdivision in the early 1900s.",
+      "text": "Holliswood was originally called Terrace Heights and sits on the Harbor Hill Moraine, giving it rolling hills.",
       "sourceSentenceIds": [
-        1,
-        8
+        9
       ],
       "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
+        "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Holliswood%2C_Queens"
     },
     {
       "id": 2,
-      "text": "The neighborhood drew professionals and physicians who valued the quiet hills while commuting to Manhattan via Hillside Avenue and the nearby Long Island Rail Road’s Hollis Station.",
+      "text": "The neighborhood’s streets were designed by the Grenoble Realty Company in 1905, featuring winding layouts and Latin or Spanish names like Palo Alto and Como.",
       "sourceSentenceIds": [
-        7
+        20,
+        18
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://www.cityneighborhoods.nyc/holliswood"
+      "source": "https://en.wikipedia.org/wiki/Holliswood%2C_Queens"
     },
     {
       "id": 3,
-      "text": "A Queens Public Library branch serves Holliswood residents from its building on 202‑05 Hillside Avenue, offering a quiet spot for reading and community events.",
+      "text": "A post office station on Hillside Avenue, the Holliswood Station, has served residents since the early 20th century.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Holliswood%2C_Queens"
+    },
+    {
+      "id": 4,
+      "text": "The Queens Public Library branch at 202-05 Hillside Avenue opened to provide a cultural hub for the community.",
       "sourceSentenceIds": [
         6
       ],
@@ -56,23 +66,24 @@
       "source": "https://en.wikipedia.org/wiki/Holliswood%2C_Queens"
     },
     {
-      "id": 4,
-      "text": "In 2002 the Holliswood Civic Association became the first in New York City to successfully petition for larger 60‑by‑100 lot sizes, reshaping the neighborhood’s residential character.",
+      "id": 5,
+      "text": "Holliswood’s development began when Frederick W. Dunton bought 136 acres in 1884 and envisioned an upscale residential district amid oak groves.",
       "sourceSentenceIds": [
-        28,
-        29
+        16,
+        8
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Wikipedia",
+        "Web source 1"
       ],
       "source": "https://en.wikipedia.org/wiki/Holliswood%2C_Queens"
     },
     {
-      "id": 5,
-      "text": "Holliswood sits on the Harbor Hill Moraine, an ancient glacial ridge, and is bordered by Jamaica Estates, Cunningham Park, Hollis, and Queens Village.",
+      "id": 6,
+      "text": "In 2002, Holliswood became the first NYC borough association to successfully change zoning from 40x100 to 60x100 lots, allowing larger homes.",
       "sourceSentenceIds": [
-        9,
-        10
+        28,
+        29
       ],
       "sourceLabels": [
         "Wikipedia"
