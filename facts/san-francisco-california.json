@@ -1,5 +1,10 @@
 {
   "place": "San Francisco, California",
+  "town": "San Francisco",
+  "state": "California",
+  "region": "California",
+  "country": "",
+  "slug": "san-francisco-california",
   "sources": [
     {
       "label": "Wikipedia",
@@ -17,9 +22,10 @@
   "facts": [
     {
       "id": 1,
-      "text": "San Francisco was officially renamed from Yerba Buena in 1847, honoring the first civilian pueblo that once called the area good herb.",
+      "text": "San Francisco got its name from Mission San Francisco de Asís, which was renamed in 1847 from Yerba Buena, meaning 'good herb'.",
       "sourceSentenceIds": [
-        12
+        12,
+        10
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -28,18 +34,7 @@
     },
     {
       "id": 2,
-      "text": "The Olympic Club, founded in 1860, is the oldest athletic club in the United States and still hosts competitive sports today.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/San_Francisco"
-    },
-    {
-      "id": 3,
-      "text": "San Francisco’s famous cable cars, a National Historic Landmark, have been whisking tourists up and down hills since the 1870s.",
+      "text": "The city’s cable cars, a National Historic Landmark, still glide along steep streets, a living reminder of 19th‑century engineering.",
       "sourceSentenceIds": [
         7
       ],
@@ -49,8 +44,19 @@
       "source": "https://en.wikipedia.org/wiki/San_Francisco"
     },
     {
+      "id": 3,
+      "text": "Founded in 1860, the Olympic Club is the oldest athletic club in the United States, still hosting elite sports today.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/San_Francisco"
+    },
+    {
       "id": 4,
-      "text": "The historic venue that opened in the 1960s became the stage for the Grateful Dead, Janis Joplin, Led Zeppelin, and Jefferson Airplane.",
+      "text": "The Fillmore, rebuilt in the 1960s, launched the San Francisco Sound with early shows by Grateful Dead and Janis Joplin.",
       "sourceSentenceIds": [
         5
       ],
@@ -61,9 +67,9 @@
     },
     {
       "id": 5,
-      "text": "The San Francisco Planning and Urban Research Association, or SPUR, was founded in 1910 to improve housing quality after the earthquake.",
+      "text": "Bank of America’s 1969 skyscraper at 555 California Street once symbolized middle‑class banking, before the bank moved its headquarters to Charlotte.",
       "sourceSentenceIds": [
-        2
+        4
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -72,9 +78,9 @@
     },
     {
       "id": 6,
-      "text": "Founded in 1855, the University of San Francisco is the city’s oldest higher‑education institution and one of the oldest west of the Mississippi.",
+      "text": "The San Francisco Armory, Palace of Fine Arts, and Haas–Lilienthal House are among dozens of landmarks listed on the National Register.",
       "sourceSentenceIds": [
-        23
+        6
       ],
       "sourceLabels": [
         "Wikipedia"
