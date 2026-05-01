@@ -22,10 +22,9 @@
   "facts": [
     {
       "id": 1,
-      "text": "Boston was founded in 1630 on the Shawmut Peninsula by English Puritan settlers who named it after Boston, Lincolnshire, England.",
+      "text": "Boston was founded on the Shawmut Peninsula in 1630 by English Puritan settlers who named it after Boston, Lincolnshire in England.",
       "sourceSentenceIds": [
-        1,
-        7
+        1
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -34,7 +33,18 @@
     },
     {
       "id": 2,
-      "text": "The Boston Public Library, America's first free library, opened in 1852 and remains a cornerstone of the city’s public knowledge.",
+      "text": "The 1629 Cambridge Agreement, signed by John Winthrop, laid the groundwork for Massachusetts Bay Colony before Boston’s settlement even began.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Boston"
+    },
+    {
+      "id": 3,
+      "text": "In 1852 the Boston Public Library opened as the first free library in the United States, a landmark for public access to knowledge.",
       "sourceSentenceIds": [
         5
       ],
@@ -44,8 +54,8 @@
       "source": "https://en.wikipedia.org/wiki/Boston"
     },
     {
-      "id": 3,
-      "text": "Boston Latin School, founded in 1635, is the oldest public school in the United States and still educates students today.",
+      "id": 4,
+      "text": "Boston Latin School, founded in 1635, is America’s oldest public school and the starting point for many of the nation’s leaders.",
       "sourceSentenceIds": [
         9
       ],
@@ -55,21 +65,10 @@
       "source": "https://en.wikipedia.org/wiki/Boston"
     },
     {
-      "id": 4,
-      "text": "Back Bay was created by filling the area with gravel from Needham and earth from leveling Boston’s original hills, a massive 19th‑century engineering feat.",
+      "id": 5,
+      "text": "The Back Bay was created by filling three original hills and importing gravel from Needham, turning a marsh into Boston’s elegant neighborhood.",
       "sourceSentenceIds": [
         11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Boston"
-    },
-    {
-      "id": 5,
-      "text": "First Church in Boston, founded in 1630, is the city’s oldest church and a testament to the early Puritan community.",
-      "sourceSentenceIds": [
-        13
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -80,7 +79,6 @@
       "id": 6,
       "text": "The Boston Celtics, founded in 1946, have won eighteen NBA championships, the most of any team in league history.",
       "sourceSentenceIds": [
-        26,
         27
       ],
       "sourceLabels": [
