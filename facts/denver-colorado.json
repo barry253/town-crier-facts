@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Denver was founded in 1858 at the confluence of Cherry Creek and the South Platte River during the Gold Rush era.",
+      "text": "Denver was founded in 1858 at the confluence of Cherry Creek and the South Platte River during the Gold Rush.",
       "sourceSentenceIds": [
         1
       ],
@@ -33,9 +33,9 @@
     },
     {
       "id": 2,
-      "text": "The town was named Denver City by founder William Larimer Jr. to curry favor with Kansas Territorial Governor James W. Denver.",
+      "text": "The city earned the nickname \"Mile High City\" because its official elevation is exactly one mile (5,280 feet) above sea level.",
       "sourceSentenceIds": [
-        11
+        10
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -44,8 +44,10 @@
     },
     {
       "id": 3,
-      "text": "Denver won the 1976 Winter Olympics bid but withdrew in 1972 after voters rejected public funding, the only city to back out after winning.",
+      "text": "Denver hosted the 1976 Winter Olympics bid, withdrew in 1972 after voters rejected public funding, making it the only city to back out after winning a bid.",
       "sourceSentenceIds": [
+        5,
+        7,
         8
       ],
       "sourceLabels": [
@@ -55,7 +57,7 @@
     },
     {
       "id": 4,
-      "text": "The refurbished Union Station now serves as a transportation hub and hosts restaurants, bars, a hotel, and a half‑acre fountain plaza.",
+      "text": "Union Station, rebuilt and refurbished, became a transportation hub and now hosts restaurants, bars, and a hotel, reflecting Denver's rail heritage.",
       "sourceSentenceIds": [
         4
       ],
@@ -66,9 +68,20 @@
     },
     {
       "id": 5,
-      "text": "Chipotle Mexican Grill was founded in Denver in 2000 but moved its headquarters to Newport Beach, California, in 2018.",
+      "text": "The University of Denver, founded in 1864, was the first higher‑education institution in the city.",
       "sourceSentenceIds": [
-        17
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Denver"
+    },
+    {
+      "id": 6,
+      "text": "Qwest Corporation, founded in Denver in 1911 as Mountain States Telephone & Telegraph Company, is now part of Lumen Technologies.",
+      "sourceSentenceIds": [
+        14
       ],
       "sourceLabels": [
         "Wikipedia"
