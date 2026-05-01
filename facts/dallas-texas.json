@@ -1,5 +1,10 @@
 {
   "place": "Dallas, Texas",
+  "town": "Dallas",
+  "state": "Texas",
+  "region": "Texas",
+  "country": "",
+  "slug": "dallas-texas",
   "sources": [
     {
       "label": "Wikipedia",
@@ -17,7 +22,18 @@
   "facts": [
     {
       "id": 1,
-      "text": "Dallas was founded at a \"white rock crossing\" of the Trinity River, where wagons could easily cross before bridges existed.",
+      "text": "In 1841, John B. Jones returned to the Trinity River area and founded the permanent settlement that would become Dallas.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Dallas"
+    },
+    {
+      "id": 2,
+      "text": "The city was founded at the location of a 'white rock crossing' of the Trinity River, where it was easier for wagons to cross.",
       "sourceSentenceIds": [
         14
       ],
@@ -27,19 +43,8 @@
       "source": "https://en.wikipedia.org/wiki/Dallas"
     },
     {
-      "id": 2,
-      "text": "The city’s name probably honors Vice President George Mifflin Dallas, who served the United States from 1845 to 1849.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.britannica.com/place/Dallas"
-    },
-    {
       "id": 3,
-      "text": "A 3.5‑mile stretch of former Missouri‑Kansas‑Texas Railroad was turned into Dallas’s premier trail, preserving a piece of rail history.",
+      "text": "The 3.5-mile stretch of the former MKT Railroad was bought by Dallas and turned into the city's premier trail.",
       "sourceSentenceIds": [
         4
       ],
@@ -50,9 +55,9 @@
     },
     {
       "id": 4,
-      "text": "Deep Ellum, just east of downtown, became the South’s jazz and blues hotspot in the 1920s and 1930s and still echoes that legacy.",
+      "text": "Deep Ellum, immediately east of Downtown, originally became popular during the 1920s and 1930s as the prime jazz and blues hot spot in the South.",
       "sourceSentenceIds": [
-        29
+        28
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -61,9 +66,9 @@
     },
     {
       "id": 5,
-      "text": "The Dallas Morning News, the city’s major daily newspaper, began publishing in 1885 and has been a staple of local journalism ever since.",
+      "text": "Komen for the Cure, the world's largest breast cancer organization, was founded and is headquartered in Dallas.",
       "sourceSentenceIds": [
-        22
+        16
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -72,9 +77,9 @@
     },
     {
       "id": 6,
-      "text": "The Dallas Cowboys, who play at AT&T Stadium, are one of the city’s most famous sports teams and have won five Super Bowls.",
+      "text": "The American Airlines Center in downtown Dallas hosts the NBA Mavericks, who won 2011, and the NHL Stars, who won 1999.",
       "sourceSentenceIds": [
-        5
+        29
       ],
       "sourceLabels": [
         "Wikipedia"
