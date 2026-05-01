@@ -26,18 +26,29 @@
   "facts": [
     {
       "id": 1,
-      "text": "West Hempstead got its name when the Long Island Rail Road built a station west of Hempstead in 1891, turning \"West of Hempstead\" into the town's name.",
+      "text": "West Hempstead first appeared on maps as a Long Island Railroad station in 1893.",
       "sourceSentenceIds": [
-        20
+        1
       ],
       "sourceLabels": [
-        "Local source"
+        "Wikipedia"
       ],
-      "source": "local"
+      "source": "https://en.wikipedia.org/wiki/West_Hempstead%2C_New_York"
     },
     {
       "id": 2,
-      "text": "The West Hempstead Public Library opened in 1956 and received state charter in 1967.",
+      "text": "The name means \"west of Hempstead,\" derived from the English town of Hempstead in Essex, England.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.wisdomlib.org/cities/west-hempstead-23551"
+    },
+    {
+      "id": 3,
+      "text": "West Hempstead’s library was founded in 1956 and chartered by the state in 1967.",
       "sourceSentenceIds": [
         3
       ],
@@ -47,30 +58,8 @@
       "source": "https://en.wikipedia.org/wiki/West_Hempstead%2C_New_York"
     },
     {
-      "id": 3,
-      "text": "Halls Pond Park, the town’s main green space, was dedicated by Nassau County in 1961.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Hempstead%2C_New_York"
-    },
-    {
       "id": 4,
-      "text": "The Cradle of Aviation Museum, holding over 70 aircraft, is a highlight of West Hempstead’s cultural scene.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://hempsteadny.gov/482/Tourism"
-    },
-    {
-      "id": 5,
-      "text": "Riesterer’s Bakery, founded in 1931, still serves kosher pastries along Hempstead Avenue.",
+      "text": "Riesterer’s Bakery, a kosher shop founded in 1931, still lines Hempstead Avenue today.",
       "sourceSentenceIds": [
         4
       ],
@@ -78,6 +67,17 @@
         "Local source"
       ],
       "source": "local"
+    },
+    {
+      "id": 5,
+      "text": "Halls Pond Park, the main park, was dedicated by Nassau County in 1961.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Hempstead%2C_New_York"
     }
   ]
 }
