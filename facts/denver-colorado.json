@@ -1,5 +1,10 @@
 {
   "place": "Denver, Colorado",
+  "town": "Denver",
+  "state": "Colorado",
+  "region": "Colorado",
+  "country": "",
+  "slug": "denver-colorado",
   "sources": [
     {
       "label": "Wikipedia",
@@ -11,7 +16,7 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Denver"
+      "url": "https://www.denver.org/about-denver/denver-history/?mc=1"
     }
   ],
   "facts": [
@@ -28,9 +33,9 @@
     },
     {
       "id": 2,
-      "text": "Nicknamed the “Mile High City,” Denver sits exactly one mile (5,280 feet) above sea level.",
+      "text": "The town was named Denver City by founder William Larimer Jr. to curry favor with Kansas Territorial Governor James W. Denver.",
       "sourceSentenceIds": [
-        14
+        11
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -39,9 +44,9 @@
     },
     {
       "id": 3,
-      "text": "Denver won the 1976 Winter Olympics bid but withdrew in 1972 after Colorado voters rejected public funding for the games.",
+      "text": "Denver won the 1976 Winter Olympics bid but withdrew in 1972 after voters rejected public funding, the only city to back out after winning.",
       "sourceSentenceIds": [
-        7
+        8
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -50,20 +55,20 @@
     },
     {
       "id": 4,
-      "text": "Qwest Corporation, founded in Denver in 1911 as Mountain States Telephone & Telegraph, is now part of Lumen Technologies.",
+      "text": "The refurbished Union Station now serves as a transportation hub and hosts restaurants, bars, a hotel, and a half‑acre fountain plaza.",
       "sourceSentenceIds": [
-        20
+        4
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denver"
+      "source": "https://www.denver.org/about-denver/denver-history/?mc=1"
     },
     {
       "id": 5,
-      "text": "The University of Denver, the city’s first higher‑learning institution, was founded in 1864 and remains a prominent local university.",
+      "text": "Chipotle Mexican Grill was founded in Denver in 2000 but moved its headquarters to Newport Beach, California, in 2018.",
       "sourceSentenceIds": [
-        24
+        17
       ],
       "sourceLabels": [
         "Wikipedia"
