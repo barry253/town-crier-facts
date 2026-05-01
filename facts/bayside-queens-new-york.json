@@ -1,9 +1,9 @@
 {
   "place": "Bayside, Queens, New York",
   "town": "Bayside",
-  "state": "Queens",
+  "state": "New York",
   "region": "Queens",
-  "country": "New York",
+  "country": "United States",
   "slug": "bayside-queens-new-york",
   "sources": [
     {
@@ -22,9 +22,11 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bayside Historical Society, founded in 1964, works to preserve the neighborhood’s history and protect its historic structures.",
+      "text": "Bayside Historical Society, founded in 1964, preserves the borough’s heritage through research, advocacy, and public programs.",
       "sourceSentenceIds": [
-        1
+        1,
+        2,
+        13
       ],
       "sourceLabels": [
         "Web source 2"
@@ -33,9 +35,9 @@
     },
     {
       "id": 2,
-      "text": "The Gothic Revival Castle, a New York City landmark, also sits on the National Register of Historic Places.",
+      "text": "Guided tours of Lawrence Cemetery, hosted by the Society, sometimes feature actors reenacting the buried residents.",
       "sourceSentenceIds": [
-        8
+        4
       ],
       "sourceLabels": [
         "Web source 2"
@@ -44,7 +46,7 @@
     },
     {
       "id": 3,
-      "text": "Silent‑film icon Gloria Swanson once called 216‑07 40th Avenue her home.",
+      "text": "Gloria Swanson’s former home at 216‑07 40th Avenue remains a quiet reminder of silent‑film royalty.",
       "sourceSentenceIds": [
         5
       ],
@@ -55,21 +57,10 @@
     },
     {
       "id": 4,
-      "text": "Bayside became a quiet refuge for Manhattan writers, actors, and musicians seeking air and peace.",
+      "text": "The Gothic Revival Castle, a New York City landmark, now hosts BHS events and exhibits.",
       "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.cityneighborhoods.nyc/bayside"
-    },
-    {
-      "id": 5,
-      "text": "BHS guides tours of the Lawrence Family Cemetery, sometimes staging theatrical performances of those buried there.",
-      "sourceSentenceIds": [
-        4,
-        28
+        8,
+        27
       ],
       "sourceLabels": [
         "Web source 2"
@@ -77,8 +68,21 @@
       "source": "https://www.baysidehistorical.org/about-bhs"
     },
     {
+      "id": 5,
+      "text": "Early Hollywood actors, including W.C. and Gloria Swanson, were drawn to Bayside’s quiet air and open spaces.",
+      "sourceSentenceIds": [
+        3,
+        6,
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.cityneighborhoods.nyc/bayside"
+    },
+    {
       "id": 6,
-      "text": "The 1887 Officers’ Club, now BHS headquarters, survived thanks to residents’ successful preservation efforts.",
+      "text": "The 1887 Officers’ Club, now BHS headquarters, survived a community fight to protect it as a landmark.",
       "sourceSentenceIds": [
         23
       ],
