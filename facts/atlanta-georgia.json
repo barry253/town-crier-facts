@@ -17,7 +17,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Atlanta was renamed in 1845 to honor the Western and Atlantic Railroad, a name suggested by engineer John Edgar Thomson.",
+      "text": "In 1845, Atlanta was renamed after the Western and Atlantic Railroad, a feminine twist on 'Atlantic' that marked its railroad origins.",
       "sourceSentenceIds": [
         12,
         14
@@ -30,10 +30,10 @@
     },
     {
       "id": 2,
-      "text": "The city’s world‑famous airport, Hartsfield‑Jackson Atlanta International, became the busiest in the world by passenger traffic in 1998 and remains a Delta hub.",
+      "text": "Hartsfield‑Jackson Atlanta International Airport, Delta Air Lines’ headquarters, remains the world’s busiest airport by passenger traffic.",
       "sourceSentenceIds": [
-        2,
         3,
+        4,
         10
       ],
       "sourceLabels": [
@@ -44,7 +44,7 @@
     },
     {
       "id": 3,
-      "text": "Atlanta hosted the 1996 Summer Olympics, the first U.S. city to win the bid and the largest U.S. Olympic host to date.",
+      "text": "Atlanta won the 1996 Summer Olympics bid, becoming the first U.S. city to host the Games.",
       "sourceSentenceIds": [
         15,
         17
@@ -56,25 +56,34 @@
     },
     {
       "id": 4,
-      "text": "The Martin Luther King Jr. National Historical Park preserves the civil‑rights leader’s childhood home and the historic Ebenezer Baptist Church where he preached.",
+      "text": "The city hosts global headquarters for Coca‑Cola, Home Depot, Delta, and many other Fortune 500 firms.",
       "sourceSentenceIds": [
-        1,
-        11,
-        27,
-        28
+        25
       ],
       "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
+        "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Atlanta"
     },
     {
       "id": 5,
-      "text": "Coca‑Cola’s corporate headquarters sits in Atlanta, and the World of Coca‑Cola museum chronicles the brand’s global impact.",
+      "text": "Martin Luther King Jr.’s childhood home and Ebenezer Baptist Church sit in Atlanta, key sites of the civil‑rights movement.",
       "sourceSentenceIds": [
-        1,
-        25
+        27,
+        28,
+        11
+      ],
+      "sourceLabels": [
+        "Web source 2",
+        "Wikipedia"
+      ],
+      "source": "https://www.britannica.com/place/Atlanta-Georgia"
+    },
+    {
+      "id": 6,
+      "text": "The World of Coca‑Cola museum in Atlanta chronicles the soft‑drink brand’s history and iconic advertising.",
+      "sourceSentenceIds": [
+        1
       ],
       "sourceLabels": [
         "Wikipedia"
