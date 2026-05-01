@@ -15,9 +15,11 @@ const index = files.map((file) => {
 
   return {
     file,
-    town: json.town || json.city || json.name || file.replace(".json", ""),
+    place: json.place || "",
+    town: json.town || json.place || file.replace(".json", ""),
     state: json.state || json.region || "",
     country: json.country || "United States",
+    slug: json.slug || file.replace(".json", ""),
   };
 });
 
