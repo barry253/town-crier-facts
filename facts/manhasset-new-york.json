@@ -1,5 +1,10 @@
 {
   "place": "Manhasset, New York",
+  "town": "Manhasset",
+  "state": "New York",
+  "region": "New York",
+  "country": "",
+  "slug": "manhasset-new-york",
   "sources": [
     {
       "label": "Wikipedia",
@@ -7,17 +12,28 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.manhassetchamber.com/about-manhasset"
+      "url": "https://manhassetny.org/spotlight-on-manhasset/"
     },
     {
       "label": "Web source 2",
-      "url": "https://manhassetny.org/spotlight-on-manhasset/"
+      "url": "https://www.manhassetchamber.com/about-manhasset"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Manhasset sits atop the Harbor Hill Moraine, a terminal moraine formed by glaciers during the Wisconsin Glacial Episode.",
+      "text": "Manhasset’s name comes from a Native American word meaning “the island neighborhood.”",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.manhassetchamber.com/about-manhasset"
+    },
+    {
+      "id": 2,
+      "text": "The hamlet sits on the Harbor Hill Moraine, a terminal moraine formed by glaciers during the Wisconsin Glacial Episode.",
       "sourceSentenceIds": [
         4,
         5
@@ -28,19 +44,8 @@
       "source": "https://en.wikipedia.org/wiki/Manhasset%2C_New_York"
     },
     {
-      "id": 2,
-      "text": "The name Manhasset comes from a Native American word meaning “the island neighborhood.”",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.manhassetchamber.com/about-manhasset"
-    },
-    {
       "id": 3,
-      "text": "In 1898 the Long Island Railroad reached Manhasset, bringing wealthy New Yorkers who built country homes with easy access to Manhattan.",
+      "text": "The Long Island Railroad reached Manhasset in 1898, bringing wealthy New Yorkers who built country homes with easy access to Manhattan.",
       "sourceSentenceIds": [
         16
       ],
@@ -51,18 +56,18 @@
     },
     {
       "id": 4,
-      "text": "Manhasset’s historic American-style homes line Plandome Road, a stretch known for its distinctive local merchants and high‑end shops.",
+      "text": "Manhasset’s high‑end shops and distinct local merchants make it a shopping hotspot on the North Shore.",
       "sourceSentenceIds": [
         24
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Web source 2"
       ],
       "source": "https://www.manhassetchamber.com/about-manhasset"
     },
     {
       "id": 5,
-      "text": "The Manhasset Valley School once served the children of Gold Coast estates and later became a key institution for the African‑American community before closing in the 1960s.",
+      "text": "The Manhasset Valley School once served Gold Coast estate children and later became a center for the African‑American community before closing in the 1960s.",
       "sourceSentenceIds": [
         8
       ],
@@ -73,12 +78,12 @@
     },
     {
       "id": 6,
-      "text": "Manhasset’s Chamber of Commerce traces its roots back to the early 20th century, preserving the hamlet’s history and supporting local businesses.",
+      "text": "The Americana Manhasset, a development begun in 1956, was purchased by Gerace & Catagna Inc., a masonry firm founded in 1922.",
       "sourceSentenceIds": [
-        22
+        7
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Web source 2"
       ],
       "source": "https://www.manhassetchamber.com/about-manhasset"
     }
