@@ -7,13 +7,17 @@
   <style>
     * { box-sizing: border-box; }
     body { font-family: Arial, sans-serif; margin: 0; display: flex; height: 100vh; color: #111; background: #fff; }
-    aside { width: 360px; overflow-y: auto; border-right: 1px solid #ddd; padding: 16px; background: #fafafa; flex-shrink: 0; }
+    aside { width: 380px; overflow-y: auto; border-right: 1px solid #ddd; padding: 16px; background: #fafafa; flex-shrink: 0; }
     main { flex: 1; overflow-y: auto; padding: 24px; min-width: 0; }
     h1 { margin: 0 0 16px; font-size: 32px; line-height: 1.15; }
-    h2 { margin: 0 0 18px; font-size: 24px; }
+    h2 { margin: 0 0 14px; font-size: 24px; }
     button { display: block; width: 100%; text-align: left; margin: 6px 0; padding: 11px 12px; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 8px; font-size: 15px; }
     button:hover { background: #eee; }
     button.active { background: #e6e6e6; border-color: #bbb; font-weight: bold; }
+    .filters { display: grid; gap: 8px; margin-bottom: 14px; }
+    .filters input, .filters select { width: 100%; padding: 9px 10px; border: 1px solid #ccc; border-radius: 8px; font-size: 14px; background: #fff; }
+    .filter-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .filter-summary { font-size: 13px; color: #666; margin: 2px 0 8px; }
     .group { margin: 12px 0; }
     .group-toggle { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 10px; border: 1px solid #ccc; background: #f1f1f1; font-weight: bold; }
     .group-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -22,6 +26,8 @@
     .group.open .group-items { display: block; }
     .town-button { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
     .town-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .qa-bad { color: #b71c1c; }
+    .qa-warning { color: #7a5200; }
     .toolbar { margin-bottom: 18px; display: flex; gap: 18px; flex-wrap: wrap; }
     .fact { border-bottom: 1px solid #ddd; padding: 16px 0; font-size: 17px; line-height: 1.5; }
     .fact.bad { background: #fff0f0; border-left: 4px solid #c62828; padding-left: 12px; }
@@ -36,7 +42,7 @@
     .empty { color: #777; font-style: italic; }
     @media (max-width: 700px) {
       body { display: block; height: auto; min-height: 100vh; }
-      aside { width: 100%; max-height: 45vh; border-right: none; border-bottom: 1px solid #ddd; padding: 14px; }
+      aside { width: 100%; max-height: 50vh; border-right: none; border-bottom: 1px solid #ddd; padding: 14px; }
       main { padding: 18px 16px 32px; }
       h1 { font-size: 28px; }
       h2 { font-size: 22px; }
@@ -48,6 +54,21 @@
 <body>
   <aside>
     <h2>Town Crier Facts</h2>
+    <div class="filters">
+      <input id="searchInput" type="search" placeholder="Search town, state, or country" />
+      <div class="filter-row">
+        <select id="groupFilter"><option value="">All groups</option></select>
+        <select id="qaFilter">
+          <option value="all">All towns</option>
+          <option value="bad">Has bad facts</option>
+          <option value="warning">Has warnings</option>
+          <option value="weak">Has weak facts</option>
+          <option value="clean">No flags</option>
+          <option value="low-count">Low fact count (&lt; 6)</option>
+        </select>
+      </div>
+      <div class="filter-summary" id="filterSummary">Loading...</div>
+    </div>
     <div id="townList">Loading...</div>
   </aside>
   <main>
@@ -59,9 +80,10 @@
     <div id="facts" class="empty">Choose a town.</div>
   </main>
   <script>
+    let allTowns = [];
     let currentTown = null;
     let currentJson = null;
-    const factCountCache = new Map();
+    const factCache = new Map();
 
     const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
     const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
@@ -69,14 +91,13 @@
 
     function cleanText(v){ return String(v||"").replace(/\n/g," ").replace(/\s+/g," ").trim(); }
     function getGroupLabel(t){ return t.state || t.country || "Other"; }
-    function getTownLabel(t){ return t.town || t.slug || t.file; }
+    function getTownLabel(t){ return t.town || t.slug || t.file || "Unknown"; }
 
     function getFactFlags(text, fact, json){
       const raw = String(fact.text || fact.fact || "");
       const cleaned = cleanText(text);
       const lower = cleaned.toLowerCase();
       const flags = [];
-
       if (BAD_PATTERNS.some(p => p.test(cleaned))) flags.push({ severity: "bad", label: "Wikipedia artifact" });
       if (!fact.source) flags.push({ severity: "bad", label: "Missing source" });
       if (fact.source && Array.isArray(json.sources) && !json.sources.some(s => s.url === fact.source)) flags.push({ severity: "warning", label: "Source not in sources list" });
@@ -86,52 +107,94 @@
       if (!/[.!?]$/.test(cleaned)) flags.push({ severity: "warning", label: "No ending punctuation" });
       if (/\n/.test(raw) || /\s{2,}/.test(raw) || /�/.test(raw)) flags.push({ severity: "warning", label: "Formatting issue" });
       if (GENERIC_STARTERS.some(s => lower.startsWith(s))) flags.push({ severity: "weak", label: "Generic opening" });
-
       return flags;
     }
 
-    async function getFactCount(town){
-      if (factCountCache.has(town.file)) return factCountCache.get(town.file);
-      try {
-        const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
-        const json = await res.json();
-        const count = Array.isArray(json.facts) ? json.facts.length : 0;
-        factCountCache.set(town.file, count);
-        return count;
-      } catch {
-        factCountCache.set(town.file, 0);
-        return 0;
-      }
+    async function fetchTownJson(town){
+      if (factCache.has(town.file)) return factCache.get(town.file);
+      const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
+      const json = await res.json();
+      factCache.set(town.file, json);
+      return json;
+    }
+
+    function summarizeTownQuality(town, json){
+      const facts = Array.isArray(json.facts) ? json.facts : [];
+      const summary = { factCount: facts.length, badCount: 0, warningCount: 0, weakCount: 0 };
+      facts.forEach(f => {
+        const flags = getFactFlags(f.text || f.fact || "", f, json);
+        if (flags.some(x => x.severity === "bad")) summary.badCount += 1;
+        else if (flags.some(x => x.severity === "warning")) summary.warningCount += 1;
+        else if (flags.some(x => x.severity === "weak")) summary.weakCount += 1;
+      });
+      Object.assign(town, summary);
     }
 
     async function loadIndex(){
       const res = await fetch(`./facts-index.json?v=${Date.now()}`);
-      const towns = await res.json();
-      towns.sort((a,b)=>`${getGroupLabel(a)}-${getTownLabel(a)}`.localeCompare(`${getGroupLabel(b)}-${getTownLabel(b)}`));
+      allTowns = await res.json();
+      allTowns.sort((a,b)=>`${getGroupLabel(a)}-${getTownLabel(a)}`.localeCompare(`${getGroupLabel(b)}-${getTownLabel(b)}`));
 
-      await Promise.all(towns.map(async t => { t.factCount = await getFactCount(t); }));
+      await Promise.all(allTowns.map(async t => summarizeTownQuality(t, await fetchTownJson(t))));
+      buildGroupFilter(allTowns);
+      renderTownList();
+    }
 
+    function buildGroupFilter(towns){
+      const select = document.getElementById("groupFilter");
+      const selected = select.value;
+      select.innerHTML = '<option value="">All groups</option>';
+      [...new Set(towns.map(getGroupLabel))].sort().forEach(group => {
+        const opt = document.createElement("option");
+        opt.value = group;
+        opt.textContent = group;
+        select.appendChild(opt);
+      });
+      select.value = selected;
+    }
+
+    function townMatchesFilters(town){
+      const q = document.getElementById("searchInput").value.trim().toLowerCase();
+      const groupFilter = document.getElementById("groupFilter").value;
+      const qaFilter = document.getElementById("qaFilter").value;
+      const haystack = [getTownLabel(town), town.place, town.state, town.country, town.slug, town.file].filter(Boolean).join(" ").toLowerCase();
+      if (q && !haystack.includes(q)) return false;
+      if (groupFilter && getGroupLabel(town) !== groupFilter) return false;
+      if (qaFilter === "bad" && !town.badCount) return false;
+      if (qaFilter === "warning" && !town.warningCount) return false;
+      if (qaFilter === "weak" && !town.weakCount) return false;
+      if (qaFilter === "clean" && (town.badCount || town.warningCount || town.weakCount)) return false;
+      if (qaFilter === "low-count" && town.factCount >= 6) return false;
+      return true;
+    }
+
+    function renderTownList(){
+      const visible = allTowns.filter(townMatchesFilters);
       const grouped = {};
-      towns.forEach(t=>{
+      visible.forEach(t=>{
         const g = getGroupLabel(t);
         if(!grouped[g]) grouped[g]=[];
         grouped[g].push(t);
       });
 
+      const totalFacts = visible.reduce((sum, t) => sum + (t.factCount || 0), 0);
+      document.getElementById("filterSummary").textContent = `${visible.length} of ${allTowns.length} towns · ${totalFacts} facts`;
+
       const el = document.getElementById("townList");
       el.innerHTML = "";
+      if (!visible.length) { el.innerHTML = '<div class="empty">No towns match these filters.</div>'; return; }
 
       Object.keys(grouped).sort().forEach(group=>{
         const wrapper = document.createElement("div");
-        wrapper.className = "group";
-
+        wrapper.className = "group open";
         const townCount = grouped[group].length;
         const factTotal = grouped[group].reduce((sum, town) => sum + (town.factCount || 0), 0);
+        const badTotal = grouped[group].reduce((sum, town) => sum + (town.badCount || 0), 0);
+        const warningTotal = grouped[group].reduce((sum, town) => sum + (town.warningCount || 0), 0);
 
         const toggle = document.createElement("button");
         toggle.className = "group-toggle";
-        toggle.innerHTML = `<span class="group-title">${group}</span><span class="count">${townCount} towns · ${factTotal} facts</span>`;
-
+        toggle.innerHTML = `<span class="group-title">${group}</span><span class="count">${townCount} towns · ${factTotal} facts${badTotal ? ` · <span class="qa-bad">${badTotal} bad</span>` : ""}${warningTotal ? ` · <span class="qa-warning">${warningTotal} warn</span>` : ""}</span>`;
         const items = document.createElement("div");
         items.className = "group-items";
         toggle.onclick = ()=> wrapper.classList.toggle("open");
@@ -139,11 +202,10 @@
         grouped[group].forEach(town=>{
           const btn = document.createElement("button");
           btn.className = "town-button";
-          btn.innerHTML = `<span class="town-name">${getTownLabel(town)}</span><span class="count">${town.factCount || 0} facts</span>`;
+          btn.innerHTML = `<span class="town-name">${getTownLabel(town)}</span><span class="count">${town.factCount || 0} facts${town.badCount ? ` · <span class="qa-bad">${town.badCount} bad</span>` : ""}${town.warningCount ? ` · <span class="qa-warning">${town.warningCount} warn</span>` : ""}</span>`;
           btn.onclick = ()=> loadTown(town, btn, wrapper);
           items.appendChild(btn);
         });
-
         wrapper.appendChild(toggle);
         wrapper.appendChild(items);
         el.appendChild(wrapper);
@@ -155,8 +217,7 @@
       document.querySelectorAll("aside button").forEach(b=>b.classList.remove("active"));
       btn.classList.add("active");
       wrapper.classList.add("open");
-      const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
-      currentJson = await res.json();
+      currentJson = await fetchTownJson(town);
       renderTown();
       if (window.innerWidth <= 700) document.querySelector("main").scrollIntoView({ behavior: "smooth" });
     }
@@ -179,14 +240,12 @@
         const worst = flags.some(x=>x.severity==="bad") ? "bad" : flags.some(x=>x.severity==="warning") ? "warning" : flags.some(x=>x.severity==="weak") ? "weak" : "";
         d.className = `fact ${worst}`.trim();
         d.innerHTML = `<b>${i+1}.</b> ${text}`;
-
         if(showFlags && flags.length){
           const flagBox = document.createElement("div");
           flagBox.className = "flags";
           flagBox.innerHTML = flags.map(flag => `<span class="flag ${flag.severity}">${flag.label}</span>`).join("");
           d.appendChild(flagBox);
         }
-
         if(showSources && f.source){
           const sourceObj = currentJson.sources?.find(s => s.url === f.source);
           const label = sourceObj?.label || f.sourceLabels?.[0] || "source";
@@ -199,6 +258,7 @@
       });
     }
 
+    ["searchInput", "groupFilter", "qaFilter"].forEach(id => document.getElementById(id).addEventListener("input", renderTownList));
     document.getElementById("showSources").addEventListener("change", renderTown);
     document.getElementById("showFlags").addEventListener("change", renderTown);
     loadIndex();
