@@ -12,28 +12,39 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.visitsyracuse.com/blog/post/exploring-syracuse-a-guide-to-the-areas-rich-history-and-culture/"
+      "url": "https://www.visitsyracuse.com/"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.iloveny.com/places-to-go/finger-lakes/syracuse-city-guide/"
+      "url": "https://www.britannica.com/place/Syracuse-New-York"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Syracuse’s historic weigh lock, the only remaining in America, now hosts interactive exhibits that bring canal engineering history to life.",
+      "text": "Syracuse was named after the ancient Greek city in Sicily.",
       "sourceSentenceIds": [
-        1
+        11
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Web source 2"
       ],
-      "source": "https://www.visitsyracuse.com/blog/post/exploring-syracuse-a-guide-to-the-areas-rich-history-and-culture/"
+      "source": "https://www.britannica.com/place/Syracuse-New-York"
     },
     {
       "id": 2,
-      "text": "Syracuse has long been a crossroads, first linking the Erie Canal and its branches, then the New York Central Railroad network.",
+      "text": "The Erie Canal Museum preserves the history of the canal that spurred Syracuse's growth.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
+    },
+    {
+      "id": 3,
+      "text": "Syracuse's museum exhibits include a presentation of the Underground Railroad.",
       "sourceSentenceIds": [
         2
       ],
@@ -43,22 +54,10 @@
       "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
     },
     {
-      "id": 3,
-      "text": "Syracuse University, founded March 24, 1870, was the first coeducational university in the state.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
-    },
-    {
       "id": 4,
-      "text": "Danny Biasone, former owner of the Syracuse Nationals, invented the 24‑second NBA shot clock while the team played in Syracuse.",
+      "text": "Syracuse University was founded on March 24, 1870, in the heart of Central New York.",
       "sourceSentenceIds": [
-        25
+        3
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -67,14 +66,25 @@
     },
     {
       "id": 5,
-      "text": "Syracuse earned National Geographic’s Green Guide title as one of America’s top 20 green cities, and its State Fair, started in 1848, is the country’s longest‑running fair.",
+      "text": "The Syracuse Nationals won the 1955 NBA Finals before becoming the Philadelphia 76ers.",
       "sourceSentenceIds": [
-        16
+        18
       ],
       "sourceLabels": [
-        "Web source 2"
+        "Wikipedia"
       ],
-      "source": "https://www.iloveny.com/places-to-go/finger-lakes/syracuse-city-guide/"
+      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "The city’s famous green‑on‑top traffic light was installed in 1928 after locals threw rocks at the original red light.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
     }
   ]
 }
