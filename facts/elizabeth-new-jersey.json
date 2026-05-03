@@ -16,15 +16,15 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.elizabethnj.org/270/Our-History"
+      "url": "https://www.elizabethnj.org/266/Facts-First"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Elizabeth, originally called Elizabethtown, was founded in 1664 by English settlers in the New Jersey colony.",
+      "text": "Elizabeth was founded in 1664 by English settlers, originally called Elizabethtown.",
       "sourceSentenceIds": [
-        2
+        1
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -33,24 +33,9 @@
     },
     {
       "id": 2,
-      "text": "Elizabeth was named for Lady Elizabeth Carteret, wife of Lord Phillip Carteret, one of New Jersey’s original proprietors.",
+      "text": "The city was named for Elizabeth, wife of Sir George Carteret, not Queen Elizabeth I.",
       "sourceSentenceIds": [
-        6,
-        26,
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Elizabeth%2C_New_Jersey"
-    },
-    {
-      "id": 3,
-      "text": "In 1895, Elizabeth hosted one of the first electric car companies, the Electric Carriage and Wagon Company, which built the Electrobat.",
-      "sourceSentenceIds": [
-        7
+        5
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -58,10 +43,21 @@
       "source": "https://en.wikipedia.org/wiki/Elizabeth%2C_New_Jersey"
     },
     {
-      "id": 4,
-      "text": "Elizabeth’s street layout is uniquely circular, with radial and circumferential roads centered on the historic railroad station.",
+      "id": 3,
+      "text": "Elizabeth served as New Jersey's first capital and hosted the first Colonial Assembly and Council.",
       "sourceSentenceIds": [
-        12
+        2
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.elizabethnj.org/266/Facts-First"
+    },
+    {
+      "id": 4,
+      "text": "Princeton University began here in 1746 as the College of New Jersey before moving to Princeton.",
+      "sourceSentenceIds": [
+        10
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -70,9 +66,10 @@
     },
     {
       "id": 5,
-      "text": "The Singer Sewing Machine Company settled in Elizabeth, employing up to 2,000 workers and shaping the city’s industrial heritage.",
+      "text": "The Singer Sewing Machine Company built a 1.4‑million‑square‑foot factory in 1873, employing up to 2,000 workers.",
       "sourceSentenceIds": [
-        30
+        27,
+        28
       ],
       "sourceLabels": [
         "Wikipedia"
