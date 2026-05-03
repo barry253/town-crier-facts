@@ -47,6 +47,9 @@
       h1 { font-size: 28px; }
       h2 { font-size: 22px; }
       button { padding: 13px 12px; font-size: 16px; }
+      .filter-row { grid-template-columns: 1fr; }
+      .group-toggle, .town-button { align-items: flex-start; }
+      .count { white-space: normal; text-align: right; }
       .fact { font-size: 16px; }
     }
   </style>
@@ -60,6 +63,7 @@
         <select id="groupFilter"><option value="">All groups</option></select>
         <select id="qaFilter">
           <option value="all">All towns</option>
+          <option value="issues">Has any warnings/issues</option>
           <option value="bad">Has bad facts</option>
           <option value="warning">Has warnings</option>
           <option value="weak">Has weak facts</option>
@@ -88,6 +92,7 @@
     const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
     const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
     const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
+    const END_PUNCTUATION = /[.!?。！？…\"'”’)]$/;
 
     function cleanText(v){ return String(v||"").replace(/\n/g," ").replace(/\s+/g," ").trim(); }
     function getGroupLabel(t){ return t.state || t.country || "Other"; }
@@ -104,7 +109,7 @@
       if (CONTEXT_STARTERS.some(s => lower.startsWith(s))) flags.push({ severity: "warning", label: "May be missing context" });
       if (cleaned.length < 60) flags.push({ severity: "warning", label: "Very short" });
       if (cleaned.length > 280) flags.push({ severity: "warning", label: "Long for audio" });
-      if (!/[.!?]$/.test(cleaned)) flags.push({ severity: "warning", label: "No ending punctuation" });
+      if (cleaned && !END_PUNCTUATION.test(cleaned)) flags.push({ severity: "warning", label: "No ending punctuation" });
       if (/\n/.test(raw) || /\s{2,}/.test(raw) || /�/.test(raw)) flags.push({ severity: "warning", label: "Formatting issue" });
       if (GENERIC_STARTERS.some(s => lower.startsWith(s))) flags.push({ severity: "weak", label: "Generic opening" });
       return flags;
@@ -134,7 +139,6 @@
       const res = await fetch(`./facts-index.json?v=${Date.now()}`);
       allTowns = await res.json();
       allTowns.sort((a,b)=>`${getGroupLabel(a)}-${getTownLabel(a)}`.localeCompare(`${getGroupLabel(b)}-${getTownLabel(b)}`));
-
       await Promise.all(allTowns.map(async t => summarizeTownQuality(t, await fetchTownJson(t))));
       buildGroupFilter(allTowns);
       renderTownList();
@@ -160,12 +164,17 @@
       const haystack = [getTownLabel(town), town.place, town.state, town.country, town.slug, town.file].filter(Boolean).join(" ").toLowerCase();
       if (q && !haystack.includes(q)) return false;
       if (groupFilter && getGroupLabel(town) !== groupFilter) return false;
+      if (qaFilter === "issues" && !(town.badCount || town.warningCount || town.weakCount)) return false;
       if (qaFilter === "bad" && !town.badCount) return false;
       if (qaFilter === "warning" && !town.warningCount) return false;
       if (qaFilter === "weak" && !town.weakCount) return false;
       if (qaFilter === "clean" && (town.badCount || town.warningCount || town.weakCount)) return false;
       if (qaFilter === "low-count" && town.factCount >= 6) return false;
       return true;
+    }
+
+    function shouldOpenGroup(){
+      return Boolean(document.getElementById("searchInput").value.trim() || document.getElementById("groupFilter").value || document.getElementById("qaFilter").value !== "all");
     }
 
     function renderTownList(){
@@ -176,29 +185,25 @@
         if(!grouped[g]) grouped[g]=[];
         grouped[g].push(t);
       });
-
       const totalFacts = visible.reduce((sum, t) => sum + (t.factCount || 0), 0);
       document.getElementById("filterSummary").textContent = `${visible.length} of ${allTowns.length} towns · ${totalFacts} facts`;
-
       const el = document.getElementById("townList");
       el.innerHTML = "";
       if (!visible.length) { el.innerHTML = '<div class="empty">No towns match these filters.</div>'; return; }
-
+      const openByDefault = shouldOpenGroup();
       Object.keys(grouped).sort().forEach(group=>{
         const wrapper = document.createElement("div");
-        wrapper.className = "group open";
+        wrapper.className = openByDefault ? "group open" : "group";
         const townCount = grouped[group].length;
         const factTotal = grouped[group].reduce((sum, town) => sum + (town.factCount || 0), 0);
         const badTotal = grouped[group].reduce((sum, town) => sum + (town.badCount || 0), 0);
         const warningTotal = grouped[group].reduce((sum, town) => sum + (town.warningCount || 0), 0);
-
         const toggle = document.createElement("button");
         toggle.className = "group-toggle";
         toggle.innerHTML = `<span class="group-title">${group}</span><span class="count">${townCount} towns · ${factTotal} facts${badTotal ? ` · <span class="qa-bad">${badTotal} bad</span>` : ""}${warningTotal ? ` · <span class="qa-warning">${warningTotal} warn</span>` : ""}</span>`;
         const items = document.createElement("div");
         items.className = "group-items";
         toggle.onclick = ()=> wrapper.classList.toggle("open");
-
         grouped[group].forEach(town=>{
           const btn = document.createElement("button");
           btn.className = "town-button";
@@ -232,7 +237,6 @@
       container.innerHTML = "";
       if (!facts.length) { container.className = "empty"; container.textContent = "No facts found."; return; }
       container.className = "";
-
       facts.forEach((f,i)=>{
         const d = document.createElement("div");
         const text = cleanText(f.text);
