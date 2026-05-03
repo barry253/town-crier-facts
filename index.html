@@ -7,7 +7,7 @@
   <style>
     * { box-sizing: border-box; }
     body { font-family: Arial, sans-serif; margin: 0; display: flex; height: 100vh; color: #111; background: #fff; }
-    aside { width: 330px; overflow-y: auto; border-right: 1px solid #ddd; padding: 16px; background: #fafafa; flex-shrink: 0; }
+    aside { width: 360px; overflow-y: auto; border-right: 1px solid #ddd; padding: 16px; background: #fafafa; flex-shrink: 0; }
     main { flex: 1; overflow-y: auto; padding: 24px; min-width: 0; }
     h1 { margin: 0 0 16px; font-size: 32px; line-height: 1.15; }
     h2 { margin: 0 0 18px; font-size: 24px; }
@@ -15,13 +15,34 @@
     button:hover { background: #eee; }
     button.active { background: #e6e6e6; border-color: #bbb; font-weight: bold; }
     .group { margin: 12px 0; }
-    .group-toggle { display: flex; justify-content: space-between; align-items: center; padding: 10px; border: 1px solid #ccc; background: #f1f1f1; font-weight: bold; }
+    .group-toggle { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 10px; border: 1px solid #ccc; background: #f1f1f1; font-weight: bold; }
+    .group-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .count { color: #666; font-size: 13px; font-weight: normal; white-space: nowrap; }
     .group-items { display: none; padding-left: 8px; }
     .group.open .group-items { display: block; }
-    .toolbar { margin-bottom: 18px; }
-    .fact { border-bottom: 1px solid #ddd; padding: 16px 0; font-size: 17px; }
-    .source { font-size: 13px; color: #555; margin-top: 8px; }
+    .town-button { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+    .town-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .toolbar { margin-bottom: 18px; display: flex; gap: 18px; flex-wrap: wrap; }
+    .fact { border-bottom: 1px solid #ddd; padding: 16px 0; font-size: 17px; line-height: 1.5; }
+    .fact.bad { background: #fff0f0; border-left: 4px solid #c62828; padding-left: 12px; }
+    .fact.warning { background: #fff8e1; border-left: 4px solid #f9a825; padding-left: 12px; }
+    .fact.weak { background: #f5f5f5; border-left: 4px solid #9e9e9e; padding-left: 12px; }
+    .flags { margin-top: 8px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .flag { font-size: 12px; padding: 3px 7px; border-radius: 999px; border: 1px solid #ccc; background: #fff; }
+    .flag.bad { color: #b71c1c; border-color: #ef9a9a; background: #ffebee; }
+    .flag.warning { color: #7a5200; border-color: #ffe082; background: #fff8e1; }
+    .flag.weak { color: #555; border-color: #ccc; background: #f5f5f5; }
+    .source { font-size: 13px; color: #555; margin-top: 8px; word-break: break-word; }
     .empty { color: #777; font-style: italic; }
+    @media (max-width: 700px) {
+      body { display: block; height: auto; min-height: 100vh; }
+      aside { width: 100%; max-height: 45vh; border-right: none; border-bottom: 1px solid #ddd; padding: 14px; }
+      main { padding: 18px 16px 32px; }
+      h1 { font-size: 28px; }
+      h2 { font-size: 22px; }
+      button { padding: 13px 12px; font-size: 16px; }
+      .fact { font-size: 16px; }
+    }
   </style>
 </head>
 <body>
@@ -33,19 +54,62 @@
     <h1>Select a town</h1>
     <div class="toolbar">
       <label><input type="checkbox" id="showSources" checked /> Show sources</label>
+      <label><input type="checkbox" id="showFlags" checked /> Show auto-flags</label>
     </div>
     <div id="facts" class="empty">Choose a town.</div>
   </main>
   <script>
     let currentTown = null;
     let currentJson = null;
+    const factCountCache = new Map();
+
+    const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
+    const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
+    const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
 
     function cleanText(v){ return String(v||"").replace(/\n/g," ").replace(/\s+/g," ").trim(); }
     function getGroupLabel(t){ return t.state || t.country || "Other"; }
+    function getTownLabel(t){ return t.town || t.slug || t.file; }
+
+    function getFactFlags(text, fact, json){
+      const raw = String(fact.text || fact.fact || "");
+      const cleaned = cleanText(text);
+      const lower = cleaned.toLowerCase();
+      const flags = [];
+
+      if (BAD_PATTERNS.some(p => p.test(cleaned))) flags.push({ severity: "bad", label: "Wikipedia artifact" });
+      if (!fact.source) flags.push({ severity: "bad", label: "Missing source" });
+      if (fact.source && Array.isArray(json.sources) && !json.sources.some(s => s.url === fact.source)) flags.push({ severity: "warning", label: "Source not in sources list" });
+      if (CONTEXT_STARTERS.some(s => lower.startsWith(s))) flags.push({ severity: "warning", label: "May be missing context" });
+      if (cleaned.length < 60) flags.push({ severity: "warning", label: "Very short" });
+      if (cleaned.length > 280) flags.push({ severity: "warning", label: "Long for audio" });
+      if (!/[.!?]$/.test(cleaned)) flags.push({ severity: "warning", label: "No ending punctuation" });
+      if (/\n/.test(raw) || /\s{2,}/.test(raw) || /�/.test(raw)) flags.push({ severity: "warning", label: "Formatting issue" });
+      if (GENERIC_STARTERS.some(s => lower.startsWith(s))) flags.push({ severity: "weak", label: "Generic opening" });
+
+      return flags;
+    }
+
+    async function getFactCount(town){
+      if (factCountCache.has(town.file)) return factCountCache.get(town.file);
+      try {
+        const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
+        const json = await res.json();
+        const count = Array.isArray(json.facts) ? json.facts.length : 0;
+        factCountCache.set(town.file, count);
+        return count;
+      } catch {
+        factCountCache.set(town.file, 0);
+        return 0;
+      }
+    }
 
     async function loadIndex(){
       const res = await fetch(`./facts-index.json?v=${Date.now()}`);
       const towns = await res.json();
+      towns.sort((a,b)=>`${getGroupLabel(a)}-${getTownLabel(a)}`.localeCompare(`${getGroupLabel(b)}-${getTownLabel(b)}`));
+
+      await Promise.all(towns.map(async t => { t.factCount = await getFactCount(t); }));
 
       const grouped = {};
       towns.forEach(t=>{
@@ -61,18 +125,21 @@
         const wrapper = document.createElement("div");
         wrapper.className = "group";
 
+        const townCount = grouped[group].length;
+        const factTotal = grouped[group].reduce((sum, town) => sum + (town.factCount || 0), 0);
+
         const toggle = document.createElement("button");
         toggle.className = "group-toggle";
-        toggle.textContent = `${group} (${grouped[group].length})`;
+        toggle.innerHTML = `<span class="group-title">${group}</span><span class="count">${townCount} towns · ${factTotal} facts</span>`;
 
         const items = document.createElement("div");
         items.className = "group-items";
-
         toggle.onclick = ()=> wrapper.classList.toggle("open");
 
         grouped[group].forEach(town=>{
           const btn = document.createElement("button");
-          btn.textContent = town.town;
+          btn.className = "town-button";
+          btn.innerHTML = `<span class="town-name">${getTownLabel(town)}</span><span class="count">${town.factCount || 0} facts</span>`;
           btn.onclick = ()=> loadTown(town, btn, wrapper);
           items.appendChild(btn);
         });
@@ -88,40 +155,52 @@
       document.querySelectorAll("aside button").forEach(b=>b.classList.remove("active"));
       btn.classList.add("active");
       wrapper.classList.add("open");
-
       const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
       currentJson = await res.json();
       renderTown();
+      if (window.innerWidth <= 700) document.querySelector("main").scrollIntoView({ behavior: "smooth" });
     }
 
     function renderTown(){
       if(!currentJson) return;
       const facts = currentJson.facts || [];
-      const show = document.getElementById("showSources").checked;
-
-      document.querySelector("main h1").textContent = currentJson.place;
-
+      const showSources = document.getElementById("showSources").checked;
+      const showFlags = document.getElementById("showFlags").checked;
+      document.querySelector("main h1").textContent = currentJson.place || currentTown?.place || getTownLabel(currentTown || {});
       const container = document.getElementById("facts");
       container.innerHTML = "";
+      if (!facts.length) { container.className = "empty"; container.textContent = "No facts found."; return; }
+      container.className = "";
 
       facts.forEach((f,i)=>{
         const d = document.createElement("div");
-        d.className="fact";
         const text = cleanText(f.text);
+        const flags = getFactFlags(text, f, currentJson);
+        const worst = flags.some(x=>x.severity==="bad") ? "bad" : flags.some(x=>x.severity==="warning") ? "warning" : flags.some(x=>x.severity==="weak") ? "weak" : "";
+        d.className = `fact ${worst}`.trim();
         d.innerHTML = `<b>${i+1}.</b> ${text}`;
 
-        if(show && f.source){
-          const s = document.createElement("div");
-          s.className="source";
-          s.innerHTML = `<a href="${f.source}" target="_blank">source</a>`;
-          d.appendChild(s);
+        if(showFlags && flags.length){
+          const flagBox = document.createElement("div");
+          flagBox.className = "flags";
+          flagBox.innerHTML = flags.map(flag => `<span class="flag ${flag.severity}">${flag.label}</span>`).join("");
+          d.appendChild(flagBox);
         }
 
+        if(showSources && f.source){
+          const sourceObj = currentJson.sources?.find(s => s.url === f.source);
+          const label = sourceObj?.label || f.sourceLabels?.[0] || "source";
+          const s = document.createElement("div");
+          s.className="source";
+          s.innerHTML = `<a href="${f.source}" target="_blank">${label}</a>`;
+          d.appendChild(s);
+        }
         container.appendChild(d);
       });
     }
 
     document.getElementById("showSources").addEventListener("change", renderTown);
+    document.getElementById("showFlags").addEventListener("change", renderTown);
     loadIndex();
   </script>
 </body>
