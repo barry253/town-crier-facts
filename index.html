@@ -5,307 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Town Crier Facts Viewer</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      display: flex;
-      height: 100vh;
-      color: #111;
-      background: #fff;
-    }
-
-    aside {
-      width: 330px;
-      overflow-y: auto;
-      border-right: 1px solid #ddd;
-      padding: 16px;
-      background: #fafafa;
-      flex-shrink: 0;
-    }
-
-    main {
-      flex: 1;
-      overflow-y: auto;
-      padding: 24px;
-      min-width: 0;
-    }
-
-    h1 {
-      margin: 0 0 16px;
-      font-size: 32px;
-      line-height: 1.15;
-    }
-
-    h2 {
-      margin: 0 0 18px;
-      font-size: 24px;
-    }
-
-    h3 {
-      margin: 22px 0 8px;
-      font-size: 18px;
-    }
-
-    button {
-      display: block;
-      width: 100%;
-      text-align: left;
-      margin: 6px 0;
-      padding: 11px 12px;
-      border: 1px solid #ddd;
-      background: #fff;
-      cursor: pointer;
-      border-radius: 8px;
-      font-size: 15px;
-      line-height: 1.25;
-    }
-
-    button:hover {
-      background: #eee;
-    }
-
-    button.active {
-      background: #e6e6e6;
-      border-color: #bbb;
-      font-weight: bold;
-    }
-
-    .toolbar {
-      margin-bottom: 18px;
-      font-size: 14px;
-      color: #444;
-    }
-
-    .fact {
-      border-bottom: 1px solid #ddd;
-      padding: 16px 0;
-      line-height: 1.5;
-      font-size: 17px;
-    }
-
-    .source {
-      font-size: 13px;
-      color: #555;
-      margin-top: 8px;
-      word-break: break-word;
-    }
-
-    .source a {
-      color: #005bbb;
-    }
-
-    .empty {
-      color: #777;
-      font-style: italic;
-    }
-
-    @media (max-width: 700px) {
-      body {
-        display: block;
-        height: auto;
-        min-height: 100vh;
-      }
-
-      aside {
-        width: 100%;
-        max-height: 45vh;
-        border-right: none;
-        border-bottom: 1px solid #ddd;
-        padding: 14px;
-      }
-
-      main {
-        padding: 18px 16px 32px;
-      }
-
-      h1 {
-        font-size: 28px;
-      }
-
-      h2 {
-        font-size: 22px;
-      }
-
-      h3 {
-        font-size: 17px;
-      }
-
-      button {
-        padding: 13px 12px;
-        font-size: 16px;
-      }
-
-      .fact {
-        font-size: 16px;
-        padding: 15px 0;
-      }
-    }
+    * { box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; margin: 0; display: flex; height: 100vh; color: #111; background: #fff; }
+    aside { width: 330px; overflow-y: auto; border-right: 1px solid #ddd; padding: 16px; background: #fafafa; flex-shrink: 0; }
+    main { flex: 1; overflow-y: auto; padding: 24px; min-width: 0; }
+    h1 { margin: 0 0 16px; font-size: 32px; line-height: 1.15; }
+    h2 { margin: 0 0 18px; font-size: 24px; }
+    button { display: block; width: 100%; text-align: left; margin: 6px 0; padding: 11px 12px; border: 1px solid #ddd; background: #fff; cursor: pointer; border-radius: 8px; font-size: 15px; }
+    button:hover { background: #eee; }
+    button.active { background: #e6e6e6; border-color: #bbb; font-weight: bold; }
+    .group { margin: 12px 0; }
+    .group-toggle { display: flex; justify-content: space-between; align-items: center; padding: 10px; border: 1px solid #ccc; background: #f1f1f1; font-weight: bold; }
+    .group-items { display: none; padding-left: 8px; }
+    .group.open .group-items { display: block; }
+    .toolbar { margin-bottom: 18px; }
+    .fact { border-bottom: 1px solid #ddd; padding: 16px 0; font-size: 17px; }
+    .source { font-size: 13px; color: #555; margin-top: 8px; }
+    .empty { color: #777; font-style: italic; }
   </style>
 </head>
-
 <body>
   <aside>
     <h2>Town Crier Facts</h2>
     <div id="townList">Loading...</div>
   </aside>
-
   <main>
     <h1>Select a town</h1>
-
     <div class="toolbar">
-      <label>
-        <input type="checkbox" id="showSources" checked />
-        Show sources
-      </label>
+      <label><input type="checkbox" id="showSources" checked /> Show sources</label>
     </div>
-
-    <div id="facts" class="empty">
-      Choose a town from the list.
-    </div>
+    <div id="facts" class="empty">Choose a town.</div>
   </main>
-
   <script>
     let currentTown = null;
     let currentJson = null;
 
-    function cleanText(value) {
-      return String(value || "")
-        .replace(/\n/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-    }
+    function cleanText(v){ return String(v||"").replace(/\n/g," ").replace(/\s+/g," ").trim(); }
+    function getGroupLabel(t){ return t.state || t.country || "Other"; }
 
-    function getGroupLabel(town) {
-      if (town.country && town.country !== "United States") {
-        return town.country;
-      }
-
-      if (town.state) {
-        return town.state;
-      }
-
-      return "Other";
-    }
-
-    function getTownDisplayName(town) {
-      if (town.place) return town.place;
-
-      const parts = [town.town];
-
-      if (town.state) parts.push(town.state);
-      if (town.country && town.country !== "United States") parts.push(town.country);
-
-      return parts.filter(Boolean).join(", ");
-    }
-
-    async function loadIndex() {
+    async function loadIndex(){
       const res = await fetch(`./facts-index.json?v=${Date.now()}`);
       const towns = await res.json();
 
-      towns.sort((a, b) =>
-        `${getGroupLabel(a)}-${a.town}`.localeCompare(`${getGroupLabel(b)}-${b.town}`)
-      );
-
       const grouped = {};
-
-      for (const town of towns) {
-        const group = getGroupLabel(town);
-        if (!grouped[group]) grouped[group] = [];
-        grouped[group].push(town);
-      }
-
-      const townList = document.getElementById("townList");
-      townList.innerHTML = "";
-
-      for (const group of Object.keys(grouped).sort()) {
-        const h3 = document.createElement("h3");
-        h3.textContent = group;
-        townList.appendChild(h3);
-
-        grouped[group].forEach((town) => {
-          const btn = document.createElement("button");
-          btn.textContent = town.town || town.slug || town.file;
-          btn.onclick = () => loadTown(town, btn);
-          townList.appendChild(btn);
-        });
-      }
-    }
-
-    async function loadTown(town, clickedButton) {
-      currentTown = town;
-
-      document.querySelectorAll("aside button").forEach((btn) => {
-        btn.classList.remove("active");
+      towns.forEach(t=>{
+        const g = getGroupLabel(t);
+        if(!grouped[g]) grouped[g]=[];
+        grouped[g].push(t);
       });
 
-      if (clickedButton) {
-        clickedButton.classList.add("active");
-      }
+      const el = document.getElementById("townList");
+      el.innerHTML = "";
 
-      const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
-      const json = await res.json();
-      currentJson = json;
+      Object.keys(grouped).sort().forEach(group=>{
+        const wrapper = document.createElement("div");
+        wrapper.className = "group";
 
-      renderTown();
+        const toggle = document.createElement("button");
+        toggle.className = "group-toggle";
+        toggle.textContent = `${group} (${grouped[group].length})`;
 
-      if (window.innerWidth <= 700) {
-        document.querySelector("main").scrollIntoView({ behavior: "smooth" });
-      }
-    }
+        const items = document.createElement("div");
+        items.className = "group-items";
 
-    function renderTown() {
-      if (!currentTown || !currentJson) return;
+        toggle.onclick = ()=> wrapper.classList.toggle("open");
 
-      const showSources = document.getElementById("showSources").checked;
-      const facts = Array.isArray(currentJson.facts) ? currentJson.facts : [];
-
-      document.querySelector("main h1").textContent =
-        getTownDisplayName({
-          ...currentTown,
-          place: currentJson.place,
-          town: currentJson.town || currentTown.town,
-          state: currentJson.state || currentTown.state,
-          country: currentJson.country || currentTown.country,
+        grouped[group].forEach(town=>{
+          const btn = document.createElement("button");
+          btn.textContent = town.town;
+          btn.onclick = ()=> loadTown(town, btn, wrapper);
+          items.appendChild(btn);
         });
 
+        wrapper.appendChild(toggle);
+        wrapper.appendChild(items);
+        el.appendChild(wrapper);
+      });
+    }
+
+    async function loadTown(town, btn, wrapper){
+      currentTown = town;
+      document.querySelectorAll("aside button").forEach(b=>b.classList.remove("active"));
+      btn.classList.add("active");
+      wrapper.classList.add("open");
+
+      const res = await fetch(`./facts/${town.file}?v=${Date.now()}`);
+      currentJson = await res.json();
+      renderTown();
+    }
+
+    function renderTown(){
+      if(!currentJson) return;
+      const facts = currentJson.facts || [];
+      const show = document.getElementById("showSources").checked;
+
+      document.querySelector("main h1").textContent = currentJson.place;
+
       const container = document.getElementById("facts");
-      container.className = "";
       container.innerHTML = "";
 
-      if (!facts.length) {
-        container.className = "empty";
-        container.textContent = "No facts found for this town.";
-        return;
-      }
+      facts.forEach((f,i)=>{
+        const d = document.createElement("div");
+        d.className="fact";
+        const text = cleanText(f.text);
+        d.innerHTML = `<b>${i+1}.</b> ${text}`;
 
-      facts.forEach((fact, index) => {
-        const div = document.createElement("div");
-        div.className = "fact";
+        if(show && f.source){
+          const s = document.createElement("div");
+          s.className="source";
+          s.innerHTML = `<a href="${f.source}" target="_blank">source</a>`;
+          d.appendChild(s);
+        }
 
-        const text = cleanText(fact.text || fact.fact || "");
-        const sourceUrl = fact.source || "";
-        const sourceObj = currentJson.sources?.find((s) => s.url === sourceUrl);
-        const label = sourceObj?.label || fact.sourceLabels?.[0] || "Source";
-
-        div.innerHTML = `
-          <strong>${index + 1}.</strong> ${text}
-          ${
-            showSources && sourceUrl
-              ? `<div class="source"><a href="${sourceUrl}" target="_blank">${label}</a></div>`
-              : ""
-          }
-        `;
-
-        container.appendChild(div);
+        container.appendChild(d);
       });
     }
 
     document.getElementById("showSources").addEventListener("change", renderTown);
-
     loadIndex();
   </script>
 </body>
