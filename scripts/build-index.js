@@ -34,31 +34,50 @@ function cleanDisplayTown(name) {
     .trim();
 }
 
-const index = files.map((file) => {
+const files = fs
+  .readdirSync(factsDir)
+  .filter((file) => file.endsWith(".json"))
+  .sort();
+
+const index = [];
+
+for (const file of files) {
   const fullPath = path.join(factsDir, file);
-  const json = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
-  const rawTown = json.town || json.place || file.replace(".json", "");
-  const cleanedTown = cleanDisplayTown(rawTown);
+  try {
+    const raw = fs.readFileSync(fullPath, "utf8");
+    const json = JSON.parse(raw);
 
-  const state = json.state || json.region || "";
-  const country = json.country || "United States";
+    const rawTown = json.town || json.place || file.replace(".json", "");
+    const cleanedTown = cleanDisplayTown(rawTown);
 
-  const slug = json.slug || file.replace(".json", "");
+    const state = json.state || json.region || "";
+    const country = json.country || "United States";
 
-  return {
-    file,
-    place: json.place || `${cleanedTown}, ${state}`,
-    town: cleanedTown,
-    state,
-    country,
-    slug,
-    factCount: Array.isArray(json.facts) ? json.facts.length : 0,
-    dateAdded: getJsonDate(json),
-    lastUpdated: getJsonUpdatedDate(json),
-  };
-});
+    const slug = json.slug || file.replace(".json", "");
 
-fs.writeFileSync(outputPath, JSON.stringify(index, null, 2));
+    const place =
+      json.place ||
+      (state ? `${cleanedTown}, ${state}` : cleanedTown);
+
+    index.push({
+      file,
+      place,
+      town: cleanedTown,
+      state,
+      country,
+      slug,
+      factCount: Array.isArray(json.facts) ? json.facts.length : 0,
+      dateAdded: getJsonDate(json),
+      lastUpdated: getJsonUpdatedDate(json),
+    });
+
+  } catch (err) {
+    console.log(`⚠️ Skipping bad file: ${file}`);
+    console.log(`   ${err.message}`);
+  }
+}
+
+fs.writeFileSync(outputPath, JSON.stringify(index, null, 2) + "\n");
 
 console.log(`Generated facts-index.json with ${index.length} towns`);
