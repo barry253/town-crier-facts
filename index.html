@@ -139,7 +139,7 @@
       const res = await fetch(`./facts-index.json?v=${Date.now()}`);
       allTowns = await res.json();
       allTowns.sort((a,b)=>`${getGroupLabel(a)}-${getTownLabel(a)}`.localeCompare(`${getGroupLabel(b)}-${getTownLabel(b)}`));
-      await Promise.all(allTowns.map(async t => summarizeTownQuality(t, await fetchTownJson(t))));
+      // Skip eager QA scan at startup; load fact details only when a town is selected.
       buildGroupFilter(allTowns);
       renderTownList();
     }
