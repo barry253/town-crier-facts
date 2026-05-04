@@ -1,69 +1,91 @@
 {
-  "place": "Beacon, New York",
-  "town": "Beacon",
+  "place": "Beacon New York, New York",
+  "town": "Beacon New York",
   "state": "New York",
   "region": "New York",
   "country": "United States",
-  "slug": "beacon-new-york",
+  "slug": "beacon-new-york-new-york",
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Beacon%2C_New_York"
+      "url": "https://en.wikipedia.org/wiki/Beacon_Theatre_(New_York_City)"
     },
     {
       "label": "Web source 1",
-      "url": "https://www.beaconhistorical.org/"
+      "url": "https://www.achp.gov/preserve-america/community/beacon-new-york"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.dutchess.org/beacon/about_beacon_new_york"
+      "url": "https://www.beaconhistorical.org/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Beacon was named to honor beacon fires from the Fishkill Mountains that warned the Continental Army of British troop movements.",
+      "text": "The Beacon Theatre opened on December 24, 1929, debuting the talking picture Tiger Rose starring Lupe Vélez.",
       "sourceSentenceIds": [
-        3
+        16
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beacon%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Beacon_Theatre_(New_York_City)"
     },
     {
       "id": 2,
-      "text": "The Howland Public Library, founded in 1872 by General Joseph Howland and his wife Eliza, was originally housed in the Howland Cultural Center on Main Street.",
+      "text": "Originally called the Roxy Midway Theatre, the venue was proposed in January 1927 before opening as the Beacon.",
       "sourceSentenceIds": [
-        1
+        20
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beacon%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Beacon_Theatre_(New_York_City)"
     },
     {
       "id": 3,
-      "text": "Beacon’s train station sat on both the Newburgh, Dutchess & Connecticut and New York & New England rail lines, linking it to the wider Hudson Valley.",
+      "text": "Singer and Kerr transformed the Beacon into a rock club in 1974, and by 1976 it became a performing‑arts center.",
       "sourceSentenceIds": [
-        11
+        21,
+        22
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beacon%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Beacon_Theatre_(New_York_City)"
     },
     {
       "id": 4,
-      "text": "In 2003 Dia Beacon, a modern art museum housed in a former Nabisco factory, opened and sparked a cultural revival in the town.",
+      "text": "In 2006, the Beacon staged the Zappa Plays Zappa concert, a tribute to musician Frank Zappa.",
       "sourceSentenceIds": [
-        20,
-        25
+        7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beacon%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Beacon_Theatre_(New_York_City)"
+    },
+    {
+      "id": 5,
+      "text": "Dia Beacon’s headquarters, a 1929 Nabisco factory, now sits on the National Register of Historic Places.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.achp.gov/preserve-america/community/beacon-new-york"
+    },
+    {
+      "id": 6,
+      "text": "Founded in 1976, the Beacon Historical Society preserves local heritage through exhibitions, programs, books, and a monthly newsletter.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.beaconhistorical.org/"
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
-  "place": "Brentwood, New York",
-  "town": "Brentwood",
+  "place": "Brentwood New York, New York",
+  "town": "Brentwood New York",
   "state": "New York",
   "region": "New York",
   "country": "United States",
-  "slug": "brentwood-new-york",
+  "slug": "brentwood-new-york-new-york",
   "sources": [
     {
       "label": "Wikipedia",
@@ -12,44 +12,20 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.brentwoodhis.org/"
+      "url": "https://www.longislandguide.com/visit/brentwood/"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.longislandguide.com/visit/brentwood/"
+      "url": "https://www.brentwoodhis.org/homepage/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Brentwood got its name in 1864, after the English town of Brentwood in Essex.",
+      "text": "In 1851, a utopian community called Modern Times was founded in the area that would later become Brentwood, New York.",
       "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Brentwood%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "Before that, in 1851, part of the area became the experimental utopian community called Modern Times.",
-      "sourceSentenceIds": [
-        5,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Brentwood%2C_New_York"
-    },
-    {
-      "id": 3,
-      "text": "The Brentwood Historical Society, located at 34 2nd Avenue, preserves local history and hosts events",
-      "sourceSentenceIds": [
-        3,
-        4
+        6,
+        10
       ],
       "sourceLabels": [
         "Wikipedia",
@@ -58,21 +34,45 @@
       "source": "https://en.wikipedia.org/wiki/Brentwood%2C_New_York"
     },
     {
+      "id": 2,
+      "text": "The settlement was renamed Brentwood in 1864 after the English town of Brentwood, Essex.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Brentwood%2C_New_York"
+    },
+    {
+      "id": 3,
+      "text": "Brentwood grew around the Long Island Rail Road corridor in the mid‑19th century, originally linked to Thompson Station and Suffolk Station.",
+      "sourceSentenceIds": [
+        9,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Wikipedia"
+      ],
+      "source": "https://www.longislandguide.com/visit/brentwood/"
+    },
+    {
       "id": 4,
-      "text": "Brentwood station on the Ronkonkoma Branch of the Long Island Rail Road offers convenient trips west to Jamaica and east to Ronkonkoma.",
+      "text": "Today the Brentwood station on the Ronkonkoma Branch lets commuters travel west to Jamaica and New York City and east to Ronkonkoma.",
       "sourceSentenceIds": [
         21,
-        22
+        23
       ],
       "sourceLabels": [
         "Wikipedia",
-        "Web source 2"
+        "Web source 1"
       ],
       "source": "https://en.wikipedia.org/wiki/Brentwood%2C_New_York"
     },
     {
       "id": 5,
-      "text": "Hip‑hop legend Biz Markie grew up in Brentwood, making the town a footnote in his celebrated career.",
+      "text": "Jef Raskin, the computer scientist who helped create the Macintosh, graduated from Brentwood High School in 1960.",
       "sourceSentenceIds": [
         1
       ],
@@ -83,14 +83,15 @@
     },
     {
       "id": 6,
-      "text": "The community’s early 19th‑century roots trace back to Thompson and Suffolk Stations, two new LIRR stops opened in 1844.",
+      "text": "The Brentwood Historical Society, located at 34 2nd Avenue, preserves the town’s unique history and hosts community events.",
       "sourceSentenceIds": [
-        20
+        2,
+        5
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brentwood%2C_New_York"
+      "source": "https://www.brentwoodhis.org/homepage/"
     }
   ]
 }

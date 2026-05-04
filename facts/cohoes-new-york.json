@@ -1,10 +1,10 @@
 {
-  "place": "Cohoes, New York",
-  "town": "Cohoes",
+  "place": "Cohoes New York, New York",
+  "town": "Cohoes New York",
   "state": "New York",
   "region": "New York",
   "country": "United States",
-  "slug": "cohoes-new-york",
+  "slug": "cohoes-new-york-new-york",
   "sources": [
     {
       "label": "Wikipedia",
@@ -16,15 +16,15 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.albany.org/listing/riverspark-cohoes-visitors-center/1704/"
+      "url": "https://www.albany.org/about/about-the-area/cities-and-towns/cohoes-green-island-and-watervliet/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Cohoes earned the nickname “Spindle City” because 19th‑century textile mills powered by the falls made it a textile hub.",
+      "text": "Cohoes earned the nickname \"Spindle City\" because 19th‑century textile mills powered by the falls turned it into a textile hub.",
       "sourceSentenceIds": [
-        24
+        26
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -33,9 +33,9 @@
     },
     {
       "id": 2,
-      "text": "In 1836 the Harmony Manufacturing Company, later known as Harmony Mills, began operations, cementing Cohoes’ textile legacy.",
+      "text": "The city sits where the Mohawk meets the Hudson, a confluence that creates multiple channels and islands.",
       "sourceSentenceIds": [
-        3
+        11
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -44,18 +44,7 @@
     },
     {
       "id": 3,
-      "text": "The historic Cohoes Falls, a 65‑foot waterfall, was first noted by indigenous peoples and later became the city’s most famous landmark.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cohoes%2C_New_York"
-    },
-    {
-      "id": 4,
-      "text": "The Delaware and Hudson Railroad’s Laurentian train stopped in Cohoes until the mid‑1950s, linking the city to Montreal.",
+      "text": "In 1836 the Harmony Manufacturing Company, later known as Harmony Mills, began operations, cementing Cohoes as a textile center.",
       "sourceSentenceIds": [
         4
       ],
@@ -65,15 +54,26 @@
       "source": "https://en.wikipedia.org/wiki/Cohoes%2C_New_York"
     },
     {
-      "id": 5,
-      "text": "A 2020 redesign of Canal Square Park turned the historic downtown space into a venue for farmers’ markets and outdoor concerts.",
+      "id": 4,
+      "text": "The Delaware and Hudson Railroad once ran the Laurentian train between New York and Montreal, stopping at Cohoes station until the mid‑1950s.",
       "sourceSentenceIds": [
-        11
+        5
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Cohoes%2C_New_York"
+    },
+    {
+      "id": 5,
+      "text": "Van Schaick Island hosts the historic Van Schaick Mansion, one of New York State’s oldest homes tied to French colonial history.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.albany.org/about/about-the-area/cities-and-towns/cohoes-green-island-and-watervliet/"
     }
   ]
 }

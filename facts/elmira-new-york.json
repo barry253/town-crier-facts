@@ -1,10 +1,10 @@
 {
-  "place": "Elmira, New York",
-  "town": "Elmira",
+  "place": "Elmira New York, New York",
+  "town": "Elmira New York",
   "state": "New York",
   "region": "New York",
   "country": "United States",
-  "slug": "elmira-new-york",
+  "slug": "elmira-new-york-new-york",
   "sources": [
     {
       "label": "Wikipedia",
@@ -12,19 +12,19 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://townofelmira.gov/post.php?pid=354"
+      "url": "https://www.britannica.com/place/Elmira"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.cityofelmirany.gov/"
+      "url": "https://townofelmira.gov/post.php?pid=354"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Elmira, nicknamed “The Queen City,” became an incorporated city in 1864, carved out of the surrounding town and village.",
+      "text": "Elmira earned the nickname “The Queen City” when it incorporated in 1864, carving out its own identity from the surrounding town and village.",
       "sourceSentenceIds": [
-        8
+        9
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -33,9 +33,32 @@
     },
     {
       "id": 2,
-      "text": "In the 1800s, Elmira was a key transportation hub, linking Rochester and Buffalo with Albany and New York City via canal and rail.",
+      "text": "The Chemung Canal, finished in 1832, linked Elmira to Seneca Lake and sparked the town’s early growth as a trade hub.",
       "sourceSentenceIds": [
-        20
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.britannica.com/place/Elmira"
+    },
+    {
+      "id": 3,
+      "text": "Mark Twain’s study, a replica of a Mississippi riverboat pilothouse, sits on Elmira College’s campus, honoring the author’s connection to the city.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.britannica.com/place/Elmira"
+    },
+    {
+      "id": 4,
+      "text": "Elmira’s railroad history is deep: the Erie Railroad arrived in 1849, turning the city into a key link between New York City and Buffalo.",
+      "sourceSentenceIds": [
+        22,
+        23
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -43,10 +66,10 @@
       "source": "https://en.wikipedia.org/wiki/Elmira%2C_New_York"
     },
     {
-      "id": 3,
-      "text": "The Clemens Center, a concert and theater venue, honors Samuel Clemens—better known as Mark Twain—who once lived in Elmira.",
+      "id": 5,
+      "text": "In 1993, Elmira endured a blizzard that dumped 21.5 inches of snow in a single day, a record‑setting storm still remembered by locals.",
       "sourceSentenceIds": [
-        13
+        12
       ],
       "sourceLabels": [
         "Wikipedia"
