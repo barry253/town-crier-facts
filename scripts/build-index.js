@@ -28,22 +28,32 @@ function getJsonUpdatedDate(json) {
   );
 }
 
-const files = fs
-  .readdirSync(factsDir)
-  .filter((file) => file.endsWith(".json"))
-  .sort();
+function cleanDisplayTown(name) {
+  return String(name || "")
+    .replace(/\s+(city|town|village|borough|CDP)$/i, "")
+    .trim();
+}
 
 const index = files.map((file) => {
   const fullPath = path.join(factsDir, file);
   const json = JSON.parse(fs.readFileSync(fullPath, "utf8"));
 
+  const rawTown = json.town || json.place || file.replace(".json", "");
+  const cleanedTown = cleanDisplayTown(rawTown);
+
+  const state = json.state || json.region || "";
+  const country = json.country || "United States";
+
+  const slug = json.slug || file.replace(".json", "");
+
   return {
     file,
-    place: json.place || "",
-    town: json.town || json.place || file.replace(".json", ""),
-    state: json.state || json.region || "",
-    country: json.country || "United States",
-    slug: json.slug || file.replace(".json", ""),
+    place: json.place || `${cleanedTown}, ${state}`,
+    town: cleanedTown,
+    state,
+    country,
+    slug,
+    factCount: Array.isArray(json.facts) ? json.facts.length : 0,
     dateAdded: getJsonDate(json),
     lastUpdated: getJsonUpdatedDate(json),
   };

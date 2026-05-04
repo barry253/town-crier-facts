@@ -195,7 +195,7 @@
         const wrapper = document.createElement("div");
         wrapper.className = openByDefault ? "group open" : "group";
         const townCount = grouped[group].length;
-        const factTotal = grouped[group].reduce((sum, town) => sum + (town.factCount || 0), 0);
+        const factTotal = grouped[group].reduce((sum, town) => sum + (town.factCount ?? 0), 0);
         const badTotal = grouped[group].reduce((sum, town) => sum + (town.badCount || 0), 0);
         const warningTotal = grouped[group].reduce((sum, town) => sum + (town.warningCount || 0), 0);
         const toggle = document.createElement("button");
@@ -207,7 +207,7 @@
         grouped[group].forEach(town=>{
           const btn = document.createElement("button");
           btn.className = "town-button";
-          btn.innerHTML = `<span class="town-name">${getTownLabel(town)}</span><span class="count">${town.factCount || 0} facts${town.badCount ? ` · <span class="qa-bad">${town.badCount} bad</span>` : ""}${town.warningCount ? ` · <span class="qa-warning">${town.warningCount} warn</span>` : ""}</span>`;
+          btn.innerHTML = `<span class="town-name">${getTownLabel(town)}</span><span class="count">${town.factCount ?? 0} facts${town.badCount ? ` · <span class="qa-bad">${town.badCount} bad</span>` : ""}${town.warningCount ? ` · <span class="qa-warning">${town.warningCount} warn</span>` : ""}</span>`;
           btn.onclick = ()=> loadTown(town, btn, wrapper);
           items.appendChild(btn);
         });
