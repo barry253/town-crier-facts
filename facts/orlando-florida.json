@@ -12,28 +12,30 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.orlando.gov/Our-Government/News-and-Information/History"
+      "url": "https://www.britannica.com/place/Orlando-Florida"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Orlando-Florida"
+      "url": "https://www.orlando.gov/Our-Government/News-and-Information/History"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Orlando’s name may come from Shakespeare’s “As You Like It,” a theory that dates back to the town’s early days.",
+      "text": "In 1857, Orlando was renamed to honor army sentry Orlando Reeves, though some say it was named after a Shakespeare character.",
       "sourceSentenceIds": [
+        21,
         23
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Web source 1",
+        "Web source 2"
       ],
-      "source": "https://www.orlando.gov/Our-Government/News-and-Information/History"
+      "source": "https://www.britannica.com/place/Orlando-Florida"
     },
     {
       "id": 2,
-      "text": "Orlando once hosted two major railroad stations: the Atlantic Coast Line’s Church Street Station and the Seaboard’s Central Avenue Station.",
+      "text": "The historic Atlantic Coast Line station, now Church Street Station, once served as a bustling railroad hub in Orlando.",
       "sourceSentenceIds": [
         3
       ],
@@ -44,9 +46,31 @@
     },
     {
       "id": 3,
-      "text": "The Orlando Magic, an NBA franchise, calls the city home and has been a staple of local sports since 1989.",
+      "text": "The former City Hall was famously imploded for the movie Lethal Weapon 3, a memorable moment in the city’s cinematic history.",
       "sourceSentenceIds": [
-        30
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Orlando%2C_Florida"
+    },
+    {
+      "id": 4,
+      "text": "Before becoming Orlando, the area was known as Jernigan, centered around Aaron Jernigan’s homestead that served as the village nucleus by 1850.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Orlando%2C_Florida"
+    },
+    {
+      "id": 5,
+      "text": "Orlando is home to the NBA’s Orlando Magic, who have played two All‑Star Games in the city, once in 1992 and again in 2012.",
+      "sourceSentenceIds": [
+        29
       ],
       "sourceLabels": [
         "Wikipedia"

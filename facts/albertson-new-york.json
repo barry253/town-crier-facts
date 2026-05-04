@@ -12,63 +12,62 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.thealbertsoncivic.com/about"
+      "url": "https://www.longandisland.com/albertson-long-island"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.longislandguide.com/visit/albertson/"
+      "url": "https://www.thealbertsoncivic.com/about"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Albertson was named after Townsend Albertson, an early settler who ran a farm and gristmill in the area.",
+      "text": "Albertson takes its name from Townsend Albertson, an early settler who ran a grist mill in the area.",
       "sourceSentenceIds": [
-        2,
         3,
-        13
+        4,
+        5,
+        17,
+        30
       ],
       "sourceLabels": [
         "Wikipedia",
-        "Web source 1"
+        "Web source 1",
+        "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Albertson%2C_New_York"
     },
     {
       "id": 2,
-      "text": "The Long Island Rail Road opened an Albertson station in 1864, turning the rural hamlet into a commuter suburb.",
+      "text": "The Long Island Rail Road opened Albertson station in 1864, giving the hamlet its first rail link.",
       "sourceSentenceIds": [
-        4,
-        9,
-        11
+        6,
+        13,
+        15
       ],
       "sourceLabels": [
-        "Web source 1",
+        "Web source 2",
         "Wikipedia",
-        "Web source 2"
+        "Web source 1"
       ],
       "source": "https://www.thealbertsoncivic.com/about"
     },
     {
       "id": 3,
-      "text": "The Searingtown School in Albertson was part of the landmark Supreme Court case Engel v. Vitale, setting modern prayer rules.",
+      "text": "The Searingtown School in Albertson was part of the landmark Supreme Court case Engel v. Board of Education.",
       "sourceSentenceIds": [
-        8,
-        23
+        12
       ],
       "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
+        "Web source 2"
       ],
       "source": "https://www.thealbertsoncivic.com/about"
     },
     {
       "id": 4,
-      "text": "Postwar suburban boom began in 1946 with William Levitt’s development, followed by the 1950 Hillside Terrace‑at‑Albertson project that added 322 homes and a shopping center.",
+      "text": "In 1946, postwar suburbanization began in Albertson with William Levitt's small development, replacing the last farms.",
       "sourceSentenceIds": [
-        17,
-        18,
-        20
+        21
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -77,9 +76,21 @@
     },
     {
       "id": 5,
-      "text": "Albertson sits just south and west of Roslyn Heights, east of Searingtown, and north of Williston Park, placing it in the heart of Nassau County.",
+      "text": "Albertson’s first European settler was John Seren, who arrived from Connecticut in 1644.",
       "sourceSentenceIds": [
-        27
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Albertson%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "I.U. Road, built in 1850 on Isaac Underhill Willets’ land, later bears his initials.",
+      "sourceSentenceIds": [
+        18,
+        19
       ],
       "sourceLabels": [
         "Wikipedia"

@@ -16,15 +16,16 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Batavia-New-York"
+      "url": "https://discoverupstateny.com/batavia/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Batavia earned its name from Paul Busti, who honored the Batavian Republic and its Dutch investors in the Holland Land Company.",
+      "text": "Batavia was named by Paul Busti after the Batavian Republic, honoring Dutch investors of the Holland Land Company.",
       "sourceSentenceIds": [
-        1
+        1,
+        30
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -33,42 +34,59 @@
     },
     {
       "id": 2,
-      "text": "In 1802, Joseph Ellicott founded the village of Batavia under Paul Busti’s authorization from the Holland Land Company.",
+      "text": "Joseph Ellicott founded the village in 1802, surveying the area the year before and laying out the city’s grid.",
       "sourceSentenceIds": [
-        2
+        2,
+        4
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Wikipedia",
+        "Web source 1"
       ],
       "source": "https://en.wikipedia.org/wiki/Batavia%2C_New_York"
     },
     {
       "id": 3,
-      "text": "Today the Holland Land Office Museum stands as a National Historic Landmark in Batavia.",
+      "text": "The Holland Land Office Museum, now a National Historic Landmark, sits in the former office where land deals that opened Western New York were signed.",
       "sourceSentenceIds": [
-        3
+        3,
+        6
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Wikipedia",
+        "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Batavia%2C_New_York"
     },
     {
       "id": 4,
-      "text": "Ellicott Street, Ellicott Avenue, and a central monument pay tribute to founder Joseph Ellicott in Batavia.",
+      "text": "Batavia became Genesee County’s seat in 1802, making it the administrative heart of the region from the very start.",
       "sourceSentenceIds": [
-        8
+        7,
+        12
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Wikipedia",
+        "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Batavia%2C_New_York"
     },
     {
       "id": 5,
-      "text": "Batavia was a filming location for the 1987 comedy road movie Planes, Trains and Automobiles.",
+      "text": "The city hosts Batavia Downs, a half‑mile harness racing track that operates from July through December, a unique sporting venue in the area.",
       "sourceSentenceIds": [
-        21
+        6
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://discoverupstateny.com/batavia/"
+    },
+    {
+      "id": 6,
+      "text": "Ellicott Street and Ellicott Avenue honor the surveyor who founded the city, and a large monument stands in the town center.",
+      "sourceSentenceIds": [
+        8
       ],
       "sourceLabels": [
         "Wikipedia"

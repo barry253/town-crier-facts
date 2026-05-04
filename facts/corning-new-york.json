@@ -12,58 +12,53 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.fingerlakes.com/towns/corning/"
+      "url": "https://townofcorningny.gov/history-of-the-town-of-corning-ny/"
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Corning-New-York"
+      "url": "https://corningnyhistory.com/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Corning earned its name in 1837 when railroad promoter Erastus Corning helped link Pennsylvania coal mines to the Chemung Canal.",
+      "text": "Corning takes its name from financier Erastus Corning, who helped fund the company that built the town.",
       "sourceSentenceIds": [
         1,
-        2
+        14
       ],
       "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
+        "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Corning%2C_New_York"
     },
     {
       "id": 2,
-      "text": "The Corning Museum of Glass, founded in 1951, holds one of the world's most comprehensive glass collections, including a 200‑inch telescope mirror.",
+      "text": "By the 1880s Corning blossomed into a railroad hub, with dozens of lines crisscrossing the area.",
       "sourceSentenceIds": [
-        13,
-        30
+        19
       ],
       "sourceLabels": [
-        "Wikipedia",
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Corning%2C_New_York"
     },
     {
       "id": 3,
-      "text": "Market Street, Corning's historic main street, centers around Centerway Square, a pedestrian plaza with a covered bandstand.",
+      "text": "The Corning Museum of Glass showcases the art, history, science, and craft of glass in a dedicated space.",
       "sourceSentenceIds": [
-        14,
-        15
+        21
       ],
       "sourceLabels": [
-        "Wikipedia",
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Corning%2C_New_York"
     },
     {
       "id": 4,
-      "text": "The Heritage Village in Corning preserves a living history museum, featuring the 1796 Benjamin Patterson Inn that once drew early settlers.",
+      "text": "Market Street, Corning’s historic main street, runs through a lively stretch of restaurants and shops.",
       "sourceSentenceIds": [
-        16
+        22
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -72,9 +67,20 @@
     },
     {
       "id": 5,
-      "text": "Corning Incorporated, a Fortune 500 glass manufacturer, remains headquartered in the city, tracing its roots back to the original Corning Glass Works.",
+      "text": "Heritage Village in downtown Corning houses the Benjamin Patterson Inn, built in 1796, as a living history museum.",
       "sourceSentenceIds": [
-        27
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Corning%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "In 2013 Rand McNally crowned Corning the “Most Fun” town among its list of America’s best small towns.",
+      "sourceSentenceIds": [
+        10
       ],
       "sourceLabels": [
         "Wikipedia"

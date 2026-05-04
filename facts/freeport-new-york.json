@@ -12,17 +12,17 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.freeportny.gov/"
+      "url": "https://www.freeportny.com/"
     },
     {
       "label": "Web source 2",
-      "url": "https://libguides.freeportlibrary.info/LocalHistory/timelinefreeport"
+      "url": "https://libguides.freeportlibrary.info/Encyclopedia"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Freeport incorporated as a village on October 18, 1892, joining the Bay View area originally called Coe's Neck.",
+      "text": "Freeport became an incorporated village on October 18, 1892, marking the start of its formal local government.",
       "sourceSentenceIds": [
         8
       ],
@@ -33,20 +33,21 @@
     },
     {
       "id": 2,
-      "text": "The Long Island Railroad built a pedestrian tunnel at the Freeport train station, a rare feature for a small village.",
+      "text": "WGBB, founded in 1924, was Long Island’s first 24‑hour radio station, broadcasting nonstop from Freeport.",
       "sourceSentenceIds": [
-        4
+        6
       ],
       "sourceLabels": [
-        "Web source 2"
+        "Wikipedia"
       ],
-      "source": "https://libguides.freeportlibrary.info/LocalHistory/timelinefreeport"
+      "source": "https://en.wikipedia.org/wiki/Freeport%2C_New_York"
     },
     {
       "id": 3,
-      "text": "Freeport High School’s math team, dubbed the Mathletes, earned regional acclaim in the early 1970s for advanced competitions.",
+      "text": "From 1931 until the early 1980s, Freeport hosted the Freeport Speedway, a venue that drew auto racing fans for decades.",
       "sourceSentenceIds": [
-        19
+        19,
+        20
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -55,10 +56,9 @@
     },
     {
       "id": 4,
-      "text": "From 1931 to the early 1980s, Freeport hosted a 10,000‑seat speedway that transitioned from midget auto races to stock car events.",
+      "text": "Between 1970 and 1973, Freeport High School’s math team earned regional acclaim, competing in the International Mathematical Olympiad.",
       "sourceSentenceIds": [
-        21,
-        22
+        17
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -67,25 +67,27 @@
     },
     {
       "id": 5,
-      "text": "The first library in Freeport opened in 1884 at Grove Street School, a milestone in the village’s public education history.",
+      "text": "A short‑lived trolley called the “Fishermen’s Delight” ran along Grove Street (now Guy Lombardo Avenue) from 1913, linking the waterfront to Sunrise Highway.",
       "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://libguides.freeportlibrary.info/LocalHistory/timelinefreeport"
-    },
-    {
-      "id": 6,
-      "text": "Guy Lombardo, the famed big‑band leader, lived in Freeport’s South Grove Street, where his boathouse hosted powerful speed boats on the ocean.",
-      "sourceSentenceIds": [
-        2
+        22
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Freeport%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "The Freeport History Encyclopedia, housed in the local library, offers authoritative biographies and stories that chronicle the village’s past.",
+      "sourceSentenceIds": [
+        5,
+        27,
+        28
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://libguides.freeportlibrary.info/Encyclopedia"
     }
   ]
 }
