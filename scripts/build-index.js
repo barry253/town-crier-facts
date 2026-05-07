@@ -4,6 +4,34 @@ const path = require("path");
 const factsDir = path.join(__dirname, "..", "facts");
 const outputPath = path.join(__dirname, "..", "facts-index.json");
 
+const BAD_PATTERNS = [
+  /main article:/i,
+  /see also/i,
+  /external links/i,
+  /references/i,
+  /wikimedia commons/i,
+  /coordinates:/i,
+  /retrieved/i,
+  /isbn/i,
+];
+const CONTEXT_STARTERS = [
+  "it ",
+  "this ",
+  "that ",
+  "these ",
+  "those ",
+  "he ",
+  "she ",
+  "they ",
+  "there ",
+  "the name ",
+  "the park ",
+  "the building ",
+  "the area ",
+];
+const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
+const END_PUNCTUATION = /[.!?。！？…\"'”’)]$/;
+
 function getJsonDate(json) {
   return (
     json.dateAdded ||
@@ -35,6 +63,73 @@ function cleanDisplayTown(name) {
     .trim();
 }
 
+function cleanText(value) {
+  return String(value || "")
+    .replace(/\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getFactFlags(text, fact, json) {
+  const raw = String(fact.text || fact.fact || "");
+  const cleaned = cleanText(text);
+  const lower = cleaned.toLowerCase();
+  const flags = [];
+
+  if (BAD_PATTERNS.some((pattern) => pattern.test(cleaned))) {
+    flags.push({ severity: "bad", label: "Wikipedia artifact" });
+  }
+  if (!fact.source) {
+    flags.push({ severity: "bad", label: "Missing source" });
+  }
+  if (
+    fact.source &&
+    Array.isArray(json.sources) &&
+    !json.sources.some((source) => source.url === fact.source)
+  ) {
+    flags.push({ severity: "warning", label: "Source not in sources list" });
+  }
+  if (CONTEXT_STARTERS.some((starter) => lower.startsWith(starter))) {
+    flags.push({ severity: "warning", label: "May be missing context" });
+  }
+  if (cleaned.length < 60) {
+    flags.push({ severity: "warning", label: "Very short" });
+  }
+  if (cleaned.length > 280) {
+    flags.push({ severity: "warning", label: "Long for audio" });
+  }
+  if (cleaned && !END_PUNCTUATION.test(cleaned)) {
+    flags.push({ severity: "warning", label: "No ending punctuation" });
+  }
+  if (/\n/.test(raw) || /\s{2,}/.test(raw) || /�/.test(raw)) {
+    flags.push({ severity: "warning", label: "Formatting issue" });
+  }
+  if (GENERIC_STARTERS.some((starter) => lower.startsWith(starter))) {
+    flags.push({ severity: "weak", label: "Generic opening" });
+  }
+
+  return flags;
+}
+
+function summarizeTownQuality(json) {
+  const facts = Array.isArray(json.facts) ? json.facts : [];
+  const summary = {
+    factCount: facts.length,
+    badCount: 0,
+    warningCount: 0,
+    weakCount: 0,
+  };
+
+  facts.forEach((fact) => {
+    const flags = getFactFlags(fact.text || fact.fact || "", fact, json);
+    if (flags.some((flag) => flag.severity === "bad")) summary.badCount += 1;
+    else if (flags.some((flag) => flag.severity === "warning")) summary.warningCount += 1;
+    else if (flags.some((flag) => flag.severity === "weak")) summary.weakCount += 1;
+  });
+
+  return summary;
+}
+
 const files = fs
   .readdirSync(factsDir)
   .filter((file) => file.endsWith(".json"))
@@ -56,6 +151,7 @@ for (const file of files) {
     const country = json.country || "United States";
 
     const slug = json.slug || file.replace(".json", "");
+    const quality = summarizeTownQuality(json);
 
     const place =
       json.place ||
@@ -68,7 +164,8 @@ for (const file of files) {
       state,
       country,
       slug,
-      factCount: Array.isArray(json.facts) ? json.facts.length : 0,
+      ...quality,
+      hasIssues: quality.badCount > 0 || quality.warningCount > 0 || quality.weakCount > 0,
       dateAdded: getJsonDate(json),
       lastUpdated: getJsonUpdatedDate(json),
     });
