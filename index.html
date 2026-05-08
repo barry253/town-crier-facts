@@ -38,6 +38,7 @@
     .flag.bad { color: #b71c1c; border-color: #ef9a9a; background: #ffebee; }
     .flag.warning { color: #7a5200; border-color: #ffe082; background: #fff8e1; }
     .flag.weak { color: #555; border-color: #ccc; background: #f5f5f5; }
+    .flag.reviewed { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
     .source { font-size: 13px; color: #555; margin-top: 8px; word-break: break-word; }
     .empty { color: #777; font-style: italic; }
     @media (max-width: 700px) {
@@ -93,12 +94,20 @@
     const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
     const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
     const END_PUNCTUATION = /[.!?。！？…\"'”’)]$/;
+    const REVIEWED_STATUSES = new Set(["approved", "ignore_flag", "reviewed"]);
 
     function cleanText(v){ return String(v||"").replace(/\n/g," ").replace(/\s+/g," ").trim(); }
     function getGroupLabel(t){ return t.state || t.country || "Other"; }
     function getTownLabel(t){ return t.town || t.slug || t.file || "Unknown"; }
 
+    function isReviewedFact(fact){
+      const status = String(fact?.review?.status || fact?.qa?.status || "").toLowerCase();
+      return REVIEWED_STATUSES.has(status) || fact?.reviewed === true;
+    }
+
     function getFactFlags(text, fact, json){
+      if (isReviewedFact(fact)) return [];
+
       const raw = String(fact.text || fact.fact || "");
       const cleaned = cleanText(text);
       const lower = cleaned.toLowerCase();
@@ -125,8 +134,9 @@
 
     function summarizeTownQuality(town, json){
       const facts = Array.isArray(json.facts) ? json.facts : [];
-      const summary = { factCount: facts.length, badCount: 0, warningCount: 0, weakCount: 0 };
+      const summary = { factCount: facts.length, reviewedCount: 0, badCount: 0, warningCount: 0, weakCount: 0 };
       facts.forEach(f => {
+        if (isReviewedFact(f)) summary.reviewedCount += 1;
         const flags = getFactFlags(f.text || f.fact || "", f, json);
         if (flags.some(x => x.severity === "bad")) summary.badCount += 1;
         else if (flags.some(x => x.severity === "warning")) summary.warningCount += 1;
@@ -139,7 +149,6 @@
       const res = await fetch(`./facts-index.json?v=${Date.now()}`);
       allTowns = await res.json();
       allTowns.sort((a,b)=>`${getGroupLabel(a)}-${getTownLabel(a)}`.localeCompare(`${getGroupLabel(b)}-${getTownLabel(b)}`));
-      // Skip eager QA scan at startup; load fact details only when a town is selected.
       buildGroupFilter(allTowns);
       renderTownList();
     }
@@ -244,12 +253,21 @@
         const worst = flags.some(x=>x.severity==="bad") ? "bad" : flags.some(x=>x.severity==="warning") ? "warning" : flags.some(x=>x.severity==="weak") ? "weak" : "";
         d.className = `fact ${worst}`.trim();
         d.innerHTML = `<b>${i+1}.</b> ${text}`;
-        if(showFlags && flags.length){
-          const flagBox = document.createElement("div");
-          flagBox.className = "flags";
-          flagBox.innerHTML = flags.map(flag => `<span class="flag ${flag.severity}">${flag.label}</span>`).join("");
-          d.appendChild(flagBox);
+
+        if(showFlags){
+          const flagList = [...flags];
+          if (isReviewedFact(f)) {
+            flagList.unshift({ severity: "reviewed", label: "Reviewed" });
+          }
+
+          if(flagList.length){
+            const flagBox = document.createElement("div");
+            flagBox.className = "flags";
+            flagBox.innerHTML = flagList.map(flag => `<span class="flag ${flag.severity}">${flag.label}</span>`).join("");
+            d.appendChild(flagBox);
+          }
         }
+
         if(showSources && f.source){
           const sourceObj = currentJson.sources?.find(s => s.url === f.source);
           const label = sourceObj?.label || f.sourceLabels?.[0] || "source";
