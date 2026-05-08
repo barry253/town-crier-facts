@@ -1,0 +1,323 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Town Crier Local Facts Editor</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #111; background: #fff; display: flex; height: 100vh; }
+    aside { width: 390px; border-right: 1px solid #ddd; background: #fafafa; padding: 14px; overflow-y: auto; flex-shrink: 0; }
+    main { flex: 1; padding: 20px; overflow-y: auto; min-width: 0; }
+    h1, h2, h3 { margin-top: 0; }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    h2 { font-size: 20px; margin-bottom: 12px; }
+    input, select, textarea { width: 100%; padding: 9px 10px; border: 1px solid #ccc; border-radius: 8px; font-size: 14px; background: #fff; }
+    textarea { min-height: 90px; line-height: 1.4; font-family: Arial, sans-serif; resize: vertical; }
+    button { border: 1px solid #ccc; background: #fff; border-radius: 8px; padding: 9px 11px; cursor: pointer; font-size: 14px; }
+    button:hover { background: #eee; }
+    button.primary { background: #111; color: #fff; border-color: #111; }
+    button.danger { border-color: #c62828; color: #c62828; }
+    button.small { padding: 6px 8px; font-size: 12px; }
+    .filters { display: grid; gap: 8px; margin-bottom: 12px; }
+    .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+    .row > * { flex: 1; }
+    .row button { flex: 0 0 auto; }
+    .tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+    .tabs button.active { background: #111; color: #fff; }
+    .summary { color: #666; font-size: 13px; margin: 6px 0 10px; }
+    .town-list button { width: 100%; margin: 5px 0; text-align: left; display: flex; justify-content: space-between; gap: 8px; }
+    .town-list button.active { background: #e6e6e6; font-weight: bold; }
+    .town-title { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .count { color: #666; white-space: nowrap; font-size: 12px; }
+    .problem-item { border: 1px solid #ddd; background: #fff; border-radius: 10px; padding: 10px; margin: 8px 0; cursor: pointer; }
+    .problem-item:hover { background: #f1f1f1; }
+    .problem-item.active { border-color: #111; background: #f2f2f2; }
+    .problem-text { font-size: 13px; color: #333; margin-top: 5px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .muted { color: #666; font-size: 13px; }
+    .fact-card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; margin: 14px 0; background: #fff; }
+    .fact-card.bad { background: #fff6f6; border-left: 5px solid #c62828; }
+    .fact-card.warning { background: #fffaf0; border-left: 5px solid #f9a825; }
+    .fact-card.weak { background: #f7f7f7; border-left: 5px solid #999; }
+    .fact-head { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; margin-bottom: 10px; }
+    .flags { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+    .flag { border: 1px solid #ccc; border-radius: 999px; padding: 3px 7px; font-size: 12px; background: #fff; }
+    .flag.bad { color: #b71c1c; border-color: #ef9a9a; background: #ffebee; }
+    .flag.warning { color: #7a5200; border-color: #ffe082; background: #fff8e1; }
+    .flag.weak { color: #555; border-color: #ccc; background: #f5f5f5; }
+    .flag.reviewed { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
+    .field { margin: 9px 0; }
+    .field label { display: block; font-size: 12px; color: #555; margin-bottom: 4px; }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    .status { position: sticky; bottom: 0; background: #111; color: #fff; padding: 9px 12px; border-radius: 8px; margin-top: 12px; display: none; }
+    .status.show { display: block; }
+    .topbar { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
+    .git { font-size: 12px; color: #666; white-space: pre-wrap; background: #f5f5f5; padding: 8px; border-radius: 8px; margin-top: 8px; }
+    @media (max-width: 800px) {
+      body { display: block; height: auto; }
+      aside { width: 100%; max-height: 48vh; border-right: none; border-bottom: 1px solid #ddd; }
+      main { padding: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <h2>Local Facts Editor</h2>
+    <div class="tabs">
+      <button id="tabProblems" class="active">Problem Queue</button>
+      <button id="tabAll">All Towns</button>
+    </div>
+    <div class="filters">
+      <input id="search" type="search" placeholder="Search town, fact, source, slug" />
+      <div class="row">
+        <select id="stateFilter"><option value="">All states/groups</option></select>
+        <select id="qaFilter">
+          <option value="issues">Issues</option>
+          <option value="bad">Bad</option>
+          <option value="warning">Warnings</option>
+          <option value="weak">Weak</option>
+          <option value="low-count">Low count</option>
+          <option value="all">All</option>
+        </select>
+      </div>
+      <button id="refreshBtn">Refresh</button>
+      <button id="gitBtn">Check Git Status</button>
+    </div>
+    <div class="summary" id="summary">Loading...</div>
+    <div class="git" id="gitStatus" style="display:none"></div>
+    <div id="list" class="town-list">Loading...</div>
+  </aside>
+
+  <main>
+    <div class="topbar">
+      <div>
+        <h1 id="title">Select a town or problem fact</h1>
+        <div class="muted" id="subtitle">Edits save directly to local JSON files and rebuild the index.</div>
+      </div>
+      <button id="addFactBtn" style="display:none">Add Fact</button>
+    </div>
+    <div id="facts"></div>
+    <div id="status" class="status"></div>
+  </main>
+
+  <script>
+    let towns = [];
+    let problemFacts = [];
+    let mode = 'problems';
+    let currentFile = null;
+    let currentTownPayload = null;
+
+    const $ = (id) => document.getElementById(id);
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+    function showStatus(message, isError=false){
+      const el = $('status');
+      el.textContent = message;
+      el.style.background = isError ? '#b71c1c' : '#111';
+      el.classList.add('show');
+      setTimeout(()=>el.classList.remove('show'), 4500);
+    }
+
+    async function api(path, options){
+      const res = await fetch(path, options);
+      const json = await res.json().catch(()=>({}));
+      if(!res.ok || json.ok === false) throw new Error(json.error || `Request failed: ${res.status}`);
+      return json;
+    }
+
+    function townLabel(t){ return t.place || [t.town, t.state].filter(Boolean).join(', ') || t.slug || t.file; }
+    function groupLabel(t){ return t.state || t.country || 'Other'; }
+
+    async function loadAll(){
+      towns = await api('/api/index');
+      towns.sort((a,b)=>townLabel(a).localeCompare(townLabel(b)));
+      problemFacts = await api('/api/problem-facts');
+      buildStateFilter();
+      renderList();
+    }
+
+    function buildStateFilter(){
+      const current = $('stateFilter').value;
+      const groups = [...new Set(towns.map(groupLabel))].sort();
+      $('stateFilter').innerHTML = '<option value="">All states/groups</option>' + groups.map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('');
+      $('stateFilter').value = current;
+    }
+
+    function matchesQueryText(text){
+      const q = $('search').value.trim().toLowerCase();
+      return !q || String(text || '').toLowerCase().includes(q);
+    }
+
+    function renderList(){
+      const list = $('list');
+      const state = $('stateFilter').value;
+      const qa = $('qaFilter').value;
+      list.innerHTML = '';
+
+      if(mode === 'problems'){
+        const visible = problemFacts.filter(f => {
+          if(state && f.state !== state) return false;
+          if(qa === 'bad' && !f.flags?.some(x=>x.severity==='bad')) return false;
+          if(qa === 'warning' && !f.flags?.some(x=>x.severity==='warning')) return false;
+          if(qa === 'weak' && !f.flags?.some(x=>x.severity==='weak')) return false;
+          if(qa === 'low-count') {
+            const town = towns.find(t=>t.file===f.file);
+            if(!town || town.factCount >= 6) return false;
+          }
+          if(qa === 'issues' && !(f.flags?.length)) return false;
+          return matchesQueryText([f.place, f.town, f.state, f.slug, f.file, f.text, f.source, ...(f.sourceLabels||[])].join(' '));
+        });
+        $('summary').textContent = `${visible.length} problem facts shown · ${problemFacts.length} total problem facts`;
+        if(!visible.length){ list.innerHTML = '<div class="muted">No problem facts match.</div>'; return; }
+        visible.slice(0, 500).forEach(f=>{
+          const div = document.createElement('div');
+          div.className = 'problem-item' + (currentFile===f.file ? ' active' : '');
+          div.innerHTML = `<b>${esc(f.place || f.file)}</b><div class="muted">Fact #${f.factNumber} · ${esc(f.file)}</div><div class="flags">${(f.flags||[]).map(flag=>`<span class="flag ${flag.severity}">${esc(flag.label)}</span>`).join('')}</div><div class="problem-text">${esc(f.text)}</div>`;
+          div.onclick = ()=>loadTown(f.file, f.factIndex);
+          list.appendChild(div);
+        });
+        return;
+      }
+
+      const visible = towns.filter(t=>{
+        if(state && groupLabel(t) !== state) return false;
+        if(qa === 'issues' && !(t.badCount || t.warningCount || t.weakCount)) return false;
+        if(qa === 'bad' && !t.badCount) return false;
+        if(qa === 'warning' && !t.warningCount) return false;
+        if(qa === 'weak' && !t.weakCount) return false;
+        if(qa === 'low-count' && t.factCount >= 6) return false;
+        return matchesQueryText([townLabel(t), t.town, t.state, t.country, t.slug, t.file].join(' '));
+      });
+      $('summary').textContent = `${visible.length} of ${towns.length} towns`;
+      if(!visible.length){ list.innerHTML = '<div class="muted">No towns match.</div>'; return; }
+      visible.slice(0, 700).forEach(t=>{
+        const btn = document.createElement('button');
+        btn.className = currentFile===t.file ? 'active' : '';
+        btn.innerHTML = `<span class="town-title">${esc(townLabel(t))}</span><span class="count">${t.factCount||0} facts${t.badCount?` · ${t.badCount} bad`:''}${t.warningCount?` · ${t.warningCount} warn`:''}</span>`;
+        btn.onclick = ()=>loadTown(t.file);
+        list.appendChild(btn);
+      });
+    }
+
+    async function loadTown(file, focusFactIndex=null){
+      currentFile = file;
+      currentTownPayload = await api(`/api/town/${encodeURIComponent(file)}`);
+      renderTown(focusFactIndex);
+      renderList();
+    }
+
+    function renderTown(focusFactIndex=null){
+      const { town, json, facts } = currentTownPayload;
+      $('title').textContent = json.place || townLabel(town || {file: currentFile});
+      $('subtitle').textContent = `${currentFile} · ${facts.length} facts`;
+      $('addFactBtn').style.display = 'inline-block';
+      const el = $('facts');
+      el.innerHTML = '';
+      if(!facts.length) el.innerHTML = '<div class="muted">No facts yet.</div>';
+      facts.forEach((f)=>{
+        const card = document.createElement('div');
+        card.className = `fact-card ${f.worst||''}`.trim();
+        card.id = `fact-${f.factIndex}`;
+        const reviewedBadge = f.reviewed ? '<span class="flag reviewed">Reviewed</span>' : '';
+        card.innerHTML = `
+          <div class="fact-head">
+            <b>Fact #${f.factNumber}</b>
+            <div class="muted">index ${f.factIndex}</div>
+          </div>
+          <div class="flags">${reviewedBadge}${(f.flags||[]).map(flag=>`<span class="flag ${flag.severity}">${esc(flag.label)}</span>`).join('')}</div>
+          <div class="field"><label>Fact text</label><textarea data-field="text">${esc(f.text)}</textarea></div>
+          <div class="field"><label>Source URL</label><input data-field="source" value="${esc(f.source)}" /></div>
+          <div class="field"><label>Source labels, comma-separated</label><input data-field="sourceLabels" value="${esc((f.sourceLabels||[]).join(', '))}" /></div>
+          <div class="field"><label>Review notes</label><input data-field="notes" value="${esc(f.review?.notes || '')}" placeholder="Optional notes" /></div>
+          <div class="actions">
+            <button class="primary" data-action="save">Save</button>
+            <button data-action="approve">Approve</button>
+            <button data-action="ignore">Ignore Flag</button>
+            <button data-action="needs">Needs Fix</button>
+            <button class="danger" data-action="delete">Delete</button>
+          </div>
+        `;
+        card.querySelector('[data-action="save"]').onclick = ()=>saveFact(f.factIndex, card);
+        card.querySelector('[data-action="approve"]').onclick = ()=>reviewFact(f.factIndex, 'approved', card);
+        card.querySelector('[data-action="ignore"]').onclick = ()=>reviewFact(f.factIndex, 'ignore_flag', card);
+        card.querySelector('[data-action="needs"]').onclick = ()=>reviewFact(f.factIndex, 'needs_fix', card);
+        card.querySelector('[data-action="delete"]').onclick = ()=>deleteFact(f.factIndex);
+        el.appendChild(card);
+      });
+      if(focusFactIndex !== null){
+        setTimeout(()=>$(`fact-${focusFactIndex}`)?.scrollIntoView({behavior:'smooth', block:'center'}), 100);
+      }
+    }
+
+    function cardValue(card, field){ return card.querySelector(`[data-field="${field}"]`)?.value || ''; }
+
+    async function saveFact(factIndex, card){
+      try{
+        const sourceLabels = cardValue(card, 'sourceLabels').split(',').map(s=>s.trim()).filter(Boolean);
+        await api('/api/fact/save', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ file: currentFile, factIndex, text: cardValue(card,'text'), source: cardValue(card,'source'), sourceLabels })
+        });
+        showStatus('Saved and rebuilt index.');
+        await loadAll();
+        await loadTown(currentFile, factIndex);
+      } catch(e){ showStatus(e.message, true); }
+    }
+
+    async function reviewFact(factIndex, status, card){
+      try{
+        await api('/api/fact/review', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ file: currentFile, factIndex, status, notes: cardValue(card, 'notes') })
+        });
+        showStatus(`Marked ${status} and rebuilt index.`);
+        await loadAll();
+        await loadTown(currentFile, factIndex);
+      } catch(e){ showStatus(e.message, true); }
+    }
+
+    async function deleteFact(factIndex){
+      if(!confirm('Delete this fact? This writes directly to the JSON file.')) return;
+      try{
+        await api('/api/fact/delete', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ file: currentFile, factIndex })
+        });
+        showStatus('Deleted fact and rebuilt index.');
+        await loadAll();
+        await loadTown(currentFile);
+      } catch(e){ showStatus(e.message, true); }
+    }
+
+    $('addFactBtn').onclick = async ()=>{
+      if(!currentFile) return;
+      const text = prompt('New fact text:');
+      if(!text) return;
+      const source = prompt('Source URL:') || '';
+      try{
+        await api('/api/fact/add', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ file: currentFile, text, source, sourceLabels: source ? ['Manual'] : [] })
+        });
+        showStatus('Added fact and rebuilt index.');
+        await loadAll();
+        await loadTown(currentFile);
+      } catch(e){ showStatus(e.message, true); }
+    };
+
+    $('tabProblems').onclick = ()=>{ mode='problems'; $('tabProblems').classList.add('active'); $('tabAll').classList.remove('active'); renderList(); };
+    $('tabAll').onclick = ()=>{ mode='all'; $('tabAll').classList.add('active'); $('tabProblems').classList.remove('active'); renderList(); };
+    ['search','stateFilter','qaFilter'].forEach(id=>$(id).addEventListener('input', renderList));
+    $('refreshBtn').onclick = async ()=>{ await loadAll(); if(currentFile) await loadTown(currentFile); showStatus('Refreshed.'); };
+    $('gitBtn').onclick = async ()=>{
+      try{
+        const s = await api('/api/git-status');
+        $('gitStatus').style.display = 'block';
+        $('gitStatus').textContent = s.status || 'Working tree clean';
+      } catch(e){ showStatus(e.message, true); }
+    };
+
+    loadAll().catch(e=>showStatus(e.message, true));
+  </script>
+</body>
+</html>
