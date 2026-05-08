@@ -31,6 +31,7 @@ const CONTEXT_STARTERS = [
 ];
 const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
 const END_PUNCTUATION = /[.!?。！？…\"'”’)]$/;
+const REVIEWED_STATUSES = new Set(["approved", "ignore_flag", "reviewed"]);
 
 function getJsonDate(json) {
   return (
@@ -70,7 +71,14 @@ function cleanText(value) {
     .trim();
 }
 
+function isReviewedFact(fact) {
+  const status = String(fact?.review?.status || fact?.qa?.status || "").toLowerCase();
+  return REVIEWED_STATUSES.has(status) || fact?.reviewed === true;
+}
+
 function getFactFlags(text, fact, json) {
+  if (isReviewedFact(fact)) return [];
+
   const raw = String(fact.text || fact.fact || "");
   const cleaned = cleanText(text);
   const lower = cleaned.toLowerCase();
@@ -115,12 +123,14 @@ function summarizeTownQuality(json) {
   const facts = Array.isArray(json.facts) ? json.facts : [];
   const summary = {
     factCount: facts.length,
+    reviewedCount: 0,
     badCount: 0,
     warningCount: 0,
     weakCount: 0,
   };
 
   facts.forEach((fact) => {
+    if (isReviewedFact(fact)) summary.reviewedCount += 1;
     const flags = getFactFlags(fact.text || fact.fact || "", fact, json);
     if (flags.some((flag) => flag.severity === "bad")) summary.badCount += 1;
     else if (flags.some((flag) => flag.severity === "warning")) summary.warningCount += 1;
