@@ -16,13 +16,35 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.cityneighborhoods.nyc/long-island-city"
+      "url": "https://www.citysignal.com/long-island-city-neighborhood-guide/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "By the 1970s, Long Island City’s abandoned factories drew artists seeking affordable studio space.",
+      "text": "Long Island City was incorporated as a city in 1870 and became part of Greater New York in 1898.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Long_Island_City"
+    },
+    {
+      "id": 2,
+      "text": "The 755‑foot Sven tower at Queens Plaza, completed recently, ranks as the borough’s third tallest building.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Long_Island_City"
+    },
+    {
+      "id": 3,
+      "text": "In the 1970s, factories that once lined Long Island City’s waterfront began to abandon their industrial role as NYC shifted away from manufacturing.",
       "sourceSentenceIds": [
         2,
         4
@@ -34,32 +56,10 @@
       "source": "https://en.wikipedia.org/wiki/Long_Island_City"
     },
     {
-      "id": 2,
-      "text": "The 1980s rezoning of Queens Plaza spurred office construction while preservationists fought to protect landmarks like the Sohmer Piano Factory and the Pepsi‑Cola sign.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.cityneighborhoods.nyc/long-island-city"
-    },
-    {
-      "id": 3,
-      "text": "The Greater Astoria Historical Society, founded in 1985, documents Long Island City’s history.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Long_Island_City"
-    },
-    {
       "id": 4,
-      "text": "The 755‑foot Sven tower, completed at Queens Plaza, became Long Island City’s third‑tallest building.",
+      "text": "The former 1919 factory now houses the Jim Henson Company, Society Awards, and a Brooklyn Grange rooftop farm.",
       "sourceSentenceIds": [
-        8
+        16
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -68,9 +68,9 @@
     },
     {
       "id": 5,
-      "text": "Across from Socrates Sculpture Park, the Isamu Noguchi Foundation and Museum was founded in 1985 by the sculptor Isamu Noguchi.",
+      "text": "Long Island City hosts the largest fortune cookie factory in the U.S., producing four million cookies daily.",
       "sourceSentenceIds": [
-        12
+        20
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -79,9 +79,9 @@
     },
     {
       "id": 6,
-      "text": "A 1919 factory now houses the Jim Henson Company, Society Awards, and a rooftop farm run by Brooklyn Grange.",
+      "text": "The Isamu Noguchi Foundation and Museum, founded in 1985, sits across from Socrates Sculpture Park.",
       "sourceSentenceIds": [
-        20
+        10
       ],
       "sourceLabels": [
         "Wikipedia"

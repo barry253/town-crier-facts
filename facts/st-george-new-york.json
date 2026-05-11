@@ -1,8 +1,8 @@
 {
-  "place": "St George, New York",
-  "town": "St George",
+  "place": "St. George, New York",
+  "town": "St. George",
   "state": "New York",
-  "region": "New York",
+  "region": "Staten Island",
   "country": "United States",
   "slug": "st-george-new-york",
   "sources": [
@@ -12,7 +12,7 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://www.downtownsi.nyc/stgeorge"
+      "url": "https://www.cityneighborhoods.nyc/st-george"
     },
     {
       "label": "Web source 2",
@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "St. George’s ferry‑railroad terminal was renamed for developer George Law after Erastus Wiman promised to “canonize” him in exchange for land rights.",
+      "text": "St. George got its name from developer George Law, who traded land rights for the ferry terminal in exchange for Wiman’s promise to \"canonize\" him.",
       "sourceSentenceIds": [
         1,
         16
@@ -34,10 +34,10 @@
     },
     {
       "id": 2,
-      "text": "The former Richmond County Bank Ballpark opened in 2001, later renamed SIUH Community Park, and hosted the Staten Island Yankees until 2020.",
+      "text": "The 1886 ferry–railroad terminal, later rebuilt in 1951, became the hub that linked St. George to Manhattan and Brooklyn.",
       "sourceSentenceIds": [
         5,
-        8
+        19
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -46,7 +46,19 @@
     },
     {
       "id": 3,
-      "text": "Before European settlement, the Munsee‑speaking Lenape people inhabited what is now St. George.",
+      "text": "Richmond County Courthouse and the U.S. Coast Guard Station, both listed on the National Register in 1983, stand as St. George’s proud historic icons.",
+      "sourceSentenceIds": [
+        7,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/St._George%2C_Staten_Island"
+    },
+    {
+      "id": 4,
+      "text": "Long before European settlers, the Munsee‑speaking Lenape people inhabited the area that is now St. George.",
       "sourceSentenceIds": [
         9
       ],
@@ -56,19 +68,19 @@
       "source": "https://en.wikipedia.org/wiki/St._George%2C_Staten_Island"
     },
     {
-      "id": 4,
-      "text": "A surviving 1870s house at 272 Richmond Terrace remains part of a trio of similar homes built around that time.",
+      "id": 5,
+      "text": "Since 2007, a wave of artists and musicians has moved to St. George’s North Shore, drawn by space and proximity to Manhattan.",
       "sourceSentenceIds": [
-        11
+        10
       ],
       "sourceLabels": [
-        "Web source 2"
+        "Wikipedia"
       ],
-      "source": "https://preserve.org/stgeorge/stgeorgedistrict.htm"
+      "source": "https://en.wikipedia.org/wiki/St._George%2C_Staten_Island"
     },
     {
-      "id": 5,
-      "text": "Between 1878 and 1882, Joseph Wilks constructed the brick double house at 30‑32 Westervelt Avenue, showcasing Romanesque Revival style.",
+      "id": 6,
+      "text": "The brick double house at 30‑32 Westervelt Avenue, built 1878‑82, showcases Romanesque Revival style and remains one of St. George’s oldest residences.",
       "sourceSentenceIds": [
         12
       ],
@@ -76,17 +88,6 @@
         "Web source 2"
       ],
       "source": "https://preserve.org/stgeorge/stgeorgedistrict.htm"
-    },
-    {
-      "id": 6,
-      "text": "In 1951, St. George Terminal reopened after a rebuild that added a parking lot, new ferry slips, and better bus connections.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._George%2C_Staten_Island"
     }
   ]
 }
