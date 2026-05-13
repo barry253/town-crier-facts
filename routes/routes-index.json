@@ -13,6 +13,17 @@
       "file": "routes/us/ny/cross-island-parkway.json",
       "enabled": true,
       "triggerCount": 8,
+      "bbox": {
+        "minLatitude": 40.64,
+        "maxLatitude": 40.86,
+        "minLongitude": -73.82,
+        "maxLongitude": -73.705
+      },
+      "routeCorridorMeters": 1800,
+      "directions": [
+        "northbound",
+        "southbound"
+      ],
       "shield": {
         "type": "parkway",
         "label": "Cross Island Pkwy",
