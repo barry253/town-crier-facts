@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "type": "tourGuideRoute",
+  "routeId": "cross-island-parkway",
+  "routeName": "Cross Island Parkway",
+  "country": "United States",
+  "state": "New York",
+  "stateCode": "NY",
+  "region": "NYC / Long Island",
+  "bbox": {
+    "minLatitude": 40.64,
+    "maxLatitude": 40.86,
+    "minLongitude": -73.82,
+    "maxLongitude": -73.705
+  },
+  "routeCorridorMeters": 1800,
+  "directions": [
+    "northbound",
+    "southbound"
+  ],
+  "updatedAt": "2026-05-13",
+  "shield": {
+    "type": "parkway",
+    "label": "Cross Island Pkwy",
+    "wikimediaFile": "Cross_Island_Pkwy_Shield_transparent_bg.svg",
+    "wikimediaUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cross_Island_Pkwy_Shield_transparent_bg.svg"
+  },
+  "tags": [
+    "parkway",
+    "scenic",
+    "nyc",
+    "long-island"
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Initial Dynamic Tour Guide proof-of-concept route for Cross Island Parkway commute testing."
+  }
+}
+{
+  "id": "fort-totten-southbound",
+  "direction": "southbound",
+  "title": "Fort Totten",
+  "landmarkType": "historic",
+  "latitude": 40.7926,
+  "longitude": -73.7876,
+  "corridor": null,
+  "side": "left",
+  "minRadiusMeters": 225,
+  "maxRadiusMeters": 850,
+  "desiredLeadSeconds": 55,
+  "cooldownDays": 14,
+  "commentary": "Off to your left near Little Neck Bay is Fort Totten, a Civil War-era coastal defense site that later served the Army and New York City.",
+  "sources": [
+    {
+      "title": "Fort Totten",
+      "url": "https://en.wikipedia.org/wiki/Fort_Totten_(Queens)"
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "notes": "Needs real-drive timing validation."
+  }
+}
