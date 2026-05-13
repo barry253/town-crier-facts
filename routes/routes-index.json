@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "type": "tourGuideRoutesIndex",
+  "updatedAt": "2026-05-13",
+  "routes": [
+    {
+      "routeId": "cross-island-parkway",
+      "routeName": "Cross Island Parkway",
+      "country": "us",
+      "state": "ny",
+      "region": "Queens / Nassau County",
+      "file": "routes/us/ny/cross-island-parkway.json",
+      "enabled": true,
+      "bbox": {
+        "minLatitude": 40.6400,
+        "maxLatitude": 40.8600,
+        "minLongitude": -73.8200,
+        "maxLongitude": -73.7050
+      },
+      "routeCorridorMeters": 1800,
+      "directions": ["northbound", "southbound"],
+      "triggerCount": 8,
+      "shield": {
+        "type": "parkway",
+        "label": "Cross Island Pkwy",
+        "wikimediaFile": "Cross_Island_Pkwy_Shield_transparent_bg.svg",
+        "wikimediaUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Cross_Island_Pkwy_Shield_transparent_bg.svg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Initial POC route. Awaiting real-drive validation."
+      }
+    }
+  ]
+}
