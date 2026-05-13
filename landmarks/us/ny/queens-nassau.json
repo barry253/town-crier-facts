@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Queens / Nassau County",
+  "country": "us",
+  "state": "ny",
+  "updatedAt": "2026-05-13",
+  "landmarks": [
+    {
+      "id": "fort-totten",
+      "name": "Fort Totten",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7926,
+        "longitude": -73.7876
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Totten, a Civil War-era coastal defense site on Little Neck Bay that later served the Army and New York City.",
+      "sources": [
+        { "title": "Fort Totten", "url": "https://en.wikipedia.org/wiki/Fort_Totten_(Queens)" }
+      ],
+      "review": { "status": "draft", "notes": "Migrated from CIP triggers. Needs real-drive validation." }
+    },
+    {
+      "id": "little-neck-bay",
+      "name": "Little Neck Bay",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7824,
+        "longitude": -73.7887
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Little Neck Bay, a quiet inlet of Long Island Sound along the northeastern edge of Queens.",
+      "sources": [
+        { "title": "Little Neck Bay", "url": "https://en.wikipedia.org/wiki/Little_Neck_Bay" }
+      ],
+      "review": { "status": "draft", "notes": "Migrated from CIP triggers. Needs real-drive validation." }
+    },
+    {
+      "id": "alley-pond-park",
+      "name": "Alley Pond Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7505,
+        "longitude": -73.7474
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Alley Pond Park, one of New York City's largest parks — home of the Queens Giant, the oldest living thing in the city.",
+      "sources": [
+        { "title": "Alley Pond Park", "url": "https://en.wikipedia.org/wiki/Alley_Pond_Park" }
+      ],
+      "review": { "status": "draft", "notes": "Migrated from CIP triggers. Needs real-drive validation." }
+    },
+    {
+      "id": "belmont-park-ubs-arena",
+      "name": "Belmont Park and UBS Arena",
+      "landmarkType": "stadium",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7146,
+        "longitude": -73.7246
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Belmont Park, home of the Belmont Stakes, and UBS Arena, home of the New York Islanders.",
+      "sources": [
+        { "title": "Belmont Park", "url": "https://en.wikipedia.org/wiki/Belmont_Park" },
+        { "title": "UBS Arena", "url": "https://en.wikipedia.org/wiki/UBS_Arena" }
+      ],
+      "review": { "status": "draft", "notes": "Migrated from CIP triggers. Needs real-drive validation." }
+    }
+  ]
+}
