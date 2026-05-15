@@ -60,7 +60,6 @@ function getJsonUpdatedDate(json) {
 function cleanDisplayTown(name) {
   return String(name || "")
     .replace(/^,+\s*/, "")
-    .replace(/\s+(city|town|village|borough|CDP)$/i, "")
     .trim();
 }
 
