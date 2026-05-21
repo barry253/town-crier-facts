@@ -1,19 +1,33 @@
 {
   "schemaVersion": 1,
   "type": "landmarksIndex",
-  "updatedAt": "2026-05-14",
+  "updatedAt": "2026-05-21",
   "collections": [
+    {
+      "region": "Grand Central Parkway",
+      "country": "us",
+      "state": "ny",
+      "updatedAt": "2026-05-21",
+      "file": "landmarks/us/ny/grand-central-parkway.json",
+      "landmarkCount": 6,
+      "bbox": {
+        "minLatitude": 40.7397,
+        "maxLatitude": 40.7769,
+        "minLongitude": -73.8739,
+        "maxLongitude": -73.7478
+      }
+    },
     {
       "region": "Long Island Expressway",
       "country": "us",
       "state": "ny",
-      "updatedAt": "2026-05-14",
+      "updatedAt": "2026-05-21",
       "file": "landmarks/us/ny/long-island-expressway.json",
-      "landmarkCount": 5,
+      "landmarkCount": 7,
       "bbox": {
-        "minLatitude": 40.6895,
+        "minLatitude": 40.7310863,
         "maxLatitude": 40.7504156,
-        "minLongitude": -73.8443798,
+        "minLongitude": -73.8461438,
         "maxLongitude": -73.7477989
       }
     },
