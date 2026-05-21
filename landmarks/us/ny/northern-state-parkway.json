@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Northern State Parkway",
+  "country": "us",
+  "state": "ny",
+  "updatedAt": "2026-05-21",
+  "landmarks": [
+    {
+      "id": "old-westbury-gardens",
+      "name": "Old Westbury Gardens",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7878,
+        "longitude": -73.5976
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Old Westbury Gardens, recognized as one of the three best public gardens in the world by Four Seasons Hotels magazine.",
+      "sources": [
+        {
+          "title": "Old Westbury Gardens",
+          "url": "https://en.wikipedia.org/wiki/Old_Westbury_Gardens"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bethpage-state-park",
+      "name": "Bethpage State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7443,
+        "longitude": -73.4596
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bethpage State Park, best known for its five golf courses, including the famous Bethpage Black, which hosted the U.S. Open.",
+      "sources": [
+        {
+          "title": "Bethpage State Park",
+          "url": "https://en.wikipedia.org/wiki/Bethpage_State_Park"
+        }
+      ],
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}
