@@ -23,7 +23,18 @@
     .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .row > * { flex: 1; }
     .row button { flex: 0 0 auto; }
-    .tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+    .tabs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+    .state-group { margin: 8px 0; }
+    .state-group-header { font-size: 11px; font-weight: bold; color: #888; text-transform: uppercase; letter-spacing: .06em; padding: 4px 0 2px; border-bottom: 1px solid #eee; margin-bottom: 4px; }
+    .landmark-card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; margin: 14px 0; background: #fff; }
+    .landmark-card.approved { border-left: 5px solid #2e7d32; }
+    .landmark-card.draft { border-left: 5px solid #bbb; }
+    .lm-type { display: inline-block; border: 1px solid #bbb; border-radius: 999px; padding: 2px 7px; font-size: 11px; color: #555; background: #f5f5f5; margin-left: 6px; vertical-align: middle; }
+    .lm-thumb { border-radius: 8px; max-width: 110px; max-height: 80px; object-fit: cover; display: block; margin-top: 4px; }
+    .lm-coords { font-size: 11px; color: #999; margin: 4px 0 0; }
+    .lm-status-badge { display: inline-block; border-radius: 999px; padding: 3px 9px; font-size: 12px; cursor: pointer; user-select: none; border: 1px solid; }
+    .lm-status-badge.approved { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
+    .lm-status-badge.draft { color: #666; border-color: #ccc; background: #f5f5f5; }
     .tabs button.active { background: #111; color: #fff; }
     .summary { color: #666; font-size: 13px; margin: 6px 0 10px; }
     .town-list button { width: 100%; margin: 5px 0; text-align: left; display: flex; justify-content: space-between; gap: 8px; }
@@ -66,6 +77,7 @@
     <div class="tabs">
       <button id="tabProblems" class="active">Problem Queue</button>
       <button id="tabAll">All Towns</button>
+      <button id="tabLandmarks">Landmarks</button>
     </div>
     <div class="filters">
       <input id="search" type="search" placeholder="Search town, fact, source, slug" />
@@ -106,6 +118,10 @@
     let mode = 'problems';
     let currentFile = null;
     let currentTownPayload = null;
+    let lmCollections = [];
+    let currentLmState = null;
+    let currentLmFile = null;
+    let currentLmData = null;
 
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -149,6 +165,7 @@
     }
 
     function renderList(){
+      if (mode === 'landmarks') { renderLmList(); return; }
       const list = $('list');
       const state = $('stateFilter').value;
       const qa = $('qaFilter').value;
@@ -305,8 +322,145 @@
       } catch(e){ showStatus(e.message, true); }
     };
 
-    $('tabProblems').onclick = ()=>{ mode='problems'; $('tabProblems').classList.add('active'); $('tabAll').classList.remove('active'); renderList(); };
-    $('tabAll').onclick = ()=>{ mode='all'; $('tabAll').classList.add('active'); $('tabProblems').classList.remove('active'); renderList(); };
+    // ── Landmarks ──────────────────────────────────────────────────────────────
+
+    async function loadLandmarks() {
+      const idx = await api('/api/landmarks/index');
+      lmCollections = idx.collections || [];
+      renderLmList();
+    }
+
+    function renderLmList() {
+      const list = $('list');
+      list.innerHTML = '';
+      $('summary').textContent = `${lmCollections.length} landmark collections`;
+      if (!lmCollections.length) { list.innerHTML = '<div class="muted">No landmark collections found.</div>'; return; }
+      const groups = {};
+      for (const c of lmCollections) {
+        const s = (c.state || '?').toUpperCase();
+        if (!groups[s]) groups[s] = [];
+        groups[s].push(c);
+      }
+      for (const state of Object.keys(groups).sort()) {
+        const grp = document.createElement('div');
+        grp.className = 'state-group';
+        grp.innerHTML = `<div class="state-group-header">${esc(state)}</div>`;
+        for (const c of groups[state]) {
+          const fn = c.file.split('/').pop();
+          const isActive = currentLmState === c.state && currentLmFile === fn;
+          const btn = document.createElement('button');
+          btn.className = isActive ? 'active' : '';
+          btn.innerHTML = `<span class="town-title">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
+          btn.onclick = () => loadLmCollection(c.state, fn);
+          grp.appendChild(btn);
+        }
+        list.appendChild(grp);
+      }
+    }
+
+    async function loadLmCollection(state, file) {
+      currentLmState = state;
+      currentLmFile = file;
+      currentLmData = await api(`/api/landmarks/${encodeURIComponent(state)}/${encodeURIComponent(file)}`);
+      renderLmCollection();
+      renderLmList();
+    }
+
+    function renderLmCollection() {
+      const data = currentLmData;
+      $('title').textContent = data.region || currentLmFile;
+      $('subtitle').textContent = `${currentLmFile} · ${(data.landmarks||[]).length} landmarks`;
+      $('addFactBtn').style.display = 'none';
+      const el = $('facts');
+      el.innerHTML = '';
+      if (!(data.landmarks||[]).length) { el.innerHTML = '<div class="muted">No landmarks in this collection.</div>'; return; }
+      (data.landmarks || []).forEach(lm => {
+        const status = lm.review?.status || 'draft';
+        const card = document.createElement('div');
+        card.className = `landmark-card ${status === 'approved' ? 'approved' : 'draft'}`;
+        card.id = `lm-${lm.id}`;
+        const thumb = lm.image?.thumbUrl
+          ? `<img class="lm-thumb" src="${esc(lm.image.thumbUrl)}" alt="${esc(lm.name)}" />`
+          : '';
+        const wikiSrc = (lm.sources || []).find(s => s.url);
+        const wikiLink = wikiSrc
+          ? `<a href="${esc(wikiSrc.url)}" target="_blank" rel="noopener" style="font-size:12px;line-height:2">Wikipedia ↗</a>`
+          : '';
+        const lat = lm.geometry?.latitude?.toFixed(5) ?? '';
+        const lon = lm.geometry?.longitude?.toFixed(5) ?? '';
+        card.innerHTML = `
+          <div class="fact-head">
+            <div>
+              <b>${esc(lm.name)}</b><span class="lm-type">${esc(lm.landmarkType)}</span>
+              <div class="lm-coords">${lat}, ${lon}</div>
+            </div>
+            <div style="text-align:right;flex-shrink:0">
+              ${thumb}
+              <span class="lm-status-badge ${status === 'approved' ? 'approved' : 'draft'}" data-status-badge>${esc(status)}</span>
+            </div>
+          </div>
+          <div class="field"><label>Commentary</label><textarea data-field="commentary">${esc(lm.commentaryTemplate || '')}</textarea></div>
+          <div class="field"><label>Review notes</label><input data-field="notes" value="${esc(lm.review?.notes || '')}" placeholder="Optional notes" /></div>
+          <div class="actions">
+            <button class="primary" data-action="save">Save</button>
+            ${wikiLink}
+          </div>
+        `;
+        card.querySelector('[data-status-badge]').onclick = () => approveLandmark(lm.id, card, status);
+        card.querySelector('[data-action="save"]').onclick = () => saveLandmark(lm.id, card);
+        el.appendChild(card);
+      });
+    }
+
+    async function saveLandmark(landmarkId, card) {
+      try {
+        const commentary = card.querySelector('[data-field="commentary"]')?.value || '';
+        const notes = card.querySelector('[data-field="notes"]')?.value || '';
+        await api('/api/landmark/save', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ state: currentLmState, file: currentLmFile, landmarkId, commentaryTemplate: commentary, reviewNotes: notes })
+        });
+        showStatus('Saved landmark.');
+        await loadLmCollection(currentLmState, currentLmFile);
+      } catch(e) { showStatus(e.message, true); }
+    }
+
+    async function approveLandmark(landmarkId, card, currentStatus) {
+      const newStatus = currentStatus === 'approved' ? 'draft' : 'approved';
+      try {
+        const notes = card.querySelector('[data-field="notes"]')?.value || '';
+        await api('/api/landmark/review', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ state: currentLmState, file: currentLmFile, landmarkId, status: newStatus, notes })
+        });
+        showStatus(`Marked ${newStatus}.`);
+        await loadLmCollection(currentLmState, currentLmFile);
+      } catch(e) { showStatus(e.message, true); }
+    }
+
+    // ── Tab handlers ───────────────────────────────────────────────────────────
+
+    $('tabProblems').onclick = () => {
+      mode='problems';
+      $('tabProblems').classList.add('active');
+      $('tabAll').classList.remove('active');
+      $('tabLandmarks').classList.remove('active');
+      renderList();
+    };
+    $('tabAll').onclick = () => {
+      mode='all';
+      $('tabAll').classList.add('active');
+      $('tabProblems').classList.remove('active');
+      $('tabLandmarks').classList.remove('active');
+      renderList();
+    };
+    $('tabLandmarks').onclick = () => {
+      mode='landmarks';
+      $('tabLandmarks').classList.add('active');
+      $('tabProblems').classList.remove('active');
+      $('tabAll').classList.remove('active');
+      loadLandmarks().catch(e => showStatus(e.message, true));
+    };
     ['search','stateFilter','qaFilter'].forEach(id=>$(id).addEventListener('input', renderList));
     $('refreshBtn').onclick = async ()=>{ await loadAll(); if(currentFile) await loadTown(currentFile); showStatus('Refreshed.'); };
     $('gitBtn').onclick = async ()=>{

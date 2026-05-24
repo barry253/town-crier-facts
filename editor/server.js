@@ -7,6 +7,8 @@ const { spawnSync } = require('child_process');
 const repoRoot = path.resolve(__dirname, '..');
 const factsDir = path.join(repoRoot, 'facts');
 const indexPath = path.join(repoRoot, 'facts-index.json');
+const landmarksDir = path.join(repoRoot, 'landmarks');
+const landmarksIndexPath = path.join(repoRoot, 'landmarks-index.json');
 const publicDir = path.join(__dirname, 'public');
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || '127.0.0.1';
@@ -42,6 +44,25 @@ function getFactFlags(text, fact, json) {
   if (/\n/.test(raw) || /\s{2,}/.test(raw) || /�/.test(raw)) flags.push({ severity: 'warning', label: 'Formatting issue' });
   if (GENERIC_STARTERS.some((starter) => lower.startsWith(starter))) flags.push({ severity: 'weak', label: 'Generic opening' });
   return flags;
+}
+
+function safeLandmarkFile(stateCode, file) {
+  if (!stateCode || !/^[a-zA-Z]{2}$/.test(stateCode)) throw new Error('Invalid state code');
+  if (!file || typeof file !== 'string') throw new Error('Missing file');
+  if (!file.endsWith('.json')) throw new Error('Only JSON landmark files are allowed');
+  if (file.includes('/') || file.includes('\\') || file.includes('..')) throw new Error('Invalid file path');
+  return path.join(landmarksDir, 'us', stateCode.toLowerCase(), file);
+}
+
+function rebuildLandmarksIndex() {
+  const result = spawnSync('node', ['scripts/build-landmarks-index.js'], {
+    cwd: repoRoot,
+    encoding: 'utf8',
+  });
+  if (result.status !== 0) {
+    throw new Error((result.stderr || result.stdout || 'Landmarks index rebuild failed').trim());
+  }
+  return result.stdout.trim();
 }
 
 function safeFactFile(file) {
@@ -192,6 +213,54 @@ app.post('/api/fact/add', (req, res) => {
 app.get('/api/git-status', (req, res) => {
   const result = spawnSync('git', ['status', '--short'], { cwd: repoRoot, encoding: 'utf8' });
   res.json({ status: result.stdout.trim() });
+});
+
+app.get('/api/landmarks/index', (req, res) => {
+  if (!fs.existsSync(landmarksIndexPath)) return res.json({ collections: [] });
+  res.json(JSON.parse(fs.readFileSync(landmarksIndexPath, 'utf8')));
+});
+
+app.get('/api/landmarks/:state/:file', (req, res) => {
+  const fullPath = safeLandmarkFile(req.params.state, req.params.file);
+  res.json(JSON.parse(fs.readFileSync(fullPath, 'utf8')));
+});
+
+app.post('/api/landmark/save', (req, res) => {
+  const { state, file, landmarkId, commentaryTemplate, reviewStatus, reviewNotes } = req.body || {};
+  const fullPath = safeLandmarkFile(state, file);
+  const json = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+  const lm = (json.landmarks || []).find((l) => l.id === landmarkId);
+  if (!lm) throw new Error(`Landmark "${landmarkId}" not found`);
+  lm.commentaryTemplate = String(commentaryTemplate || '').trim();
+  if (reviewStatus) {
+    lm.review = {
+      ...(lm.review || {}),
+      status: reviewStatus,
+      reviewedAt: new Date().toISOString().slice(0, 10),
+      reviewedBy: 'Barry',
+      ...(reviewNotes ? { notes: reviewNotes } : {}),
+    };
+  }
+  fs.writeFileSync(fullPath, JSON.stringify(json, null, 2) + '\n');
+  const rebuild = rebuildLandmarksIndex();
+  res.json({ ok: true, rebuild });
+});
+
+app.post('/api/landmark/review', (req, res) => {
+  const { state, file, landmarkId, status, notes } = req.body || {};
+  const fullPath = safeLandmarkFile(state, file);
+  const json = JSON.parse(fs.readFileSync(fullPath, 'utf8'));
+  const lm = (json.landmarks || []).find((l) => l.id === landmarkId);
+  if (!lm) throw new Error(`Landmark "${landmarkId}" not found`);
+  lm.review = {
+    status: status || 'approved',
+    reviewedAt: new Date().toISOString().slice(0, 10),
+    reviewedBy: 'Barry',
+    ...(notes ? { notes } : {}),
+  };
+  fs.writeFileSync(fullPath, JSON.stringify(json, null, 2) + '\n');
+  const rebuild = rebuildLandmarksIndex();
+  res.json({ ok: true, rebuild });
 });
 
 app.use((error, req, res, next) => {

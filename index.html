@@ -41,6 +41,28 @@
     .flag.reviewed { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
     .source { font-size: 13px; color: #555; margin-top: 8px; word-break: break-word; }
     .empty { color: #777; font-style: italic; }
+    /* Mode tabs */
+    .mode-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
+    .mode-tabs button { width: 100%; margin: 0; text-align: center; padding: 9px; font-size: 14px; }
+    .mode-tabs button.active { background: #111; color: #fff; border-color: #111; font-weight: bold; }
+    /* Landmark list */
+    .lm-group { margin: 10px 0; }
+    .lm-group-header { font-size: 11px; font-weight: bold; color: #888; text-transform: uppercase; letter-spacing: .06em; padding: 4px 0 2px; border-bottom: 1px solid #eee; margin-bottom: 4px; }
+    /* Landmark cards */
+    .lm-card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 16px 0; }
+    .lm-card-top { display: flex; gap: 14px; align-items: flex-start; margin-bottom: 8px; }
+    .lm-img-link { flex-shrink: 0; }
+    .lm-img { border-radius: 8px; width: 130px; height: 88px; object-fit: cover; display: block; }
+    .lm-info { flex: 1; min-width: 0; }
+    .lm-name { font-size: 18px; font-weight: bold; margin: 0 0 5px; line-height: 1.25; }
+    .lm-type-tag { display: inline-block; border: 1px solid #bbb; border-radius: 999px; padding: 2px 8px; font-size: 12px; color: #555; background: #f5f5f5; }
+    .lm-coords { font-size: 11px; color: #aaa; margin-top: 5px; }
+    .lm-commentary { font-size: 16px; line-height: 1.5; color: #222; margin: 10px 0 8px; }
+    .lm-links { font-size: 13px; display: flex; gap: 16px; flex-wrap: wrap; margin: 6px 0 4px; }
+    .lm-links a { color: #555; text-decoration: none; }
+    .lm-links a:hover { text-decoration: underline; }
+    .lm-attr { font-size: 11px; color: #aaa; margin-top: 6px; }
+    .lm-attr a { color: #aaa; }
     @media (max-width: 700px) {
       body { display: block; height: auto; min-height: 100vh; }
       aside { width: 100%; max-height: 50vh; border-right: none; border-bottom: 1px solid #ddd; padding: 14px; }
@@ -52,33 +74,48 @@
       .group-toggle, .town-button { align-items: flex-start; }
       .count { white-space: normal; text-align: right; }
       .fact { font-size: 16px; }
+      .lm-card-top { flex-direction: column; }
+      .lm-img { width: 100%; height: 180px; }
     }
   </style>
 </head>
 <body>
   <aside>
     <h2>Town Crier Facts</h2>
-    <div class="filters">
-      <input id="searchInput" type="search" placeholder="Search town, state, or country" />
-      <div class="filter-row">
-        <select id="groupFilter"><option value="">All groups</option></select>
-        <select id="qaFilter">
-          <option value="all">All towns</option>
-          <option value="issues">Has any warnings/issues</option>
-          <option value="bad">Has bad facts</option>
-          <option value="warning">Has warnings</option>
-          <option value="weak">Has weak facts</option>
-          <option value="clean">No flags</option>
-          <option value="low-count">Low fact count (&lt; 6)</option>
-        </select>
-      </div>
-      <div class="filter-summary" id="filterSummary">Loading...</div>
+    <div class="mode-tabs">
+      <button id="tabFacts" class="active">Facts</button>
+      <button id="tabLandmarks">Landmarks</button>
     </div>
-    <div id="townList">Loading...</div>
+    <div id="factsPanel">
+      <div class="filters">
+        <input id="searchInput" type="search" placeholder="Search town, state, or country" />
+        <div class="filter-row">
+          <select id="groupFilter"><option value="">All groups</option></select>
+          <select id="qaFilter">
+            <option value="all">All towns</option>
+            <option value="issues">Has any warnings/issues</option>
+            <option value="bad">Has bad facts</option>
+            <option value="warning">Has warnings</option>
+            <option value="weak">Has weak facts</option>
+            <option value="clean">No flags</option>
+            <option value="low-count">Low fact count (&lt; 6)</option>
+          </select>
+        </div>
+        <div class="filter-summary" id="filterSummary">Loading...</div>
+      </div>
+      <div id="townList">Loading...</div>
+    </div>
+    <div id="lmPanel" style="display:none">
+      <div class="filters">
+        <input id="lmSearch" type="search" placeholder="Search collections" />
+        <div class="filter-summary" id="lmSummary"></div>
+      </div>
+      <div id="lmList"></div>
+    </div>
   </aside>
   <main>
-    <h1>Select a town</h1>
-    <div class="toolbar">
+    <h1 id="mainTitle">Select a town</h1>
+    <div class="toolbar" id="factsToolbar">
       <label><input type="checkbox" id="showSources" checked /> Show sources</label>
       <label><input type="checkbox" id="showFlags" checked /> Show auto-flags</label>
     </div>
@@ -89,12 +126,20 @@
     let currentTown = null;
     let currentJson = null;
     const factCache = new Map();
+    let viewMode = 'facts';
+    let lmCollections = [];
+    let currentLmData = null;
+    const lmCache = new Map();
 
     const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
     const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
     const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
-    const END_PUNCTUATION = /[.!?。！？…\"'”’)]$/;
+    const END_PUNCTUATION = /[.!?。！？…\"'"')]$/;
     const REVIEWED_STATUSES = new Set(["approved", "ignore_flag", "reviewed"]);
+
+    const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    function htmlDecode(s) { const d = document.createElement('div'); d.innerHTML = s || ''; return d.textContent || ''; }
+    function fixUrl(u) { return (u || '').startsWith('//') ? 'https:' + u : u; }
 
     function cleanText(v){ return String(v||"").replace(/\n/g," ").replace(/\s+/g," ").trim(); }
     function getGroupLabel(t){ return t.state || t.country || "Other"; }
@@ -107,7 +152,6 @@
 
     function getFactFlags(text, fact, json){
       if (isReviewedFact(fact)) return [];
-
       const raw = String(fact.text || fact.fact || "");
       const cleaned = cleanText(text);
       const lower = cleaned.toLowerCase();
@@ -230,6 +274,7 @@
       currentTown = town;
       document.querySelectorAll("aside button").forEach(b=>b.classList.remove("active"));
       btn.classList.add("active");
+      document.getElementById("tabFacts").classList.add("active");
       wrapper.classList.add("open");
       currentJson = await fetchTownJson(town);
       renderTown();
@@ -241,7 +286,8 @@
       const facts = currentJson.facts || [];
       const showSources = document.getElementById("showSources").checked;
       const showFlags = document.getElementById("showFlags").checked;
-      document.querySelector("main h1").textContent = currentJson.place || currentTown?.place || getTownLabel(currentTown || {});
+      document.getElementById("mainTitle").textContent = currentJson.place || currentTown?.place || getTownLabel(currentTown || {});
+      document.getElementById("factsToolbar").style.display = '';
       const container = document.getElementById("facts");
       container.innerHTML = "";
       if (!facts.length) { container.className = "empty"; container.textContent = "No facts found."; return; }
@@ -259,11 +305,10 @@
           if (isReviewedFact(f)) {
             flagList.unshift({ severity: "reviewed", label: "Reviewed" });
           }
-
           if(flagList.length){
             const flagBox = document.createElement("div");
             flagBox.className = "flags";
-            flagBox.innerHTML = flagList.map(flag => `<span class="flag ${flag.severity}">${flag.label}</span>`).join("");
+            flagBox.innerHTML = flagList.map(flag => `<span class="flag ${flag.severity}">${esc(flag.label)}</span>`).join("");
             d.appendChild(flagBox);
           }
         }
@@ -280,7 +325,171 @@
       });
     }
 
+    // ── Landmarks ─────────────────────────────────────────────────────────────
+
+    async function loadLandmarksIndex() {
+      document.getElementById("lmSummary").textContent = "Loading...";
+      document.getElementById("lmList").innerHTML = "";
+      const res = await fetch(`./landmarks-index.json?v=${Date.now()}`);
+      const data = await res.json();
+      lmCollections = data.collections || [];
+      renderLandmarkList();
+    }
+
+    function renderLandmarkList() {
+      const q = document.getElementById("lmSearch").value.trim().toLowerCase();
+      const visible = q
+        ? lmCollections.filter(c => (c.region || '').toLowerCase().includes(q) || (c.state || '').toLowerCase().includes(q))
+        : lmCollections;
+      const totalLandmarks = visible.reduce((s, c) => s + (c.landmarkCount || 0), 0);
+      document.getElementById("lmSummary").textContent = `${visible.length} collections · ${totalLandmarks} landmarks`;
+      const el = document.getElementById("lmList");
+      el.innerHTML = "";
+      if (!visible.length) { el.innerHTML = '<div class="empty">No collections match.</div>'; return; }
+      const groups = {};
+      for (const c of visible) {
+        const s = (c.state || '?').toUpperCase();
+        if (!groups[s]) groups[s] = [];
+        groups[s].push(c);
+      }
+      Object.keys(groups).sort().forEach(state => {
+        const grp = document.createElement("div");
+        grp.className = "lm-group";
+        grp.innerHTML = `<div class="lm-group-header">${esc(state)}</div>`;
+        for (const c of groups[state]) {
+          const btn = document.createElement("button");
+          btn.className = "town-button" + (currentLmData?.file === c.file ? " active" : "");
+          btn.innerHTML = `<span class="town-name">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
+          btn.onclick = () => loadLandmarkCollection(c);
+          grp.appendChild(btn);
+        }
+        el.appendChild(grp);
+      });
+    }
+
+    async function loadLandmarkCollection(collection) {
+      const url = `./${collection.file}?v=${Date.now()}`;
+      let data;
+      if (lmCache.has(collection.file)) {
+        data = lmCache.get(collection.file);
+      } else {
+        const res = await fetch(url);
+        data = await res.json();
+        data.file = collection.file;
+        lmCache.set(collection.file, data);
+      }
+      currentLmData = data;
+      renderLandmarkCollection();
+      renderLandmarkList();
+      if (window.innerWidth <= 700) document.querySelector("main").scrollIntoView({ behavior: "smooth" });
+    }
+
+    function renderLandmarkCollection() {
+      const data = currentLmData;
+      document.getElementById("mainTitle").textContent = data.region || data.file || "Landmarks";
+      document.getElementById("factsToolbar").style.display = "none";
+      const container = document.getElementById("facts");
+      container.innerHTML = "";
+      const landmarks = data.landmarks || [];
+      if (!landmarks.length) { container.className = "empty"; container.textContent = "No landmarks in this collection."; return; }
+      container.className = "";
+      landmarks.forEach(lm => {
+        const lat = lm.geometry?.latitude;
+        const lon = lm.geometry?.longitude;
+        const osmUrl = (lat != null && lon != null)
+          ? `https://www.openstreetmap.org/?mlat=${lat.toFixed(5)}&mlon=${lon.toFixed(5)}&zoom=15`
+          : null;
+        const wikiSrc = (lm.sources || []).find(s => s.url);
+        const img = lm.image;
+
+        const card = document.createElement("div");
+        card.className = "lm-card";
+
+        let imgHtml = "";
+        if (img?.thumbUrl) {
+          const imgPageUrl = img.filePageUrl || img.url || img.thumbUrl;
+          imgHtml = `<a href="${esc(imgPageUrl)}" target="_blank" rel="noopener" class="lm-img-link"><img class="lm-img" src="${esc(img.thumbUrl)}" alt="${esc(lm.name)}" loading="lazy" /></a>`;
+        }
+
+        let attrHtml = "";
+        if (img) {
+          const authorRaw = htmlDecode(img.authorName || "");
+          const authorUrlRaw = fixUrl(htmlDecode(img.authorUrl || ""));
+          const licenseRaw = img.licenseShortName || "";
+          const licenseUrlRaw = img.licenseUrl || "";
+          const authorPart = authorRaw
+            ? (authorUrlRaw ? `<a href="${esc(authorUrlRaw)}" target="_blank" rel="noopener">${esc(authorRaw)}</a>` : esc(authorRaw))
+            : "";
+          const licensePart = licenseRaw
+            ? (licenseUrlRaw ? `<a href="${esc(licenseUrlRaw)}" target="_blank" rel="noopener">${esc(licenseRaw)}</a>` : esc(licenseRaw))
+            : "";
+          const parts = [authorPart, licensePart].filter(Boolean);
+          if (parts.length) attrHtml = `<div class="lm-attr">${parts.join(" · ")}</div>`;
+        }
+
+        const linkParts = [
+          wikiSrc ? `<a href="${esc(wikiSrc.url)}" target="_blank" rel="noopener">Wikipedia ↗</a>` : "",
+          osmUrl  ? `<a href="${esc(osmUrl)}" target="_blank" rel="noopener">Map ↗</a>` : "",
+          img?.filePageUrl ? `<a href="${esc(img.filePageUrl)}" target="_blank" rel="noopener">Photo ↗</a>` : "",
+        ].filter(Boolean);
+
+        card.innerHTML = `
+          <div class="lm-card-top">
+            ${imgHtml}
+            <div class="lm-info">
+              <div class="lm-name">${esc(lm.name)}</div>
+              <span class="lm-type-tag">${esc(lm.landmarkType || "")}</span>
+              ${lat != null && lon != null ? `<div class="lm-coords">${lat.toFixed(5)}, ${lon.toFixed(5)}</div>` : ""}
+            </div>
+          </div>
+          <div class="lm-commentary">${esc(lm.commentaryTemplate || "")}</div>
+          ${linkParts.length ? `<div class="lm-links">${linkParts.join("")}</div>` : ""}
+          ${attrHtml}
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // ── Tab handlers ──────────────────────────────────────────────────────────
+
+    document.getElementById("tabFacts").onclick = () => {
+      if (viewMode === "facts") return;
+      viewMode = "facts";
+      document.getElementById("tabFacts").classList.add("active");
+      document.getElementById("tabLandmarks").classList.remove("active");
+      document.getElementById("factsPanel").style.display = "";
+      document.getElementById("lmPanel").style.display = "none";
+      document.getElementById("factsToolbar").style.display = "";
+      if (currentJson) {
+        renderTown();
+      } else {
+        document.getElementById("mainTitle").textContent = "Select a town";
+        document.getElementById("facts").className = "empty";
+        document.getElementById("facts").textContent = "Choose a town.";
+      }
+    };
+
+    document.getElementById("tabLandmarks").onclick = () => {
+      if (viewMode === "landmarks") return;
+      viewMode = "landmarks";
+      document.getElementById("tabLandmarks").classList.add("active");
+      document.getElementById("tabFacts").classList.remove("active");
+      document.getElementById("lmPanel").style.display = "";
+      document.getElementById("factsPanel").style.display = "none";
+      document.getElementById("factsToolbar").style.display = "none";
+      if (currentLmData) {
+        renderLandmarkCollection();
+      } else {
+        document.getElementById("mainTitle").textContent = "Select a collection";
+        document.getElementById("facts").className = "empty";
+        document.getElementById("facts").textContent = "Choose a landmark collection.";
+      }
+      if (!lmCollections.length) loadLandmarksIndex().catch(e => { document.getElementById("lmSummary").textContent = "Failed to load: " + e.message; });
+      else renderLandmarkList();
+    };
+
     ["searchInput", "groupFilter", "qaFilter"].forEach(id => document.getElementById(id).addEventListener("input", renderTownList));
+    document.getElementById("lmSearch").addEventListener("input", renderLandmarkList);
     document.getElementById("showSources").addEventListener("change", renderTown);
     document.getElementById("showFlags").addEventListener("change", renderTown);
     loadIndex();
