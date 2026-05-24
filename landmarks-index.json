@@ -1,8 +1,22 @@
 {
   "schemaVersion": 1,
   "type": "landmarksIndex",
-  "updatedAt": "2026-05-21",
+  "updatedAt": "2026-05-24",
   "collections": [
+    {
+      "region": "Belt Parkway",
+      "country": "us",
+      "state": "ny",
+      "updatedAt": "2026-05-21",
+      "file": "landmarks/us/ny/belt-parkway.json",
+      "landmarkCount": 5,
+      "bbox": {
+        "minLatitude": 40.5632,
+        "maxLatitude": 40.6502,
+        "minLongitude": -74.0448,
+        "maxLongitude": -73.8796
+      }
+    },
     {
       "region": "Grand Central Parkway",
       "country": "us",
@@ -32,6 +46,20 @@
       }
     },
     {
+      "region": "Nassau County, New York",
+      "country": "us",
+      "state": "ny",
+      "updatedAt": "2026-05-24",
+      "file": "landmarks/us/ny/nassau-county.json",
+      "landmarkCount": 10,
+      "bbox": {
+        "minLatitude": 40.59583333333334,
+        "maxLatitude": 40.884,
+        "minLongitude": -73.72277777777778,
+        "maxLongitude": -73.51527777777778
+      }
+    },
+    {
       "region": "Northern State Parkway",
       "country": "us",
       "state": "ny",
@@ -57,6 +85,20 @@
         "maxLatitude": 40.7926,
         "minLongitude": -73.7887,
         "maxLongitude": -73.7246
+      }
+    },
+    {
+      "region": "Queens County, New York",
+      "country": "us",
+      "state": "ny",
+      "updatedAt": "2026-05-24",
+      "file": "landmarks/us/ny/queens-county.json",
+      "landmarkCount": 11,
+      "bbox": {
+        "minLatitude": 40.586,
+        "maxLatitude": 40.775,
+        "minLongitude": -73.936545,
+        "maxLongitude": -73.72027777777778
       }
     }
   ]
