@@ -7,23 +7,234 @@
   "updatedAt": "2026-05-25",
   "landmarks": [
     {
-      "id": "amazing-port-street-garden",
-      "name": "Amazing Port Street Garden",
+      "id": "bugle-field",
+      "name": "Bugle Field",
       "landmarkType": "park",
       "geometry": {
         "type": "point",
-        "latitude": 39.2982909,
-        "longitude": -76.5828098
+        "latitude": 39.30958333333333,
+        "longitude": -76.572
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Amazing Port Street Garden, a community space that promotes urban gardening and sustainability since its establishment.",
+      "commentaryTemplate": "{{side}} is Bugle Field, a historic site that has served the community since the early 20th century.",
       "sources": [
         {
-          "title": "Amazing Port Street Garden",
-          "url": "https://en.wikipedia.org/wiki/Amazing_Port_Street_Garden"
+          "title": "Bugle Field",
+          "url": "https://en.wikipedia.org/wiki/Bugle_Field"
         }
       ],
       "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "berea-biddle-street-historic-district",
+      "name": "Berea–Biddle Street Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.305,
+        "longitude": -76.5786111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Berea–Biddle Street Historic District, recognized for its unique architecture dating back to the late 1800s.",
+      "sources": [
+        {
+          "title": "Berea–Biddle Street Historic District",
+          "url": "https://en.wikipedia.org/wiki/Berea%E2%80%93Biddle_Street_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "east-monument-historic-district",
+      "name": "East Monument Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.300555555555555,
+        "longitude": -76.58
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the East Monument Historic District, featuring buildings that reflect Baltimore's rich architectural heritage from the 19th century.",
+      "sources": [
+        {
+          "title": "East Monument Historic District",
+          "url": "https://en.wikipedia.org/wiki/East_Monument_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Row_houses_in_East_Monument_Historic_District%2C_Baltimore%2C_Maryland.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Row_houses_in_East_Monument_Historic_District%2C_Baltimore%2C_Maryland.JPG/1920px-Row_houses_in_East_Monument_Historic_District%2C_Baltimore%2C_Maryland.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "laurel-cemetery",
+      "name": "Laurel Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.318333333333335,
+        "longitude": -76.57583333333334
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Laurel Cemetery, established in 1852, known for its significant African American burial sites.",
+      "sources": [
+        {
+          "title": "Laurel Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Laurel_Cemetery"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Erdman_Avenue_%26_Belair_Road_Bus_Shelter_in_Belair-Edison%2C_Baltimore%2C_MD.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Erdman_Avenue_%26_Belair_Road_Bus_Shelter_in_Belair-Edison%2C_Baltimore%2C_MD.jpg/1920px-Erdman_Avenue_%26_Belair_Road_Bus_Shelter_in_Belair-Edison%2C_Baltimore%2C_MD.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "ellwood-park",
+      "name": "Ellwood Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.29694444444444,
+        "longitude": -76.5736111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Ellwood Park, a green space that has been a community gathering spot since the 1920s.",
+      "sources": [
+        {
+          "title": "Ellwood Park",
+          "url": "https://en.wikipedia.org/wiki/Ellwood_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bohemian-national-cemetery",
+      "name": "Bohemian National Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.30777777777777,
+        "longitude": -76.55361111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bohemian National Cemetery, founded in 1889, honoring the Czech and Slovak communities in Baltimore.",
+      "sources": [
+        {
+          "title": "Bohemian National Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Bohemian_National_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "lieber-institute-for-brain-development",
+      "name": "Lieber Institute for Brain Development",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.30014,
+        "longitude": -76.59062
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Lieber Institute for Brain Development, dedicated to groundbreaking research since its establishment in 2010.",
+      "sources": [
+        {
+          "title": "Lieber Institute for Brain Development",
+          "url": "https://en.wikipedia.org/wiki/Lieber_Institute_for_Brain_Development"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "wilmer-ophthalmological-institute",
+      "name": "Wilmer Ophthalmological Institute",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.296647,
+        "longitude": -76.593045
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Wilmer Ophthalmological Institute, a leader in eye care and research since 1925.",
+      "sources": [
+        {
+          "title": "Wilmer Ophthalmological Institute",
+          "url": "https://en.wikipedia.org/wiki/Wilmer_Ophthalmological_Institute"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bankard-gunther-mansion",
+      "name": "Bankard-Gunther Mansion",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.29194444444444,
+        "longitude": -76.58722222222222
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Bankard-Gunther Mansion, a historic home built in 1914, showcasing early 20th-century architecture.",
+      "sources": [
+        {
+          "title": "Bankard-Gunther Mansion",
+          "url": "https://en.wikipedia.org/wiki/Bankard-Gunther_Mansion"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/BG_Mansion_2_Baltimore.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/BG_Mansion_2_Baltimore.JPG/1920px-BG_Mansion_2_Baltimore.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
       "review": {
         "status": "draft",
         "notes": "Auto-generated. Needs real-drive validation."
@@ -39,126 +250,11 @@
         "longitude": -76.5784518
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Baltimore Cemetery, founded in 1820, which serves as the final resting place for many notable citizens.",
+      "commentaryTemplate": "{{side}} is Baltimore Cemetery, established in 1820, known for its notable burials and historic significance.",
       "sources": [
         {
           "title": "Baltimore Cemetery",
           "url": "https://en.wikipedia.org/wiki/Baltimore_Cemetery"
-        }
-      ],
-      "image": null,
-      "review": {
-        "status": "draft",
-        "notes": "Auto-generated. Needs real-drive validation."
-      }
-    },
-    {
-      "id": "butchers-hill-historic-district",
-      "name": "Butchers Hill Historic District",
-      "landmarkType": "historic",
-      "geometry": {
-        "type": "point",
-        "latitude": 39.2917739,
-        "longitude": -76.5874661
-      },
-      "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Butchers Hill Historic District, recognized for its Victorian architecture and rich history dating back to the 19th century.",
-      "sources": [
-        {
-          "title": "Butchers Hill Historic District",
-          "url": "https://en.wikipedia.org/wiki/Butchers_Hill_Historic_District"
-        }
-      ],
-      "image": null,
-      "review": {
-        "status": "draft",
-        "notes": "Auto-generated. Needs real-drive validation."
-      }
-    },
-    {
-      "id": "frank-c-bocek-park",
-      "name": "Frank C. Bocek Park",
-      "landmarkType": "park",
-      "geometry": {
-        "type": "point",
-        "latitude": 39.301379,
-        "longitude": -76.574825
-      },
-      "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Frank C. Bocek Park, named after a local community leader who served the area in the 20th century.",
-      "sources": [
-        {
-          "title": "Frank C. Bocek Park",
-          "url": "https://en.wikipedia.org/wiki/Frank_C._Bocek_Park"
-        }
-      ],
-      "image": null,
-      "review": {
-        "status": "draft",
-        "notes": "Auto-generated. Needs real-drive validation."
-      }
-    },
-    {
-      "id": "broadway-east-park",
-      "name": "Broadway East Park",
-      "landmarkType": "park",
-      "geometry": {
-        "type": "point",
-        "latitude": 39.3081851,
-        "longitude": -76.5890519
-      },
-      "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Broadway East Park, a green space that fosters community engagement and recreation in the heart of Baltimore.",
-      "sources": [
-        {
-          "title": "Broadway East Park",
-          "url": "https://en.wikipedia.org/wiki/Broadway_East_Park"
-        }
-      ],
-      "image": null,
-      "review": {
-        "status": "draft",
-        "notes": "Auto-generated. Needs real-drive validation."
-      }
-    },
-    {
-      "id": "ellwood-park",
-      "name": "Ellwood Park",
-      "landmarkType": "park",
-      "geometry": {
-        "type": "point",
-        "latitude": 39.2963118,
-        "longitude": -76.5745433
-      },
-      "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Ellwood Park, a cherished green space that has provided recreational opportunities for families since its inception.",
-      "sources": [
-        {
-          "title": "Ellwood Park",
-          "url": "https://en.wikipedia.org/wiki/Ellwood_Park"
-        }
-      ],
-      "image": null,
-      "review": {
-        "status": "draft",
-        "notes": "Auto-generated. Needs real-drive validation."
-      }
-    },
-    {
-      "id": "luzerne-avenue-park",
-      "name": "Luzerne Avenue Park",
-      "landmarkType": "park",
-      "geometry": {
-        "type": "point",
-        "latitude": 39.30431,
-        "longitude": -76.580517
-      },
-      "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Luzerne Avenue Park, a community park that has been a vital part of local life since its establishment.",
-      "sources": [
-        {
-          "title": "Luzerne Avenue Park",
-          "url": "https://en.wikipedia.org/wiki/Luzerne_Avenue_Park"
         }
       ],
       "image": null,
