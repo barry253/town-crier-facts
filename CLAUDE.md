@@ -104,3 +104,58 @@ Randalls Island.
   rsync -av ~/town-facts-lab/output/ /path/to/town-crier-facts/facts/
   ```
 - After every sync: rebuild index and push (see above).
+
+---
+
+## Landmark Collections (NEW — May 2026)
+
+Landmark collections are pre-generated county-by-county
+and stored alongside facts.
+
+### Layout
+
+```
+landmarks/us/ny/nassau-county.json
+landmarks/us/nj/hudson-county.json
+landmarks-index.json  (never edit manually)
+```
+
+### After any change to landmarks/
+
+```bash
+node scripts/build-landmarks-index.js
+git add landmarks landmarks-index.json && git commit && git push
+```
+
+### Landmark schema (v1)
+
+`schemaVersion: 1, type: "landmarkCollection"`
+
+Each landmark has: `id`, `name`, `landmarkType`, `geometry` (point),
+`radiusMeters`, `commentaryTemplate`, `sources`, `image`, `review`.
+
+`image` is null or has: `url`, `thumbUrl`, `caption`,
+`licenseShortName`, `licenseUrl`, `authorName`, `authorUrl`, `filePageUrl`.
+
+`review.status` is `"draft"` (auto-generated) or `"approved"`
+(real-world validated).
+
+### Commentary rules
+
+- Starts with `{{side}}` — app replaces with "On your left", "On your right", or "Ahead"
+- 15–25 words total
+- One specific fact: year, named person, record, or event
+- Never describes location
+- Natural spoken audio cadence
+
+### Generation
+
+Run on Pi from `~/town-facts-lab`:
+
+```bash
+npx tsx scripts/generateCounty.ts "Nassau County" "NY"
+npx tsx scripts/generateCountyBatch.ts
+```
+
+Never edit `landmarks-index.json` manually.
+The local editor at http://localhost:8787 includes a Landmarks tab for browsing and editing.
