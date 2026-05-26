@@ -336,9 +336,27 @@
       renderLandmarkList();
     }
 
+    const STATE_NAMES = {
+      AL:'Alabama', AK:'Alaska', AZ:'Arizona', AR:'Arkansas', CA:'California',
+      CO:'Colorado', CT:'Connecticut', DC:'District of Columbia', DE:'Delaware',
+      FL:'Florida', GA:'Georgia', HI:'Hawaii', ID:'Idaho', IL:'Illinois',
+      IN:'Indiana', IA:'Iowa', KS:'Kansas', KY:'Kentucky', LA:'Louisiana',
+      ME:'Maine', MD:'Maryland', MA:'Massachusetts', MI:'Michigan', MN:'Minnesota',
+      MS:'Mississippi', MO:'Missouri', MT:'Montana', NE:'Nebraska', NV:'Nevada',
+      NH:'New Hampshire', NJ:'New Jersey', NM:'New Mexico', NY:'New York',
+      NC:'North Carolina', ND:'North Dakota', OH:'Ohio', OK:'Oklahoma',
+      OR:'Oregon', PA:'Pennsylvania', RI:'Rhode Island', SC:'South Carolina',
+      SD:'South Dakota', TN:'Tennessee', TX:'Texas', UT:'Utah', VT:'Vermont',
+      VA:'Virginia', WA:'Washington', WV:'West Virginia', WI:'Wisconsin', WY:'Wyoming'
+    };
+
     function countryDisplayName(code) {
       const map = { us: 'United States', il: 'Israel', gb: 'United Kingdom' };
       return map[(code || '').toLowerCase()] || (code || '?').toUpperCase();
+    }
+
+    function stripSuffix(region) {
+      return region.includes(',') ? region.split(',')[0].trim() : region;
     }
 
     function renderLandmarkList() {
@@ -367,9 +385,10 @@
         const ctryCollections = byCountry[ctryCode];
         const ctryName = countryDisplayName(ctryCode);
         const totalCtryLandmarks = ctryCollections.reduce((s, c) => s + (c.landmarkCount || 0), 0);
+        const ctryHasActive = ctryCollections.some(c => c.file === currentLmData?.file);
 
         const ctryWrapper = document.createElement("div");
-        ctryWrapper.className = "group";
+        ctryWrapper.className = "group" + (ctryHasActive ? " open" : "");
         const ctryToggle = document.createElement("button");
         ctryToggle.className = "group-toggle";
         ctryToggle.innerHTML = `<span class="group-title">${esc(ctryName)}</span><span class="count">${ctryCollections.length} collections · ${totalCtryLandmarks} landmarks</span>`;
@@ -384,21 +403,23 @@
             if (!byState[s]) byState[s] = [];
             byState[s].push(c);
           }
-          Object.keys(byState).sort().forEach(state => {
-            const stateCollections = byState[state];
+          Object.keys(byState).sort().forEach(stateCode => {
+            const stateCollections = byState[stateCode];
+            const stateName = STATE_NAMES[stateCode] || stateCode;
             const totalStateLandmarks = stateCollections.reduce((s, c) => s + (c.landmarkCount || 0), 0);
+            const stateHasActive = stateCollections.some(c => c.file === currentLmData?.file);
             const stateWrapper = document.createElement("div");
-            stateWrapper.className = "group";
+            stateWrapper.className = "group" + (stateHasActive ? " open" : "");
             const stateToggle = document.createElement("button");
             stateToggle.className = "group-toggle";
-            stateToggle.innerHTML = `<span class="group-title">${esc(state)}</span><span class="count">${stateCollections.length} · ${totalStateLandmarks} landmarks</span>`;
+            stateToggle.innerHTML = `<span class="group-title">${esc(stateName)}</span><span class="count">${stateCollections.length} · ${totalStateLandmarks} landmarks</span>`;
             const stateItems = document.createElement("div");
             stateItems.className = "group-items";
             stateToggle.onclick = () => stateWrapper.classList.toggle("open");
             stateCollections.forEach(c => {
               const btn = document.createElement("button");
               btn.className = "town-button" + (currentLmData?.file === c.file ? " active" : "");
-              btn.innerHTML = `<span class="town-name">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
+              btn.innerHTML = `<span class="town-name">${esc(stripSuffix(c.region || ''))}</span><span class="count">${c.landmarkCount} landmarks</span>`;
               btn.onclick = () => loadLandmarkCollection(c);
               stateItems.appendChild(btn);
             });
@@ -410,7 +431,7 @@
           ctryCollections.forEach(c => {
             const btn = document.createElement("button");
             btn.className = "town-button" + (currentLmData?.file === c.file ? " active" : "");
-            btn.innerHTML = `<span class="town-name">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
+            btn.innerHTML = `<span class="town-name">${esc(stripSuffix(c.region || ''))}</span><span class="count">${c.landmarkCount} landmarks</span>`;
             btn.onclick = () => loadLandmarkCollection(c);
             ctryItems.appendChild(btn);
           });
