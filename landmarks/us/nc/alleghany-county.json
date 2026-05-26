@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Alleghany County, North Carolina",
+  "country": "us",
+  "state": "nc",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "stone-mountain-state-park",
+      "name": "Stone Mountain State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.3873,
+        "longitude": -81.0273
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Stone Mountain State Park, known for its stunning granite face that rises 600 feet above the valley.",
+      "sources": [
+        {
+          "title": "Stone Mountain State Park",
+          "url": "https://en.wikipedia.org/wiki/Stone_Mountain_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Climbers_ascending_Stone_Mountain.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Climbers_ascending_Stone_Mountain.jpg",
+        "caption": "Photo by Forrest L. Smith, III.  Climbers ascending Stone Mountain, October 2006.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Original author was Filberthockey at English Wikipedia",
+        "authorUrl": "https://en.wikipedia.org/wiki/User:Filberthockey",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Climbers_ascending_Stone_Mountain.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "veterans-memorial-park",
+      "name": "Veterans Memorial Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.5003759,
+        "longitude": -81.1202217
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Veterans Memorial Park, dedicated to honoring local veterans since its establishment in 2003.",
+      "sources": [
+        {
+          "title": "Veterans Memorial Park",
+          "url": "https://en.wikipedia.org/wiki/Veterans_Memorial_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

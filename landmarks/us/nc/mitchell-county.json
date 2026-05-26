@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Mitchell County, North Carolina",
+  "country": "us",
+  "state": "nc",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "downtown-spruce-pine-historic-district",
+      "name": "Downtown Spruce Pine Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.91611111111111,
+        "longitude": -82.07
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Downtown Spruce Pine Historic District, recognized for its architectural significance since its establishment in the early 1900s.",
+      "sources": [
+        {
+          "title": "Downtown Spruce Pine Historic District",
+          "url": "https://en.wikipedia.org/wiki/Downtown_Spruce_Pine_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Spruce_Pine-27527-3.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Spruce_Pine-27527-3.jpg/1920px-Spruce_Pine-27527-3.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "pinebridge-coliseum",
+      "name": "Pinebridge Coliseum",
+      "landmarkType": "stadium",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.91277777777778,
+        "longitude": -82.0675
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Pinebridge Coliseum, a venue that has hosted various community events and sports since its opening in 1990.",
+      "sources": [
+        {
+          "title": "Pinebridge Coliseum",
+          "url": "https://en.wikipedia.org/wiki/Pinebridge_Coliseum"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

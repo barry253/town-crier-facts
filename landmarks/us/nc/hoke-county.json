@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Hoke County, North Carolina",
+  "country": "us",
+  "state": "nc",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "raeford-historic-district",
+      "name": "Raeford Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.97833333333333,
+        "longitude": -79.22277777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Raeford Historic District, recognized for its charming architecture dating back to the late 19th century.",
+      "sources": [
+        {
+          "title": "Raeford Historic District",
+          "url": "https://en.wikipedia.org/wiki/Raeford_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/RAEFORD_HISTORIC_DISTRICT%2C_HOKE_COUNTY.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/RAEFORD_HISTORIC_DISTRICT%2C_HOKE_COUNTY.jpg/1920px-RAEFORD_HISTORIC_DISTRICT%2C_HOKE_COUNTY.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "hoke-county-community-forest",
+      "name": "Hoke County Community Forest",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.0136123,
+        "longitude": -79.2366438
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Hoke County Community Forest, a natural area established to promote conservation and outdoor recreation.",
+      "sources": [
+        {
+          "title": "Hoke County Community Forest",
+          "url": "https://en.wikipedia.org/wiki/Hoke_County_Community_Forest"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}
