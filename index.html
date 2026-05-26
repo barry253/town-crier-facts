@@ -336,34 +336,89 @@
       renderLandmarkList();
     }
 
+    function countryDisplayName(code) {
+      const map = { us: 'United States', il: 'Israel', gb: 'United Kingdom' };
+      return map[(code || '').toLowerCase()] || (code || '?').toUpperCase();
+    }
+
     function renderLandmarkList() {
       const q = document.getElementById("lmSearch").value.trim().toLowerCase();
       const visible = q
-        ? lmCollections.filter(c => (c.region || '').toLowerCase().includes(q) || (c.state || '').toLowerCase().includes(q))
+        ? lmCollections.filter(c =>
+            (c.region || '').toLowerCase().includes(q) ||
+            (c.state || '').toLowerCase().includes(q) ||
+            (c.country || '').toLowerCase().includes(q) ||
+            countryDisplayName(c.country || '').toLowerCase().includes(q))
         : lmCollections;
       const totalLandmarks = visible.reduce((s, c) => s + (c.landmarkCount || 0), 0);
       document.getElementById("lmSummary").textContent = `${visible.length} collections · ${totalLandmarks} landmarks`;
       const el = document.getElementById("lmList");
       el.innerHTML = "";
       if (!visible.length) { el.innerHTML = '<div class="empty">No collections match.</div>'; return; }
-      const groups = {};
+
+      const byCountry = {};
       for (const c of visible) {
-        const s = (c.state || '?').toUpperCase();
-        if (!groups[s]) groups[s] = [];
-        groups[s].push(c);
+        const ctry = (c.country || 'us').toLowerCase();
+        if (!byCountry[ctry]) byCountry[ctry] = [];
+        byCountry[ctry].push(c);
       }
-      Object.keys(groups).sort().forEach(state => {
-        const grp = document.createElement("div");
-        grp.className = "lm-group";
-        grp.innerHTML = `<div class="lm-group-header">${esc(state)}</div>`;
-        for (const c of groups[state]) {
-          const btn = document.createElement("button");
-          btn.className = "town-button" + (currentLmData?.file === c.file ? " active" : "");
-          btn.innerHTML = `<span class="town-name">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
-          btn.onclick = () => loadLandmarkCollection(c);
-          grp.appendChild(btn);
+
+      Object.keys(byCountry).sort().forEach(ctryCode => {
+        const ctryCollections = byCountry[ctryCode];
+        const ctryName = countryDisplayName(ctryCode);
+        const totalCtryLandmarks = ctryCollections.reduce((s, c) => s + (c.landmarkCount || 0), 0);
+
+        const ctryWrapper = document.createElement("div");
+        ctryWrapper.className = "group";
+        const ctryToggle = document.createElement("button");
+        ctryToggle.className = "group-toggle";
+        ctryToggle.innerHTML = `<span class="group-title">${esc(ctryName)}</span><span class="count">${ctryCollections.length} collections · ${totalCtryLandmarks} landmarks</span>`;
+        const ctryItems = document.createElement("div");
+        ctryItems.className = "group-items";
+        ctryToggle.onclick = () => ctryWrapper.classList.toggle("open");
+
+        if (ctryCode === 'us') {
+          const byState = {};
+          for (const c of ctryCollections) {
+            const s = (c.state || '?').toUpperCase();
+            if (!byState[s]) byState[s] = [];
+            byState[s].push(c);
+          }
+          Object.keys(byState).sort().forEach(state => {
+            const stateCollections = byState[state];
+            const totalStateLandmarks = stateCollections.reduce((s, c) => s + (c.landmarkCount || 0), 0);
+            const stateWrapper = document.createElement("div");
+            stateWrapper.className = "group";
+            const stateToggle = document.createElement("button");
+            stateToggle.className = "group-toggle";
+            stateToggle.innerHTML = `<span class="group-title">${esc(state)}</span><span class="count">${stateCollections.length} · ${totalStateLandmarks} landmarks</span>`;
+            const stateItems = document.createElement("div");
+            stateItems.className = "group-items";
+            stateToggle.onclick = () => stateWrapper.classList.toggle("open");
+            stateCollections.forEach(c => {
+              const btn = document.createElement("button");
+              btn.className = "town-button" + (currentLmData?.file === c.file ? " active" : "");
+              btn.innerHTML = `<span class="town-name">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
+              btn.onclick = () => loadLandmarkCollection(c);
+              stateItems.appendChild(btn);
+            });
+            stateWrapper.appendChild(stateToggle);
+            stateWrapper.appendChild(stateItems);
+            ctryItems.appendChild(stateWrapper);
+          });
+        } else {
+          ctryCollections.forEach(c => {
+            const btn = document.createElement("button");
+            btn.className = "town-button" + (currentLmData?.file === c.file ? " active" : "");
+            btn.innerHTML = `<span class="town-name">${esc(c.region)}</span><span class="count">${c.landmarkCount} landmarks</span>`;
+            btn.onclick = () => loadLandmarkCollection(c);
+            ctryItems.appendChild(btn);
+          });
         }
-        el.appendChild(grp);
+
+        ctryWrapper.appendChild(ctryToggle);
+        ctryWrapper.appendChild(ctryItems);
+        el.appendChild(ctryWrapper);
       });
     }
 
@@ -396,6 +451,7 @@
       landmarks.forEach(lm => {
         const lat = lm.geometry?.latitude;
         const lon = lm.geometry?.longitude;
+        const commentary = (lm.commentaryTemplate || '').replace(/\{\{side\}\}/gi, 'Ahead');
         const osmUrl = (lat != null && lon != null)
           ? `https://www.openstreetmap.org/?mlat=${lat.toFixed(5)}&mlon=${lon.toFixed(5)}&zoom=15`
           : null;
@@ -442,7 +498,7 @@
               ${lat != null && lon != null ? `<div class="lm-coords">${lat.toFixed(5)}, ${lon.toFixed(5)}</div>` : ""}
             </div>
           </div>
-          <div class="lm-commentary">${esc(lm.commentaryTemplate || "")}</div>
+          <div class="lm-commentary">${esc(commentary)}</div>
           ${linkParts.length ? `<div class="lm-links">${linkParts.join("")}</div>` : ""}
           ${attrHtml}
         `;

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Barnwell County, South Carolina",
+  "country": "us",
+  "state": "sc",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "barnwell-state-park",
+      "name": "Barnwell State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.328761,
+        "longitude": -81.300889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Barnwell State Park, established in 1939, offering scenic views and outdoor activities.",
+      "sources": [
+        {
+          "title": "Barnwell State Park",
+          "url": "https://en.wikipedia.org/wiki/Barnwell_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Barnwell_State_Park_SC.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Barnwell_State_Park_SC.jpg/1920px-Barnwell_State_Park_SC.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "blackville-heritage-museum",
+      "name": "Blackville Heritage Museum",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.354738,
+        "longitude": -81.2725827
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Blackville Heritage Museum, showcasing local history and culture since its opening in 2005.",
+      "sources": [
+        {
+          "title": "Blackville Heritage Museum",
+          "url": "https://en.wikipedia.org/wiki/Blackville_Heritage_Museum"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "confederate-monument",
+      "name": "Confederate Monument",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.2437428,
+        "longitude": -81.3657029
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Confederate Monument, erected in 1909, honoring local soldiers from the Civil War.",
+      "sources": [
+        {
+          "title": "Confederate Monument",
+          "url": "https://en.wikipedia.org/wiki/Confederate_Monument"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

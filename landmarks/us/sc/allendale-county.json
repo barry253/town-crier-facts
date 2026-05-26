@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Allendale County, South Carolina",
+  "country": "us",
+  "state": "sc",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "lake-warren-state-park",
+      "name": "Lake Warren State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.83861111111111,
+        "longitude": -81.3236111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lake Warren State Park, established in 1970, offering beautiful views and outdoor activities.",
+      "sources": [
+        {
+          "title": "Lake Warren State Park",
+          "url": "https://en.wikipedia.org/wiki/Lake_Warren_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Lake_Warren.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Lake_Warren.jpg/1920px-Lake_Warren.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "antioch-cemetery",
+      "name": "Antioch Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.9476698,
+        "longitude": -81.4147961
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Antioch Cemetery, a historic burial site reflecting the area's cultural heritage.",
+      "sources": [
+        {
+          "title": "Antioch Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Antioch_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}
