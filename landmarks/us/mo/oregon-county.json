@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Oregon County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "grand-gulf-state-park",
+      "name": "Grand Gulf State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.54416666666666,
+        "longitude": -91.64666666666668
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Grand Gulf State Park, known for its stunning canyons formed over millions of years.",
+      "sources": [
+        {
+          "title": "Grand Gulf State Park",
+          "url": "https://en.wikipedia.org/wiki/Grand_Gulf_State_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "eleven-point-state-park",
+      "name": "Eleven Point State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.616822,
+        "longitude": -91.174207
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Eleven Point State Park, a popular spot for canoeing along the scenic Eleven Point River.",
+      "sources": [
+        {
+          "title": "Eleven Point State Park",
+          "url": "https://en.wikipedia.org/wiki/Eleven_Point_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Eleven_Point_State_Park.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Eleven_Point_State_Park.jpg",
+        "caption": "Sign at entrance to Eleven Point State Park.",
+        "licenseShortName": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "authorName": "Coldspring",
+        "authorUrl": "//commons.wikimedia.org/w/index.php?title=User:Coldspring&amp;action=edit&amp;redlink=1",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Eleven_Point_State_Park.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "garfield-missouri",
+      "name": "Garfield, Missouri",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.58527777777778,
+        "longitude": -91.32583333333334
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Garfield, Missouri, a historic community established in the late 19th century.",
+      "sources": [
+        {
+          "title": "Garfield, Missouri",
+          "url": "https://en.wikipedia.org/wiki/Garfield%2C_Missouri"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

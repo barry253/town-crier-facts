@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Washington County, Florida",
+  "country": "us",
+  "state": "fl",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "falling-waters-state-park",
+      "name": "Falling Waters State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 30.728055555555553,
+        "longitude": -85.5286111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Falling Waters State Park, home to Florida's tallest waterfall, which drops 73 feet.",
+      "sources": [
+        {
+          "title": "Falling Waters State Park",
+          "url": "https://en.wikipedia.org/wiki/Falling_Waters_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Falling_Waters_State_Park_1.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Falling_Waters_State_Park_1.jpg/1920px-Falling_Waters_State_Park_1.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "south-third-street-historic-district",
+      "name": "South Third Street Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 30.774805555555556,
+        "longitude": -85.54233333333333
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the South Third Street Historic District, featuring architecture dating back to the late 19th century.",
+      "sources": [
+        {
+          "title": "South Third Street Historic District",
+          "url": "https://en.wikipedia.org/wiki/South_Third_Street_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

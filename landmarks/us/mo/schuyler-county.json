@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Schuyler County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "downing-city-park",
+      "name": "Downing City Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.4857144,
+        "longitude": -92.3668641
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Downing City Park, a community space that has hosted local events since its opening in the 1980s.",
+      "sources": [
+        {
+          "title": "Downing City Park",
+          "url": "https://en.wikipedia.org/wiki/Downing_City_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "queen-city-park",
+      "name": "Queen City Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.4086983,
+        "longitude": -92.5666567
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Queen City Park, known for its scenic beauty and community gatherings since the early 1900s.",
+      "sources": [
+        {
+          "title": "Queen City Park",
+          "url": "https://en.wikipedia.org/wiki/Queen_City_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

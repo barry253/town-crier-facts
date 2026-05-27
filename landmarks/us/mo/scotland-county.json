@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Scotland County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "legion-park",
+      "name": "Legion Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.46513,
+        "longitude": -92.1715592
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Legion Park, a tribute to veterans featuring memorials and recreational facilities.",
+      "sources": [
+        {
+          "title": "Legion Park",
+          "url": "https://en.wikipedia.org/wiki/Legion_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "friendship-cemetery",
+      "name": "Friendship Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.4887674,
+        "longitude": -92.2724796
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Friendship Cemetery, a historic site that reflects the area's rich cultural heritage.",
+      "sources": [
+        {
+          "title": "Friendship Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Friendship_Cemetery"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Friendship_Cemetery_%28160958986%29.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Friendship_Cemetery_%28160958986%29.jpg/1920px-Friendship_Cemetery_%28160958986%29.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

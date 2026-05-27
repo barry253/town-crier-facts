@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Dooly County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "lilly-historic-district",
+      "name": "Lilly Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.14833333333333,
+        "longitude": -83.87805555555555
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Lilly Historic District, recognized for its well-preserved structures dating back to the late 19th century.",
+      "sources": [
+        {
+          "title": "Lilly Historic District",
+          "url": "https://en.wikipedia.org/wiki/Lilly_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/98/Lilly_Historic_District%2C_Lilly%2C_GA%2C_US_%2804%29.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Lilly_Historic_District%2C_Lilly%2C_GA%2C_US_%2804%29.jpg/1920px-Lilly_Historic_District%2C_Lilly%2C_GA%2C_US_%2804%29.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "george-busbee-park",
+      "name": "George Busbee Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.0915577,
+        "longitude": -83.7932294
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is George Busbee Park, dedicated to a former Georgia governor who served from 1975 to 1983.",
+      "sources": [
+        {
+          "title": "George Busbee Park",
+          "url": "https://en.wikipedia.org/wiki/George_Busbee_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

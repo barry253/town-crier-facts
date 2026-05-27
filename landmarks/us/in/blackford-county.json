@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Blackford County, Indiana",
+  "country": "us",
+  "state": "in",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "hoover-park",
+      "name": "Hoover Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.45416666666667,
+        "longitude": -85.3611111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Hoover Park, a community space that features a historic gazebo built in 1910.",
+      "sources": [
+        {
+          "title": "Hoover Park",
+          "url": "https://en.wikipedia.org/wiki/Hoover_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "hartford-city-courthouse-square-historic-district",
+      "name": "Hartford City Courthouse Square Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.45138888888889,
+        "longitude": -85.36805555555554
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Hartford City Courthouse Square Historic District, established in 1879, showcasing beautiful architecture.",
+      "sources": [
+        {
+          "title": "Hartford City Courthouse Square Historic District",
+          "url": "https://en.wikipedia.org/wiki/Hartford_City_Courthouse_Square_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Tyner_Bldg_Hartford_City_IN.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Tyner_Bldg_Hartford_City_IN.jpg/1920px-Tyner_Bldg_Hartford_City_IN.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

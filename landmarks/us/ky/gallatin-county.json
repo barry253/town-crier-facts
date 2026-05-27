@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Gallatin County, Kentucky",
+  "country": "us",
+  "state": "ky",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "warsaw-historic-district",
+      "name": "Warsaw Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.78194444444444,
+        "longitude": -84.90055555555556
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Warsaw Historic District, recognized for its charming 19th-century architecture and rich local history.",
+      "sources": [
+        {
+          "title": "Warsaw Historic District",
+          "url": "https://en.wikipedia.org/wiki/Warsaw_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "kentucky-speedway",
+      "name": "Kentucky Speedway",
+      "landmarkType": "stadium",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.70963888888889,
+        "longitude": -84.9162388888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Kentucky Speedway, which has hosted NASCAR events since its opening in 2000.",
+      "sources": [
+        {
+          "title": "Kentucky Speedway",
+          "url": "https://en.wikipedia.org/wiki/Kentucky_Speedway"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Kentucky_Speedway.svg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Kentucky_Speedway.svg/1920px-Kentucky_Speedway.svg.png",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "gallatin-county-airport",
+      "name": "Gallatin County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.67944444444444,
+        "longitude": -84.92888888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Gallatin County Airport, serving the region since its establishment in 1965.",
+      "sources": [
+        {
+          "title": "Gallatin County Airport",
+          "url": "https://en.wikipedia.org/wiki/Gallatin_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

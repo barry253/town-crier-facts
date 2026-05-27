@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Fayette County, Indiana",
+  "country": "us",
+  "state": "in",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "longwood-covered-bridge",
+      "name": "Longwood Covered Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.669999999999995,
+        "longitude": -85.125
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Longwood Covered Bridge, built in 1880, showcasing classic American wooden bridge architecture.",
+      "sources": [
+        {
+          "title": "Longwood Covered Bridge",
+          "url": "https://en.wikipedia.org/wiki/Longwood_Covered_Bridge"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/LONGWOOD_COVERED_BRIDGE.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/LONGWOOD_COVERED_BRIDGE.jpg/1920px-LONGWOOD_COVERED_BRIDGE.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "mettel-field",
+      "name": "Mettel Field",
+      "landmarkType": "stadium",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.69833333333333,
+        "longitude": -85.13111111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Mettel Field, home to local sports events and community gatherings since its establishment in 1938.",
+      "sources": [
+        {
+          "title": "Mettel Field",
+          "url": "https://en.wikipedia.org/wiki/Mettel_Field"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Attala County, Mississippi",
+  "country": "us",
+  "state": "ms",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "hurricane-creek",
+      "name": "Hurricane Creek",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.0825112,
+        "longitude": -89.5259909
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Hurricane Creek, known for its scenic beauty and recreational opportunities for fishing and kayaking.",
+      "sources": [
+        {
+          "title": "Hurricane Creek",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Creek"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "armstrong-cemetery",
+      "name": "Armstrong Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.13868,
+        "longitude": -89.7668373
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Armstrong Cemetery, a resting place for many local families dating back to the 19th century.",
+      "sources": [
+        {
+          "title": "Armstrong Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Armstrong_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

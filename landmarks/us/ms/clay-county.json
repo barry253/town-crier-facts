@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Clay County, Mississippi",
+  "country": "us",
+  "state": "ms",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "payne-field",
+      "name": "Payne Field",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.66555555555556,
+        "longitude": -88.64916666666667
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Payne Field, a notable site for local aviation enthusiasts since its establishment in the early 1940s.",
+      "sources": [
+        {
+          "title": "Payne Field",
+          "url": "https://en.wikipedia.org/wiki/Payne_Field"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Payne_Field_-_JN-4s_-_2.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Payne_Field_-_JN-4s_-_2.jpg",
+        "caption": "Payne Field - parked Curtiss JN-4 Training Aircraft, 1918",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Air Service, United States Army",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Payne_Field_-_JN-4s_-_2.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "montpelier-historic-district",
+      "name": "Montpelier Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.717222222222226,
+        "longitude": -88.94777777777779
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Montpelier Historic District, recognized for its rich architectural heritage dating back to the 19th century.",
+      "sources": [
+        {
+          "title": "Montpelier Historic District",
+          "url": "https://en.wikipedia.org/wiki/Montpelier_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

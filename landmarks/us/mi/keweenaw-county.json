@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Keweenaw County, Michigan",
+  "country": "us",
+  "state": "mi",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "isle-royale-trails",
+      "name": "Isle Royale Trails",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 48.01,
+        "longitude": -88.85
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} are the trails of Isle Royale, popular for hiking and backpacking since the park's establishment in 1940.",
+      "sources": [
+        {
+          "title": "Isle Royale Trails",
+          "url": "https://en.wikipedia.org/wiki/Isle_Royale_Trails"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "minong-mine-historic-district",
+      "name": "Minong Mine Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 48.08277777777778,
+        "longitude": -88.72638888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Minong Mine Historic District, significant for its copper mining history dating back to the 1850s.",
+      "sources": [
+        {
+          "title": "Minong Mine Historic District",
+          "url": "https://en.wikipedia.org/wiki/Minong_Mine_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/MinongMine.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b4/MinongMine.JPG",
+        "caption": "The Minong Mine — a historic copper mine on Isle Royale, in northern Michigan.\nA Historic district contributing property to the Minong Mine Historic District, and on the National Register of Historic Places in Isle Royale National Park and Keweenaw County, Michigan.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "National Park Service photo",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:MinongMine.JPG"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

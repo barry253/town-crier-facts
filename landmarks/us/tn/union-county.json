@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Union County, Tennessee",
+  "country": "us",
+  "state": "tn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "big-ridge-state-park",
+      "name": "Big Ridge State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.2581843,
+        "longitude": -83.9198545
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Big Ridge State Park, established in 1938, featuring over 15 miles of scenic hiking trails.",
+      "sources": [
+        {
+          "title": "Big Ridge State Park",
+          "url": "https://en.wikipedia.org/wiki/Big_Ridge_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Big-ridge-lake-tn1.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Big-ridge-lake-tn1.jpg/1920px-Big-ridge-lake-tn1.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "chuck-swan-wildlife-management-area",
+      "name": "Chuck Swan Wildlife Management Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.3292456,
+        "longitude": -83.9404724
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Chuck Swan Wildlife Management Area, a prime spot for hunting and wildlife observation since 1986.",
+      "sources": [
+        {
+          "title": "Chuck Swan Wildlife Management Area",
+          "url": "https://en.wikipedia.org/wiki/Chuck_Swan_Wildlife_Management_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

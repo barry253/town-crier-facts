@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Sullivan County, Indiana",
+  "country": "us",
+  "state": "in",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "sullivan-county-airport",
+      "name": "Sullivan County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.11472222222223,
+        "longitude": -87.44833333333334
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Sullivan County Airport, which has been serving the community since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Sullivan County Airport",
+          "url": "https://en.wikipedia.org/wiki/Sullivan_County_Airport"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Map_of_Indiana_highlighting_Sullivan_County.svg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Map_of_Indiana_highlighting_Sullivan_County.svg/1920px-Map_of_Indiana_highlighting_Sullivan_County.svg.png",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "dodds-bridge",
+      "name": "Dodds Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.157222222222224,
+        "longitude": -87.52388888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Dodds Bridge, a historic structure built in 1914, showcasing beautiful architectural design.",
+      "sources": [
+        {
+          "title": "Dodds Bridge",
+          "url": "https://en.wikipedia.org/wiki/Dodds_Bridge"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "busseron-creek-fish-wildlife-area",
+      "name": "Busseron Creek Fish & Wildlife Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.1058164,
+        "longitude": -87.3457789
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Busseron Creek Fish & Wildlife Area, a prime spot for birdwatching and fishing since its designation.",
+      "sources": [
+        {
+          "title": "Busseron Creek Fish & Wildlife Area",
+          "url": "https://en.wikipedia.org/wiki/Busseron_Creek_Fish_%26_Wildlife_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

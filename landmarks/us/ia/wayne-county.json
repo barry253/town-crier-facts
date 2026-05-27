@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Wayne County, Iowa",
+  "country": "us",
+  "state": "ia",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "corydon-airport",
+      "name": "Corydon Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7544501,
+        "longitude": -93.2413211
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Corydon Airport, which has served the community since its opening in 1946, supporting local aviation needs.",
+      "sources": [
+        {
+          "title": "Corydon Airport",
+          "url": "https://en.wikipedia.org/wiki/Corydon_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bobwhite-state-park",
+      "name": "Bobwhite State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.7083778,
+        "longitude": -93.3988224
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bobwhite State Park, known for its diverse wildlife and outdoor activities since its designation in 1976.",
+      "sources": [
+        {
+          "title": "Bobwhite State Park",
+          "url": "https://en.wikipedia.org/wiki/Bobwhite_State_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

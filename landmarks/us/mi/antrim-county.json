@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Antrim County, Michigan",
+  "country": "us",
+  "state": "mi",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "antrim-county-airport",
+      "name": "Antrim County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.98861111111111,
+        "longitude": -85.19833333333334
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Antrim County Airport, which has been serving the community since its establishment in 1965.",
+      "sources": [
+        {
+          "title": "Antrim County Airport",
+          "url": "https://en.wikipedia.org/wiki/Antrim_County_Airport"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/F-GLZI_Antrim_county_airport_ACB_%287148348995%29.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/F-GLZI_Antrim_county_airport_ACB_%287148348995%29.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "torchport-airport",
+      "name": "Torchport Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 45.05487,
+        "longitude": -85.3569
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Torchport Airport, known for its scenic views and small aircraft operations since 1946.",
+      "sources": [
+        {
+          "title": "Torchport Airport",
+          "url": "https://en.wikipedia.org/wiki/Torchport_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "craven-park",
+      "name": "Craven Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.9772206,
+        "longitude": -85.1878686
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Craven Park, a community space that has hosted events and gatherings since its opening in 1990.",
+      "sources": [
+        {
+          "title": "Craven Park",
+          "url": "https://en.wikipedia.org/wiki/Craven_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

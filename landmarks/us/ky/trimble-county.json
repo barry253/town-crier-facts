@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Trimble County, Kentucky",
+  "country": "us",
+  "state": "ky",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "milton-madison-bridge",
+      "name": "Milton–Madison Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.729128,
+        "longitude": -85.370114
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Milton–Madison Bridge, which opened in 2013 and connects Milton, Kentucky, to Madison, Indiana.",
+      "sources": [
+        {
+          "title": "Milton–Madison Bridge",
+          "url": "https://en.wikipedia.org/wiki/Milton%E2%80%93Madison_Bridge"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Milton%E2%80%93Madison_Bridge_2024b.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Milton%E2%80%93Madison_Bridge_2024b.jpg/1920px-Milton%E2%80%93Madison_Bridge_2024b.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "trimble-county-park",
+      "name": "Trimble County Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.6358397,
+        "longitude": -85.3207555
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Trimble County Park, a popular spot for outdoor activities and family gatherings since its establishment.",
+      "sources": [
+        {
+          "title": "Trimble County Park",
+          "url": "https://en.wikipedia.org/wiki/Trimble_County_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

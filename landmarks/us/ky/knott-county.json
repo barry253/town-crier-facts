@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Knott County, Kentucky",
+  "country": "us",
+  "state": "ky",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "hindman-historic-district",
+      "name": "Hindman Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.33527777777778,
+        "longitude": -82.98111111111112
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Hindman Historic District, recognized for its significant architecture and history dating back to the late 19th century.",
+      "sources": [
+        {
+          "title": "Hindman Historic District",
+          "url": "https://en.wikipedia.org/wiki/Hindman_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Downtown_Hindman.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Downtown_Hindman.jpg/1920px-Downtown_Hindman.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "carr-creek-state-park",
+      "name": "Carr Creek State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.231944444444444,
+        "longitude": -83.00222222222222
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Carr Creek State Park, established in 1970, offering scenic views and outdoor recreational activities.",
+      "sources": [
+        {
+          "title": "Carr Creek State Park",
+          "url": "https://en.wikipedia.org/wiki/Carr_Creek_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Carr_Creek_Lake.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Carr_Creek_Lake.jpg",
+        "caption": "Carr Creek Lake in Knott County, Kentucky",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Kevin Wrigh, U.S. Army Corps of Engineers",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Carr_Creek_Lake.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

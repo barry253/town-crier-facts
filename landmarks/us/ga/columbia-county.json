@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Columbia County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "patriots-park",
+      "name": "Patriots Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.521433,
+        "longitude": -82.229356
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Patriots Park, which features over 200 acres of recreational space and was established in 1996.",
+      "sources": [
+        {
+          "title": "Patriots Park",
+          "url": "https://en.wikipedia.org/wiki/Patriots_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "mistletoe-state-park",
+      "name": "Mistletoe State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.65037,
+        "longitude": -82.37261
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Mistletoe State Park, known for its beautiful lake and hiking trails since its opening in 1973.",
+      "sources": [
+        {
+          "title": "Mistletoe State Park",
+          "url": "https://en.wikipedia.org/wiki/Mistletoe_State_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

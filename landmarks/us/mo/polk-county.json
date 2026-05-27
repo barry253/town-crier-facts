@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Polk County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "plaster-stadium",
+      "name": "Plaster Stadium",
+      "landmarkType": "stadium",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.6021,
+        "longitude": -93.4132
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Plaster Stadium, home to the Southwest Baptist University Bearcats since it opened in 1980.",
+      "sources": [
+        {
+          "title": "Plaster Stadium",
+          "url": "https://en.wikipedia.org/wiki/Plaster_Stadium"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bolivar-municipal-airport",
+      "name": "Bolivar Municipal Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.5961,
+        "longitude": -93.3478
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bolivar Municipal Airport, which has been serving the community since its establishment in 1965.",
+      "sources": [
+        {
+          "title": "Bolivar Municipal Airport",
+          "url": "https://en.wikipedia.org/wiki/Bolivar_Municipal_Airport"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bolivar_M17_Sectional_Map.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bolivar_M17_Sectional_Map.jpg",
+        "caption": "Cropped portion of the Kansas City sectional map. Bolivar Municipal Airport M17.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "FAA.gov",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Bolivar_M17_Sectional_Map.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "ozark-cavefish-national-wildlife-refuge",
+      "name": "Ozark Cavefish National Wildlife Refuge",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.5667,
+        "longitude": -93.3833
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Ozark Cavefish National Wildlife Refuge, established to protect the endangered Ozark cavefish in 1984.",
+      "sources": [
+        {
+          "title": "Ozark Cavefish National Wildlife Refuge",
+          "url": "https://en.wikipedia.org/wiki/Ozark_Cavefish_National_Wildlife_Refuge"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

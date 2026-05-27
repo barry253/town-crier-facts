@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Tipton County, Indiana",
+  "country": "us",
+  "state": "in",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "tipton-city-park",
+      "name": "Tipton City Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.2753419,
+        "longitude": -86.0434672
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Tipton City Park, featuring a historic bandstand built in 1920 that hosts summer concerts.",
+      "sources": [
+        {
+          "title": "Tipton City Park",
+          "url": "https://en.wikipedia.org/wiki/Tipton_City_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "railroad-park",
+      "name": "Railroad Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.2897793,
+        "longitude": -86.0403187
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Railroad Park, which commemorates Tipton's rich railroad history dating back to the 1800s.",
+      "sources": [
+        {
+          "title": "Railroad Park",
+          "url": "https://en.wikipedia.org/wiki/Railroad_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Railroad_park_bham.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Railroad_park_bham.JPG/1920px-Railroad_park_bham.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "the-dunham-house",
+      "name": "The Dunham House",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.2805534,
+        "longitude": -86.2313531
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is The Dunham House, a historic residence built in 1867, showcasing Victorian architecture.",
+      "sources": [
+        {
+          "title": "The Dunham House",
+          "url": "https://en.wikipedia.org/wiki/The_Dunham_House"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

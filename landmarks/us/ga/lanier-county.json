@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Lanier County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "banks-lake-national-wildlife-refuge",
+      "name": "Banks Lake National Wildlife Refuge",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.0196991,
+        "longitude": -83.12750244
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Banks Lake National Wildlife Refuge, established in 1985, protecting diverse habitats for migratory birds.",
+      "sources": [
+        {
+          "title": "Banks Lake National Wildlife Refuge",
+          "url": "https://en.wikipedia.org/wiki/Banks_Lake_National_Wildlife_Refuge"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Banks_Lake_National_Wildlife_Refuge_View.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Banks_Lake_National_Wildlife_Refuge_View.jpg/1920px-Banks_Lake_National_Wildlife_Refuge_View.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "city-cemetery",
+      "name": "City Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.0432154,
+        "longitude": -83.0699096
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is City Cemetery, where many of the town's early settlers were laid to rest in the 19th century.",
+      "sources": [
+        {
+          "title": "City Cemetery",
+          "url": "https://en.wikipedia.org/wiki/City_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Charlevoix County, Michigan",
+  "country": "us",
+  "state": "mi",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "welke-airport",
+      "name": "Welke Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 45.721111111111114,
+        "longitude": -85.52027777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Welke Airport, which has been serving the Charlevoix area since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Welke Airport",
+          "url": "https://en.wikipedia.org/wiki/Welke_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "beaver-islands-state-wildlife-research-area",
+      "name": "Beaver Islands State Wildlife Research Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 45.6034342,
+        "longitude": -85.6114845
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Beaver Islands State Wildlife Research Area, a vital habitat for wildlife established in 1976.",
+      "sources": [
+        {
+          "title": "Beaver Islands State Wildlife Research Area",
+          "url": "https://en.wikipedia.org/wiki/Beaver_Islands_State_Wildlife_Research_Area"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beaver_Island_satellite_photo.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Beaver_Island_satellite_photo.jpg",
+        "caption": "The raw satellite imagery shown in these images was obtain from NASA and/or the US Geological Survey. Post-processing and production by www.terraprints.com",
+        "licenseShortName": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "authorName": "http://www.terraprints.com",
+        "authorUrl": "http://www.terraprints.com",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Beaver_Island_satellite_photo.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

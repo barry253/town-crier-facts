@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Scott County, Illinois",
+  "country": "us",
+  "state": "il",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "winchester-historic-district",
+      "name": "Winchester Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.62888888888889,
+        "longitude": -90.45527777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Winchester Historic District, recognized for its well-preserved 19th-century architecture since its listing on the National Register of Historic Places in 1980.",
+      "sources": [
+        {
+          "title": "Winchester Historic District",
+          "url": "https://en.wikipedia.org/wiki/Winchester_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "valley-city-eagle-bridges",
+      "name": "Valley City Eagle Bridges",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.68838,
+        "longitude": -90.64182
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Valley City Eagle Bridges, notable for their unique design and construction completed in 1928.",
+      "sources": [
+        {
+          "title": "Valley City Eagle Bridges",
+          "url": "https://en.wikipedia.org/wiki/Valley_City_Eagle_Bridges"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Valley_City_Eagle_Bridges.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Valley_City_Eagle_Bridges.JPG/1920px-Valley_City_Eagle_Bridges.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bloomfield",
+      "name": "Bloomfield",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.651944444444446,
+        "longitude": -90.55611111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bloomfield, a small community known for its rich agricultural heritage and local history.",
+      "sources": [
+        {
+          "title": "Bloomfield",
+          "url": "https://en.wikipedia.org/wiki/Bloomfield"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

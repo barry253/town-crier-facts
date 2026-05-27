@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Floyd County, Kentucky",
+  "country": "us",
+  "state": "ky",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "front-street-historic-district",
+      "name": "Front Street Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.666666666666664,
+        "longitude": -82.77527777777777
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Front Street Historic District, recognized for its well-preserved 19th-century architecture since its designation in 1980.",
+      "sources": [
+        {
+          "title": "Front Street Historic District",
+          "url": "https://en.wikipedia.org/wiki/Front_Street_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "jenny-wiley-state-resort-park",
+      "name": "Jenny Wiley State Resort Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.6975,
+        "longitude": -82.72500000000001
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Jenny Wiley State Resort Park, named after the legendary frontier woman who escaped captivity in 1789.",
+      "sources": [
+        {
+          "title": "Jenny Wiley State Resort Park",
+          "url": "https://en.wikipedia.org/wiki/Jenny_Wiley_State_Resort_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Dewey_Lake_fall.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Dewey_Lake_fall.jpg",
+        "caption": "Dewey Lake in Floyd County, Kentucky",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Dewey_Lake_fall.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

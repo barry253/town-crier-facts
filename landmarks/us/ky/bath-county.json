@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Bath County, Kentucky",
+  "country": "us",
+  "state": "ky",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "springfield-presbyterian-church",
+      "name": "Springfield Presbyterian Church",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.14888888888889,
+        "longitude": -83.90361111111112
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Springfield Presbyterian Church, established in 1830, showcasing beautiful Gothic Revival architecture.",
+      "sources": [
+        {
+          "title": "Springfield Presbyterian Church",
+          "url": "https://en.wikipedia.org/wiki/Springfield_Presbyterian_Church"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bath-county-park",
+      "name": "Bath County Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.1147305,
+        "longitude": -83.7479045
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bath County Park, featuring a scenic lake and trails for outdoor enthusiasts since its opening in 1975.",
+      "sources": [
+        {
+          "title": "Bath County Park",
+          "url": "https://en.wikipedia.org/wiki/Bath_County_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

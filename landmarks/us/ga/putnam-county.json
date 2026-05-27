@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Putnam County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "eatonton-historic-district",
+      "name": "Eatonton Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.330555555555556,
+        "longitude": -83.38805555555557
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Eatonton Historic District, established in 1830, showcasing antebellum architecture and rich local history.",
+      "sources": [
+        {
+          "title": "Eatonton Historic District",
+          "url": "https://en.wikipedia.org/wiki/Eatonton_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Putnam_County_Courthouse%2C_Eatonton%2C_GA.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Putnam_County_Courthouse%2C_Eatonton%2C_GA.jpg/1920px-Putnam_County_Courthouse%2C_Eatonton%2C_GA.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "confederates-monument",
+      "name": "Confederates Monument",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.3261327,
+        "longitude": -83.3895977
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Confederates Monument, erected in 1905, commemorating local soldiers from the Civil War.",
+      "sources": [
+        {
+          "title": "Confederates Monument",
+          "url": "https://en.wikipedia.org/wiki/Confederates_Monument"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

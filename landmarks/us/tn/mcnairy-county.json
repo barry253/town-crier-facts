@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "McNairy County, Tennessee",
+  "country": "us",
+  "state": "tn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "big-hill-pond-state-park",
+      "name": "Big Hill Pond State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.052,
+        "longitude": -88.731
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Big Hill Pond State Park, established in 1937, featuring one of Tennessee's largest natural lakes.",
+      "sources": [
+        {
+          "title": "Big Hill Pond State Park",
+          "url": "https://en.wikipedia.org/wiki/Big_Hill_Pond_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Big_Hill_Pond_State_Park.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Big_Hill_Pond_State_Park.jpg/1920px-Big_Hill_Pond_State_Park.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "big-hill-pond-fortifications",
+      "name": "Big Hill Pond Fortifications",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.0363731,
+        "longitude": -88.7345429
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} are the Big Hill Pond Fortifications, remnants from the Civil War era, showcasing Tennessee's military history.",
+      "sources": [
+        {
+          "title": "Big Hill Pond Fortifications",
+          "url": "https://en.wikipedia.org/wiki/Big_Hill_Pond_Fortifications"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

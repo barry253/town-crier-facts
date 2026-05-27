@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Carter County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "big-spring-historic-district",
+      "name": "Big Spring Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.948611111111106,
+        "longitude": -90.99305555555556
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Big Spring Historic District, recognized for its significant natural spring that has drawn visitors since the 1800s.",
+      "sources": [
+        {
+          "title": "Big Spring Historic District",
+          "url": "https://en.wikipedia.org/wiki/Big_Spring_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Big_Spring_Lodge_MO_NPS.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Big_Spring_Lodge_MO_NPS.jpg",
+        "caption": "Big Spring Lodge at the Big Spring Historic District, Ozark National Scenic Riverways, Missouri, USA",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "National Park Service",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Big_Spring_Lodge_MO_NPS.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "big-spring",
+      "name": "Big Spring",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.9526316,
+        "longitude": -90.9928436
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Big Spring, one of the largest springs in the United States, with an average flow of over 100 million gallons daily.",
+      "sources": [
+        {
+          "title": "Big Spring",
+          "url": "https://en.wikipedia.org/wiki/Big_Spring"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

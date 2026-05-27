@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Chilton County, Alabama",
+  "country": "us",
+  "state": "al",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "chilton-county-airport",
+      "name": "Chilton County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.85055555555556,
+        "longitude": -86.61138888888888
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Chilton County Airport, which has been serving the community since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Chilton County Airport",
+          "url": "https://en.wikipedia.org/wiki/Chilton_County_Airport"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Gragg-Wade_Field.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/13/Gragg-Wade_Field.jpg",
+        "caption": "Aerial image of Gragg-Wade Field, an airport in Clanton, Alabama, United States",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "United States Department of Agriculture (USDA), Farm Services Agency",
+        "authorUrl": "https://en.wikipedia.org/wiki/Farm_Services_Agency",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Gragg-Wade_Field.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "confederate-memorial-park",
+      "name": "Confederate Memorial Park",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.721,
+        "longitude": -86.474
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Confederate Memorial Park, dedicated in 1996 to honor Alabama's Confederate soldiers.",
+      "sources": [
+        {
+          "title": "Confederate Memorial Park",
+          "url": "https://en.wikipedia.org/wiki/Confederate_Memorial_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "alabama-music-park",
+      "name": "Alabama Music Park",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.9792891,
+        "longitude": -86.7352631
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Alabama Music Park, celebrating the state's rich musical heritage since it opened in 2001.",
+      "sources": [
+        {
+          "title": "Alabama Music Park",
+          "url": "https://en.wikipedia.org/wiki/Alabama_Music_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Macon County, Tennessee",
+  "country": "us",
+  "state": "tn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "lafayette-municipal-airport",
+      "name": "Lafayette Municipal Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.519999999999996,
+        "longitude": -86.05805555555555
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lafayette Municipal Airport, which has been serving the community since its establishment in 1960.",
+      "sources": [
+        {
+          "title": "Lafayette Municipal Airport",
+          "url": "https://en.wikipedia.org/wiki/Lafayette_Municipal_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bell-cemetery",
+      "name": "Bell Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.531026,
+        "longitude": -85.8514411
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bell Cemetery, a historic site that dates back to the 19th century, honoring local families.",
+      "sources": [
+        {
+          "title": "Bell Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Bell_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

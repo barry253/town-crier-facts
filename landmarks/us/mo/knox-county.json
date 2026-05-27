@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Knox County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "edina-double-square-historic-district",
+      "name": "Edina Double Square Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.16694444444444,
+        "longitude": -92.17277777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Edina Double Square Historic District, recognized for its unique architecture dating back to the early 1900s.",
+      "sources": [
+        {
+          "title": "Edina Double Square Historic District",
+          "url": "https://en.wikipedia.org/wiki/Edina_Double_Square_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Knox_County_MO_Courthouse_20141022_A.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Knox_County_MO_Courthouse_20141022_A.jpg/1920px-Knox_County_MO_Courthouse_20141022_A.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "wolf-branch",
+      "name": "Wolf Branch",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 40.178929,
+        "longitude": -92.005731
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Wolf Branch, a tributary of Little Bridge Creek, contributing to the area's natural beauty.",
+      "sources": [
+        {
+          "title": "Wolf Branch",
+          "url": "https://en.wikipedia.org/wiki/Wolf_Branch"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

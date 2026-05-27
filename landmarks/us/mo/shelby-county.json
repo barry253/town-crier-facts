@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Shelby County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "bethel-historic-district",
+      "name": "Bethel Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.87833333333333,
+        "longitude": -92.02333333333333
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Bethel Historic District, recognized for its well-preserved 19th-century architecture since its establishment in 1836.",
+      "sources": [
+        {
+          "title": "Bethel Historic District",
+          "url": "https://en.wikipedia.org/wiki/Bethel_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "shelby-county-airport",
+      "name": "Shelby County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.8156611,
+        "longitude": -92.050104
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Shelby County Airport, which has been serving the community since its establishment in 1960.",
+      "sources": [
+        {
+          "title": "Shelby County Airport",
+          "url": "https://en.wikipedia.org/wiki/Shelby_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

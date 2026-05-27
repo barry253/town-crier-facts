@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Ohio County, Kentucky",
+  "country": "us",
+  "state": "ky",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "ohio-county-airport",
+      "name": "Ohio County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.45861111111111,
+        "longitude": -86.84972222222221
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Ohio County Airport, which has been serving the community since its establishment in 1965.",
+      "sources": [
+        {
+          "title": "Ohio County Airport",
+          "url": "https://en.wikipedia.org/wiki/Ohio_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "downtown-hartford-historic-district",
+      "name": "Downtown Hartford Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.45111111111111,
+        "longitude": -86.9088888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Downtown Hartford Historic District, featuring buildings that reflect the town's rich history since the 1800s.",
+      "sources": [
+        {
+          "title": "Downtown Hartford Historic District",
+          "url": "https://en.wikipedia.org/wiki/Downtown_Hartford_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Ohio_County_Courthouse%2C_Hartford.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ohio_County_Courthouse%2C_Hartford.jpg/1920px-Ohio_County_Courthouse%2C_Hartford.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bill-monroe-museum",
+      "name": "Bill Monroe Museum",
+      "landmarkType": "museum",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.44055,
+        "longitude": -86.764226
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Bill Monroe Museum, dedicated to the father of bluegrass music, who was born here in 1911.",
+      "sources": [
+        {
+          "title": "Bill Monroe Museum",
+          "url": "https://en.wikipedia.org/wiki/Bill_Monroe_Museum"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

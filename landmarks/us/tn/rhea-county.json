@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Rhea County, Tennessee",
+  "country": "us",
+  "state": "tn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "mark-anton-airport",
+      "name": "Mark Anton Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.486111111111114,
+        "longitude": -84.93111111111112
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Mark Anton Airport, named after a local aviation pioneer who contributed to regional air travel.",
+      "sources": [
+        {
+          "title": "Mark Anton Airport",
+          "url": "https://en.wikipedia.org/wiki/Mark_Anton_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "centennial-park",
+      "name": "Centennial Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.4946457,
+        "longitude": -85.0137447
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Centennial Park, a community space that features a beautiful water fountain monument dedicated in 2000.",
+      "sources": [
+        {
+          "title": "Centennial Park",
+          "url": "https://en.wikipedia.org/wiki/Centennial_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

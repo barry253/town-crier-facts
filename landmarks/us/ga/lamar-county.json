@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Lamar County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "confederate-hospital",
+      "name": "Confederate Hospital",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.121054,
+        "longitude": -84.1958262
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Confederate Hospital, a key medical facility during the Civil War, treating wounded soldiers.",
+      "sources": [
+        {
+          "title": "Confederate Hospital",
+          "url": "https://en.wikipedia.org/wiki/Confederate_Hospital"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "lamar-memory-gardens",
+      "name": "Lamar Memory Gardens",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.0228665,
+        "longitude": -84.1377959
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lamar Memory Gardens, a serene resting place established in 1965, reflecting local heritage.",
+      "sources": [
+        {
+          "title": "Lamar Memory Gardens",
+          "url": "https://en.wikipedia.org/wiki/Lamar_Memory_Gardens"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

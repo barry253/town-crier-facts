@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Loudon County, Tennessee",
+  "country": "us",
+  "state": "tn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "fort-loudoun-dam",
+      "name": "Fort Loudoun Dam",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.790908333333334,
+        "longitude": -84.24265
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Loudoun Dam, which was completed in 1944 and plays a crucial role in flood control.",
+      "sources": [
+        {
+          "title": "Fort Loudoun Dam",
+          "url": "https://en.wikipedia.org/wiki/Fort_Loudoun_Dam"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fort_Loudoun_Dam.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Fort_Loudoun_Dam.jpg",
+        "caption": "Fort Loudoun Dam.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Tennessee Valley Authority",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Loudoun_Dam.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "cloyds-creek-cemetery",
+      "name": "Cloyds Creek Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.6983472,
+        "longitude": -84.160778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Cloyds Creek Cemetery, a historic burial ground with roots tracing back to the 19th century.",
+      "sources": [
+        {
+          "title": "Cloyds Creek Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Cloyds_Creek_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

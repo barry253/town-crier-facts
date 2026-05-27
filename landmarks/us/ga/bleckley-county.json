@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Bleckley County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "cochran-airport",
+      "name": "Cochran Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.400555555555556,
+        "longitude": -83.27833333333334
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Cochran Airport, which has been serving the community since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Cochran Airport",
+          "url": "https://en.wikipedia.org/wiki/Cochran_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bleckley-county-memorial-park",
+      "name": "Bleckley County Memorial Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.4176394,
+        "longitude": -83.3563402
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bleckley County Memorial Park, dedicated to honoring local veterans since its opening in 2003.",
+      "sources": [
+        {
+          "title": "Bleckley County Memorial Park",
+          "url": "https://en.wikipedia.org/wiki/Bleckley_County_Memorial_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

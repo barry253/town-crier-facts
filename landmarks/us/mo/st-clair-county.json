@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "St. Clair County, Missouri",
+  "country": "us",
+  "state": "mo",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "dave-rock-natural-area",
+      "name": "Dave Rock Natural Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.118917,
+        "longitude": -93.7299328
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Dave Rock Natural Area, recognized for its stunning rock formations and scenic trails since 1994.",
+      "sources": [
+        {
+          "title": "Dave Rock Natural Area",
+          "url": "https://en.wikipedia.org/wiki/Dave_Rock_Natural_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "allen-cemetery",
+      "name": "Allen Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.8970276,
+        "longitude": -93.6524639
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Allen Cemetery, a historic burial ground that reflects the area's rich heritage dating back to the 1800s.",
+      "sources": [
+        {
+          "title": "Allen Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Allen_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

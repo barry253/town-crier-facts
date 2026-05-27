@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Hawkins County, Tennessee",
+  "country": "us",
+  "state": "tn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "rogersville-historic-district",
+      "name": "Rogersville Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.407222222222224,
+        "longitude": -83.00527777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Rogersville Historic District, recognized for its well-preserved architecture dating back to the early 19th century.",
+      "sources": [
+        {
+          "title": "Rogersville Historic District",
+          "url": "https://en.wikipedia.org/wiki/Rogersville_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/RogersvilleHeritageDays.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/RogersvilleHeritageDays.jpg/1920px-RogersvilleHeritageDays.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "poor-valley-creek-state-park",
+      "name": "Poor Valley Creek State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.355468,
+        "longitude": -83.212907
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Poor Valley Creek State Park, a natural retreat known for its scenic hiking trails and diverse wildlife.",
+      "sources": [
+        {
+          "title": "Poor Valley Creek State Park",
+          "url": "https://en.wikipedia.org/wiki/Poor_Valley_Creek_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Poor_Valley_Creek_State_Park_Map_TVA.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Poor_Valley_Creek_State_Park_Map_TVA.jpg",
+        "caption": "A boundary map from the cancelled Poor Valley Creek State Park project in western Hawkins County, Tennessee",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Tennessee Valley Authority",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Poor_Valley_Creek_State_Park_Map_TVA.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

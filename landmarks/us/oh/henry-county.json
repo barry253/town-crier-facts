@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Henry County, Ohio",
+  "country": "us",
+  "state": "oh",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "henry-county-airport",
+      "name": "Henry County Airport",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 41.37416666666667,
+        "longitude": -84.06777777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Henry County Airport, which has been serving the community since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Henry County Airport",
+          "url": "https://en.wikipedia.org/wiki/Henry_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "glenwood-park",
+      "name": "Glenwood Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 41.386444,
+        "longitude": -84.1424468
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Glenwood Park, a beloved recreational area that has been enjoyed by families since 1985.",
+      "sources": [
+        {
+          "title": "Glenwood Park",
+          "url": "https://en.wikipedia.org/wiki/Glenwood_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Multifamily_Street_Glenwood_park.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Multifamily_Street_Glenwood_park.jpg",
+        "caption": "Street with midrise multifamily housing in Glenwood Park.\n\nAttributed to: EPA Smart Growth",
+        "licenseShortName": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "authorName": "faceless b",
+        "authorUrl": "https://www.flickr.com/people/23351990@N03",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Multifamily_Street_Glenwood_park.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "liberty-center-soccer",
+      "name": "Liberty Center Soccer",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 41.4476258,
+        "longitude": -84.0210584
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Liberty Center Soccer, a vibrant venue for youth sports since it opened in 2003.",
+      "sources": [
+        {
+          "title": "Liberty Center Soccer",
+          "url": "https://en.wikipedia.org/wiki/Liberty_Center_Soccer"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Madison County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "colbert-historic-district",
+      "name": "Colbert Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.035555555555554,
+        "longitude": -83.21027777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Colbert Historic District, established in the early 1900s, showcasing classic Southern architecture.",
+      "sources": [
+        {
+          "title": "Colbert Historic District",
+          "url": "https://en.wikipedia.org/wiki/Colbert_Historic_District"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Abandoned_building_in_the_Colbert_Historic_District.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Abandoned_building_in_the_Colbert_Historic_District.JPG/1920px-Abandoned_building_in_the_Colbert_Historic_District.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fort-lamar",
+      "name": "Fort Lamar",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.24,
+        "longitude": -83.27388888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Lamar, a Civil War fortification built in 1864, significant for its strategic location.",
+      "sources": [
+        {
+          "title": "Fort Lamar",
+          "url": "https://en.wikipedia.org/wiki/Fort_Lamar"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

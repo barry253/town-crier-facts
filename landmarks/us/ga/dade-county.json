@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Dade County, Georgia",
+  "country": "us",
+  "state": "ga",
+  "updatedAt": "2026-05-26",
+  "landmarks": [
+    {
+      "id": "cloudland-canyon-state-park",
+      "name": "Cloudland Canyon State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.8161,
+        "longitude": -85.4892
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Cloudland Canyon State Park, known for its stunning waterfalls and deep canyons formed over millions of years.",
+      "sources": [
+        {
+          "title": "Cloudland Canyon State Park",
+          "url": "https://en.wikipedia.org/wiki/Cloudland_Canyon_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Cloudland_Waterfall_2.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Cloudland_Waterfall_2.jpg/1920px-Cloudland_Waterfall_2.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "lookout-mountain-hang-gliding",
+      "name": "Lookout Mountain Hang Gliding",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.8962306,
+        "longitude": -85.4462578
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lookout Mountain Hang Gliding, a premier spot for enthusiasts since the 1980s.",
+      "sources": [
+        {
+          "title": "Lookout Mountain Hang Gliding",
+          "url": "https://en.wikipedia.org/wiki/Lookout_Mountain_Hang_Gliding"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

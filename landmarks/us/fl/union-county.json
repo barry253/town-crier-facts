@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Union County, Florida",
+  "country": "us",
+  "state": "fl",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "flying-tiger-field",
+      "name": "Flying Tiger Field",
+      "landmarkType": "stadium",
+      "geometry": {
+        "type": "point",
+        "latitude": 29.9340594,
+        "longitude": -82.4105567
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Flying Tiger Field, a local sports venue that hosts various athletic events.",
+      "sources": [
+        {
+          "title": "Flying Tiger Field",
+          "url": "https://en.wikipedia.org/wiki/Flying_Tiger_Field"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "swift-creek-cemetery",
+      "name": "Swift Creek Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 30.0883173,
+        "longitude": -82.3695932
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Swift Creek Cemetery, a historic site that tells the story of the region's past.",
+      "sources": [
+        {
+          "title": "Swift Creek Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Swift_Creek_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

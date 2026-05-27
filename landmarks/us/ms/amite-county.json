@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Amite County, Mississippi",
+  "country": "us",
+  "state": "ms",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "confederate-monument",
+      "name": "Confederate Monument",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.15867,
+        "longitude": -90.80908
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Confederate Monument, erected in 1910 to honor local soldiers who fought in the Civil War.",
+      "sources": [
+        {
+          "title": "Confederate Monument",
+          "url": "https://en.wikipedia.org/wiki/Confederate_Monument"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "percy-quin-state-park",
+      "name": "Percy Quin State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.191926,
+        "longitude": -90.5671272
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Percy Quin State Park, established in 1938, featuring beautiful landscapes and recreational activities.",
+      "sources": [
+        {
+          "title": "Percy Quin State Park",
+          "url": "https://en.wikipedia.org/wiki/Percy_Quin_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Percy_Quin_State_Park.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Percy_Quin_State_Park.jpg/1920px-Percy_Quin_State_Park.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "crosby-municipal-airport",
+      "name": "Crosby Municipal Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.296111111111113,
+        "longitude": -91.05277777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Crosby Municipal Airport, serving the area since 1946 and supporting general aviation.",
+      "sources": [
+        {
+          "title": "Crosby Municipal Airport",
+          "url": "https://en.wikipedia.org/wiki/Crosby_Municipal_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

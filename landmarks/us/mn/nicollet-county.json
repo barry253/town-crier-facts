@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Nicollet County, Minnesota",
+  "country": "us",
+  "state": "mn",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "fort-ridgely-creek",
+      "name": "Fort Ridgely Creek",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.44972222222222,
+        "longitude": -94.72333333333333
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Ridgely Creek, a natural feature that played a role in the historic Fort Ridgely during the 1862 Dakota War.",
+      "sources": [
+        {
+          "title": "Fort Ridgely Creek",
+          "url": "https://en.wikipedia.org/wiki/Fort_Ridgely_Creek"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "battle-of-fort-ridgely",
+      "name": "Battle of Fort Ridgely",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.4511,
+        "longitude": -94.7308
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the site of the Battle of Fort Ridgely, a pivotal conflict during the U.S.-Dakota War of 1862.",
+      "sources": [
+        {
+          "title": "Battle of Fort Ridgely",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Fort_Ridgely"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/FortRidgleyBurning.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/FortRidgleyBurning.jpg",
+        "caption": "Oil painting depicting Fort Ridgely in 1890.\nPainter: James McGrew\nArt Collection, Oil 1890\nLocation no. AV1986.5.2\nNegative no. 61647",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "James McGrew",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:FortRidgleyBurning.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "harkin-store-historic-site",
+      "name": "Harkin Store Historic Site",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.3864108,
+        "longitude": -94.5992236
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Harkin Store Historic Site, a preserved general store from the 1870s, showcasing pioneer life.",
+      "sources": [
+        {
+          "title": "Harkin Store Historic Site",
+          "url": "https://en.wikipedia.org/wiki/Harkin_Store_Historic_Site"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

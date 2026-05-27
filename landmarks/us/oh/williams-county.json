@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Williams County, Ohio",
+  "country": "us",
+  "state": "oh",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "williams-county-airport",
+      "name": "Williams County Airport",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 41.4673,
+        "longitude": -84.5067
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Williams County Airport, which has been operational since 1946, supporting local aviation needs.",
+      "sources": [
+        {
+          "title": "Williams County Airport",
+          "url": "https://en.wikipedia.org/wiki/Williams_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fountain-city-historic-district",
+      "name": "Fountain City Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 41.4719954,
+        "longitude": -84.5538398
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fountain City Historic District, featuring buildings that reflect the area's rich history since the 19th century.",
+      "sources": [
+        {
+          "title": "Fountain City Historic District",
+          "url": "https://en.wikipedia.org/wiki/Fountain_City_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

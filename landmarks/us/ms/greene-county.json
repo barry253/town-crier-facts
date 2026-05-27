@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Greene County, Mississippi",
+  "country": "us",
+  "state": "ms",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "leaf-river-bridge",
+      "name": "Leaf River Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.1275,
+        "longitude": -88.81694444444445
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Leaf River Bridge, a historic structure built in 1935 that spans the scenic Leaf River.",
+      "sources": [
+        {
+          "title": "Leaf River Bridge",
+          "url": "https://en.wikipedia.org/wiki/Leaf_River_Bridge"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "greene-county-museum",
+      "name": "Greene County Museum",
+      "landmarkType": "museum",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.1537833,
+        "longitude": -88.5515405
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Greene County Museum, showcasing local history and artifacts since its establishment in 1990.",
+      "sources": [
+        {
+          "title": "Greene County Museum",
+          "url": "https://en.wikipedia.org/wiki/Greene_County_Museum"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}
