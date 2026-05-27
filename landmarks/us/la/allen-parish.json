@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Allen Parish, Louisiana",
+  "country": "us",
+  "state": "la",
+  "updatedAt": "2026-05-27",
+  "landmarks": [
+    {
+      "id": "west-bay-wildlife-management-area",
+      "name": "West Bay Wildlife Management Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 30.796666666666667,
+        "longitude": -92.79777777777778
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is West Bay Wildlife Management Area, a haven for birdwatchers with over 200 species recorded since its establishment.",
+      "sources": [
+        {
+          "title": "West Bay Wildlife Management Area",
+          "url": "https://en.wikipedia.org/wiki/West_Bay_Wildlife_Management_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "allen-parish-airport",
+      "name": "Allen Parish Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 30.750555555555554,
+        "longitude": -92.68861111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Allen Parish Airport, which has been serving the community since its opening in 1960.",
+      "sources": [
+        {
+          "title": "Allen Parish Airport",
+          "url": "https://en.wikipedia.org/wiki/Allen_Parish_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}
