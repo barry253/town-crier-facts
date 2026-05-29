@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Beaver County, Utah",
+  "country": "us",
+  "state": "ut",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "beaver-municipal-airport",
+      "name": "Beaver Municipal Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.230555555555554,
+        "longitude": -112.67555555555556
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Beaver Municipal Airport, which has served the community since its establishment in 1960.",
+      "sources": [
+        {
+          "title": "Beaver Municipal Airport",
+          "url": "https://en.wikipedia.org/wiki/Beaver_Municipal_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fort-cameron",
+      "name": "Fort Cameron",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.278888888888886,
+        "longitude": -112.60055555555554
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Cameron, a historic military outpost established during the Utah War in 1857.",
+      "sources": [
+        {
+          "title": "Fort Cameron",
+          "url": "https://en.wikipedia.org/wiki/Fort_Cameron"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Fort_Cameron_-_View_From_Hills.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Fort_Cameron_-_View_From_Hills.jpg/1920px-Fort_Cameron_-_View_From_Hills.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

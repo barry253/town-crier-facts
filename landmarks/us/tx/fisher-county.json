@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Fisher County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "fisher-county",
+      "name": "Fisher County",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.74545,
+        "longitude": -100.37746
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fisher County, established in 1886, known for its rich history in ranching and agriculture.",
+      "sources": [
+        {
+          "title": "Fisher County",
+          "url": "https://en.wikipedia.org/wiki/Fisher_County"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "adair-steadman-site",
+      "name": "Adair-Steadman Site",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 32.6829,
+        "longitude": -100.14868
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Adair-Steadman Site, an archaeological location significant for its prehistoric artifacts dating back thousands of years.",
+      "sources": [
+        {
+          "title": "Adair-Steadman Site",
+          "url": "https://en.wikipedia.org/wiki/Adair-Steadman_Site"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

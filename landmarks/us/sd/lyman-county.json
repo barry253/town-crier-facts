@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Lyman County, South Dakota",
+  "country": "us",
+  "state": "sd",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "fort-pierre-national-grassland",
+      "name": "Fort Pierre National Grassland",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.141,
+        "longitude": -100.279
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Pierre National Grassland, established in 1960, offering diverse wildlife and stunning landscapes.",
+      "sources": [
+        {
+          "title": "Fort Pierre National Grassland",
+          "url": "https://en.wikipedia.org/wiki/Fort_Pierre_National_Grassland"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Fort_Pierre_Grassland_pond.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Fort_Pierre_Grassland_pond.jpg",
+        "caption": "A pond in Fort Pierre National Grassland, South Dakota.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "U.S. Forest Service",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Pierre_Grassland_pond.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "lower-brule-recreation-area",
+      "name": "Lower Brule Recreation Area",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.0633223,
+        "longitude": -99.5656655
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lower Brule Recreation Area, recognized for its beautiful landscapes and recreational activities.",
+      "sources": [
+        {
+          "title": "Lower Brule Recreation Area",
+          "url": "https://en.wikipedia.org/wiki/Lower_Brule_Recreation_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

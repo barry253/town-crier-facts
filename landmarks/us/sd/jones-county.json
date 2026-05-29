@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Jones County, South Dakota",
+  "country": "us",
+  "state": "sd",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "capa-bridge",
+      "name": "Capa Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.118611111111115,
+        "longitude": -100.92055555555557
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Capa Bridge, a historic structure built in 1910, showcasing early 20th-century engineering.",
+      "sources": [
+        {
+          "title": "Capa Bridge",
+          "url": "https://en.wikipedia.org/wiki/Capa_Bridge"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "stamford-bridge",
+      "name": "Stamford Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 43.85111111111111,
+        "longitude": -101.03888888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Stamford Bridge, known for its unique design and construction completed in 1915.",
+      "sources": [
+        {
+          "title": "Stamford Bridge",
+          "url": "https://en.wikipedia.org/wiki/Stamford_Bridge"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

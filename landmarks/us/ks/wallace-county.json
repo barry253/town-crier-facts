@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Wallace County, Kansas",
+  "country": "us",
+  "state": "ks",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "wallace-cemetery",
+      "name": "Wallace Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 38.9049724,
+        "longitude": -101.5595175
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Wallace Cemetery, serving as a final resting place since the town's founding in 1886.",
+      "sources": [
+        {
+          "title": "Wallace Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Wallace_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "mount-sunflower",
+      "name": "Mount Sunflower",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.0219287,
+        "longitude": -102.0372528
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Mount Sunflower, the highest point in Kansas, reaching an elevation of 4,039 feet.",
+      "sources": [
+        {
+          "title": "Mount Sunflower",
+          "url": "https://en.wikipedia.org/wiki/Mount_Sunflower"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Mount_Sunflower.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mount_Sunflower.JPG/1920px-Mount_Sunflower.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

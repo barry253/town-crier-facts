@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Lewis County, Idaho",
+  "country": "us",
+  "state": "id",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "winchester-lake-state-park",
+      "name": "Winchester Lake State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 46.235934,
+        "longitude": -116.627558
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Winchester Lake State Park, established in 1965, offering scenic views and outdoor recreation.",
+      "sources": [
+        {
+          "title": "Winchester Lake State Park",
+          "url": "https://en.wikipedia.org/wiki/Winchester_Lake_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Winchester_Lake_dock_and_geese.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Winchester_Lake_dock_and_geese.jpg/1920px-Winchester_Lake_dock_and_geese.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "craigmont-municipal-airport",
+      "name": "Craigmont Municipal Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 46.2476649,
+        "longitude": -116.479033
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Craigmont Municipal Airport, serving the region since 1947 with essential air travel services.",
+      "sources": [
+        {
+          "title": "Craigmont Municipal Airport",
+          "url": "https://en.wikipedia.org/wiki/Craigmont_Municipal_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

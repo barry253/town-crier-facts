@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Lemhi County, Idaho",
+  "country": "us",
+  "state": "id",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "fort-lemhi",
+      "name": "Fort Lemhi",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 44.9838,
+        "longitude": -113.6408
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Lemhi, established in 1855 as a mission by the Church of Jesus Christ of Latter-day Saints.",
+      "sources": [
+        {
+          "title": "Fort Lemhi",
+          "url": "https://en.wikipedia.org/wiki/Fort_Lemhi"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/8/87/FortLemhiCirca1900.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/8/87/FortLemhiCirca1900.jpg",
+        "caption": null,
+        "licenseShortName": "Public domain",
+        "licenseUrl": "//en.wikipedia.org/wiki/File:FortLemhiCirca1900.jpg",
+        "authorName": "AIJFMM",
+        "authorUrl": null,
+        "filePageUrl": "https://en.wikipedia.org/wiki/File:FortLemhiCirca1900.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "lemhi-county-airport",
+      "name": "Lemhi County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 45.12388888888889,
+        "longitude": -113.88138888888888
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lemhi County Airport, which opened in 1947 and serves as a vital transportation hub for the region.",
+      "sources": [
+        {
+          "title": "Lemhi County Airport",
+          "url": "https://en.wikipedia.org/wiki/Lemhi_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

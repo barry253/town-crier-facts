@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Liberty County, Montana",
+  "country": "us",
+  "state": "mt",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "chester-city-park",
+      "name": "Chester City Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 48.5110164,
+        "longitude": -110.9699069
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Chester City Park, a community gathering spot that features a variety of recreational facilities.",
+      "sources": [
+        {
+          "title": "Chester City Park",
+          "url": "https://en.wikipedia.org/wiki/Chester_City_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "liberty-county-airport",
+      "name": "Liberty County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 48.5111904,
+        "longitude": -110.981804
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Liberty County Airport, which has been serving the area since its establishment in 1947.",
+      "sources": [
+        {
+          "title": "Liberty County Airport",
+          "url": "https://en.wikipedia.org/wiki/Liberty_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "tiber-dam-airport",
+      "name": "Tiber Dam Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 48.3138069,
+        "longitude": -111.108753
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Tiber Dam Airport, a vital airstrip that supports local aviation since its opening in 1965.",
+      "sources": [
+        {
+          "title": "Tiber Dam Airport",
+          "url": "https://en.wikipedia.org/wiki/Tiber_Dam_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

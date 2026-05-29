@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Haskell County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "lake-stamford-park",
+      "name": "Lake Stamford Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.043745,
+        "longitude": -99.6087342
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lake Stamford Park, known for its scenic views and recreational opportunities since its establishment in the 1960s.",
+      "sources": [
+        {
+          "title": "Lake Stamford Park",
+          "url": "https://en.wikipedia.org/wiki/Lake_Stamford_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "rochester-cemetery",
+      "name": "Rochester Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.3333797,
+        "longitude": -99.8752888
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Rochester Cemetery, where many of the town's founders are buried, dating back to the 1800s.",
+      "sources": [
+        {
+          "title": "Rochester Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Rochester_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

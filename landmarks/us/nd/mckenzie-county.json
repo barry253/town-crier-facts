@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "McKenzie County, North Dakota",
+  "country": "us",
+  "state": "nd",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "tobacco-garden-creek",
+      "name": "Tobacco Garden Creek",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 48.115,
+        "longitude": -103.1111111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Tobacco Garden Creek, known for its scenic beauty and rich wildlife habitat.",
+      "sources": [
+        {
+          "title": "Tobacco Garden Creek",
+          "url": "https://en.wikipedia.org/wiki/Tobacco_Garden_Creek"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fairview-lift-bridge",
+      "name": "Fairview Lift Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 47.85872222222223,
+        "longitude": -103.96638888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Fairview Lift Bridge, a historic structure completed in 1910, connecting North Dakota and Montana.",
+      "sources": [
+        {
+          "title": "Fairview Lift Bridge",
+          "url": "https://en.wikipedia.org/wiki/Fairview_Lift_Bridge"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Fairview_bridge.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Fairview_bridge.JPG/1920px-Fairview_bridge.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fort-henry",
+      "name": "Fort Henry",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 47.94338888888888,
+        "longitude": -104.01269444444445
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Henry, established in 1864, which played a role in the region's military history.",
+      "sources": [
+        {
+          "title": "Fort Henry",
+          "url": "https://en.wikipedia.org/wiki/Fort_Henry"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

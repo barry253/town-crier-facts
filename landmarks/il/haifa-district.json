@@ -4,7 +4,7 @@
   "region": "Haifa District, Israel",
   "country": "il",
   "state": "il",
-  "updatedAt": "2026-05-26",
+  "updatedAt": "2026-05-28",
   "landmarks": [
     {
       "id": "nahal-me-arot-nature-reserve",
@@ -16,7 +16,7 @@
         "longitude": 34.96527777777778
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Nahal Me'arot Nature Reserve, known for its prehistoric caves that date back over 200,000 years.",
+      "commentaryTemplate": "{{side}} is Nahal Me'arot Nature Reserve, home to prehistoric caves that were inhabited over 200,000 years ago.",
       "sources": [
         {
           "title": "Nahal Me'arot Nature Reserve",
@@ -48,7 +48,7 @@
         "longitude": 34.979975
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is the Janco Dada Museum, celebrating the Dada art movement founded in 1916 by Marcel Duchamp.",
+      "commentaryTemplate": "{{side}} is the Janco Dada Museum, dedicated to the Dada art movement and named after artist Marcel Janco.",
       "sources": [
         {
           "title": "Janco Dada Museum",
@@ -80,7 +80,7 @@
         "longitude": 34.93388888888889
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Château Pèlerin, a Crusader fortress built in 1218, offering stunning views of the coastline.",
+      "commentaryTemplate": "{{side}} is Château Pèlerin, a Crusader fortress built in 1218 that offers stunning views of the coastline.",
       "sources": [
         {
           "title": "Château Pèlerin",
@@ -137,14 +137,14 @@
     {
       "id": "mount-carmel-national-park",
       "name": "Mount Carmel National Park",
-      "landmarkType": "nature",
+      "landmarkType": "park",
       "geometry": {
         "type": "point",
         "latitude": 32.7554,
         "longitude": 35.0024
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Mount Carmel National Park, home to diverse flora and fauna, and rich archaeological sites.",
+      "commentaryTemplate": "{{side}} is Mount Carmel National Park, known for its diverse flora and fauna, attracting nature lovers since 1963.",
       "sources": [
         {
           "title": "Mount Carmel National Park",
@@ -176,7 +176,7 @@
         "longitude": 34.99913611111111
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Haifa Theatre, founded in 1961, known for its innovative productions and cultural contributions.",
+      "commentaryTemplate": "{{side}} is Haifa Theatre, a cultural hub that has hosted performances since its opening in 1961.",
       "sources": [
         {
           "title": "Haifa Theatre",
@@ -208,7 +208,7 @@
         "longitude": 34.996272222222224
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is the Israel National Museum of Science, showcasing interactive exhibits since its opening in 2000.",
+      "commentaryTemplate": "{{side}} is the Israel National Museum of Science, showcasing interactive exhibits since its establishment in 2000.",
       "sources": [
         {
           "title": "Israel National Museum of Science, Technology, and Space",
@@ -231,25 +231,25 @@
       }
     },
     {
-      "id": "haifa-museum-of-art",
-      "name": "Haifa Museum of Art",
+      "id": "haifa-city-museum",
+      "name": "Haifa City Museum",
       "landmarkType": "museum",
       "geometry": {
         "type": "point",
-        "latitude": 32.82211111111111,
-        "longitude": 34.992216666666664
+        "latitude": 32.82217,
+        "longitude": 34.99215
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Haifa Museum of Art, established in 1951, featuring contemporary Israeli and international art.",
+      "commentaryTemplate": "{{side}} is Haifa City Museum, which explores the city's history and culture since its establishment in 2001.",
       "sources": [
         {
-          "title": "Haifa Museum of Art",
-          "url": "https://en.wikipedia.org/wiki/Haifa_Museum_of_Art"
+          "title": "Haifa City Museum",
+          "url": "https://en.wikipedia.org/wiki/Haifa_City_Museum"
         }
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Haifa_Museum_of_Art.JPG",
-        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Haifa_Museum_of_Art.JPG/1920px-Haifa_Museum_of_Art.JPG",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/PikiWiki_Israel_69305_haifa_city_museum_and_wadi_salib_exhibition.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/PikiWiki_Israel_69305_haifa_city_museum_and_wadi_salib_exhibition.jpg/1920px-PikiWiki_Israel_69305_haifa_city_museum_and_wadi_salib_exhibition.jpg",
         "caption": null,
         "licenseShortName": null,
         "licenseUrl": null,
@@ -263,31 +263,31 @@
       }
     },
     {
-      "id": "israeli-national-maritime-museum",
-      "name": "Israeli National Maritime Museum",
+      "id": "clandestine-immigration-and-naval-museum",
+      "name": "Clandestine Immigration and Naval Museum",
       "landmarkType": "museum",
       "geometry": {
         "type": "point",
-        "latitude": 32.828944444444446,
-        "longitude": 34.97230277777778
+        "latitude": 32.830000000000005,
+        "longitude": 34.97138888888889
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is the Israeli National Maritime Museum, dedicated to the maritime history of Israel since 2000.",
+      "commentaryTemplate": "{{side}} is the Clandestine Immigration and Naval Museum, highlighting the history of Jewish immigration since 1990.",
       "sources": [
         {
-          "title": "Israeli National Maritime Museum",
-          "url": "https://en.wikipedia.org/wiki/Israeli_National_Maritime_Museum"
+          "title": "Clandestine Immigration and Naval Museum",
+          "url": "https://en.wikipedia.org/wiki/Clandestine_Immigration_and_Naval_Museum"
         }
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Haifa-maritime-museum-entrance.jpg",
-        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Haifa-maritime-museum-entrance.jpg/1920px-Haifa-maritime-museum-entrance.jpg",
-        "caption": null,
-        "licenseShortName": null,
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/PikiWiki_Israel_3335_Israel_Defense_Forces.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/PikiWiki_Israel_3335_Israel_Defense_Forces.jpg",
+        "caption": "Israel Defense Forces",
+        "licenseShortName": "Public domain",
         "licenseUrl": null,
-        "authorName": null,
+        "authorName": "צבי רוגר",
         "authorUrl": null,
-        "filePageUrl": null
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_3335_Israel_Defense_Forces.jpg"
       },
       "review": {
         "status": "draft",
@@ -304,7 +304,7 @@
         "longitude": 35.01797777777778
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Hecht Museum, featuring archaeological artifacts and art collections since its opening in 1984.",
+      "commentaryTemplate": "{{side}} is Hecht Museum, known for its archaeological collections and art exhibitions since 1984.",
       "sources": [
         {
           "title": "Hecht Museum",
@@ -327,7 +327,7 @@
         "longitude": 34.96527777777778
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Sammy Ofer Stadium, opened in 2014, hosting major football matches and events.",
+      "commentaryTemplate": "{{side}} is Sammy Ofer Stadium, a premier sports venue that opened in 2014, hosting major football matches.",
       "sources": [
         {
           "title": "Sammy Ofer Stadium",
@@ -359,7 +359,7 @@
         "longitude": 34.997077777777776
       },
       "radiusMeters": null,
-      "commentaryTemplate": "{{side}} is Romema Arena, a multi-purpose venue that has hosted concerts and sporting events since 1976.",
+      "commentaryTemplate": "{{side}} is Romema Arena, a multi-purpose venue that has hosted concerts and sports events since 1985.",
       "sources": [
         {
           "title": "Romema Arena",

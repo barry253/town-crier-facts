@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Sabine County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "east-mayfield",
+      "name": "East Mayfield",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.3415,
+        "longitude": -93.8647
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is East Mayfield, a historic community that dates back to the early 1900s.",
+      "sources": [
+        {
+          "title": "East Mayfield",
+          "url": "https://en.wikipedia.org/wiki/East_Mayfield"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "hemphill-cemetery",
+      "name": "Hemphill Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 31.33946,
+        "longitude": -93.84971
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Hemphill Cemetery, established in the 1800s, serving as the final resting place for many local pioneers.",
+      "sources": [
+        {
+          "title": "Hemphill Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Hemphill_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

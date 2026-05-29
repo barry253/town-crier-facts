@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Ellis County, Oklahoma",
+  "country": "us",
+  "state": "ok",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "gage-airport",
+      "name": "Gage Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.29555555555555,
+        "longitude": -99.77638888888889
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Gage Airport, which has been serving the community since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Gage Airport",
+          "url": "https://en.wikipedia.org/wiki/Gage_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "ellis-county-state-wildlife-management-area",
+      "name": "Ellis County State Wildlife Management Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 36.0625528,
+        "longitude": -99.9349033
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Ellis County State Wildlife Management Area, a haven for outdoor enthusiasts since its designation in 1965.",
+      "sources": [
+        {
+          "title": "Ellis County State Wildlife Management Area",
+          "url": "https://en.wikipedia.org/wiki/Ellis_County_State_Wildlife_Management_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

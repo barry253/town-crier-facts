@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Knox County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "knox-county-museum",
+      "name": "Knox County Museum",
+      "landmarkType": "museum",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.6534237,
+        "longitude": -99.7814802
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Knox County Museum, showcasing local history and artifacts since its establishment in 1981.",
+      "sources": [
+        {
+          "title": "Knox County Museum",
+          "url": "https://en.wikipedia.org/wiki/Knox_County_Museum"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "old-goree-cemetery",
+      "name": "Old Goree Cemetery",
+      "landmarkType": "cemetery",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.4765005,
+        "longitude": -99.588401
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Old Goree Cemetery, established in the late 1800s, reflecting the area's rich history.",
+      "sources": [
+        {
+          "title": "Old Goree Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Old_Goree_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "munday-municipal-airport",
+      "name": "Munday Municipal Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.4681471,
+        "longitude": -99.5857494
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Munday Municipal Airport, serving the region since its establishment in 1947.",
+      "sources": [
+        {
+          "title": "Munday Municipal Airport",
+          "url": "https://en.wikipedia.org/wiki/Munday_Municipal_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

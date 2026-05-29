@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Jefferson County, Kansas",
+  "country": "us",
+  "state": "ks",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "perry-state-park",
+      "name": "Perry State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.14055555555556,
+        "longitude": -95.48805555555556
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Perry State Park, established in 1977, offering over 1,000 acres of outdoor recreation.",
+      "sources": [
+        {
+          "title": "Perry State Park",
+          "url": "https://en.wikipedia.org/wiki/Perry_State_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "delaware-river-composite-truss-bridge",
+      "name": "Delaware River Composite Truss Bridge",
+      "landmarkType": "bridge",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.350833333333334,
+        "longitude": -95.45472222222223
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Delaware River Composite Truss Bridge, built in 1904, showcasing unique engineering from the early 20th century.",
+      "sources": [
+        {
+          "title": "Delaware River Composite Truss Bridge",
+          "url": "https://en.wikipedia.org/wiki/Delaware_River_Composite_Truss_Bridge"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Delaware_River_Composite_Truss_Bridge_in_Valley_Falls_KS.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Delaware_River_Composite_Truss_Bridge_in_Valley_Falls_KS.jpg/1920px-Delaware_River_Composite_Truss_Bridge_in_Valley_Falls_KS.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "perry-wildlife-area",
+      "name": "Perry Wildlife Area",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.3249983,
+        "longitude": -95.4419192
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Perry Wildlife Area, established to protect local wildlife habitats and promote conservation efforts since 1980.",
+      "sources": [
+        {
+          "title": "Perry Wildlife Area",
+          "url": "https://en.wikipedia.org/wiki/Perry_Wildlife_Area"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

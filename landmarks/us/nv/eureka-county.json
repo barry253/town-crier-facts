@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Eureka County, Nevada",
+  "country": "us",
+  "state": "nv",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "eureka-airport",
+      "name": "Eureka Airport",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.60388888888889,
+        "longitude": -116.00361111111111
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Eureka Airport, which has been serving the region since its establishment in 1942.",
+      "sources": [
+        {
+          "title": "Eureka Airport",
+          "url": "https://en.wikipedia.org/wiki/Eureka_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "eureka-historic-district",
+      "name": "Eureka Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.51305555555555,
+        "longitude": -115.96472222222222
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Eureka Historic District, recognized for its well-preserved 19th-century architecture since its designation in 1982.",
+      "sources": [
+        {
+          "title": "Eureka Historic District",
+          "url": "https://en.wikipedia.org/wiki/Eureka_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Meagher County, Montana",
+  "country": "us",
+  "state": "mt",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "park-hills",
+      "name": "Park Hills",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 46.61277777777778,
+        "longitude": -110.92194444444445
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Park Hills, a scenic area known for its diverse wildlife and beautiful landscapes.",
+      "sources": [
+        {
+          "title": "Park Hills",
+          "url": "https://en.wikipedia.org/wiki/Park_Hills"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fort-logan-and-blockhouse",
+      "name": "Fort Logan and Blockhouse",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 46.68,
+        "longitude": -111.1675
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Logan and Blockhouse, established in 1870 as a military outpost during the Indian Wars.",
+      "sources": [
+        {
+          "title": "Fort Logan and Blockhouse",
+          "url": "https://en.wikipedia.org/wiki/Fort_Logan_and_Blockhouse"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Fort_Logan_Blockhouse.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Fort_Logan_Blockhouse.jpg",
+        "caption": "Southern side of the blockhouse at Fort Logan, located northwest of White Sulphur Springs in Meagher County, Montana.  \nBuilt in 1869, the wooden fortifications are listed on the National Register of Historic Places — as \"Fort Logan and Blockhouse\".\n1965 photograph from the HABS—Historic American Buildings Survey images of Montana.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "John N. DeHaas, Jr.",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Fort_Logan_Blockhouse.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "castle-mountains",
+      "name": "Castle Mountains",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 46.469722222222224,
+        "longitude": -110.765
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Castle Mountains, known for their stunning geological formations and rich biodiversity.",
+      "sources": [
+        {
+          "title": "Castle Mountains",
+          "url": "https://en.wikipedia.org/wiki/Castle_Mountains"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

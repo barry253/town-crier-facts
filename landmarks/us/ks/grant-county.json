@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Grant County, Kansas",
+  "country": "us",
+  "state": "ks",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "ulysses-airport",
+      "name": "Ulysses Airport",
+      "landmarkType": "other",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.6011581,
+        "longitude": -101.373006
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Ulysses Airport, established in 1946, serving as a vital hub for general aviation in the region.",
+      "sources": [
+        {
+          "title": "Ulysses Airport",
+          "url": "https://en.wikipedia.org/wiki/Ulysses_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "wagon-bed-spring",
+      "name": "Wagon Bed Spring",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.3986079,
+        "longitude": -101.3705813
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Wagon Bed Spring, a historic watering hole used by pioneers on the Santa Fe Trail in the 1800s.",
+      "sources": [
+        {
+          "title": "Wagon Bed Spring",
+          "url": "https://en.wikipedia.org/wiki/Wagon_Bed_Spring"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lower_Cimarron_Spring.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lower_Cimarron_Spring.jpg",
+        "caption": "View of the Lower Cimarron Spring, a National Historic Landmark near the city of Ulysses in Grant County, Kansas, United States.",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Unknown authorUnknown author",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:Lower_Cimarron_Spring.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Cotton County, Oklahoma",
+  "country": "us",
+  "state": "ok",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "temple-oklahoma",
+      "name": "Temple, Oklahoma",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.27305555555555,
+        "longitude": -98.235
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Temple, Oklahoma, a town founded in 1901 and known for its rich agricultural heritage.",
+      "sources": [
+        {
+          "title": "Temple, Oklahoma",
+          "url": "https://en.wikipedia.org/wiki/Temple%2C_Oklahoma"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/OKMap-doton-Temple.PNG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/OKMap-doton-Temple.PNG",
+        "caption": "Adapted from Wikipedia's OK county maps by Seth Ilys.",
+        "licenseShortName": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "authorName": "The original uploader was Seth Ilys at English Wikipedia.",
+        "authorUrl": "https://en.wikipedia.org/wiki/User:Seth_Ilys",
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:OKMap-doton-Temple.PNG"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "stoner-memorial-airport",
+      "name": "Stoner Memorial Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 34.1737443,
+        "longitude": -98.3116693
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Stoner Memorial Airport, named in honor of local aviator William Stoner, serving the community since 1946.",
+      "sources": [
+        {
+          "title": "Stoner Memorial Airport",
+          "url": "https://en.wikipedia.org/wiki/Stoner_Memorial_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

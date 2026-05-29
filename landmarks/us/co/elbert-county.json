@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Elbert County, Colorado",
+  "country": "us",
+  "state": "co",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "ponderosa-park",
+      "name": "Ponderosa Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.3986531,
+        "longitude": -104.6354794
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Ponderosa Park, known for its scenic trails and picnic areas, perfect for outdoor enthusiasts.",
+      "sources": [
+        {
+          "title": "Ponderosa Park",
+          "url": "https://en.wikipedia.org/wiki/Ponderosa_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "gair-cemetery",
+      "name": "Gair Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 39.3845227,
+        "longitude": -104.1827957
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Gair Cemetery, a historic site that reflects the area's early settlement patterns.",
+      "sources": [
+        {
+          "title": "Gair Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Gair_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

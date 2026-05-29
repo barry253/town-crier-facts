@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Owyhee County, Idaho",
+  "country": "us",
+  "state": "id",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "bruneau-dunes-state-park",
+      "name": "Bruneau Dunes State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 42.91,
+        "longitude": -115.70972
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Bruneau Dunes State Park, home to the tallest sand dunes in North America, reaching heights of over 470 feet.",
+      "sources": [
+        {
+          "title": "Bruneau Dunes State Park",
+          "url": "https://en.wikipedia.org/wiki/Bruneau_Dunes_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bruneau_sand_dunes.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Bruneau_sand_dunes.jpg/1920px-Bruneau_sand_dunes.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "silver-city-historic-district",
+      "name": "Silver City Historic District",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 43.01694444444444,
+        "longitude": -116.73305555555555
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Silver City, a historic mining town established in the 1860s, showcasing well-preserved 19th-century architecture.",
+      "sources": [
+        {
+          "title": "Silver City Historic District",
+          "url": "https://en.wikipedia.org/wiki/Silver_City_Historic_District"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "bruneau-jarbidge-volcanic-field",
+      "name": "Bruneau-Jarbidge Volcanic Field",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 42.3,
+        "longitude": -115.2
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Bruneau-Jarbidge volcanic field, which features volcanic activity dating back over 2 million years.",
+      "sources": [
+        {
+          "title": "Bruneau-Jarbidge Volcanic Field",
+          "url": "https://en.wikipedia.org/wiki/Bruneau-Jarbidge_Volcanic_Field"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

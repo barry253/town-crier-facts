@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Duval County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "gonzales-cemetery",
+      "name": "Gonzales Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 27.4013483,
+        "longitude": -98.2658064
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Gonzales Cemetery, a historic site that honors the lives of early settlers.",
+      "sources": [
+        {
+          "title": "Gonzales Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Gonzales_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "pe-a-cemetery",
+      "name": "Peña Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 27.7832647,
+        "longitude": -98.4224073
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Peña Cemetery, a notable historical site with roots in the local community.",
+      "sources": [
+        {
+          "title": "Peña Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Pe%C3%B1a_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

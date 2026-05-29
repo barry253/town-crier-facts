@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Huerfano County, Colorado",
+  "country": "us",
+  "state": "co",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "lathrop-state-park",
+      "name": "Lathrop State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.60277777777778,
+        "longitude": -104.83305555555555
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Lathrop State Park, established in 1963, known for its stunning views of the Spanish Peaks.",
+      "sources": [
+        {
+          "title": "Lathrop State Park",
+          "url": "https://en.wikipedia.org/wiki/Lathrop_State_Park"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Horseshoe_Lake_at_Lathrop_State_Park_%28Huerfano_County%2C_Colorado%29.JPG",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Horseshoe_Lake_at_Lathrop_State_Park_%28Huerfano_County%2C_Colorado%29.JPG/1920px-Horseshoe_Lake_at_Lathrop_State_Park_%28Huerfano_County%2C_Colorado%29.JPG",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "huerfano-heritage-center",
+      "name": "Huerfano Heritage Center",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.623645,
+        "longitude": -104.7815951
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Huerfano Heritage Center, which showcases local history and culture dating back to the 1800s.",
+      "sources": [
+        {
+          "title": "Huerfano Heritage Center",
+          "url": "https://en.wikipedia.org/wiki/Huerfano_Heritage_Center"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "greenhorn-mountain-wilderness",
+      "name": "Greenhorn Mountain Wilderness",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.8509356,
+        "longitude": -105.032561
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Greenhorn Mountain Wilderness, designated in 1993, featuring diverse ecosystems and hiking trails.",
+      "sources": [
+        {
+          "title": "Greenhorn Mountain Wilderness",
+          "url": "https://en.wikipedia.org/wiki/Greenhorn_Mountain_Wilderness"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

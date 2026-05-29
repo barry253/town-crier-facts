@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "King County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "king-county-courthouse",
+      "name": "King County Courthouse",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.61895,
+        "longitude": -100.32228
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the King County Courthouse, built in 1910, showcasing classic architectural design.",
+      "sources": [
+        {
+          "title": "King County Courthouse",
+          "url": "https://en.wikipedia.org/wiki/King_County_Courthouse"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Seattle_-_King_County_Courthouse_01.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Seattle_-_King_County_Courthouse_01.jpg/1920px-Seattle_-_King_County_Courthouse_01.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "guthrie-cemetery",
+      "name": "Guthrie Cemetery",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.6229245,
+        "longitude": -100.3091942
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Guthrie Cemetery, established in 1900, marking the final resting place of local pioneers.",
+      "sources": [
+        {
+          "title": "Guthrie Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Guthrie_Cemetery"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

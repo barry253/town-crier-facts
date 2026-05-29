@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Dickens County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "dickens-county-museum",
+      "name": "Dickens County Museum",
+      "landmarkType": "museum",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.6222837,
+        "longitude": -100.8371246
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Dickens County Museum, showcasing local history since its establishment in 1976.",
+      "sources": [
+        {
+          "title": "Dickens County Museum",
+          "url": "https://en.wikipedia.org/wiki/Dickens_County_Museum"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "pitchfork-ranch",
+      "name": "Pitchfork Ranch",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.5988,
+        "longitude": -100.53252
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Pitchfork Ranch, a historic cattle ranch that has been in operation since 1883.",
+      "sources": [
+        {
+          "title": "Pitchfork Ranch",
+          "url": "https://en.wikipedia.org/wiki/Pitchfork_Ranch"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

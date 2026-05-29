@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Petersburg Borough, Alaska",
+  "country": "us",
+  "state": "ak",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "duncan-canal",
+      "name": "Duncan Canal",
+      "landmarkType": "waterway",
+      "geometry": {
+        "type": "point",
+        "latitude": 56.5,
+        "longitude": -133.1
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Duncan Canal, part of a volcanic field formed by eruptions over 10,000 years ago.",
+      "sources": [
+        {
+          "title": "Duncan Canal",
+          "url": "https://en.wikipedia.org/wiki/Duncan_Canal"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "petersburg-james-a-johnson-airport",
+      "name": "Petersburg James A. Johnson Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 56.80138888888889,
+        "longitude": -132.94611111111112
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Petersburg James A. Johnson Airport, named after a local pioneer who contributed to aviation in 1947.",
+      "sources": [
+        {
+          "title": "Petersburg James A. Johnson Airport",
+          "url": "https://en.wikipedia.org/wiki/Petersburg_James_A._Johnson_Airport"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/PSG-c.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/PSG-c.jpg",
+        "caption": "Photograph of Petersburg James A. Johnson Airport (PSG) in Petersburg, Alaska, United States.\nhttp://www.alaska.faa.gov/fai/airports.htm\n\nhttp://www.alaska.faa.gov/fai/images/SEAK/PSG-c.jpg",
+        "licenseShortName": "Public domain",
+        "licenseUrl": null,
+        "authorName": "Lazyhawk",
+        "authorUrl": null,
+        "filePageUrl": "https://commons.wikimedia.org/wiki/File:PSG-c.jpg"
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "security-bay-state-marine-park",
+      "name": "Security Bay State Marine Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 56.855000000000004,
+        "longitude": -134.36694444444444
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Security Bay State Marine Park, established to protect diverse marine ecosystems in 1980.",
+      "sources": [
+        {
+          "title": "Security Bay State Marine Park",
+          "url": "https://en.wikipedia.org/wiki/Security_Bay_State_Marine_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

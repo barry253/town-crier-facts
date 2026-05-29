@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Roberts County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "roberts-county-park",
+      "name": "Roberts County Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.6939512,
+        "longitude": -100.633752
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Roberts County Park, a popular spot for outdoor activities and community events since its opening.",
+      "sources": [
+        {
+          "title": "Roberts County Park",
+          "url": "https://en.wikipedia.org/wiki/Roberts_County_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "fossil-beds",
+      "name": "Fossil Beds",
+      "landmarkType": "nature",
+      "geometry": {
+        "type": "point",
+        "latitude": 35.74108,
+        "longitude": -100.55748
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Fossil Beds, where significant prehistoric remains were discovered, dating back millions of years.",
+      "sources": [
+        {
+          "title": "Fossil Beds",
+          "url": "https://en.wikipedia.org/wiki/Fossil_Beds"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

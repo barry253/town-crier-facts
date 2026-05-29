@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Meade County, Kansas",
+  "country": "us",
+  "state": "ks",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "dalton-gang-hideout-and-museum",
+      "name": "Dalton Gang Hideout and Museum",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.28,
+        "longitude": -100.337
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Dalton Gang Hideout and Museum, where the infamous gang planned their robberies in the late 1800s.",
+      "sources": [
+        {
+          "title": "Dalton Gang Hideout and Museum",
+          "url": "https://en.wikipedia.org/wiki/Dalton_Gang_Hideout_and_Museum"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/US-KS-Meade-DaltonGangHideout-2006.01.10-007_%28cropped%29.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/US-KS-Meade-DaltonGangHideout-2006.01.10-007_%28cropped%29.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "meade-state-park",
+      "name": "Meade State Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 37.17222222222222,
+        "longitude": -100.45055555555555
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Meade State Park, established in 1965, offering diverse recreational activities and scenic landscapes.",
+      "sources": [
+        {
+          "title": "Meade State Park",
+          "url": "https://en.wikipedia.org/wiki/Meade_State_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

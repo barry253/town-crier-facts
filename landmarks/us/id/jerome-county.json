@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Jerome County, Idaho",
+  "country": "us",
+  "state": "id",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "minidoka-national-historic-site",
+      "name": "Minidoka National Historic Site",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 42.67861111111111,
+        "longitude": -114.24416666666667
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Minidoka National Historic Site, established in 2001 to commemorate the Japanese American internment during World War II.",
+      "sources": [
+        {
+          "title": "Minidoka National Historic Site",
+          "url": "https://en.wikipedia.org/wiki/Minidoka_National_Historic_Site"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Minidoka_National_Historic_Site_%28Entrance%29.jpg",
+        "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Minidoka_National_Historic_Site_%28Entrance%29.jpg/1920px-Minidoka_National_Historic_Site_%28Entrance%29.jpg",
+        "caption": null,
+        "licenseShortName": null,
+        "licenseUrl": null,
+        "authorName": null,
+        "authorUrl": null,
+        "filePageUrl": null
+      },
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "centennial-heritage-park",
+      "name": "Centennial Heritage Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 42.7284686,
+        "longitude": -114.517571
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Centennial Heritage Park, dedicated in 1990 to celebrate Jerome County's centennial anniversary.",
+      "sources": [
+        {
+          "title": "Centennial Heritage Park",
+          "url": "https://en.wikipedia.org/wiki/Centennial_Heritage_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

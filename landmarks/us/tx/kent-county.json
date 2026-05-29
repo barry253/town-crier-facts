@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Kent County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "old-kent-county-jail",
+      "name": "Old Kent County Jail",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.16762,
+        "longitude": -100.7529
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the Old Kent County Jail, built in 1890, representing the region's law enforcement history.",
+      "sources": [
+        {
+          "title": "Old Kent County Jail",
+          "url": "https://en.wikipedia.org/wiki/Old_Kent_County_Jail"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "jayton-park",
+      "name": "Jayton Park",
+      "landmarkType": "park",
+      "geometry": {
+        "type": "point",
+        "latitude": 33.2464818,
+        "longitude": -100.6178942
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Jayton Park, a community space that has served residents since the early 1900s.",
+      "sources": [
+        {
+          "title": "Jayton Park",
+          "url": "https://en.wikipedia.org/wiki/Jayton_Park"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

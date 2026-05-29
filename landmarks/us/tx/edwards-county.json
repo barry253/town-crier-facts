@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Edwards County, Texas",
+  "country": "us",
+  "state": "tx",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "edwards-county-airport",
+      "name": "Edwards County Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 29.9480474,
+        "longitude": -100.1742388
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Edwards County Airport, which has been serving the community since its establishment in 1946.",
+      "sources": [
+        {
+          "title": "Edwards County Airport",
+          "url": "https://en.wikipedia.org/wiki/Edwards_County_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "first-methodist-church-of-rocksprings",
+      "name": "First Methodist Church of Rocksprings",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 30.01671,
+        "longitude": -100.2094
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is the First Methodist Church of Rocksprings, established in 1885, known for its historic architecture.",
+      "sources": [
+        {
+          "title": "First Methodist Church of Rocksprings",
+          "url": "https://en.wikipedia.org/wiki/First_Methodist_Church_of_Rocksprings"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}

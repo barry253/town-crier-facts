@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "type": "landmarkCollection",
+  "region": "Powder River County, Montana",
+  "country": "us",
+  "state": "mt",
+  "updatedAt": "2026-05-28",
+  "landmarks": [
+    {
+      "id": "fort-howes",
+      "name": "Fort Howes",
+      "landmarkType": "historic",
+      "geometry": {
+        "type": "point",
+        "latitude": 45.28333333333333,
+        "longitude": -106.14805555555556
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Fort Howes, established in 1876 as a military outpost during the Indian Wars.",
+      "sources": [
+        {
+          "title": "Fort Howes",
+          "url": "https://en.wikipedia.org/wiki/Fort_Howes"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    },
+    {
+      "id": "belle-creek-airport",
+      "name": "Belle Creek Airport",
+      "landmarkType": "airport",
+      "geometry": {
+        "type": "point",
+        "latitude": 45.1275,
+        "longitude": -105.09222222222222
+      },
+      "radiusMeters": null,
+      "commentaryTemplate": "{{side}} is Belle Creek Airport, which has been serving the Powder River County area since its establishment in 1960.",
+      "sources": [
+        {
+          "title": "Belle Creek Airport",
+          "url": "https://en.wikipedia.org/wiki/Belle_Creek_Airport"
+        }
+      ],
+      "image": null,
+      "review": {
+        "status": "draft",
+        "notes": "Auto-generated. Needs real-drive validation."
+      }
+    }
+  ]
+}
