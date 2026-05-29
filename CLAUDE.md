@@ -26,6 +26,33 @@ git push
 
 Always rebuild the index and push — never leave facts and index out of sync.
 
+## R2 mirror
+
+The app fetches at runtime from a Cloudflare R2 bucket, not from GitHub
+directly. The `publish-facts.sh` script handles mirroring automatically —
+every successful `git push` is followed by an `rclone` sync of `facts/`,
+`neighborhoods/`, `landmarks/`, and `landmarks-index.json` to R2. GitHub
+remains the source of truth; R2 is the serving layer.
+
+- **Bucket:** `town-crier-facts` (Cloudflare R2, Eastern North America)
+- **Public URL:** `https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/`
+- **Cache-Control:** 24h on content files, 5 minutes on
+  `landmarks-index.json` (a stale index hides newly-published landmark
+  collections)
+- **Credentials:** `~/.config/rclone/rclone.conf` on the Pi (0600, user
+  `barry`); never commit
+- **Alerting:** failures fire Sentry events from
+  `~/.config/town-crier/sentry.env` tagged `source:pi`
+
+If R2 sync fails after a successful `git push`, the publish *as a whole*
+is considered failed (script exits non-zero, Sentry fires) but GitHub
+remains consistent. Re-running `publish-facts.sh` will retry the R2 sync
+— it's idempotent.
+
+`facts-index.json` is intentionally NOT mirrored to R2 — the app builds
+fact URLs from slugs directly and never fetches the index at runtime.
+The index file exists only for editor and audit tooling.
+
 ## Review metadata
 
 Some fact files contain per-fact review metadata. **Never overwrite these files without inspecting them first.** Check for a `reviewed` field (or similar) on individual fact objects before replacing file contents.
