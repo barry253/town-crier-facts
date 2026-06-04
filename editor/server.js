@@ -3,6 +3,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { spawnSync, spawn } = require('child_process');
+const readline = require('readline');
 
 const repoRoot = path.resolve(__dirname, '..');
 const factsDir = path.join(repoRoot, 'facts');
@@ -237,11 +238,16 @@ app.post('/api/publish', async (req, res) => {
 
   const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
 
-  function runStep(name, cmd, args) {
+  function runStep(name, cmd, args, onLine) {
     return new Promise((resolve) => {
       const proc = spawn(cmd, args, { cwd: repoRoot, env: process.env });
       let out = '';
-      proc.stdout.on('data', (d) => { out += d; });
+      if (onLine) {
+        const rl = readline.createInterface({ input: proc.stdout });
+        rl.on('line', (line) => { out += line + '\n'; onLine(line); });
+      } else {
+        proc.stdout.on('data', (d) => { out += d; });
+      }
       proc.stderr.on('data', (d) => { out += d; });
       proc.on('close', (code) => resolve({ name, status: code === 0 ? 'ok' : 'error', output: out.trim(), code }));
     });
@@ -279,7 +285,8 @@ app.post('/api/publish', async (req, res) => {
 
     send({ type: 'step-start', name: 'Sync to R2' });
     const homeDir = process.env.HOME || '/home/barry';
-    const s5 = await runStep('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`]);
+    const s5 = await runStep('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`],
+      (line) => send({ type: 'step-output', name: 'Sync to R2', line }));
     steps.push(s5); send({ type: 'step-done', ...s5 });
 
     send({ type: 'done', success: s5.status === 'ok', steps });

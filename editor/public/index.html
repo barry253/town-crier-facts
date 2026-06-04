@@ -573,6 +573,14 @@
             let data; try { data = JSON.parse(line.slice(6)); } catch { continue; }
             if (data.type === 'step-start') {
               stepEls[data.name] = appendLine(`<span class="step-pending">⟳ ${esc(data.name)}…</span>`);
+            } else if (data.type === 'step-output') {
+              const stepEl = stepEls[data.name];
+              if (stepEl) {
+                let pre = stepEl.querySelector('pre.step-output');
+                if (!pre) { pre = document.createElement('pre'); pre.className = 'step-output'; stepEl.appendChild(pre); }
+                pre.textContent += data.line + '\n';
+                log.scrollTop = log.scrollHeight;
+              }
             } else if (data.type === 'step-done') {
               const cls = data.status === 'ok' ? 'step-ok' : data.status === 'skipped' ? 'step-skipped' : 'step-error';
               const icon = data.status === 'ok' ? '✓' : data.status === 'skipped' ? '—' : '✗';
