@@ -57,35 +57,69 @@ The index file exists only for editor and audit tooling.
 
 Some fact files contain per-fact review metadata. **Never overwrite these files without inspecting them first.** Check for a `reviewed` field (or similar) on individual fact objects before replacing file contents.
 
-## Local editor
+## Fact editor
 
+Start the editor server:
 ```bash
+cd ~/town-crier-facts
 node editor/server.js
-# UI available at http://localhost:8787
 ```
 
-## Generation worker (Pi systemd service)
+Access from Windows via SSH tunnel (in a separate terminal):
+```powershell
+ssh -L 8787:127.0.0.1:8787 barry@rosenpi.duckdns.org   # remote
+ssh -L 8787:127.0.0.1:8787 barry@raspberrypi.local      # local network
+```
 
-The queue worker runs as a systemd service (`town-facts-worker`) on the Pi and
-starts automatically on boot.
+Then open http://localhost:8787 in your browser.
 
+After committing, rebuild the index and push as normal.
+
+## Generating a single fact file
+
+To regenerate or create a single town's fact file:
 ```bash
-# Check status
-sudo systemctl status town-facts-worker
+cd ~/town-facts-lab
+npx tsx scripts/generateFacts.ts "Town Name, State"
+# Check output
+cat output/<slug>.json | jq '{place, slug, factCount: (.facts | length)}'
+```
+Then copy to production, rebuild index, and push (see Syncing section).
 
-# View live logs
-tail -f ~/town-facts-lab/worker.log
+## Queue system
 
-# Restart after a config change or manual stop
-sudo systemctl restart town-facts-worker
+Queue source files live under `~/town-facts-lab/queues/`:
+- US states: `queues/us/<state>.json`
+- International: `queues/intl/<region>.json`
+- Neighborhoods: `queues/neighborhoods/neighborhoods-<city>.json`
+- Census gap fills: `queues/us/gap-<state>.json`
 
-# Stop / start manually
-sudo systemctl stop town-facts-worker
+To build and start a queue (overwrites the active queue — never run while worker is active):
+```bash
+cd ~/town-facts-lab
+npx tsx scripts/buildMultiQueue.ts queues/us/maryland.json queues/intl/israel.json ...
 sudo systemctl start town-facts-worker
+npx tsx scripts/queueStatus.ts
 ```
 
-Queue file: `~/town-facts-lab/queue/towns.queue.jsonl`
-Queue status: `cd ~/town-facts-lab && npx tsx scripts/queueStatus.ts`
+To append a single town to a running queue without interrupting it:
+```bash
+now=$(date -u +"%Y-%m-%dT%H:%M:%S.000Z")
+echo "{\"id\":\"north-brunswick-new-jersey\",\"label\":\"North Brunswick, New Jersey\",\"sourceFile\":\"queues/us/nj-missing.json\",\"region\":\"New Jersey\",\"status\":\"pending\",\"attempts\":0,\"createdAt\":\"${now}\"}" >> queue/towns.queue.jsonl
+```
+
+Worker commands:
+```bash
+sudo systemctl start town-facts-worker
+sudo systemctl stop town-facts-worker
+sudo systemctl status town-facts-worker
+npx tsx scripts/queueStatus.ts
+```
+
+After a queue completes, reset completion state for next run:
+```bash
+jq '.lastCompletionNotified = "false" | .lastNearlyDoneNotified = "false"' .queue-email-state.json > .queue-email-state.json.tmp && mv .queue-email-state.json.tmp .queue-email-state.json
+```
 
 If a job is stuck in `"status":"running"` with no worker process running,
 change it to `"status":"pending"` and increment `attempts` by 1.
@@ -123,14 +157,49 @@ West Village, Greenwich Village, Battery Park City, Civic Center, East Village,
 Alphabet City, Stuyvesant Town, Peter Cooper Village, Roosevelt Island,
 Randalls Island.
 
-## Generation workflow (Pi)
+## Syncing to production
 
-- Working directory for generation: `~/town-facts-lab`
-- Sync generated output into this repo:
-  ```bash
-  rsync -av ~/town-facts-lab/output/ /path/to/town-crier-facts/facts/
-  ```
-- After every sync: rebuild index and push (see above).
+Before syncing, prune 0-fact output files (fast method):
+```bash
+cd ~/town-facts-lab
+grep -rL '"text"' output/*.json | xargs -r rm
+echo "Remaining: $(ls output/*.json | wc -l)"
+```
+
+Then sync, rebuild index, and push:
+```bash
+rsync -av output/ ~/town-crier-facts/facts/
+cd ~/town-crier-facts
+node scripts/build-index.js
+git add facts facts-index.json
+git commit -m "Add generated facts and rebuild index"
+git push origin main
+```
+
+## Email notifications
+
+The monitor runs every 5 minutes via cron. To disable:
+```bash
+crontab -e
+# Comment out the queueEmailMonitor line:
+# */5 * * * * /home/barry/town-facts-lab/scripts/queueEmailMonitor.sh ...
+```
+
+To re-enable, uncomment the line. To force an immediate email:
+```bash
+cd ~/town-facts-lab
+jq '.lastHourly = 0' .queue-email-state.json > .queue-email-state.json.tmp && mv .queue-email-state.json.tmp .queue-email-state.json
+bash scripts/queueEmailMonitor.sh
+```
+
+If alerts fire on stale state after a queue rebuild, reset:
+```bash
+cd ~/town-facts-lab
+cp queue/towns.failed.jsonl queue/towns.failed.jsonl.bak
+> queue/towns.failed.jsonl
+> worker.log
+jq '.lastFailed = 0 | .lastErrorHash = ""' .queue-email-state.json > .queue-email-state.json.tmp && mv .queue-email-state.json.tmp .queue-email-state.json
+```
 
 ---
 
