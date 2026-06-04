@@ -57,6 +57,8 @@ The index file exists only for editor and audit tooling.
 
 Some fact files contain per-fact review metadata. **Never overwrite these files without inspecting them first.** Check for a `reviewed` field (or similar) on individual fact objects before replacing file contents.
 
+Files with any reviewed fact (status: `approved`, `ignore_flag`, `reviewed`, or legacy `reviewed: true`) are automatically protected from rsync overwrite by `publish-facts.sh`. To intentionally overwrite a protected file, manually remove the review fields before syncing.
+
 ## Fact editor
 
 Start the editor server:
@@ -73,7 +75,13 @@ ssh -L 8787:127.0.0.1:8787 barry@raspberrypi.local      # local network
 
 Then open http://localhost:8787 in your browser.
 
-After committing, rebuild the index and push as normal.
+Features:
+- Browse and edit facts by town
+- Drag-to-reorder facts within a file
+- **Publish button** runs the full lifecycle: rebuild index → git add → commit → push → R2 sync, with real-time progress streaming
+- The Publish step includes a **"Check protected files"** stage that lists every fact file containing reviewed facts, confirming what will be preserved during any subsequent rsync from `output/`
+
+After committing manually, rebuild the index and push as normal.
 
 ## Generating a single fact file
 
@@ -158,6 +166,8 @@ Alphabet City, Stuyvesant Town, Peter Cooper Village, Roosevelt Island,
 Randalls Island.
 
 ## Syncing to production
+
+> **WARNING:** rsync will overwrite manually edited fact files unless they contain reviewed facts. Before syncing, any fact you want to protect should have a review object with status `approved`, `ignore_flag`, or `reviewed` on at least one fact entry. Files with reviewed facts are automatically excluded from rsync overwrite.
 
 Before syncing, prune 0-fact output files (fast method):
 ```bash

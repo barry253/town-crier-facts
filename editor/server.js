@@ -262,6 +262,25 @@ app.post('/api/publish', async (req, res) => {
     steps.push(s1); send({ type: 'step-done', ...s1 });
     if (s1.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
 
+    send({ type: 'step-start', name: 'Check protected files' });
+    const protectedFiles = [];
+    try {
+      const factFiles = fs.readdirSync(factsDir).filter(f => f.endsWith('.json'));
+      for (const file of factFiles) {
+        try {
+          const json = JSON.parse(fs.readFileSync(path.join(factsDir, file), 'utf8'));
+          if (Array.isArray(json.facts) && json.facts.some(isReviewedFact)) {
+            protectedFiles.push(file);
+          }
+        } catch { /* skip unreadable files */ }
+      }
+    } catch { /* skip if dir unreadable */ }
+    const protectOutput = protectedFiles.length > 0
+      ? protectedFiles.map(f => `PROTECTED: ${f} contains reviewed facts`).join('\n')
+      : 'No reviewed facts found in facts/.';
+    const sProtect = { name: 'Check protected files', status: 'ok', output: protectOutput, code: 0 };
+    steps.push(sProtect); send({ type: 'step-done', ...sProtect });
+
     send({ type: 'step-start', name: 'Stage changes' });
     const s2 = await runStep('Stage changes', 'git', ['add', 'facts', 'facts-index.json', 'landmarks', 'landmarks-index.json', 'neighborhoods']);
     steps.push(s2); send({ type: 'step-done', ...s2 });
