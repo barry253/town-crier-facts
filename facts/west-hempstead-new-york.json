@@ -20,37 +20,42 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.wisdomlib.org/cities/west-hempstead-23551"
+      "url": "https://grokipedia.com/page/West_Hempstead,_New_York"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "West Hempstead first appeared on maps as a Long Island Railroad station in 1893.",
+      "text": "West Hempstead got its name when the Long Island Rail Road built a station on Hempstead Turnpike in 1891, turning “West of Hempstead” into the town’s official title.",
       "sourceSentenceIds": [
-        1
+        18,
+        3
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Local source",
+        "Web source 2"
+      ],
+      "source": "local"
+    },
+    {
+      "id": 2,
+      "text": "The West Hempstead Public Library began in a storefront in 1956, earned a state charter in 1967, and moved into its 28,000‑square‑foot building in 2007.",
+      "sourceSentenceIds": [
+        2,
+        5,
+        27
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/West_Hempstead%2C_New_York"
     },
     {
-      "id": 2,
-      "text": "The name means \"west of Hempstead,\" derived from the English town of Hempstead in Essex, England.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.wisdomlib.org/cities/west-hempstead-23551"
-    },
-    {
       "id": 3,
-      "text": "West Hempstead’s library was founded in 1956 and chartered by the state in 1967.",
+      "text": "Three train stops serve the area—West Hempstead, Hempstead Gardens, and Lakeview—linking residents to the broader Long Island network.",
       "sourceSentenceIds": [
-        3
+        8
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -59,25 +64,14 @@
     },
     {
       "id": 4,
-      "text": "Riesterer’s Bakery, a kosher shop founded in 1931, still lines Hempstead Avenue today.",
+      "text": "Riesterer’s Bakery, founded in 1931, still serves kosher pastries along Hempstead Avenue, a staple of the neighborhood’s culinary scene.",
       "sourceSentenceIds": [
-        4
+        6
       ],
       "sourceLabels": [
         "Local source"
       ],
       "source": "local"
-    },
-    {
-      "id": 5,
-      "text": "Halls Pond Park, the main park, was dedicated by Nassau County in 1961.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Hempstead%2C_New_York"
     }
   ]
 }
