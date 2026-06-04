@@ -2,7 +2,7 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const { spawnSync } = require('child_process');
+const { spawnSync, spawn } = require('child_process');
 
 const repoRoot = path.resolve(__dirname, '..');
 const factsDir = path.join(repoRoot, 'facts');
@@ -12,6 +12,8 @@ const landmarksIndexPath = path.join(repoRoot, 'landmarks-index.json');
 const publicDir = path.join(__dirname, 'public');
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || '127.0.0.1';
+
+let publishInProgress = false;
 
 const REVIEWED_STATUSES = new Set(['approved', 'ignore_flag', 'reviewed']);
 const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
@@ -194,6 +196,19 @@ app.post('/api/fact/delete', (req, res) => {
   res.json({ ok: true, rebuild });
 });
 
+app.post('/api/fact/reorder', (req, res) => {
+  const { file, order } = req.body || {};
+  const json = readFactFile(file);
+  if (!Array.isArray(json.facts)) json.facts = [];
+  if (!Array.isArray(order) || order.length !== json.facts.length) throw new Error('Invalid order array');
+  if (!order.every(i => Number.isInteger(i) && i >= 0 && i < json.facts.length)) throw new Error('Order contains out-of-range indices');
+  if (new Set(order).size !== json.facts.length) throw new Error('Order must be a permutation of fact indices');
+  json.facts = order.map(i => json.facts[i]);
+  writeFactFile(file, json);
+  const rebuild = rebuildIndex();
+  res.json({ ok: true, rebuild });
+});
+
 app.post('/api/fact/add', (req, res) => {
   const { file, text = '', source = '', sourceLabels = [] } = req.body || {};
   const json = readFactFile(file);
@@ -208,6 +223,72 @@ app.post('/api/fact/add', (req, res) => {
   writeFactFile(file, json);
   const rebuild = rebuildIndex();
   res.json({ ok: true, rebuild });
+});
+
+app.post('/api/publish', async (req, res) => {
+  if (publishInProgress) {
+    return res.status(409).json({ ok: false, error: 'A publish is already in progress.' });
+  }
+  publishInProgress = true;
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders();
+
+  const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
+
+  function runStep(name, cmd, args) {
+    return new Promise((resolve) => {
+      const proc = spawn(cmd, args, { cwd: repoRoot, env: process.env });
+      let out = '';
+      proc.stdout.on('data', (d) => { out += d; });
+      proc.stderr.on('data', (d) => { out += d; });
+      proc.on('close', (code) => resolve({ name, status: code === 0 ? 'ok' : 'error', output: out.trim(), code }));
+    });
+  }
+
+  const steps = [];
+  try {
+    const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 19);
+
+    send({ type: 'step-start', name: 'Rebuild index' });
+    const s1 = await runStep('Rebuild index', 'node', ['scripts/build-index.js']);
+    steps.push(s1); send({ type: 'step-done', ...s1 });
+    if (s1.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+
+    send({ type: 'step-start', name: 'Stage changes' });
+    const s2 = await runStep('Stage changes', 'git', ['add', 'facts', 'facts-index.json', 'landmarks', 'landmarks-index.json', 'neighborhoods']);
+    steps.push(s2); send({ type: 'step-done', ...s2 });
+    if (s2.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+
+    const check = await runStep('check', 'git', ['diff', '--cached', '--quiet']);
+    if (check.code === 0) {
+      send({ type: 'done', success: true, noChanges: true, steps });
+      publishInProgress = false; res.end(); return;
+    }
+
+    send({ type: 'step-start', name: 'Commit' });
+    const s3 = await runStep('Commit', 'git', ['commit', '-m', `Editor publish: ${timestamp}`]);
+    steps.push(s3); send({ type: 'step-done', ...s3 });
+    if (s3.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+
+    send({ type: 'step-start', name: 'Push to GitHub' });
+    const s4 = await runStep('Push to GitHub', 'git', ['push', 'origin', 'main']);
+    steps.push(s4); send({ type: 'step-done', ...s4 });
+    if (s4.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+
+    send({ type: 'step-start', name: 'Sync to R2' });
+    const homeDir = process.env.HOME || '/home/barry';
+    const s5 = await runStep('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`]);
+    steps.push(s5); send({ type: 'step-done', ...s5 });
+
+    send({ type: 'done', success: s5.status === 'ok', steps });
+  } catch (err) {
+    send({ type: 'done', success: false, error: err.message, steps });
+  } finally {
+    publishInProgress = false;
+    res.end();
+  }
 });
 
 app.get('/api/git-status', (req, res) => {

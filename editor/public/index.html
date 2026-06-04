@@ -60,6 +60,19 @@
     .field { margin: 9px 0; }
     .field label { display: block; font-size: 12px; color: #555; margin-bottom: 4px; }
     .actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 10px; }
+    button.publish { background: #1a6b3c; color: #fff; border-color: #1a6b3c; }
+    button.publish:hover { background: #155230; }
+    button.publish:disabled { background: #6aaa88; border-color: #6aaa88; cursor: not-allowed; }
+    .publish-log { background: #1a1a1a; color: #d0d0d0; font-family: monospace; font-size: 12px; line-height: 1.6; padding: 12px 14px; border-radius: 8px; margin-bottom: 12px; max-height: 200px; overflow-y: auto; }
+    .step-ok { color: #69db7c; }
+    .step-error { color: #ff6b6b; }
+    .step-pending { color: #999; }
+    .step-skipped { color: #ffd43b; }
+    .step-output { color: #888; font-size: 11px; display: block; padding-left: 16px; white-space: pre-wrap; }
+    .drag-handle { cursor: grab; color: #bbb; font-size: 18px; margin-right: 8px; user-select: none; flex-shrink: 0; line-height: 1; padding: 2px 4px; }
+    .drag-handle:hover { color: #555; }
+    .fact-card.drag-over { outline: 2px solid #666; background: #f0f4f8 !important; }
+    .fact-card.dragging { opacity: 0.4; }
     .status { position: sticky; bottom: 0; background: #111; color: #fff; padding: 9px 12px; border-radius: 8px; margin-top: 12px; display: none; }
     .status.show { display: block; }
     .topbar { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
@@ -106,8 +119,12 @@
         <h1 id="title">Select a town or problem fact</h1>
         <div class="muted" id="subtitle">Edits save directly to local JSON files and rebuild the index.</div>
       </div>
-      <button id="addFactBtn" style="display:none">Add Fact</button>
+      <div style="display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap">
+        <button id="addFactBtn" style="display:none">Add Fact</button>
+        <button id="publishBtn" class="publish">Publish</button>
+      </div>
     </div>
+    <div id="publishLog" class="publish-log" style="display:none"></div>
     <div id="facts"></div>
     <div id="status" class="status"></div>
   </main>
@@ -122,6 +139,7 @@
     let currentLmState = null;
     let currentLmFile = null;
     let currentLmData = null;
+    let dragSrcFactIndex = null;
 
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -235,9 +253,12 @@
         const card = document.createElement('div');
         card.className = `fact-card ${f.worst||''}`.trim();
         card.id = `fact-${f.factIndex}`;
+        card.setAttribute('draggable', 'true');
+        card.dataset.factIndex = f.factIndex;
         const reviewedBadge = f.reviewed ? '<span class="flag reviewed">Reviewed</span>' : '';
         card.innerHTML = `
           <div class="fact-head">
+            <span class="drag-handle" title="Drag to reorder">⠿</span>
             <b>Fact #${f.factNumber}</b>
             <div class="muted">index ${f.factIndex}</div>
           </div>
@@ -259,6 +280,50 @@
         card.querySelector('[data-action="ignore"]').onclick = ()=>reviewFact(f.factIndex, 'ignore_flag', card);
         card.querySelector('[data-action="needs"]').onclick = ()=>reviewFact(f.factIndex, 'needs_fix', card);
         card.querySelector('[data-action="delete"]').onclick = ()=>deleteFact(f.factIndex);
+
+        card.addEventListener('dragstart', e => {
+          dragSrcFactIndex = f.factIndex;
+          card.classList.add('dragging');
+          e.dataTransfer.effectAllowed = 'move';
+          e.dataTransfer.setData('text/plain', String(f.factIndex));
+        });
+        card.addEventListener('dragend', () => {
+          card.classList.remove('dragging');
+          document.querySelectorAll('.fact-card').forEach(c => c.classList.remove('drag-over'));
+        });
+        card.addEventListener('dragover', e => {
+          e.preventDefault();
+          e.dataTransfer.dropEffect = 'move';
+          if (dragSrcFactIndex !== f.factIndex) {
+            document.querySelectorAll('.fact-card').forEach(c => c.classList.remove('drag-over'));
+            card.classList.add('drag-over');
+          }
+        });
+        card.addEventListener('dragleave', e => {
+          if (!card.contains(e.relatedTarget)) card.classList.remove('drag-over');
+        });
+        card.addEventListener('drop', async e => {
+          e.preventDefault();
+          card.classList.remove('drag-over');
+          if (dragSrcFactIndex === null || dragSrcFactIndex === f.factIndex) return;
+          const cards = [...document.querySelectorAll('.fact-card')];
+          const currentOrder = cards.map(c => parseInt(c.dataset.factIndex));
+          const fromIdx = currentOrder.indexOf(dragSrcFactIndex);
+          const toIdx = currentOrder.indexOf(f.factIndex);
+          currentOrder.splice(fromIdx, 1);
+          currentOrder.splice(toIdx, 0, dragSrcFactIndex);
+          dragSrcFactIndex = null;
+          try {
+            await api('/api/fact/reorder', {
+              method: 'POST', headers: {'Content-Type':'application/json'},
+              body: JSON.stringify({ file: currentFile, order: currentOrder })
+            });
+            showStatus('Reordered facts and rebuilt index.');
+            await loadAll();
+            await loadTown(currentFile);
+          } catch(e){ showStatus(e.message, true); }
+        });
+
         el.appendChild(card);
       });
       if(focusFactIndex !== null){
@@ -469,6 +534,68 @@
         $('gitStatus').style.display = 'block';
         $('gitStatus').textContent = s.status || 'Working tree clean';
       } catch(e){ showStatus(e.message, true); }
+    };
+
+    $('publishBtn').onclick = async () => {
+      const btn = $('publishBtn');
+      const log = $('publishLog');
+      btn.disabled = true;
+      btn.textContent = 'Publishing…';
+      log.style.display = 'block';
+      log.innerHTML = '';
+      const stepEls = {};
+      const appendLine = (html) => {
+        const div = document.createElement('div');
+        div.innerHTML = html;
+        log.appendChild(div);
+        log.scrollTop = log.scrollHeight;
+        return div;
+      };
+      try {
+        const res = await fetch('/api/publish', { method: 'POST' });
+        if (!res.ok) {
+          const json = await res.json().catch(() => ({}));
+          appendLine(`<span class="step-error">✗ ${esc(json.error || 'Request failed')}</span>`);
+          btn.disabled = false; btn.textContent = 'Publish'; return;
+        }
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          const events = buffer.split('\n\n');
+          buffer = events.pop();
+          for (const event of events) {
+            const line = event.split('\n').find(l => l.startsWith('data: '));
+            if (!line) continue;
+            let data; try { data = JSON.parse(line.slice(6)); } catch { continue; }
+            if (data.type === 'step-start') {
+              stepEls[data.name] = appendLine(`<span class="step-pending">⟳ ${esc(data.name)}…</span>`);
+            } else if (data.type === 'step-done') {
+              const cls = data.status === 'ok' ? 'step-ok' : data.status === 'skipped' ? 'step-skipped' : 'step-error';
+              const icon = data.status === 'ok' ? '✓' : data.status === 'skipped' ? '—' : '✗';
+              const outputHtml = data.output ? `<span class="step-output">${esc(data.output)}</span>` : '';
+              const html = `<span class="${cls}">${icon} ${esc(data.name)}</span>${outputHtml}`;
+              if (stepEls[data.name]) { stepEls[data.name].innerHTML = html; } else { appendLine(html); }
+              log.scrollTop = log.scrollHeight;
+            } else if (data.type === 'done') {
+              if (data.noChanges) {
+                appendLine('<span class="step-skipped">— Nothing to commit, working tree clean.</span>');
+              } else if (data.success) {
+                appendLine('<span class="step-ok" style="font-weight:bold">✓ Published successfully.</span>');
+              } else {
+                appendLine('<span class="step-error" style="font-weight:bold">✗ Publish failed — see details above.</span>');
+              }
+              btn.disabled = false; btn.textContent = 'Publish';
+            }
+          }
+        }
+      } catch(err) {
+        appendLine(`<span class="step-error">✗ ${esc(err.message)}</span>`);
+        btn.disabled = false; btn.textContent = 'Publish';
+      }
     };
 
     loadAll().catch(e=>showStatus(e.message, true));
