@@ -13,6 +13,7 @@ const landmarksIndexPath = path.join(repoRoot, 'landmarks-index.json');
 const publicDir = path.join(__dirname, 'public');
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || '127.0.0.1';
+const bridgesDir = path.join(process.env.HOME || '/home/barry', 'town-facts-lab', 'queues', 'bridges');
 
 let publishInProgress = false;
 
@@ -368,6 +369,78 @@ app.post('/api/landmark/review', (req, res) => {
   fs.writeFileSync(fullPath, JSON.stringify(json, null, 2) + '\n');
   const rebuild = rebuildLandmarksIndex();
   res.json({ ok: true, rebuild });
+});
+
+// ── Bridges curation API ──────────────────────────────────────────────────────
+
+function readBridgesJsonl(filename) {
+  const p = path.join(bridgesDir, filename);
+  if (!fs.existsSync(p)) return [];
+  return fs.readFileSync(p, 'utf8').trim().split('\n').filter(Boolean).map(l => JSON.parse(l));
+}
+
+function loadBridgeDecisions() {
+  const rows = readBridgesJsonl('manual-decisions.jsonl');
+  const map = {};
+  for (const r of rows) map[r.wikidataQid] = r; // last write wins
+  return map;
+}
+
+app.get('/api/bridges/candidates', (req, res) => {
+  const candidates = readBridgesJsonl('candidates.jsonl');
+  const decisions = loadBridgeDecisions();
+  const merged = candidates.map(c => ({
+    ...c,
+    decision: decisions[c.wikidataQid]?.decision ?? null,
+    decisionNotes: decisions[c.wikidataQid]?.notes ?? '',
+  }));
+  res.json(merged);
+});
+
+app.get('/api/bridges/candidate/:qid/extract', async (req, res) => {
+  const { qid } = req.params;
+  const candidates = readBridgesJsonl('candidates.jsonl');
+  const c = candidates.find(x => x.wikidataQid === qid);
+  if (!c) return res.status(404).json({ ok: false, error: 'Not found' });
+  try {
+    const encoded = encodeURIComponent(c.wikipediaTitle.replace(/ /g, '_'));
+    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encoded}`;
+    const r = await fetch(url, { headers: { 'User-Agent': 'TownCrier-Pi/1.0 (barry253@gmail.com)' } });
+    if (!r.ok) return res.json({ extract: null, thumbnail: null });
+    const data = await r.json();
+    res.json({ extract: data.extract ?? null, thumbnail: data.thumbnail?.source ?? null, description: data.description ?? null });
+  } catch (e) {
+    res.json({ extract: null, thumbnail: null, description: null });
+  }
+});
+
+app.post('/api/bridges/decision', (req, res) => {
+  const { wikidataQid, decision, notes = '' } = req.body || {};
+  if (!wikidataQid || !['approved', 'blocked'].includes(decision)) {
+    throw new Error('wikidataQid and decision (approved|blocked) are required');
+  }
+  fs.mkdirSync(bridgesDir, { recursive: true });
+  const row = JSON.stringify({
+    wikidataQid,
+    decision,
+    decidedAt: new Date().toISOString().slice(0, 10),
+    decidedBy: 'Barry',
+    notes: String(notes).trim(),
+  });
+  fs.appendFileSync(path.join(bridgesDir, 'manual-decisions.jsonl'), row + '\n');
+  res.json({ ok: true });
+});
+
+app.post('/api/bridges/decisions/batch', (req, res) => {
+  const { qids, decision, notes = '' } = req.body || {};
+  if (!Array.isArray(qids) || !qids.length || !['approved', 'blocked'].includes(decision)) {
+    throw new Error('qids array and decision (approved|blocked) are required');
+  }
+  fs.mkdirSync(bridgesDir, { recursive: true });
+  const today = new Date().toISOString().slice(0, 10);
+  const lines = qids.map(qid => JSON.stringify({ wikidataQid: qid, decision, decidedAt: today, decidedBy: 'Barry', notes: String(notes).trim() }));
+  fs.appendFileSync(path.join(bridgesDir, 'manual-decisions.jsonl'), lines.join('\n') + '\n');
+  res.json({ ok: true, count: qids.length });
 });
 
 app.use((error, req, res, next) => {

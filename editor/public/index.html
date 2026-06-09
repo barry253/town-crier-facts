@@ -23,7 +23,7 @@
     .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
     .row > * { flex: 1; }
     .row button { flex: 0 0 auto; }
-    .tabs { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+    .tabs { display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 8px; margin-bottom: 10px; }
     .state-group { margin: 8px 0; }
     .state-group-header { font-size: 11px; font-weight: bold; color: #888; text-transform: uppercase; letter-spacing: .06em; padding: 4px 0 2px; border-bottom: 1px solid #eee; margin-bottom: 4px; }
     .landmark-card { border: 1px solid #ddd; border-radius: 12px; padding: 14px; margin: 14px 0; background: #fff; }
@@ -35,6 +35,42 @@
     .lm-status-badge { display: inline-block; border-radius: 999px; padding: 3px 9px; font-size: 12px; cursor: pointer; user-select: none; border: 1px solid; }
     .lm-status-badge.approved { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
     .lm-status-badge.draft { color: #666; border-color: #ccc; background: #f5f5f5; }
+    .bridge-item { border: 1px solid #ddd; border-radius: 8px; padding: 9px 10px; margin: 5px 0; cursor: pointer; }
+    .bridge-item:hover { background: #f1f1f1; }
+    .bridge-item.active { border-color: #111; background: #f2f2f2; }
+    .bridge-item.approved { border-left: 4px solid #2e7d32; }
+    .bridge-item.blocked { border-left: 4px solid #c62828; opacity: 0.6; }
+    .bridge-title { font-size: 13px; font-weight: bold; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bridge-meta { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 4px; align-items: center; }
+    .bridge-type { display: inline-block; border: 1px solid #bbb; border-radius: 999px; padding: 1px 6px; font-size: 11px; color: #555; background: #f5f5f5; }
+    .bridge-type.bridge { color: #1565c0; border-color: #90caf9; background: #e3f2fd; }
+    .bridge-type.tunnel { color: #4a148c; border-color: #ce93d8; background: #f3e5f5; }
+    .bridge-type.unknown { color: #666; }
+    .bridge-decision { display: inline-block; border-radius: 999px; padding: 1px 7px; font-size: 11px; border: 1px solid; }
+    .bridge-decision.approved { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
+    .bridge-decision.blocked { color: #b71c1c; border-color: #ef9a9a; background: #ffebee; }
+    .bridge-decision.undecided { color: #888; border-color: #ddd; background: #f5f5f5; }
+    .bridge-p31 { font-size: 10px; color: #aaa; margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .bridge-detail-meta { color: #666; font-size: 13px; margin: 4px 0 12px; }
+    .bridge-extract { background: #fafafa; border: 1px solid #eee; border-radius: 8px; padding: 12px 14px; font-size: 13px; line-height: 1.6; color: #333; margin: 10px 0 14px; max-height: 220px; overflow-y: auto; }
+    .bridge-thumbnail { float: right; max-width: 120px; max-height: 90px; object-fit: cover; border-radius: 6px; margin-left: 12px; margin-bottom: 6px; }
+    .bridge-actions { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0 8px; }
+    button.approve-btn { background: #e8f5e9; color: #1b5e20; border-color: #a5d6a7; font-weight: bold; }
+    button.approve-btn:hover { background: #c8e6c9; }
+    button.approve-btn.active-decision { background: #2e7d32; color: #fff; border-color: #2e7d32; }
+    button.block-btn { background: #ffebee; color: #b71c1c; border-color: #ef9a9a; font-weight: bold; }
+    button.block-btn:hover { background: #ffcdd2; }
+    button.block-btn.active-decision { background: #c62828; color: #fff; border-color: #c62828; }
+    .bridge-history { font-size: 12px; color: #888; margin-top: 8px; }
+    .bridge-filter-row { display: flex; gap: 6px; margin-bottom: 8px; }
+    .bridge-filter-row select { flex: 1; padding: 7px 8px; border: 1px solid #ccc; border-radius: 8px; font-size: 13px; }
+    .bridge-batch-btn { font-size: 12px; padding: 6px 8px; border-color: #ef9a9a; color: #b71c1c; white-space: nowrap; }
+    .bridge-batch-btn:hover { background: #ffebee; }
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center; z-index: 100; }
+    .modal-box { background: #fff; border-radius: 12px; padding: 24px; max-width: 420px; width: 90%; box-shadow: 0 8px 32px rgba(0,0,0,0.18); }
+    .modal-box h3 { margin-top: 0; }
+    .modal-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 18px; }
+    .kbd-hint { font-size: 11px; color: #999; margin-top: 10px; line-height: 1.7; }
     .tabs button.active { background: #111; color: #fff; }
     .summary { color: #666; font-size: 13px; margin: 6px 0 10px; }
     .town-list button { width: 100%; margin: 5px 0; text-align: left; display: flex; justify-content: space-between; gap: 8px; }
@@ -91,6 +127,7 @@
       <button id="tabProblems" class="active">Problem Queue</button>
       <button id="tabAll">All Towns</button>
       <button id="tabLandmarks">Landmarks</button>
+      <button id="tabBridges">Bridges</button>
     </div>
     <div class="filters">
       <input id="search" type="search" placeholder="Search town, fact, source, slug" />
@@ -110,8 +147,36 @@
     </div>
     <div class="summary" id="summary">Loading...</div>
     <div class="git" id="gitStatus" style="display:none"></div>
+    <div id="bridgeFilters" style="display:none">
+      <div class="bridge-filter-row">
+        <select id="bridgeDecisionFilter">
+          <option value="all">All decisions</option>
+          <option value="undecided">Undecided</option>
+          <option value="approved">Approved</option>
+          <option value="blocked">Blocked</option>
+        </select>
+        <select id="bridgeTypeFilter">
+          <option value="all">All types</option>
+          <option value="bridge">Bridge</option>
+          <option value="tunnel">Tunnel</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </div>
+      <button class="bridge-batch-btn" id="batchBlockBtn">Block all N visible</button>
+      <div class="kbd-hint">j/k navigate · a approve · b block · / search</div>
+    </div>
     <div id="list" class="town-list">Loading...</div>
   </aside>
+  <div id="modalOverlay" class="modal-overlay" style="display:none">
+    <div class="modal-box">
+      <h3 id="modalTitle"></h3>
+      <p id="modalBody"></p>
+      <div class="modal-actions">
+        <button id="modalCancel">Cancel</button>
+        <button id="modalConfirm" class="danger">Confirm</button>
+      </div>
+    </div>
+  </div>
 
   <main>
     <div class="topbar">
@@ -184,6 +249,7 @@
 
     function renderList(){
       if (mode === 'landmarks') { renderLmList(); return; }
+      if (mode === 'bridges') { renderBridgesList(); return; }
       const list = $('list');
       const state = $('stateFilter').value;
       const qa = $('qaFilter').value;
@@ -503,30 +569,231 @@
       } catch(e) { showStatus(e.message, true); }
     }
 
+    // ── Bridges ────────────────────────────────────────────────────────────────
+
+    let bridgeCandidates = [];
+    let currentBridgeQid = null;
+
+    function setFiltersForMode(m) {
+      const isBridges = m === 'bridges';
+      const isLandmarks = m === 'landmarks';
+      const hideStd = isBridges || isLandmarks;
+      document.querySelector('.filters .row').style.display = hideStd ? 'none' : '';
+      $('refreshBtn').style.display = hideStd ? 'none' : '';
+      $('gitBtn').style.display = hideStd ? 'none' : '';
+      $('bridgeFilters').style.display = isBridges ? 'block' : 'none';
+      if (isBridges) $('summary').textContent = '';
+    }
+
+    async function loadBridges() {
+      bridgeCandidates = await api('/api/bridges/candidates');
+      renderBridgesList();
+    }
+
+    function getFilteredBridges() {
+      const decF = $('bridgeDecisionFilter').value;
+      const typeF = $('bridgeTypeFilter').value;
+      const q = $('search').value.trim().toLowerCase();
+      return bridgeCandidates.filter(c => {
+        if (decF !== 'all') {
+          const d = c.decision || 'undecided';
+          if (d !== decF) return false;
+        }
+        if (typeF !== 'all' && c.structureType !== typeF) return false;
+        if (q && !c.label.toLowerCase().includes(q) && !c.wikidataQid.toLowerCase().includes(q)) return false;
+        return true;
+      });
+    }
+
+    function renderBridgesList() {
+      const list = $('list');
+      list.innerHTML = '';
+      const visible = getFilteredBridges();
+      const undecidedCount = visible.filter(c => !c.decision).length;
+      const batchBtn = $('batchBlockBtn');
+      batchBtn.textContent = `Block all ${undecidedCount} undecided visible`;
+      batchBtn.style.display = undecidedCount > 0 ? 'block' : 'none';
+      $('summary').textContent = `${visible.length} of ${bridgeCandidates.length} candidates`;
+      if (!visible.length) { list.innerHTML = '<div class="muted">No candidates match.</div>'; return; }
+      visible.forEach(c => {
+        const decLabel = c.decision || 'undecided';
+        const div = document.createElement('div');
+        div.className = `bridge-item${c.decision === 'approved' ? ' approved' : c.decision === 'blocked' ? ' blocked' : ''}${currentBridgeQid === c.wikidataQid ? ' active' : ''}`;
+        div.dataset.qid = c.wikidataQid;
+        div.innerHTML = `
+          <div class="bridge-title">${esc(c.label)}</div>
+          <div class="bridge-meta">
+            <span class="bridge-type ${esc(c.structureType)}">${esc(c.structureType)}</span>
+            <span class="bridge-decision ${esc(decLabel)}">${esc(decLabel)}</span>
+          </div>
+          ${c.p31Values?.length ? `<div class="bridge-p31">${esc(c.p31Values.join(' · '))}</div>` : ''}
+        `;
+        div.onclick = () => loadBridgeCandidate(c.wikidataQid);
+        list.appendChild(div);
+      });
+    }
+
+    async function loadBridgeCandidate(qid) {
+      currentBridgeQid = qid;
+      renderBridgesList();
+      const candidate = bridgeCandidates.find(c => c.wikidataQid === qid);
+      if (!candidate) return;
+      renderBridgeDetail(candidate, null);
+      try {
+        const extract = await api(`/api/bridges/candidate/${encodeURIComponent(qid)}/extract`);
+        if (currentBridgeQid === qid) renderBridgeDetail(candidate, extract);
+      } catch(e) {
+        if (currentBridgeQid === qid) renderBridgeDetail(candidate, { extract: '(failed to load extract)' });
+      }
+    }
+
+    function renderBridgeDetail(candidate, extract) {
+      $('title').textContent = candidate.label;
+      $('subtitle').textContent = `${candidate.wikidataQid} · ${candidate.id}`;
+      $('addFactBtn').style.display = 'none';
+      const decision = candidate.decision || 'undecided';
+      const thumb = extract?.thumbnail
+        ? `<img class="bridge-thumbnail" src="${esc(extract.thumbnail)}" alt="${esc(candidate.label)}" />`
+        : '';
+      const extractText = extract === null ? '(loading…)' : (extract?.extract || '(no extract available)');
+      const p31Html = candidate.p31Values?.length
+        ? candidate.p31Values.map(q => `<span class="bridge-type">${esc(q)}</span>`).join(' ')
+        : '<span class="muted">none</span>';
+      $('facts').innerHTML = `
+        <div class="landmark-card">
+          ${thumb}
+          <div class="bridge-detail-meta">
+            QID: <b>${esc(candidate.wikidataQid)}</b> &nbsp;·&nbsp; slug: <code>${esc(candidate.id)}</code> &nbsp;·&nbsp; type: ${esc(candidate.structureType)}
+          </div>
+          <div style="margin-bottom:10px"><b>P31 values:</b> ${p31Html}</div>
+          <div class="bridge-extract">${esc(extractText)}</div>
+          <div class="bridge-actions">
+            <button class="approve-btn${decision === 'approved' ? ' active-decision' : ''}" id="bridgeApproveBtn">✓ Approve</button>
+            <button class="block-btn${decision === 'blocked' ? ' active-decision' : ''}" id="bridgeBlockBtn">✗ Block</button>
+            <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(candidate.wikipediaTitle)}" target="_blank" rel="noopener" style="font-size:12px;line-height:2.5;margin-left:4px">Wikipedia ↗</a>
+            <a href="https://www.wikidata.org/wiki/${esc(candidate.wikidataQid)}" target="_blank" rel="noopener" style="font-size:12px;line-height:2.5;margin-left:4px">Wikidata ↗</a>
+          </div>
+          <div class="bridge-history">Current decision: <b>${esc(decision)}</b></div>
+        </div>
+      `;
+      $('bridgeApproveBtn').onclick = () => postBridgeDecision(candidate.wikidataQid, 'approved');
+      $('bridgeBlockBtn').onclick = () => postBridgeDecision(candidate.wikidataQid, 'blocked');
+    }
+
+    async function postBridgeDecision(qid, decision) {
+      try {
+        await api('/api/bridges/decision', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ wikidataQid: qid, decision, notes: '', decidedBy: 'Barry' })
+        });
+        const c = bridgeCandidates.find(x => x.wikidataQid === qid);
+        if (c) c.decision = decision;
+        renderBridgesList();
+        if (c) {
+          renderBridgeDetail(c, null);
+          api(`/api/bridges/candidate/${encodeURIComponent(qid)}/extract`)
+            .then(extract => { if (currentBridgeQid === qid) renderBridgeDetail(c, extract); })
+            .catch(() => { if (currentBridgeQid === qid) renderBridgeDetail(c, { extract: '(failed to load extract)' }); });
+        }
+        showStatus(`${decision === 'approved' ? 'Approved' : 'Blocked'}: ${c?.label}`);
+      } catch(e) { showStatus(e.message, true); }
+    }
+
+    function showModal(title, body, onConfirm) {
+      $('modalTitle').textContent = title;
+      $('modalBody').textContent = body;
+      $('modalOverlay').style.display = 'flex';
+      $('modalConfirm').onclick = () => { $('modalOverlay').style.display = 'none'; onConfirm(); };
+      $('modalCancel').onclick = () => { $('modalOverlay').style.display = 'none'; };
+    }
+
+    $('batchBlockBtn').onclick = () => {
+      const undecided = getFilteredBridges().filter(c => !c.decision);
+      if (!undecided.length) return;
+      showModal(
+        `Block ${undecided.length} candidates?`,
+        `This will mark all ${undecided.length} currently visible undecided candidates as blocked. Open any one and click Approve to undo individually.`,
+        async () => {
+          try {
+            await api('/api/bridges/decisions/batch', {
+              method: 'POST', headers: {'Content-Type':'application/json'},
+              body: JSON.stringify({ qids: undecided.map(c => c.wikidataQid), decision: 'blocked' })
+            });
+            for (const c of undecided) {
+              const entry = bridgeCandidates.find(x => x.wikidataQid === c.wikidataQid);
+              if (entry) entry.decision = 'blocked';
+            }
+            renderBridgesList();
+            showStatus(`Blocked ${undecided.length} candidates.`);
+          } catch(e) { showStatus(e.message, true); }
+        }
+      );
+    };
+
+    // ── Keyboard navigation (bridges mode) ────────────────────────────────────
+
+    document.addEventListener('keydown', e => {
+      if (mode !== 'bridges') return;
+      const tag = document.activeElement.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') {
+        if (e.key === 'Escape') document.activeElement.blur();
+        return;
+      }
+      if ($('modalOverlay').style.display !== 'none') return;
+      const visible = getFilteredBridges();
+      const idx = visible.findIndex(c => c.wikidataQid === currentBridgeQid);
+      if (e.key === 'j' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        const next = visible[idx + 1];
+        if (next) loadBridgeCandidate(next.wikidataQid);
+      } else if (e.key === 'k' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (idx > 0) loadBridgeCandidate(visible[idx - 1].wikidataQid);
+      } else if (e.key === 'a' && currentBridgeQid) {
+        postBridgeDecision(currentBridgeQid, 'approved');
+      } else if (e.key === 'b' && currentBridgeQid) {
+        postBridgeDecision(currentBridgeQid, 'blocked');
+      } else if (e.key === '/') {
+        e.preventDefault();
+        $('search').focus();
+        $('search').select();
+      }
+    });
+
     // ── Tab handlers ───────────────────────────────────────────────────────────
 
+    function setActiveTab(id) {
+      ['tabProblems','tabAll','tabLandmarks','tabBridges'].forEach(t => $(t).classList.remove('active'));
+      $(id).classList.add('active');
+    }
+
     $('tabProblems').onclick = () => {
-      mode='problems';
-      $('tabProblems').classList.add('active');
-      $('tabAll').classList.remove('active');
-      $('tabLandmarks').classList.remove('active');
+      mode = 'problems';
+      setActiveTab('tabProblems');
+      setFiltersForMode('problems');
       renderList();
     };
     $('tabAll').onclick = () => {
-      mode='all';
-      $('tabAll').classList.add('active');
-      $('tabProblems').classList.remove('active');
-      $('tabLandmarks').classList.remove('active');
+      mode = 'all';
+      setActiveTab('tabAll');
+      setFiltersForMode('all');
       renderList();
     };
     $('tabLandmarks').onclick = () => {
-      mode='landmarks';
-      $('tabLandmarks').classList.add('active');
-      $('tabProblems').classList.remove('active');
-      $('tabAll').classList.remove('active');
+      mode = 'landmarks';
+      setActiveTab('tabLandmarks');
+      setFiltersForMode('landmarks');
       loadLandmarks().catch(e => showStatus(e.message, true));
     };
+    $('tabBridges').onclick = () => {
+      mode = 'bridges';
+      setActiveTab('tabBridges');
+      setFiltersForMode('bridges');
+      loadBridges().catch(e => showStatus(e.message, true));
+    };
     ['search','stateFilter','qaFilter'].forEach(id=>$(id).addEventListener('input', renderList));
+    $('bridgeDecisionFilter').addEventListener('change', renderBridgesList);
+    $('bridgeTypeFilter').addEventListener('change', renderBridgesList);
     $('refreshBtn').onclick = async ()=>{ await loadAll(); if(currentFile) await loadTown(currentFile); showStatus('Refreshed.'); };
     $('gitBtn').onclick = async ()=>{
       try{
