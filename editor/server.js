@@ -545,8 +545,8 @@ app.post('/api/bridges/candidate/:qid/facts', (req, res) => {
 
 app.post('/api/bridges/decision', (req, res) => {
   const { wikidataQid, decision, notes = '' } = req.body || {};
-  if (!wikidataQid || !['approved', 'blocked'].includes(decision)) {
-    throw new Error('wikidataQid and decision (approved|blocked) are required');
+  if (!wikidataQid || !['approved', 'blocked', 'undecided'].includes(decision)) {
+    throw new Error('decision must be approved, blocked, or undecided');
   }
   fs.mkdirSync(bridgesDir, { recursive: true });
   const row = JSON.stringify({
@@ -562,8 +562,8 @@ app.post('/api/bridges/decision', (req, res) => {
 
 app.post('/api/bridges/decisions/batch', (req, res) => {
   const { qids, decision, notes = '' } = req.body || {};
-  if (!Array.isArray(qids) || !qids.length || !['approved', 'blocked'].includes(decision)) {
-    throw new Error('qids array and decision (approved|blocked) are required');
+  if (!Array.isArray(qids) || !qids.length || !['approved', 'blocked', 'undecided'].includes(decision)) {
+    throw new Error('qids array and decision (approved|blocked|undecided) are required');
   }
   fs.mkdirSync(bridgesDir, { recursive: true });
   const today = new Date().toISOString().slice(0, 10);

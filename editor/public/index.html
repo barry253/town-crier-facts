@@ -62,6 +62,17 @@
     button.block-btn:hover { background: #ffcdd2; }
     button.block-btn.active-decision { background: #c62828; color: #fff; border-color: #c62828; }
     .bridge-history { font-size: 12px; color: #888; margin-top: 8px; }
+    .bridge-facts-section { margin: 16px 0 0; border-top: 1px solid #eee; padding-top: 12px; }
+    .bridge-facts-header { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: bold; color: #444; margin-bottom: 8px; }
+    .bridge-fact-row { display: flex; gap: 6px; align-items: flex-start; margin: 5px 0; }
+    .bridge-fact-num { font-size: 12px; color: #aaa; min-width: 20px; padding-top: 11px; flex-shrink: 0; }
+    .bridge-fact-row textarea { min-height: 52px; resize: vertical; font-size: 13px; }
+    .bridge-fact-del { flex-shrink: 0; padding: 6px 9px; font-size: 13px; line-height: 1; color: #b71c1c; border-color: #ef9a9a; }
+    .bridge-fact-del:hover { background: #ffebee; }
+    .bridge-fact-empty { color: #aaa; font-size: 13px; font-style: italic; margin: 6px 0; }
+    button.undecided-btn { background: #f5f5f5; color: #555; border-color: #ccc; font-weight: bold; }
+    button.undecided-btn:hover { background: #eee; }
+    button.undecided-btn.active-decision { background: #616161; color: #fff; border-color: #616161; }
     .bridge-filter-row { display: flex; gap: 6px; margin-bottom: 8px; }
     .bridge-filter-row select { flex: 1; padding: 7px 8px; border: 1px solid #ccc; border-radius: 8px; font-size: 13px; }
     .bridge-batch-btn { font-size: 12px; padding: 6px 8px; border-color: #ef9a9a; color: #b71c1c; white-space: nowrap; }
@@ -163,7 +174,7 @@
         </select>
       </div>
       <button class="bridge-batch-btn" id="batchBlockBtn">Block all N visible</button>
-      <div class="kbd-hint">j/k navigate · a approve · b block · / search</div>
+      <div class="kbd-hint">j/k navigate · a approve · b block · u undecided · / search</div>
     </div>
     <div id="list" class="town-list">Loading...</div>
   </aside>
@@ -573,6 +584,8 @@
 
     let bridgeCandidates = [];
     let currentBridgeQid = null;
+    let currentBridgeFacts = null;
+    let currentBridgeExtractData = null;
 
     function setFiltersForMode(m) {
       const isBridges = m === 'bridges';
@@ -583,6 +596,13 @@
       $('gitBtn').style.display = hideStd ? 'none' : '';
       $('bridgeFilters').style.display = isBridges ? 'block' : 'none';
       if (isBridges) $('summary').textContent = '';
+    }
+
+    function syncFactsFromDOM() {
+      if (!currentBridgeFacts) return;
+      document.querySelectorAll('.bridge-fact-textarea').forEach((ta, i) => {
+        if (currentBridgeFacts[i]) currentBridgeFacts[i].text = ta.value;
+      });
     }
 
     async function loadBridges() {
@@ -635,30 +655,54 @@
 
     async function loadBridgeCandidate(qid) {
       currentBridgeQid = qid;
+      currentBridgeFacts = null;
+      currentBridgeExtractData = null;
       renderBridgesList();
       const candidate = bridgeCandidates.find(c => c.wikidataQid === qid);
       if (!candidate) return;
       renderBridgeDetail(candidate, null);
       try {
-        const extract = await api(`/api/bridges/candidate/${encodeURIComponent(qid)}/extract`);
-        if (currentBridgeQid === qid) renderBridgeDetail(candidate, extract);
+        const data = await api(`/api/bridges/candidate/${encodeURIComponent(qid)}/extract`);
+        if (currentBridgeQid === qid) {
+          currentBridgeFacts = data.facts || [];
+          currentBridgeExtractData = data;
+          renderBridgeDetail(candidate, data);
+        }
       } catch(e) {
         if (currentBridgeQid === qid) renderBridgeDetail(candidate, { extract: '(failed to load extract)' });
       }
     }
 
-    function renderBridgeDetail(candidate, extract) {
+    function renderBridgeDetail(candidate, extractData) {
       $('title').textContent = candidate.label;
       $('subtitle').textContent = `${candidate.wikidataQid} · ${candidate.id}`;
       $('addFactBtn').style.display = 'none';
       const decision = candidate.decision || 'undecided';
-      const thumb = extract?.thumbnail
-        ? `<img class="bridge-thumbnail" src="${esc(extract.thumbnail)}" alt="${esc(candidate.label)}" />`
+      const thumb = extractData?.thumbnail
+        ? `<img class="bridge-thumbnail" src="${esc(extractData.thumbnail)}" alt="${esc(candidate.label)}" />`
         : '';
-      const extractText = extract === null ? '(loading…)' : (extract?.extract || '(no extract available)');
+      const extractText = extractData === null ? '(loading…)' : (extractData?.extract || '(no extract available)');
       const p31Html = candidate.p31Values?.length
         ? candidate.p31Values.map(q => `<span class="bridge-type">${esc(q)}</span>`).join(' ')
         : '<span class="muted">none</span>';
+
+      const facts = currentBridgeFacts;
+      let factsHtml;
+      if (extractData === null) {
+        factsHtml = '<div class="bridge-fact-empty">Loading facts…</div>';
+      } else if (extractData?.factsGenerationError) {
+        factsHtml = `<div class="bridge-fact-empty">Generation failed: ${esc(extractData.factsGenerationError)}</div>`;
+      } else if (!facts || !facts.length) {
+        factsHtml = '<div class="bridge-fact-empty">No facts generated yet.</div>';
+      } else {
+        factsHtml = facts.map((f, i) => `
+          <div class="bridge-fact-row">
+            <span class="bridge-fact-num">${i + 1}</span>
+            <textarea class="bridge-fact-textarea">${esc(f.text)}</textarea>
+            <button class="bridge-fact-del" data-bridge-fact-del="${i}">×</button>
+          </div>`).join('');
+      }
+
       $('facts').innerHTML = `
         <div class="landmark-card">
           ${thumb}
@@ -666,9 +710,24 @@
             QID: <b>${esc(candidate.wikidataQid)}</b> &nbsp;·&nbsp; slug: <code>${esc(candidate.id)}</code> &nbsp;·&nbsp; type: ${esc(candidate.structureType)}
           </div>
           <div style="margin-bottom:10px"><b>P31 values:</b> ${p31Html}</div>
-          <div class="bridge-extract">${esc(extractText)}</div>
-          <div class="bridge-actions">
+          <details style="margin-bottom:10px">
+            <summary style="font-size:12px;color:#999;cursor:pointer">Wikipedia summary</summary>
+            <div class="bridge-extract" style="margin-top:6px;font-size:12px;color:#666">${esc(extractText)}</div>
+          </details>
+          <div class="bridge-facts-section">
+            <div class="bridge-facts-header">
+              <span>Facts (${facts ? facts.length : '…'})</span>
+              <div style="display:flex;gap:6px">
+                <button id="saveBridgeFactsBtn" class="primary small"${!facts ? ' disabled' : ''}>Save facts</button>
+                <button id="regenBridgeFactsBtn" class="small"${extractData === null ? ' disabled' : ''}>Regenerate</button>
+              </div>
+            </div>
+            ${factsHtml}
+            ${facts ? '<button id="addBridgeFactBtn" class="small" style="margin-top:6px">+ Add fact</button>' : ''}
+          </div>
+          <div class="bridge-actions" style="margin-top:16px">
             <button class="approve-btn${decision === 'approved' ? ' active-decision' : ''}" id="bridgeApproveBtn">✓ Approve</button>
+            <button class="undecided-btn${candidate.decision === 'undecided' ? ' active-decision' : ''}" id="bridgeUndecidedBtn">↺ Undecided</button>
             <button class="block-btn${decision === 'blocked' ? ' active-decision' : ''}" id="bridgeBlockBtn">✗ Block</button>
             <a href="https://en.wikipedia.org/wiki/${encodeURIComponent(candidate.wikipediaTitle)}" target="_blank" rel="noopener" style="font-size:12px;line-height:2.5;margin-left:4px">Wikipedia ↗</a>
             <a href="https://www.wikidata.org/wiki/${esc(candidate.wikidataQid)}" target="_blank" rel="noopener" style="font-size:12px;line-height:2.5;margin-left:4px">Wikidata ↗</a>
@@ -676,7 +735,51 @@
           <div class="bridge-history">Current decision: <b>${esc(decision)}</b></div>
         </div>
       `;
+
+      // Wire delete buttons
+      document.querySelectorAll('[data-bridge-fact-del]').forEach(btn => {
+        const idx = parseInt(btn.dataset.bridgeFactDel);
+        btn.onclick = () => {
+          const ta = document.querySelectorAll('.bridge-fact-textarea')[idx];
+          if (ta?.value.trim() && !confirm('Delete this fact?')) return;
+          syncFactsFromDOM();
+          currentBridgeFacts.splice(idx, 1);
+          if (currentBridgeQid === candidate.wikidataQid) renderBridgeDetail(candidate, extractData);
+        };
+      });
+      const addBtn = $('addBridgeFactBtn');
+      if (addBtn) addBtn.onclick = () => {
+        syncFactsFromDOM();
+        currentBridgeFacts.push({ id: `f${currentBridgeFacts.length + 1}`, text: '' });
+        if (currentBridgeQid === candidate.wikidataQid) renderBridgeDetail(candidate, extractData);
+      };
+      const saveBtn = $('saveBridgeFactsBtn');
+      if (saveBtn) saveBtn.onclick = async () => {
+        syncFactsFromDOM();
+        try {
+          await api(`/api/bridges/candidate/${encodeURIComponent(candidate.wikidataQid)}/facts`, {
+            method: 'POST', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({ facts: currentBridgeFacts.filter(f => f.text.trim()) })
+          });
+          showStatus('Facts saved.');
+        } catch(e) { showStatus(e.message, true); }
+      };
+      const regenBtn = $('regenBridgeFactsBtn');
+      if (regenBtn) regenBtn.onclick = () => {
+        showModal('Regenerate facts?', 'This will discard edits and re-generate all 3 facts from the Wikipedia article.', async () => {
+          try {
+            const data = await api(`/api/bridges/candidate/${encodeURIComponent(candidate.wikidataQid)}/extract?regen=true`);
+            if (currentBridgeQid === candidate.wikidataQid) {
+              currentBridgeFacts = data.facts || [];
+              currentBridgeExtractData = data;
+              renderBridgeDetail(candidate, data);
+            }
+            showStatus('Facts regenerated.');
+          } catch(e) { showStatus(e.message, true); }
+        });
+      };
       $('bridgeApproveBtn').onclick = () => postBridgeDecision(candidate.wikidataQid, 'approved');
+      $('bridgeUndecidedBtn').onclick = () => postBridgeDecision(candidate.wikidataQid, 'undecided');
       $('bridgeBlockBtn').onclick = () => postBridgeDecision(candidate.wikidataQid, 'blocked');
     }
 
@@ -686,16 +789,24 @@
           method: 'POST', headers: {'Content-Type':'application/json'},
           body: JSON.stringify({ wikidataQid: qid, decision, notes: '', decidedBy: 'Barry' })
         });
+        // Capture next candidate BEFORE updating local state (decision change may remove from filter)
+        const visibleBefore = getFilteredBridges();
+        const idxBefore = visibleBefore.findIndex(c => c.wikidataQid === qid);
+        const nextQid = visibleBefore[idxBefore + 1]?.wikidataQid ?? null;
+
         const c = bridgeCandidates.find(x => x.wikidataQid === qid);
         if (c) c.decision = decision;
         renderBridgesList();
-        if (c) {
-          renderBridgeDetail(c, null);
-          api(`/api/bridges/candidate/${encodeURIComponent(qid)}/extract`)
-            .then(extract => { if (currentBridgeQid === qid) renderBridgeDetail(c, extract); })
-            .catch(() => { if (currentBridgeQid === qid) renderBridgeDetail(c, { extract: '(failed to load extract)' }); });
+
+        const label = decision === 'approved' ? 'Approved' : decision === 'blocked' ? 'Blocked' : 'Reset to undecided';
+        if (nextQid) {
+          showStatus(`${label}: ${c?.label}`);
+          loadBridgeCandidate(nextQid);
+        } else {
+          // End of list — refresh current candidate display
+          if (c) renderBridgeDetail(c, currentBridgeExtractData);
+          showStatus(`${label}: ${c?.label} — end of list`);
         }
-        showStatus(`${decision === 'approved' ? 'Approved' : 'Blocked'}: ${c?.label}`);
       } catch(e) { showStatus(e.message, true); }
     }
 
@@ -753,6 +864,8 @@
         postBridgeDecision(currentBridgeQid, 'approved');
       } else if (e.key === 'b' && currentBridgeQid) {
         postBridgeDecision(currentBridgeQid, 'blocked');
+      } else if (e.key === 'u' && currentBridgeQid) {
+        postBridgeDecision(currentBridgeQid, 'undecided');
       } else if (e.key === '/') {
         e.preventDefault();
         $('search').focus();
