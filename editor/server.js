@@ -386,6 +386,86 @@ function loadBridgeDecisions() {
   return map;
 }
 
+function loadCandidateFacts() {
+  const rows = readBridgesJsonl('candidate-facts.jsonl');
+  const map = {};
+  for (const r of rows) map[r.wikidataQid] = r; // last write wins
+  return map;
+}
+
+function loadEnvVar(key) {
+  try {
+    const envPath = path.join(process.env.HOME || '/home/barry', 'town-facts-lab', '.env');
+    const content = fs.readFileSync(envPath, 'utf8');
+    for (const line of content.split('\n')) {
+      const m = line.match(/^([A-Z0-9_]+)\s*=\s*(.*)$/);
+      if (m && m[1] === key) return m[2].trim().replace(/^["']|["']$/g, '');
+    }
+  } catch {}
+  return process.env[key];
+}
+
+function parseLlmJson(raw) {
+  const cleaned = raw.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/```$/i, '').trim();
+  return JSON.parse(cleaned);
+}
+
+function buildBridgeFactsPrompt(label, structureType, fullText) {
+  const word = structureType === 'tunnel' ? 'tunnel' : 'bridge';
+  return `You are creating spoken facts for a location-aware driving app called Town Crier.
+
+${word}: ${label}
+
+Wikipedia article:
+${fullText.slice(0, 8000)}
+
+Create exactly 3 interesting facts about this ${word}.
+
+Rules:
+- Return JSON only.
+- Each fact must be one sentence, 25-40 words.
+- Must sound natural when spoken aloud.
+- Must include the name of the ${word}.
+- Do not start with "There is", "There are", "It", or "This".
+- Prefer history, engineering, records, notable events, and distinctive characteristics.
+- Each fact must cover a distinct topic.
+- Do NOT invent facts; derive them strictly from the article text above.
+- Write in a punchy, engaging style suitable for audio narration.
+- Avoid generic descriptions; prefer specific dates, names, dimensions, and events.
+
+JSON:
+{"facts": [{"id": "f1", "text": "Fact here."}, {"id": "f2", "text": "Fact here."}, {"id": "f3", "text": "Fact here."}]}`;
+}
+
+async function fetchWikiFullText(title) {
+  try {
+    const url = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=true&titles=${encodeURIComponent(title)}&format=json&formatversion=2`;
+    const r = await fetch(url, {
+      headers: { 'User-Agent': 'TownCrier-Pi/1.0 (barry253@gmail.com)' },
+      signal: AbortSignal.timeout(15000),
+    });
+    if (!r.ok) return '';
+    const data = await r.json();
+    return data?.query?.pages?.[0]?.extract || '';
+  } catch { return ''; }
+}
+
+async function callOpenRouter(messages, model) {
+  const apiKey = loadEnvVar('OPENROUTER_API_KEY');
+  if (!apiKey) throw new Error('OPENROUTER_API_KEY not found');
+  const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
+    body: JSON.stringify({ model, messages, temperature: 0.2, max_tokens: 512 }),
+    signal: AbortSignal.timeout(30000),
+  });
+  if (!r.ok) {
+    const text = await r.text().catch(() => '');
+    throw new Error(`OpenRouter ${r.status}: ${text.slice(0, 200)}`);
+  }
+  return r.json();
+}
+
 app.get('/api/bridges/candidates', (req, res) => {
   const candidates = readBridgesJsonl('candidates.jsonl');
   const decisions = loadBridgeDecisions();
@@ -399,19 +479,68 @@ app.get('/api/bridges/candidates', (req, res) => {
 
 app.get('/api/bridges/candidate/:qid/extract', async (req, res) => {
   const { qid } = req.params;
+  const regen = req.query.regen === 'true';
   const candidates = readBridgesJsonl('candidates.jsonl');
   const c = candidates.find(x => x.wikidataQid === qid);
   if (!c) return res.status(404).json({ ok: false, error: 'Not found' });
+
+  // Wikipedia REST summary
+  let extract = null, thumbnail = null, description = null;
   try {
     const encoded = encodeURIComponent(c.wikipediaTitle.replace(/ /g, '_'));
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encoded}`;
-    const r = await fetch(url, { headers: { 'User-Agent': 'TownCrier-Pi/1.0 (barry253@gmail.com)' } });
-    if (!r.ok) return res.json({ extract: null, thumbnail: null });
-    const data = await r.json();
-    res.json({ extract: data.extract ?? null, thumbnail: data.thumbnail?.source ?? null, description: data.description ?? null });
-  } catch (e) {
-    res.json({ extract: null, thumbnail: null, description: null });
+    const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encoded}`, {
+      headers: { 'User-Agent': 'TownCrier-Pi/1.0 (barry253@gmail.com)' },
+    });
+    if (r.ok) {
+      const data = await r.json();
+      extract = data.extract ?? null;
+      thumbnail = data.thumbnail?.source ?? null;
+      description = data.description ?? null;
+    }
+  } catch {}
+
+  // Facts: use cache unless regen=true
+  const factsCache = loadCandidateFacts();
+  let facts = (!regen && factsCache[qid]?.facts) ? factsCache[qid].facts : null;
+  let factsGenerationError = null;
+
+  if (!facts) {
+    try {
+      const fullText = await fetchWikiFullText(c.wikipediaTitle);
+      const model = loadEnvVar('FACTS_MODEL') || 'openai/gpt-4o-mini';
+      const prompt = buildBridgeFactsPrompt(c.label, c.structureType, fullText);
+      const completion = await callOpenRouter([{ role: 'user', content: prompt }], model);
+      const raw = completion?.choices?.[0]?.message?.content ?? '';
+      const parsed = parseLlmJson(raw);
+      facts = (Array.isArray(parsed?.facts) ? parsed.facts : [])
+        .map((f, i) => ({ id: f.id || `f${i + 1}`, text: String(f.text || '').trim() }))
+        .filter(f => f.text);
+      const row = JSON.stringify({ wikidataQid: qid, slug: c.id, facts, generatedAt: new Date().toISOString(), model });
+      fs.mkdirSync(bridgesDir, { recursive: true });
+      fs.appendFileSync(path.join(bridgesDir, 'candidate-facts.jsonl'), row + '\n');
+    } catch (e) {
+      factsGenerationError = e.message;
+      facts = [];
+    }
   }
+
+  res.json({ extract, thumbnail, description, facts, factsGenerationError: factsGenerationError ?? null });
+});
+
+app.post('/api/bridges/candidate/:qid/facts', (req, res) => {
+  const { qid } = req.params;
+  const { facts } = req.body || {};
+  if (!qid || !Array.isArray(facts)) throw new Error('qid param and facts array required');
+  const candidates = readBridgesJsonl('candidates.jsonl');
+  const c = candidates.find(x => x.wikidataQid === qid);
+  if (!c) return res.status(404).json({ ok: false, error: 'Candidate not found' });
+  const clean = facts
+    .map((f, i) => ({ id: f.id || `f${i + 1}`, text: String(f.text || '').trim() }))
+    .filter(f => f.text);
+  const row = JSON.stringify({ wikidataQid: qid, slug: c.id, facts: clean, generatedAt: new Date().toISOString(), model: 'manual' });
+  fs.mkdirSync(bridgesDir, { recursive: true });
+  fs.appendFileSync(path.join(bridgesDir, 'candidate-facts.jsonl'), row + '\n');
+  res.json({ ok: true });
 });
 
 app.post('/api/bridges/decision', (req, res) => {
