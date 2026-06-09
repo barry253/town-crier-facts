@@ -75,8 +75,13 @@
     button.undecided-btn.active-decision { background: #616161; color: #fff; border-color: #616161; }
     .bridge-filter-row { display: flex; gap: 6px; margin-bottom: 8px; }
     .bridge-filter-row select { flex: 1; padding: 7px 8px; border: 1px solid #ccc; border-radius: 8px; font-size: 13px; }
-    .bridge-batch-btn { font-size: 12px; padding: 6px 8px; border-color: #ef9a9a; color: #b71c1c; white-space: nowrap; }
-    .bridge-batch-btn:hover { background: #ffebee; }
+    .bridge-batch-btn { font-size: 12px; padding: 6px 8px; white-space: nowrap; width: 100%; text-align: left; }
+    .bridge-batch-btn.approve { border-color: #a5d6a7; color: #1b5e20; }
+    .bridge-batch-btn.approve:hover { background: #e8f5e9; }
+    .bridge-batch-btn.block { border-color: #ef9a9a; color: #b71c1c; }
+    .bridge-batch-btn.block:hover { background: #ffebee; }
+    .bridge-batch-btn.reset { border-color: #bdbdbd; color: #555; }
+    .bridge-batch-btn.reset:hover { background: #f5f5f5; }
     .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.45); display: flex; align-items: center; justify-content: center; z-index: 100; }
     .modal-box { background: #fff; border-radius: 12px; padding: 24px; max-width: 420px; width: 90%; box-shadow: 0 8px 32px rgba(0,0,0,0.18); }
     .modal-box h3 { margin-top: 0; }
@@ -173,7 +178,9 @@
           <option value="unknown">Unknown</option>
         </select>
       </div>
-      <button class="bridge-batch-btn" id="batchBlockBtn">Block all N visible</button>
+      <button class="bridge-batch-btn approve" id="batchApproveBtn" style="display:none"></button>
+      <button class="bridge-batch-btn block" id="batchBlockBtn" style="display:none"></button>
+      <button class="bridge-batch-btn reset" id="batchResetBtn" style="display:none"></button>
       <div class="kbd-hint">j/k navigate · a approve · b block · u undecided · / search</div>
     </div>
     <div id="list" class="town-list">Loading...</div>
@@ -630,9 +637,15 @@
       list.innerHTML = '';
       const visible = getFilteredBridges();
       const undecidedCount = visible.filter(c => !c.decision).length;
-      const batchBtn = $('batchBlockBtn');
-      batchBtn.textContent = `Block all ${undecidedCount} undecided visible`;
-      batchBtn.style.display = undecidedCount > 0 ? 'block' : 'none';
+      const approveBtn = $('batchApproveBtn');
+      const blockBtn = $('batchBlockBtn');
+      const resetBtn = $('batchResetBtn');
+      approveBtn.textContent = `✓ Approve all ${undecidedCount} undecided visible`;
+      approveBtn.style.display = undecidedCount > 0 ? 'block' : 'none';
+      blockBtn.textContent = `✗ Block all ${undecidedCount} undecided visible`;
+      blockBtn.style.display = undecidedCount > 0 ? 'block' : 'none';
+      resetBtn.textContent = `↺ Reset all ${visible.length} visible to undecided`;
+      resetBtn.style.display = visible.length > 0 ? 'block' : 'none';
       $('summary').textContent = `${visible.length} of ${bridgeCandidates.length} candidates`;
       if (!visible.length) { list.innerHTML = '<div class="muted">No candidates match.</div>'; return; }
       visible.forEach(c => {
@@ -818,26 +831,48 @@
       $('modalCancel').onclick = () => { $('modalOverlay').style.display = 'none'; };
     }
 
+    async function batchDecide(targets, decision, label) {
+      try {
+        await api('/api/bridges/decisions/batch', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ qids: targets.map(c => c.wikidataQid), decision })
+        });
+        for (const c of targets) {
+          const entry = bridgeCandidates.find(x => x.wikidataQid === c.wikidataQid);
+          if (entry) entry.decision = decision;
+        }
+        renderBridgesList();
+        showStatus(`${label}: ${targets.length} candidates.`);
+      } catch(e) { showStatus(e.message, true); }
+    }
+
+    $('batchApproveBtn').onclick = () => {
+      const undecided = getFilteredBridges().filter(c => !c.decision);
+      if (!undecided.length) return;
+      showModal(
+        `Approve ${undecided.length} candidates?`,
+        `This will mark all ${undecided.length} currently visible undecided candidates as approved.`,
+        () => batchDecide(undecided, 'approved', 'Approved')
+      );
+    };
+
     $('batchBlockBtn').onclick = () => {
       const undecided = getFilteredBridges().filter(c => !c.decision);
       if (!undecided.length) return;
       showModal(
         `Block ${undecided.length} candidates?`,
         `This will mark all ${undecided.length} currently visible undecided candidates as blocked. Open any one and click Approve to undo individually.`,
-        async () => {
-          try {
-            await api('/api/bridges/decisions/batch', {
-              method: 'POST', headers: {'Content-Type':'application/json'},
-              body: JSON.stringify({ qids: undecided.map(c => c.wikidataQid), decision: 'blocked' })
-            });
-            for (const c of undecided) {
-              const entry = bridgeCandidates.find(x => x.wikidataQid === c.wikidataQid);
-              if (entry) entry.decision = 'blocked';
-            }
-            renderBridgesList();
-            showStatus(`Blocked ${undecided.length} candidates.`);
-          } catch(e) { showStatus(e.message, true); }
-        }
+        () => batchDecide(undecided, 'blocked', 'Blocked')
+      );
+    };
+
+    $('batchResetBtn').onclick = () => {
+      const visible = getFilteredBridges();
+      if (!visible.length) return;
+      showModal(
+        `Reset ${visible.length} candidates to undecided?`,
+        `This will clear the decision on all ${visible.length} currently visible candidates, including any already approved or blocked.`,
+        () => batchDecide(visible, 'undecided', 'Reset')
       );
     };
 
