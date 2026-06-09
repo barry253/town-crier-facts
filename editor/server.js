@@ -450,20 +450,29 @@ async function fetchWikiFullText(title) {
   } catch { return ''; }
 }
 
-async function callOpenRouter(messages, model) {
+async function callOpenRouterWithRetry(messages, model, maxRetries = 3) {
   const apiKey = loadEnvVar('OPENROUTER_API_KEY');
   if (!apiKey) throw new Error('OPENROUTER_API_KEY not found');
-  const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
-    body: JSON.stringify({ model, messages, temperature: 0.2, max_tokens: 512 }),
-    signal: AbortSignal.timeout(30000),
-  });
-  if (!r.ok) {
-    const text = await r.text().catch(() => '');
-    throw new Error(`OpenRouter ${r.status}: ${text.slice(0, 200)}`);
+  const RETRYABLE = new Set([429, 500, 502, 503, 504]);
+  for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${apiKey}` },
+      body: JSON.stringify({ model, messages, temperature: 0.2, max_tokens: 512 }),
+      signal: AbortSignal.timeout(30000),
+    });
+    if (r.ok) return r.json();
+    if (!RETRYABLE.has(r.status) || attempt === maxRetries) {
+      const text = await r.text().catch(() => '');
+      throw new Error(`OpenRouter ${r.status}: ${text.slice(0, 200)}`);
+    }
+    const retryAfter = r.headers.get('retry-after');
+    const waitMs = (retryAfter && /^\d+$/.test(retryAfter))
+      ? Number(retryAfter) * 1000
+      : Math.min(3000 * Math.pow(2, attempt), 30000);
+    console.warn(`OpenRouter ${r.status}; retrying in ${Math.round(waitMs / 1000)}s (attempt ${attempt + 1}/${maxRetries})`);
+    await new Promise(resolve => setTimeout(resolve, waitMs));
   }
-  return r.json();
 }
 
 app.get('/api/bridges/candidates', (req, res) => {
@@ -507,9 +516,9 @@ app.get('/api/bridges/candidate/:qid/extract', async (req, res) => {
   if (!facts) {
     try {
       const fullText = await fetchWikiFullText(c.wikipediaTitle);
-      const model = loadEnvVar('FACTS_MODEL') || 'openai/gpt-4o-mini';
+      const model = loadEnvVar('BRIDGE_FACTS_MODEL') || 'openai/gpt-4o-mini';
       const prompt = buildBridgeFactsPrompt(c.label, c.structureType, fullText);
-      const completion = await callOpenRouter([{ role: 'user', content: prompt }], model);
+      const completion = await callOpenRouterWithRetry([{ role: 'user', content: prompt }], model);
       const raw = completion?.choices?.[0]?.message?.content ?? '';
       const parsed = parseLlmJson(raw);
       facts = (Array.isArray(parsed?.facts) ? parsed.facts : [])
