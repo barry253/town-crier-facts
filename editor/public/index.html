@@ -183,7 +183,8 @@
         </select>
       </div>
       <div class="bridge-filter-row">
-        <select id="bridgeLocationFilter"><option value="all">All locations</option></select>
+        <select id="bridgeCountryFilter"><option value="all">All countries</option></select>
+        <select id="bridgeStateFilter"><option value="all">All states</option></select>
       </div>
       <button class="bridge-batch-btn approve" id="batchApproveBtn" style="display:none"></button>
       <button class="bridge-batch-btn block" id="batchBlockBtn" style="display:none"></button>
@@ -621,22 +622,37 @@
 
     async function loadBridges() {
       bridgeCandidates = await api('/api/bridges/candidates');
-      populateBridgeLocationFilter();
+      populateBridgeLocationFilters();
       renderBridgesList();
     }
 
-    function populateBridgeLocationFilter() {
-      const locs = [...new Set(bridgeCandidates.map(c => c.stateCode || c.country || '').filter(Boolean))].sort();
-      const sel = $('bridgeLocationFilter');
-      const current = sel.value;
-      sel.innerHTML = '<option value="all">All locations</option>' + locs.map(l => `<option value="${esc(l)}">${esc(l)}</option>`).join('');
-      if (locs.includes(current)) sel.value = current;
+    function populateBridgeLocationFilters() {
+      const countries = [...new Set(bridgeCandidates.map(c => c.country).filter(Boolean))].sort();
+      const cSel = $('bridgeCountryFilter');
+      const cCurrent = cSel.value;
+      cSel.innerHTML = '<option value="all">All countries</option>' + countries.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+      if (countries.includes(cCurrent)) cSel.value = cCurrent;
+
+      const states = [...new Set(bridgeCandidates.filter(c => c.country === 'US' && c.stateCode).map(c => c.stateCode))].sort();
+      const sSel = $('bridgeStateFilter');
+      const sCurrent = sSel.value;
+      sSel.innerHTML = '<option value="all">All states</option>' + states.map(s => `<option value="${esc(s)}">${esc(s)}</option>`).join('');
+      if (states.includes(sCurrent)) sSel.value = sCurrent;
+      syncStateFilterVisibility();
+    }
+
+    function syncStateFilterVisibility() {
+      const country = $('bridgeCountryFilter').value;
+      const show = country === 'all' || country === 'US';
+      $('bridgeStateFilter').style.display = show ? '' : 'none';
+      if (!show) $('bridgeStateFilter').value = 'all';
     }
 
     function getFilteredBridges() {
       const decF = $('bridgeDecisionFilter').value;
       const typeF = $('bridgeTypeFilter').value;
-      const locF = $('bridgeLocationFilter').value;
+      const countryF = $('bridgeCountryFilter').value;
+      const stateF = $('bridgeStateFilter').value;
       const q = $('search').value.trim().toLowerCase();
       return bridgeCandidates.filter(c => {
         if (decF !== 'all') {
@@ -644,10 +660,8 @@
           if (d !== decF) return false;
         }
         if (typeF !== 'all' && c.structureType !== typeF) return false;
-        if (locF !== 'all') {
-          const loc = c.stateCode || c.country || '';
-          if (loc !== locF) return false;
-        }
+        if (countryF !== 'all' && c.country !== countryF) return false;
+        if (stateF !== 'all' && c.stateCode !== stateF) return false;
         if (q && !c.label.toLowerCase().includes(q) && !c.wikidataQid.toLowerCase().includes(q)) return false;
         return true;
       });
@@ -679,7 +693,7 @@
           <div class="bridge-meta">
             <span class="bridge-type ${esc(c.structureType)}">${esc(c.structureType)}</span>
             <span class="bridge-decision ${esc(decLabel)}">${esc(decLabel)}</span>
-            ${c.stateCode || c.country ? `<span class="bridge-type unknown">${esc(c.stateCode || c.country)}</span>` : ''}
+            ${c.stateCode ? `<span class="bridge-type unknown">${esc(c.stateCode)}</span>` : c.country ? `<span class="bridge-type unknown">${esc(c.country)}</span>` : ''}
           </div>
           ${c.p31Values?.length ? `<div class="bridge-p31">${esc(c.p31Values.join(' · '))}</div>` : ''}
         `;
@@ -993,7 +1007,8 @@
     ['search','stateFilter','qaFilter'].forEach(id=>$(id).addEventListener('input', renderList));
     $('bridgeDecisionFilter').addEventListener('change', renderBridgesList);
     $('bridgeTypeFilter').addEventListener('change', renderBridgesList);
-    $('bridgeLocationFilter').addEventListener('change', renderBridgesList);
+    $('bridgeCountryFilter').addEventListener('change', () => { syncStateFilterVisibility(); renderBridgesList(); });
+    $('bridgeStateFilter').addEventListener('change', renderBridgesList);
     $('refreshBtn').onclick = async ()=>{ await loadAll(); if(currentFile) await loadTown(currentFile); showStatus('Refreshed.'); };
     $('gitBtn').onclick = async ()=>{
       try{
