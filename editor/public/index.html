@@ -597,6 +597,35 @@
 
     // ── Bridges ────────────────────────────────────────────────────────────────
 
+    const COUNTRY_NAMES = {
+      AD:'Andorra', AE:'United Arab Emirates', AF:'Afghanistan', AL:'Albania',
+      AM:'Armenia', AO:'Angola', AU:'Australia', AZ:'Azerbaijan', BD:'Bangladesh',
+      BE:'Belgium', BH:'Bahrain', BO:'Bolivia', BW:'Botswana', BY:'Belarus',
+      CA:'Canada', CD:'DR Congo', CG:'Congo', CH:'Switzerland', CI:"Côte d'Ivoire",
+      CL:'Chile', CN:'China', CO:'Colombia', CU:'Cuba', CZ:'Czech Republic',
+      DK:'Denmark', DO:'Dominican Republic', DZ:'Algeria', EC:'Ecuador',
+      EE:'Estonia', EG:'Egypt', ES:'Spain', FI:'Finland', FO:'Faroe Islands',
+      FR:'France', GB:'United Kingdom', GE:'Georgia', GH:'Ghana', GR:'Greece',
+      GY:'Guyana', HK:'Hong Kong', HR:'Croatia', HU:'Hungary', ID:'Indonesia',
+      IE:'Ireland', IL:'Israel', IN:'India', IQ:'Iraq', IR:'Iran', IS:'Iceland',
+      IT:'Italy', JO:'Jordan', JP:'Japan', KE:'Kenya', KH:'Cambodia', KP:'North Korea',
+      KR:'South Korea', KZ:'Kazakhstan', LB:'Lebanon', LK:'Sri Lanka', LR:'Liberia',
+      LT:'Lithuania', LU:'Luxembourg', LV:'Latvia', LY:'Libya', MA:'Morocco',
+      MD:'Moldova', ME:'Montenegro', MG:'Madagascar', MK:'North Macedonia',
+      MM:'Myanmar', MT:'Malta', MV:'Maldives', MX:'Mexico', MY:'Malaysia',
+      MZ:'Mozambique', NG:'Nigeria', NL:'Netherlands', NO:'Norway', NP:'Nepal',
+      NZ:'New Zealand', PA:'Panama', PE:'Peru', PG:'Papua New Guinea',
+      PH:'Philippines', PK:'Pakistan', PL:'Poland', PT:'Portugal', RO:'Romania',
+      RS:'Serbia', RU:'Russia', SA:'Saudi Arabia', SD:'Sudan', SE:'Sweden',
+      SG:'Singapore', SI:'Slovenia', SK:'Slovakia', SR:'Suriname', SS:'South Sudan',
+      SU:'Soviet Union', SY:'Syria', TH:'Thailand', TM:'Turkmenistan', TN:'Tunisia',
+      TR:'Turkey', TW:'Taiwan', TZ:'Tanzania', UA:'Ukraine', UG:'Uganda',
+      US:'United States', UY:'Uruguay', UZ:'Uzbekistan', VE:'Venezuela',
+      VN:'Vietnam', XK:'Kosovo', YE:'Yemen', ZA:'South Africa', ZW:'Zimbabwe',
+    };
+
+    const countryName = code => COUNTRY_NAMES[code] || code;
+
     let bridgeCandidates = [];
     let currentBridgeQid = null;
     let currentBridgeFacts = null;
@@ -627,10 +656,11 @@
     }
 
     function populateBridgeLocationFilters() {
-      const countries = [...new Set(bridgeCandidates.map(c => c.country).filter(Boolean))].sort();
+      const countries = [...new Set(bridgeCandidates.map(c => c.country).filter(Boolean))]
+        .sort((a, b) => countryName(a).localeCompare(countryName(b)));
       const cSel = $('bridgeCountryFilter');
       const cCurrent = cSel.value;
-      cSel.innerHTML = '<option value="all">All countries</option>' + countries.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+      cSel.innerHTML = '<option value="all">All countries</option>' + countries.map(c => `<option value="${esc(c)}">${esc(countryName(c))}</option>`).join('');
       if (countries.includes(cCurrent)) cSel.value = cCurrent;
 
       const states = [...new Set(bridgeCandidates.filter(c => c.country === 'US' && c.stateCode).map(c => c.stateCode))].sort();
@@ -693,7 +723,7 @@
           <div class="bridge-meta">
             <span class="bridge-type ${esc(c.structureType)}">${esc(c.structureType)}</span>
             <span class="bridge-decision ${esc(decLabel)}">${esc(decLabel)}</span>
-            ${c.stateCode ? `<span class="bridge-type unknown">${esc(c.stateCode)}</span>` : c.country ? `<span class="bridge-type unknown">${esc(c.country)}</span>` : ''}
+            ${c.stateCode ? `<span class="bridge-type unknown" title="${esc(countryName(c.country || ''))}">${esc(c.stateCode)}</span>` : c.country ? `<span class="bridge-type unknown" title="${esc(countryName(c.country))}">${esc(c.country)}</span>` : ''}
           </div>
           ${c.p31Values?.length ? `<div class="bridge-p31">${esc(c.p31Values.join(' · '))}</div>` : ''}
         `;
@@ -769,7 +799,7 @@
         <div class="landmark-card">
           ${thumb}
           <div class="bridge-detail-meta">
-            QID: <b>${esc(candidate.wikidataQid)}</b> &nbsp;·&nbsp; slug: <code>${esc(candidate.id)}</code> &nbsp;·&nbsp; type: ${esc(candidate.structureType)}${candidate.stateCode ? ` &nbsp;·&nbsp; state: ${esc(candidate.stateCode)}` : ''}${candidate.country ? ` &nbsp;·&nbsp; country: ${esc(candidate.country)}` : ''}
+            QID: <b>${esc(candidate.wikidataQid)}</b> &nbsp;·&nbsp; slug: <code>${esc(candidate.id)}</code> &nbsp;·&nbsp; type: ${esc(candidate.structureType)}${candidate.stateCode ? ` &nbsp;·&nbsp; state: ${esc(candidate.stateCode)}` : ''}${candidate.country ? ` &nbsp;·&nbsp; country: ${esc(countryName(candidate.country))}` : ''}
           </div>
           <div style="margin-bottom:10px"><b>P31 values:</b> ${p31Html}</div>
           <details style="margin-bottom:10px">
