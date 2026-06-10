@@ -62,6 +62,10 @@
     button.block-btn:hover { background: #ffcdd2; }
     button.block-btn.active-decision { background: #c62828; color: #fff; border-color: #c62828; }
     .bridge-history { font-size: 12px; color: #888; margin-top: 8px; }
+    .bridge-connecting-row { display: flex; align-items: center; gap: 8px; margin: 10px 0 14px; padding: 8px 10px; background: #fafafa; border: 1px solid #e8e8e8; border-radius: 8px; }
+    .bridge-connecting-row label { font-size: 13px; font-weight: bold; white-space: nowrap; color: #555; flex-shrink: 0; }
+    .bridge-connecting-row input[type=text] { flex: 1; min-width: 0; padding: 6px 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 13px; font-family: inherit; background: #fff; }
+    .bridge-connecting-row input[type=text]:focus { outline: none; border-color: #555; }
     .bridge-facts-section { margin: 16px 0 0; border-top: 1px solid #eee; padding-top: 12px; }
     .bridge-facts-header { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: bold; color: #444; margin-bottom: 8px; }
     .bridge-fact-row { display: flex; gap: 6px; align-items: flex-start; margin: 5px 0; }
@@ -699,6 +703,19 @@
         ? candidate.p31Values.map(q => `<span class="bridge-type">${esc(q)}</span>`).join(' ')
         : '<span class="muted">none</span>';
 
+      const cpValue = extractData?.connectingPointsDisplay ?? '';
+      const cpSection = extractData !== null
+        ? `<div class="bridge-connecting-row">
+             <label>Connecting points:</label>
+             <input type="text" id="bridgeCpInput" value="${esc(cpValue)}" placeholder="e.g. Brooklyn — Manhattan">
+             <button class="small" id="saveBridgeCpBtn">Save</button>
+             <span id="bridgeCpFeedback" style="display:none;font-size:12px;color:#1b5e20">Saved</span>
+           </div>`
+        : `<div class="bridge-connecting-row">
+             <label>Connecting points:</label>
+             <span style="font-size:13px;color:#aaa;font-style:italic">Loading…</span>
+           </div>`;
+
       const facts = currentBridgeFacts;
       let factsHtml;
       if (extractData === null) {
@@ -727,6 +744,7 @@
             <summary style="font-size:12px;color:#999;cursor:pointer">Wikipedia summary</summary>
             <div class="bridge-extract" style="margin-top:6px;font-size:12px;color:#666">${esc(extractText)}</div>
           </details>
+          ${cpSection}
           <div class="bridge-facts-section">
             <div class="bridge-facts-header">
               <span>Facts (${facts ? facts.length : '…'})</span>
@@ -766,13 +784,28 @@
         currentBridgeFacts.push({ id: `f${currentBridgeFacts.length + 1}`, text: '' });
         if (currentBridgeQid === candidate.wikidataQid) renderBridgeDetail(candidate, extractData);
       };
-      const saveBtn = $('saveBridgeFactsBtn');
-      if (saveBtn) saveBtn.onclick = async () => {
+      const cpSaveBtn = $('saveBridgeCpBtn');
+      if (cpSaveBtn) cpSaveBtn.onclick = async () => {
         syncFactsFromDOM();
+        const cp = $('bridgeCpInput')?.value.trim() || null;
         try {
           await api(`/api/bridges/candidate/${encodeURIComponent(candidate.wikidataQid)}/facts`, {
             method: 'POST', headers: {'Content-Type':'application/json'},
-            body: JSON.stringify({ facts: currentBridgeFacts.filter(f => f.text.trim()) })
+            body: JSON.stringify({ facts: currentBridgeFacts ? currentBridgeFacts.filter(f => f.text.trim()) : [], connectingPointsDisplay: cp })
+          });
+          const fb = $('bridgeCpFeedback');
+          if (fb) { fb.style.display = 'inline'; setTimeout(() => { fb.style.display = 'none'; }, 2000); }
+        } catch(e) { showStatus(e.message, true); }
+      };
+
+      const saveBtn = $('saveBridgeFactsBtn');
+      if (saveBtn) saveBtn.onclick = async () => {
+        syncFactsFromDOM();
+        const cp = $('bridgeCpInput')?.value.trim() || null;
+        try {
+          await api(`/api/bridges/candidate/${encodeURIComponent(candidate.wikidataQid)}/facts`, {
+            method: 'POST', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({ facts: currentBridgeFacts.filter(f => f.text.trim()), connectingPointsDisplay: cp })
           });
           showStatus('Facts saved.');
         } catch(e) { showStatus(e.message, true); }

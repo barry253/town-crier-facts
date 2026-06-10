@@ -511,6 +511,7 @@ app.get('/api/bridges/candidate/:qid/extract', async (req, res) => {
   // Facts: use cache unless regen=true
   const factsCache = loadCandidateFacts();
   let facts = (!regen && factsCache[qid]?.facts) ? factsCache[qid].facts : null;
+  const connectingPointsDisplay = factsCache[qid]?.connectingPointsDisplay ?? null;
   let factsGenerationError = null;
 
   if (!facts) {
@@ -533,12 +534,12 @@ app.get('/api/bridges/candidate/:qid/extract', async (req, res) => {
     }
   }
 
-  res.json({ extract, thumbnail, description, facts, factsGenerationError: factsGenerationError ?? null });
+  res.json({ extract, thumbnail, description, facts, connectingPointsDisplay, factsGenerationError: factsGenerationError ?? null });
 });
 
 app.post('/api/bridges/candidate/:qid/facts', (req, res) => {
   const { qid } = req.params;
-  const { facts } = req.body || {};
+  const { facts, connectingPointsDisplay } = req.body || {};
   if (!qid || !Array.isArray(facts)) throw new Error('qid param and facts array required');
   const candidates = readBridgesJsonl('candidates.jsonl');
   const c = candidates.find(x => x.wikidataQid === qid);
@@ -546,7 +547,8 @@ app.post('/api/bridges/candidate/:qid/facts', (req, res) => {
   const clean = facts
     .map((f, i) => ({ id: f.id || `f${i + 1}`, text: String(f.text || '').trim() }))
     .filter(f => f.text);
-  const row = JSON.stringify({ wikidataQid: qid, slug: c.id, facts: clean, generatedAt: new Date().toISOString(), model: 'manual' });
+  const cpClean = typeof connectingPointsDisplay === 'string' ? connectingPointsDisplay.trim() || null : null;
+  const row = JSON.stringify({ wikidataQid: qid, slug: c.id, facts: clean, connectingPointsDisplay: cpClean, generatedAt: new Date().toISOString(), model: 'manual' });
   fs.mkdirSync(bridgesDir, { recursive: true });
   fs.appendFileSync(path.join(bridgesDir, 'candidate-facts.jsonl'), row + '\n');
   res.json({ ok: true });
