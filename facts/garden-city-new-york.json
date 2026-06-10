@@ -1,6 +1,6 @@
 {
-  "place": "Garden, New York",
-  "town": "Garden",
+  "place": "Garden City, New York",
+  "town": "Garden City",
   "state": "New York",
   "region": "New York",
   "country": "United States",
@@ -16,52 +16,58 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/Garden-City-New-York"
+      "url": "https://www.longislandguide.com/visit/garden-city/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Alexander Turney Stewart founded Garden City in 1869, designing wide avenues, tree‑lined streets, and a private railroad to make it a planned village.",
+      "text": "Garden City was founded in 1869 by Alexander Turney Stewart, one of the first planned communities in the United States.",
       "sourceSentenceIds": [
+        9,
         15,
         16
       ],
       "sourceLabels": [
+        "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.gardencityny.net/228/Village-History"
+      "source": "https://www.longislandguide.com/visit/garden-city/"
     },
     {
       "id": 2,
-      "text": "After Stewart’s death, his wife Cornelia built the Cathedral of the Incarnation, a landmark Episcopal church that still stands in Garden City.",
+      "text": "Stewart also built the Central Railroad of Long Island, giving Garden City its own train line that linked Long Island City to the east.",
       "sourceSentenceIds": [
-        4,
-        5
+        11,
+        12,
+        17
       ],
       "sourceLabels": [
+        "Wikipedia",
         "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Garden_City%2C_New_York"
+    },
+    {
+      "id": 3,
+      "text": "After Stewart’s death in 1876, his wife Cornelia erected the Cathedral of the Incarnation, a Gothic Revival landmark memorializing him.",
+      "sourceSentenceIds": [
+        4,
+        5,
+        6,
+        18
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Web source 2"
       ],
       "source": "https://www.gardencityny.net/228/Village-History"
     },
     {
-      "id": 3,
-      "text": "Stewart’s heirs founded the Garden City Company, which guided the community’s growth until the village incorporated in 1919.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.britannica.com/place/Garden-City-New-York"
-    },
-    {
       "id": 4,
-      "text": "Charles Lindbergh stayed at the Garden City Hotel while preparing for his 1927 transatlantic flight, a scene later filmed in the movie 'The Spirit of St. Louis'.",
+      "text": "Garden City’s Waldorf School opened in 1947 as one of the first Waldorf schools in the U.S., originally part of Adelphi University.",
       "sourceSentenceIds": [
-        25,
-        26,
-        27
+        2
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -70,14 +76,25 @@
     },
     {
       "id": 5,
-      "text": "In 1989, musician John Tesh released an album titled 'Garden City,' naming a track after his hometown in New York.",
+      "text": "Stewart’s vision of a green, tree‑lined community is reflected in Garden City’s name, wide avenues, and a 30‑acre park.",
       "sourceSentenceIds": [
-        10
+        16
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garden_City%2C_New_York"
+      "source": "https://www.gardencityny.net/228/Village-History"
+    },
+    {
+      "id": 6,
+      "text": "The Cradle of Aviation Museum in Garden City showcases Long Island’s deep connection to aviation history.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.longislandguide.com/visit/garden-city/"
     }
   ]
 }
