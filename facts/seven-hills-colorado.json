@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Seven Hills sits between Sunshine Canyon Drive and Fourmile Canyon Drive, with Poorman Road cutting through its center.",
+      "sourceSentenceIds": [
+        3,
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado"
+    },
+    {
       "id": 2,
       "text": "Elevations rise from 6,050 ft at Fourmile Canyon Drive to 6,780 ft along Sunshine Canyon Drive.",
       "sourceSentenceIds": [
@@ -29,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado"
     },
     {
       "id": 3,
@@ -43,10 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado"
     },
     {
       "id": 4,
@@ -57,10 +63,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado"
+    },
+    {
+      "id": 5,
+      "text": "The town’s geographic coordinates are 40.0264° N, 105.3119° W, placing it just west of Boulder.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://colorado.hometownlocator.com/co/boulder/sequndo.cfm"
     },
     {
       "id": 6,
@@ -71,10 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Colorado"
     }
   ]
 }
