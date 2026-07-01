@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wildwood Lake sits at 35°6′15″N 84°51′31″W, a spot just southeast of downtown Cleveland.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wildwood_Lake%2C_Tennessee"
-    },
-    {
       "id": 2,
       "text": "The community is framed by State Route 60 on the west and State Route 74 on the east, giving it a clear corridor feel.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wildwood_Lake%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Wildwood_Lake%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -63,7 +54,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_wildwood-lake"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_wildwood-lake",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_wildwood-lake"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_wildwood-lake",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -85,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_wildwood-lake"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_wildwood-lake",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

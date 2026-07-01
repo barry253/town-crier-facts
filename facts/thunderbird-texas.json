@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thunderbird_Bay%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Thunderbird_Bay%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,18 +47,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thunderbird_Bay%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Its coordinates are 31.9087° N, 99.0207° W, placing it in north‑central Brown County.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/brown/thunderbird-bay.cfm"
+      "source": "https://en.wikipedia.org/wiki/Thunderbird_Bay%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -68,7 +62,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Thunderbird_Bay,_Texas"
+      "source": "https://kids.kiddle.co/Thunderbird_Bay,_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +75,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Thunderbird_Bay,_Texas"
+      "source": "https://kids.kiddle.co/Thunderbird_Bay,_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +88,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://texas.hometownlocator.com/tx/brown/thunderbird-bay.cfm"
+      "source": "https://texas.hometownlocator.com/tx/brown/thunderbird-bay.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,20 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "Geographically, the town is positioned at 40°2′3″N 79°39′50″W, placing it roughly 40 miles southeast of Pittsburgh.",
-      "sourceSentenceIds": [
-        5,
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Vanderbilt%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-vanderbilt-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-vanderbilt-pennsylvania.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-vanderbilt-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-vanderbilt-pennsylvania.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mid‑Wilshire borders Wilshire Boulevard to the north, Olympic Boulevard to the south, La Brea Avenue to the west, and Citrus Avenue to the east.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles"
-    },
-    {
       "id": 2,
       "text": "The Wilshire Ebell Theater in Mid‑Wilshire is a Los Angeles Historic‑Cultural Monument #250.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles"
+      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles"
+      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.travelxchange.com.au/TXTravelX.asp?Exid=510118&Sname=About-Mid-Wilshire"
+      "source": "https://www.travelxchange.com.au/TXTravelX.asp?Exid=510118&Sname=About-Mid-Wilshire",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles"
+      "source": "https://en.wikipedia.org/wiki/Mid-Wilshire%2C_Los_Angeles",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

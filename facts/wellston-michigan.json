@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://99wfmk.com/wellston-michigan/"
+      "source": "https://99wfmk.com/wellston-michigan/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -68,18 +75,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
-    },
-    {
-      "id": 5,
-      "text": "Within the Wellston census‑designated place lie two small lakes, Crystal Lake and Cranberry Lake.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

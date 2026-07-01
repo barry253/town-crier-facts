@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofgregorytx.gov/history"
+      "source": "https://www.cityofgregorytx.gov/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/gregory-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/gregory-tx",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,18 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Gregory lies within San Patricio County in southern Texas, positioned at 27°55′14″N 97°17′33″W.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

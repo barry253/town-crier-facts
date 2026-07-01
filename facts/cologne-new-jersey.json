@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Cologne is a census‑designated place in Atlantic County, New Jersey, located at latitude 39.5048 and longitude –74.6132.",
-      "sourceSentenceIds": [
-        3,
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm"
-    },
-    {
       "id": 2,
       "text": "The town sits along Route 30, just 2.5 miles southeast of Egg Harbor City.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cologne%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Cologne%2C_New_Jersey",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -86,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/cologne.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Friedensburg sits at 40°36′16″N 76°13′48″W, placing it in eastern Pennsylvania's Schuylkill County.",
-      "sourceSentenceIds": [
-        4,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Friedensburg%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "In 1895 the community already had a post office and railroad service, hinting at its early role in regional trade.",
       "sourceSentenceIds": [
@@ -42,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/friedensburg-xx-schuylkill-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/friedensburg-xx-schuylkill-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/friedensburg.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/friedensburg.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,18 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/friedensburg.cfm"
-    },
-    {
-      "id": 5,
-      "text": "The area’s primary coordinate point is 40.6026 N, 76.2408 W, confirming its precise location for mapping apps.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/friedensburg.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/friedensburg.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

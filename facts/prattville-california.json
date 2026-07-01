@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Prattville sits at 40°12′29″N 121°9′24″W in the Sierra Nevada foothills.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Prattville%2C_California"
-    },
-    {
       "id": 2,
       "text": "The town’s cemetery was physically relocated, with graves dug up, moved, and reburied.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://plumascounty.org/rich-history/"
+      "source": "https://plumascounty.org/rich-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://plumascounty.org/rich-history/"
+      "source": "https://plumascounty.org/rich-history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://plumascounty.org/rich-history/"
+      "source": "https://plumascounty.org/rich-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

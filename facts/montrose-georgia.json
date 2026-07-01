@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montrose%2C_Georgia"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 32°33′30″N 83°9′8″W, placing it in central Georgia.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Montrose%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Montrose%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-montrose-georgia.html"
+      "source": "https://www.citydirectory.us/town-montrose-georgia.html",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-montrose-georgia.html"
+      "source": "https://www.citydirectory.us/town-montrose-georgia.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ga/montrose-xx-laurens-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/montrose-xx-laurens-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

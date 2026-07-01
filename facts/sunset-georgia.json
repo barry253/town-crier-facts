@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sunset Village is located at 32°53′57″N 84°24′34″W.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Village%2C_Georgia"
-    },
-    {
       "id": 2,
       "text": "Sunset Village first appeared as a census designated place in 2000.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Village%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Sunset_Village%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sunset-village"
+      "source": "https://www.mapsof.net/sunset-village",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sunset-village"
+      "source": "https://www.mapsof.net/sunset-village",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sunset-village"
-    },
-    {
-      "id": 6,
-      "text": "Sunset Village’s latitude and longitude are 32.8979, -84.4038.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.mapsof.net/sunset-village"
+      "source": "https://www.mapsof.net/sunset-village",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

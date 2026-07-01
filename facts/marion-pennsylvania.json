@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.marionpenn.com/about"
+      "source": "https://www.marionpenn.com/about",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.marionpenn.com/about"
+      "source": "https://www.marionpenn.com/about",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.marionpenn.com/about"
+      "source": "https://www.marionpenn.com/about",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marion%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Marion%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/regency_at_monroe_new_jersey"
+      "source": "https://grokipedia.com/page/regency_at_monroe_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
-    },
-    {
-      "id": 3,
-      "text": "Regency at Monroe is located at latitude 40.321 and longitude -74.3927 in Middlesex County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/middlesex/regency-at-monroe.cfm"
+      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -73,18 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
-    },
-    {
-      "id": 6,
-      "text": "The community borders Mounts Mills Road to the north, Spotswood‑Englishtown Road to the east, and Buckelew Avenue to the southwest.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

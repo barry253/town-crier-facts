@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://historyofwadleygeorgia.wordpress.com/"
+      "source": "https://historyofwadleygeorgia.wordpress.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,18 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia"
-    },
-    {
-      "id": 3,
-      "text": "Wadley sits at 32°52′14″N 82°24′14″W, firmly in rural Jefferson County.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wadleyga.gov/"
+      "source": "https://wadleyga.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -88,7 +87,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://historyofwadleygeorgia.wordpress.com/"
+      "source": "https://historyofwadleygeorgia.wordpress.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

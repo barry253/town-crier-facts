@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Garrattsville sits at the crossroads of Otsego County Route 16 and New York State Route 51.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York"
-    },
-    {
       "id": 2,
       "text": "Butternut Creek winds southwest through the hamlet, adding a gentle waterway to the landscape.",
       "sourceSentenceIds": [
@@ -40,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York"
-    },
-    {
-      "id": 3,
-      "text": "The community’s exact coordinates are 42.6473 N latitude and –75.1718 W longitude.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm"
+      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm"
+      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm"
+      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,

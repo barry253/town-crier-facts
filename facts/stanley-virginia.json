@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofstanley.com/"
+      "source": "https://www.townofstanley.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,18 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia"
-    },
-    {
-      "id": 5,
-      "text": "The town’s geographic coordinates are 38°34′40″N 78°30′32″W, placing it just north of the Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +87,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stanley%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

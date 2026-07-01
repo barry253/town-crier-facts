@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pleasant Valley CDP sits at 41°44′42″N 73°49′24″W, right where Wappinger Creek cuts through the Hudson Valley.",
-      "sourceSentenceIds": [
-        4,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley_(CDP)%2C_New_York"
-    },
-    {
       "id": 2,
       "text": "Route 44, known locally as Main Street, threads through the community and connects it to Poughkeepsie and Millbrook.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley_(CDP)%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/pleasant_valley_cdp_new_york"
+      "source": "https://grokipedia.com/page/pleasant_valley_cdp_new_york",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley_(CDP)%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pleasantvalley-ny.gov/"
+      "source": "https://pleasantvalley-ny.gov/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pleasantvalley-ny.gov/"
+      "source": "https://pleasantvalley-ny.gov/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

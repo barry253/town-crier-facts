@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,20 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Its geographic coordinates are 40°42′15″N 76°50′36″W, placing it roughly 50 miles north of Harrisburg.",
-      "sourceSentenceIds": [
-        6,
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-herndon-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-herndon-pennsylvania.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Herndon%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

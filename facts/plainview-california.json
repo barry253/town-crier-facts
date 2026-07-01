@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Plainview sits at 354 feet above sea level.",
-      "sourceSentenceIds": [
-        5,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
-    },
-    {
       "id": 2,
       "text": "Plainview lies within Tulare County in California.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/plainview-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/plainview-xx-tulare-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -75,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -87,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

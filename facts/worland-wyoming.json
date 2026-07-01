@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://cityofworland.org/history/"
+      "source": "https://cityofworland.org/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worland%2C_Wyoming"
+      "source": "https://en.wikipedia.org/wiki/Worland%2C_Wyoming",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worland%2C_Wyoming"
+      "source": "https://en.wikipedia.org/wiki/Worland%2C_Wyoming",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worland%2C_Wyoming"
+      "source": "https://en.wikipedia.org/wiki/Worland%2C_Wyoming",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

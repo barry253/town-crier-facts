@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ross Corner sits at latitude 41.1201 and longitude –74.7127 in Sussex County.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
-    },
-    {
       "id": 2,
       "text": "The community is crossed by Route 206 and County Route 565.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross_Corner%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ross_Corner%2C_New_Jersey",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,

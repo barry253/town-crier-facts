@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Henrietta%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Henrietta%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Henrietta%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Henrietta%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -75,18 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The town’s coordinates, still needing verification, are listed in historical atlases that trace Blair County’s changing boundaries.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/henrietta-xx-blair-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

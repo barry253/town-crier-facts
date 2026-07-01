@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Calcium sits in central Jefferson County at 44°02′05″N 75°50′32″W, just west of the town of Le Ray.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
-    },
-    {
       "id": 2,
       "text": "The hamlet of Calcium lies in the southern part of the CDP, east of U.S. Route 11.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -85,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

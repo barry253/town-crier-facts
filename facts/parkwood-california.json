@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Parkwood sits at 36°55′37″N 120°02′41″W, right in the heart of California's Central Valley.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California"
-    },
-    {
       "id": 2,
       "text": "The city borders the county seat of Madera to the north, making it a close neighbor to the regional hub.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_parkwood"
+      "source": "https://www.trawellino.com/destinations/united-states/california_parkwood",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountyparkwood.htm"
+      "source": "https://www.usacitiesonline.com/cacountyparkwood.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Parkwood%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

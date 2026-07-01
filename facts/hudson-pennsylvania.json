@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_hudson"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_hudson",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_hudson"
-    },
-    {
-      "id": 3,
-      "text": "Hudson sits at latitude 41°16′38″N and longitude 75°49′52″W, placing it in northwestern Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hudson%2C_Pennsylvania"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_hudson",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hudson%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Hudson%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/PA/Hudson/45578"
+      "source": "https://hellonation.com/mag/PA/Hudson/45578",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

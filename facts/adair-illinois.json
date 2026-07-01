@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitforgottonia.com/adair-il/"
+      "source": "https://www.visitforgottonia.com/adair-il/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -76,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Adair%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -88,7 +101,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://adairhistory.org/adair-history/"
+      "source": "https://adairhistory.org/adair-history/",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

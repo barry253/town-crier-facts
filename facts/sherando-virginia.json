@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sherando sits at 37°59′25″N 78°57′4″W, placing it in the Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sherando%2C_Virginia"
-    },
-    {
       "id": 2,
       "text": "The town is part of the Staunton–Waynesboro Micropolitan Statistical Area.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sherando%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Sherando%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -53,7 +45,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://triptap.com/locations/us/virginia/sherando"
+      "source": "https://triptap.com/locations/us/virginia/sherando",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/"
+      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/"
+      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/virginia/sherando"
+      "source": "https://triptap.com/locations/us/virginia/sherando",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

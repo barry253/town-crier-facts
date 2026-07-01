@@ -32,7 +32,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -46,7 +49,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +66,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -72,7 +80,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/modest-town-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/modest-town-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -85,20 +95,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Modest_Town,_Virginia"
-    },
-    {
-      "id": 6,
-      "text": "The community’s coordinates are still being verified, reflecting the challenges of mapping small coastal settlements.",
-      "sourceSentenceIds": [
-        27,
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/modest-town-xx-accomack-profile.htm"
+      "source": "https://kids.kiddle.co/Modest_Town,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

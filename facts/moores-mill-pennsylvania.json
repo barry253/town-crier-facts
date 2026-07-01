@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Moores_Mill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Moores_Mill%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Moores_Mill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Moores_Mill%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,18 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.pa.gov/agencies/phmc/historic-preservation/pa-historical-marker-program/pennsylvania-marker-search"
-    },
-    {
-      "id": 4,
-      "text": "Moores Mill’s primary coordinates are 40.4949° N, 78.2675° W in Blair County.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/moores-mill.cfm"
+      "source": "https://www.pa.gov/agencies/phmc/historic-preservation/pa-historical-marker-program/pennsylvania-marker-search",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/moores-mill.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/blair/moores-mill.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +85,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/moores-mill.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/blair/moores-mill.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

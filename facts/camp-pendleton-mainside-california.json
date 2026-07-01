@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Camp Pendleton Mainside is a census-designated place on the Marine Corps base, located at 33°18′18″N 117°18′22″W.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_Mainside%2C_California"
-    },
-    {
       "id": 2,
       "text": "The name changed to Camp Pendleton Mainside before the 2020 census to distinguish it from Camp Pendleton South.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_Mainside%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_Mainside%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://camppendletonhistoricalsociety.org/"
+      "source": "https://camppendletonhistoricalsociety.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.pendleton.marines.mil/About/History/"
+      "source": "https://www.pendleton.marines.mil/About/History/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanaford%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hanaford%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanaford%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hanaford%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hanaford,_Illinois"
+      "source": "https://kids.kiddle.co/Hanaford,_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,18 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hanaford,_Illinois"
-    },
-    {
-      "id": 5,
-      "text": "Hanaford’s geographic coordinates are 37°57′27″N 88°50′21″W, placing it just south of the county line.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Hanaford,_Illinois"
+      "source": "https://kids.kiddle.co/Hanaford,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

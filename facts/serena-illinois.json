@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Serena sits at 41°29′14″N 88°43′55″W in La Salle County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Serena%2C_Illinois"
-    },
-    {
       "id": 2,
       "text": "The town rises 630 feet above sea level.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +59,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Serena,_Illinois"
+      "source": "https://kids.kiddle.co/Serena,_Illinois",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

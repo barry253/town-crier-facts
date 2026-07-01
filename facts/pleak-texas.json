@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofpleak.com/history/"
+      "source": "https://villageofpleak.com/history/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofpleak.com/history/"
+      "source": "https://villageofpleak.com/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofpleak.com/history/"
+      "source": "https://villageofpleak.com/history/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleak%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "The village sits south of Fort Bend County’s center at 29°29′3″N, 95°48′36″W, a precise geographic marker.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pleak%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Pleak%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleak%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Pleak%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

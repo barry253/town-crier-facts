@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reno_Beach%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Reno_Beach%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/"
+      "source": "https://rbhfcd.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/"
+      "source": "https://rbhfcd.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,19 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/"
-    },
-    {
-      "id": 5,
-      "text": "Reno Beach’s latitude and longitude are 41°39'48\"N 83°16'10\"W, placing it at 41.6634,-83.2694 on the map.",
-      "sourceSentenceIds": [
-        26,
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.mapsof.net/reno-beach"
+      "source": "https://rbhfcd.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/"
+      "source": "https://rbhfcd.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

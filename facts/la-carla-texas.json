@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "La Carla sits at 26°26′7″N 98°44′26″W, placing it in the heart of the South Texas Plains.",
-      "sourceSentenceIds": [
-        3,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Carla%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The community rises about 340 feet above sea level, a modest elevation that shapes its gentle prairie landscape.",
       "sourceSentenceIds": [
@@ -43,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -54,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -65,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/la-carla-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }
