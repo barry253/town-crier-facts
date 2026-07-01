@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.southmiamifl.gov/217/Citys-History"
+      "source": "https://www.southmiamifl.gov/217/Citys-History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.floridavisiting.com/list/south-miami/"
+      "source": "https://www.floridavisiting.com/list/south-miami/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.floridavisiting.com/list/south-miami/"
+      "source": "https://www.floridavisiting.com/list/south-miami/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.floridavisiting.com/list/south-miami/"
+      "source": "https://www.floridavisiting.com/list/south-miami/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,18 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Miami_Heights%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "The CDP is bordered by Cutler Bay to the east, Goulds to the south, Richmond West to the northwest, and West Perrine to the northeast.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Miami_Heights%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/South_Miami_Heights%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,18 +59,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee"
-    },
-    {
-      "id": 4,
-      "text": "Petros sits at latitude 36.0959 and longitude –84.4424 in Morgan County, Tennessee.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://tennessee.hometownlocator.com/tn/morgan/petros.cfm"
+      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,14 +72,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tennessee.hometownlocator.com/tn/morgan/petros.cfm"
+      "source": "https://tennessee.hometownlocator.com/tn/morgan/petros.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
       "text": "The town’s name honors early settlers who established the community in the late 19th century.",
       "sourceSentenceIds": [],
       "sourceLabels": [],
-      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Petros%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

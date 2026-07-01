@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "It sits at 41°55′5″N 76°2′49″W (41.917987, -76.046952).",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/18818"
+      "source": "https://www.allplaces.us/z/18818",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/borough-friendsville-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-friendsville-pennsylvania.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

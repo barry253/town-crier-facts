@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Phillipsburg sits at 31°26′24″N 83°31′9″W, right in the heart of Tift County, Georgia.",
-      "sourceSentenceIds": [
-        7,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Phillipsburg%2C_Georgia"
-    },
-    {
       "id": 2,
       "text": "The town rises 310 feet above sea level, giving it a gentle hilltop feel.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/GA/Phillipsburg/32563"
+      "source": "https://hellonation.com/mag/GA/Phillipsburg/32563",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Mills%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Mills%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://alchetron.com/Pleasant-Mills%2C-Indiana"
+      "source": "https://alchetron.com/Pleasant-Mills%2C-Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +63,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Mills%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Mills%2C_Indiana",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,18 +78,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Mills%2C_Indiana"
-    },
-    {
-      "id": 5,
-      "text": "The community sits at 40°46′40″N latitude and 84°50′32″W longitude, a precise geographic marker.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://alchetron.com/Pleasant-Mills%2C-Indiana"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Mills%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -96,7 +94,10 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Pleasant_Mills,_Indiana"
+      "source": "https://kids.kiddle.co/Pleasant_Mills,_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Reiffton sits at 40.31 degrees north and 75.86 degrees west, placing it just 53 miles from Pennsylvania’s capital, Harrisburg.",
-      "sourceSentenceIds": [
-        27,
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm"
-    },
-    {
       "id": 2,
       "text": "The town spans roughly 3.6 square miles, all land, with no surface water within its boundaries.",
       "sourceSentenceIds": [
@@ -42,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm"
+      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,18 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm"
-    },
-    {
-      "id": 4,
-      "text": "Reiffton’s geographic coordinates are 40°18′56″N 75°52′20″W, matching the 40.315642, -75.872337 decimal format.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Reiffton%2C_Pennsylvania"
+      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm"
+      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm"
+      "source": "https://www.usacitiesonline.com/pacountyreiffton.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

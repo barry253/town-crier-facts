@@ -34,7 +34,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clint%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Clint%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -49,7 +51,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.clinttexas.com/town-history/"
+      "source": "https://www.clinttexas.com/town-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,7 +64,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/clint-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/clint-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -71,7 +78,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clint%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Clint%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

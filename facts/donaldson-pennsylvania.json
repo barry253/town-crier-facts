@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Donaldson sits at 40.6359° N, 76.4119° W in Schuylkill County.",
-      "sourceSentenceIds": [
-        6,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Donaldson%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The community is a census‑designated place, meaning it has no municipal government.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/donaldson.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/donaldson.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/donaldson-xx-schuylkill-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/donaldson-xx-schuylkill-profile.htm",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/donaldson.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/schuylkill/donaldson.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

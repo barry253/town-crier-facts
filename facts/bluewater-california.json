@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bluewater sits at 34.18°N, 114.25°W, just across the Colorado River from Arizona.",
-      "sourceSentenceIds": [
-        3,
-        25,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California"
-    },
-    {
       "id": 2,
       "text": "Bluewater enjoys classic hot desert weather, with large diurnal swings and minimal humidity, except rare monsoons.",
       "sourceSentenceIds": [
@@ -43,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Bluewater_California"
+      "source": "https://grokipedia.com/page/Bluewater_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -54,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -76,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountybluewater.htm"
+      "source": "https://www.usacitiesonline.com/cacountybluewater.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountybluewater.htm"
+      "source": "https://www.usacitiesonline.com/cacountybluewater.htm",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/union-hall-virginia-lakeside-charm"
+      "source": "https://allthingsusa.blog/union-hall-virginia-lakeside-charm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/union-hall-virginia-lakeside-charm"
+      "source": "https://allthingsusa.blog/union-hall-virginia-lakeside-charm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wikixm.com/us/va/union-hall/overview"
+      "source": "https://www.wikixm.com/us/va/union-hall/overview",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,18 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Union_Hall%2C_Virginia"
-    },
-    {
-      "id": 5,
-      "text": "The community’s coordinates are 37.026474°N, 79.691856°W, placing it in southwestern Virginia.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Union_Hall%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Union_Hall%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/union-hall-virginia-lakeside-charm"
+      "source": "https://allthingsusa.blog/union-hall-virginia-lakeside-charm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

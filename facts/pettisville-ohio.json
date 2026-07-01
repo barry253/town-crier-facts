@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pettisville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Pettisville%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pettisville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Pettisville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Pettisville,_Ohio"
+      "source": "https://kids.kiddle.co/Pettisville,_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -69,19 +76,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.triphobo.com/places/pettisville-ohio-united-states"
-    },
-    {
-      "id": 5,
-      "text": "The town’s boundaries straddle Clinton and German townships within Fulton County.",
-      "sourceSentenceIds": [
-        14,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Pettisville,_Ohio"
+      "source": "https://www.triphobo.com/places/pettisville-ohio-united-states",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -94,7 +92,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pettisville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Pettisville%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

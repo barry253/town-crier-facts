@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://goldcoastlibrary.org/local_history/the-history-of-hempstead-harbor/"
+      "source": "https://goldcoastlibrary.org/local_history/the-history-of-hempstead-harbor/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Isle%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Harbor_Isle%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Isle%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Harbor_Isle%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Harbor_Isle,_New_York"
+      "source": "https://kids.kiddle.co/Harbor_Isle,_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,18 +86,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Harbor_Isle,_New_York"
-    },
-    {
-      "id": 6,
-      "text": "Harbor Isle’s borders are defined by water: Hog Island Channel to the west and north, and Wreck Lead Channel to the south.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Isle%2C_New_York"
+      "source": "https://kids.kiddle.co/Harbor_Isle,_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

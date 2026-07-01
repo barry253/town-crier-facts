@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.villageofnorridge.com/resident-information/village-history"
+      "source": "https://www.villageofnorridge.com/resident-information/village-history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Norridge,_Illinois"
+      "source": "https://grokipedia.com/page/Norridge,_Illinois",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,18 +60,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Norridge,_Illinois"
-    },
-    {
-      "id": 4,
-      "text": "Norridge’s original borders ran along Ozanam Ave, Olcott Ave, Irving Park Road, and Montrose Ave, creating a compact enclave.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Norridge%2C_Illinois"
+      "source": "https://grokipedia.com/page/Norridge,_Illinois",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofnorridge.com/resident-information/village-history"
+      "source": "https://www.villageofnorridge.com/resident-information/village-history",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +87,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofnorridge.com/resident-information/village-history"
+      "source": "https://www.villageofnorridge.com/resident-information/village-history",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

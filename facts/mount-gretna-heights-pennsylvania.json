@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mount Gretna Heights sits in southern Lebanon County at 40°14′55″N 76°28′2″W, right on the headwaters of Conewago Creek.",
-      "sourceSentenceIds": [
-        19,
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Gretna_Heights%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Pennsylvania Route 117 skirts the northwest edge of the community, leading 4 miles northeast to Cornwall and 3 miles southwest to Colebrook.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Gretna_Heights%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mount_Gretna_Heights%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mtgretna.com/about-gretna/our-history/"
+      "source": "https://mtgretna.com/about-gretna/our-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://mtgretnahistory.org/about/our-history/"
+      "source": "https://mtgretnahistory.org/about/our-history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mtgretna.com/about-gretna/our-history/"
+      "source": "https://mtgretna.com/about-gretna/our-history/",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

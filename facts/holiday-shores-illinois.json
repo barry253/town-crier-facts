@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.holidayshores.us/"
+      "source": "https://www.holidayshores.us/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.holidayshores.us/"
+      "source": "https://www.holidayshores.us/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.holidayshores.us/"
+      "source": "https://www.holidayshores.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,18 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.holidayshores.us/"
-    },
-    {
-      "id": 5,
-      "text": "Holiday Shores sits at latitude 38.922 and longitude –89.9407, placing it in northern Madison County, Illinois.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://illinois.hometownlocator.com/il/madison/holiday-shores.cfm"
+      "source": "https://www.holidayshores.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +83,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://illinois.hometownlocator.com/il/madison/holiday-shores.cfm"
+      "source": "https://illinois.hometownlocator.com/il/madison/holiday-shores.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

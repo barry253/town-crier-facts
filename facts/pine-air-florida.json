@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Air%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Pine_Air%2C_Florida",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Air%2C_Florida"
-    },
-    {
-      "id": 3,
-      "text": "Pine Air’s geographic coordinates are 26.6586° N latitude and –80.1074° W longitude, placing it just north of West Palm Beach.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/palm-beach/pine-air.cfm"
+      "source": "https://en.wikipedia.org/wiki/Pine_Air%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Pine-Air-Florida.html"
+      "source": "https://www.city-data.com/city/Pine-Air-Florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -73,18 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Pine-Air-Florida.html"
-    },
-    {
-      "id": 6,
-      "text": "The community borders Military Trail (State Road 809) to the west and the village of Palm Springs to the south, defining its limits.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Air%2C_Florida"
+      "source": "https://www.city-data.com/city/Pine-Air-Florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

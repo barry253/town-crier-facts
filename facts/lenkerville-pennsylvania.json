@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitbeavercounty.com/"
+      "source": "https://visitbeavercounty.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lenkerville%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Coordinates place Lenkerville at 40.534°N, 76.9591°W in Dauphin County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/dauphin/lenkerville.cfm"
+      "source": "https://en.wikipedia.org/wiki/Lenkerville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitbeavercounty.com/"
+      "source": "https://visitbeavercounty.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitbeavercounty.com/"
+      "source": "https://visitbeavercounty.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitbeavercounty.com/"
+      "source": "https://visitbeavercounty.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

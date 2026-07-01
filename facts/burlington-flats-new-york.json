@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Burlington Flats sits at 42.7452°N 75.183°W in Otsego County, New York.",
-      "sourceSentenceIds": [
-        4,
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Burlington_Flats%2C_New_York"
-    },
-    {
       "id": 2,
       "text": "It is part of the Town of Burlington, which hosts a community library and historical society.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofburlingtonny.com/"
+      "source": "https://www.townofburlingtonny.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -53,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burlington_Flats%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Burlington_Flats%2C_New_York",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofburlingtonny.com/"
+      "source": "https://www.townofburlingtonny.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofburlingtonny.com/"
+      "source": "https://www.townofburlingtonny.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +85,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/burlington-flats-xx-otsego-genealogy.htm"
+      "source": "https://roadsidethoughts.com/ny/burlington-flats-xx-otsego-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

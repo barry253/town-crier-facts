@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,18 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
-      "text": "Byrnedale’s coordinates are 41.292° N latitude and 78.5042° W longitude, placing it in northwestern Pennsylvania.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/elk/byrnedale.cfm"
+      "source": "https://en.wikipedia.org/wiki/Byrnedale%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -84,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/elk/byrnedale.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/elk/byrnedale.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

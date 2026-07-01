@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Between%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Between%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Between%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Between%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofbetweenga.com/"
-    },
-    {
-      "id": 4,
-      "text": "Its geographic coordinates are 33°48′50″N 83°48′33″W (33.813956, –83.809170).",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Between%2C_Georgia"
+      "source": "https://townofbetweenga.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/gacountybetween.htm"
+      "source": "https://www.usacitiesonline.com/gacountybetween.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/gacountybetween.htm"
+      "source": "https://www.usacitiesonline.com/gacountybetween.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

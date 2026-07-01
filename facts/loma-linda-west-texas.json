@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Loma Linda West sits at 26°25′14″N 98°55′49″W on the South Texas Plains.",
-      "sourceSentenceIds": [
-        5,
-        27,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Loma_Linda_West%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The community is officially a census‑designated place, meaning it looks like a town but isn’t incorporated.",
       "sourceSentenceIds": [
@@ -43,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Loma_Linda_West,_Texas"
+      "source": "https://kids.kiddle.co/Loma_Linda_West,_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -54,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Loma_Linda_West,_Texas"
+      "source": "https://kids.kiddle.co/Loma_Linda_West,_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +58,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Loma_Linda_West%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Loma_Linda_West%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-west-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/loma-linda-west-xx-starr-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -89,7 +85,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-west-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/loma-linda-west-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

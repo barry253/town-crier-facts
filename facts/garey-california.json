@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garey%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The town sits 379 feet above sea level, giving it a mild coastal elevation.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/cacountygarey.htm"
-    },
-    {
-      "id": 3,
-      "text": "Garey lies at 34.89°N latitude and 120.31°W longitude, right in central California's coast.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/cacountygarey.htm"
+      "source": "https://en.wikipedia.org/wiki/Garey%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountygarey.htm"
+      "source": "https://www.usacitiesonline.com/cacountygarey.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountygarey.htm"
+      "source": "https://www.usacitiesonline.com/cacountygarey.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

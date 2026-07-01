@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rancho Chico sits at latitude 28.027379 N, longitude 97.497682 W.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rancho_Chico%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The town’s name comes from Spanish “rancho” meaning small farm and “chico” meaning little, describing a modest rural holding.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/rancho-chico-177114"
+      "source": "https://www.wisdomlib.org/cities/rancho-chico-177114",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/rancho-chico-177114"
+      "source": "https://www.wisdomlib.org/cities/rancho-chico-177114",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rancho_Chico%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rancho_Chico%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/rancho-chico-177114"
+      "source": "https://www.wisdomlib.org/cities/rancho-chico-177114",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }
