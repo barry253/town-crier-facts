@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Shumway, Arizona, takes its name from Charles Shumway, a Latter‑Day Saint pioneer who settled the area.",
+      "text": "Shumway, Arizona, takes its name from Charles Shumway, a Latter\u2011Day Saint pioneer who settled the area.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The town’s post office opened in 1893, marking its first official federal presence.",
+      "text": "The town\u2019s post office opened in 1893, marking its first official federal presence.",
       "sourceSentenceIds": [
         17
       ],
@@ -62,7 +62,7 @@
     },
     {
       "id": 4,
-      "text": "Archaeologists have uncovered three 14th‑century Ancestral Pueblo villages in the Silver Creek drainage, including the Shumway Ruin.",
+      "text": "Archaeologists have uncovered three 14th\u2011century Ancestral Pueblo villages in the Silver Creek drainage, including the Shumway Ruin.",
       "sourceSentenceIds": [
         13,
         14
@@ -71,12 +71,13 @@
         "Web source 1"
       ],
       "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "The Shumway Archaeological Project studies pre‑Hispanic settlements north of the Mogollon Rim, focusing on sites from Paleo‑Indian to early Pueblo IV periods.",
+      "text": "The Shumway Archaeological Project studies pre\u2011Hispanic settlements north of the Mogollon Rim, focusing on sites from Paleo\u2011Indian to early Pueblo IV periods.",
       "sourceSentenceIds": [
         7,
         12
@@ -85,12 +86,13 @@
         "Web source 1"
       ],
       "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Shumway lies within the White Mountain Apache Tribe’s southern boundary, surrounded by the Sitgreaves National Forest to the south.",
+      "text": "Shumway lies within the White Mountain Apache Tribe\u2019s southern boundary, surrounded by the Sitgreaves National Forest to the south.",
       "sourceSentenceIds": [
         10,
         9
@@ -98,7 +100,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm"
+      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

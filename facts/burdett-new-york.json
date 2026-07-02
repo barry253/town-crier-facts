@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Burdett is a village in Schuyler County, New York, United States.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Burdett%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 2,
       "text": "The village sits in the Town of Hector, east of Seneca Lake and northeast of Watkins Glen.",
       "sourceSentenceIds": [
@@ -63,25 +49,29 @@
     },
     {
       "id": 5,
-      "text": "New York State Route 79 and Logan Creek both run through Burdett’s streets.",
+      "text": "New York State Route 79 and Logan Creek both run through Burdett\u2019s streets.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burdett%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Burdett%2C_New_York",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "The 584‑mile Finger Lakes Trail cuts through Burdett’s center, heading north toward the Finger Lakes National Forest.",
+      "text": "The 584\u2011mile Finger Lakes Trail cuts through Burdett\u2019s center, heading north toward the Finger Lakes National Forest.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burdett%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Burdett%2C_New_York",
+      "category": "transport",
+      "quality": "good"
     }
   ]
 }

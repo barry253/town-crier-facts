@@ -49,20 +49,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Williamsfield sits in eastern Knox County, about 21 miles east of Galesburg, the county seat.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Williamsfield%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
       "text": "Illinois Route 180 runs through the east side of the village, connecting it to Galva and U.S. Route 24.",
       "sourceSentenceIds": [
@@ -72,7 +58,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Williamsfield%2C_Illinois",
-      "category": "people",
+      "category": "transport",
       "quality": "good"
     },
     {
@@ -86,8 +72,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Williamsfield%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
+      "category": "people",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -101,7 +87,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Williamsfield%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Williamsfield%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

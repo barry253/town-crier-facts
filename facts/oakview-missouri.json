@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oakview began as a small, close‑knit community in eastern Missouri, founded by families drawn to the area’s rolling oak‑covered hills and fertile land.",
+      "text": "Oakview began as a small, close\u2011knit community in eastern Missouri, founded by families drawn to the area\u2019s rolling oak\u2011covered hills and fertile land.",
       "sourceSentenceIds": [
         1
       ],
@@ -34,28 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Oakview is a village in Clay County, Missouri, United States.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Oakview is part of the Kansas City metropolitan area.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri"
-    },
-    {
       "id": 4,
       "text": "Oakview is surrounded by Gladstone on all sides but the western part of the south side, which is bounded by the tiny residential village of Oakwood Park.",
       "sourceSentenceIds": [
@@ -64,11 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Early settlers built modest homes and farms, establishing a pattern of neighborly cooperation that shaped Oakview’s character.",
+      "text": "Early settlers built modest homes and farms, establishing a pattern of neighborly cooperation that shaped Oakview\u2019s character.",
       "sourceSentenceIds": [
         22
       ],
@@ -76,8 +56,8 @@
         "Web source 1"
       ],
       "source": "https://www.oakviewmo.org/about",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -89,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.oakviewmo.org/about"
+      "source": "https://www.oakviewmo.org/about",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Vancourt was named after Mary Ann Van Court, the first postmaster’s wife, honoring her when the town was founded.",
+      "text": "Vancourt was named after Mary Ann Van Court, the first postmaster\u2019s wife, honoring her when the town was founded.",
       "sourceSentenceIds": [
         2,
         3
@@ -36,17 +36,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Vancourt is an unincorporated community in eastern Tom Green County, Texas.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas"
-    },
-    {
       "id": 3,
       "text": "It lies east of San Angelo along Route 87, the county seat of Tom Green County.",
       "sourceSentenceIds": [
@@ -56,7 +45,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas",
-      "category": "transport",
+      "category": "other",
       "quality": "poor",
       "qualityReason": "route_only"
     },
@@ -70,13 +59,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas",
-      "category": "nature",
+      "category": "other",
       "quality": "poor",
       "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Vancourt’s economy has long depended on ranching, with cattle grazing the surrounding plains.",
+      "text": "Vancourt\u2019s economy has long depended on ranching, with cattle grazing the surrounding plains.",
       "sourceSentenceIds": [
         21
       ],
@@ -96,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/vancourt-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/vancourt-tx",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

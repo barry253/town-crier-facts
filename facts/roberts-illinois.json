@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "Roberts is a village in Ford County, located in the central part of Illinois.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-roberts-illinois.html"
-    },
-    {
-      "id": 3,
-      "text": "The village lies roughly 30 miles northwest of Champaign and 100 miles southwest of Chicago.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-roberts-illinois.html"
+      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-roberts-illinois.html"
+      "source": "https://www.citydirectory.us/village-roberts-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +56,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://robertsillinoisfordcounty.blogspot.com/"
+      "source": "https://robertsillinoisfordcounty.blogspot.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The same blog also shares interesting tidbits while studying Lyman Township’s history in Ford County.",
+      "text": "The same blog also shares interesting tidbits while studying Lyman Township\u2019s history in Ford County.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://robertsillinoisfordcounty.blogspot.com/"
+      "source": "https://robertsillinoisfordcounty.blogspot.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

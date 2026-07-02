@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://villageofgrandridge.org/history/"
+      "source": "https://villageofgrandridge.org/history/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Ridge%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Grand_Ridge%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,11 +59,13 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://villageofgrandridge.org/history/"
+      "source": "https://villageofgrandridge.org/history/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Grand Ridge sits in north‑central Illinois, surrounded by some of the state’s most productive farmland.",
+      "text": "Grand Ridge sits in north\u2011central Illinois, surrounded by some of the state\u2019s most productive farmland.",
       "sourceSentenceIds": [
         5,
         8
@@ -68,7 +74,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://villageofgrandridge.org/history/"
+      "source": "https://villageofgrandridge.org/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -79,7 +88,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Ridge%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Grand_Ridge%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

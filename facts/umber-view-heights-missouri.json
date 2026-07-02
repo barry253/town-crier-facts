@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Umber View Heights takes its name from Mr. Umber, who ran an early‑20th‑century country store in the area.",
+      "text": "Umber View Heights takes its name from Mr. Umber, who ran an early\u201120th\u2011century country store in the area.",
       "sourceSentenceIds": [
         4,
         5
@@ -35,21 +35,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The village sits in Cedar County, southwestern Missouri, just northeast of Stockton, the county seat.",
-      "sourceSentenceIds": [
-        23,
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-umber-view-heights.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "A short drive from Umber View Heights brings you to Stockton Lake, a popular spot for boating and fishing.",
       "sourceSentenceIds": [
@@ -60,12 +45,12 @@
       ],
       "source": "https://www.citydirectory.us/village-umber-view-heights.html",
       "category": "nature",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The town’s community development office handles construction permits, guiding residents through each step of the process.",
+      "text": "The town\u2019s community development office handles construction permits, guiding residents through each step of the process.",
       "sourceSentenceIds": [
         27,
         28,
@@ -81,7 +66,7 @@
     },
     {
       "id": 5,
-      "text": "Umber View Heights’ town hall provides contact details, office hours, and email options for residents needing city services.",
+      "text": "Umber View Heights\u2019 town hall provides contact details, office hours, and email options for residents needing city services.",
       "sourceSentenceIds": [
         19
       ],
@@ -91,18 +76,21 @@
       "source": "https://www.citydirectory.us/village-umber-view-heights.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The village is only a few miles southeast of Springfield, Missouri’s regional hub.",
+      "text": "The village is only a few miles southeast of Springfield, Missouri\u2019s regional hub.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-umber-view-heights.html"
+      "source": "https://www.citydirectory.us/village-umber-view-heights.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

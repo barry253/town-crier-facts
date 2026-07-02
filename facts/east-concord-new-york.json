@@ -21,38 +21,17 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "East Concord is a small hamlet in the town of Concord, located in southern Erie County, New York.",
-      "sourceSentenceIds": [
-        12,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Concord%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The hamlet sits at the crossroads of NY Route 240 and Genesee Road.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Concord%2C_New_York"
-    },
-    {
       "id": 3,
-      "text": "East Concord’s post office opened in 1853, marking the community’s early development.",
+      "text": "East Concord\u2019s post office opened in 1853, marking the community\u2019s early development.",
       "sourceSentenceIds": [
         16
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/east-concord-xx-erie-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/east-concord-xx-erie-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,29 +42,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/east-concord-xx-erie-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "East Concord is part of Erie County, a region known for its historic sites and scenic beauty.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Concord%2C_New_York"
+      "source": "https://roadsidethoughts.com/ny/east-concord-xx-erie-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The hamlet’s name reflects its position within the larger town of Concord, a common naming practice in New York.",
+      "text": "The hamlet\u2019s name reflects its position within the larger town of Concord, a common naming practice in New York.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Concord%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/East_Concord%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

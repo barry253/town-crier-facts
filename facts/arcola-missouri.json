@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Arcola’s name honors Italy’s Battle of the Bridge of Arcole.",
+      "text": "Arcola\u2019s name honors Italy\u2019s Battle of the Bridge of Arcole.",
       "sourceSentenceIds": [
         6
       ],
@@ -45,21 +45,7 @@
       "source": "https://en.wikipedia.org/wiki/Arcola%2C_Missouri",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 3,
-      "text": "Arcola sits roughly halfway between Springfield to the southeast and Nevada to the west.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-arcola-missouri.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -97,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-arcola-missouri.html"
+      "source": "https://www.citydirectory.us/village-arcola-missouri.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

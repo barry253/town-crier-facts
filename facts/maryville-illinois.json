@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Maryville’s roots run deep in coal mining, which once powered the village’s early economy.",
+      "text": "Maryville\u2019s roots run deep in coal mining, which once powered the village\u2019s early economy.",
       "sourceSentenceIds": [
         1
       ],
@@ -47,22 +47,8 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Nestled 17 miles northeast of downtown St. Louis, Maryville sits in southern Madison County.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Maryville%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "Illinois Route 159 threads through Maryville’s Center Street, linking it north to Edwardsville and south to Collinsville.",
+      "text": "Illinois Route 159 threads through Maryville\u2019s Center Street, linking it north to Edwardsville and south to Collinsville.",
       "sourceSentenceIds": [
         6
       ],
@@ -83,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maryville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Maryville%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

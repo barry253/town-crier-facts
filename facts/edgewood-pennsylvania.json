@@ -34,22 +34,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The borough sits just 7 miles from downtown Pittsburgh and covers 0.92 square miles.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://edgewood.pgh.pa.us/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Edgewood’s streets showcase a mix of Arts & Crafts, Victorian, Gregorian, and Colonial homes, updated each generation.",
+      "text": "Edgewood\u2019s streets showcase a mix of Arts & Crafts, Victorian, Gregorian, and Colonial homes, updated each generation.",
       "sourceSentenceIds": [
         15
       ],
@@ -75,7 +61,7 @@
     },
     {
       "id": 5,
-      "text": "The borough offers year‑long sports programs, including public tennis, pickleball, baseball, soccer, and a running track.",
+      "text": "The borough offers year\u2011long sports programs, including public tennis, pickleball, baseball, soccer, and a running track.",
       "sourceSentenceIds": [
         22
       ],
@@ -88,14 +74,16 @@
     },
     {
       "id": 6,
-      "text": "Edgewood’s community events calendar features Memorial Day, Juneteenth, Independence Day celebrations, and council meetings.",
+      "text": "Edgewood\u2019s community events calendar features Memorial Day, Juneteenth, Independence Day celebrations, and council meetings.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://edgewood.pgh.pa.us/"
+      "source": "https://edgewood.pgh.pa.us/",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

@@ -22,18 +22,21 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rock House sits in west‑central Gila County, in the Salt River valley just upstream of Theodore Roosevelt Lake.",
+      "text": "Rock House sits in west\u2011central Gila County, in the Salt River valley just upstream of Theodore Roosevelt Lake.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_House%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Rock_House%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The BLM‑run Rock House Visitor Center sits on the California side of the lower Colorado River, offering a boat launch and shaded benches.",
+      "text": "The BLM\u2011run Rock House Visitor Center sits on the California side of the lower Colorado River, offering a boat launch and shaded benches.",
       "sourceSentenceIds": [
         5,
         6
@@ -41,18 +44,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area"
+      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
-      "text": "River‑front visitors can enjoy the site year‑round, thanks to the recreation area’s continuous access to the Colorado River.",
+      "text": "River\u2011front visitors can enjoy the site year\u2011round, thanks to the recreation area\u2019s continuous access to the Colorado River.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area"
+      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area"
+      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -75,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area"
+      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +101,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area"
+      "source": "https://www.blm.gov/visit/rock-house-visitor-center-and-recreation-area",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Weldon Spring Heights sits about 30 miles west of St. Louis, Missouri.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Weldon_Spring_Heights%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The village is part of St. Charles County, placing it within the greater St. Louis metropolitan area.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Weldon_Spring_Heights%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 3,
       "text": "Missouri State Route 94 runs through Weldon Spring Heights, connecting it to nearby communities.",
       "sourceSentenceIds": [
@@ -86,18 +58,22 @@
       ],
       "source": "https://www.nps.gov/",
       "category": "culture",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Residents can complete pre‑reading and health history questions online before visiting a local blood drive.",
+      "text": "Residents can complete pre\u2011reading and health history questions online before visiting a local blood drive.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.redcrossblood.org/"
+      "source": "https://www.redcrossblood.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

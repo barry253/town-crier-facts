@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Clark, Missouri, sits in Randolph County, a central Missouri county known for its agricultural heritage.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
-      "text": "The town’s post office has been serving residents since 1887, a testament to its long‑standing community roots.",
+      "text": "The town\u2019s post office has been serving residents since 1887, a testament to its long\u2011standing community roots.",
       "sourceSentenceIds": [
         6
       ],
@@ -44,13 +30,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Clark takes its name from John Bullock Clark Jr., a five‑term U.S. congressman who helped shape the region’s early history.",
+      "text": "Clark takes its name from John Bullock Clark Jr., a five\u2011term U.S. congressman who helped shape the region\u2019s early history.",
       "sourceSentenceIds": [
         7,
         8
@@ -74,31 +60,6 @@
       "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri",
       "category": "people",
       "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Clark straddles both Randolph and Audrain counties, reflecting its unique position at the county line in central Missouri.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/city-clark-missouri.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 6,
-      "text": "The city lies roughly 25 miles north of Columbia, placing it within easy reach of the state’s larger urban center.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/city-clark-missouri.html"
     }
   ]
 }

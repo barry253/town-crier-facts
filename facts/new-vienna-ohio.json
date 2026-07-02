@@ -29,22 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Vienna%2C_Ohio"
-    },
-    {
-      "id": 2,
-      "text": "A historic spot called Deserted Camp sits about three miles northeast of Wilmington on Todd’s Fork, near where part of Starbucktown once stood.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/"
+      "source": "https://en.wikipedia.org/wiki/New_Vienna%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The Clinton County Historical Society hosts a new season of programs that keep New Vienna’s stories alive for future generations.",
+      "text": "The Clinton County Historical Society hosts a new season of programs that keep New Vienna\u2019s stories alive for future generations.",
       "sourceSentenceIds": [
         2,
         6
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/"
+      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,11 +56,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/"
+      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "New Vienna’s name appears in travel guides that highlight its cultural and historical quirks before visitors arrive.",
+      "text": "New Vienna\u2019s name appears in travel guides that highlight its cultural and historical quirks before visitors arrive.",
       "sourceSentenceIds": [
         7,
         8
@@ -75,18 +71,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_new-vienna"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_new-vienna",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The village’s early settlers found flints and arrowheads on nearby farms, hinting at Native American activity before European settlement.",
+      "text": "The village\u2019s early settlers found flints and arrowheads on nearby farms, hinting at Native American activity before European settlement.",
       "sourceSentenceIds": [
         30
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/"
+      "source": "https://clintoncountyhistory.org/historic-new-vienna-part-one/",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

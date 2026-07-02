@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "White Cone’s name comes from a trader who dug a well beside a livestock pond to supply water for the White Cone Trading Post.",
+      "text": "White Cone\u2019s name comes from a trader who dug a well beside a livestock pond to supply water for the White Cone Trading Post.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The White Cone Chapter was first certified in 1957, and its chapter house moved to milepost 28 N-06 in 1988, adding a gas station and 24‑hour convenience store.",
+      "text": "The White Cone Chapter was first certified in 1957, and its chapter house moved to milepost 28 N-06 in 1988, adding a gas station and 24\u2011hour convenience store.",
       "sourceSentenceIds": [
         9,
         10
@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "The chapter’s mission is to promote education, health, and economic development while preserving traditional values.",
+      "text": "The chapter\u2019s mission is to promote education, health, and economic development while preserving traditional values.",
       "sourceSentenceIds": [
         12
       ],
@@ -57,12 +57,12 @@
         "Web source 1"
       ],
       "source": "https://whitecone.navajochapters.org/",
-      "category": "economy",
+      "category": "culture",
       "quality": "good"
     },
     {
       "id": 4,
-      "text": "White Cone sits 6,110 feet above sea level, roughly one‑half a mile high.",
+      "text": "White Cone sits 6,110 feet above sea level, roughly one\u2011half a mile high.",
       "sourceSentenceIds": [
         20,
         21
@@ -72,11 +72,12 @@
       ],
       "source": "https://roadsidethoughts.com/az/whitecone-xx-navajo-profile.htm",
       "category": "nature",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "The community observes Mountain Standard Time year‑round and does not switch to daylight saving.",
+      "text": "The community observes Mountain Standard Time year\u2011round and does not switch to daylight saving.",
       "sourceSentenceIds": [
         22,
         23
@@ -87,19 +88,7 @@
       "source": "https://roadsidethoughts.com/az/whitecone-xx-navajo-profile.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 6,
-      "text": "White Cone is located within the Navajo Nation in Navajo County, Arizona.",
-      "sourceSentenceIds": [
-        18,
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/whitecone-xx-navajo-profile.htm"
+      "qualityReason": "editorial_filler"
     }
   ]
 }

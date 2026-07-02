@@ -31,7 +31,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/seiad_valley_california"
+      "source": "https://grokipedia.com/page/seiad_valley_california",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -45,11 +48,13 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/seiad_valley_california"
+      "source": "https://grokipedia.com/page/seiad_valley_california",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The Pacific Crest Trail cuts through Seiad Valley’s western side, drawing hikers each spring and summer.",
+      "text": "The Pacific Crest Trail cuts through Seiad Valley\u2019s western side, drawing hikers each spring and summer.",
       "sourceSentenceIds": [
         12,
         27
@@ -57,7 +62,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seiad_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seiad_Valley%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,29 +76,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/seiad_valley_california"
+      "source": "https://grokipedia.com/page/seiad_valley_california",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Seiad Valley’s isolation and surrounding Klamath Mountains create a microclimate influenced by the river’s warm waters.",
+      "text": "Seiad Valley\u2019s isolation and surrounding Klamath Mountains create a microclimate influenced by the river\u2019s warm waters.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/seiad_valley_california"
-    },
-    {
-      "id": 6,
-      "text": "The community’s name appears in federal geographic databases like FIPS-55 and GNIS, confirming its official status.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ca/seiad-valley-xx-siskiyou-profile.htm"
+      "source": "https://grokipedia.com/page/seiad_valley_california",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

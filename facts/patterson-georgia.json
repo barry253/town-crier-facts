@@ -35,25 +35,31 @@
     },
     {
       "id": 2,
-      "text": "The city’s mission emphasizes shared values over map boundaries, reflecting its community spirit.",
+      "text": "The city\u2019s mission emphasizes shared values over map boundaries, reflecting its community spirit.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofpattersonga.com/"
+      "source": "https://cityofpattersonga.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
-      "text": "Patterson’s core principles celebrate small‑town values, guided growth, and preservation of historical heritage.",
+      "text": "Patterson\u2019s core principles celebrate small\u2011town values, guided growth, and preservation of historical heritage.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofpattersonga.com/"
+      "source": "https://cityofpattersonga.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -67,17 +73,6 @@
       "source": "https://en.wikipedia.org/wiki/Patterson%2C_Georgia",
       "category": "history",
       "quality": "good"
-    },
-    {
-      "id": 6,
-      "text": "Patterson is a city in Pierce County, Georgia.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Patterson%2C_Georgia"
     }
   ]
 }

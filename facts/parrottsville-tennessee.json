@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Parrottsville sits in northeastern Cocke County, Tennessee, nestled in the Appalachian foothills near the Great Smoky Mountains.",
-      "sourceSentenceIds": [
-        10,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parrottsville%2C_Tennessee",
-      "category": "nature",
-      "quality": "good"
-    },
-    {
       "id": 2,
       "text": "The town lies roughly halfway between the historic cities of Newport and Greeneville, making it a quiet crossroads in the region.",
       "sourceSentenceIds": [
@@ -47,11 +32,11 @@
       "source": "https://www.citydirectory.us/town-parrottsville.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Parrottsville’s town hall serves as the hub for local governance, offering residents phone and email contact for city services.",
+      "text": "Parrottsville\u2019s town hall serves as the hub for local governance, offering residents phone and email contact for city services.",
       "sourceSentenceIds": [
         21
       ],
@@ -73,13 +58,13 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/town-parrottsville.html",
-      "category": "other",
+      "category": "landmark",
       "quality": "poor",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "Cocke County maintains an inventory of newspapers on microfilm, available through the county’s library and archives for research purposes.",
+      "text": "Cocke County maintains an inventory of newspapers on microfilm, available through the county\u2019s library and archives for research purposes.",
       "sourceSentenceIds": [
         1,
         5,
@@ -91,18 +76,20 @@
       "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-cocke-county",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "Parrottsville’s name honors early settlers, reflecting the town’s heritage within the broader history of Cocke County.",
+      "text": "Parrottsville\u2019s name honors early settlers, reflecting the town\u2019s heritage within the broader history of Cocke County.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parrottsville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Parrottsville%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

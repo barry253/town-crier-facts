@@ -43,8 +43,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Chula%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -69,8 +70,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Chula%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -83,9 +84,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Chula%2C_Missouri",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -96,7 +97,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/chula-50849"
+      "source": "https://www.wisdomlib.org/cities/chula-50849",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

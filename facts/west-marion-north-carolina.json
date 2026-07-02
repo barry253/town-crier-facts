@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "West Marion sits in central McDowell County, bordered to the north and west by the city of Marion and to the south by Interstate 40.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Marion%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "Downtown Marion lies just 3 miles (5 km) to the north‑northeast of West Marion’s center.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Marion%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "In West Marion, the sun rises at 06:09 and sets at 19:26, giving the town a 13‑hour‑17‑minute day length.",
+      "text": "In West Marion, the sun rises at 06:09 and sets at 19:26, giving the town a 13\u2011hour\u201117\u2011minute day length.",
       "sourceSentenceIds": [
         1
       ],
@@ -60,11 +32,11 @@
       "source": "https://www.trawellino.com/destinations/united-states/north-carolina_west-marion",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "A milky fog veil often drapes West Marion’s streets, turning the town into a mysterious maze for curious wanderers.",
+      "text": "A milky fog veil often drapes West Marion\u2019s streets, turning the town into a mysterious maze for curious wanderers.",
       "sourceSentenceIds": [
         21
       ],
@@ -72,8 +44,9 @@
         "Web source 1"
       ],
       "source": "https://www.trawellino.com/destinations/united-states/north-carolina_west-marion",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -85,8 +58,9 @@
         "Web source 1"
       ],
       "source": "https://www.trawellino.com/destinations/united-states/north-carolina_west-marion",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -97,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/north-carolina_west-marion"
+      "source": "https://www.trawellino.com/destinations/united-states/north-carolina_west-marion",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

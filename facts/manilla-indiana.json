@@ -29,29 +29,35 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s post office has been operating since 1840 in the heart of the community.",
+      "text": "The town\u2019s post office has been operating since 1840 in the heart of the community.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Manilla’s name likely comes from Manila, the Philippines, reflecting early settlers’ admiration for the capital.",
+      "text": "Manilla\u2019s name likely comes from Manila, the Philippines, reflecting early settlers\u2019 admiration for the capital.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "Manilla is located in Rush County, Indiana, nestled in the heart of the state’s Midwest.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm"
+      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm"
+      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

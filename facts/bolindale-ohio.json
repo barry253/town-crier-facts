@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bolindale began in the early 1900s, growing alongside the Mahoning Valley’s industrial boom.",
+      "text": "Bolindale began in the early 1900s, growing alongside the Mahoning Valley\u2019s industrial boom.",
       "sourceSentenceIds": [
         1,
         7
@@ -35,19 +35,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Nestled in Howland Township, Trumbull County, Bolindale is part of the Youngstown–Warren metropolitan area.",
-      "sourceSentenceIds": [
-        5,
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/"
-    },
-    {
       "id": 3,
       "text": "Early residents worked in the factories and mills that dotted the Mahoning Valley.",
       "sourceSentenceIds": [
@@ -56,11 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/"
+      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town’s resilient spirit is celebrated through its rich industrial heritage and community pride.",
+      "text": "The town\u2019s resilient spirit is celebrated through its rich industrial heritage and community pride.",
       "sourceSentenceIds": [
         4,
         26
@@ -69,7 +58,7 @@
         "Web source 1"
       ],
       "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/",
-      "category": "culture",
+      "category": "other",
       "quality": "poor",
       "qualityReason": "editorial_filler"
     },
@@ -82,18 +71,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/"
+      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Locals call it a ‘small town with big stories,’ a nickname that hints at its surprising depth.",
+      "text": "Locals call it a \u2018small town with big stories,\u2019 a nickname that hints at its surprising depth.",
       "sourceSentenceIds": [
         17
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/"
+      "source": "https://aurica.ai/en/article/martin-sparks/bolindale-ohio/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

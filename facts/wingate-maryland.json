@@ -21,23 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wingate sits in Dorchester County, Maryland, an unincorporated community that relies on county services for roads and public safety.",
-      "sourceSentenceIds": [
-        3,
-        16,
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wingate%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The area hosts several historic sites tied to the Underground Railroad, reflecting its role in the fight for freedom.",
       "sourceSentenceIds": [
@@ -62,7 +45,7 @@
       "source": "https://kids.kiddle.co/Wingate,_Maryland",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -93,7 +76,7 @@
       "source": "https://kids.kiddle.co/Wingate,_Maryland",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -104,7 +87,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wingate,_Maryland"
+      "source": "https://kids.kiddle.co/Wingate,_Maryland",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

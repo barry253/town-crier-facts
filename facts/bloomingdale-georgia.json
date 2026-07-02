@@ -34,23 +34,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Bloomingdale sits within the Savannah metropolitan statistical area, linking it to Georgia's historic port city.",
-      "sourceSentenceIds": [
-        4,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
-      "text": "Bloomingdale’s ISO fire rating is 3/3X, reflecting its commitment to safety standards.",
+      "text": "Bloomingdale\u2019s ISO fire rating is 3/3X, reflecting its commitment to safety standards.",
       "sourceSentenceIds": [
         19
       ],
@@ -60,18 +45,21 @@
       "source": "https://www.bloomingdale-ga.gov/aboutbloomingdale",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "City hall’s phone and email are listed on the official website, making municipal contact straightforward.",
+      "text": "City hall\u2019s phone and email are listed on the official website, making municipal contact straightforward.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-bloomingdale-georgia.html"
+      "source": "https://www.citydirectory.us/city-bloomingdale-georgia.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,

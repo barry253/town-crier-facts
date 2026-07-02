@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Purmela was founded in 1879 when storeowner Martin Dremien became the town’s first postmaster.",
+      "text": "Purmela was founded in 1879 when storeowner Martin Dremien became the town\u2019s first postmaster.",
       "sourceSentenceIds": [
         1,
         29
@@ -36,24 +36,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The community sits at the crossroads of Farm to Market Roads 932 and 1241, about 13 miles northwest of Gatesville.",
-      "sourceSentenceIds": [
-        5,
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/purmela-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Purmela’s climate features hot, humid summers and generally mild to cool winters.",
+      "text": "Purmela\u2019s climate features hot, humid summers and generally mild to cool winters.",
       "sourceSentenceIds": [
         25
       ],
@@ -63,7 +47,7 @@
       "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -75,8 +59,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -89,8 +73,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -104,7 +88,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/purmela-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/purmela-tx",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

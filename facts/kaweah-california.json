@@ -21,33 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Kaweah is an unincorporated community in Tulare County, California.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The town sits just 2 miles north‑northwest of Three Rivers, a short drive away.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California",
-      "category": "economy",
-      "quality": "good"
-    },
-    {
       "id": 3,
       "text": "The Kaweah Heritage Visitor Center on Lemon Hill lets visitors view Terminus Dam and Lake Kaweah from a scenic overlook.",
       "sourceSentenceIds": [
@@ -62,7 +35,7 @@
     },
     {
       "id": 4,
-      "text": "At the visitor center, a $40 annual parking pass offers a great value for boaters and lake‑goers.",
+      "text": "At the visitor center, a $40 annual parking pass offers a great value for boaters and lake\u2011goers.",
       "sourceSentenceIds": [
         25
       ],
@@ -72,11 +45,11 @@
       "source": "https://wanderlog.com/place/details/4250446/kaweah-heritage-visitor-center",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "The area enjoys warm, dry summers, with no average monthly temperature exceeding 100 °F.",
+      "text": "The area enjoys warm, dry summers, with no average monthly temperature exceeding 100 \u00b0F.",
       "sourceSentenceIds": [
         8
       ],
@@ -84,12 +57,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "Kaweah’s name comes from the Yokuts word Gā'wia, reflecting the region’s indigenous heritage.",
+      "text": "Kaweah\u2019s name comes from the Yokuts word G\u0101'wia, reflecting the region\u2019s indigenous heritage.",
       "sourceSentenceIds": [
         6
       ],

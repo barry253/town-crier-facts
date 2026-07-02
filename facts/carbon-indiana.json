@@ -60,22 +60,8 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Carbon is part of the Terre Haute Metropolitan Statistical Area, linking it to a larger region.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "The town values small‑town culture and preserves its historical, cultural, and natural heritage as a guiding principle.",
+      "text": "The town values small\u2011town culture and preserves its historical, cultural, and natural heritage as a guiding principle.",
       "sourceSentenceIds": [
         3
       ],
@@ -83,8 +69,8 @@
         "Web source 1"
       ],
       "source": "https://townofcarbon.com/",
-      "category": "other",
-      "quality": "poor",
+      "category": "culture",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -96,7 +82,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-carbon-indiana.html"
+      "source": "https://www.citydirectory.us/town-carbon-indiana.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

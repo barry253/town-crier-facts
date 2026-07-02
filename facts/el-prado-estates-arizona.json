@@ -44,12 +44,12 @@
       ],
       "source": "https://grokipedia.com/page/el_prado_estates_arizona",
       "category": "nature",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "The census-designated place covers 0.97 square miles—entirely land with no water bodies.",
+      "text": "The census-designated place covers 0.97 square miles\u2014entirely land with no water bodies.",
       "sourceSentenceIds": [
         3
       ],
@@ -59,7 +59,7 @@
       "source": "https://en.wikipedia.org/wiki/El_Prado_Estates%2C_Arizona",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "census_demographic"
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -71,34 +71,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/El_Prado_Estates%2C_Arizona",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 5,
-      "text": "El Prado Estates is a CDP, meaning it has no governmental functions and is not a legal entity.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/el-prado-estates.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 6,
-      "text": "Its geographic coordinates are 32.7062° N latitude and 114.5215° W longitude.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/el-prado-estates.cfm"
+      "qualityReason": "route_only"
     }
   ]
 }

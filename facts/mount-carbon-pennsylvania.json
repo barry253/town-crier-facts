@@ -34,20 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The borough lies just two miles south of Pottsville.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Carbon%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Geologist Isaac Lea uncovered a Devonian fossil in 1849, naming it Sauropus primaevus.",
       "sourceSentenceIds": [
@@ -73,7 +59,7 @@
         "Web source 2"
       ],
       "source": "https://kids.kiddle.co/Mount_Carbon,_Pennsylvania",
-      "category": "history",
+      "category": "transport",
       "quality": "good"
     },
     {
@@ -87,7 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Carbon%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mount_Carbon%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

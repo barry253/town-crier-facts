@@ -30,25 +30,12 @@
         "Web source 2"
       ],
       "source": "https://nearbylens.com/cities/usa/mo/centertown/",
-      "category": "etymology",
-      "quality": "good"
-    },
-    {
-      "id": 2,
-      "text": "The historic City Hall stands as the heart of Centertown’s government and a testament to its rich past.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://nearbylens.com/cities/usa/mo/centertown/",
       "category": "history",
       "quality": "good"
     },
     {
       "id": 3,
-      "text": "Every summer, Centertown hosts its lively Centertown Days festival, celebrating the town’s heritage and community spirit.",
+      "text": "Every summer, Centertown hosts its lively Centertown Days festival, celebrating the town\u2019s heritage and community spirit.",
       "sourceSentenceIds": [
         6
       ],
@@ -58,11 +45,11 @@
       "source": "https://nearbylens.com/cities/usa/mo/centertown/",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
-      "text": "The Garnett Farm Historic District, listed on the National Register in 2016, showcases well-preserved 19th‑century farm architecture.",
+      "text": "The Garnett Farm Historic District, listed on the National Register in 2016, showcases well-preserved 19th\u2011century farm architecture.",
       "sourceSentenceIds": [
         13
       ],
@@ -70,19 +57,23 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Centertown%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
-      "text": "Centertown’s long‑standing agricultural roots give the village a distinct small‑town charm that endears visitors.",
+      "text": "Centertown\u2019s long\u2011standing agricultural roots give the village a distinct small\u2011town charm that endears visitors.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nearbylens.com/cities/usa/mo/centertown/"
+      "source": "https://nearbylens.com/cities/usa/mo/centertown/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

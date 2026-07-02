@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The former borough sits at 40°53′15″N 78°13′3″W, right on the Moshannon Creek that marks the Centre‑Clearfield county line.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "South Philipsburg is part of the State College, Pennsylvania Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +42,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/centre/south-philipsburg.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/centre/south-philipsburg.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Pennsylvania Route 350 borders the eastern edge of the community, heading north into Philipsburg and south toward I‑99 at Bald Eagle.",
+      "text": "Pennsylvania Route 350 borders the eastern edge of the community, heading north into Philipsburg and south toward I\u201199 at Bald Eagle.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/South_Philipsburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

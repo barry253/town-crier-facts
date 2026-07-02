@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ulysses is the county seat of Grant County, Kansas.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ulysses%2C_Kansas",
-      "category": "history",
-      "quality": "good"
-    },
-    {
       "id": 2,
       "text": "The town was founded in June 1885, originally located two miles east of the present site.",
       "sourceSentenceIds": [
@@ -71,7 +58,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Ulysses%2C_Kansas",
-      "category": "nature",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -84,7 +71,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Ulysses%2C_Kansas",
-      "category": "landmark",
+      "category": "nature",
       "quality": "good"
     },
     {
@@ -96,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.travelks.com/places-to-visit/cities/ulysses/"
+      "source": "https://www.travelks.com/places-to-visit/cities/ulysses/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

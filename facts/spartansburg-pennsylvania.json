@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Spartansburg sits as a borough within Crawford County, entirely encircled by Sparta Township.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spartansburg%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Route 77 runs through the center of Spartansburg, linking Corry 8 miles northeast and Meadville 28 miles southwest.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spartansburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spartansburg%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://spartansburghistory.org/"
+      "source": "https://spartansburghistory.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,29 +56,35 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://spartansburghistory.org/"
+      "source": "https://spartansburghistory.org/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Spartansburg’s first school, erected in 1862 on land donated by the Akins, marked the town’s early commitment to education.",
+      "text": "Spartansburg\u2019s first school, erected in 1862 on land donated by the Akins, marked the town\u2019s early commitment to education.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://spartansburghistory.org/"
+      "source": "https://spartansburghistory.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "The town’s oldest operating business, Platt’s Mill on Mill Street beside the dam, dates back to the 1830s.",
+      "text": "The town\u2019s oldest operating business, Platt\u2019s Mill on Mill Street beside the dam, dates back to the 1830s.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://spartansburghistory.org/"
+      "source": "https://spartansburghistory.org/",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

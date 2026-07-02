@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lindley’s name evolved from Lindsley or Lindleytown, dropping the “s” as the town settled into its current spelling.",
+      "text": "Lindley\u2019s name evolved from Lindsley or Lindleytown, dropping the \u201cs\u201d as the town settled into its current spelling.",
       "sourceSentenceIds": [
         2
       ],
@@ -47,22 +47,8 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Lindley sits just south of Corning, placing it in the heart of New York’s Southern Tier.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lindley%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
-      "text": "The Tioga River and Route 15 run north–south through Lindley, carving a scenic corridor across the town.",
+      "text": "The Tioga River and Route 15 run north\u2013south through Lindley, carving a scenic corridor across the town.",
       "sourceSentenceIds": [
         10
       ],
@@ -75,7 +61,7 @@
     },
     {
       "id": 5,
-      "text": "The hamlet of Lindley lies near the town’s center on US Route 15 beside the east bank of the Tioga River.",
+      "text": "The hamlet of Lindley lies near the town\u2019s center on US Route 15 beside the east bank of the Tioga River.",
       "sourceSentenceIds": [
         20
       ],
@@ -96,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lindley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Lindley%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

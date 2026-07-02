@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sheffield sits at the crossroads of Farm Road 1217 and U.S. highways.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/sheffield-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "A post office opened in 1898, with Will Sheffield as its first postmaster.",
       "sourceSentenceIds": [
@@ -70,12 +56,12 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sheffield%2C_Texas",
-      "category": "history",
+      "category": "transport",
       "quality": "good"
     },
     {
       "id": 5,
-      "text": "The first documented Europeans to visit were Spanish explorer Gaspar Castaño de Sosa in 1590.",
+      "text": "The first documented Europeans to visit were Spanish explorer Gaspar Casta\u00f1o de Sosa in 1590.",
       "sourceSentenceIds": [
         23
       ],
@@ -96,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sheffield%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sheffield%2C_Texas",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wayne Heights sits in southeastern Franklin County, just east of Washington Township’s center.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wayne_Heights%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
-      "text": "Pennsylvania Route 16, the town’s Main Street, runs east to Blue Ridge Summit and west to Waynesboro.",
+      "text": "Pennsylvania Route 16, the town\u2019s Main Street, runs east to Blue Ridge Summit and west to Waynesboro.",
       "sourceSentenceIds": [
         3
       ],
@@ -74,18 +60,21 @@
       "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "There are no lakes or rivers within Wayne Heights’ limits, giving it a zero square‑mile water area.",
+      "text": "There are no lakes or rivers within Wayne Heights\u2019 limits, giving it a zero square\u2011mile water area.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

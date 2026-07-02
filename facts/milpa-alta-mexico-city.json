@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Milpa Alta’s recorded history begins in 1240 when a Chichimeca group founded the Malacachtepec Momozco dominion.",
+      "text": "Milpa Alta\u2019s recorded history begins in 1240 when a Chichimeca group founded the Malacachtepec Momozco dominion.",
       "sourceSentenceIds": [
         1
       ],
@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "The borough’s rugged volcanic landscape includes peaks like Cuautzin, which rises to 3,510 meters, part of the Trans-Mexican Volcanic Belt.",
+      "text": "The borough\u2019s rugged volcanic landscape includes peaks like Cuautzin, which rises to 3,510 meters, part of the Trans-Mexican Volcanic Belt.",
       "sourceSentenceIds": [
         24,
         28,
@@ -79,7 +79,7 @@
     },
     {
       "id": 5,
-      "text": "Milpa Alta is Mexico City’s least populated yet second largest borough, covering 268.6 km² of forest, farmland, and grazing land.",
+      "text": "Milpa Alta is Mexico City\u2019s least populated yet second largest borough, covering 268.6 km\u00b2 of forest, farmland, and grazing land.",
       "sourceSentenceIds": [
         20,
         23,
@@ -91,7 +91,7 @@
       "source": "https://en.wikipedia.org/wiki/Milpa_Alta",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -102,7 +102,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Mexico_City/Milpa_Alta"
+      "source": "https://en.wikivoyage.org/wiki/Mexico_City/Milpa_Alta",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

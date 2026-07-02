@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lake Viking is a census‑designated place centered around a private reservoir in.",
+      "text": "Lake Viking is a census\u2011designated place centered around a private reservoir in.",
       "sourceSentenceIds": [
         1
       ],
@@ -30,25 +30,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Lake_Viking%2C_Missouri",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "The CDP stretches southwest to the village of Altamont in Missouri today.",
-      "sourceSentenceIds": [
-        3,
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Viking%2C_Missouri",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -106,7 +90,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Viking%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Lake_Viking%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

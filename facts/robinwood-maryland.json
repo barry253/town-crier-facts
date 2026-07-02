@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Robinwood sits inside the Hagerstown Metropolitan Area, linking it to a regional economy that spans Maryland and West Virginia.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Robinwood%2C_Maryland"
-    },
-    {
       "id": 2,
       "text": "Hagerstown Community College, located at 11400 Robinwood Drive, serves as an educational hub for Washington County and beyond.",
       "sourceSentenceIds": [
@@ -40,29 +29,37 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robinwood%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Robinwood%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Education levels in Robinwood are high, with 90.7% of adults holding at least a high school diploma and 25.6% earning a bachelor’s degree.",
+      "text": "Education levels in Robinwood are high, with 90.7% of adults holding at least a high school diploma and 25.6% earning a bachelor\u2019s degree.",
       "sourceSentenceIds": [
         17
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/robinwood_maryland"
+      "source": "https://grokipedia.com/page/robinwood_maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
-      "text": "The community enjoys a low poverty rate of just 6.3%, while 12.4% of residents are foreign‑born.",
+      "text": "The community enjoys a low poverty rate of just 6.3%, while 12.4% of residents are foreign\u2011born.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/robinwood_maryland"
+      "source": "https://grokipedia.com/page/robinwood_maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -73,18 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/robinwood_maryland"
-    },
-    {
-      "id": 6,
-      "text": "Robinwood is part of the Hagerstown‑Martinsburg, MD‑WV Metropolitan Statistical Area, integrating it into a broader regional economy centered on Hagerstown.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/robinwood_maryland"
+      "source": "https://grokipedia.com/page/robinwood_maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

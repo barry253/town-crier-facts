@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Brighton Park takes its name from England’s Brighton livestock market, echoing its early commercial spirit.",
+      "text": "Brighton Park takes its name from England\u2019s Brighton livestock market, echoing its early commercial spirit.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://chicago-beautiful.com/brighton-park/"
+      "source": "https://chicago-beautiful.com/brighton-park/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brighton_Park%2C_Chicago"
+      "source": "https://en.wikipedia.org/wiki/Brighton_Park%2C_Chicago",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,18 +59,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brighton_Park%2C_Chicago"
-    },
-    {
-      "id": 4,
-      "text": "Brighton Park lies southwest of Chicago’s Loop, bounded by Central Park Avenue, Western Avenue, Stevenson Expressway, and 49th Street.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.chipublib.org/fa-brighton-park-community-collection/"
+      "source": "https://en.wikipedia.org/wiki/Brighton_Park%2C_Chicago",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Robin Glen-Indiantown hosts three 1,000‑foot broadcast towers that serve Mid‑Michigan TV and radio stations.",
+      "text": "Robin Glen-Indiantown hosts three 1,000\u2011foot broadcast towers that serve Mid\u2011Michigan TV and radio stations.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community is a census‑designated place, so it has no municipal government.",
+      "text": "The community is a census\u2011designated place, so it has no municipal government.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,29 +69,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan"
-    },
-    {
-      "id": 5,
-      "text": "The town sits at latitude 43.4618 and longitude –83.8408 in Saginaw County.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://michigan.hometownlocator.com/mi/saginaw/robin-glen-indiantown.cfm"
+      "source": "https://en.wikipedia.org/wiki/Robin_Glen-Indiantown%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Robin Glen-Indiantown’s statistical status is marked with a Functional Status Code “S”.",
+      "text": "Robin Glen-Indiantown\u2019s statistical status is marked with a Functional Status Code \u201cS\u201d.",
       "sourceSentenceIds": [
         17
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://michigan.hometownlocator.com/mi/saginaw/robin-glen-indiantown.cfm"
+      "source": "https://michigan.hometownlocator.com/mi/saginaw/robin-glen-indiantown.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Greenock was named after the Scottish town of Greenock, reflecting its founders’ heritage.",
+      "text": "Greenock was named after the Scottish town of Greenock, reflecting its founders\u2019 heritage.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The village offers a charming small‑town feel, with historic roots, local art, and welcoming faces.",
+      "text": "The village offers a charming small\u2011town feel, with historic roots, local art, and welcoming faces.",
       "sourceSentenceIds": [
         2
       ],
@@ -57,8 +57,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Greenock%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -69,18 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/greenock.cfm"
-    },
-    {
-      "id": 6,
-      "text": "Susquehanna County, where Greenock lies, invites drivers to reconnect with nature, community, and themselves amid rolling hills.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://visitsusqco.com/"
+      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/greenock.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

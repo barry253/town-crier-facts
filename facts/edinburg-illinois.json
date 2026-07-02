@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Edinburg, a village in Christian County, Illinois, sits amid rolling farmland and is known for its tight‑knit community.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 2,
       "text": "Since 1945, Edinburg has celebrated an annual Labor Day Picnic and Parade that highlights its rural and agricultural roots.",
       "sourceSentenceIds": [
@@ -49,7 +35,7 @@
     },
     {
       "id": 3,
-      "text": "The village’s events calendar includes demolition derbies, tractor pulls, chili cook‑offs, live music, and a lively Labor Day Parade.",
+      "text": "The village\u2019s events calendar includes demolition derbies, tractor pulls, chili cook\u2011offs, live music, and a lively Labor Day Parade.",
       "sourceSentenceIds": [
         3
       ],
@@ -57,13 +43,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
+      "category": "culture",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "Every resident of Edinburg lives in a rural setting—100 % of the population is classified as rural by the census.",
+      "text": "Every resident of Edinburg lives in a rural setting\u2014100 % of the population is classified as rural by the census.",
       "sourceSentenceIds": [
         13
       ],
@@ -73,11 +59,11 @@
       "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Illinois",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
-      "text": "Edinburg’s 509 housing units average a density of 814.40 per square mile, with 8.3 % currently vacant.",
+      "text": "Edinburg\u2019s 509 housing units average a density of 814.40 per square mile, with 8.3 % currently vacant.",
       "sourceSentenceIds": [
         14
       ],
@@ -87,7 +73,7 @@
       "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Illinois",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -98,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.christiancountyilgenealogicalsociety.org/christian-county-towns-villages"
+      "source": "https://www.christiancountyilgenealogicalsociety.org/christian-county-towns-villages",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

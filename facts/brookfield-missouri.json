@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Brookfield was surveyed in 1859 by John Wood Brooks, a Boston native, and the town’s streets bear his name: John, Wood, Brooks, and Boston.",
+      "text": "Brookfield was surveyed in 1859 by John Wood Brooks, a Boston native, and the town\u2019s streets bear his name: John, Wood, Brooks, and Boston.",
       "sourceSentenceIds": [
         20,
         21
@@ -31,7 +31,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Brookfield%2C_Missouri",
-      "category": "etymology",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -43,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brookfieldcity.com/government/city-history/"
+      "source": "https://brookfieldcity.com/government/city-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -63,29 +66,16 @@
     },
     {
       "id": 4,
-      "text": "Brookfield’s public library, the Brookfield Public Library, serves as a local hub for books and community events.",
+      "text": "Brookfield\u2019s public library, the Brookfield Public Library, serves as a local hub for books and community events.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brookfield%2C_Missouri"
-    },
-    {
-      "id": 5,
-      "text": "Brookfield sits within Linn County, Missouri, and has maintained a post office since 1860.",
-      "sourceSentenceIds": [
-        19,
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
       "source": "https://en.wikipedia.org/wiki/Brookfield%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

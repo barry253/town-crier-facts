@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "What began as tent camping in 1904 evolved into 140 permanent “camps,” many of which have stayed in families for generations.",
+      "text": "What began as tent camping in 1904 evolved into 140 permanent \u201ccamps,\u201d many of which have stayed in families for generations.",
       "sourceSentenceIds": [
         9
       ],
@@ -62,14 +62,16 @@
     },
     {
       "id": 4,
-      "text": "Community life features Sunday worship groves, Friday night square dances, and youth‑led summer programs organized by high school and college residents.",
+      "text": "Community life features Sunday worship groves, Friday night square dances, and youth\u2011led summer programs organized by high school and college residents.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/pocono_lake_preserve_pennsylvania"
+      "source": "https://grokipedia.com/page/pocono_lake_preserve_pennsylvania",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/pocono_lake_preserve_pennsylvania"
+      "source": "https://grokipedia.com/page/pocono_lake_preserve_pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +95,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pocono_Lake_Preserve%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Pocono_Lake_Preserve%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

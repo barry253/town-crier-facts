@@ -43,8 +43,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Fayetteville%2C_Illinois",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -71,21 +72,7 @@
       "source": "https://en.wikipedia.org/wiki/Fayetteville%2C_Illinois",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 5,
-      "text": "It is located in Fayetteville Township, part of St. Clair County in southwestern Illinois.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fayetteville%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -96,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fayetteville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Fayetteville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

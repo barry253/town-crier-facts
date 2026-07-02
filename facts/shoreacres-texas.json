@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Shoreacres is a city located in Harris County, Texas.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Shoreacres%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 2,
-      "text": "The community began when Shoreacres Inc. was founded, shaping the town’s early growth.",
+      "text": "The community began when Shoreacres Inc. was founded, shaping the town\u2019s early growth.",
       "sourceSentenceIds": [
         4
       ],
@@ -49,7 +35,7 @@
     },
     {
       "id": 3,
-      "text": "A five‑member city council governs Shoreacres under a city‑manager form of government.",
+      "text": "A five\u2011member city council governs Shoreacres under a city\u2011manager form of government.",
       "sourceSentenceIds": [
         29
       ],
@@ -63,7 +49,7 @@
     },
     {
       "id": 4,
-      "text": "Every resident of Shoreacres lives in an urban setting—100 percent of the population is urban.",
+      "text": "Every resident of Shoreacres lives in an urban setting\u2014100 percent of the population is urban.",
       "sourceSentenceIds": [
         18
       ],
@@ -87,7 +73,7 @@
       "source": "https://en.wikipedia.org/wiki/Shoreacres%2C_Texas",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "census_demographic"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -98,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shoreacres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Shoreacres%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

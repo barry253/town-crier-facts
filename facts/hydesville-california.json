@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Historic maps of Hydesville, ranging from 1889 to 1909, are available online and show the town’s early layout.",
+      "text": "Historic maps of Hydesville, ranging from 1889 to 1909, are available online and show the town\u2019s early layout.",
       "sourceSentenceIds": [
         3
       ],
@@ -60,20 +60,6 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Hydesville lies about 4.5 miles southeast of Fortuna, the nearest larger town in Humboldt County.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hydesville%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
       "text": "Hydesville is also roughly 2.25 miles southeast of Rohnerville, another nearby community.",
       "sourceSentenceIds": [
@@ -85,7 +71,7 @@
       "source": "https://en.wikipedia.org/wiki/Hydesville%2C_California",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -96,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hydesville%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hydesville%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

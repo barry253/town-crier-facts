@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Crescent City sits in Iroquois and Crescent townships of Iroquois County, Illinois.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
-      "text": "Illinois Route 24 cuts through the village center, linking it east to Watseka and west to Gilman near I‑57.",
+      "text": "Illinois Route 24 cuts through the village center, linking it east to Watseka and west to Gilman near I\u201157.",
       "sourceSentenceIds": [
         13
       ],
@@ -45,7 +31,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -58,11 +45,12 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "In 2009, the village’s main high school closed, sending students to nearby schools.",
+      "text": "In 2009, the village\u2019s main high school closed, sending students to nearby schools.",
       "sourceSentenceIds": [
         8
       ],
@@ -71,31 +59,22 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
       "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Crescent City lies about 90 miles south of Chicago, 15 miles north of Watseka.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-crescent-city-illinois.html",
-      "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The village is part of the Midwest’s agricultural heartland, reflecting its rural character.",
+      "text": "The village is part of the Midwest\u2019s agricultural heartland, reflecting its rural character.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-crescent-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-crescent-city-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -30,22 +30,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Batesville%2C_Ohio",
-      "category": "etymology",
+      "category": "history",
       "quality": "good"
-    },
-    {
-      "id": 2,
-      "text": "Batesville is a village located in Noble County, Ohio, in the heart of the state.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Batesville%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -63,7 +49,7 @@
     },
     {
       "id": 4,
-      "text": "The village’s town hall provides contact details, office hours, and email options for residents.",
+      "text": "The village\u2019s town hall provides contact details, office hours, and email options for residents.",
       "sourceSentenceIds": [
         26
       ],
@@ -77,7 +63,7 @@
     },
     {
       "id": 5,
-      "text": "Batesville’s history includes a post office and railroad service noted in 1895 records.",
+      "text": "Batesville\u2019s history includes a post office and railroad service noted in 1895 records.",
       "sourceSentenceIds": [
         5
       ],
@@ -90,14 +76,17 @@
     },
     {
       "id": 6,
-      "text": "The village’s name appears in both FIPS-55, and GNIS databases as a recognized geographic feature.",
+      "text": "The village\u2019s name appears in both FIPS-55, and GNIS databases as a recognized geographic feature.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/batesville-xx-noble-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/batesville-xx-noble-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

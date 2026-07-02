@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "New Waverly likely takes its name from Sir Walter Scott’s Waverley novels.",
+      "text": "New Waverly likely takes its name from Sir Walter Scott\u2019s Waverley novels.",
       "sourceSentenceIds": [
         1
       ],
@@ -56,22 +56,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/New_Waverly%2C_Indiana",
-      "category": "landmark",
+      "category": "history",
       "quality": "good"
-    },
-    {
-      "id": 4,
-      "text": "New Waverly sits within Miami Township in Cass County, Indiana, a region known for its flat farmland.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Waverly%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -85,18 +71,21 @@
       "source": "https://roadsidethoughts.com/in/new-waverly-xx-cass-profile.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "New Waverly appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
+      "text": "New Waverly appears in both the FIPS\u201155 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/new-waverly-xx-cass-profile.htm"
+      "source": "https://roadsidethoughts.com/in/new-waverly-xx-cass-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

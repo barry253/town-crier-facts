@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "During a 1950s drought, the factory’s wastewater lagoons dried, releasing a smell that overwhelmed town streets.",
+      "text": "During a 1950s drought, the factory\u2019s wastewater lagoons dried, releasing a smell that overwhelmed town streets.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,19 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado"
-    },
-    {
-      "id": 5,
-      "text": "Sugar City lies in southeastern Crowley County, just 4 miles southeast of Ordway and about 50 miles east of Pueblo.",
-      "sourceSentenceIds": [
-        18,
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-sugar-city-colorado.html"
+      "source": "https://en.wikipedia.org/wiki/Sugar_City%2C_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-sugar-city-colorado.html"
+      "source": "https://www.citydirectory.us/town-sugar-city-colorado.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

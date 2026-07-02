@@ -34,20 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The community sits in the Santa Cruz Mountains, about five miles south of Los Gatos and 14 miles north of Santa Cruz.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lexington_Hills%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Lexington Reservoir offers fishing and hiking in the area for locals and visitors.",
       "sourceSentenceIds": [
@@ -76,14 +62,17 @@
     },
     {
       "id": 5,
-      "text": "The region enjoys warm, dry summers with average highs never exceeding 71.6°F.",
+      "text": "The region enjoys warm, dry summers with average highs never exceeding 71.6\u00b0F.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lexington_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Lexington_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -95,7 +84,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Lexington_Hills%2C_California",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     }
   ]

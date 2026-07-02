@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The community is part of the Staunton–Waynesboro Micropolitan Statistical Area, linking it to a broader regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lyndhurst%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Roughly 89% of Lyndhurst’s residents live in rural surroundings, with only about 11% in urban settings.",
+      "text": "Roughly 89% of Lyndhurst\u2019s residents live in rural surroundings, with only about 11% in urban settings.",
       "sourceSentenceIds": [
         10
       ],
@@ -86,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyndhurst%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Lyndhurst%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

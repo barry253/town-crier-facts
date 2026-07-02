@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Townsend is an unincorporated community in Northampton County, Virginia.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Townsend%2C_Virginia"
-    },
-    {
       "id": 2,
       "text": "The community sits near sea level, typical of the Eastern Shore region.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm"
+      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,18 +43,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm"
+      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The U.S. Geological Survey’s GNIS and the FIPS‑55 database both record Townsend, confirming its official status.",
+      "text": "The U.S. Geological Survey\u2019s GNIS and the FIPS\u201155 database both record Townsend, confirming its official status.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm"
+      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +70,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm"
+      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "Townsend’s early history notes a post office and railroad service in 1895, showing its role in regional transport.",
+      "text": "Townsend\u2019s early history notes a post office and railroad service in 1895, showing its role in regional transport.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm"
+      "source": "https://roadsidethoughts.com/va/townsend-xx-northampton-profile.htm",
+      "category": "transport",
+      "quality": "good"
     }
   ]
 }

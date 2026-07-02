@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Garner’s former home is now a historic site operated by the Dolph Briscoe Center for American History.",
+      "text": "Garner\u2019s former home is now a historic site operated by the Dolph Briscoe Center for American History.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/John_Nance_Garner"
+      "source": "https://en.wikipedia.org/wiki/John_Nance_Garner",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/John_Nance_Garner"
+      "source": "https://en.wikipedia.org/wiki/John_Nance_Garner",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,29 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tpwd.texas.gov/state-parks/garner/history"
-    },
-    {
-      "id": 4,
-      "text": "Garner sits on Farm Road 113, 14 miles northwest of Weatherford.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/garner-tx"
-    },
-    {
-      "id": 5,
-      "text": "Garner is located in west central Parker County, Texas.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/garner-tx"
+      "source": "https://tpwd.texas.gov/state-parks/garner/history",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tpwd.texas.gov/state-parks/garner/history"
+      "source": "https://tpwd.texas.gov/state-parks/garner/history",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

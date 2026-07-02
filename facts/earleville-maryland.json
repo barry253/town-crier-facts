@@ -36,23 +36,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The village sits at the crossroads of Maryland Route 282 and Grove Neck Road, west of Cecilton.",
-      "sourceSentenceIds": [
-        11,
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Earleville%2C_Maryland",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Bohemia Farm, Mount Harmon, Rose Hill, and Stephen's Episcopal Church are all listed on the National Register of Historic Places.",
       "sourceSentenceIds": [
@@ -72,7 +55,7 @@
     },
     {
       "id": 4,
-      "text": "Bohemia Farm offers a glimpse into 19th‑century farm life, showing how residents once worked the land.",
+      "text": "Bohemia Farm offers a glimpse into 19th\u2011century farm life, showing how residents once worked the land.",
       "sourceSentenceIds": [
         4
       ],
@@ -80,12 +63,12 @@
         "Web source 1"
       ],
       "source": "https://kids.kiddle.co/Earleville,_Maryland",
-      "category": "culture",
+      "category": "landmark",
       "quality": "good"
     },
     {
       "id": 5,
-      "text": "Mount Harmon is a preserved plantation house that showcases elegant 18th‑century architecture.",
+      "text": "Mount Harmon is a preserved plantation house that showcases elegant 18th\u2011century architecture.",
       "sourceSentenceIds": [
         19
       ],
@@ -98,14 +81,17 @@
     },
     {
       "id": 6,
-      "text": "Stephen's Episcopal Church has served the community for generations, reflecting Earleville's long‑standing religious heritage.",
+      "text": "Stephen's Episcopal Church has served the community for generations, reflecting Earleville's long\u2011standing religious heritage.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Earleville,_Maryland"
+      "source": "https://kids.kiddle.co/Earleville,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

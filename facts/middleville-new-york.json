@@ -44,7 +44,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Middleville%2C_New_York",
       "category": "nature",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -61,7 +62,7 @@
     },
     {
       "id": 4,
-      "text": "Three New York state routes—28, 29, and 169—converge in Middleville, making it a historic crossroads.",
+      "text": "Three New York state routes\u201428, 29, and 169\u2014converge in Middleville, making it a historic crossroads.",
       "sourceSentenceIds": [
         16
       ],
@@ -94,7 +95,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-middleville-new-york.html"
+      "source": "https://www.citydirectory.us/village-middleville-new-york.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

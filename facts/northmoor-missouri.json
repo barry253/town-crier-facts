@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Northmoor’s name blends Moore, a pioneer settler, with “north,” marking its position north of Kansas City.",
+      "text": "Northmoor\u2019s name blends Moore, a pioneer settler, with \u201cnorth,\u201d marking its position north of Kansas City.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://northmoormo.gov/history/"
-    },
-    {
-      "id": 3,
-      "text": "Northmoor sits within the Kansas City metropolitan area, sharing the region’s economic and cultural ties.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri"
+      "source": "https://northmoormo.gov/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,29 +57,37 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The city borders Riverside to the south and west, and Kansas City’s Lakeview Terrace and Briarcliff West to the north and east.",
+      "text": "The city borders Riverside to the south and west, and Kansas City\u2019s Lakeview Terrace and Briarcliff West to the north and east.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Northmoor%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Historic 1890 maps of Northmoor are archived online, offering a glimpse into the town’s early layout.",
+      "text": "Historic 1890 maps of Northmoor are archived online, offering a glimpse into the town\u2019s early layout.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northmoormo.gov/history/"
+      "source": "https://northmoormo.gov/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

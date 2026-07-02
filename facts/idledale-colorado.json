@@ -45,7 +45,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Idledale%2C_Colorado",
-      "category": "etymology",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -71,12 +71,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Idledale%2C_Colorado",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "The village rises to 6,466 feet, offering a mountain‑life feel within Denver’s metropolitan area.",
+      "text": "The village rises to 6,466 feet, offering a mountain\u2011life feel within Denver\u2019s metropolitan area.",
       "sourceSentenceIds": [
         18,
         24
@@ -86,8 +87,8 @@
         "Web source 2"
       ],
       "source": "https://www.uncovercolorado.com/towns/idledale/",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -100,7 +101,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/idledale/"
+      "source": "https://www.uncovercolorado.com/towns/idledale/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

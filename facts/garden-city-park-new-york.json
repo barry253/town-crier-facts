@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Garden City Park grew during Long Island’s 20th‑century suburban boom as homes spread east from New York City.",
+      "text": "Garden City Park grew during Long Island\u2019s 20th\u2011century suburban boom as homes spread east from New York City.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.longislandguide.com/visit/garden-city-park/"
+      "source": "https://www.longislandguide.com/visit/garden-city-park/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garden_City_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Garden_City_Park%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,31 +58,6 @@
       "source": "https://en.wikipedia.org/wiki/Garden_City_Park%2C_New_York",
       "category": "etymology",
       "quality": "good"
-    },
-    {
-      "id": 4,
-      "text": "Hillside Avenue, Herricks Road, and Denton Avenue form the park’s northern, eastern, and western borders.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Garden_City_Park%2C_New_York"
-    },
-    {
-      "id": 5,
-      "text": "The hamlet lies about 20 miles east of Midtown Manhattan, a quick drive into the city’s core.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Garden_City_Park%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     }
   ]
 }

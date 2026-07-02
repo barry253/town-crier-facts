@@ -44,11 +44,12 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Norden%2C_California",
       "category": "history",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Founded in 1985, the Donner Summit Historical Society preserves Norden’s heritage through exhibits, a quarterly newsletter, and community events.",
+      "text": "Founded in 1985, the Donner Summit Historical Society preserves Norden\u2019s heritage through exhibits, a quarterly newsletter, and community events.",
       "sourceSentenceIds": [
         1,
         14
@@ -62,7 +63,7 @@
     },
     {
       "id": 4,
-      "text": "Perched at 6,930 feet, Norden enjoys a high‑altitude Sierra Nevada setting that shapes its climate and scenery.",
+      "text": "Perched at 6,930 feet, Norden enjoys a high\u2011altitude Sierra Nevada setting that shapes its climate and scenery.",
       "sourceSentenceIds": [
         28
       ],
@@ -70,19 +71,6 @@
         "Web source 1"
       ],
       "source": "https://roadsidethoughts.com/ca/norden-xx-nevada-profile.htm",
-      "category": "nature",
-      "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Norden lies just 1.5 miles west of Donner Pass along the historic first transcontinental railroad.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Norden%2C_California",
       "category": "nature",
       "quality": "good"
     },
@@ -95,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Norden%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Norden%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

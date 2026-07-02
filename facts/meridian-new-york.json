@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Meridian is a village nestled in Cayuga County, New York.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-meridian-new-york.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "It sits in central New York, southwest of Syracuse and northwest of Auburn.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-meridian-new-york.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Meridian is part of the Finger Lakes region, celebrated for its rolling hills and picturesque waterways.",
       "sourceSentenceIds": [
@@ -59,7 +31,7 @@
       ],
       "source": "https://www.citydirectory.us/village-meridian-new-york.html",
       "category": "nature",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -74,7 +46,7 @@
       "source": "https://www.citydirectory.us/village-meridian-new-york.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -88,7 +60,7 @@
       "source": "https://www.citydirectory.us/village-meridian-new-york.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -99,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-meridian-new-york.html"
+      "source": "https://www.citydirectory.us/village-meridian-new-york.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

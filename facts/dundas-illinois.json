@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Dundas sits just seven miles north of Olney, a short drive into Richland County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dundas%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
-      "text": "The town’s post office first opened in 1858, marking its early growth for settlers.",
+      "text": "The town\u2019s post office first opened in 1858, marking its early growth for settlers.",
       "sourceSentenceIds": [
         19
       ],
@@ -57,9 +43,9 @@
         "Web source 2"
       ],
       "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
-      "category": "nature",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -73,18 +59,20 @@
       "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Locals pronounce Dundas as DUHN-duhs, a nod to its early settlers’ accents.",
+      "text": "Locals pronounce Dundas as DUHN-duhs, a nod to its early settlers\u2019 accents.",
       "sourceSentenceIds": [
         19
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -95,7 +83,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

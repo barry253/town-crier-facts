@@ -21,37 +21,17 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rock Stream is a hamlet in the town of Starkey, Yates County, New York.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Stream%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The community sits near New York State Route 14, just 4.4 miles southeast of Dundee.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Stream%2C_New_York"
-    },
-    {
       "id": 3,
-      "text": "Rock Stream’s post office opened in 1820, marking the town’s earliest official record.",
+      "text": "Rock Stream\u2019s post office opened in 1820, marking the town\u2019s earliest official record.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/rock-stream-xx-yates-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/rock-stream-xx-yates-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +42,36 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/rock-stream-xx-yates-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/rock-stream-xx-yates-profile.htm",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "After returning from Italy, the founder established Rock Stream Vineyards, producing award‑winning artisanal wine and liqueurs.",
+      "text": "After returning from Italy, the founder established Rock Stream Vineyards, producing award\u2011winning artisanal wine and liqueurs.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://rockstreamvineyards.com/"
+      "source": "https://rockstreamvineyards.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "Rock Stream is listed in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
+      "text": "Rock Stream is listed in both the FIPS\u201155 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/rock-stream-xx-yates-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/rock-stream-xx-yates-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

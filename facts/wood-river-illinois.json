@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://woodriver.org/community/wood-river-history/"
+      "source": "https://woodriver.org/community/wood-river-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,11 +44,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://woodriver.org/community/wood-river-history/"
+      "source": "https://woodriver.org/community/wood-river-history/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Wood River marks the start of the 3,700‑mile Lewis and Clark National Historic Trail.",
+      "text": "Wood River marks the start of the 3,700\u2011mile Lewis and Clark National Historic Trail.",
       "sourceSentenceIds": [
         9,
         14
@@ -55,7 +59,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://woodriver.org/community/wood-river-history/"
+      "source": "https://woodriver.org/community/wood-river-history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://woodriver.org/community/wood-river-history/"
+      "source": "https://woodriver.org/community/wood-river-history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wood_River%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Wood_River%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -91,7 +102,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wood_River%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Wood_River%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

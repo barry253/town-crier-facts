@@ -34,21 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The city sits east of Panama City and is part of the Panama City–Panama City Beach Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Springfield hosts four public schools: Rutherford High School, Everitt Middle School, Springfield Elementary School, and Shaw Adult Learning Center.",
       "sourceSentenceIds": [
@@ -57,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -82,18 +69,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-springfield-florida.html"
+      "source": "https://www.citydirectory.us/city-springfield-florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Springfield’s median age is 37.1 years, reflecting a balanced mix of families and retirees.",
+      "text": "Springfield\u2019s median age is 37.1 years, reflecting a balanced mix of families and retirees.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

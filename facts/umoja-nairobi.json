@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Umoja is a residential suburb in Nairobi, part of Embakasi sub‑county and the Eastlands area.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Umoja%2C_Nairobi",
-      "category": "etymology",
-      "quality": "good"
-    },
-    {
       "id": 2,
       "text": "The estate split into three phases: Umoja I, Umoja II, and Umoja Innercore, each covering distinct parts of the suburb.",
       "sourceSentenceIds": [
@@ -44,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Umoja%2C_Nairobi"
+      "source": "https://en.wikipedia.org/wiki/Umoja%2C_Nairobi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -61,21 +50,6 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Umoja sits about 9 km east of Nairobi CBD and lies along Muthidwa Road off the outer ring road.",
-      "sourceSentenceIds": [
-        14,
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://property254.co.ke/blogs/umoja-neighborhood-guide-all-you-need-to-know/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
       "text": "Public transport to Umoja from the city center uses matatus or buses 19, 35, and 60, following Jogoo Road or the eastern bypass.",
       "sourceSentenceIds": [
@@ -87,12 +61,12 @@
       ],
       "source": "https://property254.co.ke/blogs/umoja-neighborhood-guide-all-you-need-to-know/",
       "category": "transport",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "route_only"
     },
     {
       "id": 6,
-      "text": "The neighborhood hosts several churches, including the Catholic Assumption of Mary and the Seventh‑Day Adventist Church, reflecting its diverse faith community.",
+      "text": "The neighborhood hosts several churches, including the Catholic Assumption of Mary and the Seventh\u2011Day Adventist Church, reflecting its diverse faith community.",
       "sourceSentenceIds": [
         26
       ],

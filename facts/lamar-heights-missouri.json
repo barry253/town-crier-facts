@@ -36,20 +36,6 @@
       "qualityReason": "location_description"
     },
     {
-      "id": 2,
-      "text": "The town lies just north of Lamar, the county seat, and southeast of Pittsburgh, Kansas.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-lamar-heights.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Its landscape borders the Ozark Plateau, giving the area a gently rolling, forested backdrop.",
       "sourceSentenceIds": [
@@ -59,8 +45,8 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/village-lamar-heights.html",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -78,7 +64,21 @@
     },
     {
       "id": 5,
-      "text": "The municipality’s municipal building serves as the hub for local governance and public services.",
+      "text": "The municipality\u2019s municipal building serves as the hub for local governance and public services.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-lamar-heights.html",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
+    },
+    {
+      "id": 6,
+      "text": "City hall\u2019s contact details, including phone and email, are readily available online for residents and visitors.",
       "sourceSentenceIds": [
         19
       ],
@@ -89,17 +89,6 @@
       "category": "other",
       "quality": "poor",
       "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 6,
-      "text": "City hall’s contact details, including phone and email, are readily available online for residents and visitors.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-lamar-heights.html"
     }
   ]
 }

@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Java Village is a hamlet in Wyoming County, New York.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Java_Village%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "The community sits along New York State Route 78, just 9.6 miles north of Arcade.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Java_Village%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "The Java Historical Society, founded in 2007, preserves and shares the village’s history.",
+      "text": "The Java Historical Society, founded in 2007, preserves and shares the village\u2019s history.",
       "sourceSentenceIds": [
         1,
         2,
@@ -78,7 +50,7 @@
     },
     {
       "id": 5,
-      "text": "The Society hosts lectures, tours, and workshops to bring the village’s past to life.",
+      "text": "The Society hosts lectures, tours, and workshops to bring the village\u2019s past to life.",
       "sourceSentenceIds": [
         27
       ],
@@ -91,14 +63,16 @@
     },
     {
       "id": 6,
-      "text": "It also organizes hikes and outdoor events that showcase the area’s natural beauty.",
+      "text": "It also organizes hikes and outdoor events that showcase the area\u2019s natural beauty.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22080"
+      "source": "https://museumsdatabase.com/museums/view/22080",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

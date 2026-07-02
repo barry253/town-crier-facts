@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Virgilina gets its name from its position right on the Virginia–North Carolina line.",
+      "text": "Virgilina gets its name from its position right on the Virginia\u2013North Carolina line.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,29 +55,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia"
-    },
-    {
-      "id": 4,
-      "text": "The town’s southern edge is the very line that separates Virginia from North Carolina.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Virginia Routes 96 and 49 cross at Virgilina’s center, a historic crossroads.",
+      "text": "Virginia Routes 96 and 49 cross at Virgilina\u2019s center, a historic crossroads.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -84,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Virgilina%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

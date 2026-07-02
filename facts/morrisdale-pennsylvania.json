@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Morrisdale sits about five miles north of Philipsburg on Pennsylvania Route 53.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Morrisdale%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The community prides itself on a welcoming atmosphere and friendly residents.",
       "sourceSentenceIds": [
@@ -63,7 +49,7 @@
     },
     {
       "id": 4,
-      "text": "The township’s roads cover roughly 18.5 miles of local roadway.",
+      "text": "The township\u2019s roads cover roughly 18.5 miles of local roadway.",
       "sourceSentenceIds": [
         6
       ],
@@ -84,18 +70,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.morristwp-clearfieldco.com/"
+      "source": "https://www.morristwp-clearfieldco.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The township’s road crew consists of three full‑time workers who maintain the local streets.",
+      "text": "The township\u2019s road crew consists of three full\u2011time workers who maintain the local streets.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.morristwp-clearfieldco.com/"
+      "source": "https://www.morristwp-clearfieldco.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

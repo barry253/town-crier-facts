@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "A mill erected in 1863 became the settlement’s main source of income, powering early growth.",
+      "text": "A mill erected in 1863 became the settlement\u2019s main source of income, powering early growth.",
       "sourceSentenceIds": [
         5
       ],
@@ -60,34 +60,6 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Tower Hill sits in rural Central Illinois, about 18 miles southwest of Shelbyville and 40 miles southeast of Decatur.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-tower-hill.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 5,
-      "text": "The village is part of Shelby County, Illinois, United States.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tower_Hill%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 6,
       "text": "Town Hall contact details, including address and hours, are readily available online for residents and visitors.",
       "sourceSentenceIds": [
@@ -96,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-tower-hill.html"
+      "source": "https://www.citydirectory.us/village-tower-hill.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

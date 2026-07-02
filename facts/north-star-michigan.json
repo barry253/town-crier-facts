@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.northstartwp.com/"
+      "source": "https://www.northstartwp.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,40 +42,36 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.northstartwp.com/"
-    },
-    {
-      "id": 3,
-      "text": "North Star sits along the Bad River at 43°14′54″N 84°32′36″W, marking its geographic heart.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/North_Star_Township%2C_Michigan"
+      "source": "https://www.northstartwp.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Route 127 runs south–north near the center of North Star Township, connecting to Ithaca.",
+      "text": "Route 127 runs south\u2013north near the center of North Star Township, connecting to Ithaca.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Star_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/North_Star_Township%2C_Michigan",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
-      "text": "North Star Township is a rural, agricultural area in Michigan’s central southeastern region.",
+      "text": "North Star Township is a rural, agricultural area in Michigan\u2019s central southeastern region.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.northstartwp.com/"
+      "source": "https://www.northstartwp.com/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.northstartwp.com/"
+      "source": "https://www.northstartwp.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

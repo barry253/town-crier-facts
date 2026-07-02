@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Montrose Manor sits just north of Mohnton along US Route 222, a quiet stretch of Pennsylvania road.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Montrose_Manor%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "Nestled in gentle Pennsylvania countryside, Montrose Manor feels less like a tourist spot and more like a steady heartbeat of daily life.",
       "sourceSentenceIds": [
@@ -46,11 +32,11 @@
       "source": "https://www.wikixm.com/us/pa/montrose-manor/overview",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
-      "text": "Every Fourth of July, the town’s parade showcases homemade floats and children on decorated bicycles, drawing cheers from neighbors.",
+      "text": "Every Fourth of July, the town\u2019s parade showcases homemade floats and children on decorated bicycles, drawing cheers from neighbors.",
       "sourceSentenceIds": [
         24
       ],
@@ -58,12 +44,12 @@
         "Web source 1"
       ],
       "source": "https://www.wikixm.com/us/pa/montrose-manor/overview",
-      "category": "culture",
+      "category": "landmark",
       "quality": "good"
     },
     {
       "id": 4,
-      "text": "The old oak and maple trees lining the streets have watched generations grow, their roots mirroring the community’s deep connections.",
+      "text": "The old oak and maple trees lining the streets have watched generations grow, their roots mirroring the community\u2019s deep connections.",
       "sourceSentenceIds": [
         16
       ],
@@ -73,7 +59,7 @@
       "source": "https://www.wikixm.com/us/pa/montrose-manor/overview",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -87,18 +73,21 @@
       "source": "https://www.wikixm.com/us/pa/montrose-manor/overview",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The community’s quiet pride shows in simple acts—maintaining homes, supporting neighbors, or coaching local teams, reinforcing a resilient spirit.",
+      "text": "The community\u2019s quiet pride shows in simple acts\u2014maintaining homes, supporting neighbors, or coaching local teams, reinforcing a resilient spirit.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/pa/montrose-manor/overview"
+      "source": "https://www.wikixm.com/us/pa/montrose-manor/overview",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

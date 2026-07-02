@@ -21,21 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Blende sits within Pueblo County and is part of the Pueblo, Colorado Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Blende%2C_Colorado",
-      "category": "other",
-      "quality": "good"
-    },
-    {
       "id": 2,
-      "text": "The community’s roots trace back to mining, with several historic claims and mines recorded in the area.",
+      "text": "The community\u2019s roots trace back to mining, with several historic claims and mines recorded in the area.",
       "sourceSentenceIds": [
         1
       ],
@@ -43,7 +30,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Blende%2C_Colorado",
-      "category": "history",
+      "category": "economy",
       "quality": "good"
     },
     {
@@ -56,12 +43,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Blende%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "Although Blende isn’t an incorporated city, it remains a vibrant place where residents call home.",
+      "text": "Although Blende isn\u2019t an incorporated city, it remains a vibrant place where residents call home.",
       "sourceSentenceIds": [
         7
       ],
@@ -70,7 +58,8 @@
       ],
       "source": "https://kids.kiddle.co/Blende,_Colorado",
       "category": "other",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -84,7 +73,8 @@
       ],
       "source": "https://kids.kiddle.co/Blende,_Colorado",
       "category": "other",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,

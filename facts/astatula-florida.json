@@ -35,20 +35,6 @@
       "qualityReason": "location_description"
     },
     {
-      "id": 2,
-      "text": "The town is part of the Orlando–Kissimmee–Sanford Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Astatula%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 3,
       "text": "County Road 561, also known as Monroe Street, is the main artery through Astatula, linking it north to Tavares and south to U.S. routes.",
       "sourceSentenceIds": [
@@ -64,7 +50,7 @@
     },
     {
       "id": 4,
-      "text": "Astatula experiences hot, humid summers and generally mild winters, typical of central Florida’s climate.",
+      "text": "Astatula experiences hot, humid summers and generally mild winters, typical of central Florida\u2019s climate.",
       "sourceSentenceIds": [
         6
       ],
@@ -74,7 +60,7 @@
       "source": "https://en.wikipedia.org/wiki/Astatula%2C_Florida",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -86,13 +72,13 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/town-astatula.html",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Residents can access a range of local services—hospitals, schools, and parks—directly through the town hall’s contact information.",
+      "text": "Residents can access a range of local services\u2014hospitals, schools, and parks\u2014directly through the town hall\u2019s contact information.",
       "sourceSentenceIds": [
         23,
         24
@@ -100,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-astatula.html"
+      "source": "https://www.citydirectory.us/town-astatula.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

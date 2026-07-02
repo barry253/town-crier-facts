@@ -47,20 +47,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Parral is a village in Tuscarawas County, Ohio, United States.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parral%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 4,
       "text": "The village had 106 housing units, averaging 588.9 per square mile.",
       "sourceSentenceIds": [
@@ -76,7 +62,7 @@
     },
     {
       "id": 5,
-      "text": "Parral’s population is 95.0% White, with 0.5% African American and 1.8% from other races.",
+      "text": "Parral\u2019s population is 95.0% White, with 0.5% African American and 1.8% from other races.",
       "sourceSentenceIds": [
         15
       ],
@@ -97,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parral%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Parral%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

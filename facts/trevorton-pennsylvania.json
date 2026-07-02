@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Trevorton, a small town steeped in coal‑mining history, charms visitors with its scenic Appalachian surroundings.",
+      "text": "Trevorton, a small town steeped in coal\u2011mining history, charms visitors with its scenic Appalachian surroundings.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/trevorton"
+      "source": "https://triptap.com/locations/us/pennsylvania/trevorton",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trevorton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Trevorton%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Trevorton’s Appalachian setting makes it ideal for hiking, bird watching, and other outdoor adventures.",
+      "text": "Trevorton\u2019s Appalachian setting makes it ideal for hiking, bird watching, and other outdoor adventures.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/trevorton"
-    },
-    {
-      "id": 4,
-      "text": "Located at 40.781510 N, 76.674259 W, Trevorton lies in central Pennsylvania’s coal belt.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Trevorton%2C_Pennsylvania"
+      "source": "https://triptap.com/locations/us/pennsylvania/trevorton",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/trevorton"
+      "source": "https://triptap.com/locations/us/pennsylvania/trevorton",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/trevorton"
+      "source": "https://triptap.com/locations/us/pennsylvania/trevorton",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

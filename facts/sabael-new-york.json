@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sabael got its name from Sabael Benedict, an 18‑year‑old Abenaki hunter who trekked from Quebec to Indian Lake in 1765.",
+      "text": "Sabael got its name from Sabael Benedict, an 18\u2011year\u2011old Abenaki hunter who trekked from Quebec to Indian Lake in 1765.",
       "sourceSentenceIds": [
         3,
         4,
@@ -33,11 +33,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabael%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Sabael%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The hamlet sits on Indian Lake’s western shore beside New York State Route 30, about 16.2 miles north of Speculator.",
+      "text": "The hamlet sits on Indian Lake\u2019s western shore beside New York State Route 30, about 16.2 miles north of Speculator.",
       "sourceSentenceIds": [
         9,
         29
@@ -46,7 +48,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabael%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Sabael%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/sabael_new_york"
+      "source": "https://grokipedia.com/page/sabael_new_york",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,18 +75,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/sabael_new_york"
-    },
-    {
-      "id": 5,
-      "text": "Sabael sits at 1,745 feet (532 meters) above sea level.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/sabael_new_york"
+      "source": "https://grokipedia.com/page/sabael_new_york",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +89,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/sabael_new_york"
+      "source": "https://grokipedia.com/page/sabael_new_york",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

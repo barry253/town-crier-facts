@@ -46,8 +46,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sun_Valley%2C_Arizona",
-      "category": "economy",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -60,7 +61,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sun_Valley%2C_Arizona",
-      "category": "landmark",
+      "category": "economy",
       "quality": "good"
     },
     {
@@ -74,12 +75,13 @@
         "Web source 1"
       ],
       "source": "https://www.sunvalley.com/explore/guest-guide/",
-      "category": "landmark",
-      "quality": "good"
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
-      "text": "The Sun Valley Lodge’s bowling alley, infused with 1950s vibes, is one of the Northwest’s oldest.",
+      "text": "The Sun Valley Lodge\u2019s bowling alley, infused with 1950s vibes, is one of the Northwest\u2019s oldest.",
       "sourceSentenceIds": [
         2
       ],
@@ -87,20 +89,22 @@
         "Web source 1"
       ],
       "source": "https://www.sunvalley.com/explore/guest-guide/",
-      "category": "transport",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "route_only"
     },
     {
       "id": 6,
-      "text": "Gretchen’s, named after skier Gretchen Fraser, serves breakfast, lunch, and dinner in the lodge lobby.",
+      "text": "Gretchen\u2019s, named after skier Gretchen Fraser, serves breakfast, lunch, and dinner in the lodge lobby.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.sunvalley.com/explore/guest-guide/"
+      "source": "https://www.sunvalley.com/explore/guest-guide/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

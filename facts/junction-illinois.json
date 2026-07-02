@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Junction City is a village in Marion County, Illinois, United States, today.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "The village sits 3 miles south of Sandoval, 4 miles north of Centralia, and 12 miles west-southwest of Salem, the county seat.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Water from Junction City flows south into tributaries of Crooked Creek, a west‑flowing branch of the Kaskaskia River.",
+      "text": "Water from Junction City flows south into tributaries of Crooked Creek, a west\u2011flowing branch of the Kaskaskia River.",
       "sourceSentenceIds": [
         4
       ],
@@ -59,11 +31,12 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois",
       "category": "nature",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "City hall’s contact details, office hours, and phone or email options are listed online, making it easy to reach municipal services.",
+      "text": "City hall\u2019s contact details, office hours, and phone or email options are listed online, making it easy to reach municipal services.",
       "sourceSentenceIds": [
         12
       ],
@@ -91,14 +64,17 @@
     },
     {
       "id": 6,
-      "text": "Visitors can explore up‑to‑date demographic statistics, learn about the village’s history and unique features, and find answers to frequently asked questions about services and procedures.",
+      "text": "Visitors can explore up\u2011to\u2011date demographic statistics, learn about the village\u2019s history and unique features, and find answers to frequently asked questions about services and procedures.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-junction-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-junction-city-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

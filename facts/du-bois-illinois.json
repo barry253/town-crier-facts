@@ -34,20 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Du Bois sits in Washington County, southern Illinois, northeast of Pinckneyville and southeast of Nashville.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-du-bois-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "The village is officially classified as a village in Washington County, Illinois.",
       "sourceSentenceIds": [
@@ -71,20 +57,22 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/village-du-bois-illinois.html",
-      "category": "landmark",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The village’s post office remains a central gathering spot for locals.",
+      "text": "The village\u2019s post office remains a central gathering spot for locals.",
       "sourceSentenceIds": [
         30
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-du-bois-illinois.html"
+      "source": "https://www.citydirectory.us/village-du-bois-illinois.html",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Merriam Woods sits along U.S. Route 160 and Missouri Route 176, just north‑northwest of Rockaway Beach and Lake Taneycomo.",
+      "text": "Merriam Woods sits along U.S. Route 160 and Missouri Route 176, just north\u2011northwest of Rockaway Beach and Lake Taneycomo.",
       "sourceSentenceIds": [
         6,
         7
@@ -31,35 +31,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Merriam_Woods%2C_Missouri",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The city is part of the Branson, Missouri Micropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Merriam_Woods%2C_Missouri",
-      "category": "other",
-      "quality": "poor"
-    },
-    {
-      "id": 3,
-      "text": "Merriam Woods is located in Taney County, Missouri.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Merriam_Woods%2C_Missouri",
-      "category": "other",
-      "quality": "poor"
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -72,11 +46,12 @@
       ],
       "source": "https://www.citydirectory.us/village-merriam-woods.html",
       "category": "other",
-      "quality": "poor"
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "For construction inquiries, the town hall or Taney County authorities are the go‑to contacts.",
+      "text": "For construction inquiries, the town hall or Taney County authorities are the go\u2011to contacts.",
       "sourceSentenceIds": [
         2
       ],
@@ -85,18 +60,22 @@
       ],
       "source": "https://www.citydirectory.us/village-merriam-woods.html",
       "category": "other",
-      "quality": "poor"
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The city’s official website advises that emergency calls should go to 9‑1‑1, not the local page.",
+      "text": "The city\u2019s official website advises that emergency calls should go to 9\u20111\u20111, not the local page.",
       "sourceSentenceIds": [
         30
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.findglocal.com/US/Merriam-Woods/108231044896624/City-of-Merriam-Woods-Missouri"
+      "source": "https://www.findglocal.com/US/Merriam-Woods/108231044896624/City-of-Merriam-Woods-Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

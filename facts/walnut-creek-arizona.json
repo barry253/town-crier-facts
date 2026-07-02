@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "Walnut Canyon National Monument, just north of town, protects ancient cliff dwellings and offers a one‑mile Island Trail to 25 rock shelters.",
+      "text": "Walnut Canyon National Monument, just north of town, protects ancient cliff dwellings and offers a one\u2011mile Island Trail to 25 rock shelters.",
       "sourceSentenceIds": [
         12,
         13,
@@ -46,12 +46,12 @@
         "Web source 1"
       ],
       "source": "https://www.nps.gov/waca/index.htm",
-      "category": "nature",
+      "category": "landmark",
       "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town’s character is woven from the land itself—the rugged beauty of surrounding hills, resilient scrub, and the namesake walnut trees that shade quiet streets.",
+      "text": "The town\u2019s character is woven from the land itself\u2014the rugged beauty of surrounding hills, resilient scrub, and the namesake walnut trees that shade quiet streets.",
       "sourceSentenceIds": [
         26
       ],
@@ -59,13 +59,13 @@
         "Web source 2"
       ],
       "source": "https://www.wikixm.com/us/az/walnut-creek/overview",
-      "category": "culture",
-      "quality": "poor",
+      "category": "economy",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "The volunteer‑run library doubles as a community hub, hosting after‑school tutoring, knitting circles, and town‑hall meetings over cookies and lemonade.",
+      "text": "The volunteer\u2011run library doubles as a community hub, hosting after\u2011school tutoring, knitting circles, and town\u2011hall meetings over cookies and lemonade.",
       "sourceSentenceIds": [
         6
       ],
@@ -73,12 +73,13 @@
         "Web source 2"
       ],
       "source": "https://www.wikixm.com/us/az/walnut-creek/overview",
-      "category": "landmark",
-      "quality": "good"
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "Walnut Creek’s quiet self‑reliance stems from living in a demanding desert environment, balanced by a profound openness and neighborly warmth.",
+      "text": "Walnut Creek\u2019s quiet self\u2011reliance stems from living in a demanding desert environment, balanced by a profound openness and neighborly warmth.",
       "sourceSentenceIds": [
         29,
         30
@@ -87,9 +88,9 @@
         "Web source 2"
       ],
       "source": "https://www.wikixm.com/us/az/walnut-creek/overview",
-      "category": "culture",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -100,7 +101,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wikixm.com/us/az/walnut-creek/overview"
+      "source": "https://www.wikixm.com/us/az/walnut-creek/overview",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

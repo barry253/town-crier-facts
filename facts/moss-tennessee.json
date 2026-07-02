@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Moss is an unincorporated community in Clay County, Tennessee, United States.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Moss%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
-      "text": "Moss sits 6.8 miles west‑northwest of Celina along Tennessee State Route 52.",
+      "text": "Moss sits 6.8 miles west\u2011northwest of Celina along Tennessee State Route 52.",
       "sourceSentenceIds": [
         6
       ],
@@ -44,13 +30,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Moss%2C_Tennessee",
-      "category": "transport",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
-      "text": "The Moss post office opened in 1883, marking the town’s early development.",
+      "text": "The Moss post office opened in 1883, marking the town\u2019s early development.",
       "sourceSentenceIds": [
         9
       ],
@@ -72,12 +58,12 @@
       ],
       "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm",
       "category": "nature",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Moss appears in both the FIPS‑55 and the GNIS geographic databases.",
+      "text": "Moss appears in both the FIPS\u201155 and the GNIS geographic databases.",
       "sourceSentenceIds": [
         2
       ],
@@ -98,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Troy sprang up around the Virginia Air Line Railway, a short‑line that opened in October 1908 and operated until 1975.",
+      "text": "Troy sprang up around the Virginia Air Line Railway, a short\u2011line that opened in October 1908 and operated until 1975.",
       "sourceSentenceIds": [
         17,
         10,
@@ -32,7 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/troy_virginia"
+      "source": "https://grokipedia.com/page/troy_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,11 +46,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/troy_virginia"
+      "source": "https://grokipedia.com/page/troy_virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Hasher’s Store, a two‑story frame building, served as depot, general store, and post office, becoming Troy’s first commercial hub.",
+      "text": "Hasher\u2019s Store, a two\u2011story frame building, served as depot, general store, and post office, becoming Troy\u2019s first commercial hub.",
       "sourceSentenceIds": [
         14,
         7,
@@ -57,11 +61,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/troy_virginia"
+      "source": "https://grokipedia.com/page/troy_virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The Fluvanna Correctional Center for Women opened in 1998 nearby, shifting Troy’s economy toward institutional services.",
+      "text": "The Fluvanna Correctional Center for Women opened in 1998 nearby, shifting Troy\u2019s economy toward institutional services.",
       "sourceSentenceIds": [
         28,
         6,
@@ -71,20 +77,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Virginia"
-    },
-    {
-      "id": 5,
-      "text": "Troy lies on Route 15 between Zion Crossroads and Palmyra, linking it to the Charlottesville metropolitan area.",
-      "sourceSentenceIds": [
-        26,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Troy%2C_Virginia",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

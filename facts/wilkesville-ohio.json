@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wilkesville is a village in Vinton County, Ohio, United States, known for its rich Appalachian heritage.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 2,
       "text": "Wilkesville was laid out in 1810 and named after its original owner, Wilkes.",
       "sourceSentenceIds": [
@@ -45,7 +31,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio",
-      "category": "etymology",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -58,7 +44,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -76,7 +62,7 @@
     },
     {
       "id": 5,
-      "text": "Vinton County’s growth was fueled by railroads and a booming timber industry, shaping Wilkesville’s early economy.",
+      "text": "Vinton County\u2019s growth was fueled by railroads and a booming timber industry, shaping Wilkesville\u2019s early economy.",
       "sourceSentenceIds": [
         4
       ],
@@ -89,14 +75,16 @@
     },
     {
       "id": 6,
-      "text": "Vinton County is home to Ohio’s first female sheriff, Maude Collins, who served in the early 20th century.",
+      "text": "Vinton County is home to Ohio\u2019s first female sheriff, Maude Collins, who served in the early 20th century.",
       "sourceSentenceIds": [
         24
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.discovervintoncounty.com/"
+      "source": "https://www.discovervintoncounty.com/",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

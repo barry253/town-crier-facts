@@ -47,23 +47,8 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Corsica sits in western Jefferson County, right on the Clarion County line.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Corsica%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
-      "text": "Main Street in Corsica doubles as Route 322, threading the borough’s heart.",
+      "text": "Main Street in Corsica doubles as Route 322, threading the borough\u2019s heart.",
       "sourceSentenceIds": [
         9
       ],
@@ -77,7 +62,7 @@
     },
     {
       "id": 5,
-      "text": "I‑80 runs east from Corsica, reaching DuBois in 27 miles for travelers.",
+      "text": "I\u201180 runs east from Corsica, reaching DuBois in 27 miles for travelers.",
       "sourceSentenceIds": [
         10
       ],
@@ -98,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Corsica%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Corsica%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

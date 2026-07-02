@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pine Crest lies within the Johnson City Metropolitan Statistical Area, part of the Tri‑Cities region.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Pine Crest is a census‑designated place in Carter County, which observes Eastern Standard Time (GMT‑5).",
+      "text": "Pine Crest is a census\u2011designated place in Carter County, which observes Eastern Standard Time (GMT\u20115).",
       "sourceSentenceIds": [
         11,
         13
@@ -47,7 +33,7 @@
       "source": "https://tennessee.hometownlocator.com/tn/carter/pine-crest.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -61,7 +47,7 @@
       "source": "https://tennessee.hometownlocator.com/tn/carter/pine-crest.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -87,7 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Parkdale’s rural post office opened in April 1897, closed in September 1898, reopened in October 1898, and closed again in April 1900.",
+      "text": "Parkdale\u2019s rural post office opened in April 1897, closed in September 1898, reopened in October 1898, and closed again in April 1900.",
       "sourceSentenceIds": [
         6
       ],
@@ -62,22 +62,8 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Parkdale lies on US 31 near the junction with M‑55, right on the northern boundary of the city limits of Manistee.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parkdale%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "The U.S. Census Bureau designates Parkdale as a census‑designated place for population counting purposes.",
+      "text": "The U.S. Census Bureau designates Parkdale as a census\u2011designated place for population counting purposes.",
       "sourceSentenceIds": [
         10
       ],
@@ -98,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Parkdale,_Michigan"
+      "source": "https://kids.kiddle.co/Parkdale,_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

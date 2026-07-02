@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sprankle Mills was founded in 1833 by Frederick Sprankle, who built a mill that became the town’s centerpiece.",
+      "text": "Sprankle Mills was founded in 1833 by Frederick Sprankle, who built a mill that became the town\u2019s centerpiece.",
       "sourceSentenceIds": [
         1,
         13,
@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,20 +46,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "The community sits in Jefferson County, Pennsylvania, between the boroughs of Punxsutawney and Brookville.",
-      "sourceSentenceIds": [
-        5,
-        6,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +61,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Sprankle_Mills%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -82,7 +76,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sprankle_Mills,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Sprankle_Mills,_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -94,7 +90,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sprankle_Mills,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Sprankle_Mills,_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

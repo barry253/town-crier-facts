@@ -37,7 +37,7 @@
     },
     {
       "id": 2,
-      "text": "The town’s early settlers were drawn to the confluence of the Unadilla and Susquehanna rivers, which offered both transportation routes and abundant food.",
+      "text": "The town\u2019s early settlers were drawn to the confluence of the Unadilla and Susquehanna rivers, which offered both transportation routes and abundant food.",
       "sourceSentenceIds": [
         1
       ],
@@ -63,7 +63,7 @@
     },
     {
       "id": 4,
-      "text": "Sidney’s historic museum, run by the Sidney Historical Association, houses artifacts from the town’s industrial past, including a French cheese factory and a silk mill.",
+      "text": "Sidney\u2019s historic museum, run by the Sidney Historical Association, houses artifacts from the town\u2019s industrial past, including a French cheese factory and a silk mill.",
       "sourceSentenceIds": [
         11,
         8
@@ -88,19 +88,22 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sidney%2C_New_York",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "The Sidney Historical Association’s museum hosts seasonal programs, such as a 2026 exhibit on General Washington’s Continental Army A-Team.",
+      "text": "The Sidney Historical Association\u2019s museum hosts seasonal programs, such as a 2026 exhibit on General Washington\u2019s Continental Army A-Team.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://sidneyhistory.com/"
+      "source": "https://sidneyhistory.com/",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

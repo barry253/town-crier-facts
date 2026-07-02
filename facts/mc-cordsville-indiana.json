@@ -34,20 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "McCordsville sits in Vernon Township, Hancock County, Indiana, United States.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McCordsville%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "The town was laid out and platted in 1865, long before it became an official municipality.",
       "sourceSentenceIds": [
@@ -83,20 +69,22 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/McCordsville%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "McCordsville’s proximity to Indianapolis has begun to shape its growth, as noted by local officials.",
+      "text": "McCordsville\u2019s proximity to Indianapolis has begun to shape its growth, as noted by local officials.",
       "sourceSentenceIds": [
         30
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hancockin.gov/320/McCordsville"
+      "source": "https://www.hancockin.gov/320/McCordsville",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

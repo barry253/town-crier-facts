@@ -21,21 +21,8 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The community is bounded by I‑66 to the north, the Capital Beltway to the east, and Arlington Boulevard to the west.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Merrifield%2C_Virginia",
-      "category": "other",
-      "quality": "poor"
-    },
-    {
       "id": 3,
-      "text": "Merrifield is only about 13 miles (21 km) from downtown Washington, D.C., making it a short drive into the nation’s capital.",
+      "text": "Merrifield is only about 13 miles (21 km) from downtown Washington, D.C., making it a short drive into the nation\u2019s capital.",
       "sourceSentenceIds": [
         9
       ],
@@ -43,13 +30,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Merrifield%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The headquarters of Fairfax County Public Schools, the largest school system in the state, are located in Merrifield’s Gatehouse Administration Center.",
+      "text": "The headquarters of Fairfax County Public Schools, the largest school system in the state, are located in Merrifield\u2019s Gatehouse Administration Center.",
       "sourceSentenceIds": [
         24
       ],
@@ -57,12 +44,12 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Merrifield%2C_Virginia",
-      "category": "landmark",
+      "category": "culture",
       "quality": "good"
     },
     {
       "id": 5,
-      "text": "Mosaic, Merrifield’s trendy urban district, offers a self‑guided walking tour of colorful murals that showcase local artists’ creativity.",
+      "text": "Mosaic, Merrifield\u2019s trendy urban district, offers a self\u2011guided walking tour of colorful murals that showcase local artists\u2019 creativity.",
       "sourceSentenceIds": [
         27
       ],
@@ -70,8 +57,9 @@
         "Web source 1"
       ],
       "source": "https://www.fxva.com/explore/discover-neighborhoods/merrifield/",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -82,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Merrifield%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Merrifield%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

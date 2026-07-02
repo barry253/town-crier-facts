@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Leeper sits where Pennsylvania Routes 66 and 36 cross in northern Clarion County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Leeper%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "A post office opened in Leeper in 1882, marking its early growth.",
       "sourceSentenceIds": [
@@ -56,11 +42,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "Baseball pitcher Gene Host once called Leeper home before his major‑league career.",
+      "text": "Baseball pitcher Gene Host once called Leeper home before his major\u2011league career.",
       "sourceSentenceIds": [
         6
       ],
@@ -70,17 +59,6 @@
       "source": "https://en.wikipedia.org/wiki/Leeper%2C_Pennsylvania",
       "category": "people",
       "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Leeper is officially catalogued in both the FIPS‑55 and GNIS geographic databases.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm"
     },
     {
       "id": 6,

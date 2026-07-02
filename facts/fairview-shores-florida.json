@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Fairview Shores began as a mid‑century suburban development that has grown into a well‑established community.",
+      "text": "Fairview Shores began as a mid\u2011century suburban development that has grown into a well\u2011established community.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Its growth mirrors Central Florida’s broader trend of creating residential areas that blend with the region’s natural beauty.",
+      "text": "Its growth mirrors Central Florida\u2019s broader trend of creating residential areas that blend with the region\u2019s natural beauty.",
       "sourceSentenceIds": [
         2
       ],
@@ -47,29 +47,18 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Fairview Shores sits within the Orlando–Kissimmee–Sanford Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fairview_Shores%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "Water covers about 0.54 square miles of the CDP’s total area.",
+      "text": "Water covers about 0.54 square miles of the CDP\u2019s total area.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/orange/fairview-shores.cfm"
+      "source": "https://florida.hometownlocator.com/fl/orange/fairview-shores.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -80,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/orange/fairview-shores.cfm"
+      "source": "https://florida.hometownlocator.com/fl/orange/fairview-shores.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -29,18 +29,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The town’s downtown grew around its historic train station, a hub that still serves commuters today.",
+      "text": "The town\u2019s downtown grew around its historic train station, a hub that still serves commuters today.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.longislandexchange.com/towns/syosset/"
+      "source": "https://www.longislandexchange.com/towns/syosset/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +69,37 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "The median home value in Syosset tops $944,000, reflecting the area’s affluent residential market.",
+      "text": "The median home value in Syosset tops $944,000, reflecting the area\u2019s affluent residential market.",
       "sourceSentenceIds": [
         27
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Syosset%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
-      "text": "Hollywood actress Natalie Portman has called Syosset home, adding a touch of celebrity to the town’s quiet streets.",
+      "text": "Hollywood actress Natalie Portman has called Syosset home, adding a touch of celebrity to the town\u2019s quiet streets.",
       "sourceSentenceIds": [
         15
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.longislandexchange.com/towns/syosset/"
+      "source": "https://www.longislandexchange.com/towns/syosset/",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

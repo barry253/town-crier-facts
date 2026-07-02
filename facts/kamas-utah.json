@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The city’s name comes from Camassia quamash, a flowering plant that grew in the area and fed Native Americans.",
+      "text": "The city\u2019s name comes from Camassia quamash, a flowering plant that grew in the area and fed Native Americans.",
       "sourceSentenceIds": [
         12
       ],
@@ -84,8 +84,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Kamas%2C_Utah",
-      "category": "economy",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -96,7 +97,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kamas%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Kamas%2C_Utah",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

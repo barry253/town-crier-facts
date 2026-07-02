@@ -21,35 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Centertown lies in Warren County, Tennessee, centrally located between McMinnville and Woodbury on the Cumberland Plateau.",
-      "sourceSentenceIds": [
-        19,
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-centertown-tennessee.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 35°43′21″N 85°55′13″W, placing it in the heart of middle Tennessee.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
-    },
-    {
       "id": 3,
       "text": "Centertown has 117 housing units, averaging 127 per square mile across its small area.",
       "sourceSentenceIds": [
@@ -87,11 +58,14 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
-      "text": "The town’s building department handles construction permits and code enforcement, guiding projects through local regulations.",
+      "text": "The town\u2019s building department handles construction permits and code enforcement, guiding projects through local regulations.",
       "sourceSentenceIds": [
         2,
         3
@@ -99,7 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-centertown-tennessee.html"
+      "source": "https://www.citydirectory.us/town-centertown-tennessee.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

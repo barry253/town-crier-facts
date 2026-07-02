@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Illinois City is an unincorporated community in the U.S. state of Illinois.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
-    },
-    {
       "id": 2,
       "text": "The community sits directly across the Mississippi River from Muscatine, Iowa.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,29 +57,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "The community is part of Rock Island County, one of Illinois’s northernmost counties along the Mississippi.",
+      "text": "The community is part of Rock Island County, one of Illinois\u2019s northernmost counties along the Mississippi.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "Illinois City’s location on the Mississippi makes it a quiet gateway between Illinois and Iowa.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Zacata sits in Westmoreland County, Virginia, a rural community noted for its historic roots.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm"
-    },
-    {
       "id": 2,
       "text": "A post office opened in Zacata in 1899, marking its emergence as a recognized settlement.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,29 +56,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Zacata appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
+      "text": "Zacata appears in both the FIPS\u201155 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "GPS coordinates for Zacata are estimated but are believed to lie within the surrounding area.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/zacata-xx-westmoreland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -32,7 +32,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California",
       "category": "transport",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "route_only"
     },
     {
@@ -47,7 +47,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California",
       "category": "landmark",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -62,7 +62,7 @@
       "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -74,8 +74,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -87,7 +88,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California",
-      "category": "nature",
+      "category": "transport",
       "quality": "good"
     },
     {
@@ -99,7 +100,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Redwood_Estates%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

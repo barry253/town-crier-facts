@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Walnut Hill is a village in Marion County, Illinois located in southern Illinois.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Walnut_Hill%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "George Rogers Clark marched through Walnut Hill in February 1779 on his campaign from Fort Kaskaskia to Fort Vincennes.",
       "sourceSentenceIds": [
@@ -83,7 +69,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Walnut_Hill%2C_Illinois",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -95,7 +81,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walnut_Hill%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Walnut_Hill%2C_Illinois",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

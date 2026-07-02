@@ -57,8 +57,8 @@
         "Web source 1"
       ],
       "source": "https://myglamorgan.ca/index.php/about-glamorgan/introduction",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -76,20 +76,6 @@
       "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
-      "text": "Its borders run from Richmond Road in the north to Sarcee Trail in the west.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Glamorgan%2C_Calgary",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 6,
       "text": "The neighborhood supports both public Glamorgan Elementary and separate Andrew Elementary, offering diverse schooling options.",
       "sourceSentenceIds": [
@@ -99,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glamorgan%2C_Calgary"
+      "source": "https://en.wikipedia.org/wiki/Glamorgan%2C_Calgary",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

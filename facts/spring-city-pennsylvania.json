@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Spring City’s history is marked by a Vincent Canal marker, honoring the canal that sparked the borough’s founding and growth.",
+      "text": "Spring City\u2019s history is marked by a Vincent Canal marker, honoring the canal that sparked the borough\u2019s founding and growth.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.sfahs.com/"
+      "source": "https://www.sfahs.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,22 +43,26 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Main, New, and Bridge Streets form Spring City’s core thoroughfares, winding through its historic downtown.",
+      "text": "Main, New, and Bridge Streets form Spring City\u2019s core thoroughfares, winding through its historic downtown.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The local historical society will host 2026 programs celebrating the nation’s 250th anniversary, featuring talks on early American lighting and flag manufacturing.",
+      "text": "The local historical society will host 2026 programs celebrating the nation\u2019s 250th anniversary, featuring talks on early American lighting and flag manufacturing.",
       "sourceSentenceIds": [
         1,
         3
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.sfahs.com/"
+      "source": "https://www.sfahs.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
-      "text": "Spring City is a borough in Chester County, Pennsylvania, known for its riverfront setting and small-town charm.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_City%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

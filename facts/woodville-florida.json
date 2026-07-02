@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Woodville sits in Leon County, not Bay County, making it part of Florida’s capital region.",
+      "text": "Woodville sits in Leon County, not Bay County, making it part of Florida\u2019s capital region.",
       "sourceSentenceIds": [
         1
       ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The Civil War’s Battle of Natural Bridge unfolded just six miles from Woodville in March 1865.",
+      "text": "The Civil War\u2019s Battle of Natural Bridge unfolded just six miles from Woodville in March 1865.",
       "sourceSentenceIds": [
         11
       ],
@@ -61,22 +61,8 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Woodville is officially part of the Tallahassee, Florida Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Woodville%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "Every resident of Woodville lives in a rural setting—0% urban, 100% rural by census definition.",
+      "text": "Every resident of Woodville lives in a rural setting\u20140% urban, 100% rural by census definition.",
       "sourceSentenceIds": [
         16
       ],
@@ -90,14 +76,17 @@
     },
     {
       "id": 6,
-      "text": "The community’s median age is 36.7 years, reflecting a relatively young population.",
+      "text": "The community\u2019s median age is 36.7 years, reflecting a relatively young population.",
       "sourceSentenceIds": [
         28
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/32362"
+      "source": "https://www.allplaces.us/z/32362",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

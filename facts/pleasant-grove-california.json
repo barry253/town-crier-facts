@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Pleasant Grove earned the nickname 'Gouge‑Eye' after a saloon brawl in which one man gouged out another’s eye during the Gold Rush era.",
+      "text": "Pleasant Grove earned the nickname 'Gouge\u2011Eye' after a saloon brawl in which one man gouged out another\u2019s eye during the Gold Rush era.",
       "sourceSentenceIds": [
         1
       ],
@@ -47,22 +47,8 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Pleasant Grove sits at the junction of California State Routes 99 and 70, about 7.5 miles southeast of Nicolaus.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Grove%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
-      "text": "Pleasant Grove School, a historic one‑room building, still serves the community’s children.",
+      "text": "Pleasant Grove School, a historic one\u2011room building, still serves the community\u2019s children.",
       "sourceSentenceIds": [
         11
       ],
@@ -83,8 +69,8 @@
         "Web source 1"
       ],
       "source": "https://www.aboutbayarea.com/pleasant_grove/",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -96,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.aboutbayarea.com/pleasant_grove/"
+      "source": "https://www.aboutbayarea.com/pleasant_grove/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

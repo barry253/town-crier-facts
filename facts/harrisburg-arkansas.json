@@ -30,8 +30,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Harrisburg%2C_Arkansas",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -48,20 +48,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Harrisburg is part of the Jonesboro, Arkansas Metropolitan Statistical Area, connecting it to a larger regional economy.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Harrisburg%2C_Arkansas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 4,
       "text": "The town hall provides contact information, office hours, and email access for residents.",
       "sourceSentenceIds": [
@@ -73,11 +59,11 @@
       "source": "https://www.citydirectory.us/city-harrisburg-arkansas.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "Harrisburg’s local history page includes government, historical events, and library information for curious travelers.",
+      "text": "Harrisburg\u2019s local history page includes government, historical events, and library information for curious travelers.",
       "sourceSentenceIds": [
         7
       ],
@@ -87,18 +73,21 @@
       "source": "https://www.usacitiesonline.com/arcountyharrisburg.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The city’s name appears in the “KEY TO THE CITY” page, highlighting its historical and cultural facts.",
+      "text": "The city\u2019s name appears in the \u201cKEY TO THE CITY\u201d page, highlighting its historical and cultural facts.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/arcountyharrisburg.htm"
+      "source": "https://www.usacitiesonline.com/arcountyharrisburg.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

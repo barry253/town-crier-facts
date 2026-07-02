@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "East Galesburg is a village in Knox County, Illinois, United States.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Galesburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 2,
-      "text": "It is part of the Galesburg Micropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Galesburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 3,
-      "text": "The village’s median age is 52.9 years.",
+      "text": "The village\u2019s median age is 52.9 years.",
       "sourceSentenceIds": [
         9
       ],
@@ -63,34 +35,6 @@
       "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
-      "text": "East Galesburg lies about 45 miles northwest of Peoria.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-east-galesburg.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 5,
-      "text": "It is roughly 180 miles southwest of Chicago.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-east-galesburg.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 6,
       "text": "Residents can obtain construction permits at the East Galesburg Village Office, where staff provide forms and guidance.",
       "sourceSentenceIds": [
@@ -99,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-east-galesburg.html"
+      "source": "https://www.citydirectory.us/village-east-galesburg.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Norris Canyon sits at 1,063 feet above sea level, giving it a mild, high‑land climate.",
+      "text": "Norris Canyon sits at 1,063 feet above sea level, giving it a mild, high\u2011land climate.",
       "sourceSentenceIds": [
         1
       ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "Every resident lives in a rural setting—100 % of the population is classified as rural.",
+      "text": "Every resident lives in a rural setting\u2014100 % of the population is classified as rural.",
       "sourceSentenceIds": [
         9
       ],
@@ -64,7 +64,7 @@
     },
     {
       "id": 4,
-      "text": "Owner‑occupied homes dominate the area, with 95 % of occupied units owned by their residents.",
+      "text": "Owner\u2011occupied homes dominate the area, with 95 % of occupied units owned by their residents.",
       "sourceSentenceIds": [
         7
       ],
@@ -99,7 +99,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Norris-Canyon-California.html"
+      "source": "https://www.city-data.com/city/Norris-Canyon-California.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -36,22 +36,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The city sits at the crossroads of Interstate 37 and Priest and Mathis roads, just south of Elmendorf.",
-      "sourceSentenceIds": [
-        17,
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Covering just 2.39 square miles, Sandy Oaks is a compact community that grew from a handful of families in the 2000s.",
       "sourceSentenceIds": [
@@ -63,8 +47,9 @@
         "Wikipedia"
       ],
       "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -76,8 +61,8 @@
         "Web source 1"
       ],
       "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {

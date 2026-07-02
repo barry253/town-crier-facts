@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "A devastating fire struck Bloomville on November 5, 1889, reshaping the village’s architecture.",
+      "text": "A devastating fire struck Bloomville on November 5, 1889, reshaping the village\u2019s architecture.",
       "sourceSentenceIds": [
         7
       ],
@@ -90,14 +90,17 @@
     },
     {
       "id": 6,
-      "text": "Bloomville’s town hall contact details are posted online, simplifying access to city services.",
+      "text": "Bloomville\u2019s town hall contact details are posted online, simplifying access to city services.",
       "sourceSentenceIds": [
         24
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-bloomville.html"
+      "source": "https://www.citydirectory.us/village-bloomville.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

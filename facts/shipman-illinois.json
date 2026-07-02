@@ -21,39 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Shipman is a village in Macoupin County, Illinois.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Shipman%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "It sits in southwestern Macoupin County, northeast of St. Louis and south of Springfield.",
-      "sourceSentenceIds": [
-        25,
-        26,
-        27,
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-shipman.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Illinois Route 16 runs through the village’s south side as Railroad Street, linking to Gillespie east and Jerseyville west.",
+      "text": "Illinois Route 16 runs through the village\u2019s south side as Railroad Street, linking to Gillespie east and Jerseyville west.",
       "sourceSentenceIds": [
         4
       ],
@@ -67,7 +36,7 @@
     },
     {
       "id": 4,
-      "text": "The town hall’s contact info, office hours, and email are listed online, making it easy to reach city services.",
+      "text": "The town hall\u2019s contact info, office hours, and email are listed online, making it easy to reach city services.",
       "sourceSentenceIds": [
         20
       ],
@@ -81,7 +50,7 @@
     },
     {
       "id": 5,
-      "text": "Local services include hospitals, schools, parks, and other points of interest, all highlighted on the city’s website.",
+      "text": "Local services include hospitals, schools, parks, and other points of interest, all highlighted on the city\u2019s website.",
       "sourceSentenceIds": [
         21
       ],
@@ -95,14 +64,17 @@
     },
     {
       "id": 6,
-      "text": "The website offers up‑to‑date demographics, history, and FAQs about Shipman, helping residents stay informed.",
+      "text": "The website offers up\u2011to\u2011date demographics, history, and FAQs about Shipman, helping residents stay informed.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-shipman.html"
+      "source": "https://www.citydirectory.us/village-shipman.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

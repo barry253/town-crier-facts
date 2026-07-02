@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Roby, Texas, serves as the county seat of Fisher County, anchoring the region’s civic life.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Roby%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The Texas Central Railroad arrived in Roby in 1907, sparking a boom that linked the town to the wider state.",
       "sourceSentenceIds": [
@@ -40,18 +29,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roby%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Roby%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "A new jail opened in 2016, and the original brick jailhouse was declared a historic landmark, preserving the town’s legal heritage.",
+      "text": "A new jail opened in 2016, and the original brick jailhouse was declared a historic landmark, preserving the town\u2019s legal heritage.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roby%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Roby%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +55,22 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/roby-texas"
+      "source": "https://www.historictexas.net/city/roby-texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Every April 21, the town’s cemetery hosts a San Jacinto Day observance, honoring Texas’s independence anniversary.",
+      "text": "Every April 21, the town\u2019s cemetery hosts a San Jacinto Day observance, honoring Texas\u2019s independence anniversary.",
       "sourceSentenceIds": [
         24
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/roby-texas"
+      "source": "https://www.historictexas.net/city/roby-texas",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

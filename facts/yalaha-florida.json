@@ -30,13 +30,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The town’s waters belong to Lake Harris, which feeds the upper Ocklawaha River basin.",
+      "text": "The town\u2019s waters belong to Lake Harris, which feeds the upper Ocklawaha River basin.",
       "sourceSentenceIds": [
         5
       ],
@@ -48,34 +48,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Yalaha lies 9 miles southeast of Leesburg, 16 miles north of Groveland, and 10 miles southwest of Tavares.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 4,
-      "text": "Yalaha is part of the Orlando–Kissimmee Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 5,
       "text": "The median age of Yalaha residents is about 51 years, indicating a mature community.",
       "sourceSentenceIds": [
@@ -84,18 +56,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
-      "text": "Nearly 96 % of Yalaha’s residents live in rural areas, with only 4 % in urban settings.",
+      "text": "Nearly 96 % of Yalaha\u2019s residents live in rural areas, with only 4 % in urban settings.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Mar‑Mac Village lies in Wayne County, North Carolina, about 60 feet above sea level.",
+      "text": "Mar\u2011Mac Village lies in Wayne County, North Carolina, about 60 feet above sea level.",
       "sourceSentenceIds": [
         23,
         25
@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -43,51 +46,52 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina"
-    },
-    {
-      "id": 3,
-      "text": "Mar‑Mac is part of the Goldsboro, North Carolina Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "Students in Mar‑Mac attend Wayne Community College in Goldsboro or Mount Olive College in Mount Olive for higher education.",
+      "text": "Students in Mar\u2011Mac attend Wayne Community College in Goldsboro or Mount Olive College in Mount Olive for higher education.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The village’s abbreviation is often written as Mar‑Mac Vlg, a nod to its compact community feel.",
+      "text": "The village\u2019s abbreviation is often written as Mar\u2011Mac Vlg, a nod to its compact community feel.",
       "sourceSentenceIds": [
         24
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Welcome to Mar‑Mac Village, a quiet enclave that reflects the rural charm of Wayne County.",
+      "text": "Welcome to Mar\u2011Mac Village, a quiet enclave that reflects the rural charm of Wayne County.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

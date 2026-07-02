@@ -21,19 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Lottsburg is an unincorporated community in Northumberland County, Virginia, meaning it has no municipal government of its own.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lottsburg%2C_Virginia"
-    },
-    {
       "id": 2,
-      "text": "The Holley Graded School, a historic building in Lottsburg, once served the community’s educational needs in earlier times.",
+      "text": "The Holley Graded School, a historic building in Lottsburg, once served the community\u2019s educational needs in earlier times.",
       "sourceSentenceIds": [
         4,
         6
@@ -41,18 +30,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Lottsburg,_Virginia"
+      "source": "https://kids.kiddle.co/Lottsburg,_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Lottsburg’s area has a long history, dating back to early American settlements that shaped the region’s development.",
+      "text": "Lottsburg\u2019s area has a long history, dating back to early American settlements that shaped the region\u2019s development.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Lottsburg,_Virginia"
+      "source": "https://kids.kiddle.co/Lottsburg,_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,18 +56,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Lottsburg,_Virginia"
+      "source": "https://kids.kiddle.co/Lottsburg,_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The community first appeared in official records such as the FIPS‑55 and the Geographic Names Information System.",
+      "text": "The community first appeared in official records such as the FIPS\u201155 and the Geographic Names Information System.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/lottsburg-xx-northumberland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/lottsburg-xx-northumberland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Lottsburg,_Virginia"
+      "source": "https://kids.kiddle.co/Lottsburg,_Virginia",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

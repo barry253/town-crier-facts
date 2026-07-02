@@ -34,34 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Just north of Griffin, Experiment lies roughly 30 miles south‑southeast of Atlanta.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Experiment%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 4,
-      "text": "Spalding County’s primary coordinate for Experiment is 33.2654, –84.2816.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://georgia.hometownlocator.com/ga/spalding/experiment.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 5,
       "text": "Residents enjoy a median age of 31.4 years, slightly younger than the state average.",
       "sourceSentenceIds": [
@@ -70,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/30212"
+      "source": "https://www.allplaces.us/z/30212",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

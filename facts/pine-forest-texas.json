@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pine Forest sits in Orange County, Texas, and is part of the Beaumont–Port Arthur Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Forest%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The town prides itself on guided growth while preserving its historical, cultural, and natural heritage.",
       "sourceSentenceIds": [
@@ -50,7 +35,7 @@
     },
     {
       "id": 3,
-      "text": "Pine Forest’s town hall is the go‑to spot for construction permits, inspections, and building regulations.",
+      "text": "Pine Forest\u2019s town hall is the go\u2011to spot for construction permits, inspections, and building regulations.",
       "sourceSentenceIds": [
         2
       ],
@@ -78,7 +63,7 @@
     },
     {
       "id": 5,
-      "text": "Every resident lives in a rural setting—Pine Forest reports 0.0% urban population.",
+      "text": "Every resident lives in a rural setting\u2014Pine Forest reports 0.0% urban population.",
       "sourceSentenceIds": [
         9
       ],
@@ -92,14 +77,17 @@
     },
     {
       "id": 6,
-      "text": "The city’s median age is 35 years, reflecting a relatively young community.",
+      "text": "The city\u2019s median age is 35 years, reflecting a relatively young community.",
       "sourceSentenceIds": [
         15
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Forest%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Pine_Forest%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

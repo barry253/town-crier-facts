@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sandy Creek was officially incorporated in 1988 after the Grainger family’s vision turned a rural area into a town.",
+      "text": "Sandy Creek was officially incorporated in 1988 after the Grainger family\u2019s vision turned a rural area into a town.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofsandycreek.com/"
+      "source": "https://townofsandycreek.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sandy_Creek%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sandy_Creek%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sandy_Creek%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sandy_Creek%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,18 +71,22 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thecoastalcarolinas.com/coastal-carolina-areas/sandy-creek/"
+      "source": "https://thecoastalcarolinas.com/coastal-carolina-areas/sandy-creek/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town’s roots trace back to agriculture and local industry that shaped its early economy.",
+      "text": "The town\u2019s roots trace back to agriculture and local industry that shaped its early economy.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thecoastalcarolinas.com/coastal-carolina-areas/sandy-creek/"
+      "source": "https://thecoastalcarolinas.com/coastal-carolina-areas/sandy-creek/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +97,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thecoastalcarolinas.com/coastal-carolina-areas/sandy-creek/"
+      "source": "https://thecoastalcarolinas.com/coastal-carolina-areas/sandy-creek/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

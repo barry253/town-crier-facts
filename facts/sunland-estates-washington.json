@@ -22,23 +22,9 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sunland Estates sits on the east bank of the Columbia River, right on Grant County’s western edge.",
+      "text": "Sunland Estates sits on the east bank of the Columbia River, right on Grant County\u2019s western edge.",
       "sourceSentenceIds": [
         1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunland_Estates%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The community lies about 12 miles west of Interstate 90 at George and 20 miles southwest of Quincy.",
-      "sourceSentenceIds": [
-        2
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -60,11 +46,11 @@
       "source": "https://washington.hometownlocator.com/wa/grant/sunland-estates.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "As a census‑designated place, Sunland Estates has no governmental functions and is not a legal entity.",
+      "text": "As a census\u2011designated place, Sunland Estates has no governmental functions and is not a legal entity.",
       "sourceSentenceIds": [
         5
       ],
@@ -74,7 +60,7 @@
       "source": "https://washington.hometownlocator.com/wa/grant/sunland-estates.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://quincywashington.us/183/About-Us"
+      "source": "https://quincywashington.us/183/About-Us",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

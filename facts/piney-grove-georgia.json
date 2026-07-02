@@ -21,48 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Piney Grove sits in the heart of the crossroads where State Routes 219 and 315 cross.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Piney_Grove%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The community is unincorporated in Georgia, meaning it has no city government.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Piney_Grove,_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 3,
-      "text": "Piney Grove is part of Wayne County, Georgia, in the southeastern United States.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 4,
       "text": "The community hall in Odum seats 75 to 100 people for local events.",
       "sourceSentenceIds": [
@@ -97,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50"
+      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

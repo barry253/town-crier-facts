@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Essex Township’s roots trace back to the 1870s when early mines opened, with mining activity continuing until 1974.",
+      "text": "Essex Township\u2019s roots trace back to the 1870s when early mines opened, with mining activity continuing until 1974.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.essextownship-il.org/"
+      "source": "https://www.essextownship-il.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.essextownship-il.org/"
+      "source": "https://www.essextownship-il.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,29 +56,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.essextownship-il.org/"
+      "source": "https://www.essextownship-il.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Two Civil War‑era cemeteries lie within the township, preserving graves from the nation’s earliest conflict.",
+      "text": "Two Civil War\u2011era cemeteries lie within the township, preserving graves from the nation\u2019s earliest conflict.",
       "sourceSentenceIds": [
         28
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.essextownship-il.org/"
-    },
-    {
-      "id": 5,
-      "text": "The village sits 19 miles northwest of Kankakee and just 7 miles south of Braidwood, anchoring it in western Kankakee County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Essex%2C_Illinois"
+      "source": "https://www.essextownship-il.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.essextownship-il.org/"
+      "source": "https://www.essextownship-il.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

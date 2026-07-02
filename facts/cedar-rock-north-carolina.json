@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Cedar Rock is a village in Caldwell County, North Carolina.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Rock%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 2,
-      "text": "The village sits northeast of Lenoir, the county seat of Caldwell County.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Rock%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Cedar Rock surrounds the Cedar Rock Country Club and climbs the northern slopes of the Brushy Mountains.",
       "sourceSentenceIds": [
@@ -77,7 +49,7 @@
     },
     {
       "id": 5,
-      "text": "The town hall’s contact information is available online, making it easy to reach city services.",
+      "text": "The town hall\u2019s contact information is available online, making it easy to reach city services.",
       "sourceSentenceIds": [
         17
       ],
@@ -91,14 +63,17 @@
     },
     {
       "id": 6,
-      "text": "Construction permits and building regulations are handled by Cedar Rock’s planning and zoning office.",
+      "text": "Construction permits and building regulations are handled by Cedar Rock\u2019s planning and zoning office.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-cedar-rock.html"
+      "source": "https://www.citydirectory.us/village-cedar-rock.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Perkins is an unincorporated community located in Jenkins County, Georgia.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "The town sits just 7 miles north of Millen, the county seat of Jenkins County.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Perkins rests at an elevation of 239 feet (73 meters) above sea level.",
       "sourceSentenceIds": [
@@ -74,11 +46,11 @@
       "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "Perkins lies a short distance east of U.S. Highway 25, a major north‑south route through Georgia.",
+      "text": "Perkins lies a short distance east of U.S. Highway 25, a major north\u2011south route through Georgia.",
       "sourceSentenceIds": [
         9
       ],
@@ -88,7 +60,7 @@
       "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -99,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ga/perkins-xx-jenkins-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/perkins-xx-jenkins-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The Hankamer‑Stowell Canal Company began irrigating rice in 1900, reshaping local agriculture and livelihoods.",
+      "text": "The Hankamer\u2011Stowell Canal Company began irrigating rice in 1900, reshaping local agriculture and livelihoods.",
       "sourceSentenceIds": [
         20
       ],
@@ -57,14 +57,28 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Hankamer%2C_Texas",
-      "category": "landmark",
+      "category": "history",
       "quality": "good"
     },
     {
       "id": 4,
-      "text": "By 2000, Hankamer’s population had grown to 525 residents, reflecting steady local growth.",
+      "text": "By 2000, Hankamer\u2019s population had grown to 525 residents, reflecting steady local growth.",
       "sourceSentenceIds": [
         25
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hankamer%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
+    },
+    {
+      "id": 5,
+      "text": "Hankamer sits within the Greater Houston metropolitan area, linking it to one of Texas\u2019s largest urban centers.",
+      "sourceSentenceIds": [
+        18
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -75,17 +89,6 @@
       "qualityReason": "location_description"
     },
     {
-      "id": 5,
-      "text": "Hankamer sits within the Greater Houston metropolitan area, linking it to one of Texas’s largest urban centers.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hankamer%2C_Texas"
-    },
-    {
       "id": 6,
       "text": "The Hankamer family originally planned to settle near New Braunfels but chose the north of Anahuac after news of Indian conflict.",
       "sourceSentenceIds": [
@@ -94,7 +97,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hankamer%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Hankamer%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

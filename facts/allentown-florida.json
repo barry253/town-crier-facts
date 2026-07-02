@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The cost‑of‑living index for Allentown is 88.2, comfortably below the national average.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Allentown-Florida.html",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 3,
-      "text": "Allentown is a census‑designated place, meaning it has no municipal government of its own.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/santa-rosa/allentown.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 4,
-      "text": "Santa Rosa County, where Allentown is located, follows Central Time (GMT‑6) year‑round.",
+      "text": "Santa Rosa County, where Allentown is located, follows Central Time (GMT\u20116) year\u2011round.",
       "sourceSentenceIds": [
         17
       ],
@@ -60,11 +32,11 @@
       "source": "https://florida.hometownlocator.com/fl/santa-rosa/allentown.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Allentown’s water area measures just 0.23 square miles, a tiny fraction of its total footprint.",
+      "text": "Allentown\u2019s water area measures just 0.23 square miles, a tiny fraction of its total footprint.",
       "sourceSentenceIds": [
         16
       ],
@@ -78,14 +50,17 @@
     },
     {
       "id": 6,
-      "text": "The area’s Functional Status Code is “S,” identifying it as a statistical entity for census purposes.",
+      "text": "The area\u2019s Functional Status Code is \u201cS,\u201d identifying it as a statistical entity for census purposes.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://florida.hometownlocator.com/fl/santa-rosa/allentown.cfm"
+      "source": "https://florida.hometownlocator.com/fl/santa-rosa/allentown.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wilber is the county seat of Saline County, Nebraska.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wilber%2C_Nebraska",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "The town was platted in 1873, marking its official founding.",
       "sourceSentenceIds": [
@@ -88,14 +74,16 @@
     },
     {
       "id": 6,
-      "text": "Wilber-Clatonia High School serves the town’s students and is a central community hub.",
+      "text": "Wilber-Clatonia High School serves the town\u2019s students and is a central community hub.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilber%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Wilber%2C_Nebraska",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

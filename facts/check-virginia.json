@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Check is an unincorporated community in Floyd County, Virginia.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "The town sits along Route 221, about 12.1 miles northeast of Floyd.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
-    },
-    {
       "id": 3,
       "text": "The origin of the name \"Check\" is obscure, with no clear historical record.",
       "sourceSentenceIds": [
@@ -58,9 +30,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia",
-      "category": "etymology",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "wrong_article"
     },
     {
       "id": 4,
@@ -73,7 +45,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia",
       "category": "landmark",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -84,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.commonwealth.virginia.gov/about-virginia/history-and-facts-on-virginia/"
+      "source": "https://www.commonwealth.virginia.gov/about-virginia/history-and-facts-on-virginia/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

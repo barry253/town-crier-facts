@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Salt Creek Commons began as a planned residential development in the mid‑1970s, part of suburban growth around Valparaiso.",
+      "text": "Salt Creek Commons began as a planned residential development in the mid\u20111970s, part of suburban growth around Valparaiso.",
       "sourceSentenceIds": [
         1
       ],
@@ -34,22 +34,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The community sits just east of Wheeler and northwest of Valparaiso, placing it within easy reach of the county seat.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Salt_Creek_Commons%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "A north‑flowing stream named Salt Creek borders the area, eventually joining the Little Calumet River.",
+      "text": "A north\u2011flowing stream named Salt Creek borders the area, eventually joining the Little Calumet River.",
       "sourceSentenceIds": [
         4
       ],
@@ -70,12 +56,13 @@
         "Web source 2"
       ],
       "source": "https://grokipedia.com/page/salt_creek_commons_indiana",
-      "category": "people",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "Housing stock largely consists of single‑family homes built between the late 1970s and early 1990s, with a median build year of 1979.",
+      "text": "Housing stock largely consists of single\u2011family homes built between the late 1970s and early 1990s, with a median build year of 1979.",
       "sourceSentenceIds": [
         28
       ],
@@ -84,7 +71,7 @@
       ],
       "source": "https://grokipedia.com/page/salt_creek_commons_indiana",
       "category": "economy",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -96,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/salt_creek_commons_indiana"
+      "source": "https://grokipedia.com/page/salt_creek_commons_indiana",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Windsor Place is a small village located in Cooper County, Missouri, known for its tight‑knit community.",
+      "text": "Windsor Place is a small village located in Cooper County, Missouri, known for its tight\u2011knit community.",
       "sourceSentenceIds": [
         4
       ],
@@ -45,49 +45,7 @@
       "source": "https://en.wikipedia.org/wiki/Windsor_Place%2C_Missouri",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 3,
-      "text": "The village lies just west of Missouri Route 87, placing it close to a major north‑south corridor.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Windsor_Place%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 4,
-      "text": "It sits less than half a mile south of I‑70, giving residents easy access to the interstate.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Windsor_Place%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 5,
-      "text": "Booneville is about three miles northwest of Windsor Place, offering additional services and amenities to locals.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Windsor_Place%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -98,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-windsor-place.html"
+      "source": "https://www.citydirectory.us/village-windsor-place.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

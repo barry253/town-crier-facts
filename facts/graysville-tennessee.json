@@ -22,18 +22,20 @@
   "facts": [
     {
       "id": 1,
-      "text": "Graysville was named for William Gray, an early settler who became the town’s first postmaster in 1875.",
+      "text": "Graysville was named for William Gray, an early settler who became the town\u2019s first postmaster in 1875.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The Cincinnati Southern Railroad arrived in 1880, turning Graysville into a coal‑mining hub.",
+      "text": "The Cincinnati Southern Railroad arrived in 1880, turning Graysville into a coal\u2011mining hub.",
       "sourceSentenceIds": [
         1,
         5
@@ -42,7 +44,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.rheaheraldnews.com/lifestyles/article_3c4a6a90-5067-4d32-8380-c3cf37e10be6.html"
+      "source": "https://www.rheaheraldnews.com/lifestyles/article_3c4a6a90-5067-4d32-8380-c3cf37e10be6.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,29 +58,36 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Graysville lies along Roaring Creek, tucked between Walden Ridge and Blackoak Ridge near the Rhea‑Hamilton line.",
+      "text": "Graysville lies along Roaring Creek, tucked between Walden Ridge and Blackoak Ridge near the Rhea\u2011Hamilton line.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "The town’s post office opened in 1878, with Gray serving as its second postmaster.",
+      "text": "The town\u2019s post office opened in 1878, with Gray serving as its second postmaster.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.rheaheraldnews.com/lifestyles/article_3c4a6a90-5067-4d32-8380-c3cf37e10be6.html"
+      "source": "https://www.rheaheraldnews.com/lifestyles/article_3c4a6a90-5067-4d32-8380-c3cf37e10be6.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Graysville%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

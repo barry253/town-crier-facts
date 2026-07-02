@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Troy sprang up around a Missouri–Kansas–Texas Railroad station in 1882, replacing an older village two miles north called Old Troy.",
+      "text": "Troy sprang up around a Missouri\u2013Kansas\u2013Texas Railroad station in 1882, replacing an older village two miles north called Old Troy.",
       "sourceSentenceIds": [
         5,
         29
@@ -30,11 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Troy%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "A weekly newspaper, the Troy Enterprise, began publishing in 1892, becoming the city’s first local press.",
+      "text": "A weekly newspaper, the Troy Enterprise, began publishing in 1892, becoming the city\u2019s first local press.",
       "sourceSentenceIds": [
         7,
         30
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/troy-tx-bell-county"
+      "source": "https://www.tshaonline.org/handbook/entries/troy-tx-bell-county",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,30 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "Troy sits on Interstate 35, about eight miles north of Temple and 26 miles south of Waco in northeastern Bell County.",
-      "sourceSentenceIds": [
-        26,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "The city is part of the Killeen–Temple–Fort Hood Metropolitan Statistical Area, linking it to a larger regional community.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Troy%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

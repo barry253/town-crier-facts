@@ -43,8 +43,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -57,19 +57,21 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri",
-      "category": "landmark",
+      "category": "nature",
       "quality": "good"
     },
     {
       "id": 4,
-      "text": "Wellsville hosts a lending library, the Wellsville Public Library, serving the community’s reading needs.",
+      "text": "Wellsville hosts a lending library, the Wellsville Public Library, serving the community\u2019s reading needs.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -82,19 +84,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri"
-    },
-    {
-      "id": 6,
-      "text": "The city lies along Missouri Route 19, eight miles northwest of Montgomery City and 22 miles southeast of Mexico.",
-      "sourceSentenceIds": [
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Wellsville%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

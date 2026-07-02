@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mount Lena sits at 39.5593° N latitude and 77.628° W longitude in Washington County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
-    },
-    {
       "id": 2,
       "text": "The community observes Eastern Standard Time, shifting to Eastern Daylight Time in summer.",
       "sourceSentenceIds": [
@@ -40,18 +29,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
-      "text": "Mount Lena is officially a census‑designated place, not a legal municipality.",
+      "text": "Mount Lena is officially a census\u2011designated place, not a legal municipality.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,29 +57,37 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Its Functional Status Code is “S,” indicating it is a statistical entity.",
+      "text": "Its Functional Status Code is \u201cS,\u201d indicating it is a statistical entity.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "Mount Lena’s census data show a median household income of $56,838 in 2024.",
+      "text": "Mount Lena\u2019s census data show a median household income of $56,838 in 2024.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Mount-Lena-Maryland.html"
+      "source": "https://www.city-data.com/city/Mount-Lena-Maryland.html",
+      "category": "other",
+      "quality": "poor"
     }
   ]
 }

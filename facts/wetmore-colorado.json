@@ -30,12 +30,12 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Wetmore%2C_Colorado",
-      "category": "etymology",
+      "category": "people",
       "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s post office opened in 1881, serving the community ever since.",
+      "text": "The town\u2019s post office opened in 1881, serving the community ever since.",
       "sourceSentenceIds": [
         4
       ],
@@ -43,30 +43,22 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Wetmore%2C_Colorado",
-      "category": "landmark",
-      "quality": "good"
-    },
-    {
-      "id": 3,
-      "text": "Wetmore sits at the base of the Wet Mountains along State Highway 96.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wetmore%2C_Colorado"
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The grass here ranks among Colorado’s finest, earning Wetmore a reputation as an equestrian paradise.",
+      "text": "The grass here ranks among Colorado\u2019s finest, earning Wetmore a reputation as an equestrian paradise.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.thearmchairexplorer.com/colorado/wetmore-colorado.php"
+      "source": "https://www.thearmchairexplorer.com/colorado/wetmore-colorado.php",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.uncovercolorado.com/towns/wetmore/"
+      "source": "https://www.uncovercolorado.com/towns/wetmore/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

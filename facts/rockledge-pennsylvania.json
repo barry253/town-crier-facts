@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hsmcpa.org/rockledge/"
+      "source": "https://hsmcpa.org/rockledge/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockledge%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rockledge%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "SEPTA Route 24 and Route 28 link Rockledge to Northeast Philadelphia’s transportation centers.",
+      "text": "SEPTA Route 24 and Route 28 link Rockledge to Northeast Philadelphia\u2019s transportation centers.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockledge%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "Rockledge is surrounded on three sides by Abington Township and borders the Fox Chase section of Philadelphia.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://hsmcpa.org/rockledge/"
+      "source": "https://en.wikipedia.org/wiki/Rockledge%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +69,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hsmcpa.org/rockledge/"
+      "source": "https://hsmcpa.org/rockledge/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "Rockledge’s 7.31 miles of public roads are mostly maintained by the borough, with 0.85 miles overseen by PennDOT.",
+      "text": "Rockledge\u2019s 7.31 miles of public roads are mostly maintained by the borough, with 0.85 miles overseen by PennDOT.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockledge%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rockledge%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

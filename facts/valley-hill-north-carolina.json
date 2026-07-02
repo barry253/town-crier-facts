@@ -32,7 +32,7 @@
       "source": "https://en.wikipedia.org/wiki/Valley_Hill%2C_North_Carolina",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -58,8 +58,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Valley_Hill%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -85,20 +85,23 @@
         "Web source 2"
       ],
       "source": "https://roadsidethoughts.com/nc/valley-hill-xx-henderson-profile.htm",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Valley Hill’s entire population lives in urban areas, with no rural residents reported.",
+      "text": "Valley Hill\u2019s entire population lives in urban areas, with no rural residents reported.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_Hill%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Valley_Hill%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

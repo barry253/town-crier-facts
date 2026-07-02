@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rockwell Place’s name comes from Old English words for a rocky spring, hinting at a historic water source that once marked the area.",
+      "text": "Rockwell Place\u2019s name comes from Old English words for a rocky spring, hinting at a historic water source that once marked the area.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127"
+      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,33 +44,40 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockwell_Place%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rockwell_Place%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Rockwell Place lies in the Texas Panhandle’s high plains, a region famed for its cattle ranching heritage and wide, open horizons.",
+      "text": "Rockwell Place lies in the Texas Panhandle\u2019s high plains, a region famed for its cattle ranching heritage and wide, open horizons.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127"
+      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town’s heritage includes historic Route 66 landmarks, echoing the classic American road trip era that still draws travelers today.",
+      "text": "The town\u2019s heritage includes historic Route 66 landmarks, echoing the classic American road trip era that still draws travelers today.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127"
+      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The Texas History Navigator app lets drivers tap into over 18,000 historical markers, including those near Rockwell Place, for a richer road‑trip experience.",
+      "text": "The Texas History Navigator app lets drivers tap into over 18,000 historical markers, including those near Rockwell Place, for a richer road\u2011trip experience.",
       "sourceSentenceIds": [
         3,
         4,
@@ -77,18 +86,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/travel/texas-history-navigator"
+      "source": "https://thc.texas.gov/travel/texas-history-navigator",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Nearby Palo Duro Canyon, known as the “Grand Canyon of Texas,” offers dramatic geological formations that once shaped the frontier cattle drives.",
+      "text": "Nearby Palo Duro Canyon, known as the \u201cGrand Canyon of Texas,\u201d offers dramatic geological formations that once shaped the frontier cattle drives.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127"
+      "source": "https://www.wisdomlib.org/cities/rockwell-place-179127",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

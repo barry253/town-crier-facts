@@ -30,8 +30,9 @@
         "Web source 1"
       ],
       "source": "https://www.northfieldil.org/170/Village-History",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -48,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "The village’s history is a saga of hard‑scrabble farm families battling floods and swampy marshland while entrepreneurs tried to take over.",
+      "text": "The village\u2019s history is a saga of hard\u2011scrabble farm families battling floods and swampy marshland while entrepreneurs tried to take over.",
       "sourceSentenceIds": [
         5
       ],
@@ -60,10 +61,10 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Northfield is part of the upscale North Shore communities north of Chicago, belonging to New Trier and Northfield Townships.",
+      "id": 6,
+      "text": "Northfield hosts New Trier High School\u2019s freshman campus, a notable educational institution in the area.",
       "sourceSentenceIds": [
-        10
+        19
       ],
       "sourceLabels": [
         "Wikipedia"
@@ -71,17 +72,6 @@
       "source": "https://en.wikipedia.org/wiki/Northfield%2C_Illinois",
       "category": "landmark",
       "quality": "good"
-    },
-    {
-      "id": 6,
-      "text": "Northfield hosts New Trier High School’s freshman campus, a notable educational institution in the area.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Northfield%2C_Illinois"
     }
   ]
 }

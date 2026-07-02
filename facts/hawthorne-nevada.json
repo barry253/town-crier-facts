@@ -22,25 +22,29 @@
   "facts": [
     {
       "id": 1,
-      "text": "Hawthorne was named after a lumberman, rancher, and law‑enforcement friend of Yerington, who founded the town in 1880.",
+      "text": "Hawthorne was named after a lumberman, rancher, and law\u2011enforcement friend of Yerington, who founded the town in 1880.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s first train arrived April 14, 1881, carrying buyers for new lots, marking the start of its railroad era.",
+      "text": "The town\u2019s first train arrived April 14, 1881, carrying buyers for new lots, marking the start of its railroad era.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,29 +55,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The Mineral County Museum, located at 400 Tenth Street, showcases the region’s gold‑mine and boom‑town history.",
+      "text": "The Mineral County Museum, located at 400 Tenth Street, showcases the region\u2019s gold\u2011mine and boom\u2011town history.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mineralcountymuseum.com/"
-    },
-    {
-      "id": 5,
-      "text": "Hawthorne sits almost entirely inside the Hawthorne Army Depot, a massive military installation that surrounds the town.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://www.mineralcountymuseum.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

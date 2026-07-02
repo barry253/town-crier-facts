@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "McEwensville is a borough in Northumberland County, Pennsylvania.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McEwensville%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "McEwensville sits at 41.072139 N, 76.818719 W.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McEwensville%2C_Pennsylvania"
-    },
-    {
       "id": 3,
       "text": "The borough council, made up of five members, meets the first Wednesday of each month at 7:00 PM.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McEwensville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McEwensville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mcewensvilleboro.com/"
+      "source": "https://mcewensvilleboro.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,18 +58,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mcewensvilleboro.com/"
+      "source": "https://mcewensvilleboro.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Snow removal complaints are filed through the town’s website, not to Watson’s Excavating.",
+      "text": "Snow removal complaints are filed through the town\u2019s website, not to Watson\u2019s Excavating.",
       "sourceSentenceIds": [
         15
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mcewensvilleboro.com/"
+      "source": "https://mcewensvilleboro.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cherryville was founded in 1804, making it one of Lehigh Township’s earliest settlements.",
+      "text": "Cherryville was founded in 1804, making it one of Lehigh Township\u2019s earliest settlements.",
       "sourceSentenceIds": [
         6,
         7,
@@ -45,11 +45,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lehightownshiphistoricalsociety.org/cherryville.html"
+      "source": "https://www.lehightownshiphistoricalsociety.org/cherryville.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The village’s name comes from Cherry Row Lane, once lined with a hundred cherry trees.",
+      "text": "The village\u2019s name comes from Cherry Row Lane, once lined with a hundred cherry trees.",
       "sourceSentenceIds": [
         20
       ],
@@ -62,7 +64,7 @@
     },
     {
       "id": 4,
-      "text": "Cherryville Hotel, built in 1767, was originally known as Betty Seidel’s Shop before becoming a landmark inn.",
+      "text": "Cherryville Hotel, built in 1767, was originally known as Betty Seidel\u2019s Shop before becoming a landmark inn.",
       "sourceSentenceIds": [
         2
       ],
@@ -75,25 +77,16 @@
     },
     {
       "id": 5,
-      "text": "The Lehigh Township Historical Society preserves local heritage from a restored 19th‑century schoolhouse called the Historical Center.",
+      "text": "The Lehigh Township Historical Society preserves local heritage from a restored 19th\u2011century schoolhouse called the Historical Center.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27244"
-    },
-    {
-      "id": 6,
-      "text": "Cherryville lies along Pennsylvania Route 248, nestled between the villages of Indianland and Pennsville.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cherryville%2C_Pennsylvania"
+      "source": "https://museumsdatabase.com/museums/view/27244",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

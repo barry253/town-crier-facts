@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Chilton’s post office opened in 1882, named after the town itself in the heart of Texas.",
+      "text": "Chilton\u2019s post office opened in 1882, named after the town itself in the heart of Texas.",
       "sourceSentenceIds": [
         3
       ],
@@ -43,7 +43,7 @@
         "Web source 1"
       ],
       "source": "https://www.tshaonline.org/handbook/entries/chilton-tx",
-      "category": "etymology",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -56,26 +56,12 @@
         "Web source 1"
       ],
       "source": "https://www.tshaonline.org/handbook/entries/chilton-tx",
-      "category": "transport",
+      "category": "economy",
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The town sits in western Falls County, Texas in the heart of the state.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Chilton%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "U.S. Route 77 borders Chilton’s western edge, linking it 20 miles north to Waco and 16 miles south to Rosebud.",
+      "text": "U.S. Route 77 borders Chilton\u2019s western edge, linking it 20 miles north to Waco and 16 miles south to Rosebud.",
       "sourceSentenceIds": [
         23
       ],
@@ -83,9 +69,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Chilton%2C_Texas",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -96,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chilton%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Chilton%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

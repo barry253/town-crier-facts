@@ -31,33 +31,39 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosenberg%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rosenberg%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Rosenberg’s Historic Downtown features the 1910 Vogelsang Building, a Recorded Texas Historic Landmark, and the 1881 former post office.",
+      "text": "Rosenberg\u2019s Historic Downtown features the 1910 Vogelsang Building, a Recorded Texas Historic Landmark, and the 1881 former post office.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://texastimetravel.com/cities/rosenberg/"
+      "source": "https://texastimetravel.com/cities/rosenberg/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Rosenberg is the only state‑designated Cultural District in Fort Bend County, boasting three restaurants, a wine bar, two theaters, and a museum.",
+      "text": "Rosenberg is the only state\u2011designated Cultural District in Fort Bend County, boasting three restaurants, a wine bar, two theaters, and a museum.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rosenbergtx.gov/386/Visitors"
+      "source": "https://rosenbergtx.gov/386/Visitors",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The city sits on the south side of the Brazos River, 35 miles southwest of Houston, and was once called the “Hub of the Gulf Coast.”.",
+      "text": "The city sits on the south side of the Brazos River, 35 miles southwest of Houston, and was once called the \u201cHub of the Gulf Coast.\u201d.",
       "sourceSentenceIds": [
         22,
         29
@@ -66,7 +72,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://texastimetravel.com/cities/rosenberg/"
+      "source": "https://texastimetravel.com/cities/rosenberg/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

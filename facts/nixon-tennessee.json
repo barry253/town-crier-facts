@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Nixon is an unincorporated community in Hardin County, Tennessee.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
-      "text": "The town sits along Tennessee State Route 128, a key north–south corridor in the region.",
+      "text": "The town sits along Tennessee State Route 128, a key north\u2013south corridor in the region.",
       "sourceSentenceIds": [
         8
       ],
@@ -45,7 +31,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee",
       "category": "transport",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "route_only"
     },
     {
@@ -58,13 +44,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee",
-      "category": "nature",
+      "category": "other",
       "quality": "poor",
       "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "A post office opened in Nixon in 1880, marking the community’s early development.",
+      "text": "A post office opened in Nixon in 1880, marking the community\u2019s early development.",
       "sourceSentenceIds": [
         11
       ],
@@ -87,18 +73,20 @@
       "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "Nixon’s history is tied to the 1895 atlas listings, which noted its post office and railroad service status.",
+      "text": "Nixon\u2019s history is tied to the 1895 atlas listings, which noted its post office and railroad service status.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

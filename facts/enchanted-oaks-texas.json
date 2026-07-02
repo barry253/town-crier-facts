@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Enchanted Oaks is a town in Henderson County, Texas.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Enchanted_Oaks%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "It sits on the east shore of Cedar Creek Reservoir, about 15 miles northwest of Athens.",
       "sourceSentenceIds": [
@@ -51,7 +37,7 @@
     },
     {
       "id": 3,
-      "text": "The town’s waste site is open daily from 6 am until 9 pm, serving local residents’ trash needs.",
+      "text": "The town\u2019s waste site is open daily from 6 am until 9 pm, serving local residents\u2019 trash needs.",
       "sourceSentenceIds": [
         28
       ],
@@ -79,7 +65,7 @@
     },
     {
       "id": 5,
-      "text": "Police forms—ranging from resident applications to vacation rental registrations—are downloadable from the town’s website.",
+      "text": "Police forms\u2014ranging from resident applications to vacation rental registrations\u2014are downloadable from the town\u2019s website.",
       "sourceSentenceIds": [
         29
       ],
@@ -100,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Enchanted_Oaks%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Enchanted_Oaks%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

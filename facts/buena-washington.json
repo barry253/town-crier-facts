@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Buena’s name comes from the Spanish word for “good,” chosen when the Northern Pacific Railway built a siding there in 1919.",
+      "text": "Buena\u2019s name comes from the Spanish word for \u201cgood,\u201d chosen when the Northern Pacific Railway built a siding there in 1919.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buena%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Buena%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,22 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buena%2C_Washington"
-    },
-    {
-      "id": 3,
-      "text": "Buena sits just 3.5 miles north of Toppenish, a short drive that keeps the two communities closely linked.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Buena%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Buena%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Historic Sanborn Fire Insurance Maps from 1922 and 1931 let us see how Buena’s downtown looked a century ago, showing every shop and school.",
+      "text": "Historic Sanborn Fire Insurance Maps from 1922 and 1931 let us see how Buena\u2019s downtown looked a century ago, showing every shop and school.",
       "sourceSentenceIds": [
         10,
         12
@@ -63,22 +56,26 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-buena-washington"
+      "source": "https://hometownhistorymaps.com/pages/history-of-buena-washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The 1922 Sanborn map of Buena is the oldest available map, while the 1931 map is the newest in the town’s small collection.",
+      "text": "The 1922 Sanborn map of Buena is the oldest available map, while the 1931 map is the newest in the town\u2019s small collection.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-buena-washington"
+      "source": "https://hometownhistorymaps.com/pages/history-of-buena-washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "Local history enthusiasts often use Buena’s old maps to build scale models or trace the town’s layout changes over time.",
+      "text": "Local history enthusiasts often use Buena\u2019s old maps to build scale models or trace the town\u2019s layout changes over time.",
       "sourceSentenceIds": [
         5,
         13
@@ -86,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-buena-washington"
+      "source": "https://hometownhistorymaps.com/pages/history-of-buena-washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

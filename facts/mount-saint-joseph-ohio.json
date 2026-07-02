@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mount Saint Joseph is an unincorporated community in central Delhi Township, Hamilton County, Ohio.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Saint_Joseph%2C_Ohio"
-    },
-    {
       "id": 2,
       "text": "The community sits at 820 feet above sea level.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,18 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "Mount Saint Joseph is located within Hamilton County, Ohio.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -44,7 +44,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Buckley%2C_Illinois",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -57,11 +58,12 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Buckley%2C_Illinois",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "Historic Sanborn Fire Insurance Maps from 1898, 1906, and 1914 reveal Buckley’s original downtown layout and businesses.",
+      "text": "Historic Sanborn Fire Insurance Maps from 1898, 1906, and 1914 reveal Buckley\u2019s original downtown layout and businesses.",
       "sourceSentenceIds": [
         12
       ],
@@ -69,26 +71,12 @@
         "Web source 2"
       ],
       "source": "https://hometownhistorymaps.com/pages/history-of-buckley-illinois",
-      "category": "landmark",
+      "category": "history",
       "quality": "good"
     },
     {
-      "id": 5,
-      "text": "Buckley sits within Artesia Township in Iroquois County, Illinois, a detail that shapes its local governance.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Buckley%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 6,
-      "text": "Collectors can turn Buckley’s old maps into wall art, preserving the town’s past in a visual format.",
+      "text": "Collectors can turn Buckley\u2019s old maps into wall art, preserving the town\u2019s past in a visual format.",
       "sourceSentenceIds": [
         3,
         6,
@@ -97,7 +85,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-buckley-illinois"
+      "source": "https://hometownhistorymaps.com/pages/history-of-buckley-illinois",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Edinburg is an unincorporated community in Lawrence County, Pennsylvania.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "The town sits along Pennsylvania Route 551, just west of U.S. 224 on the south bank of the Mahoning River, 4.7 mi from New Castle.",
       "sourceSentenceIds": [
@@ -59,12 +45,12 @@
         "Web source 1"
       ],
       "source": "https://edinburghistoricalsociety.org/local-historic-sites/",
-      "category": "history",
+      "category": "culture",
       "quality": "good"
     },
     {
       "id": 4,
-      "text": "The earliest documented reference to Edinburg appears in an 1895 atlas, giving the community a 19th‑century pedigree.",
+      "text": "The earliest documented reference to Edinburg appears in an 1895 atlas, giving the community a 19th\u2011century pedigree.",
       "sourceSentenceIds": [
         15
       ],
@@ -77,7 +63,7 @@
     },
     {
       "id": 5,
-      "text": "A dedicated cemetery list shows that Edinburg’s historic landscape includes several old burial grounds and public buildings.",
+      "text": "A dedicated cemetery list shows that Edinburg\u2019s historic landscape includes several old burial grounds and public buildings.",
       "sourceSentenceIds": [
         23,
         24
@@ -86,8 +72,8 @@
         "Web source 2"
       ],
       "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -99,7 +85,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

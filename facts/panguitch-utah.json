@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Panguitch’s name comes from a Southern Paiute word meaning “Big Fish,” a nod to the rainbow trout that thrive in nearby lakes.",
+      "text": "Panguitch\u2019s name comes from a Southern Paiute word meaning \u201cBig Fish,\u201d a nod to the rainbow trout that thrive in nearby lakes.",
       "sourceSentenceIds": [
         10
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "During a brutal snowstorm in 1865, settlers abandoned their wagons and trekked over quilted snow, a daring move that earned the legend of the “quilt walk.”.",
+      "text": "During a brutal snowstorm in 1865, settlers abandoned their wagons and trekked over quilted snow, a daring move that earned the legend of the \u201cquilt walk.\u201d.",
       "sourceSentenceIds": [
         3,
         4,
@@ -58,11 +58,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Panguitch%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Panguitch%2C_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Each year, Panguitch celebrates that legend with a three‑day Quilt Walk Festival that draws visitors to the historic trail.",
+      "text": "Each year, Panguitch celebrates that legend with a three\u2011day Quilt Walk Festival that draws visitors to the historic trail.",
       "sourceSentenceIds": [
         9
       ],
@@ -83,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Panguitch%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Panguitch%2C_Utah",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,

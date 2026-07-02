@@ -30,19 +30,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sigel%2C_Illinois",
-      "category": "people",
+      "category": "etymology",
       "quality": "good"
-    },
-    {
-      "id": 2,
-      "text": "Sigel is an incorporated town in Shelby County, Illinois.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sigel%2C_Illinois"
     },
     {
       "id": 3,
@@ -67,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-sigel.html"
+      "source": "https://www.citydirectory.us/town-sigel.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -78,18 +70,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-sigel.html"
+      "source": "https://www.citydirectory.us/town-sigel.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "Sigel’s building department handles construction permits, inspections, code enforcement, and building regulations.",
+      "text": "Sigel\u2019s building department handles construction permits, inspections, code enforcement, and building regulations.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-sigel.html"
+      "source": "https://www.citydirectory.us/town-sigel.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

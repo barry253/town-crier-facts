@@ -31,20 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bena%2C_Virginia"
-    },
-    {
-      "id": 2,
-      "text": "The town sits on Virginia State Route 216, about 2.5 miles east‑northeast of Gloucester Point.",
-      "sourceSentenceIds": [
-        10,
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bena%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Bena%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -82,25 +72,29 @@
     },
     {
       "id": 5,
-      "text": "Bena’s post office opened in 1901, marking the community’s early 20th‑century development.",
+      "text": "Bena\u2019s post office opened in 1901, marking the community\u2019s early 20th\u2011century development.",
       "sourceSentenceIds": [
         27
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/bena-xx-gloucester-profile.htm"
+      "source": "https://roadsidethoughts.com/va/bena-xx-gloucester-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "The community lies near sea level, reflecting its low‑lying coastal geography.",
+      "text": "The community lies near sea level, reflecting its low\u2011lying coastal geography.",
       "sourceSentenceIds": [
         28
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/bena-xx-gloucester-profile.htm"
+      "source": "https://roadsidethoughts.com/va/bena-xx-gloucester-profile.htm",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

@@ -33,8 +33,9 @@
         "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Bark_River%2C_Michigan",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -48,12 +49,12 @@
         "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Bark_River%2C_Michigan",
-      "category": "people",
+      "category": "history",
       "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community’s post office opened as Barkville on Nov 30, 1877, and was renamed Bark River in 1882.",
+      "text": "The community\u2019s post office opened as Barkville on Nov 30, 1877, and was renamed Bark River in 1882.",
       "sourceSentenceIds": [
         2,
         3
@@ -67,7 +68,7 @@
     },
     {
       "id": 4,
-      "text": "Bark River hosts the annual Bark River International Raceway, where off‑road races draw crowds each July and August.",
+      "text": "Bark River hosts the annual Bark River International Raceway, where off\u2011road races draw crowds each July and August.",
       "sourceSentenceIds": [
         21,
         22
@@ -81,7 +82,7 @@
     },
     {
       "id": 5,
-      "text": "Northern Sun Winery, a local vineyard, offers a cozy European‑style tasting room and is a highlight for wine lovers.",
+      "text": "Northern Sun Winery, a local vineyard, offers a cozy European\u2011style tasting room and is a highlight for wine lovers.",
       "sourceSentenceIds": [
         26,
         27,
@@ -91,20 +92,8 @@
         "Web source 2"
       ],
       "source": "https://visitescanaba.com/about/community/bark-river",
-      "category": "landmark",
+      "category": "economy",
       "quality": "good"
-    },
-    {
-      "id": 6,
-      "text": "The town sits at 744 feet above sea level, roughly 45°42′N latitude and 87°18′W longitude.",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bark_River%2C_Michigan"
     }
   ]
 }

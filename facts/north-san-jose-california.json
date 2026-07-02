@@ -58,8 +58,9 @@
         "Web source 1"
       ],
       "source": "https://www.sanjose.org/neighborhoods/north-san-jose",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -72,7 +73,7 @@
         "Web source 2"
       ],
       "source": "https://historysanjose.org/",
-      "category": "culture",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -86,8 +87,8 @@
         "Web source 2"
       ],
       "source": "https://historysanjose.org/",
-      "category": "nature",
-      "quality": "poor",
+      "category": "culture",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -99,7 +100,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_San_Jose"
+      "source": "https://en.wikipedia.org/wiki/North_San_Jose",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

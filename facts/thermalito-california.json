@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Thermalito first appeared as an unincorporated community in the 1970 U.S. census.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Thermalito%2C_California",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "The Thermalito Trail is a trail located in Thermalito.",
       "sourceSentenceIds": [
@@ -45,7 +31,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Thermalito%2C_California",
       "category": "landmark",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -59,7 +45,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Thermalito%2C_California",
       "category": "landmark",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -98,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thermalito%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Thermalito%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

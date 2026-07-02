@@ -31,7 +31,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Akron%2C_Michigan",
       "category": "history",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -48,34 +48,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "The village sits in Tuscola County, Michigan.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Akron%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 4,
-      "text": "Akron’s borders split evenly between Akron Township to the north and Fairgrove Township to the south.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Akron%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 5,
       "text": "On April 6, 2026, the village will host an Easter Egg Hunt at Akron Park starting at 4 PM.",
       "sourceSentenceIds": [
@@ -85,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.akronvillage.org/"
+      "source": "https://www.akronvillage.org/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -96,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.akronvillage.org/"
+      "source": "https://www.akronvillage.org/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

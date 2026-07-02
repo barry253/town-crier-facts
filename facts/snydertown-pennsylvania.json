@@ -32,7 +32,7 @@
       "source": "https://snydertownpa.org/",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -46,20 +46,6 @@
       "source": "https://www.citydirectory.us/borough-snydertown.html",
       "category": "nature",
       "quality": "good"
-    },
-    {
-      "id": 3,
-      "text": "Snydertown lies in central Pennsylvania, southwest of Sunbury and northeast of Shamokin.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.citydirectory.us/borough-snydertown.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -91,14 +77,17 @@
     },
     {
       "id": 6,
-      "text": "Snydertown’s website welcomes visitors with a fresh update on March 7, 2026, reflecting its ongoing community engagement.",
+      "text": "Snydertown\u2019s website welcomes visitors with a fresh update on March 7, 2026, reflecting its ongoing community engagement.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://snydertownpa.org/"
+      "source": "https://snydertownpa.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

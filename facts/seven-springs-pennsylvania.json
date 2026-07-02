@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The borough straddles Laurel Hill, a major north–south ridge of the Allegheny Mountains.",
+      "text": "The borough straddles Laurel Hill, a major north\u2013south ridge of the Allegheny Mountains.",
       "sourceSentenceIds": [
         13
       ],
@@ -47,22 +47,8 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Seven Springs is part of the Pittsburgh metropolitan area on the Fayette County side and the Johnstown metropolitan area on the Somerset County side.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
-      "text": "The borough limits cover most of the Seven Springs Mountain Resort, though the resort’s business address is listed as Champion, 7 miles northwest in Fayette County.",
+      "text": "The borough limits cover most of the Seven Springs Mountain Resort, though the resort\u2019s business address is listed as Champion, 7 miles northwest in Fayette County.",
       "sourceSentenceIds": [
         10
       ],
@@ -70,7 +56,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -82,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -93,7 +82,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/seven-springs-museum/"
+      "source": "https://www.wonderfulmuseums.com/museum/seven-springs-museum/",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

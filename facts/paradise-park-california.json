@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "The 1872 California Powder Works Bridge in Paradise Park is one of the best‑preserved wooden Smith truss covered bridges in the nation.",
+      "text": "The 1872 California Powder Works Bridge in Paradise Park is one of the best\u2011preserved wooden Smith truss covered bridges in the nation.",
       "sourceSentenceIds": [
         14
       ],
@@ -35,14 +35,17 @@
     },
     {
       "id": 2,
-      "text": "Paradise Park sits just 92 feet above sea level, giving it a low‑lying coastal plain setting.",
+      "text": "Paradise Park sits just 92 feet above sea level, giving it a low\u2011lying coastal plain setting.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paradise_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Paradise_Park%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -67,7 +70,7 @@
         "Web source 2"
       ],
       "source": "https://noehill.com/santacruz/nat2015000279.asp",
-      "category": "etymology",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -80,7 +83,7 @@
         "Web source 2"
       ],
       "source": "https://noehill.com/santacruz/nat2015000279.asp",
-      "category": "people",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -93,8 +96,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Paradise_Park%2C_California",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

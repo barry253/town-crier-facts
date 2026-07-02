@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Chandler Heights sprang to life in 1928 when Chandler Heights Citrus, Incorporated—backed by Dr.—planted its first citrus grove.",
+      "text": "Chandler Heights sprang to life in 1928 when Chandler Heights Citrus, Incorporated\u2014backed by Dr.\u2014planted its first citrus grove.",
       "sourceSentenceIds": [
         1,
         8,
@@ -31,18 +31,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Chandler Heights sits on the edge of Queen Creek’s planning zone, making most of its land a candidate for future annexation.",
+      "text": "Chandler Heights sits on the edge of Queen Creek\u2019s planning zone, making most of its land a candidate for future annexation.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,18 +71,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Sandy loam soil, boosted by historic irrigation, once fed citrus farms, yet remains nutrient‑poor and alkaline like typical desert ground.",
+      "text": "Sandy loam soil, boosted by historic irrigation, once fed citrus farms, yet remains nutrient\u2011poor and alkaline like typical desert ground.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +98,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

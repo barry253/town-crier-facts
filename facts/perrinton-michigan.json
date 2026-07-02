@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Perrinton is a village in Gratiot County, Michigan, in the heart of rural Michigan.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Perrinton%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "Just north of M‑57, Perrinton sits within Fulton Township in the picturesque countryside of central Michigan.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Perrinton%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Perrinton prides itself on neighborly community spirit, where residents care for one another.",
       "sourceSentenceIds": [
@@ -58,13 +30,13 @@
         "Web source 1"
       ],
       "source": "https://www.villageofperrinton.com/",
-      "category": "culture",
+      "category": "other",
       "quality": "poor",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "Residents can pay utility bills and village fees quickly and securely online through the town’s portal.",
+      "text": "Residents can pay utility bills and village fees quickly and securely online through the town\u2019s portal.",
       "sourceSentenceIds": [
         24
       ],
@@ -85,18 +57,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-perrinton.html"
+      "source": "https://www.citydirectory.us/village-perrinton.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The village’s building department handles construction permits, inspections, and code enforcement for local projects.",
+      "text": "The village\u2019s building department handles construction permits, inspections, and code enforcement for local projects.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-perrinton.html"
+      "source": "https://www.citydirectory.us/village-perrinton.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

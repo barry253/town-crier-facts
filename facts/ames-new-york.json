@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ames is a village located in Montgomery County, New York, in the central part of the state.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-ames-new-york.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 2,
-      "text": "It sits roughly 50 miles northwest of Albany, the state capital, making it a quiet rural escape.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-ames-new-york.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "The village is near Canajoharie, a notable landmark in the Mohawk Valley.",
       "sourceSentenceIds": [
@@ -73,7 +45,7 @@
       "source": "https://www.citydirectory.us/village-ames-new-york.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -87,18 +59,21 @@
       "source": "https://www.citydirectory.us/village-ames-new-york.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The village’s name appears in both the FIPS-55 and GNIS databases, confirming its official geographic status.",
+      "text": "The village\u2019s name appears in both the FIPS-55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/ames-xx-montgomery-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/ames-xx-montgomery-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

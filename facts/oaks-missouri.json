@@ -21,50 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Oaks is a village tucked into Clay County, Missouri.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oaks%2C_Missouri"
-    },
-    {
-      "id": 2,
-      "text": "The village sits inside the Kansas City metropolitan area.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oaks%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Gladstone borders Oaks on its west side while Oakwood hugs its north and east edges.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oaks%2C_Missouri"
-    },
-    {
-      "id": 4,
-      "text": "To the south, Oaks meets Kansas City's Davidson neighborhood.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oaks%2C_Missouri"
-    },
-    {
       "id": 5,
       "text": "Oaks has no passport office, so residents rely on nearby Kansas City Public Library branches for services.",
       "sourceSentenceIds": [
@@ -73,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-oaks-missouri.html"
+      "source": "https://www.citydirectory.us/village-oaks-missouri.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oaks%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oaks%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

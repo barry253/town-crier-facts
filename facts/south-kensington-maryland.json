@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "South Kensington is an unincorporated area whose boundaries are not officially defined.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Kensington%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
-      "text": "The Kensington Historical Society, founded in 1977, works to preserve the town’s architecture and history.",
+      "text": "The Kensington Historical Society, founded in 1977, works to preserve the town\u2019s architecture and history.",
       "sourceSentenceIds": [
         2
       ],
@@ -44,7 +30,7 @@
         "Web source 1"
       ],
       "source": "https://www.kensingtonhistory.org/",
-      "category": "history",
+      "category": "culture",
       "quality": "good"
     },
     {
@@ -57,13 +43,13 @@
         "Web source 1"
       ],
       "source": "https://www.kensingtonhistory.org/",
-      "category": "other",
-      "quality": "poor",
+      "category": "culture",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "South Kensington’s median age is 42 years, slightly older than the national average.",
+      "text": "South Kensington\u2019s median age is 42 years, slightly older than the national average.",
       "sourceSentenceIds": [
         17
       ],
@@ -98,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Kensington%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/South_Kensington%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -22,14 +22,17 @@
   "facts": [
     {
       "id": 1,
-      "text": "Wells Bridge sits along the Susquehanna River and New York State Route 7, just 4.2 miles west‑southwest of Otego.",
+      "text": "Wells Bridge sits along the Susquehanna River and New York State Route 7, just 4.2 miles west\u2011southwest of Otego.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wells_Bridge%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Wells_Bridge%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The first documented reference to Wells Bridge appears in an 1895 atlas, marking the town’s early 19th‑century roots.",
+      "text": "The first documented reference to Wells Bridge appears in an 1895 atlas, marking the town\u2019s early 19th\u2011century roots.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +69,38 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The town is listed in both the FIPS‑55 and the GNIS, confirming its official recognition as a geographic place.",
+      "text": "The town is listed in both the FIPS\u201155 and the GNIS, confirming its official recognition as a geographic place.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "An 1895 atlas catalogued Wells Bridge among nearby communities, illustrating its place in the county’s 19th‑century map.",
+      "text": "An 1895 atlas catalogued Wells Bridge among nearby communities, illustrating its place in the county\u2019s 19th\u2011century map.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/wells-bridge-xx-otsego-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

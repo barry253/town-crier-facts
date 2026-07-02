@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Mountain Lodge Park began as a cluster of summer homes and has gradually become a year‑round community.",
+      "text": "Mountain Lodge Park began as a cluster of summer homes and has gradually become a year\u2011round community.",
       "sourceSentenceIds": [
         2,
         4,
@@ -68,11 +68,11 @@
       "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "Development kicked off just before World War II, stalled, and resumed after the war, shaping the town’s early layout.",
+      "text": "Development kicked off just before World War II, stalled, and resumed after the war, shaping the town\u2019s early layout.",
       "sourceSentenceIds": [
         13,
         25
@@ -87,7 +87,7 @@
     },
     {
       "id": 5,
-      "text": "Glenwood Hills, built from the 1950s through the 1970s, features closer‑packed homes and paved streets.",
+      "text": "Glenwood Hills, built from the 1950s through the 1970s, features closer\u2011packed homes and paved streets.",
       "sourceSentenceIds": [
         14,
         26,
@@ -112,7 +112,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

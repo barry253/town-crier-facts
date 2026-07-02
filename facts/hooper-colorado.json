@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The town’s name honors a railroad official who helped bring the rail line through the San Luis Valley.",
+      "text": "The town\u2019s name honors a railroad official who helped bring the rail line through the San Luis Valley.",
       "sourceSentenceIds": [
         1
       ],
@@ -75,7 +75,7 @@
     },
     {
       "id": 5,
-      "text": "Hooper sits at 7,559 feet above sea level, offering a high‑altitude view of the San Luis Valley.",
+      "text": "Hooper sits at 7,559 feet above sea level, offering a high\u2011altitude view of the San Luis Valley.",
       "sourceSentenceIds": [
         12
       ],
@@ -83,8 +83,8 @@
         "Web source 1"
       ],
       "source": "https://www.uncovercolorado.com/towns/hooper/",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -96,7 +96,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-hooper-colorado.html"
+      "source": "https://www.citydirectory.us/town-hooper-colorado.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

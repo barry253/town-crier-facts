@@ -31,20 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri"
-    },
-    {
-      "id": 2,
-      "text": "The village sits in Saline County, Missouri, part of the state’s central west region.",
-      "sourceSentenceIds": [
-        4,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-mount-leonard.html"
+      "source": "https://www.citydirectory.us/village-mount-leonard.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -78,18 +72,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-mount-leonard.html"
+      "source": "https://www.citydirectory.us/village-mount-leonard.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "Mount Leonard’s modest size—just 44 housing units—reflects its tight‑knit village character for residents.",
+      "text": "Mount Leonard\u2019s modest size\u2014just 44 housing units\u2014reflects its tight\u2011knit village character for residents.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Leonard%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

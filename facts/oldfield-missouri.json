@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Oldfield is an unincorporated community in Christian County, Missouri.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
-    },
-    {
-      "id": 2,
-      "text": "The town sits 2.6 miles southeast of Sparta at the junction of Route 125 and Route T.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
-    },
-    {
       "id": 3,
       "text": "Oldfield rises to 1,381 feet above sea level, nestled in the Missouri Ozarks.",
       "sourceSentenceIds": [
@@ -53,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,11 +44,14 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "Every Saturday night, the Oldfield Opry hosts a donation‑only country music show that draws listeners from miles around.",
+      "text": "Every Saturday night, the Oldfield Opry hosts a donation\u2011only country music show that draws listeners from miles around.",
       "sourceSentenceIds": [
         14,
         15

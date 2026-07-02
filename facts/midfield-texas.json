@@ -71,7 +71,8 @@
       ],
       "source": "https://www.allacrosstexas.com/texas-small-town.php?city=Midfield",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -95,7 +96,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.allacrosstexas.com/texas-small-town.php?city=Midfield"
+      "source": "https://www.allacrosstexas.com/texas-small-town.php?city=Midfield",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

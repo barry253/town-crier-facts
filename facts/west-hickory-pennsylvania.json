@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "West Hickory is an unincorporated community in Forest County, Pennsylvania in the northwestern part of the state.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Hickory%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 2,
       "text": "It sits along the Allegheny River and PA Route 127, 5.6 miles north-northeast of Tionesta.",
       "sourceSentenceIds": [
@@ -44,42 +30,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/West_Hickory%2C_Pennsylvania",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 3,
-      "text": "The community lies within Forest County, bordered by Clarion, Elk, Jefferson, Venango, and Warren counties.",
-      "sourceSentenceIds": [
-        25,
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/west-hickory-xx-forest-genealogy.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 4,
-      "text": "Trunkeyville, just 3 miles north, is the nearest neighboring community to the north of West Hickory.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/west-hickory-xx-forest-genealogy.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
-      "text": "The area’s history includes 1800s documents with spelling variations like “W. Hickory.”.",
+      "text": "The area\u2019s history includes 1800s documents with spelling variations like \u201cW. Hickory.\u201d.",
       "sourceSentenceIds": [
         16
       ],
@@ -89,18 +46,21 @@
       "source": "https://roadsidethoughts.com/pa/west-hickory-xx-forest-genealogy.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The Gazetteer project aims to help genealogists explore West Hickory’s past and understand the community’s daily life.",
+      "text": "The Gazetteer project aims to help genealogists explore West Hickory\u2019s past and understand the community\u2019s daily life.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/west-hickory-xx-forest-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/west-hickory-xx-forest-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

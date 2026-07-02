@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Citrus Park earned its name when early settlers turned the desert floor into orange, grapefruit, and lemon groves thanks to the Salt River Project’s irrigation.",
+      "text": "Citrus Park earned its name when early settlers turned the desert floor into orange, grapefruit, and lemon groves thanks to the Salt River Project\u2019s irrigation.",
       "sourceSentenceIds": [
         23
       ],
@@ -34,23 +34,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The community sits on the western edge of the Phoenix metropolitan area, about 25 miles west‑northwest of downtown Phoenix.",
-      "sourceSentenceIds": [
-        9,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
-      "text": "Once dominated by citrus groves, the area has largely shifted to modern housing, yet it still acts as a gateway between the East Valley’s density and the western desert ranges.",
+      "text": "Once dominated by citrus groves, the area has largely shifted to modern housing, yet it still acts as a gateway between the East Valley\u2019s density and the western desert ranges.",
       "sourceSentenceIds": [
         24
       ],
@@ -60,7 +45,7 @@
       "source": "https://www.wisdomlib.org/cities/citrus-park-188833",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -71,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

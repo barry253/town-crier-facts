@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Spencerville was named after John Spencer, a relative of one of the town’s founders.",
+      "text": "Spencerville was named after John Spencer, a relative of one of the town\u2019s founders.",
       "sourceSentenceIds": [
         5,
         6
@@ -31,29 +31,35 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s post office opened in 1839, making it one of the earliest postal sites in DeKalb County.",
+      "text": "The town\u2019s post office opened in 1839, making it one of the earliest postal sites in DeKalb County.",
       "sourceSentenceIds": [
         28
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Spencerville hosts Indiana’s only covered bridge, a rare wooden structure that draws history buffs.",
+      "text": "Spencerville hosts Indiana\u2019s only covered bridge, a rare wooden structure that draws history buffs.",
       "sourceSentenceIds": [
         27
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,11 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-spencerville-indiana"
+      "source": "https://hometownhistorymaps.com/pages/history-of-spencerville-indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Online archives let Spencerville residents turn 19th‑century maps into wall art, keeping the town’s past visible.",
+      "text": "Online archives let Spencerville residents turn 19th\u2011century maps into wall art, keeping the town\u2019s past visible.",
       "sourceSentenceIds": [
         2,
         3
@@ -77,18 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-spencerville-indiana"
-    },
-    {
-      "id": 6,
-      "text": "Spencerville is an unincorporated community in Spencer Township, DeKalb County, Indiana.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spencerville%2C_Indiana"
+      "source": "https://hometownhistorymaps.com/pages/history-of-spencerville-indiana",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

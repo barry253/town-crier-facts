@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Clarksville sits at the crossroads of Florida State Road 20 and State Road 73, about eight miles west of Blountstown.",
-      "sourceSentenceIds": [
-        12,
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clarksville%2C_Florida"
-    },
-    {
       "id": 2,
       "text": "The community grew around timber and turpentine in the late 1800s, later shifting to longleaf pine logging by the early 1900s.",
       "sourceSentenceIds": [
@@ -42,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/clarksville_florida"
+      "source": "https://grokipedia.com/page/clarksville_florida",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +43,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/clarksville_florida"
+      "source": "https://grokipedia.com/page/clarksville_florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Clarksville borders the 900‑acre Juniper Creek Wildlife Management Area, a popular spot for hunting, fishing, and wildlife viewing.",
+      "text": "Clarksville borders the 900\u2011acre Juniper Creek Wildlife Management Area, a popular spot for hunting, fishing, and wildlife viewing.",
       "sourceSentenceIds": [
         16
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/clarksville_florida"
+      "source": "https://grokipedia.com/page/clarksville_florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,11 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/clarksville_florida"
+      "source": "https://grokipedia.com/page/clarksville_florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "The town’s elevation averages 118 feet above sea level, placing it within the humid subtropical climate zone of the Florida Panhandle.",
+      "text": "The town\u2019s elevation averages 118 feet above sea level, placing it within the humid subtropical climate zone of the Florida Panhandle.",
       "sourceSentenceIds": [
         23,
         24
@@ -87,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/clarksville_florida"
+      "source": "https://grokipedia.com/page/clarksville_florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

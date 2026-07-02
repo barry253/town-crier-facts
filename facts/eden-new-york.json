@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Founded in 1970, the Eden Historical Society preserves and promotes the town’s history.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://museumsdatabase.com/museums/view/22212",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
-      "text": "The Holland Land Company’s 1796 purchase sparked settlement; first settler Deacon Samuel Tubbs arrived in 1808.",
+      "text": "The Holland Land Company\u2019s 1796 purchase sparked settlement; first settler Deacon Samuel Tubbs arrived in 1808.",
       "sourceSentenceIds": [
         7,
         29
@@ -71,12 +57,12 @@
         "Web source 1"
       ],
       "source": "https://grokipedia.com/page/eden_cdp_new_york",
-      "category": "transport",
+      "category": "history",
       "quality": "good"
     },
     {
       "id": 5,
-      "text": "During World War I, 153 men from Eden served, with seven not returning, reflecting the town’s sacrifices.",
+      "text": "During World War I, 153 men from Eden served, with seven not returning, reflecting the town\u2019s sacrifices.",
       "sourceSentenceIds": [
         6
       ],
@@ -84,8 +70,9 @@
         "Web source 1"
       ],
       "source": "https://grokipedia.com/page/eden_cdp_new_york",
-      "category": "people",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -97,7 +84,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22212"
+      "source": "https://museumsdatabase.com/museums/view/22212",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

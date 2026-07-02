@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "North Warren sits just north of the city of Warren, offering a quiet escape from the bustle.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/North_Warren%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The Warren State Hospital, a notable institution, is located in North Warren and has a long history in psychiatric care.",
       "sourceSentenceIds": [
@@ -40,40 +29,50 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Warren%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/North_Warren%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "North Warren’s economy thrives on tourism, small businesses, and seasonal activities like fall foliage viewing.",
+      "text": "North Warren\u2019s economy thrives on tourism, small businesses, and seasonal activities like fall foliage viewing.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Trawellino describes North Warren as a quiet base for exploring Pennsylvania’s wild side.",
+      "text": "Trawellino describes North Warren as a quiet base for exploring Pennsylvania\u2019s wild side.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "The travel guide helps visitors navigate North Warren’s highlights, get a feel for its vibe, and make the most of their visit.",
+      "text": "The travel guide helps visitors navigate North Warren\u2019s highlights, get a feel for its vibe, and make the most of their visit.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_north-warren",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -21,10 +21,10 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Millboro lies in the heart of the Allegheny Mountains, giving it a rugged, forested backdrop.",
+      "id": 2,
+      "text": "Outdoor lovers can hike, fish, and camp right in Millboro\u2019s surrounding wilderness.",
       "sourceSentenceIds": [
-        6
+        7
       ],
       "sourceLabels": [
         "Web source 1"
@@ -34,19 +34,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "Outdoor lovers can hike, fish, and camp right in Millboro’s surrounding wilderness.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://citywiseguide.com/virginia/millboro.html"
-    },
-    {
       "id": 3,
-      "text": "The Millboro Museum chronicles the town’s pioneer past and local crafts.",
+      "text": "The Millboro Museum chronicles the town\u2019s pioneer past and local crafts.",
       "sourceSentenceIds": [
         8
       ],
@@ -54,7 +43,7 @@
         "Web source 1"
       ],
       "source": "https://citywiseguide.com/virginia/millboro.html",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -66,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://citywiseguide.com/virginia/millboro.html"
+      "source": "https://citywiseguide.com/virginia/millboro.html",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,18 +68,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.bathcountyva.gov/"
+      "source": "https://www.bathcountyva.gov/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "During spring, Bath County’s mountain laurel trees burst into fragrant pink blooms.",
+      "text": "During spring, Bath County\u2019s mountain laurel trees burst into fragrant pink blooms.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.bathcountyva.gov/"
+      "source": "https://www.bathcountyva.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

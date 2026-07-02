@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "Waterloo’s own weekly newspaper, The Courier, has been keeping locals informed since the late 19th century.",
+      "text": "Waterloo\u2019s own weekly newspaper, The Courier, has been keeping locals informed since the late 19th century.",
       "sourceSentenceIds": [
         3
       ],
@@ -57,12 +57,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Waterloo%2C_Wisconsin",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The Waterloo Area Historical Society, founded in 1971, preserves artifacts and hosts lectures that bring the town’s past to life.",
+      "text": "The Waterloo Area Historical Society, founded in 1971, preserves artifacts and hosts lectures that bring the town\u2019s past to life.",
       "sourceSentenceIds": [
         1,
         7,
@@ -77,7 +78,7 @@
     },
     {
       "id": 5,
-      "text": "The town’s core values emphasize small‑town charm, guided growth, and the preservation of its cultural and natural heritage.",
+      "text": "The town\u2019s core values emphasize small\u2011town charm, guided growth, and the preservation of its cultural and natural heritage.",
       "sourceSentenceIds": [
         6
       ],
@@ -85,20 +86,9 @@
         "Web source 1"
       ],
       "source": "https://www.waterloowi.us/",
-      "category": "other",
+      "category": "culture",
       "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 6,
-      "text": "Waterloo sits within the Watertown–Fort Atkinson micropolitan area, linking it to a broader regional community.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Waterloo%2C_Wisconsin"
+      "qualityReason": "editorial_filler"
     }
   ]
 }

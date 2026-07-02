@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "The Schuylkill River winds through Sanatoga, shaping its landscape and echoing the town’s early agricultural roots.",
+      "text": "The Schuylkill River winds through Sanatoga, shaping its landscape and echoing the town\u2019s early agricultural roots.",
       "sourceSentenceIds": [
         4
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Old Mill, a historic mill in Sanatoga, once powered the town’s early agricultural industry.",
+      "text": "Old Mill, a historic mill in Sanatoga, once powered the town\u2019s early agricultural industry.",
       "sourceSentenceIds": [
         2
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "Advancements in transportation over the years have significantly influenced Sanatoga’s development and connectivity.",
+      "text": "Advancements in transportation over the years have significantly influenced Sanatoga\u2019s development and connectivity.",
       "sourceSentenceIds": [
         9
       ],
@@ -61,20 +61,6 @@
       "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
-      "text": "Sanatoga sits immediately east of the borough of Pottstown, placing it within the broader Montgomery County region.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sanatoga%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 6,
       "text": "The community benefits from services provided by Lower Pottsgrove Township, which administers essential municipal functions for Sanatoga residents.",
       "sourceSentenceIds": [
@@ -83,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/sanatoga-pennsylvania-ultimate-guide"
+      "source": "https://pennsylvaniainfo.blog/sanatoga-pennsylvania-ultimate-guide",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -43,13 +43,13 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/borough-tunnelhill.html",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Tunnelhill has the third‑highest elevation among towns in Pennsylvania, standing at 2,300 feet.",
+      "text": "Tunnelhill has the third\u2011highest elevation among towns in Pennsylvania, standing at 2,300 feet.",
       "sourceSentenceIds": [
         10
       ],
@@ -59,32 +59,7 @@
       "source": "https://en.wikipedia.org/wiki/Tunnelhill%2C_Pennsylvania",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 4,
-      "text": "Tunnelhill spans both Cambria and Blair counties in central Pennsylvania.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/borough-tunnelhill.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 5,
-      "text": "Tunnelhill is part of the Altoona, PA Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tunnelhill%2C_Pennsylvania"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -95,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/PA/Tunnelhill/46344"
+      "source": "https://hellonation.com/mag/PA/Tunnelhill/46344",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

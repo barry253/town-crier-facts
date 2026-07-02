@@ -46,12 +46,12 @@
         "Web source 2"
       ],
       "source": "https://museumsdatabase.com/museums/view/8543",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
       "id": 3,
-      "text": "The museum’s library holds books, photos, and documents that chronicle Henderson County’s past.",
+      "text": "The museum\u2019s library holds books, photos, and documents that chronicle Henderson County\u2019s past.",
       "sourceSentenceIds": [
         4,
         9
@@ -80,7 +80,7 @@
     },
     {
       "id": 5,
-      "text": "In May 1995, an F4 tornado struck Raritan, leaving a mark on the community’s history.",
+      "text": "In May 1995, an F4 tornado struck Raritan, leaving a mark on the community\u2019s history.",
       "sourceSentenceIds": [
         14
       ],
@@ -88,13 +88,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Raritan%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Raritan’s town hall provides contact info and services, helping residents navigate building regulations and permits.",
+      "text": "Raritan\u2019s town hall provides contact info and services, helping residents navigate building regulations and permits.",
       "sourceSentenceIds": [
         8,
         23
@@ -102,7 +102,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-raritan-illinois.html"
+      "source": "https://www.citydirectory.us/village-raritan-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

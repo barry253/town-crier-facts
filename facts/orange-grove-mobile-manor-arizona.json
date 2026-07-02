@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Orange Grove Mobile Manor sits within the Yuma Metropolitan Statistical Area, linking it to the larger regional economy.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Orange_Grove_Mobile_Manor%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "Just south of the East Cocopah Indian Reservation, Orange Grove Mobile Manor borders a historic Native American homeland.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Orange_Grove_Mobile_Manor%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Students from Orange Grove Mobile Manor attend Somerton High School, the community’s designated public high school.",
+      "text": "Students from Orange Grove Mobile Manor attend Somerton High School, the community\u2019s designated public high school.",
       "sourceSentenceIds": [
         3
       ],
@@ -60,11 +32,11 @@
       "source": "https://en.wikipedia.org/wiki/Orange_Grove_Mobile_Manor%2C_Arizona",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The median age of residents is 28.6 years, younger than Arizona’s state median of 39.4.",
+      "text": "The median age of residents is 28.6 years, younger than Arizona\u2019s state median of 39.4.",
       "sourceSentenceIds": [
         24
       ],
@@ -78,14 +50,17 @@
     },
     {
       "id": 6,
-      "text": "Nearly 30% of Orange Grove Mobile Manor residents live below the poverty line, a figure that matches the county’s broader economic challenges.",
+      "text": "Nearly 30% of Orange Grove Mobile Manor residents live below the poverty line, a figure that matches the county\u2019s broader economic challenges.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Orange-Grove-Mobile-Manor-Arizona.html"
+      "source": "https://www.city-data.com/city/Orange-Grove-Mobile-Manor-Arizona.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -32,21 +32,7 @@
       "source": "https://en.wikipedia.org/wiki/Carytown%2C_Missouri",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "Carytown is part of the Joplin, Missouri Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carytown%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -76,7 +62,7 @@
     },
     {
       "id": 5,
-      "text": "Carytown lies in the Ozarks, north of the Missouri‑Kansas state line in southwestern Missouri.",
+      "text": "Carytown lies in the Ozarks, north of the Missouri\u2011Kansas state line in southwestern Missouri.",
       "sourceSentenceIds": [
         26
       ],
@@ -90,14 +76,17 @@
     },
     {
       "id": 6,
-      "text": "The village’s post office was established in 1885, serving residents for 16 years.",
+      "text": "The village\u2019s post office was established in 1885, serving residents for 16 years.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carytown%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Carytown%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

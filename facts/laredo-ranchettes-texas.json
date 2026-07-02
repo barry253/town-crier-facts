@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The community covers just 0.6 square miles, all land, a compact slice of Texas life.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 3,
-      "text": "The Webb County Heritage Foundation runs two year‑round museums—the Republic of the Rio Grande and Villa Antigua Border Heritage Museum—showing Laredo’s origins.",
+      "text": "The Webb County Heritage Foundation runs two year\u2011round museums\u2014the Republic of the Rio Grande and Villa Antigua Border Heritage Museum\u2014showing Laredo\u2019s origins.",
       "sourceSentenceIds": [
         2
       ],
@@ -49,7 +35,7 @@
     },
     {
       "id": 4,
-      "text": "Since 1980 the Heritage Foundation has promoted Laredo’s history through tours, exhibits, workshops, and educational media.",
+      "text": "Since 1980 the Heritage Foundation has promoted Laredo\u2019s history through tours, exhibits, workshops, and educational media.",
       "sourceSentenceIds": [
         1
       ],
@@ -57,8 +43,9 @@
         "Web source 2"
       ],
       "source": "https://webbheritage.org/About-Us",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -72,7 +59,7 @@
       "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -83,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

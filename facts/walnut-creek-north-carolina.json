@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Walnut Creek’s heart is the Walnut Creek Country Club, around which the village was built.",
+      "text": "Walnut Creek\u2019s heart is the Walnut Creek Country Club, around which the village was built.",
       "sourceSentenceIds": [
         10
       ],
@@ -43,8 +43,8 @@
         "Web source 1"
       ],
       "source": "https://www.walnutcreeknc.com/visitors/",
-      "category": "nature",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -72,7 +72,7 @@
       "source": "https://www.walnutcreeknc.com/visitors/",
       "category": "transport",
       "quality": "poor",
-      "qualityReason": "route_only"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -88,18 +88,6 @@
       "category": "other",
       "quality": "poor",
       "qualityReason": "location_description"
-    },
-    {
-      "id": 6,
-      "text": "The village is part of Wayne County and the Goldsboro Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        8,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Walnut_Creek%2C_North_Carolina"
     }
   ]
 }

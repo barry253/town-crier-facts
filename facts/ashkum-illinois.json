@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Ashkum’s name comes from a Native American chief whose word means “more and more.”.",
+      "text": "Ashkum\u2019s name comes from a Native American chief whose word means \u201cmore and more.\u201d.",
       "sourceSentenceIds": [
         1,
         2
@@ -47,20 +47,6 @@
       "source": "https://ashkum.net/",
       "category": "history",
       "quality": "good"
-    },
-    {
-      "id": 3,
-      "text": "Ashkum sits roughly halfway between Chicago and Champaign, just off Interstate 57.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://ashkum.net/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -98,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ashkum.net/"
+      "source": "https://ashkum.net/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

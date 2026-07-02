@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Osgood%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Osgood%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,22 +43,26 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Osgood%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Osgood%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The village’s streets are lined with historic buildings that give Osgood its charming, small‑town feel.",
+      "text": "The village\u2019s streets are lined with historic buildings that give Osgood its charming, small\u2011town feel.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.osgoodohio.com/post/discover-osgood-a-historic-gem-of-community-engagement"
+      "source": "https://www.osgoodohio.com/post/discover-osgood-a-historic-gem-of-community-engagement",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "A new community website launched by Osgood now shares farmers’ markets, festivals, and volunteer opportunities in one calendar.",
+      "text": "A new community website launched by Osgood now shares farmers\u2019 markets, festivals, and volunteer opportunities in one calendar.",
       "sourceSentenceIds": [
         23,
         24
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.osgoodohio.com/post/discover-osgood-a-historic-gem-of-community-engagement"
+      "source": "https://www.osgoodohio.com/post/discover-osgood-a-historic-gem-of-community-engagement",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,18 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.osgoodohio.com/post/discover-osgood-a-historic-gem-of-community-engagement"
-    },
-    {
-      "id": 6,
-      "text": "Osgood is a village in Darke County, Ohio, United States of America.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Osgood%2C_Ohio"
+      "source": "https://www.osgoodohio.com/post/discover-osgood-a-historic-gem-of-community-engagement",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

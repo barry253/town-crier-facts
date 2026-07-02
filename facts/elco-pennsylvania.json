@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Elco is a borough located in Washington County, Pennsylvania, United States, in the heart of the region.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Elco%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 3,
       "text": "Elco shares its southern edge with Fayette County neighborhoods of Newell and Jefferson Township across the river.",
       "sourceSentenceIds": [
@@ -46,11 +32,11 @@
       "source": "https://en.wikipedia.org/wiki/Elco%2C_Pennsylvania",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The borough’s land area totals 0.736 square miles, with 0.187 square kilometers of surface water.",
+      "text": "The borough\u2019s land area totals 0.736 square miles, with 0.187 square kilometers of surface water.",
       "sourceSentenceIds": [
         21,
         22
@@ -58,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyelco.htm"
+      "source": "https://www.usacitiesonline.com/pacountyelco.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -70,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyelco.htm"
+      "source": "https://www.usacitiesonline.com/pacountyelco.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -83,7 +75,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elco%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Elco%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -34,36 +34,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The village sits mostly in Woodford County, with a small northern section spilling into Marshall County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Washburn%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 3,
-      "text": "Washburn is part of the Peoria Metropolitan Statistical Area, linking it to the larger regional economy.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Washburn%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 4,
-      "text": "Agriculture shapes Washburn’s identity, with farms surrounding the village that supply the north‑central Illinois countryside.",
+      "text": "Agriculture shapes Washburn\u2019s identity, with farms surrounding the village that supply the north\u2011central Illinois countryside.",
       "sourceSentenceIds": [
         14
       ],
@@ -83,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Washburn%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Washburn%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -94,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Washburn%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Washburn%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

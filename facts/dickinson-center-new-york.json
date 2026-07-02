@@ -37,20 +37,6 @@
       "qualityReason": "other"
     },
     {
-      "id": 2,
-      "text": "The community sits 15.6 miles southwest of Malone, the county seat of Franklin County.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dickinson_Center%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Dickinson Center rises to 950 feet above sea level, a typical elevation for Adirondack hamlets.",
       "sourceSentenceIds": [
@@ -62,7 +48,7 @@
       "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm",
       "category": "nature",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -74,9 +60,9 @@
         "Web source 1"
       ],
       "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm",
-      "category": "other",
+      "category": "history",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -94,14 +80,17 @@
     },
     {
       "id": 6,
-      "text": "Dickinson Center’s name is often shortened to Dickinson Ctr., a common abbreviation used in local records.",
+      "text": "Dickinson Center\u2019s name is often shortened to Dickinson Ctr., a common abbreviation used in local records.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

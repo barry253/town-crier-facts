@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Garretts Mill sits in Washington County, Maryland in the heart of the state.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/md/garretts-mill-xx-washington-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The community rises 410 feet above sea level since its founding today.",
       "sourceSentenceIds": [
@@ -44,9 +30,9 @@
         "Web source 2"
       ],
       "source": "https://roadsidethoughts.com/md/garretts-mill-xx-washington-profile.htm",
-      "category": "nature",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -63,20 +49,6 @@
       "qualityReason": "other"
     },
     {
-      "id": 4,
-      "text": "The exact geographic coordinates of Garretts Mill still need verification before official mapping.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/md/garretts-mill-xx-washington-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 5,
       "text": "Genealogists can find a dedicated section for tracing family histories in Garretts Mill.",
       "sourceSentenceIds": [
@@ -85,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/garretts-mill-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/md/garretts-mill-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

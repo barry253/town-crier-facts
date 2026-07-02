@@ -35,19 +35,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The Sawmill chapter was certified in 1957 and lies 20 miles north of Window Rock.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://sawmill.navajochapters.org/",
-      "category": "history",
-      "quality": "good"
-    },
-    {
       "id": 3,
       "text": "A trading post has stood in Sawmill since 1907, predating the sawmill era.",
       "sourceSentenceIds": [
@@ -57,7 +44,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sawmill%2C_Arizona",
-      "category": "landmark",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -75,7 +62,7 @@
     },
     {
       "id": 5,
-      "text": "The Sawmill Chapter’s mission is to revive the timber industry and boost tourism in the region.",
+      "text": "The Sawmill Chapter\u2019s mission is to revive the timber industry and boost tourism in the region.",
       "sourceSentenceIds": [
         26
       ],
@@ -83,8 +70,8 @@
         "Web source 1"
       ],
       "source": "https://sawmill.navajochapters.org/",
-      "category": "other",
-      "quality": "poor",
+      "category": "economy",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -96,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sawmill.navajochapters.org/"
+      "source": "https://sawmill.navajochapters.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

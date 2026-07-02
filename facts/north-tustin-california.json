@@ -30,9 +30,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
-      "category": "history",
+      "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -44,23 +44,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
-      "category": "other",
-      "quality": "poor",
+      "category": "culture",
+      "quality": "good",
       "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 3,
-      "text": "North Tustin borders the city of Tustin on three sides and Orange to the north.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -78,7 +64,7 @@
     },
     {
       "id": 5,
-      "text": "The Marine Corps Air Station annexed 2,076 acres to Tustin, expanding the city’s boundaries.",
+      "text": "The Marine Corps Air Station annexed 2,076 acres to Tustin, expanding the city\u2019s boundaries.",
       "sourceSentenceIds": [
         21
       ],
@@ -86,8 +72,9 @@
         "Web source 2"
       ],
       "source": "https://www.tustinca.org/833/Tustin-History",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -98,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

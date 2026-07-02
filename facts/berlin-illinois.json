@@ -21,23 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Berlin is a village in Sangamon County, Illinois, part of the Springfield Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        8,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
-      "text": "Locally, Berlin is nicknamed “Old Berlin” because the newer village of New Berlin lies just 1.4 miles to its south.",
+      "text": "Locally, Berlin is nicknamed \u201cOld Berlin\u201d because the newer village of New Berlin lies just 1.4 miles to its south.",
       "sourceSentenceIds": [
         10
       ],
@@ -61,11 +46,11 @@
       "source": "https://www.citydirectory.us/village-berlin-illinois.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "Berlin’s building department handles construction permits, inspections, and code enforcement for residents and developers.",
+      "text": "Berlin\u2019s building department handles construction permits, inspections, and code enforcement for residents and developers.",
       "sourceSentenceIds": [
         6,
         7
@@ -76,11 +61,11 @@
       "source": "https://www.citydirectory.us/village-berlin-illinois.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "City hall’s contact details—including address, office hours, and phone number—are listed online for easy access to municipal services.",
+      "text": "City hall\u2019s contact details\u2014including address, office hours, and phone number\u2014are listed online for easy access to municipal services.",
       "sourceSentenceIds": [
         18
       ],
@@ -90,18 +75,21 @@
       "source": "https://www.citydirectory.us/village-berlin-illinois.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Berlin’s local services page highlights nearby hospitals, schools, parks, and other points of interest for residents and visitors.",
+      "text": "Berlin\u2019s local services page highlights nearby hospitals, schools, parks, and other points of interest for residents and visitors.",
       "sourceSentenceIds": [
         19
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-berlin-illinois.html"
+      "source": "https://www.citydirectory.us/village-berlin-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

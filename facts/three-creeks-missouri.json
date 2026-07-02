@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Three Creeks, also known as Three Creeks Village, is a small community in Warren County, Missouri.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Three_Creeks%2C_Missouri"
-    },
-    {
       "id": 2,
       "text": "The village sits 480 feet above sea level, giving it a modest elevation compared to surrounding areas.",
       "sourceSentenceIds": [
@@ -40,18 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm"
-    },
-    {
-      "id": 3,
-      "text": "Within Warren County, Three Creeks ranks as the seventh‑most populous community, reflecting its steady local presence.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,11 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor"
     },
     {
       "id": 6,
-      "text": "Historical records still flag the village’s coordinates as needing verification, a reminder of the evolving accuracy of early maps.",
+      "text": "Historical records still flag the village\u2019s coordinates as needing verification, a reminder of the evolving accuracy of early maps.",
       "sourceSentenceIds": [
         19,
         20,
@@ -90,7 +75,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/three-creeks-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor"
     }
   ]
 }

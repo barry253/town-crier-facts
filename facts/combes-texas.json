@@ -22,18 +22,21 @@
   "facts": [
     {
       "id": 1,
-      "text": "Combes, Texas, sits in northern Cameron County, a slice of the Gulf Coast’s rural heartland.",
+      "text": "Combes, Texas, sits in northern Cameron County, a slice of the Gulf Coast\u2019s rural heartland.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The town’s name sparks debate: some say it honors the Combes Ranch, others point to surgeon Joe Combe of Brownsville.",
+      "text": "The town\u2019s name sparks debate: some say it honors the Combes Ranch, others point to surgeon Joe Combe of Brownsville.",
       "sourceSentenceIds": [
         3,
         5
@@ -42,7 +45,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/combes-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/combes-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,40 +58,37 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "Combes is officially part of the Brownsville–Harlingen–Raymondville metropolitan area, a growing economic hub in southern Texas.",
+      "text": "Combes is officially part of the Brownsville\u2013Harlingen\u2013Raymondville metropolitan area, a growing economic hub in southern Texas.",
       "sourceSentenceIds": [
         21
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "It also falls within the Matamoros–Brownsville metropolitan area, bridging U.S. and Mexican border communities.",
+      "text": "It also falls within the Matamoros\u2013Brownsville metropolitan area, bridging U.S. and Mexican border communities.",
       "sourceSentenceIds": [
         21
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas"
-    },
-    {
-      "id": 6,
-      "text": "Geographically, Combes sits at 26°14′42″N 97°43′37″W, placing it just north of the Gulf of Mexico’s coastline.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Combes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

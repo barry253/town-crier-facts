@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Cave, Missouri is a small municipality in Lincoln County, located in eastern Missouri northwest of St. Louis.",
-      "sourceSentenceIds": [
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-cave.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The town sits near a network of limestone caves, with Missouri recording about 7,500 caves statewide.",
       "sourceSentenceIds": [
@@ -59,7 +44,7 @@
         "Web source 2"
       ],
       "source": "https://mostateparks.com/page/onondaga-cave-state-park/general-information-onondaga",
-      "category": "nature",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -72,7 +57,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri",
-      "category": "history",
+      "category": "etymology",
       "quality": "good"
     },
     {
@@ -85,8 +70,8 @@
         "Web source 2"
       ],
       "source": "https://mostateparks.com/page/onondaga-cave-state-park/general-information-onondaga",
-      "category": "other",
-      "quality": "poor",
+      "category": "transport",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -98,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-cave.html"
+      "source": "https://www.citydirectory.us/village-cave.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

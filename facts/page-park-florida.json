@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Page Park, officially Westchester, sits within the Miami metropolitan area of South Florida.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The community lies just ten miles west of downtown Miami, a quick drive across the city.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Before 2010, the western half of what is now Westchester was its own CDP called University Park.",
       "sourceSentenceIds": [
@@ -60,11 +32,11 @@
       "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "Florida International University occupies the northwest corner of the CDP, anchoring the area’s academic presence.",
+      "text": "Florida International University occupies the northwest corner of the CDP, anchoring the area\u2019s academic presence.",
       "sourceSentenceIds": [
         9
       ],
@@ -77,7 +49,7 @@
     },
     {
       "id": 5,
-      "text": "The National Weather Service’s Miami office leases space on the FIU campus, making it a key weather hub.",
+      "text": "The National Weather Service\u2019s Miami office leases space on the FIU campus, making it a key weather hub.",
       "sourceSentenceIds": [
         23
       ],
@@ -90,14 +62,16 @@
     },
     {
       "id": 6,
-      "text": "Miami‑Dade Public Library runs the Westchester Regional Library, serving residents with books and community programs.",
+      "text": "Miami\u2011Dade Public Library runs the Westchester Regional Library, serving residents with books and community programs.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

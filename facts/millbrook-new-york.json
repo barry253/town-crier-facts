@@ -35,14 +35,17 @@
     },
     {
       "id": 2,
-      "text": "The village library is digitizing a Bennett College collection, making a 19th‑century women’s college archive searchable online.",
+      "text": "The village library is digitizing a Bennett College collection, making a 19th\u2011century women\u2019s college archive searchable online.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://millbrooklibrary.org/local-history/"
+      "source": "https://millbrooklibrary.org/local-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -53,18 +56,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millbrook%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Millbrook%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The area that is now Millbrook was part of a 1697 land grant given to nine men by New York’s royal governor.",
+      "text": "The area that is now Millbrook was part of a 1697 land grant given to nine men by New York\u2019s royal governor.",
       "sourceSentenceIds": [
         16
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.millbrookhistoricalsociety.org/history"
+      "source": "https://www.millbrookhistoricalsociety.org/history",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

@@ -31,7 +31,7 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Dash_Point%2C_Washington",
       "category": "history",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -45,12 +45,12 @@
       ],
       "source": "https://parks.wa.gov/about/news-center/field-guide-blog/dash-point-state-park-history",
       "category": "history",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "The park was dedicated for the 1962 Seattle World’s Fair.",
+      "text": "The park was dedicated for the 1962 Seattle World\u2019s Fair.",
       "sourceSentenceIds": [
         6
       ],
@@ -58,7 +58,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Dash_Point%2C_Washington",
-      "category": "culture",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -71,8 +71,9 @@
         "Web source 1"
       ],
       "source": "https://parks.wa.gov/about/news-center/field-guide-blog/dash-point-state-park-history",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -96,7 +97,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://parks.wa.gov/about/news-center/field-guide-blog/dash-point-state-park-history"
+      "source": "https://parks.wa.gov/about/news-center/field-guide-blog/dash-point-state-park-history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

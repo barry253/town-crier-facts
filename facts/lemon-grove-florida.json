@@ -47,20 +47,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "The community sits in the western part of Charlotte County, Florida.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Grove_City%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
       "text": "According to recent data, 97.71% of Grove City residents identify as White.",
       "sourceSentenceIds": [
@@ -97,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Lemon-Grove-Florida.html"
+      "source": "https://www.city-data.com/city/Lemon-Grove-Florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

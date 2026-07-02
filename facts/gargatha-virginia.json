@@ -22,36 +22,43 @@
   "facts": [
     {
       "id": 1,
-      "text": "Gargatha sits just 16 feet above sea level, a typical low‑lying spot on Virginia’s Eastern Shore.",
+      "text": "Gargatha sits just 16 feet above sea level, a typical low\u2011lying spot on Virginia\u2019s Eastern Shore.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gargatha%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Gargatha%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s post office opened in 1888, marking its first official federal presence.",
+      "text": "The town\u2019s post office opened in 1888, marking its first official federal presence.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Gargatha lies within Accomack County, one of Virginia’s easternmost counties.",
+      "text": "Gargatha lies within Accomack County, one of Virginia\u2019s easternmost counties.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,29 +69,36 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The same 1895 atlas lists nearby communities, giving a snapshot of the region’s rural network.",
+      "text": "The same 1895 atlas lists nearby communities, giving a snapshot of the region\u2019s rural network.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Accomack County’s borders have shifted over time, a fact highlighted in the Atlas of Historical County Boundaries.",
+      "text": "Accomack County\u2019s borders have shifted over time, a fact highlighted in the Atlas of Historical County Boundaries.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/gargatha-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/dillonvale-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/dillonvale-xx-jefferson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-dillonvale.html"
-    },
-    {
-      "id": 3,
-      "text": "The village lies northwest of Wheeling, West Virginia, and southeast of Steubenville, Ohio.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-dillonvale.html"
+      "source": "https://www.citydirectory.us/village-dillonvale.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,18 +57,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/dillonvale-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/dillonvale-xx-jefferson-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Dillonvale’s municipal building is the hub for construction permits and building regulations.",
+      "text": "Dillonvale\u2019s municipal building is the hub for construction permits and building regulations.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-dillonvale.html"
+      "source": "https://www.citydirectory.us/village-dillonvale.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

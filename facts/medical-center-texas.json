@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "The Texas Medical Center, nicknamed the “Medical Mini‑City,” packs more hospitals than any other city in the world.",
+      "text": "The Texas Medical Center, nicknamed the \u201cMedical Mini\u2011City,\u201d packs more hospitals than any other city in the world.",
       "sourceSentenceIds": [
         4
       ],
@@ -30,8 +30,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Texas_Medical_Center",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "id": 4,
-      "text": "Visitors can explore the Health Museum, the Wallace D. Cockrell Butterfly Center, and Hermann Park’s Hermann Park Railroad within the TMC area.",
+      "text": "Visitors can explore the Health Museum, the Wallace D. Cockrell Butterfly Center, and Hermann Park\u2019s Hermann Park Railroad within the TMC area.",
       "sourceSentenceIds": [
         10
       ],
@@ -70,20 +70,7 @@
         "Web source 2"
       ],
       "source": "https://www.visithoustontexas.com/aroundhouston/texas-medical-center/",
-      "category": "landmark",
-      "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "The TMC spans a 2.1‑square‑mile neighborhood south of downtown Houston, bounded by Brays Bayou, Rice University, and Hermann Park.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Texas_Medical_Center",
-      "category": "economy",
+      "category": "culture",
       "quality": "good"
     },
     {
@@ -95,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Texas_Medical_Center"
+      "source": "https://en.wikipedia.org/wiki/Texas_Medical_Center",
+      "category": "economy",
+      "quality": "good"
     }
   ]
 }

@@ -30,7 +30,7 @@
         "Web source 1"
       ],
       "source": "https://www.michigan.gov/libraryofmichigan/public/michigan/county-guides/guides/monroe",
-      "category": "history",
+      "category": "etymology",
       "quality": "good"
     },
     {
@@ -45,7 +45,7 @@
       "source": "https://en.wikipedia.org/wiki/West_Monroe%2C_Michigan",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -62,20 +62,6 @@
       "qualityReason": "route_only"
     },
     {
-      "id": 4,
-      "text": "Custer Road cuts across the northern part of West Monroe, running east–west.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Monroe%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 5,
       "text": "Sunrise in West Monroe is at 7:51 a.m., and sunset at 7:29 p.m., giving 11 hours 38 minutes of daylight.",
       "sourceSentenceIds": [
@@ -87,18 +73,21 @@
       "source": "https://www.trawellino.com/destinations/united-states/michigan_west-monroe",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "census_demographic"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "West Monroe is officially classified as a census‑designated place.",
+      "text": "West Monroe is officially classified as a census\u2011designated place.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Monroe%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/West_Monroe%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

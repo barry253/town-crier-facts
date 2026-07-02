@@ -32,25 +32,11 @@
       "source": "https://en.wikipedia.org/wiki/Cascade%2C_Wisconsin",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 2,
-      "text": "The village is part of the Sheboygan, Wisconsin Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cascade%2C_Wisconsin",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "In June 2010, Cascade installed two 100‑kilowatt wind turbines on local land.",
+      "text": "In June 2010, Cascade installed two 100\u2011kilowatt wind turbines on local land.",
       "sourceSentenceIds": [
         5
       ],
@@ -76,7 +62,7 @@
     },
     {
       "id": 5,
-      "text": "Visitors can watch a live stream of the turbines’ performance through the village’s eGauge monitoring system.",
+      "text": "Visitors can watch a live stream of the turbines\u2019 performance through the village\u2019s eGauge monitoring system.",
       "sourceSentenceIds": [
         23
       ],
@@ -84,8 +70,9 @@
         "Web source 1"
       ],
       "source": "https://villageofcascadewi.gov/",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -96,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofcascadewi.gov/"
+      "source": "https://villageofcascadewi.gov/",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

@@ -22,36 +22,42 @@
   "facts": [
     {
       "id": 1,
-      "text": "Manlius earned its name from Manlius, New York, reflecting early settlers’ hometown ties.",
+      "text": "Manlius earned its name from Manlius, New York, reflecting early settlers\u2019 hometown ties.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manlius%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Manlius%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "A post office has served Manlius continuously since 1871, marking the village’s long‑standing community hub.",
+      "text": "A post office has served Manlius continuously since 1871, marking the village\u2019s long\u2011standing community hub.",
       "sourceSentenceIds": [
         16
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manlius%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Manlius%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The First State Bank of Manlius building stands as a true architectural gem, preserving the town’s heritage.",
+      "text": "The First State Bank of Manlius building stands as a true architectural gem, preserving the town\u2019s heritage.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.manliushs.org/"
+      "source": "https://www.manliushs.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.manliushs.org/"
-    },
-    {
-      "id": 5,
-      "text": "Manlius is part of the Ottawa Micropolitan Statistical Area, linking it to a broader regional community.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Manlius%2C_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "Located in Bureau County, Illinois, Manlius sits amid the state’s rural heartland.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Manlius%2C_Illinois"
+      "source": "https://www.manliushs.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

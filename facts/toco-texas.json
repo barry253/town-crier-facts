@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Toco sits in west‑central Lamar County, Texas.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Toco%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "The town's land drains east into the South Branch of Pine Creek, a tributary of the Red River.",
       "sourceSentenceIds": [
@@ -45,7 +30,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Toco%2C_Texas",
-      "category": "nature",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -58,8 +43,9 @@
         "Web source 1"
       ],
       "source": "https://www.tshaonline.org/handbook/entries/toco-tx",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -77,14 +63,16 @@
     },
     {
       "id": 6,
-      "text": "In the mid‑1930s, Shady Grove hosted a church, school, cemetery, and several stores that served the community.",
+      "text": "In the mid\u20111930s, Shady Grove hosted a church, school, cemetery, and several stores that served the community.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/toco-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/toco-tx",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

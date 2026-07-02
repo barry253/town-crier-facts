@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Fairview Museum was founded in the late 1800s by civic‑minded residents to preserve pioneer stories and artifacts.",
+      "text": "Fairview Museum was founded in the late 1800s by civic\u2011minded residents to preserve pioneer stories and artifacts.",
       "sourceSentenceIds": [
         4
       ],
@@ -42,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/fairview-museum/"
+      "source": "https://www.wonderfulmuseums.com/museum/fairview-museum/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Fairview,_Montgomery_County,_Maryland"
-    },
-    {
-      "id": 4,
-      "text": "Montgomery County lies just north of Washington, D.C., placing Fairview within easy reach of the nation's capital.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Fairview,_Montgomery_County,_Maryland"
+      "source": "https://kids.kiddle.co/Fairview,_Montgomery_County,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,7 +70,7 @@
         "Web source 2"
       ],
       "source": "https://www.wonderfulmuseums.com/museum/fairview-museum/",
-      "category": "history",
+      "category": "culture",
       "quality": "good"
     },
     {
@@ -89,7 +83,7 @@
         "Web source 2"
       ],
       "source": "https://www.wonderfulmuseums.com/museum/fairview-museum/",
-      "category": "nature",
+      "category": "culture",
       "quality": "good"
     }
   ]

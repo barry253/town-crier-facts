@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Manokin is an unincorporated community in Somerset County, Maryland, known for its quiet rural charm.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "The town sits on Maryland Route 361 where it meets River Road, a crossroads that has guided travelers for generations.",
       "sourceSentenceIds": [
@@ -44,13 +30,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "route_only"
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Manokin Historic District preserves a cluster of 18th‑ and 19th‑century homes that tell the story of early Maryland settlers.",
+      "text": "Manokin Historic District preserves a cluster of 18th\u2011 and 19th\u2011century homes that tell the story of early Maryland settlers.",
       "sourceSentenceIds": [
         18
       ],
@@ -88,12 +74,12 @@
         "Web source 1"
       ],
       "source": "https://www.wgmd.com/historical-marker-honoring-manonoakin-indian-town-site-unveiled-in-princess-anne/",
-      "category": "landmark",
+      "category": "history",
       "quality": "good"
     },
     {
       "id": 6,
-      "text": "The marker is part of a 90‑year‑old Maryland Roadside Historical Marker program run by MDOT and the Maryland Historical Trust.",
+      "text": "The marker is part of a 90\u2011year\u2011old Maryland Roadside Historical Marker program run by MDOT and the Maryland Historical Trust.",
       "sourceSentenceIds": [
         2,
         3,
@@ -104,7 +90,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.roads.maryland.gov/mdotsha/pages/pressreleasedetails.aspx?newsId=4870&PageId=818"
+      "source": "https://www.roads.maryland.gov/mdotsha/pages/pressreleasedetails.aspx?newsId=4870&PageId=818",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

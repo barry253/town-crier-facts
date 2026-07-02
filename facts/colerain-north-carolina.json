@@ -45,12 +45,12 @@
         "Web source 1"
       ],
       "source": "https://belmontcountytourism.info/colerain/",
-      "category": "history",
+      "category": "people",
       "quality": "good"
     },
     {
       "id": 3,
-      "text": "The historic Garrett‑White House in Colerain was added to the National Register of Historic Places in 1982.",
+      "text": "The historic Garrett\u2011White House in Colerain was added to the National Register of Historic Places in 1982.",
       "sourceSentenceIds": [
         6
       ],
@@ -58,20 +58,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Colerain%2C_North_Carolina",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 4,
-      "text": "Colerain sits on the northeastern border of Bertie County, North Carolina.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://belmontcountytourism.info/colerain/",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -84,8 +71,9 @@
         "Web source 2"
       ],
       "source": "https://www.citydirectory.us/town-colerain.html",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -96,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-colerain.html"
+      "source": "https://www.citydirectory.us/town-colerain.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

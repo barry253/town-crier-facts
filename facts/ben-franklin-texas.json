@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Ben Franklin was named after Benjamin Simmons’s son, whose land grant became the settlement’s foundation.",
+      "text": "Ben Franklin was named after Benjamin Simmons\u2019s son, whose land grant became the settlement\u2019s foundation.",
       "sourceSentenceIds": [
         1,
         5
@@ -32,7 +32,7 @@
         "Web source 1"
       ],
       "source": "https://www.historictexas.net/city/ben-franklin-texas",
-      "category": "people",
+      "category": "etymology",
       "quality": "good"
     },
     {
@@ -48,11 +48,12 @@
       ],
       "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
-      "text": "In 1966, Ben Franklin earned a Recorded Texas Historic Landmark designation for its well‑preserved 19th‑century heritage.",
+      "text": "In 1966, Ben Franklin earned a Recorded Texas Historic Landmark designation for its well\u2011preserved 19th\u2011century heritage.",
       "sourceSentenceIds": [
         4
       ],
@@ -60,7 +61,7 @@
         "Web source 2"
       ],
       "source": "https://www.historictexas.net/city/ben-franklin-texas",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -73,18 +74,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Franklin%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Ben Franklin lies at the crossroads of Farm to Market Roads 38 and 128, just four miles northeast of Pecan Gap.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Franklin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ben_Franklin%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -95,7 +87,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

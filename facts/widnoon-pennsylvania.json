@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Widnoon is an unincorporated community in Madison Township, Armstrong County, Pennsylvania.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Widnoon%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "The town had its own post office from March 22 1880 to February 3 2005, serving local residents for over a century.",
       "sourceSentenceIds": [
@@ -44,7 +30,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Widnoon%2C_Pennsylvania",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -56,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/widnoon-xx-armstrong-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/widnoon-xx-armstrong-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -83,17 +72,6 @@
       "source": "https://en.wikipedia.org/wiki/Widnoon%2C_Pennsylvania",
       "category": "landmark",
       "quality": "good"
-    },
-    {
-      "id": 6,
-      "text": "Widnoon lies just 3 miles north of Templeton, placing it close to the county’s central hub.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Widnoon%2C_Pennsylvania"
     }
   ]
 }

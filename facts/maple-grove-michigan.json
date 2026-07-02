@@ -31,8 +31,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Maple_Grove%2C_Benzie_County%2C_Michigan",
-      "category": "history",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -44,8 +45,9 @@
         "Web source 1"
       ],
       "source": "https://www.maplegrovetwpmanistee.gov/visit-stay",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -57,12 +59,13 @@
         "Web source 2"
       ],
       "source": "https://www.maplegrovetownship.org/about_us/maps_local_area_information.php",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "The area’s zoning map blends agricultural, residential, and light industrial zones to preserve its rural character.",
+      "text": "The area\u2019s zoning map blends agricultural, residential, and light industrial zones to preserve its rural character.",
       "sourceSentenceIds": [
         18,
         22,
@@ -72,12 +75,13 @@
         "Web source 2"
       ],
       "source": "https://www.maplegrovetownship.org/about_us/maps_local_area_information.php",
-      "category": "economy",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The community’s layout reflects a balance between preserving farmland and allowing modest commercial growth.",
+      "text": "The community\u2019s layout reflects a balance between preserving farmland and allowing modest commercial growth.",
       "sourceSentenceIds": [
         18,
         24
@@ -86,19 +90,22 @@
         "Web source 2"
       ],
       "source": "https://www.maplegrovetownship.org/about_us/maps_local_area_information.php",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "Maple Grove’s location on Lake Ann’s shore makes it a natural spot for boating and lakeside recreation.",
+      "text": "Maple Grove\u2019s location on Lake Ann\u2019s shore makes it a natural spot for boating and lakeside recreation.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maple_Grove%2C_Benzie_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Maple_Grove%2C_Benzie_County%2C_Michigan",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

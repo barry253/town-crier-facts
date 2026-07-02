@@ -34,34 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The community sits in southern Hardin County, Texas.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pinewood_Estates%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 3,
-      "text": "Pinewood Estates is part of the Beaumont–Port Arthur Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pinewood_Estates%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
       "text": "Route 69 runs just north of Pinewood Estates, about five miles west of Sour Lake.",
       "sourceSentenceIds": [
@@ -71,7 +43,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Pinewood_Estates%2C_Texas",
-      "category": "transport",
+      "category": "other",
       "quality": "poor",
       "qualityReason": "route_only"
     },
@@ -99,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/txcountypinewoodestates.htm"
+      "source": "https://www.usacitiesonline.com/txcountypinewoodestates.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The town observes Eastern Time, switching to daylight saving in the summer months.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 3,
-      "text": "Sunrise in Stonybrook is around 6:33 am, while sunset comes close to 8:42 pm, giving a 14‑hour daylight span.",
+      "text": "Sunrise in Stonybrook is around 6:33 am, while sunset comes close to 8:42 pm, giving a 14\u2011hour daylight span.",
       "sourceSentenceIds": [
         4
       ],
@@ -46,11 +32,11 @@
       "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_stonybrook",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "Stonybrook is one of two Pennsylvania communities with that name—another lies in York County.",
+      "text": "Stonybrook is one of two Pennsylvania communities with that name\u2014another lies in York County.",
       "sourceSentenceIds": [
         1
       ],
@@ -63,7 +49,7 @@
     },
     {
       "id": 5,
-      "text": "Local cuisine reflects Pennsylvania Dutch roots, offering dishes that showcase the region’s culinary heritage.",
+      "text": "Local cuisine reflects Pennsylvania Dutch roots, offering dishes that showcase the region\u2019s culinary heritage.",
       "sourceSentenceIds": [
         7
       ],
@@ -84,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

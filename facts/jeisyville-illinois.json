@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Jeisyville sits in Christian County, a small village tucked in central Illinois.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jeisyville%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "In 1837, Jersey County split from Greene County and named Jerseyville its county seat.",
       "sourceSentenceIds": [
@@ -50,7 +36,7 @@
     },
     {
       "id": 3,
-      "text": "The Alton & Chicago Railroad arrived after the Civil War, sparking Jerseyville’s first wave of commerce.",
+      "text": "The Alton & Chicago Railroad arrived after the Civil War, sparking Jerseyville\u2019s first wave of commerce.",
       "sourceSentenceIds": [
         5
       ],
@@ -58,8 +44,8 @@
         "Web source 2"
       ],
       "source": "https://www.greatriverroad.com/jerseyville",
-      "category": "other",
-      "quality": "poor",
+      "category": "transport",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -72,8 +58,8 @@
         "Web source 2"
       ],
       "source": "https://www.greatriverroad.com/jerseyville",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
@@ -86,20 +72,23 @@
         "Web source 2"
       ],
       "source": "https://www.greatriverroad.com/jerseyville",
-      "category": "other",
-      "quality": "poor",
+      "category": "landmark",
+      "quality": "good",
       "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "The “Little Red House” once served as Jerseyville’s first stagecoach station, tavern, school, and bank.",
+      "text": "The \u201cLittle Red House\u201d once served as Jerseyville\u2019s first stagecoach station, tavern, school, and bank.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.greatriverroad.com/jerseyville"
+      "source": "https://www.greatriverroad.com/jerseyville",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

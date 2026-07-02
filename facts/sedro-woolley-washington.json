@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sedro-Woolley is also nicknamed the \"Gateway to the North Cascades\", due to its relative proximity to the National Park to the east.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington"
-    },
-    {
       "id": 2,
       "text": "The Fairhaven and Southern Railroad reached Sedro on Christmas Eve 1889, just a month after Washington joined the Union.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sedro-Woolley%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

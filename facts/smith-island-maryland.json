@@ -61,7 +61,7 @@
     },
     {
       "id": 4,
-      "text": "In 2018, a jetty‑building project was completed to help protect Smith Island from erosion.",
+      "text": "In 2018, a jetty\u2011building project was completed to help protect Smith Island from erosion.",
       "sourceSentenceIds": [
         16
       ],
@@ -69,12 +69,13 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Smith_Island%2C_Maryland",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The island is divided into three villages—Ewell, Rhodes Point, and Tylerton—each on Maryland’s side.",
+      "text": "The island is divided into three villages\u2014Ewell, Rhodes Point, and Tylerton\u2014each on Maryland\u2019s side.",
       "sourceSentenceIds": [
         6
       ],
@@ -95,7 +96,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smith_Island%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Smith_Island%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
   ]
 }

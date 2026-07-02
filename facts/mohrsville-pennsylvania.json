@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Mohrsville’s railroad station, built in 1864, carried passengers until SEPTA ended the Pottsville/Reading line in 1981.",
+      "text": "Mohrsville\u2019s railroad station, built in 1864, carried passengers until SEPTA ended the Pottsville/Reading line in 1981.",
       "sourceSentenceIds": [
         1,
         17,
@@ -32,7 +32,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/"
+      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,18 +47,23 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mohrsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mohrsville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Gregor’s Store, officially known as Mohrsville Sporting Goods, was a local landmark remembered by residents.",
+      "text": "Gregor\u2019s Store, officially known as Mohrsville Sporting Goods, was a local landmark remembered by residents.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/"
+      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

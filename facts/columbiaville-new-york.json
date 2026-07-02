@@ -35,21 +35,6 @@
       "qualityReason": "vague"
     },
     {
-      "id": 2,
-      "text": "The community sits along U.S. Route 9, just under five miles north‑northeast of Hudson.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Columbiaville%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Columbiaville lies within Columbia County, which is on the east side of the Hudson River.",
       "sourceSentenceIds": [
@@ -61,11 +46,11 @@
       "source": "https://en.wikipedia.org/wiki/Columbiaville%2C_New_York",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "Visitors to Columbiaville can explore historic hikes and sample local treats highlighted in the county’s visitor guide.",
+      "text": "Visitors to Columbiaville can explore historic hikes and sample local treats highlighted in the county\u2019s visitor guide.",
       "sourceSentenceIds": [
         1
       ],
@@ -74,7 +59,7 @@
       ],
       "source": "https://columbiacountytourism.org/",
       "category": "culture",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -88,7 +73,7 @@
       ],
       "source": "https://columbiacountytourism.org/",
       "category": "culture",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -100,7 +85,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://columbiacountytourism.org/"
+      "source": "https://columbiacountytourism.org/",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

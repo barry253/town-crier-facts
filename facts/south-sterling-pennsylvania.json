@@ -35,11 +35,11 @@
       "source": "https://en.wikipedia.org/wiki/South_Sterling%2C_Pennsylvania",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The town sits along Pennsylvania Route 191, a key north‑south corridor in northeastern Pennsylvania.",
+      "text": "The town sits along Pennsylvania Route 191, a key north\u2011south corridor in northeastern Pennsylvania.",
       "sourceSentenceIds": [
         2,
         23
@@ -71,23 +71,6 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "South Sterling lies just north of the junction where PA Route 191 meets PA Route 423, near the Pike County border.",
-      "sourceSentenceIds": [
-        2,
-        25,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Sterling%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 5,
       "text": "The community is described as a peaceful spot, surrounded by the natural beauty of northeastern Pennsylvania.",
       "sourceSentenceIds": [
@@ -100,7 +83,7 @@
       "source": "https://kids.kiddle.co/South_Sterling,_Pennsylvania",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -113,7 +96,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/South_Sterling,_Pennsylvania"
+      "source": "https://kids.kiddle.co/South_Sterling,_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

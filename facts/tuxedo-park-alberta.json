@@ -21,21 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Tuxedo Park is a residential neighbourhood in the northeast and northwest quadrants of Calgary, Alberta.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
-      "category": "landmark",
-      "quality": "good"
-    },
-    {
       "id": 2,
-      "text": "The community is bisected by Centre Street from north to south, giving it a distinctive north‑south layout.",
+      "text": "The community is bisected by Centre Street from north to south, giving it a distinctive north\u2011south layout.",
       "sourceSentenceIds": [
         6
       ],
@@ -45,7 +32,7 @@
       "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -62,7 +49,7 @@
     },
     {
       "id": 4,
-      "text": "The first home built in the area, a three‑story farmhouse, still stands and has been declared a historic site.",
+      "text": "The first home built in the area, a three\u2011story farmhouse, still stands and has been declared a historic site.",
       "sourceSentenceIds": [
         2
       ],
@@ -89,14 +76,16 @@
     },
     {
       "id": 6,
-      "text": "Balmoral Junior High School and St. Paul School (Catholic) are two of the neighbourhood’s notable schools.",
+      "text": "Balmoral Junior High School and St. Paul School (Catholic) are two of the neighbourhood\u2019s notable schools.",
       "sourceSentenceIds": [
         28
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

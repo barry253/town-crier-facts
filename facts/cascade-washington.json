@@ -30,7 +30,7 @@
         "Web source 1"
       ],
       "source": "https://www.nps.gov/noca/learn/historyculture/index.htm",
-      "category": "landmark",
+      "category": "nature",
       "quality": "good"
     },
     {
@@ -43,7 +43,7 @@
         "Web source 1"
       ],
       "source": "https://www.nps.gov/noca/learn/historyculture/index.htm",
-      "category": "history",
+      "category": "nature",
       "quality": "good"
     },
     {
@@ -69,7 +69,7 @@
         "Web source 2"
       ],
       "source": "https://ncascades.org/discover/north-cascades-ecosystem/cultural-history",
-      "category": "culture",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -83,8 +83,9 @@
         "Web source 2"
       ],
       "source": "https://ncascades.org/discover/north-cascades-ecosystem/cultural-history",
-      "category": "people",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -96,7 +97,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ncascades.org/discover/north-cascades-ecosystem/cultural-history"
+      "source": "https://ncascades.org/discover/north-cascades-ecosystem/cultural-history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

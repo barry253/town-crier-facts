@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Bryant’s post office opened on June 26, 1862, serving the community for over a century.",
+      "text": "Bryant\u2019s post office opened on June 26, 1862, serving the community for over a century.",
       "sourceSentenceIds": [
         9
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "On April 4, 2023, an EF‑3 tornado swept through Bryant, causing significant damage.",
+      "text": "On April 4, 2023, an EF\u20113 tornado swept through Bryant, causing significant damage.",
       "sourceSentenceIds": [
         6
       ],
@@ -57,11 +57,12 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Bryant%2C_Illinois",
       "category": "history",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "Bryant sits in east‑central Fulton County, Illinois, near the Illinois River.",
+      "text": "Bryant sits in east\u2011central Fulton County, Illinois, near the Illinois River.",
       "sourceSentenceIds": [
         7
       ],
@@ -83,20 +84,22 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Bryant%2C_Illinois",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
-      "text": "The village’s current president is Robert Kaufmann, leading local governance.",
+      "text": "The village\u2019s current president is Robert Kaufmann, leading local governance.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bryant%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Bryant%2C_Illinois",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Pierpont’s name comes from Old French, meaning a pier on a large body of water or a stone bridge, hinting at early settlers’ geography.",
+      "text": "Pierpont\u2019s name comes from Old French, meaning a pier on a large body of water or a stone bridge, hinting at early settlers\u2019 geography.",
       "sourceSentenceIds": [
         5,
         23
@@ -46,25 +46,11 @@
       "source": "https://en.wikipedia.org/wiki/Pierpont%2C_Missouri",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 3,
-      "text": "Pierpont sits within the Columbia, Missouri Metropolitan Statistical Area, linking it to the region’s economic hub.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pierpont%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "As a very small settlement, Pierpont’s detailed historical records are scarce, leaving much of its past to local lore.",
+      "text": "As a very small settlement, Pierpont\u2019s detailed historical records are scarce, leaving much of its past to local lore.",
       "sourceSentenceIds": [
         6
       ],
@@ -74,7 +60,7 @@
       "source": "https://www.wisdomlib.org/cities/pierpont-154370",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -92,14 +78,16 @@
     },
     {
       "id": 6,
-      "text": "Historical records note that Pierpont once had a post office and railroad service, reflecting its 19th‑century connectivity.",
+      "text": "Historical records note that Pierpont once had a post office and railroad service, reflecting its 19th\u2011century connectivity.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/pierpont-xx-boone-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/pierpont-xx-boone-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

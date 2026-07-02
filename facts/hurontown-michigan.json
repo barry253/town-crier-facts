@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The community sits just south of the city of Houghton, tucked into the Keweenaw Peninsula’s rugged landscape.",
+      "text": "The community sits just south of the city of Houghton, tucked into the Keweenaw Peninsula\u2019s rugged landscape.",
       "sourceSentenceIds": [
         7
       ],
@@ -45,7 +45,7 @@
       "source": "https://en.wikipedia.org/wiki/Hurontown%2C_Michigan",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -61,20 +61,6 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The CDP is almost entirely surrounded by Houghton on its west, north, and east sides, making it a quiet enclave within the city.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hurontown%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 5,
       "text": "At 920 feet above sea level, Hurontown enjoys a slightly higher elevation than many Upper Peninsula communities.",
       "sourceSentenceIds": [
@@ -84,19 +70,22 @@
         "Web source 2"
       ],
       "source": "https://roadsidethoughts.com/mi/hurontown-xx-houghton-profile.htm",
-      "category": "nature",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The town’s origins trace back to the copper boom, with the Huron Mining Company later becoming the Houghton Mining Company.",
+      "text": "The town\u2019s origins trace back to the copper boom, with the Huron Mining Company later becoming the Houghton Mining Company.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hurontown%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Hurontown%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

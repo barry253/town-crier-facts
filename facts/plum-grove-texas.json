@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Plum Grove was incorporated in December 1968 after a 55–7 vote, gaining its own voting precinct five and a half years later.",
+      "text": "Plum Grove was incorporated in December 1968 after a 55\u20137 vote, gaining its own voting precinct five and a half years later.",
       "sourceSentenceIds": [
         30
       ],
@@ -32,20 +32,6 @@
       "source": "https://www.tshaonline.org/handbook/entries/plum-grove-tx",
       "category": "history",
       "quality": "good"
-    },
-    {
-      "id": 2,
-      "text": "Nestled at the junction of Farm Roads 2090 and 1010, Plum Grove sits 40 miles northeast of Houston.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/plum-grove-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -59,7 +45,7 @@
       "source": "https://en.wikipedia.org/wiki/Plum_Grove%2C_Texas",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -85,20 +71,22 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Plum_Grove%2C_Texas",
-      "category": "other",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "The Texas State Historical Association preserves Plum Grove’s history, offering digital archives and supporting student research.",
+      "text": "The Texas State Historical Association preserves Plum Grove\u2019s history, offering digital archives and supporting student research.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/plum-grove-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/plum-grove-tx",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

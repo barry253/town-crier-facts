@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "O'Brien is an unincorporated community in Shasta County, California.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California"
-    },
-    {
       "id": 2,
       "text": "The town sits along Interstate 5, about 16 miles north of Redding.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California"
+      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -53,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California"
+      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

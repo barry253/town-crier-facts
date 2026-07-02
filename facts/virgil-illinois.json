@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,24 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "Virgil sits in western Kane County, part of the rural outskirts of the Chicago metropolitan area.",
-      "sourceSentenceIds": [
-        8,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Illinois Route 64 cuts through Virgil’s center, linking the village eastward to St. Charles and westward to Sycamore.",
+      "text": "Illinois Route 64 cuts through Virgil\u2019s center, linking the village eastward to St. Charles and westward to Sycamore.",
       "sourceSentenceIds": [
         9,
         10
@@ -65,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -76,11 +70,14 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hellonation.com/mag/IL/Virgil/14753"
+      "source": "https://www.hellonation.com/mag/IL/Virgil/14753",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
-      "text": "Virgil’s town hall, located on Meredith Road, serves as the hub for local permits, inspections, and building regulations.",
+      "text": "Virgil\u2019s town hall, located on Meredith Road, serves as the hub for local permits, inspections, and building regulations.",
       "sourceSentenceIds": [
         3,
         30
@@ -88,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-virgil-illinois.html"
+      "source": "https://www.citydirectory.us/village-virgil-illinois.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

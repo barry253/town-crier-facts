@@ -30,11 +30,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityoftyty.org/"
+      "source": "https://cityoftyty.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The city’s economy has always stayed tied to farming and local businesses, even as it modernized.",
+      "text": "The city\u2019s economy has always stayed tied to farming and local businesses, even as it modernized.",
       "sourceSentenceIds": [
         25,
         29
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityoftyty.org/"
+      "source": "https://cityoftyty.org/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityoftyty.org/"
+      "source": "https://cityoftyty.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityoftyty.org/"
+      "source": "https://cityoftyty.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,19 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityoftyty.org/"
-    },
-    {
-      "id": 6,
-      "text": "Ty Ty sits at 31°28′16″N 83°38′56″W in Tift County, Georgia.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ty_Ty%2C_Georgia"
+      "source": "https://cityoftyty.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

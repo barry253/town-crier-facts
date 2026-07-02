@@ -21,27 +21,17 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ocala Estates sits 11 miles west of Ocala, the county seat, and is part of the Ocala, Florida Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ocala_Estates%2C_Florida"
-    },
-    {
       "id": 2,
-      "text": "The community’s name honors the Ocali people, the Timucua Indians who once called the area Ocali.",
+      "text": "The community\u2019s name honors the Ocali people, the Timucua Indians who once called the area Ocali.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ocalamarion.com/"
+      "source": "https://www.ocalamarion.com/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,11 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ocalafl.gov/our-city/live/historic-preservation"
+      "source": "https://www.ocalafl.gov/our-city/live/historic-preservation",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Ocala’s climate remains mild year-round, allowing outdoor activities like kayaking, canoeing, and spring tours to thrive on its 600 lakes, rivers, and springs.",
+      "text": "Ocala\u2019s climate remains mild year-round, allowing outdoor activities like kayaking, canoeing, and spring tours to thrive on its 600 lakes, rivers, and springs.",
       "sourceSentenceIds": [
         20,
         22
@@ -65,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ocalamarion.com/"
+      "source": "https://www.ocalamarion.com/",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

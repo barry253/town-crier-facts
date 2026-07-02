@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "In Donovan Estates, the sun rises at 06:32 and sets at 18:59, giving residents a 12‑hour 27‑minute day.",
+      "text": "In Donovan Estates, the sun rises at 06:32 and sets at 18:59, giving residents a 12\u2011hour 27\u2011minute day.",
       "sourceSentenceIds": [
         1
       ],
@@ -30,7 +30,7 @@
         "Web source 1"
       ],
       "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates",
-      "category": "other",
+      "category": "nature",
       "quality": "poor",
       "qualityReason": "vague"
     },
@@ -64,20 +64,6 @@
       "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
-      "text": "Donovan Estates sits just outside Phoenix, making it part of the larger Phoenix metropolitan area.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 5,
       "text": "The community is primarily residential, offering a suburban lifestyle with easy access to urban amenities.",
       "sourceSentenceIds": [
@@ -89,7 +75,7 @@
       "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -102,7 +88,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Donovan_Estates%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Donovan_Estates%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

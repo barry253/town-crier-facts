@@ -31,8 +31,8 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/village-valley-city-illinois.html",
-      "category": "other",
-      "quality": "poor",
+      "category": "etymology",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -47,7 +47,7 @@
       "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -62,7 +62,7 @@
       "source": "https://www.citydirectory.us/village-valley-city-illinois.html",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -74,23 +74,9 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/village-valley-city-illinois.html",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
-      "id": 5,
-      "text": "The village’s median age is 32 years, reflecting a relatively young community.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -101,7 +87,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

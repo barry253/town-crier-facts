@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Doolittle sits between farm roads 2128 and 1925, about three miles northeast of Edinburg.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/doolittle-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 3,
-      "text": "Doolittle is part of the McAllen–Edinburg–Mission Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Doolittle%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 4,
       "text": "The median age in Doolittle was 22 years, making it one of the youngest communities in Texas.",
       "sourceSentenceIds": [
@@ -74,7 +46,7 @@
       "source": "https://en.wikipedia.org/wiki/Doolittle%2C_Texas",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -85,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_doolittle"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_doolittle",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

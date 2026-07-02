@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The town’s post office opened Feb 18 1830, named after Edmund Rogers, though misspelled.",
+      "text": "The town\u2019s post office opened Feb 18 1830, named after Edmund Rogers, though misspelled.",
       "sourceSentenceIds": [
         3
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "Edmonton sits on the South Fork of the Little Barren River, a north‑flowing tributary of the Green River watershed.",
+      "text": "Edmonton sits on the South Fork of the Little Barren River, a north\u2011flowing tributary of the Green River watershed.",
       "sourceSentenceIds": [
         11,
         12
@@ -71,23 +71,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Edmonton%2C_Kentucky",
       "category": "landmark",
-      "quality": "poor",
+      "quality": "good",
       "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 5,
-      "text": "Edmonton lies 18 miles east of Glasgow and 31 miles south of Greensburg, positioned at 36°58′49″N 85°37′13″W.",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Edmonton%2C_Kentucky",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -98,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://heritage.ky.gov/"
+      "source": "https://heritage.ky.gov/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

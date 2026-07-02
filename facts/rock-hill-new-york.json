@@ -31,18 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "Rock Hill sits in the town of Thompson, just off New York State Route 17.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,11 +45,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The Crescent Hill Synagogue, founded in 1961, began offering year‑round services in 2014.",
+      "text": "The Crescent Hill Synagogue, founded in 1961, began offering year\u2011round services in 2014.",
       "sourceSentenceIds": [
         22,
         23
@@ -66,18 +59,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "After the 2020 pandemic, demand for homes in Rock Hill surged, mirroring a Catskills‑wide trend.",
+      "text": "After the 2020 pandemic, demand for homes in Rock Hill surged, mirroring a Catskills\u2011wide trend.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Rock_Hill%2C_New_York",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

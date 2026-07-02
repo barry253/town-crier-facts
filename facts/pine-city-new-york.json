@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pine City is a hamlet located in Chemung County, New York.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_City%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "Mount Saviour Monastery in Pine City was added to the National Register of Historic Places in 2015.",
       "sourceSentenceIds": [
@@ -63,7 +49,7 @@
     },
     {
       "id": 4,
-      "text": "Stained‑glass windows at Pine City’s Immaculate Conception Church were donated by local residents over a hundred years ago.",
+      "text": "Stained\u2011glass windows at Pine City\u2019s Immaculate Conception Church were donated by local residents over a hundred years ago.",
       "sourceSentenceIds": [
         5
       ],
@@ -96,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.pinecityhistory.com/home2.html"
+      "source": "https://www.pinecityhistory.com/home2.html",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

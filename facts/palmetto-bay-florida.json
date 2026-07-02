@@ -22,14 +22,17 @@
   "facts": [
     {
       "id": 1,
-      "text": "Palmetto Bay is a suburban incorporated village in Miami‑Dade County, Florida.",
+      "text": "Palmetto Bay is a suburban incorporated village in Miami\u2011Dade County, Florida.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,18 +86,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palmetto_Bay%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "A historic park along Biscayne Bay offers sweeping views and a serene ambiance, reflecting the area’s rich history.",
+      "text": "A historic park along Biscayne Bay offers sweeping views and a serene ambiance, reflecting the area\u2019s rich history.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.floridavisiting.com/list/palmetto-bay/"
+      "source": "https://www.floridavisiting.com/list/palmetto-bay/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

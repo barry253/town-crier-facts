@@ -21,22 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Winnebago sits in Winnebago County, Illinois, and is officially classified as a village.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Winnebago%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
-      "text": "The village is part of the Rockford‑Winnebago Metropolitan Statistical Area.",
+      "text": "The village is part of the Rockford\u2011Winnebago Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         5
       ],
@@ -46,7 +32,7 @@
       "source": "https://en.wikipedia.org/wiki/Winnebago%2C_Illinois",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -59,7 +45,7 @@
         "Web source 1"
       ],
       "source": "https://wchs61088.org/",
-      "category": "culture",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -72,12 +58,13 @@
         "Web source 1"
       ],
       "source": "https://wchs61088.org/",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "On September 13, 2025, the cemetery walk will guide visitors through eight military veterans’ graves.",
+      "text": "On September 13, 2025, the cemetery walk will guide visitors through eight military veterans\u2019 graves.",
       "sourceSentenceIds": [
         20
       ],
@@ -85,8 +72,9 @@
         "Web source 1"
       ],
       "source": "https://wchs61088.org/",
-      "category": "culture",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,

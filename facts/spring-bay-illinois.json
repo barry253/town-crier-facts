@@ -31,18 +31,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Bay%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "The village is part of the Peoria Metropolitan Statistical Area, linking it to a larger regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Bay%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Spring_Bay%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspringbay.org/"
+      "source": "https://www.villageofspringbay.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspringbay.org/"
+      "source": "https://www.villageofspringbay.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -75,18 +73,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-spring-bay.html"
+      "source": "https://www.citydirectory.us/village-spring-bay.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "The village’s official address is 407 Caroline, and residents can reach the town hall at 309‑822‑8400.",
+      "text": "The village\u2019s official address is 407 Caroline, and residents can reach the town hall at 309\u2011822\u20118400.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspringbay.org/"
+      "source": "https://www.villageofspringbay.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

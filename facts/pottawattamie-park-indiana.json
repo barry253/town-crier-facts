@@ -36,24 +36,8 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The town sits entirely within Michigan City, surrounded on all sides by the larger city.",
-      "sourceSentenceIds": [
-        6,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pottawattamie_Park%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Friendship Botanic Gardens occupy 0.16 square miles of the town’s 0.27 square miles, making it a green heart of the community.",
+      "text": "Friendship Botanic Gardens occupy 0.16 square miles of the town\u2019s 0.27 square miles, making it a green heart of the community.",
       "sourceSentenceIds": [
         25,
         5
@@ -63,8 +47,8 @@
         "Web source 1"
       ],
       "source": "https://www.townofpottawattomieparkin.org/",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "vague"
     },
     {
@@ -81,11 +65,11 @@
       "source": "https://www.townofpottawattomieparkin.org/",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "The neighborhood’s housing reflects architectural styles from every era, starting with revival styles from the early 1930s.",
+      "text": "The neighborhood\u2019s housing reflects architectural styles from every era, starting with revival styles from the early 1930s.",
       "sourceSentenceIds": [
         3
       ],
@@ -95,18 +79,21 @@
       "source": "https://www.townofpottawattomieparkin.org/",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The town earned an “A” overall grade from Niche, ranking it among the best places to live in LaPorte County.",
+      "text": "The town earned an \u201cA\u201d overall grade from Niche, ranking it among the best places to live in LaPorte County.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofpottawattomieparkin.org/"
+      "source": "https://www.townofpottawattomieparkin.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

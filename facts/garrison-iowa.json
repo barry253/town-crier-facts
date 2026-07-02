@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Garrison earned its name from farmer Nelson Garrison, who ran the town’s first post office out of his home.",
+      "text": "Garrison earned its name from farmer Nelson Garrison, who ran the town\u2019s first post office out of his home.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The Old Creamery Theatre Company, founded in 1971, brings professional productions to Garrison’s historic creamery building.",
+      "text": "The Old Creamery Theatre Company, founded in 1971, brings professional productions to Garrison\u2019s historic creamery building.",
       "sourceSentenceIds": [
         2
       ],
@@ -60,22 +60,8 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Garrison is a city in Benton County, Iowa, United States.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Garrison%2C_Iowa",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 5,
-      "text": "Garrison is part of the Cedar Rapids Metropolitan Statistical Area, linking it to Iowa’s second‑largest city.",
+      "text": "Garrison is part of the Cedar Rapids Metropolitan Statistical Area, linking it to Iowa\u2019s second\u2011largest city.",
       "sourceSentenceIds": [
         5
       ],
@@ -85,18 +71,20 @@
       "source": "https://en.wikipedia.org/wiki/Garrison%2C_Iowa",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "The Old Creamery Theatre Company began in a former co‑op dairy that once supplied Garrison’s farmers.",
+      "text": "The Old Creamery Theatre Company began in a former co\u2011op dairy that once supplied Garrison\u2019s farmers.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garrison%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Garrison%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

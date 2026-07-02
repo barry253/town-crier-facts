@@ -34,34 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The village sits in northwestern Macon County, Illinois where historic settlements have thrived for generations.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Warrensburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 3,
-      "text": "It is part of the Decatur Metropolitan Statistical Area, connecting it to a larger regional economy.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Warrensburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 4,
       "text": "Illinois Route 121 cuts through Warrensburg, linking it to Decatur and Mount Pulaski.",
       "sourceSentenceIds": [
@@ -85,19 +57,22 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/village-warrensburg-illinois.html",
-      "category": "landmark",
+      "category": "nature",
       "quality": "good"
     },
     {
       "id": 6,
-      "text": "As a village, Warrensburg maintains a small‑town feel typical of rural Illinois communities.",
+      "text": "As a village, Warrensburg maintains a small\u2011town feel typical of rural Illinois communities.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warrensburg%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Warrensburg%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

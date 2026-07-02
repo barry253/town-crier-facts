@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Summitville is a hamlet in the town of Mamakating, Sullivan County, New York.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Summitville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 2,
       "text": "The New York, Ontario and Western Railway built a major station in Summitville, cementing its rail legacy.",
       "sourceSentenceIds": [
@@ -47,19 +33,21 @@
         "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Summitville%2C_New_York",
-      "category": "landmark",
+      "category": "transport",
       "quality": "good"
     },
     {
       "id": 3,
-      "text": "The hamlet’s name comes from the summit of the Delaware and Hudson Canal that lies within its borders.",
+      "text": "The hamlet\u2019s name comes from the summit of the Delaware and Hudson Canal that lies within its borders.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Summitville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Summitville%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

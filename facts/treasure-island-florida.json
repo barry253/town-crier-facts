@@ -43,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Treasure_Island%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Treasure_Island%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,11 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Treasure_Island%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Treasure_Island%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The Great Gale of 1848 carved John’s Pass and split the island into three separate landmasses.",
+      "text": "The Great Gale of 1848 carved John\u2019s Pass and split the island into three separate landmasses.",
       "sourceSentenceIds": [
         14
       ],
@@ -79,19 +84,22 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Treasure_Island%2C_Florida",
-      "category": "history",
+      "category": "economy",
       "quality": "good"
     },
     {
       "id": 6,
-      "text": "Families can ride a four‑story‑tall inflatable water slide right on the beach at 10400 Gulf Boulevard.",
+      "text": "Families can ride a four\u2011story\u2011tall inflatable water slide right on the beach at 10400 Gulf Boulevard.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitflorida.com/places-to-go/central-west/treasure-island/"
+      "source": "https://www.visitflorida.com/places-to-go/central-west/treasure-island/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

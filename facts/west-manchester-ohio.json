@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "West Manchester, Ohio, sits in Preble County and is part of the Dayton Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        24,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Manchester%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "Historic Sanborn Fire Insurance Maps of West Manchester, ranging from 1895 to 1947, detail downtown layouts, businesses, and landmarks that once defined the town.",
       "sourceSentenceIds": [
@@ -53,7 +38,7 @@
     },
     {
       "id": 3,
-      "text": "Historic map prints let West Manchester residents turn their town’s past into wall art, preserving local heritage in a visual format.",
+      "text": "Historic map prints let West Manchester residents turn their town\u2019s past into wall art, preserving local heritage in a visual format.",
       "sourceSentenceIds": [
         1,
         6
@@ -64,11 +49,11 @@
       "source": "https://hometownhistorymaps.com/pages/history-of-west-manchester-ohio",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "The West Manchester Historical Association displays these maps at events, offering residents a tangible glimpse into the village’s early days.",
+      "text": "The West Manchester Historical Association displays these maps at events, offering residents a tangible glimpse into the village\u2019s early days.",
       "sourceSentenceIds": [
         15,
         16
@@ -77,7 +62,7 @@
         "Web source 1"
       ],
       "source": "https://hometownhistorymaps.com/pages/history-of-west-manchester-ohio",
-      "category": "culture",
+      "category": "history",
       "quality": "good"
     },
     {
@@ -90,8 +75,9 @@
         "Web source 2"
       ],
       "source": "https://www.citydirectory.us/village-west-manchester.html",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -102,7 +88,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-west-manchester.html"
+      "source": "https://www.citydirectory.us/village-west-manchester.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

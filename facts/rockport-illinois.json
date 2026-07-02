@@ -21,36 +21,8 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rockport is an unincorporated community in western Pike County, Illinois.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rockport%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
-      "id": 2,
-      "text": "The town lies on Illinois Route 96, about eight miles southeast of New Canton.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rockport%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
-      "text": "Founded in 1965, the Pike County Historical Society in Rockport preserves the county’s rich history.",
+      "text": "Founded in 1965, the Pike County Historical Society in Rockport preserves the county\u2019s rich history.",
       "sourceSentenceIds": [
         3
       ],
@@ -63,7 +35,7 @@
     },
     {
       "id": 4,
-      "text": "Its museum displays an extensive collection of artifacts, photographs, and documents that chronicle Pike County’s past.",
+      "text": "Its museum displays an extensive collection of artifacts, photographs, and documents that chronicle Pike County\u2019s past.",
       "sourceSentenceIds": [
         15
       ],
@@ -71,7 +43,7 @@
         "Web source 1"
       ],
       "source": "https://museumsdatabase.com/museums/view/9612",
-      "category": "landmark",
+      "category": "culture",
       "quality": "good"
     },
     {
@@ -96,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/9612"
+      "source": "https://museumsdatabase.com/museums/view/9612",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }
