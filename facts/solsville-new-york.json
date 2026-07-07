@@ -22,20 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Solsville, New York, is named after President James Madison in the state of New York.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Madison_(village)%2C_New_York",
-      "category": "etymology",
-      "quality": "poor",
-      "qualityReason": "wrong_article"
-    },
-    {
-      "id": 2,
       "text": "The historic Solsville Hotel once housed the post office, saloon, ballroom, and canal house.",
       "sourceSentenceIds": [
         2
@@ -45,10 +31,11 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Madison_(village)%2C_New_York",
       "category": "landmark",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Randall, chief engineer, built the railroad linking Syracuse to South Bay today.",
       "sourceSentenceIds": [
         3
@@ -61,7 +48,7 @@
       "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The village incorporated in 1826, making it one of the earliest settlements in the county.",
       "sourceSentenceIds": [
         7
@@ -71,10 +58,11 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Madison_(village)%2C_New_York",
       "category": "history",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Located on the Third Great Western Turnpike, Solsville featured a hotel and resort on Madison Lake for east–west travelers.",
       "sourceSentenceIds": [
         8
@@ -84,7 +72,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Madison_(village)%2C_New_York",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     }
   ]
 }
