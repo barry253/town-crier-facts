@@ -28,7 +28,7 @@
     .town-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .qa-bad { color: #b71c1c; }
     .qa-warning { color: #7a5200; }
-    .toolbar { margin-bottom: 18px; display: flex; gap: 18px; flex-wrap: wrap; }
+    .toolbar { margin-bottom: 18px; display: flex; gap: 18px; flex-wrap: wrap; align-items: center; }
     .fact { border-bottom: 1px solid #ddd; padding: 16px 0; font-size: 17px; line-height: 1.5; }
     .fact.bad { background: #fff0f0; border-left: 4px solid #c62828; padding-left: 12px; }
     .fact.warning { background: #fff8e1; border-left: 4px solid #f9a825; padding-left: 12px; }
@@ -41,6 +41,15 @@
     .flag.reviewed { color: #1b5e20; border-color: #a5d6a7; background: #e8f5e9; }
     .source { font-size: 13px; color: #555; margin-top: 8px; word-break: break-word; }
     .empty { color: #777; font-style: italic; }
+    /* Category badge */
+    .cat-tag { display: inline-block; border: 1px solid #c8daf7; border-radius: 999px; padding: 2px 7px; font-size: 11px; color: #2a55a0; background: #e8f0fe; margin-right: 4px; vertical-align: middle; }
+    /* Per-clip play buttons */
+    .clip-btn { border: none; background: none; padding: 1px 4px; margin: 0 3px 0 0; cursor: pointer; font-size: 14px; line-height: 1; vertical-align: middle; display: inline; width: auto; border-radius: 4px; color: #333; }
+    .clip-btn:hover { background: #e0e0e0; }
+    .clip-btn.playing { color: #c0392b; }
+    .clip-placeholder { display: inline-block; font-size: 11px; color: #ccc; vertical-align: middle; margin-right: 3px; }
+    /* Welcome clip row in toolbar */
+    .welcome-clip { display: flex; align-items: center; gap: 4px; font-size: 14px; color: #555; }
     /* Mode tabs */
     .mode-tabs { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 14px; }
     .mode-tabs button { width: 100%; margin: 0; text-align: center; padding: 9px; font-size: 14px; }
@@ -118,6 +127,10 @@
     <div class="toolbar" id="factsToolbar">
       <label><input type="checkbox" id="showSources" checked /> Show sources</label>
       <label><input type="checkbox" id="showFlags" checked /> Show auto-flags</label>
+      <span class="welcome-clip" id="welcomeClipRow" style="display:none">
+        <span id="clip-welcome" class="clip-placeholder">…</span>
+        <span style="color:#888;font-size:13px;">welcome</span>
+      </span>
     </div>
     <div id="facts" class="empty">Choose a town.</div>
   </main>
@@ -130,12 +143,15 @@
     let lmCollections = [];
     let currentLmData = null;
     const lmCache = new Map();
+    let currentAudio = null;
+    let currentAudioBtn = null;
 
     const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
     const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
     const GENERIC_STARTERS = ["located in ", "known for ", "home to ", "the town is ", "the city is "];
     const END_PUNCTUATION = /[.!?。！？…\"'"')]$/;
     const REVIEWED_STATUSES = new Set(["approved", "ignore_flag", "reviewed"]);
+    const R2 = 'https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev';
 
     const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     function htmlDecode(s) { const d = document.createElement('div'); d.innerHTML = s || ''; return d.textContent || ''; }
@@ -174,6 +190,79 @@
       const json = await res.json();
       factCache.set(town.file, json);
       return json;
+    }
+
+    function stopCurrentAudio() {
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.onended = null;
+        currentAudio = null;
+      }
+      if (currentAudioBtn) {
+        currentAudioBtn.textContent = '▶';
+        currentAudioBtn.classList.remove('playing');
+        currentAudioBtn = null;
+      }
+    }
+
+    function playClip(url, btn) {
+      if (currentAudio) {
+        const wasBtn = currentAudioBtn;
+        stopCurrentAudio();
+        if (wasBtn === btn) return; // tapping the active button stops it
+      }
+      const audio = new Audio(url);
+      currentAudio = audio;
+      currentAudioBtn = btn;
+      btn.textContent = '■';
+      btn.classList.add('playing');
+      audio.play().catch(() => {});
+      audio.onended = () => {
+        btn.textContent = '▶';
+        btn.classList.remove('playing');
+        currentAudio = null;
+        currentAudioBtn = null;
+      };
+    }
+
+    function makeClipBtn(url, label) {
+      const btn = document.createElement('button');
+      btn.className = 'clip-btn';
+      btn.title = label;
+      btn.textContent = '▶';
+      btn.onclick = () => playClip(url, btn);
+      return btn;
+    }
+
+    async function checkClips(slug, factCount) {
+      const n = Math.min(factCount, 6);
+      const clips = [
+        { id: 'clip-welcome', url: `${R2}/facts/${slug}/kokoro-af_heart/welcome.mp3`, label: 'welcome.mp3' },
+        ...Array.from({ length: n }, (_, i) => ({
+          id: `clip-fact-${i}`,
+          url: `${R2}/facts/${slug}/kokoro-af_heart/fact-${i}.mp3`,
+          label: `fact-${i}.mp3`
+        }))
+      ];
+
+      await Promise.all(clips.map(async ({ id, url, label }) => {
+        const slot = document.getElementById(id);
+        if (!slot) return;
+        try {
+          const res = await fetch(url, { method: 'HEAD' });
+          if (res.ok) {
+            const btn = makeClipBtn(url, label);
+            slot.replaceWith(btn);
+            if (id === 'clip-welcome') {
+              document.getElementById('welcomeClipRow').style.display = '';
+            }
+          } else {
+            slot.remove();
+          }
+        } catch {
+          slot.remove();
+        }
+      }));
     }
 
     function summarizeTownQuality(town, json){
@@ -271,7 +360,13 @@
     }
 
     async function loadTown(town, btn, wrapper){
+      stopCurrentAudio();
       currentTown = town;
+      // Reset welcome clip slot
+      const welcomeRow = document.getElementById('welcomeClipRow');
+      if (welcomeRow) welcomeRow.style.display = 'none';
+      const welcomeSlot = document.getElementById('clip-welcome');
+      if (welcomeSlot) { welcomeSlot.className = 'clip-placeholder'; welcomeSlot.textContent = '…'; }
       document.querySelectorAll("aside button").forEach(b=>b.classList.remove("active"));
       btn.classList.add("active");
       document.getElementById("tabFacts").classList.add("active");
@@ -288,17 +383,41 @@
       const showFlags = document.getElementById("showFlags").checked;
       document.getElementById("mainTitle").textContent = currentJson.place || currentTown?.place || getTownLabel(currentTown || {});
       document.getElementById("factsToolbar").style.display = '';
+
+      // Reset welcome clip to checking state
+      const welcomeRow = document.getElementById('welcomeClipRow');
+      const welcomeSlot = document.getElementById('clip-welcome');
+      if (welcomeRow) welcomeRow.style.display = 'none';
+      if (welcomeSlot && welcomeSlot.tagName === 'SPAN') {
+        welcomeSlot.className = 'clip-placeholder';
+        welcomeSlot.textContent = '…';
+      } else if (welcomeSlot && welcomeSlot.tagName === 'BUTTON') {
+        // Previous load put a button there; replace with placeholder
+        const ph = document.createElement('span');
+        ph.id = 'clip-welcome';
+        ph.className = 'clip-placeholder';
+        ph.textContent = '…';
+        welcomeSlot.replaceWith(ph);
+      }
+
       const container = document.getElementById("facts");
       container.innerHTML = "";
       if (!facts.length) { container.className = "empty"; container.textContent = "No facts found."; return; }
       container.className = "";
-      facts.forEach((f,i)=>{
+
+      const slug = currentTown?.slug || (currentTown?.file || '').replace('.json', '');
+
+      facts.forEach((f, i) => {
         const d = document.createElement("div");
         const text = cleanText(f.text);
         const flags = getFactFlags(text, f, currentJson);
         const worst = flags.some(x=>x.severity==="bad") ? "bad" : flags.some(x=>x.severity==="warning") ? "warning" : flags.some(x=>x.severity==="weak") ? "weak" : "";
         d.className = `fact ${worst}`.trim();
-        d.innerHTML = `<b>${i+1}.</b> ${text}`;
+
+        const catHtml = f.category ? `<span class="cat-tag">${esc(f.category)}</span>` : '';
+        const clipSlotHtml = i < 6 ? `<span class="clip-placeholder" id="clip-fact-${i}">…</span>` : '';
+
+        d.innerHTML = `${clipSlotHtml}<b>${i+1}.</b> ${catHtml}${text}`;
 
         if(showFlags){
           const flagList = [...flags];
@@ -323,6 +442,9 @@
         }
         container.appendChild(d);
       });
+
+      // Fire HEAD checks for all clips (non-blocking)
+      checkClips(slug, facts.length);
     }
 
     // ── Landmarks ─────────────────────────────────────────────────────────────
