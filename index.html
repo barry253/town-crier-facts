@@ -245,24 +245,23 @@
         }))
       ];
 
-      await Promise.all(clips.map(async ({ id, url, label }) => {
+      // Audio metadata probe — avoids CORS preflight that blocks fetch({method:'HEAD'}).
+      // Audio elements load cross-origin without CORS headers; onloadedmetadata fires
+      // on 200, onerror fires on 404/network-error.
+      await Promise.all(clips.map(({ id, url, label }) => new Promise(resolve => {
         const slot = document.getElementById(id);
-        if (!slot) return;
-        try {
-          const res = await fetch(url, { method: 'HEAD' });
-          if (res.ok) {
-            const btn = makeClipBtn(url, label);
-            slot.replaceWith(btn);
-            if (id === 'clip-welcome') {
-              document.getElementById('welcomeClipRow').style.display = '';
-            }
-          } else {
-            slot.remove();
-          }
-        } catch {
-          slot.remove();
-        }
-      }));
+        if (!slot) return resolve();
+        const probe = new Audio();
+        probe.preload = 'metadata';
+        probe.onloadedmetadata = () => {
+          const btn = makeClipBtn(url, label);
+          slot.replaceWith(btn);
+          if (id === 'clip-welcome') document.getElementById('welcomeClipRow').style.display = '';
+          resolve();
+        };
+        probe.onerror = () => { slot.remove(); resolve(); };
+        probe.src = url;
+      })));
     }
 
     function summarizeTownQuality(town, json){
