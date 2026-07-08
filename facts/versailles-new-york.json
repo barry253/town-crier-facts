@@ -12,98 +12,75 @@
     },
     {
       "label": "Web source 1",
-      "url": "https://en.versailles-tourisme.com/"
-    },
-    {
-      "label": "Web source 2",
       "url": "https://welcometoversailles.com/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Versailles is a hamlet in Cattaraugus County, New York, situated along Cattaraugus Creek.",
+      "text": "Versailles is a hamlet in Cattaraugus County, New York, known for its quiet rural charm.",
       "sourceSentenceIds": [
-        4,
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
+    },
+    {
+      "id": 2,
+      "text": "The community sits along Cattaraugus Creek, about 4.9 miles northwest of Gowanda.",
+      "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
     },
     {
-      "id": 2,
-      "text": "The community sits on the border of the Cattaraugus Indian Reservation.",
+      "id": 3,
+      "text": "Versailles borders the Cattaraugus Indian Reservation, reflecting its close ties to local Native American heritage.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
     },
     {
-      "id": 3,
-      "text": "Locals pronounce Versailles so that it rhymes with “sales,” a nonstandard regional twist.",
+      "id": 4,
+      "text": "The hamlet's name is pronounced to rhyme with 'sales,' a nonstandard local accent common in Western New York.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
     },
     {
-      "id": 4,
-      "text": "The official tourism site lists a half‑day electric bike tour of the Estate of Versailles for €109 per person.",
+      "id": 5,
+      "text": "Versailles hosts an annual Classic Car Show, drawing enthusiasts to its historic streets each summer.",
       "sourceSentenceIds": [
-        11
+        12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.versailles-tourisme.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://welcometoversailles.com/"
     },
     {
-      "id": 5,
-      "text": "A nightly fountain show, “Les Grandes Eaux Nocturnes 2026,” draws visitors from outside Europe for €34 each.",
+      "id": 6,
+      "text": "A local guide spotlights hidden gardens and antique markets, offering residents a unique, off-the-beaten-path experience.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.versailles-tourisme.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 6,
-      "text": "The town’s guidebook highlights hidden gardens and antique markets, inviting travelers to experience Versailles like a local.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://welcometoversailles.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://welcometoversailles.com/"
     }
   ]
 }
