@@ -21,7 +21,7 @@
   ],
   "facts": [
     {
-      "id": 2,
+      "id": 1,
       "text": "The community borders Alice Acres to the east.",
       "sourceSentenceIds": [
         4
@@ -35,7 +35,7 @@
       "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "There are 113 housing units, giving a low density of just 22.1 per square mile.",
       "sourceSentenceIds": [
         5
@@ -49,21 +49,7 @@
       "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
-      "text": "The CDP\u2019s residents are 65.55% White, 32.90% from other races, and 0.77% African American or two\u2011race.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Coyote_Acres%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Families average 3.83 people, while households average 3.57, reflecting a fairly large household size.",
       "sourceSentenceIds": [
         7
@@ -75,18 +61,6 @@
       "category": "other",
       "quality": "poor",
       "qualityReason": "census_demographic"
-    },
-    {
-      "id": 6,
-      "text": "The median age is 26, and per capita income was $6,709 in 2000.",
-      "sourceSentenceIds": [
-        8,
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Coyote_Acres%2C_Texas"
     }
   ]
 }
