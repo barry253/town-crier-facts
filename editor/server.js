@@ -616,11 +616,19 @@ app.get('/api/wikimedia-attribution', async (req, res) => {
   const { url } = req.query;
   if (!url || typeof url !== 'string') return res.status(400).json({ ok: false, error: 'url param required' });
 
-  const match = url.match(/\/wikipedia\/commons\/[^/]+\/[^/]+\/([^/?#]+)$/i)
-    || url.match(/\/([^/?#]+\.(jpe?g|png|gif|svg|webp))(\?|$)/i);
-  if (!match) return res.status(400).json({ ok: false, error: 'Could not extract filename from URL' });
+  // Extract bare filename (no File: prefix) from either URL format:
+  //   Description: https://commons.wikimedia.org/wiki/File:Foo.jpg
+  //   Direct:      https://upload.wikimedia.org/wikipedia/commons/X/XX/Foo.jpg
+  let filename = null;
+  const descMatch = url.match(/\/wiki\/File:([^?#]+)$/i);
+  if (descMatch) {
+    filename = decodeURIComponent(descMatch[1]);
+  } else {
+    const directMatch = url.match(/\/wikipedia\/commons\/[^/]+\/[^/]+\/([^/?#]+)$/i);
+    if (directMatch) filename = decodeURIComponent(directMatch[1]);
+  }
+  if (!filename) return res.status(400).json({ ok: false, error: 'Could not extract filename from URL. Paste a Wikimedia Commons description or upload URL.' });
 
-  const filename = decodeURIComponent(match[1]);
   const apiUrl = `https://commons.wikimedia.org/w/api.php?action=query&titles=File:${encodeURIComponent(filename)}&prop=imageinfo&iiprop=extmetadata|url|user&format=json&formatversion=2`;
 
   try {
@@ -631,16 +639,18 @@ app.get('/api/wikimedia-attribution', async (req, res) => {
     if (!r.ok) throw new Error(`Wikimedia API returned ${r.status}`);
     const data = await r.json();
     const page = data?.query?.pages?.[0];
-    if (!page || page.missing) return res.status(404).json({ ok: false, error: 'File not found on Wikimedia Commons' });
+    if (!page || page.missing) return res.status(404).json({ ok: false, error: `File not found on Wikimedia Commons (tried: File:${filename})` });
 
-    const meta = page?.imageinfo?.[0]?.extmetadata || {};
+    const info = page?.imageinfo?.[0] || {};
+    const meta = info.extmetadata || {};
     const stripHtml = (s) => String(s || '').replace(/<[^>]+>/g, '').trim();
 
     res.json({
       ok: true,
+      directUrl: info.url || null,
       author: stripHtml(meta.Artist?.value),
       license: stripHtml(meta.LicenseShortName?.value),
-      sourceUrl: page?.imageinfo?.[0]?.descriptionurl || '',
+      sourceUrl: info.descriptionurl || '',
     });
   } catch (e) {
     res.status(500).json({ ok: false, error: e.message });

@@ -469,6 +469,12 @@
         statusEl.style.display = 'block'; statusEl.className = 'img-status'; statusEl.textContent = 'Fetching attribution…';
         try {
           const data = await api(`/api/wikimedia-attribution?url=${encodeURIComponent(url)}`);
+          // If user pasted a description URL, replace it with the direct upload URL
+          if (data.directUrl) {
+            imgUrlInput.value = data.directUrl;
+            imgSection.querySelector('#imgSource').value = 'override';
+            showImgPreview(data.directUrl);
+          }
           imgSection.querySelector('#imgAuthor').value = data.author || '';
           imgSection.querySelector('#imgLicense').value = data.license || '';
           imgSection.querySelector('#imgAttrSource').value = data.sourceUrl || '';
