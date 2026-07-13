@@ -583,6 +583,100 @@ app.post('/api/bridges/decisions/batch', (req, res) => {
   res.json({ ok: true, count: qids.length });
 });
 
+// ── Image override API ────────────────────────────────────────────────────────
+
+app.post('/api/image/save', (req, res) => {
+  const { file, imageUrl, imageSource, imageAttribution } = req.body || {};
+  const json = readFactFile(file);
+
+  if (imageUrl) {
+    json.imageUrl = String(imageUrl).trim();
+    json.imageSource = imageSource ? String(imageSource).trim() : 'override';
+    if (imageAttribution && typeof imageAttribution === 'object') {
+      json.imageAttribution = {
+        author: String(imageAttribution.author || '').trim(),
+        license: String(imageAttribution.license || '').trim(),
+        sourceUrl: String(imageAttribution.sourceUrl || '').trim(),
+      };
+    } else {
+      delete json.imageAttribution;
+    }
+  } else {
+    delete json.imageUrl;
+    delete json.imageSource;
+    delete json.imageAttribution;
+  }
+
+  writeFactFile(file, json);
+  const rebuild = rebuildIndex();
+  res.json({ ok: true, rebuild });
+});
+
+app.get('/api/wikimedia-attribution', async (req, res) => {
+  const { url } = req.query;
+  if (!url || typeof url !== 'string') return res.status(400).json({ ok: false, error: 'url param required' });
+
+  const match = url.match(/\/wikipedia\/commons\/[^/]+\/[^/]+\/([^/?#]+)$/i)
+    || url.match(/\/([^/?#]+\.(jpe?g|png|gif|svg|webp))(\?|$)/i);
+  if (!match) return res.status(400).json({ ok: false, error: 'Could not extract filename from URL' });
+
+  const filename = decodeURIComponent(match[1]);
+  const apiUrl = `https://commons.wikimedia.org/w/api.php?action=query&titles=File:${encodeURIComponent(filename)}&prop=imageinfo&iiprop=extmetadata|url|user&format=json&formatversion=2`;
+
+  try {
+    const r = await fetch(apiUrl, {
+      headers: { 'User-Agent': 'TownCrier-Pi/1.0 (barry253@gmail.com)' },
+      signal: AbortSignal.timeout(10000),
+    });
+    if (!r.ok) throw new Error(`Wikimedia API returned ${r.status}`);
+    const data = await r.json();
+    const page = data?.query?.pages?.[0];
+    if (!page || page.missing) return res.status(404).json({ ok: false, error: 'File not found on Wikimedia Commons' });
+
+    const meta = page?.imageinfo?.[0]?.extmetadata || {};
+    const stripHtml = (s) => String(s || '').replace(/<[^>]+>/g, '').trim();
+
+    res.json({
+      ok: true,
+      author: stripHtml(meta.Artist?.value),
+      license: stripHtml(meta.LicenseShortName?.value),
+      sourceUrl: page?.imageinfo?.[0]?.descriptionurl || '',
+    });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
+  }
+});
+
+app.get('/api/kokoro-clips/:slug', async (req, res) => {
+  const { slug } = req.params;
+  if (!slug || !/^[a-z0-9-]+$/.test(slug)) return res.status(400).json({ ok: false, error: 'Invalid slug' });
+
+  const factFile = path.join(factsDir, `${slug}.json`);
+  let factCount = 0;
+  try {
+    const json = JSON.parse(fs.readFileSync(factFile, 'utf8'));
+    factCount = Array.isArray(json.facts) ? json.facts.length : 0;
+  } catch { /* file not found or unreadable — factCount stays 0 */ }
+
+  const base = `https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/facts/${slug}/kokoro-af_heart`;
+  const checks = ['welcome', ...Array.from({ length: factCount }, (_, i) => `fact-${i}`)];
+
+  const results = await Promise.all(checks.map(async (name) => {
+    try {
+      const r = await fetch(`${base}/${name}.mp3`, {
+        method: 'HEAD',
+        signal: AbortSignal.timeout(5000),
+      });
+      return r.ok;
+    } catch {
+      return false;
+    }
+  }));
+
+  const [welcome, ...factClips] = results;
+  res.json({ ok: true, welcome, facts: factClips });
+});
+
 app.use((error, req, res, next) => {
   console.error(error);
   res.status(400).json({ ok: false, error: error.message || String(error) });

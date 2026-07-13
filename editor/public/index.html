@@ -133,6 +133,20 @@
     .status.show { display: block; }
     .topbar { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 12px; }
     .git { font-size: 12px; color: #666; white-space: pre-wrap; background: #f5f5f5; padding: 8px; border-radius: 8px; margin-top: 8px; }
+    .image-section { border: 1px solid #ddd; border-radius: 12px; padding: 14px; margin: 0 0 16px; background: #fff; }
+    .image-section h3 { margin: 0 0 12px; font-size: 15px; }
+    .img-preview { width: 200px; height: 133px; object-fit: cover; border-radius: 8px; border: 1px solid #ddd; display: block; flex-shrink: 0; }
+    .img-placeholder { width: 200px; height: 133px; background: #f5f5f5; border-radius: 8px; border: 1px solid #ddd; display: flex; align-items: center; justify-content: center; color: #bbb; font-size: 13px; flex-shrink: 0; }
+    .img-error-hint { color: #c62828; font-size: 11px; margin-top: 4px; display: none; }
+    .img-layout { display: flex; gap: 16px; align-items: flex-start; }
+    .img-fields { flex: 1; min-width: 0; }
+    .img-status { font-size: 12px; margin-top: 8px; color: #555; display: none; }
+    .img-status.error { color: #c62828; }
+    .play-btn { background: #f0f4f8; border: 1px solid #c5d0da; border-radius: 6px; padding: 4px 9px; font-size: 13px; cursor: pointer; flex-shrink: 0; line-height: 1.4; }
+    .play-btn:hover { background: #e3eaf1; }
+    .play-btn:disabled { opacity: 0.35; cursor: not-allowed; }
+    .play-btn.playing { background: #e8f5e9; border-color: #a5d6a7; color: #1b5e20; }
+    .play-btn.error-state { background: #ffebee; border-color: #ef9a9a; color: #b71c1c; }
     @media (max-width: 800px) {
       body { display: block; height: auto; }
       aside { width: 100%; max-height: 48vh; border-right: none; border-bottom: 1px solid #ddd; }
@@ -231,6 +245,9 @@
     let currentLmFile = null;
     let currentLmData = null;
     let dragSrcFactIndex = null;
+    let currentAudio = null;
+    let currentAudioBtn = null;
+    const kokoroCache = new Map();
 
     const $ = (id) => document.getElementById(id);
     const esc = (s) => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
@@ -340,7 +357,135 @@
       $('addFactBtn').style.display = 'inline-block';
       const el = $('facts');
       el.innerHTML = '';
-      if(!facts.length) el.innerHTML = '<div class="muted">No facts yet.</div>';
+
+      // ── Image section ──────────────────────────────────────────────────────
+      const slug = json.slug || currentFile.replace(/\.json$/, '');
+      const imgSection = document.createElement('div');
+      imgSection.className = 'image-section';
+
+      const cachedClips = kokoroCache.get(slug) || null;
+      const welcomePlayHtml = `<button class="play-btn" id="welcomePlayBtn" title="Play welcome clip"${cachedClips && !cachedClips.welcome ? ' disabled' : ''}>▶</button>`;
+
+      imgSection.innerHTML = `
+        <h3>Image ${welcomePlayHtml}</h3>
+        <div class="img-layout">
+          <div id="imgPreviewWrap" style="flex-shrink:0">
+            ${json.imageUrl
+              ? `<img id="imgPreview" class="img-preview" src="${esc(json.imageUrl)}" alt="Town image" /><div id="imgPlaceholder" class="img-placeholder" style="display:none">No image</div>`
+              : `<img id="imgPreview" class="img-preview" style="display:none" alt="Town image" /><div id="imgPlaceholder" class="img-placeholder">No image</div>`}
+            <div class="img-error-hint" id="imgErrorHint">URL failed to load</div>
+          </div>
+          <div class="img-fields">
+            <div class="field"><label>Image URL</label><input id="imgUrl" value="${esc(json.imageUrl || '')}" placeholder="https://upload.wikimedia.org/..." /></div>
+            <div class="field"><label>Image source</label>
+              <select id="imgSource">
+                <option value=""${!json.imageSource ? ' selected' : ''}>— auto (Wikipedia)</option>
+                <option value="override"${json.imageSource === 'override' ? ' selected' : ''}>override</option>
+                <option value="pipeline"${json.imageSource === 'pipeline' ? ' selected' : ''}>pipeline</option>
+              </select>
+            </div>
+            <div class="field"><label>Attribution — Author</label><input id="imgAuthor" value="${esc(json.imageAttribution?.author || '')}" /></div>
+            <div class="field"><label>Attribution — License</label><input id="imgLicense" value="${esc(json.imageAttribution?.license || '')}" /></div>
+            <div class="field"><label>Attribution — Source URL</label><input id="imgAttrSource" value="${esc(json.imageAttribution?.sourceUrl || '')}" /></div>
+            <div class="actions">
+              <button class="primary" id="imgSaveBtn">Save Image</button>
+              <button id="imgAutoFetchBtn">Auto-fetch Wikimedia</button>
+              <button id="imgResetBtn">Reset to Auto</button>
+              <button id="imgPreviewBtn" class="small">Preview URL</button>
+            </div>
+            <div class="img-status" id="imgStatus"></div>
+          </div>
+        </div>
+      `;
+      el.appendChild(imgSection);
+
+      // Image preview logic
+      const imgEl = imgSection.querySelector('#imgPreview');
+      const placeholderEl = imgSection.querySelector('#imgPlaceholder');
+      const errorHintEl = imgSection.querySelector('#imgErrorHint');
+      const imgUrlInput = imgSection.querySelector('#imgUrl');
+
+      function showImgPreview(url) {
+        if (!url) { imgEl.style.display = 'none'; placeholderEl.style.display = 'flex'; errorHintEl.style.display = 'none'; return; }
+        imgEl.src = url;
+        imgEl.style.display = 'block';
+        placeholderEl.style.display = 'none';
+        errorHintEl.style.display = 'none';
+        imgEl.onerror = () => { imgEl.style.display = 'none'; placeholderEl.style.display = 'flex'; errorHintEl.style.display = 'block'; };
+        imgEl.onload = () => { errorHintEl.style.display = 'none'; };
+      }
+
+      imgUrlInput.addEventListener('blur', () => showImgPreview(imgUrlInput.value.trim()));
+      imgUrlInput.addEventListener('change', () => {
+        const src = imgSection.querySelector('#imgSource');
+        if (src && imgUrlInput.value.trim()) src.value = 'override';
+      });
+
+      imgSection.querySelector('#imgPreviewBtn').onclick = () => showImgPreview(imgUrlInput.value.trim());
+
+      imgSection.querySelector('#imgSaveBtn').onclick = async () => {
+        const statusEl = imgSection.querySelector('#imgStatus');
+        statusEl.style.display = 'block'; statusEl.className = 'img-status'; statusEl.textContent = 'Saving…';
+        try {
+          const attr = {
+            author: imgSection.querySelector('#imgAuthor').value.trim(),
+            license: imgSection.querySelector('#imgLicense').value.trim(),
+            sourceUrl: imgSection.querySelector('#imgAttrSource').value.trim(),
+          };
+          const hasAttr = attr.author || attr.license || attr.sourceUrl;
+          await api('/api/image/save', {
+            method: 'POST', headers: {'Content-Type':'application/json'},
+            body: JSON.stringify({
+              file: currentFile,
+              imageUrl: imgUrlInput.value.trim() || null,
+              imageSource: imgSection.querySelector('#imgSource').value || null,
+              imageAttribution: hasAttr ? attr : null,
+            })
+          });
+          statusEl.textContent = 'Saved.';
+          await loadAll(); await loadTown(currentFile);
+        } catch(e) { statusEl.className = 'img-status error'; statusEl.textContent = e.message; }
+      };
+
+      imgSection.querySelector('#imgResetBtn').onclick = async () => {
+        if (!confirm('Remove image override? Reverts to Wikipedia image behavior.')) return;
+        const statusEl = imgSection.querySelector('#imgStatus');
+        statusEl.style.display = 'block'; statusEl.className = 'img-status'; statusEl.textContent = 'Resetting…';
+        try {
+          await api('/api/image/save', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ file: currentFile, imageUrl: null }) });
+          statusEl.textContent = 'Reset to auto.';
+          await loadAll(); await loadTown(currentFile);
+        } catch(e) { statusEl.className = 'img-status error'; statusEl.textContent = e.message; }
+      };
+
+      imgSection.querySelector('#imgAutoFetchBtn').onclick = async () => {
+        const url = imgUrlInput.value.trim();
+        const statusEl = imgSection.querySelector('#imgStatus');
+        if (!url.includes('wikimedia.org') && !url.includes('wikipedia.org')) {
+          statusEl.style.display = 'block'; statusEl.className = 'img-status error';
+          statusEl.textContent = 'Only Wikimedia Commons URLs supported for auto-fetch.';
+          return;
+        }
+        statusEl.style.display = 'block'; statusEl.className = 'img-status'; statusEl.textContent = 'Fetching attribution…';
+        try {
+          const data = await api(`/api/wikimedia-attribution?url=${encodeURIComponent(url)}`);
+          imgSection.querySelector('#imgAuthor').value = data.author || '';
+          imgSection.querySelector('#imgLicense').value = data.license || '';
+          imgSection.querySelector('#imgAttrSource').value = data.sourceUrl || '';
+          statusEl.textContent = 'Attribution fetched — review and Save.';
+        } catch(e) { statusEl.className = 'img-status error'; statusEl.textContent = e.message; }
+      };
+
+      // Wire welcome play button
+      const welcomeBtn = imgSection.querySelector('#welcomePlayBtn');
+      if (welcomeBtn) {
+        welcomeBtn.onclick = () => playKokoroClip(slug, 'welcome', welcomeBtn);
+      }
+
+      // Load Kokoro clip availability (per-render, cached per slug)
+      initKokoroAvailability(slug, facts.length);
+
+      if(!facts.length) { const m = document.createElement('div'); m.className='muted'; m.textContent='No facts yet.'; el.appendChild(m); }
       facts.forEach((f)=>{
         const card = document.createElement('div');
         card.className = `fact-card ${f.worst||''}`.trim();
@@ -348,11 +493,15 @@
         card.setAttribute('draggable', 'true');
         card.dataset.factIndex = f.factIndex;
         const reviewedBadge = f.reviewed ? '<span class="flag reviewed">Reviewed</span>' : '';
+        const clipIndex = f.factIndex;
+        const clipAvail = cachedClips ? cachedClips.facts[clipIndex] : null;
+        const playDisabled = cachedClips !== null && !clipAvail ? ' disabled' : '';
         card.innerHTML = `
           <div class="fact-head">
             <span class="drag-handle" title="Drag to reorder">⠿</span>
             <b>Fact #${f.factNumber}</b>
             <div class="muted">index ${f.factIndex}</div>
+            <button class="play-btn fact-play-btn" data-clip-index="${clipIndex}" title="Play Kokoro clip"${playDisabled}>▶</button>
           </div>
           <div class="flags">${reviewedBadge}${(f.flags||[]).map(flag=>`<span class="flag ${flag.severity}">${esc(flag.label)}</span>`).join('')}</div>
           <div class="field"><label>Fact text</label><textarea data-field="text">${esc(f.text)}</textarea></div>
@@ -372,6 +521,7 @@
         card.querySelector('[data-action="ignore"]').onclick = ()=>reviewFact(f.factIndex, 'ignore_flag', card);
         card.querySelector('[data-action="needs"]').onclick = ()=>reviewFact(f.factIndex, 'needs_fix', card);
         card.querySelector('[data-action="delete"]').onclick = ()=>deleteFact(f.factIndex);
+        card.querySelector('.fact-play-btn').onclick = function() { playKokoroClip(slug, `fact-${clipIndex}`, this); };
 
         card.addEventListener('dragstart', e => {
           dragSrcFactIndex = f.factIndex;
@@ -1117,6 +1267,93 @@
         btn.disabled = false; btn.textContent = 'Publish';
       }
     };
+
+    // ── Kokoro clip availability + playback ────────────────────────────────────
+
+    const R2_BASE = 'https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev';
+
+    async function initKokoroAvailability(slug, factCount) {
+      if (kokoroCache.has(slug)) {
+        applyKokoroAvailability(slug, kokoroCache.get(slug));
+        return;
+      }
+      try {
+        const data = await api(`/api/kokoro-clips/${encodeURIComponent(slug)}`);
+        kokoroCache.set(slug, data);
+        applyKokoroAvailability(slug, data);
+      } catch {
+        // Silently ignore — play buttons stay in default state
+      }
+    }
+
+    function applyKokoroAvailability(slug, data) {
+      // Only apply to currently rendered town
+      if (!currentTownPayload || (currentTownPayload.json.slug || currentFile?.replace(/\.json$/,'')) !== slug) return;
+
+      const welcomeBtn = $('welcomePlayBtn');
+      if (welcomeBtn) welcomeBtn.disabled = !data.welcome;
+
+      document.querySelectorAll('.fact-play-btn').forEach(btn => {
+        const idx = parseInt(btn.dataset.clipIndex);
+        btn.disabled = !(data.facts && data.facts[idx]);
+      });
+    }
+
+    function playKokoroClip(slug, clipName, btn) {
+      const url = `${R2_BASE}/facts/${slug}/kokoro-af_heart/${clipName}.mp3`;
+
+      // Stop currently playing audio if any
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio = null;
+        if (currentAudioBtn && currentAudioBtn !== btn) {
+          currentAudioBtn.textContent = '▶';
+          currentAudioBtn.classList.remove('playing');
+        }
+      }
+
+      if (btn.classList.contains('playing')) {
+        btn.textContent = '▶';
+        btn.classList.remove('playing');
+        currentAudioBtn = null;
+        return;
+      }
+
+      btn.textContent = '⟳';
+      btn.classList.remove('playing', 'error-state');
+
+      const audio = new Audio(url);
+      currentAudio = audio;
+      currentAudioBtn = btn;
+
+      audio.oncanplay = () => {
+        if (currentAudio !== audio) return;
+        btn.textContent = '⏸';
+        btn.classList.add('playing');
+        audio.play().catch(() => {
+          btn.textContent = '▶';
+          btn.classList.remove('playing');
+          btn.classList.add('error-state');
+          if (currentAudio === audio) currentAudio = null;
+        });
+      };
+
+      audio.onended = () => {
+        if (currentAudio === audio) currentAudio = null;
+        btn.textContent = '▶';
+        btn.classList.remove('playing');
+        currentAudioBtn = null;
+      };
+
+      audio.onerror = () => {
+        if (currentAudio === audio) currentAudio = null;
+        btn.textContent = '▶';
+        btn.classList.remove('playing');
+        btn.classList.add('error-state');
+        currentAudioBtn = null;
+        showStatus(`Clip not available: ${clipName}`, true);
+      };
+    }
 
     loadAll().catch(e=>showStatus(e.message, true));
   </script>
