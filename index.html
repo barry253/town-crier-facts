@@ -145,6 +145,7 @@
     const lmCache = new Map();
     let currentAudio = null;
     let currentAudioBtn = null;
+    let renderGen = 0;
 
     const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
     const CONTEXT_STARTERS = ["it ", "this ", "that ", "these ", "those ", "he ", "she ", "they ", "there ", "the name ", "the park ", "the building ", "the area "];
@@ -234,7 +235,7 @@
       return btn;
     }
 
-    async function checkClips(slug, factCount) {
+    async function checkClips(slug, factCount, gen) {
       const n = Math.min(factCount, 6);
       const clips = [
         { id: 'clip-welcome', url: `${R2}/facts/${slug}/kokoro-af_heart/welcome.mp3`, label: 'welcome.mp3' },
@@ -248,18 +249,21 @@
       // Audio metadata probe — avoids CORS preflight that blocks fetch({method:'HEAD'}).
       // Audio elements load cross-origin without CORS headers; onloadedmetadata fires
       // on 200, onerror fires on 404/network-error.
+      // gen guards against stale probes firing after a newer town was selected.
       await Promise.all(clips.map(({ id, url, label }) => new Promise(resolve => {
         const slot = document.getElementById(id);
         if (!slot) return resolve();
         const probe = new Audio();
         probe.preload = 'metadata';
         probe.onloadedmetadata = () => {
+          if (gen !== renderGen) return resolve();
           const btn = makeClipBtn(url, label);
+          btn.id = id;
           slot.replaceWith(btn);
           if (id === 'clip-welcome') document.getElementById('welcomeClipRow').style.display = '';
           resolve();
         };
-        probe.onerror = () => { slot.remove(); resolve(); };
+        probe.onerror = () => { if (gen === renderGen) slot.remove(); resolve(); };
         probe.src = url;
       })));
     }
@@ -377,6 +381,7 @@
 
     function renderTown(){
       if(!currentJson) return;
+      const gen = ++renderGen;
       const facts = currentJson.facts || [];
       const showSources = document.getElementById("showSources").checked;
       const showFlags = document.getElementById("showFlags").checked;
@@ -443,7 +448,7 @@
       });
 
       // Fire HEAD checks for all clips (non-blocking)
-      checkClips(slug, facts.length);
+      checkClips(slug, facts.length, gen);
     }
 
     // ── Landmarks ─────────────────────────────────────────────────────────────
