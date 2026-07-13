@@ -352,22 +352,26 @@
 
     function renderTown(focusFactIndex=null){
       const { town, json, facts } = currentTownPayload;
-      $('title').textContent = json.place || townLabel(town || {file: currentFile});
+      const slug = json.slug || currentFile.replace(/\.json$/, '');
+      const cachedClips = kokoroCache.get(slug) || null;
+
+      // Title + welcome play button
+      const placeName = json.place || townLabel(town || {file: currentFile});
+      const welcomeVisible = cachedClips === null || cachedClips.welcome;
+      $('title').innerHTML = `${esc(placeName)} <button class="play-btn" id="welcomePlayBtn" title="Play welcome clip" style="font-size:13px;padding:3px 8px;vertical-align:middle${welcomeVisible ? '' : ';display:none'}">▶</button>`;
+      $('welcomePlayBtn').onclick = () => playKokoroClip(slug, 'welcome', $('welcomePlayBtn'));
+
       $('subtitle').textContent = `${currentFile} · ${facts.length} facts`;
       $('addFactBtn').style.display = 'inline-block';
       const el = $('facts');
       el.innerHTML = '';
 
       // ── Image section ──────────────────────────────────────────────────────
-      const slug = json.slug || currentFile.replace(/\.json$/, '');
       const imgSection = document.createElement('div');
       imgSection.className = 'image-section';
 
-      const cachedClips = kokoroCache.get(slug) || null;
-      const welcomePlayHtml = `<button class="play-btn" id="welcomePlayBtn" title="Play welcome clip"${cachedClips && !cachedClips.welcome ? ' disabled' : ''}>▶</button>`;
-
       imgSection.innerHTML = `
-        <h3>Image ${welcomePlayHtml}</h3>
+        <h3>Image</h3>
         <div class="img-layout">
           <div id="imgPreviewWrap" style="flex-shrink:0">
             ${json.imageUrl
@@ -481,12 +485,6 @@
           statusEl.textContent = 'Attribution fetched — review and Save.';
         } catch(e) { statusEl.className = 'img-status error'; statusEl.textContent = e.message; }
       };
-
-      // Wire welcome play button
-      const welcomeBtn = imgSection.querySelector('#welcomePlayBtn');
-      if (welcomeBtn) {
-        welcomeBtn.onclick = () => playKokoroClip(slug, 'welcome', welcomeBtn);
-      }
 
       // Load Kokoro clip availability (per-render, cached per slug)
       initKokoroAvailability(slug, facts.length);
@@ -1297,7 +1295,7 @@
       if (!currentTownPayload || (currentTownPayload.json.slug || currentFile?.replace(/\.json$/,'')) !== slug) return;
 
       const welcomeBtn = $('welcomePlayBtn');
-      if (welcomeBtn) welcomeBtn.disabled = !data.welcome;
+      if (welcomeBtn) welcomeBtn.style.display = data.welcome ? '' : 'none';
 
       document.querySelectorAll('.fact-play-btn').forEach(btn => {
         const idx = parseInt(btn.dataset.clipIndex);
