@@ -1329,25 +1329,33 @@
 
       let html = '';
       if (d.existsInOutput) {
-        html += `<div class="muted" style="color:#7a5200;margin-bottom:8px">A draft already exists in output/ for this slug. Proceeding will replace it.</div>`;
+        html += `<div class="muted" style="color:#7a5200;margin-bottom:8px">A draft already exists in output/ for this slug.</div>
+          <button class="primary" id="ntOpenDraftBtn" style="margin-bottom:8px">Open draft for editing</button>
+          <div class="muted" style="margin-bottom:8px">Or replace it entirely:</div>`;
       }
       if (d.articleResolved) {
         html += `<div class="muted" style="margin-bottom:8px">Wikipedia match: <b>${esc(d.articleTitle)}</b></div>
-          <button class="primary" id="ntGenerateBtn">Generate facts from Wikipedia</button>`;
+          <button${d.existsInOutput ? '' : ' class="primary"'} id="ntGenerateBtn">Generate facts from Wikipedia</button>`;
       } else {
         html += `<div class="muted" style="color:#c62828;margin-bottom:8px">${esc(d.rejectReason || 'No Wikipedia article found.')}</div>
           <button id="ntStubBtn">Create empty JSON stub</button>`;
       }
       el.innerHTML = html;
 
+      const openBtn = $('ntOpenDraftBtn');
+      if (openBtn) openBtn.onclick = async () => {
+        $('newTownOverlay').style.display = 'none';
+        await loadAll();
+        await loadTown(`${d.slug}.json`);
+      };
       const genBtn = $('ntGenerateBtn');
       if (genBtn) genBtn.onclick = () => {
-        if (d.existsInOutput && !confirm('A draft already exists for this town. Overwrite it?')) return;
+        if (d.existsInOutput && !confirm('A draft already exists for this town. Overwrite it? This discards any facts already added to the draft.')) return;
         runNewTownGenerate(d);
       };
       const stubBtn = $('ntStubBtn');
       if (stubBtn) stubBtn.onclick = () => {
-        if (d.existsInOutput && !confirm('A draft already exists for this town. Overwrite it?')) return;
+        if (d.existsInOutput && !confirm('A draft already exists for this town. Overwrite it? This discards any facts already added to the draft.')) return;
         runNewTownStub(d);
       };
     }
