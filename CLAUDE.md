@@ -61,11 +61,21 @@ Files with any reviewed fact (status: `approved`, `ignore_flag`, `reviewed`, or 
 
 ## Fact editor
 
-Start the editor server:
+Location: `editor/server.js` (Express) + `editor/public/index.html`
+(single static page, vanilla JS). Runs as a systemd service, not a
+foreground process:
+
 ```bash
-cd ~/town-crier-facts
-node editor/server.js
+sudo systemctl restart town-crier-editor   # after ANY editor/ code change — server.js is not hot-reloaded
+sudo systemctl status town-crier-editor
+journalctl -u town-crier-editor -n 50
 ```
+
+**Gotcha:** the editor has no per-request logging. `journalctl` only
+ever shows systemd start/stop lines, never publish/generate activity —
+the SSE stream sent to the browser during Publish/New Town is the
+*only* place that activity is visible, and it is not mirrored to
+stdout. Don't read journalctl silence as "nothing happened."
 
 Access from Windows via SSH tunnel (in a separate terminal):
 ```powershell
@@ -78,10 +88,152 @@ Then open http://localhost:8787 in your browser.
 Features:
 - Browse and edit facts by town
 - Drag-to-reorder facts within a file
-- **Publish button** runs the full lifecycle: rebuild index → git add → commit → push → R2 sync, with real-time progress streaming
+- **+ New Town** — see "New Town workflow" below
+- **Publish button** — see "Publish pipeline" below
 - The Publish step includes a **"Check protected files"** stage that lists every fact file containing reviewed facts, confirming what will be preserved during any subsequent rsync from `output/`
 
 After committing manually, rebuild the index and push as normal.
+
+### New Town workflow
+
+"+ New Town" opens a modal: enter town name + state, click Check.
+
+- The editor computes the slug and checks it against `facts/`
+  (published) and `town-facts-lab/output/` (draft) first — refuses to
+  proceed if already published; if a draft already exists it offers a
+  non-destructive **"Open draft for editing"** option rather than
+  silently overwriting it (Generate/Stub, the alternatives, both
+  unconditionally overwrite — a real bug found and fixed 2026-07-15
+  after a hand-edited High View draft nearly got wiped by a re-run).
+- Attempts Wikipedia resolution via `town-facts-lab/scripts/resolveWikipedia.ts`
+  (invoked as a subprocess — the editor is a separate repo/process
+  from the TS pipeline, so it can't import `wikipediaResolve.ts`
+  directly; see that repo's `GLOSSARY.md`).
+  - **Resolved**: runs `generateFacts.ts` for the matched article
+    (SSE-streamed), writes `town-facts-lab/output/<slug>.json` tagged
+    `createdVia: "editor-resolved"`.
+  - **Rejected** (no matching article — e.g. a hamlet with only a
+    one-line mention in a neighboring town's article, no standalone
+    page): offers **"Create empty JSON stub"**, writing an empty
+    `{slug, place, sources: [], facts: []}` draft tagged
+    `createdVia: "editor-manual"` so facts can be entered by hand in
+    the normal fact-review UI.
+- Facts and an optional image URL override can then be edited like any
+  other draft. Drafts live in `town-facts-lab/output/` until published
+  — the same staging area the generation pipeline already uses.
+
+### Publish pipeline
+
+Corrected step order (fixed 2026-07-16, commit `c64fc43f`,
+[PR #2](https://github.com/barry253/town-crier-facts/pull/2)):
+
+1. **Sync to R2** — invokes `town-facts-lab/scripts/publish-facts.sh`,
+   which rsyncs `output/` → `facts/` (new towns only —
+   `--ignore-existing`, see `town-facts-lab/CLAUDE.md`'s Historical
+   Lessons), rebuilds indexes, commits, pushes, and mirrors to R2.
+   Runs first and unconditionally.
+2. **Record pending Kokoro entries** — only for files newly present in
+   `facts/` this run whose `createdVia` is `"editor-manual"` or
+   `"editor-resolved"` (see "Kokoro synthesis" below). Pipeline-
+   generated towns have no `createdVia` field and are never added here.
+3. Rebuild indexes (the editor's own copy — catches anything
+   `publish-facts.sh`'s internal commit didn't, e.g. `neighborhoods/`)
+4. Stage changes
+5. Check for changes — short-circuits cleanly here if there's nothing
+   left to stage
+6. Commit
+7. Push to `origin/main`
+
+**Why step 1 runs first:** it used to run last, after stage/commit/
+push. A brand-new town living only in `output/` meant step 4's
+`git add facts` found nothing (the town hadn't been rsynced in yet),
+so the flow hit the step-5 short-circuit and returned "success"
+without `publish-facts.sh` ever running — silently dropping the new
+town. Confirmed via a real failed High View, NY publish attempt on
+2026-07-16. Running the rsync first is safe for edit-only publishes
+too: `publish-facts.sh`'s `--ignore-existing` rsync is a no-op when
+there's no new-town draft pending.
+
+**Existing-town edits** (image URL override, fact text changes) never
+touch `output/` — they're made directly against files already in
+`facts/`, so they flow straight through steps 3–7 with step 1 a no-op.
+
+**Gotcha:** this pipeline only ever creates a `pending-kokoro.jsonl`
+entry for a genuinely *new* town — never for an edit to an
+already-published one. Editing High View's facts after its Kokoro
+clips are synthesized, for example, does not re-queue it for a fresh
+synthesis pass.
+
+## Kokoro synthesis (Pi-driven, manual dispatch)
+
+Editor-created towns (New Town workflow above) need Kokoro TTS clips
+synthesized and published to R2 before the app plays them instead of
+falling back to on-device TTS. This is separate from DS CC's bulk
+state-batch synthesis (`kokoro-bench` scripts run from the Windows
+machine) — this is the on-demand, per-town path for editor-created
+towns, run from the Pi (always on and otherwise idle, unlike DS CC's
+laptop which is often off during work hours).
+
+```bash
+cd ~/town-crier-facts
+./scripts/process-pending-kokoro.sh
+```
+
+What it does (`scripts/process-pending-kokoro.sh` +
+`scripts/kokoro_consume.py`, shipped 2026-07-16, commit `f4d6c4a6`):
+
+1. **Dict rules sync** — `git pull --ff-only origin main` in
+   `~/kokoro-bench` (clone of `barry253/kokoro-bench`). **Hard-fails
+   the whole run** if the pull fails — never synthesizes against
+   possibly-stale `data/pronunciation-overrides.json` (flat JSON,
+   `{word: IPA phoneme string}`, currently ~1,159 entries). Reports
+   the before/after commit and how many dict entries actually changed.
+2. Loads R2 write credentials from `~/.config/town-crier/r2-kokoro.env`
+   (0600) — reused from the same Cloudflare R2 API token as
+   `~/.config/rclone/rclone.conf`'s `[r2]` remote (verified working
+   for both read and write via `boto3` before adopting it, rather than
+   provisioning a second credential).
+3. Diffs `pending-kokoro.jsonl` against `completed-kokoro.jsonl` (both
+   at the repo root) by slug.
+4. For each new slug: fetches `facts/<slug>.json` fresh from R2 (never
+   a local mirror — matches `kokoro-bench`'s own house rule), synthesizes
+   `welcome.mp3` + `fact-0.mp3`...`fact-N.mp3` via `kokoro-bench`'s own
+   `Synthesizer` class (`af_heart` voice, Experiment C -16 LUFS
+   normalization — the identical pipeline DS CC's batch scripts use,
+   imported directly rather than reimplemented), uploads to
+   `facts/<slug>/kokoro-af_heart/*.mp3`.
+5. All-or-nothing per slug — a `completed-kokoro.jsonl` entry is only
+   written once every clip for that slug has synthesized *and*
+   uploaded. A failure anywhere rolls back any clips already uploaded
+   to R2 for that slug and writes nothing to `completed-kokoro.jsonl`,
+   so a re-run picks the slug back up from scratch rather than leaving
+   a half-published town. Uploads retry 3x before counting as failed.
+6. Idempotent — safe to re-run; already-completed slugs are skipped
+   without reloading the model.
+7. Does **not** touch `kokoro-manifest.json` or `kokoro-batch-status.json`
+   — those are DS CC's own coverage-dashboard bookkeeping, regenerated
+   periodically from R2 truth by `kokoro-bench/scripts/build-kokoro-manifest.ts`.
+
+### pending-kokoro.jsonl / completed-kokoro.jsonl
+
+Both live at the `town-crier-facts` repo root.
+
+`pending-kokoro.jsonl` — written by the editor's Publish pipeline
+(step 2 above), one line per new editor-created town:
+```json
+{"slug": "high-view-new-york", "addedAt": "2026-07-16T14:22:31.288Z", "addedBy": "editor-manual"}
+```
+`addedBy` is always the file's `createdVia` value (`"editor-manual"`
+or `"editor-resolved"`).
+
+`completed-kokoro.jsonl` — appended by `process-pending-kokoro.sh` on
+success:
+```json
+{"slug": "high-view-new-york", "completedAt": "2026-07-16T14:51:58.000Z", "clipCount": 2, "addedBy": "editor-manual"}
+```
+`addedBy` is carried over from the matching `pending-kokoro.jsonl`
+entry, so it's possible to audit which synthesis path (editor vs. any
+future automated consumer) produced a given completion.
 
 ## Generating a single fact file
 
