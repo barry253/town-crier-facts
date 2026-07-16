@@ -112,13 +112,36 @@ def upload_with_retries(client, bucket, local_path, key, retries=UPLOAD_RETRIES)
 def main():
     pending = read_jsonl(PENDING_PATH)
     completed = read_jsonl(COMPLETED_PATH)
-    completed_slugs = {e["slug"] for e in completed}
 
+    # Latest pending entry per slug wins -- a re-synthesize request
+    # (addedBy: "editor-resync", see editor's /api/town/resync-kokoro)
+    # appended after an earlier entry for the same slug should be the one
+    # that's compared against completion state below.
     unique_pending = {}
     for e in pending:
-        unique_pending.setdefault(e["slug"], e)
-    todo = [e for slug, e in unique_pending.items() if slug not in completed_slugs]
-    already_done = [slug for slug in unique_pending if slug in completed_slugs]
+        slug = e["slug"]
+        if slug not in unique_pending or e.get("addedAt", "") >= unique_pending[slug].get("addedAt", ""):
+            unique_pending[slug] = e
+
+    # Latest completed entry per slug -- a slug can legitimately appear more
+    # than once here if it's been re-synthesized before.
+    completed_by_slug = {}
+    for e in completed:
+        completed_by_slug[e["slug"]] = e
+
+    # A slug needs (re-)synthesis if it was never completed, OR if it was
+    # queued again (addedAt) after its last completion (completedAt) --
+    # e.g. a "Re-synthesize Kokoro" click on a town whose facts changed
+    # since it was last synthesized. Without this comparison, a resync
+    # request would be silently skipped forever as "already done."
+    todo = []
+    already_done = []
+    for slug, e in unique_pending.items():
+        c = completed_by_slug.get(slug)
+        if c is None or e.get("addedAt", "") > c.get("completedAt", ""):
+            todo.append(e)
+        else:
+            already_done.append(slug)
 
     print(f"pending-kokoro.jsonl: {len(pending)} line(s), {len(unique_pending)} unique slug(s)")
     print(f"already completed: {len(already_done)}")

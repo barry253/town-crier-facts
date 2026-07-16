@@ -240,8 +240,10 @@
       </div>
       <div style="display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap">
         <button id="addFactBtn" style="display:none">Add Fact</button>
+        <button id="resyncKokoroBtn" style="display:none" title="Queue this town for a fresh Kokoro synthesis pass — does not synthesize immediately">Re-synthesize Kokoro</button>
         <button id="newTownBtn">+ New Town</button>
         <button id="publishBtn" class="publish">Publish</button>
+        <button id="publishSynthBtn" class="publish" title="Publish, then synthesize any queued Kokoro clips — slower than Publish alone">Publish and Synthesize</button>
       </div>
     </div>
     <div id="publishLog" class="publish-log" style="display:none"></div>
@@ -378,6 +380,7 @@
 
       $('subtitle').textContent = `${currentFile} · ${facts.length} facts`;
       $('addFactBtn').style.display = 'inline-block';
+      $('resyncKokoroBtn').style.display = 'inline-block';
       const el = $('facts');
       el.innerHTML = '';
 
@@ -701,6 +704,7 @@
       $('title').textContent = data.region || currentLmFile;
       $('subtitle').textContent = `${currentLmFile} · ${(data.landmarks||[]).length} landmarks`;
       $('addFactBtn').style.display = 'none';
+      $('resyncKokoroBtn').style.display = 'none';
       const el = $('facts');
       el.innerHTML = '';
       if (!(data.landmarks||[]).length) { el.innerHTML = '<div class="muted">No landmarks in this collection.</div>'; return; }
@@ -929,6 +933,7 @@
       $('title').textContent = candidate.label;
       $('subtitle').textContent = `${candidate.wikidataQid} · ${candidate.id}`;
       $('addFactBtn').style.display = 'none';
+      $('resyncKokoroBtn').style.display = 'none';
       const decision = candidate.decision || 'undecided';
       const thumb = extractData?.thumbnail
         ? `<img class="bridge-thumbnail" src="${esc(extractData.thumbnail)}" alt="${esc(candidate.label)}" />`
@@ -1288,6 +1293,100 @@
       } catch(err) {
         appendLine(`<span class="step-error">✗ ${esc(err.message)}</span>`);
         btn.disabled = false; btn.textContent = 'Publish';
+      }
+    };
+
+    $('publishSynthBtn').onclick = async () => {
+      const btn = $('publishSynthBtn');
+      const log = $('publishLog');
+      btn.disabled = true;
+      btn.textContent = 'Publishing…';
+      log.style.display = 'block';
+      log.innerHTML = '';
+      const stepEls = {};
+      const appendLine = (html) => {
+        const div = document.createElement('div');
+        div.innerHTML = html;
+        log.appendChild(div);
+        log.scrollTop = log.scrollHeight;
+        return div;
+      };
+      try {
+        const res = await fetch('/api/publish-and-synthesize', { method: 'POST' });
+        if (!res.ok) {
+          const json = await res.json().catch(() => ({}));
+          appendLine(`<span class="step-error">✗ ${esc(json.error || 'Request failed')}</span>`);
+          btn.disabled = false; btn.textContent = 'Publish and Synthesize'; return;
+        }
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          const events = buffer.split('\n\n');
+          buffer = events.pop();
+          for (const event of events) {
+            const line = event.split('\n').find(l => l.startsWith('data: '));
+            if (!line) continue;
+            let data; try { data = JSON.parse(line.slice(6)); } catch { continue; }
+            if (data.type === 'step-start') {
+              stepEls[data.name] = appendLine(`<span class="step-pending">⟳ ${esc(data.name)}…</span>`);
+              if (data.name === 'Kokoro synthesis') btn.textContent = 'Synthesizing…';
+            } else if (data.type === 'step-output') {
+              const stepEl = stepEls[data.name];
+              if (stepEl) {
+                let pre = stepEl.querySelector('pre.step-output');
+                if (!pre) { pre = document.createElement('pre'); pre.className = 'step-output'; stepEl.appendChild(pre); }
+                pre.textContent += data.line + '\n';
+                log.scrollTop = log.scrollHeight;
+              }
+            } else if (data.type === 'step-done') {
+              const cls = data.status === 'ok' ? 'step-ok' : data.status === 'skipped' ? 'step-skipped' : 'step-error';
+              const icon = data.status === 'ok' ? '✓' : data.status === 'skipped' ? '—' : '✗';
+              const outputHtml = data.output ? `<span class="step-output">${esc(data.output)}</span>` : '';
+              const html = `<span class="${cls}">${icon} ${esc(data.name)}</span>${outputHtml}`;
+              if (stepEls[data.name]) { stepEls[data.name].innerHTML = html; } else { appendLine(html); }
+              log.scrollTop = log.scrollHeight;
+            } else if (data.type === 'done') {
+              if (data.stage === 'publish') {
+                appendLine('<span class="step-error" style="font-weight:bold">✗ Publish failed — Kokoro synthesis was not attempted.</span>');
+              } else if (data.success) {
+                const publishMsg = data.publishNoChanges ? 'Nothing new to publish' : 'Published successfully';
+                const kokoroMsg = data.kokoroSuccess ? 'Kokoro synthesis succeeded' : 'Kokoro synthesis failed — see details above (town is still published)';
+                const kokoroCls = data.kokoroSuccess ? 'step-ok' : 'step-error';
+                appendLine(`<span class="step-ok" style="font-weight:bold">✓ ${publishMsg}.</span>`);
+                appendLine(`<span class="${kokoroCls}" style="font-weight:bold">${data.kokoroSuccess ? '✓' : '✗'} ${kokoroMsg}.</span>`);
+              } else {
+                appendLine(`<span class="step-error" style="font-weight:bold">✗ ${esc(data.error || 'Publish and Synthesize failed — see details above.')}</span>`);
+              }
+              btn.disabled = false; btn.textContent = 'Publish and Synthesize';
+            }
+          }
+        }
+      } catch(err) {
+        appendLine(`<span class="step-error">✗ ${esc(err.message)}</span>`);
+        btn.disabled = false; btn.textContent = 'Publish and Synthesize';
+      }
+    };
+
+    $('resyncKokoroBtn').onclick = async () => {
+      if (!currentFile) return;
+      const btn = $('resyncKokoroBtn');
+      btn.disabled = true;
+      try {
+        const data = await api('/api/town/resync-kokoro', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ file: currentFile })
+        });
+        showStatus(data.alreadyPending
+          ? 'Already queued for Kokoro synthesis.'
+          : 'Queued for Kokoro re-synthesis. Run process-pending-kokoro.sh or click "Publish and Synthesize" to process it.');
+      } catch(e) {
+        showStatus(e.message, true);
+      } finally {
+        btn.disabled = false;
       }
     };
 

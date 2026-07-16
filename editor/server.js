@@ -18,6 +18,7 @@ const bridgesDir = path.join(homeDir, 'town-facts-lab', 'queues', 'bridges');
 const labRoot = path.join(homeDir, 'town-facts-lab');
 const labOutputDir = path.join(labRoot, 'output');
 const pendingKokoroPath = path.join(repoRoot, 'pending-kokoro.jsonl');
+const completedKokoroPath = path.join(repoRoot, 'completed-kokoro.jsonl');
 
 let publishInProgress = false;
 let townActionInProgress = false;
@@ -294,17 +295,15 @@ app.post('/api/fact/add', (req, res) => {
   res.json({ ok: true, rebuild });
 });
 
-app.post('/api/publish', async (req, res) => {
-  if (publishInProgress) {
-    return res.status(409).json({ ok: false, error: 'A publish is already in progress.' });
-  }
-  publishInProgress = true;
-  res.setHeader('Content-Type', 'text/event-stream');
-  res.setHeader('Cache-Control', 'no-cache');
-  res.setHeader('Connection', 'keep-alive');
-  res.flushHeaders();
-
-  const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
+// Runs the full publish flow (rsync new towns in from town-facts-lab/output/,
+// track pending Kokoro entries, rebuild indexes, stage, commit, push) and
+// streams SSE step events via `send`. Shared by /api/publish and
+// /api/publish-and-synthesize so the two routes can't drift out of sync.
+// Deliberately does NOT send a terminal 'done' event or touch
+// publishInProgress/res — the caller does that, since
+// /api/publish-and-synthesize has a Kokoro-synthesis step to run afterward
+// and isn't ready to finish the response when this returns.
+async function runPublishFlow(send) {
   const step = (name, cmd, args, onLine) => runStep(name, cmd, args, repoRoot, onLine);
 
   // Snapshot which output/ files are not yet in facts/ BEFORE anything runs —
@@ -335,7 +334,7 @@ app.post('/api/publish', async (req, res) => {
     const s5 = await step('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`],
       (line) => send({ type: 'step-output', name: 'Sync to R2', line }));
     steps.push(s5); send({ type: 'step-done', ...s5 });
-    if (s5.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+    if (s5.status === 'error') return { success: false, steps };
 
     // Track brand-new editor-created towns for downstream Kokoro synthesis.
     // The Sync to R2 step above is what actually copies these from output/
@@ -374,7 +373,7 @@ app.post('/api/publish', async (req, res) => {
     send({ type: 'step-start', name: 'Rebuild index' });
     const s1 = await step('Rebuild index', 'node', ['scripts/build-index.js']);
     steps.push(s1); send({ type: 'step-done', ...s1 });
-    if (s1.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+    if (s1.status === 'error') return { success: false, steps };
 
     send({ type: 'step-start', name: 'Check protected files' });
     const protectedFiles = [];
@@ -398,30 +397,160 @@ app.post('/api/publish', async (req, res) => {
     send({ type: 'step-start', name: 'Stage changes' });
     const s2 = await step('Stage changes', 'git', ['add', 'facts', 'facts-index.json', 'landmarks', 'landmarks-index.json', 'neighborhoods']);
     steps.push(s2); send({ type: 'step-done', ...s2 });
-    if (s2.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+    if (s2.status === 'error') return { success: false, steps };
 
     const check = await step('check', 'git', ['diff', '--cached', '--quiet']);
     if (check.code === 0) {
-      send({ type: 'done', success: true, noChanges: true, steps });
-      publishInProgress = false; res.end(); return;
+      return { success: true, noChanges: true, steps };
     }
 
     send({ type: 'step-start', name: 'Commit' });
     const s3 = await step('Commit', 'git', ['commit', '-m', `Editor publish: ${timestamp}`]);
     steps.push(s3); send({ type: 'step-done', ...s3 });
-    if (s3.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+    if (s3.status === 'error') return { success: false, steps };
 
     send({ type: 'step-start', name: 'Push to GitHub' });
     const s4 = await step('Push to GitHub', 'git', ['push', 'origin', 'main']);
     steps.push(s4); send({ type: 'step-done', ...s4 });
-    if (s4.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+    if (s4.status === 'error') return { success: false, steps };
 
-    send({ type: 'done', success: true, steps });
+    return { success: true, steps };
   } catch (err) {
-    send({ type: 'done', success: false, error: err.message, steps });
+    return { success: false, error: err.message, steps };
+  }
+}
+
+app.post('/api/publish', async (req, res) => {
+  if (publishInProgress) {
+    return res.status(409).json({ ok: false, error: 'A publish is already in progress.' });
+  }
+  publishInProgress = true;
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders();
+  const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
+  try {
+    const result = await runPublishFlow(send);
+    send({ type: 'done', ...result });
   } finally {
     publishInProgress = false;
     res.end();
+  }
+});
+
+// Publish, then immediately drain the Kokoro synthesis queue (pending-kokoro.
+// jsonl) in the same SSE stream. Deliberately a separate button from Publish,
+// not folded into it — a plain publish is ~2min, Kokoro synthesis adds
+// 5-10min for a typical new town, and a fast content-only push should stay
+// fast. Runs the Kokoro step even when the publish stage itself was a
+// no-op (noChanges) — this is also how a per-town "Re-synthesize Kokoro"
+// request (see /api/town/resync-kokoro, which only appends to pending-
+// kokoro.jsonl and doesn't publish anything) actually gets processed.
+app.post('/api/publish-and-synthesize', async (req, res) => {
+  if (publishInProgress) {
+    return res.status(409).json({ ok: false, error: 'A publish is already in progress.' });
+  }
+  publishInProgress = true;
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders();
+  const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
+  try {
+    const publishResult = await runPublishFlow(send);
+    if (!publishResult.success) {
+      send({ type: 'done', success: false, stage: 'publish', steps: publishResult.steps });
+      return;
+    }
+
+    // Publish stage succeeded (possibly a noChanges no-op) — the town, if
+    // new, is now fully published (committed, pushed, R2-synced) regardless
+    // of what happens below. A Kokoro failure here is real (no audio yet)
+    // but is never a reason to roll back the publish, which already landed.
+    send({ type: 'step-start', name: 'Kokoro synthesis' });
+    const kokoroStep = await runStep(
+      'Kokoro synthesis', 'bash', [path.join(repoRoot, 'scripts', 'process-pending-kokoro.sh')],
+      repoRoot, (line) => send({ type: 'step-output', name: 'Kokoro synthesis', line })
+    );
+    send({ type: 'step-done', ...kokoroStep });
+
+    send({
+      type: 'done',
+      success: true,
+      publishNoChanges: !!publishResult.noChanges,
+      kokoroSuccess: kokoroStep.status === 'ok',
+      steps: [...publishResult.steps, kokoroStep],
+    });
+  } catch (err) {
+    send({ type: 'done', success: false, error: err.message });
+  } finally {
+    publishInProgress = false;
+    res.end();
+  }
+});
+
+// Queues an already-published town for a fresh Kokoro synthesis pass —
+// e.g. after editing its facts — without triggering synthesis itself.
+// Draining the queue happens via process-pending-kokoro.sh (manual SSH
+// dispatch) or the "Publish and Synthesize" button above. Deduplicates
+// against any existing pending-kokoro.jsonl entry for the same slug
+// (from a New Town publish or an earlier un-drained resync request) so
+// repeated clicks don't pile up redundant lines.
+app.post('/api/town/resync-kokoro', (req, res) => {
+  try {
+    const file = req.body?.file;
+    if (!file || typeof file !== 'string' || !/^[a-z0-9-]+\.json$/.test(file)) {
+      return res.status(400).json({ ok: false, error: 'Invalid file' });
+    }
+    const slug = file.replace(/\.json$/, '');
+    if (!fs.existsSync(path.join(factsDir, file))) {
+      return res.status(400).json({ ok: false, error: 'Town is not published yet — publish it first.' });
+    }
+
+    const readJsonl = (p) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8').split('\n').filter(Boolean) : [])
+      .map(line => { try { return JSON.parse(line); } catch { return null; } })
+      .filter(Boolean);
+
+    // "Already pending" means a queued entry exists that hasn't been
+    // drained yet — not merely "this slug appears somewhere in the file."
+    // A town that was already synthesized (has a completed-kokoro.jsonl
+    // entry) and hasn't been re-queued since is NOT a duplicate — that's
+    // exactly the resync case this endpoint exists for. Only block when
+    // the latest pending entry for this slug is newer than its latest
+    // completion (or there's no completion at all yet).
+    const latestPendingAt = readJsonl(pendingKokoroPath)
+      .filter(e => e.slug === slug).map(e => e.addedAt || '').sort().pop() || null;
+    const latestCompletedAt = readJsonl(completedKokoroPath)
+      .filter(e => e.slug === slug).map(e => e.completedAt || '').sort().pop() || null;
+    const alreadyPending = latestPendingAt !== null && (latestCompletedAt === null || latestPendingAt > latestCompletedAt);
+    if (alreadyPending) {
+      return res.json({ ok: true, alreadyPending: true });
+    }
+
+    const entry = { slug, addedAt: new Date().toISOString(), addedBy: 'editor-resync' };
+    fs.appendFileSync(pendingKokoroPath, JSON.stringify(entry) + '\n');
+
+    // Commit + push immediately, mirroring the New Town publish flow's own
+    // pending-kokoro tracking — otherwise pending-kokoro.jsonl is left
+    // modified-but-uncommitted until some unrelated future publish happens
+    // to touch it. Best-effort: the append to disk is what actually makes
+    // the resync request work (process-pending-kokoro.sh reads the local
+    // file directly), so a git failure here doesn't undo that.
+    let gitSynced = true;
+    try {
+      spawnSync('git', ['add', 'pending-kokoro.jsonl'], { cwd: repoRoot });
+      const diff = spawnSync('git', ['diff', '--cached', '--quiet'], { cwd: repoRoot });
+      if (diff.status !== 0) {
+        const commit = spawnSync('git', ['commit', '-m', `Queue ${slug} for Kokoro re-synthesis`], { cwd: repoRoot });
+        const push = spawnSync('git', ['push', 'origin', 'main'], { cwd: repoRoot });
+        gitSynced = commit.status === 0 && push.status === 0;
+      }
+    } catch { gitSynced = false; }
+
+    res.json({ ok: true, alreadyPending: false, gitSynced });
+  } catch (e) {
+    res.status(500).json({ ok: false, error: e.message });
   }
 });
 
