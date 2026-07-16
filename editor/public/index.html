@@ -390,8 +390,8 @@
         <div class="img-layout">
           <div id="imgPreviewWrap" style="flex-shrink:0">
             ${json.imageUrl
-              ? `<img id="imgPreview" class="img-preview" src="${esc(json.imageUrl)}" alt="Town image" /><div id="imgPlaceholder" class="img-placeholder" style="display:none">No image</div>`
-              : `<img id="imgPreview" class="img-preview" style="display:none" alt="Town image" /><div id="imgPlaceholder" class="img-placeholder">No image</div>`}
+              ? `<a id="imgPreviewLink" href="${esc(json.imageUrl)}" target="_blank" rel="noopener noreferrer" title="Open full-size image"><img id="imgPreview" class="img-preview" src="${esc(json.imageUrl)}" alt="Town image" /></a><div id="imgPlaceholder" class="img-placeholder" style="display:none">No image</div>`
+              : `<a id="imgPreviewLink" href="#" target="_blank" rel="noopener noreferrer" title="Open full-size image" style="pointer-events:none"><img id="imgPreview" class="img-preview" style="display:none" alt="Town image" /></a><div id="imgPlaceholder" class="img-placeholder">No image</div>`}
             <div class="img-error-hint" id="imgErrorHint">URL failed to load</div>
           </div>
           <div class="img-fields">
@@ -424,13 +424,17 @@
       const errorHintEl = imgSection.querySelector('#imgErrorHint');
       const imgUrlInput = imgSection.querySelector('#imgUrl');
 
+      const imgLinkEl = imgSection.querySelector('#imgPreviewLink');
+
       function showImgPreview(url) {
-        if (!url) { imgEl.style.display = 'none'; placeholderEl.style.display = 'flex'; errorHintEl.style.display = 'none'; return; }
+        if (!url) { imgEl.style.display = 'none'; placeholderEl.style.display = 'flex'; errorHintEl.style.display = 'none'; imgLinkEl.href = '#'; imgLinkEl.style.pointerEvents = 'none'; return; }
         imgEl.src = url;
         imgEl.style.display = 'block';
         placeholderEl.style.display = 'none';
         errorHintEl.style.display = 'none';
-        imgEl.onerror = () => { imgEl.style.display = 'none'; placeholderEl.style.display = 'flex'; errorHintEl.style.display = 'block'; };
+        imgLinkEl.href = url;
+        imgLinkEl.style.pointerEvents = '';
+        imgEl.onerror = () => { imgEl.style.display = 'none'; placeholderEl.style.display = 'flex'; errorHintEl.style.display = 'block'; imgLinkEl.style.pointerEvents = 'none'; };
         imgEl.onload = () => { errorHintEl.style.display = 'none'; };
       }
 
