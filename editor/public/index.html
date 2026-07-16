@@ -218,6 +218,20 @@
     </div>
   </div>
 
+  <div id="newTownOverlay" class="modal-overlay" style="display:none">
+    <div class="modal-box" style="max-width:520px">
+      <h3>New Town</h3>
+      <div class="field"><label>Town name</label><input id="ntTownName" placeholder="e.g. High View" /></div>
+      <div class="field"><label>State</label><input id="ntState" placeholder="e.g. New York" /></div>
+      <div id="ntStatus" class="muted" style="margin-top:8px"></div>
+      <div id="ntResult" style="margin-top:10px"></div>
+      <div class="modal-actions">
+        <button id="ntCancelBtn">Close</button>
+        <button id="ntCheckBtn" class="primary">Check Wikipedia</button>
+      </div>
+    </div>
+  </div>
+
   <main>
     <div class="topbar">
       <div>
@@ -226,6 +240,7 @@
       </div>
       <div style="display:flex;gap:8px;align-items:flex-start;flex-wrap:wrap">
         <button id="addFactBtn" style="display:none">Add Fact</button>
+        <button id="newTownBtn">+ New Town</button>
         <button id="publishBtn" class="publish">Publish</button>
       </div>
     </div>
@@ -1271,6 +1286,130 @@
         btn.disabled = false; btn.textContent = 'Publish';
       }
     };
+
+    // ── New Town ───────────────────────────────────────────────────────────────
+
+    let ntLastCheck = null;
+
+    $('newTownBtn').onclick = () => {
+      $('ntTownName').value = '';
+      $('ntState').value = '';
+      $('ntStatus').textContent = '';
+      $('ntResult').innerHTML = '';
+      ntLastCheck = null;
+      $('newTownOverlay').style.display = 'flex';
+    };
+    $('ntCancelBtn').onclick = () => { $('newTownOverlay').style.display = 'none'; };
+
+    $('ntCheckBtn').onclick = async () => {
+      const townName = $('ntTownName').value.trim();
+      const state = $('ntState').value.trim();
+      if (!townName || !state) { $('ntStatus').textContent = 'Enter both town name and state.'; return; }
+      $('ntStatus').textContent = 'Checking…';
+      $('ntResult').innerHTML = '';
+      try {
+        const data = await api('/api/town/new', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ townName, state })
+        });
+        ntLastCheck = { townName, state, ...data };
+        renderNewTownResult();
+      } catch(e) { $('ntStatus').textContent = e.message; }
+    };
+
+    function renderNewTownResult() {
+      const d = ntLastCheck;
+      $('ntStatus').textContent = `Slug: ${d.slug}`;
+      const el = $('ntResult');
+
+      if (d.existsInFacts) {
+        el.innerHTML = `<div class="muted" style="color:#c62828">Town already exists in corpus (${esc(d.slug)}.json). Close this and open it from All Towns to edit.</div>`;
+        return;
+      }
+
+      let html = '';
+      if (d.existsInOutput) {
+        html += `<div class="muted" style="color:#7a5200;margin-bottom:8px">A draft already exists in output/ for this slug. Proceeding will replace it.</div>`;
+      }
+      if (d.articleResolved) {
+        html += `<div class="muted" style="margin-bottom:8px">Wikipedia match: <b>${esc(d.articleTitle)}</b></div>
+          <button class="primary" id="ntGenerateBtn">Generate facts from Wikipedia</button>`;
+      } else {
+        html += `<div class="muted" style="color:#c62828;margin-bottom:8px">${esc(d.rejectReason || 'No Wikipedia article found.')}</div>
+          <button id="ntStubBtn">Create empty JSON stub</button>`;
+      }
+      el.innerHTML = html;
+
+      const genBtn = $('ntGenerateBtn');
+      if (genBtn) genBtn.onclick = () => {
+        if (d.existsInOutput && !confirm('A draft already exists for this town. Overwrite it?')) return;
+        runNewTownGenerate(d);
+      };
+      const stubBtn = $('ntStubBtn');
+      if (stubBtn) stubBtn.onclick = () => {
+        if (d.existsInOutput && !confirm('A draft already exists for this town. Overwrite it?')) return;
+        runNewTownStub(d);
+      };
+    }
+
+    async function runNewTownGenerate(d) {
+      const el = $('ntResult');
+      el.innerHTML = '<div class="muted">Generating facts…</div>';
+      let lastLog = '';
+      try {
+        const res = await fetch('/api/town/generate', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ slug: d.slug, townName: d.townName, state: d.state })
+        });
+        if (!res.ok) {
+          const j = await res.json().catch(()=>({}));
+          throw new Error(j.error || `Request failed: ${res.status}`);
+        }
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buffer = '';
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buffer += decoder.decode(value, { stream: true });
+          const events = buffer.split('\n\n');
+          buffer = events.pop();
+          for (const event of events) {
+            const line = event.split('\n').find(l => l.startsWith('data: '));
+            if (!line) continue;
+            let data; try { data = JSON.parse(line.slice(6)); } catch { continue; }
+            if (data.type === 'step-output') {
+              lastLog += data.line + '\n';
+              el.innerHTML = `<pre class="step-output" style="white-space:pre-wrap;display:block">${esc(lastLog)}</pre>`;
+            } else if (data.type === 'done') {
+              if (data.success) {
+                $('newTownOverlay').style.display = 'none';
+                showStatus('Facts generated. Opening for review.');
+                await loadAll();
+                await loadTown(`${d.slug}.json`);
+              } else {
+                el.innerHTML = `<div class="muted" style="color:#c62828">Generation failed: ${esc(data.error || lastLog || 'unknown error')}</div>`;
+              }
+            }
+          }
+        }
+      } catch(e) { el.innerHTML = `<div class="muted" style="color:#c62828">${esc(e.message)}</div>`; }
+    }
+
+    async function runNewTownStub(d) {
+      const el = $('ntResult');
+      el.innerHTML = '<div class="muted">Creating stub…</div>';
+      try {
+        await api('/api/town/stub', {
+          method: 'POST', headers: {'Content-Type':'application/json'},
+          body: JSON.stringify({ slug: d.slug, townName: d.townName, state: d.state })
+        });
+        $('newTownOverlay').style.display = 'none';
+        showStatus('Stub created. Add facts manually below.');
+        await loadAll();
+        await loadTown(`${d.slug}.json`);
+      } catch(e) { el.innerHTML = `<div class="muted" style="color:#c62828">${esc(e.message)}</div>`; }
+    }
 
     // ── Kokoro clip availability + playback ────────────────────────────────────
 

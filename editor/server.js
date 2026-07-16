@@ -13,9 +13,59 @@ const landmarksIndexPath = path.join(repoRoot, 'landmarks-index.json');
 const publicDir = path.join(__dirname, 'public');
 const port = Number(process.env.PORT || 8787);
 const host = process.env.HOST || '127.0.0.1';
-const bridgesDir = path.join(process.env.HOME || '/home/barry', 'town-facts-lab', 'queues', 'bridges');
+const homeDir = process.env.HOME || '/home/barry';
+const bridgesDir = path.join(homeDir, 'town-facts-lab', 'queues', 'bridges');
+const labRoot = path.join(homeDir, 'town-facts-lab');
+const labOutputDir = path.join(labRoot, 'output');
+const pendingKokoroPath = path.join(repoRoot, 'pending-kokoro.jsonl');
 
 let publishInProgress = false;
+let townActionInProgress = false;
+
+// Type A slugify — THE ONLY APPROVED SLUG ALGORITHM. See town-facts-lab/GLOSSARY.md.
+// Must stay byte-identical to wikipediaResolve.ts's slugify() / generateFacts.ts's
+// parsePlaceMetadata() output, since /api/town/generate hands its slug to
+// generateFacts.ts and expects the same filename back.
+function slugify(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Mirrors parsePlaceMetadata()'s two-part "Town, State" branch in
+// town-facts-lab/scripts/wikipediaResolve.ts for a recognized US state name.
+const US_STATE_ABBR = {
+  Alabama: 'AL', Alaska: 'AK', Arizona: 'AZ', Arkansas: 'AR', California: 'CA',
+  Colorado: 'CO', Connecticut: 'CT', Delaware: 'DE', Florida: 'FL', Georgia: 'GA',
+  Hawaii: 'HI', Idaho: 'ID', Illinois: 'IL', Indiana: 'IN', Iowa: 'IA',
+  Kansas: 'KS', Kentucky: 'KY', Louisiana: 'LA', Maine: 'ME', Maryland: 'MD',
+  Massachusetts: 'MA', Michigan: 'MI', Minnesota: 'MN', Mississippi: 'MS',
+  Missouri: 'MO', Montana: 'MT', Nebraska: 'NE', Nevada: 'NV',
+  'New Hampshire': 'NH', 'New Jersey': 'NJ', 'New Mexico': 'NM', 'New York': 'NY',
+  'North Carolina': 'NC', 'North Dakota': 'ND', Ohio: 'OH', Oklahoma: 'OK',
+  Oregon: 'OR', Pennsylvania: 'PA', 'Rhode Island': 'RI', 'South Carolina': 'SC',
+  'South Dakota': 'SD', Tennessee: 'TN', Texas: 'TX', Utah: 'UT', Vermont: 'VT',
+  Virginia: 'VA', Washington: 'WA', 'West Virginia': 'WV', Wisconsin: 'WI',
+  Wyoming: 'WY', 'District of Columbia': 'DC',
+};
+
+// Runs a subprocess to completion, streaming stdout lines via onLine if given.
+// Shared by /api/publish and the town-creation endpoints below.
+function runStep(name, cmd, args, cwd, onLine) {
+  return new Promise((resolve) => {
+    const proc = spawn(cmd, args, { cwd, env: process.env });
+    let out = '';
+    if (onLine) {
+      const rl = readline.createInterface({ input: proc.stdout });
+      rl.on('line', (line) => { out += line + '\n'; onLine(line); });
+    } else {
+      proc.stdout.on('data', (d) => { out += d; });
+    }
+    proc.stderr.on('data', (d) => { out += d; });
+    proc.on('close', (code) => resolve({ name, status: code === 0 ? 'ok' : 'error', output: out.trim(), code }));
+  });
+}
 
 const REVIEWED_STATUSES = new Set(['approved', 'ignore_flag', 'reviewed']);
 const BAD_PATTERNS = [/main article:/i, /see also/i, /external links/i, /references/i, /wikimedia commons/i, /coordinates:/i, /retrieved/i, /isbn/i];
@@ -69,20 +119,37 @@ function rebuildLandmarksIndex() {
   return result.stdout.trim();
 }
 
-function safeFactFile(file) {
+function validateFactFileName(file) {
   if (!file || typeof file !== 'string') throw new Error('Missing file');
   if (!file.endsWith('.json')) throw new Error('Only JSON fact files are allowed');
   if (file.includes('/') || file.includes('\\') || file.includes('..')) throw new Error('Invalid file path');
+}
+
+function safeFactFile(file) {
+  validateFactFileName(file);
   return path.join(factsDir, file);
 }
 
+// Published towns live in facts/ (this repo); draft towns created via the
+// editor's New Town flow but not yet published only exist in town-facts-lab's
+// output/ until a Publish rsyncs them in. Reads/writes check facts/ first
+// (the common case) and fall back to output/ so drafts are editable in place.
+function resolveFactFilePath(file) {
+  validateFactFileName(file);
+  const factsPath = path.join(factsDir, file);
+  if (fs.existsSync(factsPath)) return factsPath;
+  const draftPath = path.join(labOutputDir, file);
+  if (fs.existsSync(draftPath)) return draftPath;
+  return factsPath;
+}
+
 function readFactFile(file) {
-  const fullPath = safeFactFile(file);
+  const fullPath = resolveFactFilePath(file);
   return JSON.parse(fs.readFileSync(fullPath, 'utf8'));
 }
 
 function writeFactFile(file, json) {
-  const fullPath = safeFactFile(file);
+  const fullPath = resolveFactFilePath(file);
   fs.writeFileSync(fullPath, JSON.stringify(json, null, 2) + '\n');
 }
 
@@ -238,28 +305,25 @@ app.post('/api/publish', async (req, res) => {
   res.flushHeaders();
 
   const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
+  const step = (name, cmd, args, onLine) => runStep(name, cmd, args, repoRoot, onLine);
 
-  function runStep(name, cmd, args, onLine) {
-    return new Promise((resolve) => {
-      const proc = spawn(cmd, args, { cwd: repoRoot, env: process.env });
-      let out = '';
-      if (onLine) {
-        const rl = readline.createInterface({ input: proc.stdout });
-        rl.on('line', (line) => { out += line + '\n'; onLine(line); });
-      } else {
-        proc.stdout.on('data', (d) => { out += d; });
-      }
-      proc.stderr.on('data', (d) => { out += d; });
-      proc.on('close', (code) => resolve({ name, status: code === 0 ? 'ok' : 'error', output: out.trim(), code }));
-    });
-  }
+  // Snapshot which output/ files are not yet in facts/ BEFORE anything runs —
+  // publish-facts.sh's rsync (invoked below, in the "Sync to R2" step) is what
+  // actually copies new town files from town-facts-lab/output/ into facts/.
+  // This lets the pending-kokoro step know which slugs were genuinely new to
+  // this publish, since after the rsync they'd exist in both directories.
+  let newSlugFiles = [];
+  try {
+    const outputFiles = fs.existsSync(labOutputDir) ? fs.readdirSync(labOutputDir).filter(f => f.endsWith('.json')) : [];
+    newSlugFiles = outputFiles.filter(f => !fs.existsSync(path.join(factsDir, f)));
+  } catch { /* best-effort; a failure here just skips the pending-kokoro step */ }
 
   const steps = [];
   try {
     const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 19);
 
     send({ type: 'step-start', name: 'Rebuild index' });
-    const s1 = await runStep('Rebuild index', 'node', ['scripts/build-index.js']);
+    const s1 = await step('Rebuild index', 'node', ['scripts/build-index.js']);
     steps.push(s1); send({ type: 'step-done', ...s1 });
     if (s1.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
 
@@ -283,31 +347,64 @@ app.post('/api/publish', async (req, res) => {
     steps.push(sProtect); send({ type: 'step-done', ...sProtect });
 
     send({ type: 'step-start', name: 'Stage changes' });
-    const s2 = await runStep('Stage changes', 'git', ['add', 'facts', 'facts-index.json', 'landmarks', 'landmarks-index.json', 'neighborhoods']);
+    const s2 = await step('Stage changes', 'git', ['add', 'facts', 'facts-index.json', 'landmarks', 'landmarks-index.json', 'neighborhoods']);
     steps.push(s2); send({ type: 'step-done', ...s2 });
     if (s2.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
 
-    const check = await runStep('check', 'git', ['diff', '--cached', '--quiet']);
+    const check = await step('check', 'git', ['diff', '--cached', '--quiet']);
     if (check.code === 0) {
       send({ type: 'done', success: true, noChanges: true, steps });
       publishInProgress = false; res.end(); return;
     }
 
     send({ type: 'step-start', name: 'Commit' });
-    const s3 = await runStep('Commit', 'git', ['commit', '-m', `Editor publish: ${timestamp}`]);
+    const s3 = await step('Commit', 'git', ['commit', '-m', `Editor publish: ${timestamp}`]);
     steps.push(s3); send({ type: 'step-done', ...s3 });
     if (s3.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
 
     send({ type: 'step-start', name: 'Push to GitHub' });
-    const s4 = await runStep('Push to GitHub', 'git', ['push', 'origin', 'main']);
+    const s4 = await step('Push to GitHub', 'git', ['push', 'origin', 'main']);
     steps.push(s4); send({ type: 'step-done', ...s4 });
     if (s4.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
 
     send({ type: 'step-start', name: 'Sync to R2' });
-    const homeDir = process.env.HOME || '/home/barry';
-    const s5 = await runStep('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`],
+    const s5 = await step('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`],
       (line) => send({ type: 'step-output', name: 'Sync to R2', line }));
     steps.push(s5); send({ type: 'step-done', ...s5 });
+
+    // Track brand-new editor-created towns for downstream Kokoro synthesis.
+    // publish-facts.sh's rsync (inside the "Sync to R2" step above) is what
+    // actually copies these from output/ into facts/, so only attempt this
+    // once that step has succeeded. Only editor-created towns are tracked —
+    // pipeline-generated towns (no createdVia field) are already covered by
+    // DS CC's regular full-corpus Kokoro batches.
+    if (s5.status === 'ok' && newSlugFiles.length > 0) {
+      send({ type: 'step-start', name: 'Record pending Kokoro entries' });
+      const nowIso = new Date().toISOString();
+      const lines = [];
+      for (const f of newSlugFiles) {
+        try {
+          const published = JSON.parse(fs.readFileSync(path.join(factsDir, f), 'utf8'));
+          if (published.createdVia === 'editor-manual' || published.createdVia === 'editor-resolved') {
+            lines.push(JSON.stringify({ slug: f.replace(/\.json$/, ''), addedAt: nowIso, addedBy: published.createdVia }));
+          }
+        } catch { /* file didn't land (rsync skipped it) or isn't readable — skip */ }
+      }
+      if (lines.length) {
+        fs.appendFileSync(pendingKokoroPath, lines.join('\n') + '\n');
+        await step('pending-add', 'git', ['add', 'pending-kokoro.jsonl']);
+        const pendingCheck = await step('pending-check', 'git', ['diff', '--cached', '--quiet']);
+        if (pendingCheck.code !== 0) {
+          await step('pending-commit', 'git', ['commit', '-m', `Track ${lines.length} new town(s) for Kokoro synthesis`]);
+          await step('pending-push', 'git', ['push', 'origin', 'main']);
+        }
+        const sPending = { name: 'Record pending Kokoro entries', status: 'ok', output: `${lines.length} entr${lines.length === 1 ? 'y' : 'ies'} appended to pending-kokoro.jsonl.`, code: 0 };
+        steps.push(sPending); send({ type: 'step-done', ...sPending });
+      } else {
+        const sPending = { name: 'Record pending Kokoro entries', status: 'ok', output: 'No editor-created towns in this publish.', code: 0 };
+        steps.push(sPending); send({ type: 'step-done', ...sPending });
+      }
+    }
 
     send({ type: 'done', success: s5.status === 'ok', steps });
   } catch (err) {
@@ -316,6 +413,123 @@ app.post('/api/publish', async (req, res) => {
     publishInProgress = false;
     res.end();
   }
+});
+
+// ── New Town creation ──────────────────────────────────────────────────────
+// Draft files are written to town-facts-lab's output/ (not facts/ here) —
+// the same staging area generateFacts.ts and the batch pipelines already use.
+// A normal Publish rsyncs them in via publish-facts.sh, unchanged.
+
+function computeTownSlug(townName, state) {
+  return slugify(`${String(townName || '')}, ${String(state || '')}`);
+}
+
+app.post('/api/town/new', (req, res) => {
+  const { townName, state } = req.body || {};
+  if (!townName || !state) throw new Error('townName and state are required');
+  const slug = computeTownSlug(townName, state);
+  const file = `${slug}.json`;
+  const existsInFacts = fs.existsSync(path.join(factsDir, file));
+  const existsInOutput = fs.existsSync(path.join(labOutputDir, file));
+
+  if (existsInFacts) {
+    return res.json({ slug, existsInFacts: true, existsInOutput, articleResolved: false, articleTitle: null, rejectReason: null });
+  }
+
+  const place = `${townName}, ${state}`;
+  const result = spawnSync('npx', ['tsx', 'scripts/resolveWikipedia.ts', place], { cwd: labRoot, encoding: 'utf8', timeout: 120000 });
+  let resolution = { ok: false, reason: 'Wikipedia resolution failed to run (subprocess error or timeout).' };
+  try {
+    resolution = JSON.parse((result.stdout || '').trim());
+  } catch { /* keep the default failure above */ }
+
+  res.json({
+    slug,
+    existsInFacts: false,
+    existsInOutput,
+    articleResolved: !!resolution.ok,
+    articleTitle: resolution.ok ? resolution.title : null,
+    rejectReason: resolution.ok ? null : resolution.reason,
+  });
+});
+
+app.post('/api/town/generate', async (req, res) => {
+  const { townName, state } = req.body || {};
+  if (!townName || !state) throw new Error('townName and state are required');
+  if (townActionInProgress) {
+    return res.status(409).json({ ok: false, error: 'Another town-creation action is already in progress.' });
+  }
+  const slug = computeTownSlug(townName, state);
+  const file = `${slug}.json`;
+  if (fs.existsSync(path.join(factsDir, file))) {
+    return res.status(400).json({ ok: false, error: 'Town already exists in corpus.' });
+  }
+
+  townActionInProgress = true;
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders();
+  const send = (data) => res.write(`data: ${JSON.stringify(data)}\n\n`);
+
+  try {
+    const place = `${townName}, ${state}`;
+    send({ type: 'step-start', name: 'Generate facts' });
+    const result = await runStep('Generate facts', 'npx', ['tsx', 'scripts/generateFacts.ts', place], labRoot,
+      (line) => send({ type: 'step-output', name: 'Generate facts', line }));
+    send({ type: 'step-done', ...result });
+
+    if (result.status !== 'ok') {
+      send({ type: 'done', success: false, error: result.output || 'Generation failed.' });
+      return;
+    }
+
+    const outputPath = path.join(labOutputDir, file);
+    try {
+      const json = JSON.parse(fs.readFileSync(outputPath, 'utf8'));
+      json.createdVia = 'editor-resolved';
+      fs.writeFileSync(outputPath, JSON.stringify(json, null, 2) + '\n');
+    } catch (e) {
+      send({ type: 'done', success: false, error: `Facts generated but failed to tag createdVia: ${e.message}` });
+      return;
+    }
+
+    send({ type: 'done', success: true, slug, file });
+  } catch (err) {
+    send({ type: 'done', success: false, error: err.message });
+  } finally {
+    townActionInProgress = false;
+    res.end();
+  }
+});
+
+app.post('/api/town/stub', (req, res) => {
+  const { townName, state, county, region: regionInput, country: countryInput } = req.body || {};
+  if (!townName || !state) throw new Error('townName and state are required');
+  const slug = computeTownSlug(townName, state);
+  const file = `${slug}.json`;
+  if (fs.existsSync(path.join(factsDir, file))) throw new Error('Town already exists in corpus.');
+
+  const abbr = US_STATE_ABBR[state];
+  const region = (regionInput && String(regionInput).trim()) || abbr || state;
+  const country = (countryInput && String(countryInput).trim()) || (abbr ? 'United States' : '');
+
+  const json = {
+    slug,
+    place: `${townName}, ${state}`,
+    town: String(townName).trim(),
+    state: String(state).trim(),
+    region,
+    country,
+    ...(county ? { county: String(county).trim() } : {}),
+    sources: [],
+    facts: [],
+    createdVia: 'editor-manual',
+  };
+
+  fs.mkdirSync(labOutputDir, { recursive: true });
+  fs.writeFileSync(path.join(labOutputDir, file), JSON.stringify(json, null, 2) + '\n');
+  res.json({ ok: true, slug, file });
 });
 
 app.get('/api/git-status', (req, res) => {
