@@ -322,6 +322,55 @@ app.post('/api/publish', async (req, res) => {
   try {
     const timestamp = new Date().toISOString().replace('T', ' ').slice(0, 19);
 
+    // Runs first and unconditionally: this is what actually copies any new
+    // town drafts from town-facts-lab/output/ into facts/ (via publish-facts.
+    // sh's rsync). Staging/committing facts/ before this ran was the bug —
+    // a brand-new town living only in output/ meant "git add facts" found
+    // nothing, so the flow short-circuited on noChanges before ever reaching
+    // this step. Safe to always run first: publish-facts.sh's rsync uses
+    // --ignore-existing, so an edit-only publish (no new towns pending) is a
+    // no-op here, and the flow still short-circuits correctly at the 'check'
+    // step below once there's genuinely nothing left to stage.
+    send({ type: 'step-start', name: 'Sync to R2' });
+    const s5 = await step('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`],
+      (line) => send({ type: 'step-output', name: 'Sync to R2', line }));
+    steps.push(s5); send({ type: 'step-done', ...s5 });
+    if (s5.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
+
+    // Track brand-new editor-created towns for downstream Kokoro synthesis.
+    // The Sync to R2 step above is what actually copies these from output/
+    // into facts/, so this only runs once that step has succeeded. Only
+    // editor-created towns are tracked — pipeline-generated towns (no
+    // createdVia field) are already covered by DS CC's regular full-corpus
+    // Kokoro batches.
+    if (newSlugFiles.length > 0) {
+      send({ type: 'step-start', name: 'Record pending Kokoro entries' });
+      const nowIso = new Date().toISOString();
+      const lines = [];
+      for (const f of newSlugFiles) {
+        try {
+          const published = JSON.parse(fs.readFileSync(path.join(factsDir, f), 'utf8'));
+          if (published.createdVia === 'editor-manual' || published.createdVia === 'editor-resolved') {
+            lines.push(JSON.stringify({ slug: f.replace(/\.json$/, ''), addedAt: nowIso, addedBy: published.createdVia }));
+          }
+        } catch { /* file didn't land (rsync skipped it) or isn't readable — skip */ }
+      }
+      if (lines.length) {
+        fs.appendFileSync(pendingKokoroPath, lines.join('\n') + '\n');
+        await step('pending-add', 'git', ['add', 'pending-kokoro.jsonl']);
+        const pendingCheck = await step('pending-check', 'git', ['diff', '--cached', '--quiet']);
+        if (pendingCheck.code !== 0) {
+          await step('pending-commit', 'git', ['commit', '-m', `Track ${lines.length} new town(s) for Kokoro synthesis`]);
+          await step('pending-push', 'git', ['push', 'origin', 'main']);
+        }
+        const sPending = { name: 'Record pending Kokoro entries', status: 'ok', output: `${lines.length} entr${lines.length === 1 ? 'y' : 'ies'} appended to pending-kokoro.jsonl.`, code: 0 };
+        steps.push(sPending); send({ type: 'step-done', ...sPending });
+      } else {
+        const sPending = { name: 'Record pending Kokoro entries', status: 'ok', output: 'No editor-created towns in this publish.', code: 0 };
+        steps.push(sPending); send({ type: 'step-done', ...sPending });
+      }
+    }
+
     send({ type: 'step-start', name: 'Rebuild index' });
     const s1 = await step('Rebuild index', 'node', ['scripts/build-index.js']);
     steps.push(s1); send({ type: 'step-done', ...s1 });
@@ -367,46 +416,7 @@ app.post('/api/publish', async (req, res) => {
     steps.push(s4); send({ type: 'step-done', ...s4 });
     if (s4.status === 'error') { send({ type: 'done', success: false, steps }); publishInProgress = false; res.end(); return; }
 
-    send({ type: 'step-start', name: 'Sync to R2' });
-    const s5 = await step('Sync to R2', 'bash', [`${homeDir}/town-facts-lab/scripts/publish-facts.sh`],
-      (line) => send({ type: 'step-output', name: 'Sync to R2', line }));
-    steps.push(s5); send({ type: 'step-done', ...s5 });
-
-    // Track brand-new editor-created towns for downstream Kokoro synthesis.
-    // publish-facts.sh's rsync (inside the "Sync to R2" step above) is what
-    // actually copies these from output/ into facts/, so only attempt this
-    // once that step has succeeded. Only editor-created towns are tracked —
-    // pipeline-generated towns (no createdVia field) are already covered by
-    // DS CC's regular full-corpus Kokoro batches.
-    if (s5.status === 'ok' && newSlugFiles.length > 0) {
-      send({ type: 'step-start', name: 'Record pending Kokoro entries' });
-      const nowIso = new Date().toISOString();
-      const lines = [];
-      for (const f of newSlugFiles) {
-        try {
-          const published = JSON.parse(fs.readFileSync(path.join(factsDir, f), 'utf8'));
-          if (published.createdVia === 'editor-manual' || published.createdVia === 'editor-resolved') {
-            lines.push(JSON.stringify({ slug: f.replace(/\.json$/, ''), addedAt: nowIso, addedBy: published.createdVia }));
-          }
-        } catch { /* file didn't land (rsync skipped it) or isn't readable — skip */ }
-      }
-      if (lines.length) {
-        fs.appendFileSync(pendingKokoroPath, lines.join('\n') + '\n');
-        await step('pending-add', 'git', ['add', 'pending-kokoro.jsonl']);
-        const pendingCheck = await step('pending-check', 'git', ['diff', '--cached', '--quiet']);
-        if (pendingCheck.code !== 0) {
-          await step('pending-commit', 'git', ['commit', '-m', `Track ${lines.length} new town(s) for Kokoro synthesis`]);
-          await step('pending-push', 'git', ['push', 'origin', 'main']);
-        }
-        const sPending = { name: 'Record pending Kokoro entries', status: 'ok', output: `${lines.length} entr${lines.length === 1 ? 'y' : 'ies'} appended to pending-kokoro.jsonl.`, code: 0 };
-        steps.push(sPending); send({ type: 'step-done', ...sPending });
-      } else {
-        const sPending = { name: 'Record pending Kokoro entries', status: 'ok', output: 'No editor-created towns in this publish.', code: 0 };
-        steps.push(sPending); send({ type: 'step-done', ...sPending });
-      }
-    }
-
-    send({ type: 'done', success: s5.status === 'ok', steps });
+    send({ type: 'done', success: true, steps });
   } catch (err) {
     send({ type: 'done', success: false, error: err.message, steps });
   } finally {
