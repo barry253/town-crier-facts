@@ -158,8 +158,8 @@
   <aside>
     <h2>Local Facts Editor</h2>
     <div class="tabs">
-      <button id="tabProblems" class="active">Problem Queue</button>
-      <button id="tabAll">All Towns</button>
+      <button id="tabProblems">Problem Queue</button>
+      <button id="tabAll" class="active">All Towns</button>
       <button id="tabLandmarks">Landmarks</button>
       <button id="tabBridges">Bridges</button>
     </div>
@@ -254,7 +254,7 @@
   <script>
     let towns = [];
     let problemFacts = [];
-    let mode = 'problems';
+    let mode = 'all';
     let currentFile = null;
     let currentTownPayload = null;
     let lmCollections = [];
