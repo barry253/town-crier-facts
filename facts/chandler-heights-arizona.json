@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Chandler Heights sprang to life in 1928 when Chandler Heights Citrus, Incorporated\u2014backed by Dr.\u2014planted its first citrus grove.",
+      "text": "Chandler Heights sprang to life in 1928 when Chandler Heights Citrus, Incorporated—backed by Dr.—planted its first citrus grove.",
       "sourceSentenceIds": [
         1,
         8,
@@ -37,7 +37,7 @@
     },
     {
       "id": 2,
-      "text": "Chandler Heights sits on the edge of Queen Creek\u2019s planning zone, making most of its land a candidate for future annexation.",
+      "text": "Chandler Heights sits on the edge of Queen Creek’s planning zone, making most of its land a candidate for future annexation.",
       "sourceSentenceIds": [
         2
       ],
@@ -77,7 +77,7 @@
     },
     {
       "id": 5,
-      "text": "Sandy loam soil, boosted by historic irrigation, once fed citrus farms, yet remains nutrient\u2011poor and alkaline like typical desert ground.",
+      "text": "Sandy loam soil, boosted by historic irrigation, once fed citrus farms, yet remains nutrient‑poor and alkaline like typical desert ground.",
       "sourceSentenceIds": [
         7
       ],
@@ -103,5 +103,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chandler-heights-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.563,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zeb Micelli",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maricopa_County_Courthouse_October_6_2013_Phoenix_Arizona_2816x2112_Rear.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Maricopa County, Arizona"
+  }
 }

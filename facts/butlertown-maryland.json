@@ -89,5 +89,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/butlertown-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.842,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Delta1989",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KentCountyCourthouseMD_2015.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Kent County, Maryland"
+  }
 }

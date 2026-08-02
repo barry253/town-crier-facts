@@ -109,5 +109,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/columbia-cross-roads-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Towanda_Main_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Bradford County, Pennsylvania"
+  }
 }

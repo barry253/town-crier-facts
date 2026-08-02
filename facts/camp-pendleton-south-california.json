@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 2,
-      "text": "The area\u2019s history spans prehistoric times, Native American culture, the Spanish mission era, rancho life, and Marine Corps ownership since 1942.",
+      "text": "The area’s history spans prehistoric times, Native American culture, the Spanish mission era, rancho life, and Marine Corps ownership since 1942.",
       "sourceSentenceIds": [
         4
       ],
@@ -61,7 +61,7 @@
     },
     {
       "id": 5,
-      "text": "The military presence at Camp Pendleton South significantly shapes the surrounding region\u2019s economy and development.",
+      "text": "The military presence at Camp Pendleton South significantly shapes the surrounding region’s economy and development.",
       "sourceSentenceIds": [
         6
       ],
@@ -85,5 +85,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/camp-pendleton-south-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.816,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Davidlud",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4.3LasPlayasSunset1_copy_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "San Diego County, California"
+  }
 }

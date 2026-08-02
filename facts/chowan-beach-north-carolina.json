@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Chowan Beach began in 1928 when Eli Reid turned 400 acres on the Chowan River into a segregation\u2011era resort for African Americans.",
+      "text": "Chowan Beach began in 1928 when Eli Reid turned 400 acres on the Chowan River into a segregation‑era resort for African Americans.",
       "sourceSentenceIds": [
         16,
         17
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The resort boasted wide sandy beaches, guest cottages, a bathhouse, a dance hall, a photo studio, a restaurant, a picnic area, and a German\u2011made carousel.",
+      "text": "The resort boasted wide sandy beaches, guest cottages, a bathhouse, a dance hall, a photo studio, a restaurant, a picnic area, and a German‑made carousel.",
       "sourceSentenceIds": [
         19
       ],
@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "text": "Legendary performers such as King, James Brown, Sam Cooke, and The Drifters once entertained crowds at Chowan Beach\u2019s dance hall.",
+      "text": "Legendary performers such as King, James Brown, Sam Cooke, and The Drifters once entertained crowds at Chowan Beach’s dance hall.",
       "sourceSentenceIds": [
         21
       ],
@@ -88,5 +88,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chowan-beach-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Wendy",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Multiple_Reflections.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chowan River"
+  }
 }

@@ -100,5 +100,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/critz-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.679,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jquesen2003",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bull_Mountain.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Patrick County, Virginia"
+  }
 }

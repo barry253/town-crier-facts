@@ -77,5 +77,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cedar-springs-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.602,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Robbie Honerkamp",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Early_County_Courthouse_in_Blakely_Georgia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Early County, Georgia"
+  }
 }

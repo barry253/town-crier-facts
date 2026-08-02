@@ -75,5 +75,20 @@
       "quality": "poor",
       "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centennial-park-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ricardo630",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christus_statue_temple_square_salt_lake_city.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Centennial Park group"
+  }
 }

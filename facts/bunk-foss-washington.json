@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bunk Foss became its own census\u2011designated place in 2010 after splitting from West Lake Stevens.",
+      "text": "Bunk Foss became its own census‑designated place in 2010 after splitting from West Lake Stevens.",
       "sourceSentenceIds": [
         2,
         20
@@ -38,7 +38,7 @@
     },
     {
       "id": 3,
-      "text": "Bunk Foss lies within Snohomish County, Washington, in the Pacific Northwest\u2019s lush evergreen region.",
+      "text": "Bunk Foss lies within Snohomish County, Washington, in the Pacific Northwest’s lush evergreen region.",
       "sourceSentenceIds": [
         4
       ],
@@ -52,7 +52,7 @@
     },
     {
       "id": 4,
-      "text": "Unlike many nearby towns, Bunk Foss has no lakes or rivers inside its borders, making it a completely land\u2011based community.",
+      "text": "Unlike many nearby towns, Bunk Foss has no lakes or rivers inside its borders, making it a completely land‑based community.",
       "sourceSentenceIds": [
         10,
         11
@@ -79,5 +79,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bunk-foss-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Granite Falls, Washington"
+  }
 }

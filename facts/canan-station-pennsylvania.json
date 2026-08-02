@@ -50,7 +50,7 @@
     },
     {
       "id": 5,
-      "text": "Blair County observes Eastern Time, which is GMT\u20115 during standard time.",
+      "text": "Blair County observes Eastern Time, which is GMT‑5 during standard time.",
       "sourceSentenceIds": [
         7
       ],
@@ -75,5 +75,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/canan-station-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Pike_Bridge_1889_3.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Frankstown Branch Juniata River"
+  }
 }

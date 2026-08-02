@@ -67,7 +67,7 @@
     },
     {
       "id": 6,
-      "text": "Comobabi lies within Pima County, one of Arizona\u2019s southernmost counties.",
+      "text": "Comobabi lies within Pima County, one of Arizona’s southernmost counties.",
       "sourceSentenceIds": [
         1
       ],
@@ -79,5 +79,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/comobabi-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gillfoto",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_County_Courthouse_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Pima County, Arizona"
+  }
 }
