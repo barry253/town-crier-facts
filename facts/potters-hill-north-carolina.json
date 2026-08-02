@@ -89,5 +89,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/potters-hill-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.379,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "APK",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duplin_County_Courthouse_-_North_Carolina.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Duplin County, North Carolina"
+  }
 }

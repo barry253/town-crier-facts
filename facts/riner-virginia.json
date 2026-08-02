@@ -100,5 +100,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riner-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.418,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skye Marthaler",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montgomery_County_Courthouse_-_new.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Montgomery County, Virginia"
+  }
 }

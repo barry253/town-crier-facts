@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sabael got its name from Sabael Benedict, an 18\u2011year\u2011old Abenaki hunter who trekked from Quebec to Indian Lake in 1765.",
+      "text": "Sabael got its name from Sabael Benedict, an 18‑year‑old Abenaki hunter who trekked from Quebec to Indian Lake in 1765.",
       "sourceSentenceIds": [
         3,
         4,
@@ -39,7 +39,7 @@
     },
     {
       "id": 2,
-      "text": "The hamlet sits on Indian Lake\u2019s western shore beside New York State Route 30, about 16.2 miles north of Speculator.",
+      "text": "The hamlet sits on Indian Lake’s western shore beside New York State Route 30, about 16.2 miles north of Speculator.",
       "sourceSentenceIds": [
         9,
         29
@@ -94,5 +94,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sabael-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.305,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "w:en:Dsyrengelas (talk | contribs)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_lake_on_the_water.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Indian Lake (New York)"
+  }
 }

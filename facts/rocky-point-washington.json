@@ -104,5 +104,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rocky-point-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.458,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Greg Schechter from San Francisco, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Polar_Skua_-_Flickr_-_GregTheBusker.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Rocky Point (Antarctica)"
+  }
 }

@@ -100,5 +100,20 @@
       ],
       "source": "https://www.nps.gov/places/old-victoria.htm"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rockland-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.224,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NASA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Superior,_ISS.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Superior"
+  }
 }

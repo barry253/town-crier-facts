@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "text": "Williamson County, where Santa Rita Ranch is located, observes Central Standard Time (GMT\u20116).",
+      "text": "Williamson County, where Santa Rita Ranch is located, observes Central Standard Time (GMT‑6).",
       "sourceSentenceIds": [
         11
       ],
@@ -64,7 +64,7 @@
     },
     {
       "id": 6,
-      "text": "In 2023, Santa Rita Ranch earned the RCLCO award for top\u2011selling master\u2011planned community in the Austin area.",
+      "text": "In 2023, Santa Rita Ranch earned the RCLCO award for top‑selling master‑planned community in the Austin area.",
       "sourceSentenceIds": [
         9
       ],
@@ -75,5 +75,20 @@
       "category": "culture",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/santa-rita-ranch-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Williamson_County_Courthouse_(1_of_1).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Williamson County, Texas"
+  }
 }

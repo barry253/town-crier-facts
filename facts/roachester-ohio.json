@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "The Cincinnati\u2011Zanesville Road, established before 1804, ran through the area that would become Roachester, making it an early travel corridor.",
+      "text": "The Cincinnati‑Zanesville Road, established before 1804, ran through the area that would become Roachester, making it an early travel corridor.",
       "sourceSentenceIds": [
         1
       ],
@@ -72,5 +72,20 @@
       "category": "transport",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roachester-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.227,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warren_County_Courthouse,_Lebanon.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Warren County, Ohio"
+  }
 }

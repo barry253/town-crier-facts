@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sandy Creek was officially incorporated in 1988 after the Grainger family\u2019s vision turned a rural area into a town.",
+      "text": "Sandy Creek was officially incorporated in 1988 after the Grainger family’s vision turned a rural area into a town.",
       "sourceSentenceIds": [
         25
       ],
@@ -77,7 +77,7 @@
     },
     {
       "id": 5,
-      "text": "The town\u2019s roots trace back to agriculture and local industry that shaped its early economy.",
+      "text": "The town’s roots trace back to agriculture and local industry that shaped its early economy.",
       "sourceSentenceIds": [
         4
       ],
@@ -102,5 +102,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sandy-creek-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.467,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brunswick_County_Courthouse_(July_2023)_16.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Brunswick County, North Carolina"
+  }
 }

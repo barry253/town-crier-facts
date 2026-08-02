@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rome-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.792,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NatFee",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LakeCamelotclubhouse_20230930_0016.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Camelot, Illinois"
+  }
 }

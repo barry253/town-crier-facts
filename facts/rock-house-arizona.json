@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rock House sits in west\u2011central Gila County, in the Salt River valley just upstream of Theodore Roosevelt Lake.",
+      "text": "Rock House sits in west‑central Gila County, in the Salt River valley just upstream of Theodore Roosevelt Lake.",
       "sourceSentenceIds": [
         1
       ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The BLM\u2011run Rock House Visitor Center sits on the California side of the lower Colorado River, offering a boat launch and shaded benches.",
+      "text": "The BLM‑run Rock House Visitor Center sits on the California side of the lower Colorado River, offering a boat launch and shaded benches.",
       "sourceSentenceIds": [
         5,
         6
@@ -51,7 +51,7 @@
     },
     {
       "id": 3,
-      "text": "River\u2011front visitors can enjoy the site year\u2011round, thanks to the recreation area\u2019s continuous access to the Colorado River.",
+      "text": "River‑front visitors can enjoy the site year‑round, thanks to the recreation area’s continuous access to the Colorado River.",
       "sourceSentenceIds": [
         7
       ],
@@ -106,5 +106,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rock-house-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.247,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Marine 69-71",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Globe-Gila_County_Courthouse-101_North_Broad_Street-1910-2.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Gila County, Arizona"
+  }
 }

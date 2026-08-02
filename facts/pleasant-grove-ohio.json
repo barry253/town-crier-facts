@@ -102,5 +102,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pleasant-grove-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.479,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tristan Blatt",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muskingum_County_Courthouse_%26_Jail.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Muskingum County, Ohio"
+  }
 }

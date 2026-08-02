@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Roots hosts the Root\u2019s Old Mill Flea Market, a Tuesday gathering where vintage comics, handmade jewelry, and farm\u2011fresh produce mingle in a historic mill.",
+      "text": "Roots hosts the Root’s Old Mill Flea Market, a Tuesday gathering where vintage comics, handmade jewelry, and farm‑fresh produce mingle in a historic mill.",
       "sourceSentenceIds": [
         17,
         18,
@@ -37,7 +37,7 @@
     },
     {
       "id": 2,
-      "text": "The market\u2019s historic mill building, with weathered wooden beams, serves as a living backdrop that tells the story of Pennsylvania\u2019s agricultural heritage.",
+      "text": "The market’s historic mill building, with weathered wooden beams, serves as a living backdrop that tells the story of Pennsylvania’s agricultural heritage.",
       "sourceSentenceIds": [
         2,
         19
@@ -89,5 +89,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roots-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Blair County, Pennsylvania"
+  }
 }

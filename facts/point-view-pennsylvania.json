@@ -35,7 +35,7 @@
     },
     {
       "id": 3,
-      "text": "In 1945, state officials authorized a 36\u2011acre park that would become Point State Park, with the first parcel bought the next year.",
+      "text": "In 1945, state officials authorized a 36‑acre park that would become Point State Park, with the first parcel bought the next year.",
       "sourceSentenceIds": [
         17
       ],
@@ -88,5 +88,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/point-view-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Pike_Bridge_1889_3.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Frankstown Branch Juniata River"
+  }
 }

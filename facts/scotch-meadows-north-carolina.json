@@ -103,5 +103,20 @@
       "quality": "poor",
       "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/scotch-meadows-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.547,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scotland_County_Courthouse_(February_2023)_5_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Scotland County, North Carolina"
+  }
 }

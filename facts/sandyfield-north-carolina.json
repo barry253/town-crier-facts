@@ -90,5 +90,20 @@
       "quality": "poor",
       "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sandyfield-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cat person",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Waccamaw_Depot_Museum.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Waccamaw, North Carolina"
+  }
 }

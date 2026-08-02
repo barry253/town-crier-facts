@@ -89,5 +89,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roseland-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nick Juhasz (Nick22aku at English Wikipedia)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richland_Co_CIMG9449.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Richland County, Ohio"
+  }
 }

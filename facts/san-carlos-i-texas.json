@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The community is classified as a colonia, a term for unincorporated settlements in Texas\u2019s Rio Grande Valley.",
+      "text": "The community is classified as a colonia, a term for unincorporated settlements in Texas’s Rio Grande Valley.",
       "sourceSentenceIds": [
         16
       ],
@@ -63,7 +63,7 @@
     },
     {
       "id": 6,
-      "text": "Sunrise in San Carlos I is at 8:27 a.m. and sunset at 8:45 p.m., giving a 12\u2011hour\u201118\u2011minute day.",
+      "text": "Sunrise in San Carlos I is at 8:27 a.m. and sunset at 8:45 p.m., giving a 12‑hour‑18‑minute day.",
       "sourceSentenceIds": [
         11
       ],
@@ -75,5 +75,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/san-carlos-i-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

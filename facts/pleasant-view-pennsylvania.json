@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 2,
-      "text": "The community follows Eastern Time, shifting from GMT\u20115 to daylight saving in summer.",
+      "text": "The community follows Eastern Time, shifting from GMT‑5 to daylight saving in summer.",
       "sourceSentenceIds": [
         3
       ],
@@ -60,5 +60,20 @@
       ],
       "source": "https://kids.kiddle.co/Pleasant_View,_Pennsylvania"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pleasant-view-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.492,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kittanning,_Pennsylvania_(8482749220).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Armstrong County, Pennsylvania"
+  }
 }

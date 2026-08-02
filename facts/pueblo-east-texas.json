@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "text": "The area\u2019s designated community college is Laredo Community College, offering higher\u2011education options to local residents.",
+      "text": "The area’s designated community college is Laredo Community College, offering higher‑education options to local residents.",
       "sourceSentenceIds": [
         5
       ],
@@ -63,5 +63,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pueblo-east-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

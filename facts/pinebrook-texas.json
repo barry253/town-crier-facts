@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "text": "Pinebrook observes Central Standard Time, aligning with the rest of Texas\u2019s central region.",
+      "text": "Pinebrook observes Central Standard Time, aligning with the rest of Texas’s central region.",
       "sourceSentenceIds": [
         3
       ],
@@ -64,7 +64,7 @@
     },
     {
       "id": 6,
-      "text": "The area\u2019s designation as a CDP means it lacks legal status but still appears on maps and in statistics.",
+      "text": "The area’s designation as a CDP means it lacks legal status but still appears on maps and in statistics.",
       "sourceSentenceIds": [
         4
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pinebrook-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.653,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Patrick Feller from Humble, Texas, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grimes_County_Courthouse,_Anderson,_Texas_1803091126_(40711037292).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Grimes County, Texas"
+  }
 }
