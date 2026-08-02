@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 4,
-      "text": "The community\u2019s name reflects its historic roots in early American church settlements.",
+      "text": "The community’s name reflects its historic roots in early American church settlements.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 5,
-      "text": "Spring Church\u2019s location on Route 56 makes it a quiet stop for travelers heading toward the Allegheny Valley.",
+      "text": "Spring Church’s location on Route 56 makes it a quiet stop for travelers heading toward the Allegheny Valley.",
       "sourceSentenceIds": [
         2
       ],
@@ -49,7 +49,7 @@
     },
     {
       "id": 6,
-      "text": "Armstrong County, where Spring Church is located, observes Eastern Standard Time year\u2011round.",
+      "text": "Armstrong County, where Spring Church is located, observes Eastern Standard Time year‑round.",
       "sourceSentenceIds": [
         15
       ],
@@ -61,5 +61,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-church-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.492,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kittanning,_Pennsylvania_(8482749220).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Armstrong County, Pennsylvania"
+  }
 }

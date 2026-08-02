@@ -82,5 +82,20 @@
       ],
       "source": "https://welcometoversailles.com/"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/versailles-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.699,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Winters, U.S. Army Corps of Engineers",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattaraugus_Creek_mouth_Lake_Erie.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Cattaraugus Creek"
+  }
 }

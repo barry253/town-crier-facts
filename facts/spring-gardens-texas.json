@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 3,
-      "text": "Spring Gardens was once part of the larger Spring Garden\u2011Terra Verde CDP before 2010, when it became its own entity.",
+      "text": "Spring Gardens was once part of the larger Spring Garden‑Terra Verde CDP before 2010, when it became its own entity.",
       "sourceSentenceIds": [
         11
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 6,
-      "text": "Spring Gardens\u2019 total area is entirely land, with no significant bodies of water within its borders.",
+      "text": "Spring Gardens’ total area is entirely land, with no significant bodies of water within its borders.",
       "sourceSentenceIds": [
         15
       ],
@@ -47,5 +47,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-gardens-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.792,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nueces_county_courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Nueces County, Texas"
+  }
 }

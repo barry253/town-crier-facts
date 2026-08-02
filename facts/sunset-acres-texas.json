@@ -64,7 +64,7 @@
     },
     {
       "id": 6,
-      "text": "Every Friday, the local library hosts a movie sing\u2011along event for residents.",
+      "text": "Every Friday, the local library hosts a movie sing‑along event for residents.",
       "sourceSentenceIds": [
         3
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunset-acres-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

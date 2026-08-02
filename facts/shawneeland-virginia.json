@@ -105,5 +105,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shawneeland-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-07-07_17_51_12_View_southeast_towards_Great_North_Mountain_in_Frederick_County,_Virginia_from_West_Virginia_State_Route_259_(Carpers_Pike)_in_High_View,_Hampshire_County,_West_Virginia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Great North Mountain"
+  }
 }

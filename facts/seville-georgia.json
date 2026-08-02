@@ -88,5 +88,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seville-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.688,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilcox_County_Courthouse_(South_face)_(cropped).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wilcox County, Georgia"
+  }
 }

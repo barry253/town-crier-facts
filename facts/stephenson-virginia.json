@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "High Banks, a mid\u20111700s farm, earned a spot on the National Register of Historic Places in 2011.",
+      "text": "High Banks, a mid‑1700s farm, earned a spot on the National Register of Historic Places in 2011.",
       "sourceSentenceIds": [
         1,
         7
@@ -76,5 +76,15 @@
       ],
       "source": "https://kids.kiddle.co/Stephenson,_Virginia"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stephenson-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.586,
+    "y": 0.5
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Holiday, Virginia"
+  }
 }

@@ -103,5 +103,15 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/springville-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.791,
+    "y": 0.5
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Forest Lake, Pennsylvania"
+  }
 }

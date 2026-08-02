@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Stevens Creek\u2019s namesake stream runs 0.8 miles southwest of the community, flowing southeast toward the New River.",
+      "text": "Stevens Creek’s namesake stream runs 0.8 miles southwest of the community, flowing southeast toward the New River.",
       "sourceSentenceIds": [
         1
       ],
@@ -61,5 +61,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stevens-creek-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NKS22",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hawks_Nest.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "New River (Kanawha River tributary)"
+  }
 }

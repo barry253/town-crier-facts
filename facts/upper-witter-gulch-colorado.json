@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Upper Witter Gulch lies within Clear Creek County, part of the Denver\u2013Aurora\u2013Lakewood metropolitan area.",
+      "text": "Upper Witter Gulch lies within Clear Creek County, part of the Denver–Aurora–Lakewood metropolitan area.",
       "sourceSentenceIds": [
         1
       ],
@@ -63,7 +63,7 @@
     },
     {
       "id": 6,
-      "text": "Four of the original mining towns\u2014Idaho Springs, Empire, Georgetown, and Silver Plume\u2014still exist today in the county.",
+      "text": "Four of the original mining towns—Idaho Springs, Empire, Georgetown, and Silver Plume—still exist today in the county.",
       "sourceSentenceIds": [
         26
       ],
@@ -74,5 +74,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/upper-witter-gulch-colorado.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.708,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chachpond",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_denver.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Denver–Aurora–Lakewood, CO Metropolitan Statistical Area"
+  }
 }

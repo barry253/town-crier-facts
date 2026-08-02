@@ -58,5 +58,20 @@
       ],
       "source": "https://toddtwphuntingdon.com/"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/todd-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.521,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntingdon_County_Courthouse_in_Huntingdon,_Pennsylvania,_was_built_in_1883_03.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Huntingdon County, Pennsylvania"
+  }
 }

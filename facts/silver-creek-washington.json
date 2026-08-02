@@ -89,5 +89,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/silver-creek-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.456,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tedder",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mayfield_Dam_and_Lake_Mayfield_-_Cowlitz_River_-_Washington_State_01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Mayfield"
+  }
 }

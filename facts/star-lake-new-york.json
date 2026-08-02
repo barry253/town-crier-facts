@@ -87,5 +87,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/star-lake-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Elekes Andor",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ice_Melting_on_Lake_Balaton.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake"
+  }
 }

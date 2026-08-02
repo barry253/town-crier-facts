@@ -87,5 +87,20 @@
       "quality": "poor",
       "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valley-view-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hilary Mayhew, Seattle, Washington",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valley_View_Romney_WV_2013_01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Valley View (Romney, West Virginia)"
+  }
 }

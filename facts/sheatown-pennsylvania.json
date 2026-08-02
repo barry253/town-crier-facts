@@ -36,7 +36,7 @@
     },
     {
       "id": 6,
-      "text": "Sheatown observes Eastern time, operating on GMT\u20115 during standard time and switches to GMT\u20114 in summer.",
+      "text": "Sheatown observes Eastern time, operating on GMT‑5 during standard time and switches to GMT‑4 in summer.",
       "sourceSentenceIds": [
         6
       ],
@@ -48,5 +48,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sheatown-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.206,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_Road_in_Lehman_Township,_Luzerne_County,_Pennsylvania.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Back Mountain"
+  }
 }

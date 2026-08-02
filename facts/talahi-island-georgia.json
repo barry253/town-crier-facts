@@ -64,7 +64,7 @@
     },
     {
       "id": 6,
-      "text": "Every resident of Talahi Island lives in an urban setting\u20140.0% of the population is classified as rural.",
+      "text": "Every resident of Talahi Island lives in an urban setting—0.0% of the population is classified as rural.",
       "sourceSentenceIds": [
         8
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/talahi-island-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.325,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DXR",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chatham_County_Courthouse,_Administrative_Center,_Savannah_GA,_East_view_20160705_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Chatham County, Georgia"
+  }
 }

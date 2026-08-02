@@ -119,5 +119,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shirland-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.354,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ben Jacobson (Kranar Drogin)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockford,_IL_Winnebago_County_Justice_Center_01.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Winnebago County, Illinois"
+  }
 }

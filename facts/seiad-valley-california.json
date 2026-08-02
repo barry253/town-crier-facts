@@ -54,7 +54,7 @@
     },
     {
       "id": 3,
-      "text": "The Pacific Crest Trail cuts through Seiad Valley\u2019s western side, drawing hikers each spring and summer.",
+      "text": "The Pacific Crest Trail cuts through Seiad Valley’s western side, drawing hikers each spring and summer.",
       "sourceSentenceIds": [
         12,
         27
@@ -82,7 +82,7 @@
     },
     {
       "id": 5,
-      "text": "Seiad Valley\u2019s isolation and surrounding Klamath Mountains create a microclimate influenced by the river\u2019s warm waters.",
+      "text": "Seiad Valley’s isolation and surrounding Klamath Mountains create a microclimate influenced by the river’s warm waters.",
       "sourceSentenceIds": [
         9
       ],
@@ -93,5 +93,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seiad-valley-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.443,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_across_the_Klamath_River.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Klamath River"
+  }
 }

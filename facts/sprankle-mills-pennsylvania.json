@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sprankle Mills was founded in 1833 by Frederick Sprankle, who built a mill that became the town\u2019s centerpiece.",
+      "text": "Sprankle Mills was founded in 1833 by Frederick Sprankle, who built a mill that became the town’s centerpiece.",
       "sourceSentenceIds": [
         1,
         13,
@@ -95,5 +95,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sprankle-mills-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falls_Creek,_Pennsylvania.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Falls Creek, Pennsylvania"
+  }
 }
