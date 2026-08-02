@@ -90,5 +90,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-fulton-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.422,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Upstate New York",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schoharie_County_Courthouse_Feb_09.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Schoharie County, New York"
+  }
 }

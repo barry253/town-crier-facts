@@ -89,5 +89,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wildwood-lake-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.286,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Bradley_County_Courthouse_in_Cleveland,_Tennessee.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Bradley County, Tennessee"
+  }
 }

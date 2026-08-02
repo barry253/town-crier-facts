@@ -36,7 +36,7 @@
     },
     {
       "id": 5,
-      "text": "The 0.5 square\u2011mile water area gives Westwood Shores a small waterfront feel amid its rural setting.",
+      "text": "The 0.5 square‑mile water area gives Westwood Shores a small waterfront feel amid its rural setting.",
       "sourceSentenceIds": [
         1
       ],
@@ -62,5 +62,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westwood-shores-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.349,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trinity_county_tx_courthouse_2015.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Trinity County, Texas"
+  }
 }

@@ -99,5 +99,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wingate-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.332,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Aualliso",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Runnels_County_Courthouse_September_2020.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Runnels County, Texas"
+  }
 }

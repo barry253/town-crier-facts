@@ -89,5 +89,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wray-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Irwin_County_Courthouse_(East_face).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Irwin County, Georgia"
+  }
 }

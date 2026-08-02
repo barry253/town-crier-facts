@@ -36,7 +36,7 @@
     },
     {
       "id": 5,
-      "text": "The area\u2019s history includes 1800s documents with spelling variations like \u201cW. Hickory.\u201d.",
+      "text": "The area’s history includes 1800s documents with spelling variations like “W. Hickory.”.",
       "sourceSentenceIds": [
         16
       ],
@@ -50,7 +50,7 @@
     },
     {
       "id": 6,
-      "text": "The Gazetteer project aims to help genealogists explore West Hickory\u2019s past and understand the community\u2019s daily life.",
+      "text": "The Gazetteer project aims to help genealogists explore West Hickory’s past and understand the community’s daily life.",
       "sourceSentenceIds": [
         7
       ],
@@ -62,5 +62,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-hickory-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "David Fulmer from Pittsburgh . . Uploaded by scillystuff",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freeport_bridge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Allegheny River"
+  }
 }

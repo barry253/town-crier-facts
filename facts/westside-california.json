@@ -104,5 +104,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westside-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.313,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hyfen",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Port_of_Long_Beach.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Westside, Long Beach, California"
+  }
 }

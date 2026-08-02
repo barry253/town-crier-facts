@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 2,
-      "text": "Pennsylvania Route 16, the town\u2019s Main Street, runs east to Blue Ridge Summit and west to Waynesboro.",
+      "text": "Pennsylvania Route 16, the town’s Main Street, runs east to Blue Ridge Summit and west to Waynesboro.",
       "sourceSentenceIds": [
         3
       ],
@@ -50,7 +50,7 @@
     },
     {
       "id": 6,
-      "text": "There are no lakes or rivers within Wayne Heights\u2019 limits, giving it a zero square\u2011mile water area.",
+      "text": "There are no lakes or rivers within Wayne Heights’ limits, giving it a zero square‑mile water area.",
       "sourceSentenceIds": [
         12
       ],
@@ -62,5 +62,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wayne-heights-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.484,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Epstein.Mark",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Square_Chambersburg.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Franklin County, Pennsylvania"
+  }
 }

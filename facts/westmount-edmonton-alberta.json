@@ -101,5 +101,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westmount-edmonton-alberta.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kiyoteru Awaji",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Lake_Area,_Edmonton.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big Lake, Edmonton"
+  }
 }

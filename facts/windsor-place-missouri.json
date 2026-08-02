@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Windsor Place is a small village located in Cooper County, Missouri, known for its tight\u2011knit community.",
+      "text": "Windsor Place is a small village located in Cooper County, Missouri, known for its tight‑knit community.",
       "sourceSentenceIds": [
         4
       ],
@@ -61,5 +61,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/windsor-place-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooper_County_MO_Courthouse_20140920-pano1_crop.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Cooper County, Missouri"
+  }
 }
