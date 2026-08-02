@@ -78,7 +78,7 @@
     },
     {
       "id": 6,
-      "text": "Historic buildings in Addieville reflect the village\u2019s early 20th\u2011century architecture.",
+      "text": "Historic buildings in Addieville reflect the village’s early 20th‑century architecture.",
       "sourceSentenceIds": [
         6
       ],
@@ -89,5 +89,15 @@
       "category": "landmark",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/addieville-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.682,
+    "y": 0.5
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Washington County, Illinois"
+  }
 }

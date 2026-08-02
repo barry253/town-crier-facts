@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The town was named Bolling in honor of Mary Bolling Vineyard, the six\u2011year\u2011old daughter of the landowner who surveyed the plat.",
+      "text": "The town was named Bolling in honor of Mary Bolling Vineyard, the six‑year‑old daughter of the landowner who surveyed the plat.",
       "sourceSentenceIds": [
         3,
         6
@@ -62,5 +62,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/boling-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wharton_county_courthouse_2013.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wharton County, Texas"
+  }
 }

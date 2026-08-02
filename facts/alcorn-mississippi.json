@@ -100,5 +100,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alcorn-mississippi.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Infrogmation of New Orleans",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Claiborne_County_Courthouse_and_Confederate_monument,_Port_Gibson,_Mississippi_2008.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Claiborne County, Mississippi"
+  }
 }

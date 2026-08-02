@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 2,
-      "text": "The town\u2019s name likely comes from a surname, not a Creek word, reflecting early settler influence.",
+      "text": "The town’s name likely comes from a surname, not a Creek word, reflecting early settler influence.",
       "sourceSentenceIds": [
         10
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 4,
-      "text": "The historic Bemiss United Methodist Church, organized in 1840, remains a landmark of the community\u2019s early religious life.",
+      "text": "The historic Bemiss United Methodist Church, organized in 1840, remains a landmark of the community’s early religious life.",
       "sourceSentenceIds": [
         6
       ],
@@ -72,7 +72,7 @@
     },
     {
       "id": 6,
-      "text": "The Wiregrass region\u2019s native wiregrass once covered the landscape, making the area ideal for cattle grazing and early agriculture.",
+      "text": "The Wiregrass region’s native wiregrass once covered the landscape, making the area ideal for cattle grazing and early agriculture.",
       "sourceSentenceIds": [
         1
       ],
@@ -83,5 +83,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bemiss-georgia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Park_City_Hall.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Park, Georgia"
+  }
 }

@@ -102,5 +102,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/apalachin-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.357,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from now in Binghamton, NY",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tioga_County_Courthouse_NY_Feb_09.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Tioga County, New York"
+  }
 }

@@ -91,5 +91,20 @@
       "category": "culture",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bolingbroke-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "John Trainor",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monroe_County_Georgia_Courthosue.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Monroe County, Georgia"
+  }
 }

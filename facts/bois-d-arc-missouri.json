@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bois D'Arc takes its name from a lone osage\u2011orange tree that once stood near the original town site.",
+      "text": "Bois D'Arc takes its name from a lone osage‑orange tree that once stood near the original town site.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "A post office has operated in Bois D'Arc continuously since 1868, marking the town\u2019s long\u2011standing community presence.",
+      "text": "A post office has operated in Bois D'Arc continuously since 1868, marking the town’s long‑standing community presence.",
       "sourceSentenceIds": [
         20
       ],
@@ -72,5 +72,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bois-d-arc-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.174,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Raschmidt87",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Springfield,_MO_and_Hammons_Field.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Springfield, Missouri"
+  }
 }

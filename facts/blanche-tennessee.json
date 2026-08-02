@@ -89,5 +89,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blanche-tennessee.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.255,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike Tilley",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cowley_Bridge_-_panoramio.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Elk River (Tennessee River tributary)"
+  }
 }

@@ -19,5 +19,20 @@
       "url": "https://www.virginia.org/"
     }
   ],
-  "facts": []
+  "facts": [],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bishop-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Coal town guy",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McDowell_County_WV_Court.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "McDowell County, Virginia"
+  }
 }

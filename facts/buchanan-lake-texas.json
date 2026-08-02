@@ -103,5 +103,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buchanan-lake-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.166,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_Bay_Texas_City_Hall.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Horseshoe Bay, Texas"
+  }
 }

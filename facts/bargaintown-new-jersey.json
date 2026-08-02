@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bargaintown-new-jersey.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-07-11_12_43_07_View_north_along_New_Jersey_State_Route_444_(Garden_State_Parkway)_at_the_Ocean_View_Service_Area_in_Dennis_Township,_Cape_May_County,_New_Jersey.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Garden State Parkway"
+  }
 }

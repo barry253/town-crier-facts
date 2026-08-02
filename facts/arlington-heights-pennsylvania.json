@@ -90,5 +90,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/arlington-heights-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.564,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monroe_County_Courthouse_Nov_09.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Monroe County, Pennsylvania"
+  }
 }

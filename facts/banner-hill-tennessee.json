@@ -89,5 +89,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/banner-hill-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.611,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unicoi-county-courthouse-tn1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Unicoi County, Tennessee"
+  }
 }

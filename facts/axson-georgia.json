@@ -90,5 +90,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/axson-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mjrmtg",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atkinson_County_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Atkinson County, Georgia"
+  }
 }

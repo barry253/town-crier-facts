@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Baldwin takes its name from Thomas Baldwin, a prominent 19th\u2011century figure in the area.",
+      "text": "Baldwin takes its name from Thomas Baldwin, a prominent 19th‑century figure in the area.",
       "sourceSentenceIds": [
         4
       ],
@@ -65,7 +65,7 @@
     },
     {
       "id": 4,
-      "text": "Native American tribes first inhabited Baldwin\u2019s forests, then European settlers arrived in the early 1700s, establishing farms that laid the town\u2019s foundation.",
+      "text": "Native American tribes first inhabited Baldwin’s forests, then European settlers arrived in the early 1700s, establishing farms that laid the town’s foundation.",
       "sourceSentenceIds": [
         21,
         22,
@@ -92,5 +92,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/baldwin-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.413,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jerrye & Roy Klotz, MD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HIDDEN_VALLEY_FARM,_BALDWIN,_HARFORD_COUNTY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Hidden Valley Farm"
+  }
 }

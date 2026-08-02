@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Sampson County\u2019s borders have shifted over time, and Bonnetsville sits near the edge of those historic changes.",
+      "text": "Sampson County’s borders have shifted over time, and Bonnetsville sits near the edge of those historic changes.",
       "sourceSentenceIds": [
         2
       ],
@@ -63,7 +63,7 @@
     },
     {
       "id": 6,
-      "text": "The area\u2019s Diversity Index scores 0\u2011100, reflecting how likely two random residents are from different races; Bonnetsville\u2019s score indicates a moderately diverse community.",
+      "text": "The area’s Diversity Index scores 0‑100, reflecting how likely two random residents are from different races; Bonnetsville’s score indicates a moderately diverse community.",
       "sourceSentenceIds": [
         16
       ],
@@ -75,5 +75,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bonnetsville-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.435,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sampson_County_Courthouse,_Clinton.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Sampson County, North Carolina"
+  }
 }
