@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rock Island Lighthouse, one of the region\u2019s most prominent lighthouses, boasts the best historical documentation available.",
+      "text": "Rock Island Lighthouse, one of the region’s most prominent lighthouses, boasts the best historical documentation available.",
       "sourceSentenceIds": [
         1
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "Rock Island stands as a model of public\u2011private collaboration in landmark preservation.",
+      "text": "Rock Island stands as a model of public‑private collaboration in landmark preservation.",
       "sourceSentenceIds": [
         2
       ],
@@ -90,7 +90,7 @@
     },
     {
       "id": 6,
-      "text": "Foxy\u2019s Restaurant, an Italian\u2011American eatery with 225 feet of private dock, has been a river institution since the 1920s.",
+      "text": "Foxy’s Restaurant, an Italian‑American eatery with 225 feet of private dock, has been a river institution since the 1920s.",
       "sourceSentenceIds": [
         20,
         27,
@@ -104,5 +104,20 @@
       "category": "landmark",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fishers-landing-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.539,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steven Hamsness",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St_Lawrence_in_Alexandria_Bay,_New_York._East_side.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Alexandria Bay, New York"
+  }
 }

@@ -88,5 +88,20 @@
       "category": "other",
       "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/faceville-georgia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bainbridge_City_Hall.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bainbridge, Georgia"
+  }
 }

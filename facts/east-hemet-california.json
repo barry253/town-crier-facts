@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "text": "Railroad tracks were first laid into the San Jacinto Valley in 1887, opening the way for Hemet\u2019s growth.",
+      "text": "Railroad tracks were first laid into the San Jacinto Valley in 1887, opening the way for Hemet’s growth.",
       "sourceSentenceIds": [
         10
       ],
@@ -70,5 +70,20 @@
       ],
       "source": "https://www.hemetca.gov/120/History-of-Hemet"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-hemet-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pf1127",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canyon_Lake_City_Hall.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Canyon Lake, California"
+  }
 }

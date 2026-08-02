@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The East Verde River traces the community\u2019s northern and western edges while Shoofly Canyon marks its southwestern boundary.",
+      "text": "The East Verde River traces the community’s northern and western edges while Shoofly Canyon marks its southwestern boundary.",
       "sourceSentenceIds": [
         8
       ],
@@ -63,7 +63,7 @@
     },
     {
       "id": 4,
-      "text": "Freedom Acres observes Mountain Standard Time year\u2011round and skips daylight saving time.",
+      "text": "Freedom Acres observes Mountain Standard Time year‑round and skips daylight saving time.",
       "sourceSentenceIds": [
         1
       ],
@@ -88,5 +88,20 @@
       "category": "transport",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/freedom-acres-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Richard N Horne",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_East_Verde_River_flows_thru_the_East_Verde_Estates_northwest_of_Payson.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "East Verde River"
+  }
 }

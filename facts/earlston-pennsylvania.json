@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The community is primarily residential, with a focus on agriculture and small\u2011scale local businesses.",
+      "text": "The community is primarily residential, with a focus on agriculture and small‑scale local businesses.",
       "sourceSentenceIds": [
         5
       ],
@@ -103,5 +103,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/earlston-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dough4872",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juniata_River_west_of_PA_103.jpeg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Juniata River"
+  }
 }

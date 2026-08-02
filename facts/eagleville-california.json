@@ -87,5 +87,20 @@
       "category": "people",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eagleville-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.271,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Miguel Vieira from Redwood City, CA, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goose_Lake_(6024169313)_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Modoc County, California"
+  }
 }

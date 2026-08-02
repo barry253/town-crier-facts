@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Echo Hills is part of the Denver\u2011Aurora\u2011Centennial Metropolitan Statistical Area, linking it to Colorado\u2019s largest urban region.",
+      "text": "Echo Hills is part of the Denver‑Aurora‑Centennial Metropolitan Statistical Area, linking it to Colorado’s largest urban region.",
       "sourceSentenceIds": [
         2
       ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The census\u2011designated place spans 364 acres, all of which are land in Clear Creek County.",
+      "text": "The census‑designated place spans 364 acres, all of which are land in Clear Creek County.",
       "sourceSentenceIds": [
         3
       ],
@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "text": "Clear Creek County, where Echo Hills is located, observes Mountain Time (GMT\u20117).",
+      "text": "Clear Creek County, where Echo Hills is located, observes Mountain Time (GMT‑7).",
       "sourceSentenceIds": [
         5
       ],
@@ -86,5 +86,20 @@
       ],
       "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/echo-hills-colorado.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.158,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berthoud_Falls,_Colorado.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Berthoud Falls, Colorado"
+  }
 }

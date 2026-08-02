@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Dodson Branch sits in the heart of Tennessee, surrounded by rolling hills that showcase the state\u2019s natural beauty.",
+      "text": "Dodson Branch sits in the heart of Tennessee, surrounded by rolling hills that showcase the state’s natural beauty.",
       "sourceSentenceIds": [
         21,
         23
@@ -52,7 +52,7 @@
     },
     {
       "id": 3,
-      "text": "Dodson Branch is part of Jackson County, placing it within one of Tennessee\u2019s historically rich counties.",
+      "text": "Dodson Branch is part of Jackson County, placing it within one of Tennessee’s historically rich counties.",
       "sourceSentenceIds": [
         22
       ],
@@ -80,7 +80,7 @@
     },
     {
       "id": 5,
-      "text": "The area\u2019s landscape features gentle slopes and lush greenery, typical of central Tennessee\u2019s countryside.",
+      "text": "The area’s landscape features gentle slopes and lush greenery, typical of central Tennessee’s countryside.",
       "sourceSentenceIds": [
         23
       ],
@@ -91,5 +91,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dodson-branch-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.586,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackson-county-courthouse-tn2.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Jackson County, Tennessee"
+  }
 }

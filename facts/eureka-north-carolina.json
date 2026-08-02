@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "text": "On January 24, 1961, a B\u201152 bomber carrying two nuclear bombs crashed three miles south of town; the bombs were recovered, but one uranium component remains buried under a sign.",
+      "text": "On January 24, 1961, a B‑52 bomber carrying two nuclear bombs crashed three miles south of town; the bombs were recovered, but one uranium component remains buried under a sign.",
       "sourceSentenceIds": [
         11,
         12,
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eureka-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.838,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Clarence Griffin, State Archives of North Carolina Raleigh, NC",
+    "license": "No restrictions",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wayne_County_Courthouse_1948.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wayne County, North Carolina"
+  }
 }

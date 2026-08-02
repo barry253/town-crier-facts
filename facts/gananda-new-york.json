@@ -101,5 +101,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gananda-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.282,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Daniel Case",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wayne_County_Courthouse,_Lyons,_NY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wayne County, New York"
+  }
 }

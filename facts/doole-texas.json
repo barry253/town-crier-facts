@@ -103,5 +103,20 @@
       "category": "people",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/doole-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.491,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mcculloch_county_courthouse_2010.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "McCulloch County, Texas"
+  }
 }

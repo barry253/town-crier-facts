@@ -49,12 +49,27 @@
     },
     {
       "id": 6,
-      "text": "The hamlet\u2019s name honors early settler John Garratt, whose family helped establish the area in the early 1800s.",
+      "text": "The hamlet’s name honors early settler John Garratt, whose family helped establish the area in the early 1800s.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/garrattsville-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.313,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "420Traveler",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butternut_Creek_at_Bell_Hill_Road.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Butternut Creek (Otsego County)"
+  }
 }
