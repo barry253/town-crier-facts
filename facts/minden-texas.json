@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The Marshall\u2011to\u2011Nacogdoches railroad ran through Minden in the 1860s, bringing a store and a church.",
+      "text": "The Marshall‑to‑Nacogdoches railroad ran through Minden in the 1860s, bringing a store and a church.",
       "sourceSentenceIds": [
         6
       ],
@@ -87,5 +87,20 @@
       "category": "people",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/minden-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.458,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henderson_July_2017_33_(Rusk_County_Courthouse).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Rusk County, Texas"
+  }
 }

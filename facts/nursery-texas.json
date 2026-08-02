@@ -102,5 +102,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nursery-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Jim Evans",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Victoria_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Victoria County, Texas"
+  }
 }

@@ -64,7 +64,7 @@
     },
     {
       "id": 5,
-      "text": "Blair County, where Moores Mill is located, observes Eastern Time (GMT\u20115).",
+      "text": "Blair County, where Moores Mill is located, observes Eastern Time (GMT‑5).",
       "sourceSentenceIds": [
         12
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/moores-mill-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Pike_Bridge_1889_3.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Frankstown Branch Juniata River"
+  }
 }

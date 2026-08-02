@@ -36,7 +36,7 @@
     },
     {
       "id": 4,
-      "text": "The area is described as a quiet, peaceful spot nestled in Pennsylvania\u2019s countryside.",
+      "text": "The area is described as a quiet, peaceful spot nestled in Pennsylvania’s countryside.",
       "sourceSentenceIds": [
         22
       ],
@@ -76,5 +76,20 @@
       ],
       "source": "https://kids.kiddle.co/Northpoint,_Pennsylvania"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/northpoint-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Indiana County, Pennsylvania"
+  }
 }

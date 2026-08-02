@@ -86,5 +86,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/peckville-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daderot",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lackawanna_County_Courthouse_008.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lackawanna County, Pennsylvania"
+  }
 }

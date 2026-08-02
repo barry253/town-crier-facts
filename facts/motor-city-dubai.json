@@ -100,5 +100,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/motor-city-dubai.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.705,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Robert Luxemburg",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Burj_Dubai_and_Business_Bay,_seen_from_Safa_Park.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Business Bay"
+  }
 }

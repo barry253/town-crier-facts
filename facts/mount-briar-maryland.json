@@ -36,7 +36,7 @@
     },
     {
       "id": 4,
-      "text": "The area\u2019s diversity index scores around 50, suggesting a moderate chance that two random residents belong to different racial or ethnic groups.",
+      "text": "The area’s diversity index scores around 50, suggesting a moderate chance that two random residents belong to different racial or ethnic groups.",
       "sourceSentenceIds": [
         7
       ],
@@ -50,7 +50,7 @@
     },
     {
       "id": 5,
-      "text": "Mount Briar\u2019s housing affordability index exceeds 100, indicating that median\u2011income residents can comfortably afford median\u2011priced homes.",
+      "text": "Mount Briar’s housing affordability index exceeds 100, indicating that median‑income residents can comfortably afford median‑priced homes.",
       "sourceSentenceIds": [
         8
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-briar-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.223,
+    "y": 0.497
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Washington County, Maryland"
+  }
 }

@@ -61,7 +61,7 @@
     },
     {
       "id": 5,
-      "text": "Surrounded by flat Mojave desert, Phelan\u2019s landscape is dotted with Joshua trees and dense brush.",
+      "text": "Surrounded by flat Mojave desert, Phelan’s landscape is dotted with Joshua trees and dense brush.",
       "sourceSentenceIds": [
         21
       ],
@@ -74,7 +74,7 @@
     },
     {
       "id": 6,
-      "text": "Phelan houses the county\u2019s first memorial library, a tribute to local veterans and a community gathering spot.",
+      "text": "Phelan houses the county’s first memorial library, a tribute to local veterans and a community gathering spot.",
       "sourceSentenceIds": [
         13
       ],
@@ -85,5 +85,20 @@
       "category": "landmark",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/phelan-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.256,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech . It is in the public domain in the United States.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Arrowbear Lake, California"
+  }
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Millwood\u2019s name comes from the lumber mills that powered the local economy in the late 1800s, a classic example of industrial naming in the South.",
+      "text": "Millwood’s name comes from the lumber mills that powered the local economy in the late 1800s, a classic example of industrial naming in the South.",
       "sourceSentenceIds": [
         1,
         19
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "A post office opened in Millwood in 1887, marking the community\u2019s first federal presence.",
+      "text": "A post office opened in Millwood in 1887, marking the community’s first federal presence.",
       "sourceSentenceIds": [
         15
       ],
@@ -99,5 +99,20 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Millwood%2C_Georgia"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millwood-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.397,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bubba73 (Jud McCranie)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ware_County_Courthouse,_Waycross,_GA,_US.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Ware County, Georgia"
+  }
 }

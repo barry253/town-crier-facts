@@ -89,5 +89,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/montier-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain-View-1st-St-mo.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain View, Missouri"
+  }
 }

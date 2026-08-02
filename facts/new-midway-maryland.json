@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 2,
-      "text": "The town\u2019s post office has called the Reever/Renner building home since the mid\u20111800s.",
+      "text": "The town’s post office has called the Reever/Renner building home since the mid‑1800s.",
       "sourceSentenceIds": [
         5
       ],
@@ -62,7 +62,7 @@
     },
     {
       "id": 6,
-      "text": "The Reever family has owned a woodshop/workshop in the town\u2019s garage since the 1990s, continuing a tradition of local craftsmanship.",
+      "text": "The Reever family has owned a woodshop/workshop in the town’s garage since the 1990s, continuing a tradition of local craftsmanship.",
       "sourceSentenceIds": [
         3
       ],
@@ -71,5 +71,20 @@
       ],
       "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-midway-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.586,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Landsat/NASA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeakelandsat.jpeg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chesapeake Bay"
+  }
 }

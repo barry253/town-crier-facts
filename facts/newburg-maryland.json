@@ -90,5 +90,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/newburg-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ewillison",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gov._Harry_W._Nice_Memorial_Bridge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Harry Nice Memorial Bridge"
+  }
 }

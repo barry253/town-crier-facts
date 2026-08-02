@@ -46,7 +46,7 @@
     },
     {
       "id": 5,
-      "text": "The Housing Affordability Index uses 100 as a balance point where a median\u2011income household can afford a median\u2011priced home.",
+      "text": "The Housing Affordability Index uses 100 as a balance point where a median‑income household can afford a median‑priced home.",
       "sourceSentenceIds": [
         10
       ],
@@ -72,5 +72,15 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mi-ranchito-estate-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.207,
+    "y": 0.5
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

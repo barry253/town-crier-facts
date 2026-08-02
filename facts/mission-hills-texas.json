@@ -99,5 +99,20 @@
       "category": "people",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mission-hills-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kevin Collins from Alameda, California, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mission_Peak_Fremont_CA.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mission Peak"
+  }
 }

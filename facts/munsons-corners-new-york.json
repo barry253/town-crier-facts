@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "NY\u201113 runs northeast into Cortland and southwest 21 miles to Ithaca, while NY\u2011281 heads north 5 miles to Homer.",
+      "text": "NY‑13 runs northeast into Cortland and southwest 21 miles to Ithaca, while NY‑281 heads north 5 miles to Homer.",
       "sourceSentenceIds": [
         6
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/munsons-corners-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.468,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Abrahami",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cortland_apples.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Cortland County, New York"
+  }
 }
