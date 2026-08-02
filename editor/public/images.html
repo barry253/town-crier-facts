@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Workbench</title>
+<style>
+:root {
+  --bg: #0f1115; --card: #1a1d24; --border: #2a2f3a;
+  --accent: #D98A2B; --green: #2ea043; --red: #d9534f; --blue: #4a90d9;
+  --text: #e6e6e6; --muted: #8b929e;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; }
+
+#topbar {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--card); border-bottom: 1px solid var(--border);
+  padding: 8px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+}
+#topbar h1 { font-size: 15px; font-weight: 600; }
+#topbar .back { color: var(--muted); font-size: 13px; text-decoration: none; }
+#topbar .back:hover { color: var(--text); }
+.sep { width: 1px; height: 20px; background: var(--border); }
+label { color: var(--muted); font-size: 12px; }
+select, input[type=text] {
+  background: var(--bg); border: 1px solid var(--border); color: var(--text);
+  padding: 4px 8px; border-radius: 4px; font-size: 13px; outline: none;
+}
+select:focus, input[type=text]:focus { border-color: var(--accent); }
+button {
+  background: var(--bg); border: 1px solid var(--border); color: var(--text);
+  padding: 4px 10px; border-radius: 4px; font-size: 13px; cursor: pointer;
+}
+button:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+button:disabled { opacity: 0.4; cursor: default; }
+.btn-p { background: var(--accent); border-color: var(--accent); color: #000; font-weight: 600; }
+.btn-p:hover:not(:disabled) { background: #e09a38; border-color: #e09a38; color: #000; }
+.btn-g { background: var(--green); border-color: var(--green); color: #fff; font-weight: 600; }
+.btn-g:hover:not(:disabled) { background: #37b24d; border-color: #37b24d; color: #fff; }
+.btn-s { padding: 3px 8px; font-size: 12px; }
+#summary { margin-left: auto; color: var(--muted); font-size: 13px; white-space: nowrap; }
+
+.pgbar {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 8px 16px; flex-wrap: wrap;
+}
+.pgbar.top { border-bottom: 1px solid var(--border); }
+.pgbar.bot { border-top: 1px solid var(--border); display: none; }
+.pi { color: var(--muted); font-size: 13px; }
+
+#grid {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 16px; padding: 16px;
+}
+
+.card {
+  background: var(--card); border: 1px solid var(--border);
+  border-radius: 8px; padding: 12px; display: flex; flex-direction: column; gap: 8px;
+}
+.card-hdr { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; }
+.card-title { font-size: 14px; font-weight: 600; }
+.card-slug { font-size: 11px; color: var(--muted); font-family: monospace; }
+.card-state { font-size: 12px; color: var(--muted); }
+.badge {
+  display: inline-block; padding: 2px 7px; border-radius: 10px;
+  font-size: 11px; font-weight: 600; white-space: nowrap; flex-shrink: 0;
+}
+.b-g { background: rgba(46,160,67,.18); color: var(--green); border: 1px solid rgba(46,160,67,.4); }
+.b-b { background: rgba(74,144,217,.18); color: var(--blue);  border: 1px solid rgba(74,144,217,.4); }
+.b-r { background: rgba(217,83,79,.18);  color: var(--red);   border: 1px solid rgba(217,83,79,.4); }
+.badge-grey { background: #3a3f4a; color: #b0b6c0; border: 1px solid #4a5060; }
+
+.img-row { display: flex; gap: 10px; align-items: flex-start; }
+.img-wrap {
+  position: relative; flex: 1 1 auto; min-width: 0; max-width: 280px;
+  user-select: none; cursor: crosshair;
+}
+.img-wrap img {
+  display: block; width: 100%; height: auto; border-radius: 4px;
+  pointer-events: none; user-select: none;
+}
+.ch {
+  position: absolute; width: 22px; height: 22px;
+  transform: translate(-50%, -50%); cursor: grab; z-index: 5; touch-action: none;
+}
+.ch:active { cursor: grabbing; }
+.ch-dot {
+  position: absolute; width: 12px; height: 12px;
+  background: var(--accent); border: 2px solid #fff; border-radius: 50%;
+  top: 50%; left: 50%; transform: translate(-50%,-50%);
+  box-shadow: 0 1px 5px rgba(0,0,0,.8);
+}
+.ch-h, .ch-v { position: absolute; background: rgba(217,138,43,.65); }
+.ch-h { top: 50%; left: -26px; right: -26px; height: 1px; transform: translateY(-50%); }
+.ch-v { left: 50%; top: -26px; bottom: -26px; width: 1px; transform: translateX(-50%); }
+
+.portrait {
+  width: 100px; height: 217px; flex-shrink: 0;
+  border-radius: 6px; border: 1px solid var(--border);
+  background-size: cover; background-repeat: no-repeat;
+  position: relative; overflow: hidden;
+}
+.portrait-lbl {
+  position: absolute; bottom: 3px; left: 0; right: 0; text-align: center;
+  font-size: 9px; color: rgba(255,255,255,.45); pointer-events: none;
+}
+
+.actions { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.fb { font-size: 12px; }
+.fb-ok  { color: var(--green); }
+.fb-err { color: var(--red); }
+
+.url-row { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+.url-row input { flex: 1; min-width: 150px; font-size: 12px; padding: 3px 6px; }
+
+.win-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.win-thumb {
+  width: 56px; height: 56px; object-fit: cover;
+  border-radius: 4px; border: 1px solid var(--border); flex-shrink: 0;
+}
+.win-info { font-size: 12px; color: var(--muted); }
+
+.wiki-lnk { color: var(--blue); font-size: 12px; text-decoration: none; }
+.wiki-lnk:hover { text-decoration: underline; }
+
+.spin {
+  display: inline-block; width: 12px; height: 12px; vertical-align: middle; margin-right: 4px;
+  border: 2px solid rgba(255,255,255,.2); border-top-color: var(--accent);
+  border-radius: 50%; animation: spin .6s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+#loading { text-align: center; padding: 60px; color: var(--muted); }
+#err-banner {
+  display: none; margin: 12px 16px; padding: 10px 14px; border-radius: 6px;
+  background: rgba(217,83,79,.1); border: 1px solid rgba(217,83,79,.35); color: var(--red);
+}
+</style>
+</head>
+<body>
+
+<div id="topbar">
+  <h1>Image Workbench</h1>
+  <a class="back" href="index.html">&#8592; Editor</a>
+  <div class="sep"></div>
+  <label>Filter</label>
+  <select id="f-filter">
+    <option value="all">All towns</option>
+    <option value="no_image" selected>No image (needs fix)</option>
+    <option value="unprocessed">Not yet processed</option>
+    <option value="has_image">Has image</option>
+    <option value="override">Manual override</option>
+  </select>
+  <label>State</label>
+  <select id="f-state"><option value="">All regions</option></select>
+  <label>Search</label>
+  <input type="text" id="f-search" placeholder="town name" style="width:130px">
+  <button class="btn-p" id="apply-btn">Apply</button>
+  <button id="refresh-btn" title="Refresh cache">Refresh</button>
+  <button id="publishBtn" class="btn-p">Publish to CDN</button>
+  <label>Per page</label>
+  <select id="f-pagesize">
+    <option value="30">30</option>
+    <option value="60">60</option>
+    <option value="120">120</option>
+  </select>
+  <span id="summary">--</span>
+</div>
+
+<div id="publishLog" style="display:none;background:#0a0c10;border:1px solid #2a2f3a;border-radius:8px;padding:10px;margin:8px 16px;font-family:monospace;font-size:12px;max-height:300px;overflow:auto;color:#e6e6e6"></div>
+
+<div class="pgbar top">
+  <button id="prev-t">Prev</button>
+  <span class="pi" id="pi-t">Page 1 of 1</span>
+  <button id="next-t">Next</button>
+</div>
+
+<div id="err-banner"></div>
+<div id="loading"><span class="spin"></span> Loading...</div>
+<div id="grid"></div>
+<div class="pgbar bot" id="pg-bot">
+  <button id="prev-b">Prev</button>
+  <span class="pi" id="pi-b">Page 1 of 1</span>
+  <button id="next-b">Next</button>
+</div>
+
+<script>
+'use strict';
+
+var S = { page: 1, pageSize: 30, filter: 'no_image', state: '', search: '', total: 0, totalPages: 1 };
+var drag = null;
+
+function byId(id) { return document.getElementById(id); }
+function mk(tag, cls) { var e = document.createElement(tag); if (cls) e.className = cls; return e; }
+
+function doPost(url, body) {
+  return fetch(url, { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify(body) })
+    .then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+}
+
+function doGet(url) {
+  return fetch(url).then(function(r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); });
+}
+
+function mkSpin() { return mk('span', 'spin'); }
+
+async function autoFillAttribution(card) {
+  var urlInput = card.querySelector('[data-role="replaceurl"]') || card.querySelector('[data-role="addurl"]');
+  if (!urlInput) return;
+  var url = urlInput.value.trim();
+  if (!url) return;
+  if (!/wikimedia\.org|wikipedia\.org/i.test(url)) return;
+  var authorEl = card.querySelector('[data-role="attr-author"]');
+  var licenseEl = card.querySelector('[data-role="attr-license"]');
+  var sourceEl = card.querySelector('[data-role="attr-source"]');
+  if (!authorEl) return;
+  var prevPh = authorEl.placeholder;
+  authorEl.placeholder = 'fetching attribution...';
+  try {
+    var r = await doGet('/api/wikimedia-attribution?url=' + encodeURIComponent(url));
+    if (r && r.ok) {
+      if (r.author) authorEl.value = r.author;
+      if (r.license) licenseEl.value = r.license;
+      if (r.sourceUrl) sourceEl.value = r.sourceUrl;
+    }
+  } catch(e) { /* leave fields for manual entry */ }
+  finally { authorEl.placeholder = prevPh; }
+}
+
+function setFb(fb, msg, type, autoClear) {
+  if (!fb) return;
+  fb.textContent = msg;
+  fb.className = 'fb fb-' + type;
+  if (autoClear) setTimeout(function() { if (fb) fb.textContent = ''; }, 2800);
+}
+
+function syncPg() {
+  var info = 'Page ' + S.page + ' of ' + S.totalPages;
+  byId('pi-t').textContent = info;
+  byId('pi-b').textContent = info;
+  ['prev-t','prev-b'].forEach(function(id) { byId(id).disabled = S.page <= 1; });
+  ['next-t','next-b'].forEach(function(id) { byId(id).disabled = S.page >= S.totalPages; });
+}
+
+function goPage(p) {
+  S.page = Math.max(1, Math.min(S.totalPages, p));
+  loadList();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+['prev-t','prev-b'].forEach(function(id) { byId(id).onclick = function() { goPage(S.page - 1); }; });
+['next-t','next-b'].forEach(function(id) { byId(id).onclick = function() { goPage(S.page + 1); }; });
+
+function loadList(refresh) {
+  byId('loading').style.display = 'block';
+  byId('grid').style.display = 'none';
+  byId('pg-bot').style.display = 'none';
+  byId('err-banner').style.display = 'none';
+
+  var p = new URLSearchParams({
+    filter: S.filter, state: S.state, search: S.search,
+    page: S.page, pageSize: S.pageSize, refresh: refresh ? '1' : '0'
+  });
+
+  doGet('/api/images/list?' + p.toString()).then(function(data) {
+    S.total = data.total || 0;
+    S.totalPages = Math.max(1, data.totalPages || 1);
+    renderGrid(data.items || []);
+    syncPg();
+    var sc = data.stateCounts || {};
+    byId('summary').innerHTML = 'Showing ' + (data.items || []).length + ' of ' + S.total + ' (page ' + S.page + '/' + S.totalPages + ') &nbsp;&middot;&nbsp; <span style="color:#2ea043">' + (sc.has_image || 0) + ' imaged</span> &middot; <span style="color:#d9534f">' + (sc.no_image || 0) + ' need fix</span> &middot; <span style="color:#8b929e">' + (sc.unprocessed || 0) + ' pending</span> &middot; <span style="color:#4a90d9">' + (sc.override || 0) + ' override</span>';
+  }).catch(function(e) {
+    var b = byId('err-banner');
+    b.textContent = 'Failed to load: ' + e.message;
+    b.style.display = 'block';
+  }).finally(function() {
+    byId('loading').style.display = 'none';
+  });
+}
+
+function renderGrid(items) {
+  var g = byId('grid');
+  g.innerHTML = '';
+  items.forEach(function(item) { g.appendChild(makeCard(item)); });
+  g.style.display = 'grid';
+  byId('pg-bot').style.display = 'flex';
+}
+
+function makeCard(item) {
+  var ps = item.processState || (item.imageUrl ? 'has_image' : 'no_image');
+  var bc, bt;
+  if (ps === 'override') { bc = 'b-b'; bt = 'override'; }
+  else if (ps === 'has_image') { bc = 'b-g'; bt = 'image'; }
+  else if (ps === 'no_image') { bc = 'b-r'; bt = 'no image'; }
+  else { bc = 'badge-grey'; bt = 'pending'; }
+
+  var card = mk('div', 'card');
+  card.dataset.file = item.file;
+
+  var hdr  = mk('div', 'card-hdr');
+  var meta = mk('div');
+  var ttl  = mk('div', 'card-title');
+  var townName = item.town || item.file.replace(/\.json$/, '');
+  var stateSuffix = item.state ? ' · ' + item.state : '';
+  if (item.wikipediaUrl) {
+    var a = document.createElement('a');
+    a.href = item.wikipediaUrl; a.target = '_blank'; a.rel = 'noopener';
+    a.textContent = townName;
+    a.style.color = '#4a90d9'; a.style.textDecoration = 'none';
+    ttl.appendChild(a);
+    var suff = document.createElement('span');
+    suff.textContent = stateSuffix;
+    suff.style.color = '#8b929e'; suff.style.fontWeight = 'normal';
+    ttl.appendChild(suff);
+  } else {
+    ttl.textContent = townName + stateSuffix;
+  }
+  var slg  = mk('div', 'card-slug'); slg.textContent = item.slug || item.file;
+  meta.appendChild(ttl);
+  meta.appendChild(slg);
+  var badge = mk('span', 'badge ' + bc); badge.textContent = bt;
+  hdr.appendChild(meta);
+  hdr.appendChild(badge);
+  card.appendChild(hdr);
+
+  if (ps === 'has_image' || ps === 'override') appendImgSection(card, item);
+  else if (ps === 'unprocessed') appendUnprocessedSection(card, item);
+  else appendNoImgSection(card, item);
+
+  return card;
+}
+
+function appendImgSection(card, item) {
+  var fx0 = (item.imageFocus && item.imageFocus.x != null) ? item.imageFocus.x : 0.5;
+  var fy0 = (item.imageFocus && item.imageFocus.y != null) ? item.imageFocus.y : 0.3;
+
+  var portrait = mk('div', 'portrait');
+  portrait.style.backgroundImage = "url('" + item.imageUrl.replace(/'/g, "\\'") + "')";
+  portrait.style.backgroundPosition = (fx0*100) + '% ' + (fy0*100) + '%';
+  var plbl = mk('span', 'portrait-lbl'); plbl.textContent = '9:19.5';
+  portrait.appendChild(plbl);
+
+  var wrap = mk('div', 'img-wrap');
+  wrap.dataset.file = item.file;
+  wrap.dataset.fx = fx0;
+  wrap.dataset.fy = fy0;
+  wrap._portrait = portrait;
+
+  var img = document.createElement('img');
+  img.alt = item.place || '';
+  img.loading = 'lazy';
+  img.draggable = false;
+
+  var ch = mk('div', 'ch');
+  ch.innerHTML = '<div class="ch-h"></div><div class="ch-v"></div><div class="ch-dot"></div>';
+  wrap.appendChild(img);
+  wrap.appendChild(ch);
+
+  function posCh() {
+    if (!img.offsetWidth) return;
+    ch.style.left = (parseFloat(wrap.dataset.fx) * img.offsetWidth) + 'px';
+    ch.style.top  = (parseFloat(wrap.dataset.fy) * img.offsetHeight) + 'px';
+  }
+  img.addEventListener('load', posCh);
+  img.src = item.imageUrl;
+  if (img.complete && img.naturalWidth) requestAnimationFrame(posCh);
+
+  ch.addEventListener('mousedown', function(e) {
+    e.preventDefault();
+    drag = { wrap: wrap, img: img, ch: ch };
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup',   onUp);
+    document.addEventListener('touchmove', onMove, { passive: false });
+    document.addEventListener('touchend',  onUp);
+  });
+  ch.addEventListener('touchstart', function(e) {
+    e.preventDefault();
+    drag = { wrap: wrap, img: img, ch: ch };
+    document.addEventListener('mousemove', onMove);
+    document.addEventListener('mouseup',   onUp);
+    document.addEventListener('touchmove', onMove, { passive: false });
+    document.addEventListener('touchend',  onUp);
+  }, { passive: false });
+
+  var row = mk('div', 'img-row');
+  row.appendChild(wrap);
+  row.appendChild(portrait);
+  card.appendChild(row);
+
+  var fb = mk('span', 'fb');
+  var actions = mk('div', 'actions');
+
+  var saveBtn = mk('button', 'btn-g btn-s');
+  saveBtn.textContent = 'Save Focus';
+  saveBtn.onclick = function() {
+    saveBtn.disabled = true;
+    doPost('/api/image/save-focus', {
+      file: item.file,
+      imageFocus: { x: parseFloat(wrap.dataset.fx), y: parseFloat(wrap.dataset.fy) }
+    }).then(function() {
+      setFb(fb, 'saved', 'ok', true);
+    }).catch(function(e) {
+      setFb(fb, 'Error: ' + e.message, 'err');
+    }).finally(function() {
+      saveBtn.disabled = false;
+    });
+  };
+
+  var resetBtn = mk('button', 'btn-s');
+  resetBtn.textContent = 'Reset to Auto';
+  resetBtn.onclick = function() {
+    resetBtn.disabled = true;
+    doPost('/api/image/reset-focus', { file: item.file }).then(function(d) {
+      if (d.imageFocus) {
+        var x = d.imageFocus.x, y = d.imageFocus.y;
+        wrap.dataset.fx = x; wrap.dataset.fy = y;
+        ch.style.left = (x * img.offsetWidth) + 'px';
+        ch.style.top  = (y * img.offsetHeight) + 'px';
+        portrait.style.backgroundPosition = (x*100) + '% ' + (y*100) + '%';
+      }
+      setFb(fb, 'reset - save to keep', 'ok', true);
+    }).catch(function(e) {
+      setFb(fb, 'Error: ' + e.message, 'err');
+    }).finally(function() {
+      resetBtn.disabled = false;
+    });
+  };
+
+  var replOpen = false;
+  var replBtn = mk('button', 'btn-s');
+  replBtn.textContent = 'Replace URL';
+  replBtn.onclick = function() {
+    replOpen = !replOpen;
+    replRow.style.display = replOpen ? 'flex' : 'none';
+    replBtn.textContent   = replOpen ? 'Cancel' : 'Replace URL';
+  };
+
+  actions.appendChild(saveBtn);
+  actions.appendChild(resetBtn);
+  actions.appendChild(replBtn);
+  actions.appendChild(fb);
+  card.appendChild(actions);
+
+  var replRow = mk('div', 'url-row');
+  replRow.style.display = 'none';
+  var replIn = document.createElement('input');
+  replIn.type = 'text'; replIn.placeholder = 'New image URL';
+  replIn.setAttribute('data-role', 'replaceurl');
+  var replAttrAuthor = document.createElement('input');
+  replAttrAuthor.type = 'text'; replAttrAuthor.placeholder = 'author (optional)';
+  replAttrAuthor.style.cssText = 'width:100%;margin-top:3px';
+  replAttrAuthor.setAttribute('data-role', 'attr-author');
+  var replAttrLicense = document.createElement('input');
+  replAttrLicense.type = 'text'; replAttrLicense.placeholder = 'license e.g. CC BY-SA 4.0 (optional)';
+  replAttrLicense.style.cssText = 'width:100%;margin-top:3px';
+  replAttrLicense.setAttribute('data-role', 'attr-license');
+  var replAttrSource = document.createElement('input');
+  replAttrSource.type = 'text'; replAttrSource.placeholder = 'source URL / Commons file page (optional)';
+  replAttrSource.style.cssText = 'width:100%;margin-top:3px';
+  replAttrSource.setAttribute('data-role', 'attr-source');
+  var replFetchBtn = mk('button', 'btn btn-s');
+  replFetchBtn.textContent = 'Auto-fetch attribution';
+  replFetchBtn.setAttribute('data-role', 'autofetch');
+  replFetchBtn.onclick = function() { autoFillAttribution(card); };
+  replIn.addEventListener('blur', function() { autoFillAttribution(card); });
+  replIn.addEventListener('paste', function() { setTimeout(function() { autoFillAttribution(card); }, 100); });
+  var bldBtn = mk('button', 'btn-p btn-s');
+  bldBtn.textContent = 'Build';
+  bldBtn.onclick = function() {
+    var attr = { author: replAttrAuthor.value.trim(), license: replAttrLicense.value.trim(), sourceUrl: replAttrSource.value.trim() };
+    doBuild(item.file, replIn.value.trim(), bldBtn, fb, attr);
+  };
+  replIn.addEventListener('keydown', function(e) { if (e.key === 'Enter') bldBtn.click(); });
+  replRow.appendChild(replIn);
+  replRow.appendChild(replFetchBtn);
+  replRow.appendChild(replAttrAuthor);
+  replRow.appendChild(replAttrLicense);
+  replRow.appendChild(replAttrSource);
+  replRow.appendChild(bldBtn);
+  card.appendChild(replRow);
+}
+
+function appendNoImgSection(card, item) {
+  var fb = mk('span', 'fb');
+  var sec = mk('div');
+  sec.style.cssText = 'display:flex;flex-direction:column;gap:8px';
+
+  if (item.wikipediaUrl) {
+    var wl = document.createElement('a');
+    wl.className = 'wiki-lnk';
+    wl.href = item.wikipediaUrl;
+    wl.target = '_blank'; wl.rel = 'noopener';
+    wl.textContent = 'Wikipedia article ↗';
+    sec.appendChild(wl);
+  }
+
+  var actRow = mk('div', 'actions');
+  var sugBtn = mk('button', 'btn-s');
+  sugBtn.textContent = 'Suggest image';
+  sugBtn.onclick = function() {
+    sugBtn.disabled = true;
+    sugBtn.innerHTML = '';
+    sugBtn.appendChild(mkSpin());
+    sugBtn.appendChild(document.createTextNode('Suggesting...'));
+    doPost('/api/image/suggest', { file: item.file }).then(function(d) {
+      sugBtn.style.display = 'none';
+      if (d.winner) {
+        var winRow = mk('div', 'win-row');
+        var thumb = document.createElement('img');
+        thumb.className = 'win-thumb'; thumb.src = d.winner; thumb.alt = '';
+        var info = mk('div', 'win-info');
+        info.textContent = d.candidates ? d.candidates + ' candidates' : 'Found';
+        var accBtn = mk('button', 'btn-g btn-s');
+        accBtn.textContent = 'Accept';
+        accBtn.onclick = function() { doBuild(item.file, d.winner, accBtn, fb, d.winnerAttribution || null); };
+        winRow.appendChild(thumb);
+        winRow.appendChild(info);
+        winRow.appendChild(accBtn);
+        sec.insertBefore(winRow, actRow);
+      } else {
+        setFb(fb, 'No candidates found', 'err');
+        sugBtn.style.display = '';
+        sugBtn.disabled = false;
+        sugBtn.textContent = 'Suggest image';
+      }
+    }).catch(function(e) {
+      setFb(fb, 'Error: ' + e.message, 'err');
+      sugBtn.style.display = '';
+      sugBtn.disabled = false;
+      sugBtn.textContent = 'Suggest image';
+    });
+  };
+  actRow.appendChild(sugBtn);
+  actRow.appendChild(fb);
+  sec.appendChild(actRow);
+
+  var urlRow = mk('div', 'url-row');
+  var urlIn = document.createElement('input');
+  urlIn.type = 'text'; urlIn.placeholder = 'Or paste image URL';
+  urlIn.setAttribute('data-role', 'addurl');
+  var addAttrAuthor = document.createElement('input');
+  addAttrAuthor.type = 'text'; addAttrAuthor.placeholder = 'author (optional)';
+  addAttrAuthor.style.cssText = 'width:100%;margin-top:3px';
+  addAttrAuthor.setAttribute('data-role', 'attr-author');
+  var addAttrLicense = document.createElement('input');
+  addAttrLicense.type = 'text'; addAttrLicense.placeholder = 'license e.g. CC BY-SA 4.0 (optional)';
+  addAttrLicense.style.cssText = 'width:100%;margin-top:3px';
+  addAttrLicense.setAttribute('data-role', 'attr-license');
+  var addAttrSource = document.createElement('input');
+  addAttrSource.type = 'text'; addAttrSource.placeholder = 'source URL / Commons file page (optional)';
+  addAttrSource.style.cssText = 'width:100%;margin-top:3px';
+  addAttrSource.setAttribute('data-role', 'attr-source');
+  var addFetchBtn = mk('button', 'btn btn-s');
+  addFetchBtn.textContent = 'Auto-fetch attribution';
+  addFetchBtn.setAttribute('data-role', 'autofetch');
+  addFetchBtn.onclick = function() { autoFillAttribution(card); };
+  urlIn.addEventListener('blur', function() { autoFillAttribution(card); });
+  urlIn.addEventListener('paste', function() { setTimeout(function() { autoFillAttribution(card); }, 100); });
+  var bldBtn = mk('button', 'btn-p btn-s');
+  bldBtn.textContent = 'Build';
+  bldBtn.onclick = function() {
+    var attr = { author: addAttrAuthor.value.trim(), license: addAttrLicense.value.trim(), sourceUrl: addAttrSource.value.trim() };
+    doBuild(item.file, urlIn.value.trim(), bldBtn, fb, attr);
+  };
+  urlIn.addEventListener('keydown', function(e) { if (e.key === 'Enter') bldBtn.click(); });
+  urlRow.appendChild(urlIn);
+  urlRow.appendChild(addFetchBtn);
+  urlRow.appendChild(addAttrAuthor);
+  urlRow.appendChild(addAttrLicense);
+  urlRow.appendChild(addAttrSource);
+  urlRow.appendChild(bldBtn);
+  sec.appendChild(urlRow);
+
+  card.appendChild(sec);
+}
+
+function appendUnprocessedSection(card, item) {
+  var sec = mk('div');
+  sec.style.cssText = 'color:#8b929e;font-size:12px;padding:6px 0';
+  sec.textContent = 'Not yet processed by pipeline';
+  card.appendChild(sec);
+}
+
+function doBuild(file, imageUrl, btn, fb, attribution) {
+  if (!imageUrl) { setFb(fb, 'Enter a URL first', 'err'); return; }
+  var orig = btn.textContent;
+  btn.disabled = true;
+  btn.innerHTML = '';
+  btn.appendChild(mkSpin());
+  btn.appendChild(document.createTextNode('Building...'));
+  var body = { file: file };
+  if (imageUrl) body.imageUrl = imageUrl;
+  if (imageUrl && attribution && (attribution.author || attribution.license || attribution.sourceUrl)) body.imageAttribution = attribution;
+  doPost('/api/image/build', body).then(function() {
+    setFb(fb, 'built', 'ok');
+    setTimeout(function() { loadList(); }, 900);
+  }).catch(function(e) {
+    setFb(fb, 'Error: ' + e.message, 'err');
+    btn.disabled = false;
+    btn.textContent = orig;
+  });
+}
+
+function onMove(e) {
+  if (!drag) return;
+  e.preventDefault();
+  var wrap = drag.wrap, img = drag.img, ch = drag.ch;
+  var t = e.touches && e.touches[0];
+  var cx = t ? t.clientX : e.clientX;
+  var cy = t ? t.clientY : e.clientY;
+  var rect = img.getBoundingClientRect();
+  var fx = Math.max(0, Math.min(1, (cx - rect.left) / rect.width));
+  var fy = Math.max(0, Math.min(1, (cy - rect.top)  / rect.height));
+  wrap.dataset.fx = fx; wrap.dataset.fy = fy;
+  ch.style.left = (fx * img.offsetWidth) + 'px';
+  ch.style.top  = (fy * img.offsetHeight) + 'px';
+  if (wrap._portrait) wrap._portrait.style.backgroundPosition = (fx*100) + '% ' + (fy*100) + '%';
+}
+
+function onUp() {
+  drag = null;
+  document.removeEventListener('mousemove', onMove);
+  document.removeEventListener('mouseup',   onUp);
+  document.removeEventListener('touchmove', onMove);
+  document.removeEventListener('touchend',  onUp);
+}
+
+byId('apply-btn').onclick = function() {
+  S.filter   = byId('f-filter').value;
+  S.state    = byId('f-state').value.trim();
+  S.search   = byId('f-search').value.trim();
+  S.pageSize = +byId('f-pagesize').value;
+  S.page     = 1;
+  loadList();
+};
+byId('refresh-btn').onclick = function() { S.page = 1; loadList(true); };
+byId('f-pagesize').onchange = function() { S.pageSize = +byId('f-pagesize').value; S.page = 1; loadList(); };
+['f-state','f-search'].forEach(function(id) {
+  byId(id).addEventListener('keydown', function(e) { if (e.key === 'Enter') byId('apply-btn').click(); });
+});
+
+function escH(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]);}); }
+document.getElementById('publishBtn').onclick = async function() {
+  var btn = document.getElementById('publishBtn');
+  var log = document.getElementById('publishLog');
+  if (!confirm('Publish all local fact changes to R2/CDN? Do this only when the corpus batch is NOT running to avoid git conflicts.')) return;
+  btn.disabled = true; btn.textContent = 'Publishing…';
+  log.style.display = 'block'; log.innerHTML = '';
+  var stepEls = {};
+  function appendLine(html) { var d=document.createElement('div'); d.innerHTML=html; log.appendChild(d); log.scrollTop=log.scrollHeight; return d; }
+  try {
+    var res = await fetch('/api/publish', { method: 'POST' });
+    if (!res.ok) { var j=await res.json().catch(function(){return{};}); appendLine('<span style="color:#d9534f">✗ '+escH(j.error||'Request failed')+'</span>'); btn.disabled=false; btn.textContent='Publish to CDN'; return; }
+    var reader = res.body.getReader(); var dec = new TextDecoder(); var buf='';
+    while(true){ var rd=await reader.read(); if(rd.done)break; buf+=dec.decode(rd.value,{stream:true}); var evs=buf.split('\n\n'); buf=evs.pop();
+      for(var i=0;i<evs.length;i++){ var ev=evs[i]; var l=ev.split('\n').find(function(x){return x.startsWith('data: ');}); if(!l)continue; var data; try{data=JSON.parse(l.slice(6));}catch(e){continue;}
+        if(data.type==='step-start'){ stepEls[data.name]=appendLine('<span style="color:#8b929e">⟳ '+escH(data.name)+'…</span>'); }
+        else if(data.type==='step-done'){ var ok=data.status==='ok',sk=data.status==='skipped'; var col=ok?'#2ea043':sk?'#8b929e':'#d9534f'; var ic=ok?'✓':sk?'—':'✗'; var h='<span style="color:'+col+'">'+ic+' '+escH(data.name)+'</span>'+(data.output?' <span style="color:#8b929e">'+escH(data.output)+'</span>':''); if(stepEls[data.name])stepEls[data.name].innerHTML=h; else appendLine(h); }
+        else if(data.type==='done'){ if(data.noChanges)appendLine('<span style="color:#8b929e">— Nothing to commit, working tree clean.</span>'); else if(data.success)appendLine('<span style="color:#2ea043;font-weight:bold">✓ Published successfully.</span>'); else appendLine('<span style="color:#d9534f;font-weight:bold">✗ Publish failed.</span>'); btn.disabled=false; btn.textContent='Publish to CDN'; }
+      }
+    }
+  } catch(e){ appendLine('<span style="color:#d9534f">✗ '+escH(e.message)+'</span>'); btn.disabled=false; btn.textContent='Publish to CDN'; }
+};
+
+async function loadStates() {
+  try {
+    var r = await doGet('/api/images/states');
+    var sel = byId('f-state');
+    for (var i = 0; i < r.states.length; i++) {
+      var s = r.states[i];
+      var opt = document.createElement('option');
+      opt.value = s.suffix;
+      opt.textContent = s.name + ' (' + s.count + ')';
+      sel.appendChild(opt);
+    }
+  } catch(e) { /* leave as All regions */ }
+}
+
+loadStates();
+loadList();
+</script>
+</body>
+</html>

@@ -23,6 +23,40 @@ const completedKokoroPath = path.join(repoRoot, 'completed-kokoro.jsonl');
 let publishInProgress = false;
 let townActionInProgress = false;
 
+// Image metadata cache for /api/images/list (avoids reading ~28k files per request)
+let imageMetaCache = null; // Map<file, {hasImage, imageSource, imageUrl, imageFocus}>
+let imageCacheBuiltAt = 0;
+const IMAGE_CACHE_TTL_MS = 60_000;
+
+const DONE_LOG = path.join(labRoot, 'image-pipeline', 'town-images.done.jsonl');
+const GAPS_LOG = path.join(labRoot, 'image-pipeline', 'town-images.gaps.jsonl');
+let processStateCache = null;
+let processStateCacheBuiltAt = 0;
+function buildProcessStateCache() {
+  const map = new Map();
+  for (const logPath of [DONE_LOG, GAPS_LOG]) {
+    try {
+      const txt = fs.readFileSync(logPath, 'utf8');
+      for (const line of txt.split('\n')) {
+        if (!line.trim()) continue;
+        try {
+          const rec = JSON.parse(line);
+          if (rec && rec.slug) map.set(rec.slug, rec.status || 'unknown');
+        } catch {}
+      }
+    } catch {}
+  }
+  processStateCache = map;
+  processStateCacheBuiltAt = Date.now();
+  return map;
+}
+function getProcessState(refresh) {
+  if (refresh || !processStateCache || (Date.now() - processStateCacheBuiltAt) > 15000) {
+    return buildProcessStateCache();
+  }
+  return processStateCache;
+}
+
 // Type A slugify — THE ONLY APPROVED SLUG ALGORITHM. See town-facts-lab/GLOSSARY.md.
 // Must stay byte-identical to wikipediaResolve.ts's slugify() / generateFacts.ts's
 // parsePlaceMetadata() output, since /api/town/generate hands its slug to
@@ -167,6 +201,50 @@ function rebuildIndex() {
 
 function loadIndex() {
   return JSON.parse(fs.readFileSync(indexPath, 'utf8'));
+}
+
+function buildImageMetaCache() {
+  const cache = new Map();
+  try {
+    const files = fs.readdirSync(factsDir).filter(f => f.endsWith('.json'));
+    for (const file of files) {
+      try {
+        const json = JSON.parse(fs.readFileSync(path.join(factsDir, file), 'utf8'));
+        let wikipediaUrl = null;
+        if (Array.isArray(json.sources)) {
+          const wikiSrc = json.sources.find(s => s && /wikipedia/i.test(s.label || ''));
+          if (wikiSrc && wikiSrc.url) wikipediaUrl = wikiSrc.url;
+          else {
+            const anyWiki = json.sources.find(s => s && /en\.wikipedia\.org\/wiki\//.test(s.url || ''));
+            if (anyWiki) wikipediaUrl = anyWiki.url;
+          }
+        }
+        cache.set(file, {
+          hasImage: !!json.imageUrl,
+          imageSource: json.imageSource || null,
+          imageUrl: json.imageUrl || null,
+          imageFocus: json.imageFocus || null,
+          wikipediaUrl,
+        });
+      } catch { /* skip unreadable files */ }
+    }
+  } catch { /* skip if dir unreadable */ }
+  imageMetaCache = cache;
+  imageCacheBuiltAt = Date.now();
+}
+
+function getImageMetaCache(refresh) {
+  if (!imageMetaCache || refresh || Date.now() - imageCacheBuiltAt > IMAGE_CACHE_TTL_MS) {
+    buildImageMetaCache();
+  }
+  return imageMetaCache;
+}
+
+function invalidateImageMeta(file, meta) {
+  if (imageMetaCache && meta) {
+    const existing = imageMetaCache.get(file) || {};
+    imageMetaCache.set(file, { ...existing, ...meta, hasImage: !!(meta.imageUrl ?? existing.imageUrl) });
+  }
 }
 
 function summarizeFacts(file, town, json) {
@@ -965,49 +1043,162 @@ app.post('/api/image/save', (req, res) => {
   res.json({ ok: true, rebuild });
 });
 
-app.get('/api/wikimedia-attribution', async (req, res) => {
-  const { url } = req.query;
-  if (!url || typeof url !== 'string') return res.status(400).json({ ok: false, error: 'url param required' });
-
-  // Extract bare filename (no File: prefix) from either URL format:
-  //   Description: https://commons.wikimedia.org/wiki/File:Foo.jpg
-  //   Direct:      https://upload.wikimedia.org/wikipedia/commons/X/XX/Foo.jpg
-  let filename = null;
-  const descMatch = url.match(/\/wiki\/File:([^?#]+)$/i);
-  if (descMatch) {
-    filename = decodeURIComponent(descMatch[1]);
-  } else {
-    const directMatch = url.match(/\/wikipedia\/commons\/[^/]+\/[^/]+\/([^/?#]+)$/i);
-    if (directMatch) filename = decodeURIComponent(directMatch[1]);
-  }
-  if (!filename) return res.status(400).json({ ok: false, error: 'Could not extract filename from URL. Paste a Wikimedia Commons description or upload URL.' });
-
-  const apiUrl = `https://commons.wikimedia.org/w/api.php?action=query&titles=File:${encodeURIComponent(filename)}&prop=imageinfo&iiprop=extmetadata|url|user&format=json&formatversion=2`;
-
+app.get('/api/wikimedia-attribution', (req, res) => {
   try {
-    const r = await fetch(apiUrl, {
-      headers: { 'User-Agent': 'TownCrier-Pi/1.0 (barry253@gmail.com)' },
-      signal: AbortSignal.timeout(10000),
-    });
-    if (!r.ok) throw new Error(`Wikimedia API returned ${r.status}`);
-    const data = await r.json();
-    const page = data?.query?.pages?.[0];
-    if (!page || page.missing) return res.status(404).json({ ok: false, error: `File not found on Wikimedia Commons (tried: File:${filename})` });
+    const url = req.query.url;
+    if (!url || typeof url !== 'string') return res.status(400).json({ ok: false, error: 'url param required' });
+    const r = spawnSync('npx', ['tsx', 'scripts/resolveAttribution.ts', url], { cwd: labRoot, encoding: 'utf8', maxBuffer: 4 * 1024 * 1024, timeout: 30000 });
+    if (r.status !== 0) return res.status(500).json({ ok: false, error: (r.stderr || '').slice(0, 200) });
+    const out = JSON.parse((r.stdout || '').trim().split('\n').pop());
+    res.json(out);
+  } catch (e) { res.status(500).json({ ok: false, error: String(e) }); }
+});
 
-    const info = page?.imageinfo?.[0] || {};
-    const meta = info.extmetadata || {};
-    const stripHtml = (s) => String(s || '').replace(/<[^>]+>/g, '').trim();
+// ── Image workbench API ───────────────────────────────────────────────────────
 
-    res.json({
-      ok: true,
-      directUrl: info.url || null,
-      author: stripHtml(meta.Artist?.value),
-      license: stripHtml(meta.LicenseShortName?.value),
-      sourceUrl: info.descriptionurl || '',
-    });
-  } catch (e) {
-    res.status(500).json({ ok: false, error: e.message });
+app.get('/api/images/states', (req, res) => {
+  try {
+    const idx = loadIndex();
+    const counts = new Map();
+    for (const e of idx) {
+      const region = e.state || e.region || e.country || '';
+      if (!region) continue;
+      counts.set(region, (counts.get(region) || 0) + 1);
+    }
+    const toSuffix = (name) => name.toLowerCase().replace(/\s+/g, '-');
+    const states = [...counts.entries()]
+      .map(([name, count]) => ({ name, suffix: toSuffix(name), count }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+    res.json({ states });
+  } catch (e) { res.status(500).json({ error: String(e) }); }
+});
+
+app.get('/api/images/list', (req, res) => {
+  const { filter = 'all', state, search, page: pageStr = '1', pageSize: pageSizeStr = '60', refresh } = req.query;
+  const pageSize = Math.max(1, parseInt(pageSizeStr, 10) || 60);
+  const page = Math.max(1, parseInt(pageStr, 10) || 1);
+
+  const index = loadIndex();
+  const cache = getImageMetaCache(refresh === '1');
+  const pstate = getProcessState(refresh === '1');
+
+  // State/search filter first
+  const candidates = index.filter(town => {
+    if (state && !town.file.endsWith(`-${state}.json`)) return false;
+    if (search) {
+      const q = String(search).toLowerCase();
+      if (!(town.place || town.slug || '').toLowerCase().includes(q)) return false;
+    }
+    return true;
+  });
+
+  // Attach processState to each candidate
+  const withState = candidates.map(town => {
+    const meta = cache.get(town.file) || { hasImage: false, imageSource: null, imageUrl: null, imageFocus: null };
+    const logStatus = pstate.get(town.file.replace(/\.json$/, '')) || null;
+    let processState;
+    if (meta.imageUrl) processState = 'has_image';
+    else if (logStatus === 'no_image' || logStatus === 'error') processState = 'no_image';
+    else if (logStatus) processState = 'has_image';
+    else processState = 'unprocessed';
+    return { town, meta, processState };
+  });
+
+  // Compute stateCounts before processState filter
+  const stateCounts = { has_image: 0, no_image: 0, unprocessed: 0, override: 0 };
+  for (const i of withState) {
+    stateCounts[i.processState] = (stateCounts[i.processState] || 0) + 1;
+    if (i.meta.imageSource === 'override') stateCounts.override++;
   }
+
+  // Apply processState/override filter
+  let filtered = withState;
+  if (filter === 'has_image' || filter === 'hasimage') filtered = withState.filter(i => i.processState === 'has_image');
+  else if (filter === 'no_image' || filter === 'missing') filtered = withState.filter(i => i.processState === 'no_image');
+  else if (filter === 'unprocessed') filtered = withState.filter(i => i.processState === 'unprocessed');
+  else if (filter === 'override') filtered = withState.filter(i => i.meta.imageSource === 'override');
+
+  filtered.sort((a, b) => (a.town.place || a.town.slug || '').localeCompare(b.town.place || b.town.slug || ''));
+
+  const total = filtered.length;
+  const totalPages = Math.ceil(total / pageSize) || 1;
+  const offset = (page - 1) * pageSize;
+  const pageItems = filtered.slice(offset, offset + pageSize);
+
+  const items = pageItems.map(({ town, meta, processState }) => ({
+    file: town.file,
+    slug: town.slug || town.file.replace(/\.json$/, ''),
+    town: town.town || town.place || '',
+    state: town.state || '',
+    imageUrl: meta.imageUrl,
+    imageSource: meta.imageSource,
+    imageFocus: meta.imageFocus,
+    wikipediaUrl: meta.wikipediaUrl || null,
+    processState,
+  }));
+
+  res.json({ total, page, pageSize, totalPages, stateCounts, items });
+});
+
+app.post('/api/image/save-focus', (req, res) => {
+  try {
+    const { file, imageFocus } = req.body || {};
+    if (!file || !imageFocus) return res.status(400).json({ ok:false, error:'missing file or imageFocus' });
+    const clamp = v => Math.min(1, Math.max(0, Number(v)));
+    const focus = { x: Number(clamp(imageFocus.x).toFixed(3)), y: Number(clamp(imageFocus.y).toFixed(3)) };
+    const json = readFactFile(file);
+    json.imageFocus = focus;
+    writeFactFile(file, json);
+    invalidateImageMeta(file, { imageUrl: json.imageUrl||null, imageSource: json.imageSource||null, imageFocus: focus });
+    res.json({ ok:true, imageFocus: focus });
+  } catch (e) { res.status(500).json({ ok:false, error:String(e) }); }
+});
+
+app.post('/api/image/reset-focus', (req, res) => {
+  try {
+    const { file } = req.body || {};
+    if (!file) return res.status(400).json({ ok:false, error:'missing file' });
+    const slug = file.replace(/\.json$/, '');
+    const r = spawnSync('npx', ['tsx', 'scripts/resetFocalPoint.ts', slug], { cwd: labRoot, encoding:'utf8', maxBuffer: 10*1024*1024, timeout: 60000 });
+    if (r.status !== 0) return res.status(500).json({ ok:false, error: (r.stderr||'').slice(0,300) });
+    const out = JSON.parse((r.stdout||'').trim().split('\n').pop());
+    if (out.error) return res.json({ ok:false, error: out.error });
+    res.json({ ok:true, imageFocus: { x: out.x, y: out.y } });
+  } catch (e) { res.status(500).json({ ok:false, error:String(e) }); }
+});
+
+app.post('/api/image/suggest', (req, res) => {
+  try {
+    const { file } = req.body || {};
+    if (!file) return res.status(400).json({ ok:false, error:'missing file' });
+    const slug = file.replace(/\.json$/, '');
+    const r = spawnSync('npx', ['tsx', 'scripts/suggestTownImage.ts', slug], { cwd: labRoot, encoding:'utf8', maxBuffer: 10*1024*1024, timeout: 90000 });
+    if (r.status !== 0) return res.status(500).json({ ok:false, error: (r.stderr||'').slice(0,300) });
+    const out = JSON.parse((r.stdout||'').trim().split('\n').pop());
+    res.json({ ok:true, ...out });
+  } catch (e) { res.status(500).json({ ok:false, error:String(e) }); }
+});
+
+app.post('/api/image/build', (req, res) => {
+  try {
+    const { file, imageUrl, imageAttribution } = req.body || {};
+    if (!file) return res.status(400).json({ ok:false, error:'missing file' });
+    const slug = file.replace(/\.json$/, '');
+    const args = ['tsx', 'scripts/buildTownImage.ts', slug, '--force'];
+    if (imageUrl) args.push('--source-url=' + imageUrl);
+    if (imageUrl && imageAttribution && typeof imageAttribution === 'object') {
+      args.push('--attribution=' + JSON.stringify({
+        author: String(imageAttribution.author || '').trim(),
+        license: String(imageAttribution.license || '').trim(),
+        sourceUrl: String(imageAttribution.sourceUrl || '').trim(),
+      }));
+    }
+    const r = spawnSync('npx', args, { cwd: labRoot, encoding:'utf8', maxBuffer: 10*1024*1024, timeout: 120000 });
+    if (r.status !== 0) return res.status(500).json({ ok:false, error: (r.stderr||'').slice(0,300) });
+    const out = JSON.parse((r.stdout||'').trim().split('\n').pop());
+    invalidateImageMeta(file, { imageUrl: out.r2Url||null, imageSource: 'wikipedia', imageFocus: out.focusX!=null?{x:out.focusX,y:out.focusY}:null });
+    res.json({ ok:true, result: out });
+  } catch (e) { res.status(500).json({ ok:false, error:String(e) }); }
 });
 
 app.get('/api/kokoro-clips/:slug', async (req, res) => {
