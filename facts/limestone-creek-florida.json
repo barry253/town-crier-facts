@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "text": "Every resident lives in an urban setting\u2014no rural areas exist within its borders.",
+      "text": "Every resident lives in an urban setting—no rural areas exist within its borders.",
       "sourceSentenceIds": [
         11
       ],
@@ -64,7 +64,7 @@
     },
     {
       "id": 5,
-      "text": "The CDP\u2019s boundaries are defined by the surrounding city of Jupiter, making it an enclave community.",
+      "text": "The CDP’s boundaries are defined by the surrounding city of Jupiter, making it an enclave community.",
       "sourceSentenceIds": [
         7
       ],
@@ -78,7 +78,7 @@
     },
     {
       "id": 6,
-      "text": "Limestone Creek\u2019s name reflects the limestone geology that characterizes much of South Florida\u2019s landscape.",
+      "text": "Limestone Creek’s name reflects the limestone geology that characterizes much of South Florida’s landscape.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Wikipedia"
@@ -87,5 +87,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/limestone-creek-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.418,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "St. Petersburg Times",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "1921 Tampa Bay hurricane"
+  }
 }

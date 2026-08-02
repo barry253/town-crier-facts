@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 2,
-      "text": "The community sits along State Route 715, 5.2 miles east\u2011northeast of Bedford.",
+      "text": "The community sits along State Route 715, 5.2 miles east‑northeast of Bedford.",
       "sourceSentenceIds": [
         7
       ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "text": "Lowry\u2019s post office, opened April 12, 1854, still serves residents today.",
+      "text": "Lowry’s post office, opened April 12, 1854, still serves residents today.",
       "sourceSentenceIds": [
         11,
         12
@@ -87,5 +87,20 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Lowry%2C_Virginia"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lowry-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.747,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coleman_Falls_Methodist_church.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Coleman Falls, Virginia"
+  }
 }

@@ -83,5 +83,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lanexa-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.233,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Muhranoff",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mechanicsville,_bridge_over_Chickahominy.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chickahominy River"
+  }
 }

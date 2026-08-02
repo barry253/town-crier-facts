@@ -63,7 +63,7 @@
     },
     {
       "id": 4,
-      "text": "The area\u2019s heritage is tied to coal mining and steel industries, shaping its regional identity.",
+      "text": "The area’s heritage is tied to coal mining and steel industries, shaping its regional identity.",
       "sourceSentenceIds": [
         24
       ],
@@ -76,7 +76,7 @@
     },
     {
       "id": 5,
-      "text": "Historic Sanborn Fire Insurance Maps from 1921 provide a detailed snapshot of McClellandtown\u2019s early 20th\u2011century layout.",
+      "text": "Historic Sanborn Fire Insurance Maps from 1921 provide a detailed snapshot of McClellandtown’s early 20th‑century layout.",
       "sourceSentenceIds": [
         12,
         10
@@ -104,5 +104,15 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mc-clellandtown-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.499
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Pennsylvania"
+  }
 }

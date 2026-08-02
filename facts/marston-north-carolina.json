@@ -89,5 +89,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marston-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.319,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jerrye & Roy Klotz, MD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RICHMOND_COUNTY_COURTHOUSE.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Richmond County, North Carolina"
+  }
 }

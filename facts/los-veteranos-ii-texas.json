@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 3,
-      "text": "Los Veteranos II covers about 0.2 square miles\u2014every inch of its 0.52 km\u00b2 is land.",
+      "text": "Los Veteranos II covers about 0.2 square miles—every inch of its 0.52 km² is land.",
       "sourceSentenceIds": [
         3,
         12
@@ -38,7 +38,7 @@
     },
     {
       "id": 4,
-      "text": "In 2020, all 11 residents identified as Hispanic or Latino, highlighting the community\u2019s cultural unity.",
+      "text": "In 2020, all 11 residents identified as Hispanic or Latino, highlighting the community’s cultural unity.",
       "sourceSentenceIds": [
         16
       ],
@@ -60,5 +60,20 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/los-veteranos-ii-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "text": "The community appears in both the FIPS\u201155 and GNIS databases, confirming its official status.",
+      "text": "The community appears in both the FIPS‑55 and GNIS databases, confirming its official status.",
       "sourceSentenceIds": [
         26
       ],
@@ -50,7 +50,7 @@
     },
     {
       "id": 4,
-      "text": "Ben Taylor\u2019s Flyfisher\u2019s Guide to the Florida Keys names Marathon Shores as a prime spot for anglers.",
+      "text": "Ben Taylor’s Flyfisher’s Guide to the Florida Keys names Marathon Shores as a prime spot for anglers.",
       "sourceSentenceIds": [
         7
       ],
@@ -78,7 +78,7 @@
     },
     {
       "id": 6,
-      "text": "Marathon Shores\u2019 county boundaries are documented in the Atlas of Historical County Boundaries, a key resource for tracking Florida\u2019s changing borders.",
+      "text": "Marathon Shores’ county boundaries are documented in the Atlas of Historical County Boundaries, a key resource for tracking Florida’s changing borders.",
       "sourceSentenceIds": [
         3
       ],
@@ -90,5 +90,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marathon-shores-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.817,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Key_West,_FL,_Courthouse,_Monroe_County,_North_Side,_11-22-2010_(15).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Monroe County, Florida"
+  }
 }

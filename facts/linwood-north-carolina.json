@@ -107,5 +107,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/linwood-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.846,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dennis Brown",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Davidson_County_NC_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Davidson County, North Carolina"
+  }
 }

@@ -50,7 +50,7 @@
     },
     {
       "id": 5,
-      "text": "The Housing Affordability Index in Las Haciendas is 100, meaning a median\u2011income resident can typically afford a median\u2011price home.",
+      "text": "The Housing Affordability Index in Las Haciendas is 100, meaning a median‑income resident can typically afford a median‑price home.",
       "sourceSentenceIds": [
         11
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/las-haciendas-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

@@ -36,7 +36,7 @@
     },
     {
       "id": 3,
-      "text": "Manokin Historic District preserves a cluster of 18th\u2011 and 19th\u2011century homes that tell the story of early Maryland settlers.",
+      "text": "Manokin Historic District preserves a cluster of 18th‑ and 19th‑century homes that tell the story of early Maryland settlers.",
       "sourceSentenceIds": [
         18
       ],
@@ -79,7 +79,7 @@
     },
     {
       "id": 6,
-      "text": "The marker is part of a 90\u2011year\u2011old Maryland Roadside Historical Marker program run by MDOT and the Maryland Historical Trust.",
+      "text": "The marker is part of a 90‑year‑old Maryland Roadside Historical Marker program run by MDOT and the Maryland Historical Trust.",
       "sourceSentenceIds": [
         2,
         3,
@@ -94,5 +94,20 @@
       "category": "landmark",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/manokin-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.387,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bwave at English Wikipedia",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SalisburySign.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Somerset County, Maryland"
+  }
 }

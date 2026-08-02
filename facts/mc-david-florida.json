@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "text": "McDavid\u2019s history dates back to the late 19th century, reflecting the broader development of Escambia County.",
+      "text": "McDavid’s history dates back to the late 19th century, reflecting the broader development of Escambia County.",
       "sourceSentenceIds": [
         1,
         27
@@ -48,5 +48,20 @@
       ],
       "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mc-david-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pensacola,_FL,_Courthouse,_Escambia_County,_12-16-2010_(2).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Escambia County, Florida"
+  }
 }

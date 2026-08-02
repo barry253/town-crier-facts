@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Long Beach\u2019s name blends Calvert County\u2019s heritage with \u201cLong Beach,\u201d highlighting its expansive Chesapeake shoreline.",
+      "text": "Long Beach’s name blends Calvert County’s heritage with “Long Beach,” highlighting its expansive Chesapeake shoreline.",
       "sourceSentenceIds": [
         28
       ],
@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "text": "The Calvert Cliffs Natural Preserve lets hikers spot Miocene\u2011era fossils, proving the area\u2019s millions\u2011of\u2011years geological story.",
+      "text": "The Calvert Cliffs Natural Preserve lets hikers spot Miocene‑era fossils, proving the area’s millions‑of‑years geological story.",
       "sourceSentenceIds": [
         5
       ],
@@ -74,7 +74,7 @@
     },
     {
       "id": 6,
-      "text": "Calvert County celebrates America\u2019s 250th anniversary in 2026, a milestone that shines over Long Beach\u2019s waterfront.",
+      "text": "Calvert County celebrates America’s 250th anniversary in 2026, a milestone that shines over Long Beach’s waterfront.",
       "sourceSentenceIds": [
         20
       ],
@@ -86,5 +86,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/long-beach-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-07-20_17_33_07_View_south_along_Maryland_State_Route_2_and_Maryland_State_Route_4_(Solomons_Island_Road)_just_south_of_Southern_Maryland_Boulevard_in_Calvert_County,_Maryland.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Calvert County, Maryland"
+  }
 }

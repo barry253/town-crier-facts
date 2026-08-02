@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 3,
-      "text": "There\u2019s no water within Los Arcos\u2019s borders\u2014its 0.0 square\u2011mile area is entirely land.",
+      "text": "There’s no water within Los Arcos’s borders—its 0.0 square‑mile area is entirely land.",
       "sourceSentenceIds": [
         8
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/los-arcos-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

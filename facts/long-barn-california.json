@@ -94,5 +94,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/long-barn-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.141,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Eric Kilby from Somerville, MA, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hetch_Hetchy_Valley_(54152192812)_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Tuolumne County, California"
+  }
 }

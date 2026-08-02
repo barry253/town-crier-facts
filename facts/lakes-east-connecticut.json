@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lakes East\u2019s colonial villages showcase historic homes and landmarks that echo the town\u2019s early architecture.",
+      "text": "Lakes East’s colonial villages showcase historic homes and landmarks that echo the town’s early architecture.",
       "sourceSentenceIds": [
         1
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 4,
-      "text": "Connecticut\u2019s tourism highlights include a 250\u2011mile Long Island Sound shoreline, rolling Litchfield Hills, and the unspoiled River Valley.",
+      "text": "Connecticut’s tourism highlights include a 250‑mile Long Island Sound shoreline, rolling Litchfield Hills, and the unspoiled River Valley.",
       "sourceSentenceIds": [
         15,
         16
@@ -63,7 +63,7 @@
     },
     {
       "id": 5,
-      "text": "Public golf courses, boating, fishing, and swimming opportunities abound throughout the state\u2019s scenic outdoors.",
+      "text": "Public golf courses, boating, fishing, and swimming opportunities abound throughout the state’s scenic outdoors.",
       "sourceSentenceIds": [
         17
       ],
@@ -75,5 +75,20 @@
       "quality": "poor",
       "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakes-east-connecticut.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AirportExpert",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Candlewood_Lake_Club.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Candlewood Lake Club, Connecticut"
+  }
 }

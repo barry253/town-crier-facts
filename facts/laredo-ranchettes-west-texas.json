@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Laredo Ranchettes West\u2019s name blends the nearby city of Laredo with \u201cRanchettes West,\u201d hinting at small ranches west of the urban core.",
+      "text": "Laredo Ranchettes West’s name blends the nearby city of Laredo with “Ranchettes West,” hinting at small ranches west of the urban core.",
       "sourceSentenceIds": [
         4
       ],
@@ -48,7 +48,7 @@
     },
     {
       "id": 5,
-      "text": "Webb County\u2019s designated community college for the area is Laredo Community College, serving local residents.",
+      "text": "Webb County’s designated community college for the area is Laredo Community College, serving local residents.",
       "sourceSentenceIds": [
         21
       ],
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "text": "The Webb County Historical Foundation\u2019s archives preserve documents, photographs, maps, manuscripts, oral histories, and literature about Laredo\u2019s past.",
+      "text": "The Webb County Historical Foundation’s archives preserve documents, photographs, maps, manuscripts, oral histories, and literature about Laredo’s past.",
       "sourceSentenceIds": [
         1
       ],
@@ -72,5 +72,20 @@
       "category": "culture",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laredo-ranchettes-west-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

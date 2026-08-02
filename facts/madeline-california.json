@@ -84,5 +84,20 @@
       "category": "culture",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/madeline-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.865,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "en:User:Mav",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lassen_Peak_from_Devastated_Area-1200px.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lassen County, California"
+  }
 }

@@ -99,5 +99,20 @@
       "category": "history",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/melrose-park-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.246,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Beyond My Ken",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cayuga_County_Court_House_Auburn.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Cayuga County, New York"
+  }
 }

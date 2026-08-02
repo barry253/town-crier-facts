@@ -65,7 +65,7 @@
     },
     {
       "id": 6,
-      "text": "The Housing Affordability Index base of 100 indicates that a median\u2011income resident can normally afford a median\u2011price home in La Coma Heights.",
+      "text": "The Housing Affordability Index base of 100 indicates that a median‑income resident can normally afford a median‑price home in La Coma Heights.",
       "sourceSentenceIds": [
         21
       ],
@@ -74,5 +74,20 @@
       ],
       "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-coma-heights-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.561,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Theunderratedtaco",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HidalgoCountyCourthouse.png"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Hidalgo County, Texas"
+  }
 }
