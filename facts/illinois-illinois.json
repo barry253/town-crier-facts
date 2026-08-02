@@ -64,7 +64,7 @@
     },
     {
       "id": 5,
-      "text": "The community is part of Rock Island County, one of Illinois\u2019s northernmost counties along the Mississippi.",
+      "text": "The community is part of Rock Island County, one of Illinois’s northernmost counties along the Mississippi.",
       "sourceSentenceIds": [
         18
       ],
@@ -76,5 +76,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/illinois-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.772,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tony Webster from Portland, Oregon",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grant_River_Recreation_Area_along_the_Mississippi_River_-_Potosi,_Wisconsin_(24342209130).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mississippi River"
+  }
 }

@@ -86,5 +86,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jonesboro-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:State_highway_53_bridge_leon_river.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Leon River"
+  }
 }

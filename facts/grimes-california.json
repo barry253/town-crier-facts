@@ -87,5 +87,20 @@
       "category": "nature",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grimes-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.142,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Sheila Sund",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_geese_overwintering_at_Colusa_Wildlife_Refuge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Colusa County, California"
+  }
 }

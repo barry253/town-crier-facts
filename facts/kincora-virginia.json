@@ -101,5 +101,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kincora-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.495,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "General George Marshall",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loudoun_County,_Virginia_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Loudoun County, Virginia"
+  }
 }

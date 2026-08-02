@@ -99,5 +99,20 @@
       ],
       "source": "https://grokipedia.com/page/hillsgrove_pennsylvania"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hillsgrove-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.305,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ruhrfisch",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loyalsock_Creek_from_Hillsgrove_Bridge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Loyalsock Creek"
+  }
 }

@@ -100,5 +100,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jewell-georgia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Mayer",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Damage_to_Centennial_Olympic_Park_-_14_March_2008_Downtown_Atlanta_storm.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Centennial Olympic Park"
+  }
 }

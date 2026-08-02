@@ -86,5 +86,20 @@
       "quality": "poor",
       "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/karbers-ridge-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.276,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Daniel Schwen",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hardin_County_Courthouse,_Elizabethtown.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Hardin County, Illinois"
+  }
 }

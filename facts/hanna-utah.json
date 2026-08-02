@@ -90,5 +90,20 @@
       "category": "economy",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hanna-utah.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ashley National Forest, US Forest Service",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Fork_Duchesne_Canyon_-_Social_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Duchesne River"
+  }
 }

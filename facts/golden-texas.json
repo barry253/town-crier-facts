@@ -74,5 +74,20 @@
       "quality": "poor",
       "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/golden-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.789,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wood_courthouse_tx_2010.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wood County, Texas"
+  }
 }

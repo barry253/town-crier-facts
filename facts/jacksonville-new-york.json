@@ -37,7 +37,7 @@
     },
     {
       "id": 5,
-      "text": "Census rules require a CDP to be a single, named, contiguous area with residential, commercial, and non\u2011residential uses.",
+      "text": "Census rules require a CDP to be a single, named, contiguous area with residential, commercial, and non‑residential uses.",
       "sourceSentenceIds": [
         11
       ],
@@ -64,5 +64,20 @@
       "quality": "poor",
       "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jacksonville-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.279,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jerrye & Roy Klotz, MD",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DRYDEN_DISTRICT_SCHOOL_NO._5,_TOMPKINS_COUNTY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Tompkins County, New York"
+  }
 }

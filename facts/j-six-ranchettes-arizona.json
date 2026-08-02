@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "J\u2011Six Ranchettes sits 9 miles west of Benson along Interstate 10, right in the heart of Pima County.",
+      "text": "J‑Six Ranchettes sits 9 miles west of Benson along Interstate 10, right in the heart of Pima County.",
       "sourceSentenceIds": [
         3
       ],
@@ -36,7 +36,7 @@
     },
     {
       "id": 2,
-      "text": "The J\u20116 Ranch hosted future President John F. Kennedy in summer 1936, where he worked as a ranch hand.",
+      "text": "The J‑6 Ranch hosted future President John F. Kennedy in summer 1936, where he worked as a ranch hand.",
       "sourceSentenceIds": [
         23,
         24
@@ -76,7 +76,7 @@
     },
     {
       "id": 6,
-      "text": "Local residents still search for artifacts linked to JFK\u2019s 1936 stay at the J\u20116 Ranch.",
+      "text": "Local residents still search for artifacts linked to JFK’s 1936 stay at the J‑6 Ranch.",
       "sourceSentenceIds": [
         28
       ],
@@ -87,5 +87,20 @@
       "category": "culture",
       "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/j-six-ranchettes-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gillfoto",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_County_Courthouse_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Pima County, Arizona"
+  }
 }
