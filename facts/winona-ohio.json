@@ -104,19 +104,19 @@
       "qualityReason": "location_description"
     }
   ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Guilford Lake, Ohio"
+  },
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/winona-ohio.jpg",
-  "imageSource": "wikipedia_geo_link",
+  "imageSource": "wikipedia_county",
   "imageFocus": {
-    "x": 0.76,
+    "x": 0.4,
     "y": 0.5
   },
   "imageAttribution": {
     "author": "636Buster",
     "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbiana_County_Ohio_incorporated_and_unincorporated_areas_Guilford_Lake_highlighted.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Guilford Lake, Ohio"
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbiana_County,_Ohio_Courthouse_August_2022.jpg"
   }
 }
