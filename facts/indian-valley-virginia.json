@@ -107,6 +107,10 @@
       "qualityReason": "other"
     }
   ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Floyd County, Virginia"
+  },
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/indian-valley-virginia.jpg",
   "imageSource": "wikipedia_county",
   "imageFocus": {
@@ -117,9 +121,5 @@
     "author": "Andrew Bain",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floyd_Co_CH.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Floyd County, Virginia"
   }
 }
