@@ -1,0 +1,5 @@
+# Town Crier Facts — Backlog
+
+**Wrong Wikipedia article detection and remediation** — Some towns had images sourced from the wrong Wikipedia article (e.g. a person's biography instead of the town's article). Fixed 4 towns manually (Aug 2026); remaining audit needed. Approach: validate the source article's extract for the expected state/place name before accepting an image. `low` *(Aug 3)*
+
+**Image pipeline: systematic re-resolution for remaining 248 gaps** — 248 towns have no image after all automated passes. Breakdown: TX (69, mostly South Texas colonias with no Wikipedia article), CA (48, SF/LA/Austin neighborhoods), intl (26, Dubai/European neighborhoods), scattered US (105). Manual path: use Image Workbench "Replace URL" for towns encountered while driving. Automated path: (1) for TX colonias, try parent municipality (e.g. "Rio Grande City, Texas") as fallback; (2) for CA neighborhoods, ensure parent-city fallback covers SF/LA/Oakland districts; (3) for intl, broader Wikipedia search query using town name + country. Run `buildTownImagesGapFill3.ts` again after wrong-article fixes land since some gaps may unblock. — `low` *(Aug 3)*

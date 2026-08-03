@@ -306,6 +306,8 @@ names, corrupting slugs for places where those words are part of the name.
 3. Update `place`, `town`, and `slug` fields inside the file with `jq`
 4. Rebuild index and push
 
+- **Task 6 person-photo heuristic caused 2,223 false positives (Aug 2026).** The filename-based `FirstName LastName` pattern for detecting person photos was far too aggressive — it cleared legitimate town photos like `File:Absarokee_Montana.JPG` and `File:Stone_Bridge_Acushnet.jpg`. The correct approach to detecting person photos is to validate the Wikipedia *article* (check that the source article's extract mentions the town's state), not the image filename. Task 6 is now disabled in `runNightlyPipeline.ts`. Wrong-article detection belongs in the fact generation pipeline, not the image pipeline.
+
 **35 pending NYC neighborhoods** still in queue that would have been affected
 (now safe — fix deployed before generation):
 Brighton Beach, Manhattan Beach, Marine Park, Bergen Beach, Ocean Hill,
