@@ -101,6 +101,10 @@
       "qualityReason": "editorial_filler"
     }
   ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fairfax County, Virginia"
+  },
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/braddock-virginia.jpg",
   "imageSource": "wikipedia_county",
   "imageFocus": {
@@ -111,9 +115,5 @@
     "author": "Joel D Gray",
     "license": "CC BY-SA 4.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tysons_Corner_Sunset_.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fairfax County, Virginia"
   }
 }
