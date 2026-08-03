@@ -76,6 +76,10 @@
       "qualityReason": "other"
     }
   ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Whitman County, Washington"
+  },
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thornton-washington.jpg",
   "imageSource": "wikipedia_county",
   "imageFocus": {
@@ -86,9 +90,5 @@
     "author": "Jon Roanhaus",
     "license": "CC BY-SA 3.0",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colfax_Post_Office.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Whitman County, Washington"
   }
 }
