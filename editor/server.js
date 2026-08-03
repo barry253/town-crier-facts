@@ -1185,7 +1185,17 @@ app.post('/api/image/build', (req, res) => {
     if (!file) return res.status(400).json({ ok:false, error:'missing file' });
     const slug = file.replace(/\.json$/, '');
     const args = ['tsx', 'scripts/buildTownImage.ts', slug, '--force'];
-    if (imageUrl) args.push('--source-url=' + imageUrl);
+    if (imageUrl) {
+      // Convert Commons page URL to direct download URL
+      // https://commons.wikimedia.org/wiki/File:Foo.jpg → Special:Redirect/file/Foo.jpg&width=1920
+      let downloadUrl = imageUrl;
+      const commonsMatch = imageUrl.match(/commons\.wikimedia\.org\/wiki\/File:(.+)$/);
+      if (commonsMatch) {
+        const fileName = decodeURIComponent(commonsMatch[1].split('#')[0]);
+        downloadUrl = 'https://commons.wikimedia.org/w/index.php?title=Special:Redirect/file/' + encodeURIComponent(fileName) + '&width=1920';
+      }
+      args.push('--source-url=' + downloadUrl);
+    }
     if (imageUrl && imageAttribution && typeof imageAttribution === 'object') {
       args.push('--attribution=' + JSON.stringify({
         author: String(imageAttribution.author || '').trim(),
