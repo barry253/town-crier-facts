@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Crime_in_New_York_City"
+      "url": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
     },
     {
       "label": "Web source 1",
@@ -16,87 +16,79 @@
     },
     {
       "label": "Web source 2",
-      "url": "https://www.britannica.com/place/New-York-City"
+      "url": "https://www.nyctourism.com/official-nyc-info-center/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "New York City is the largest and most influential American metropolis and the most populous and international city in the country.",
+      "text": "New City formed 1798 when Rockland County split from Orange County; founders named it to reflect a \"new\" city.",
       "sourceSentenceIds": [
-        30
+        23,
+        26
       ],
       "sourceLabels": [
-        "Web source 2"
+        "Wikipedia"
       ],
-      "source": "https://www.britannica.com/place/New-York-City",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
     },
     {
       "id": 2,
-      "text": "During the mid‑to‑late 1980s, Chinatown began to experience an influx of Vietnamese refugees from the Vietnam War.",
+      "text": "Lenni Lenape Indians inhabited the area before the Revolutionary War, and the Dutch were the first Europeans to settle.",
       "sourceSentenceIds": [
-        29
+        20,
+        21
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crime_in_New_York_City",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
     },
     {
       "id": 3,
-      "text": "Two of the most influential police commissioners of New York City, Raymond Kelly and William Bratton, helped to greatly reduce the city's crime rate.",
+      "text": "The New City Free Library and Peter DePew House are listed on the National Register of Historic Places.",
       "sourceSentenceIds": [
-        27
+        5,
+        7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crime_in_New_York_City",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
     },
     {
       "id": 4,
-      "text": "Racial tensions during the Civil Rights Movement of the 1950s and 1960s further contributed to middle‑class flight and the decline of many neighborhoods.",
+      "text": "Folk singer Burl Ives performed in New City, and Eleanor Roosevelt once visited the local garden.",
       "sourceSentenceIds": [
-        13
+        6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crime_in_New_York_City",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
     },
     {
       "id": 5,
-      "text": "The MTA began to discuss how the ridership issue could be fixed, but by October 1982, mostly due to fears about transit crime, poor subway performance, and some economic factors, ridership on the subway was at extremely low levels matching 1917 ridership.",
+      "text": "The town once hosted a county fairgrounds and racetrack at the intersection of Route 304 and Congers Road.",
       "sourceSentenceIds": [
-        25
+        28
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crime_in_New_York_City",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "Tillinghast designed an 18‑hole championship golf course on the former Zukor property in 1920.",
+      "sourceSentenceIds": [
+        29,
+        30
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/New_City%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-city-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.647,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "christian razukas from Honolulu, Hawaii",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Sharpton,_1989_Protest_March,_Brooklyn_NY.jpg"
-  }
+  ]
 }
