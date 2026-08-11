@@ -419,3 +419,59 @@ npx tsx scripts/generateCountyBatch.ts
 
 Never edit `landmarks-index.json` manually.
 The local editor at http://localhost:8787 includes a Landmarks tab for browsing and editing.
+
+---
+
+## MCP orchestration infrastructure
+
+Pi CC runs inside the Town Crier MCP server (`~/town-crier-mcp/server.js`,
+managed by systemd `town-crier-mcp.service`). The MCP server dispatches
+Claude Code tasks to three machines:
+
+- **Pi CC** (`run_pi_cc`) — this machine, working in `~/town-crier-facts`
+  or `~/town-facts-lab`. Direct local execution.
+- **Win CC** (`run_win_cc`) — Dell Windows workstation, app repo at
+  `C:\dev\town-crier`. Reached via reverse SSH tunnel: Dell holds an
+  outbound tunnel to the Pi; the Pi connects to the Dell as
+  `tcagent@localhost -p 2222`.
+- **Mac CC** (`run_mac_tc_cc`) — MacBook Air, app repo at
+  `~/dev/town-crier`. Reached via Cloudflare Tunnel through the
+  `mac-tc` SSH alias in `~/.ssh/config`.
+
+### Pi-as-relay pattern for Win CC
+
+Win CC has two persistent constraints:
+- **Single quotes in prompts** cause PowerShell parser errors (now
+  fixed by stdin delivery, but avoid in single-quoted strings in
+  `remoteCmd` construction).
+- **Complex multi-file scripts** are better written as `.js` files and
+  executed via Node than embedded in a single PowerShell command.
+
+When a Win CC task involves a code file too complex to pass inline,
+use this relay pattern from the Pi:
+
+```bash
+# 1. Write the script to the Pi
+cat > /tmp/tc-task.js << 'EOF'
+// your Node.js script here
+EOF
+
+# 2. Copy it to the Dell via the reverse tunnel
+scp -P 2222 /tmp/tc-task.js tcagent@localhost:C:/dev/tc-task.js
+
+# 3. Execute it on the Dell
+ssh -p 2222 tcagent@localhost "node C:/dev/tc-task.js"
+```
+
+Node.js handles encoding correctly and avoids PowerShell quoting issues
+entirely. Clean up temp files after use.
+
+### Tailscale
+Pi is on the Tailscale tailnet (`raspberrypi`, `100.93.98.71`).
+The Mac (`edens-macbook-air`) and Barry's phone (`barrys-s25`) are also
+on the tailnet. The Pi uses Tailscale as a fallback path to reach the
+Mac when the cloudflared tunnel is degraded (watchdog auto-remediation).
+
+### Scope rule (unchanged)
+Pi CC must not touch `/home/barry/dev/town-crier/` — that is the Mac
+repo and Win CC territory. Facts corpus and generation pipeline only.
