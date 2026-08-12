@@ -475,3 +475,9 @@ Mac when the cloudflared tunnel is degraded (watchdog auto-remediation).
 ### Scope rule (unchanged)
 Pi CC must not touch `/home/barry/dev/town-crier/` — that is the Mac
 repo and Win CC territory. Facts corpus and generation pipeline only.
+
+## Output discipline
+
+When running shell commands, always emit raw stdout verbatim — never summarize, paraphrase, or describe what the output "shows." Wrap output in a fenced code block. If the output is very long (>200 lines), truncate with a clear marker ("... truncated at N lines ...") rather than summarizing.
+
+This applies to: file contents (cat), diffs (git diff), log tails (tail), JSON (jq), and any other command where the exact bytes matter to the caller.
