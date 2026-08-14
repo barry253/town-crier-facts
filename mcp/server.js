@@ -224,6 +224,7 @@ function runOnPi({ prompt, phase, logger }) {
 function runOnMac({ prompt, phase, repoPath, logger }) {
   return new Promise((resolve, reject) => {
     const tools     = ALLOWED_TOOLS[phase].join(",");
+    prompt = `[You are Mac CC, running on the MacBook Air at ~/dev/town-crier. Do not route this task to any other machine.]\n\n[Output discipline: when running shell commands, always include the FULL raw output verbatim in your response — never say "output above", "as shown", or "see above". If content is long, include it all in a fenced code block. Never summarize file contents.]\n\n` + prompt;
     const safePrompt = prompt.replace(/'/g, "'\\''");
     const remoteCmd = `cd ${repoPath} && ${MAC_CLAUDE} -p '${safePrompt}' --allowedTools ${tools} --output-format text --dangerously-skip-permissions < /dev/null`;
 
@@ -295,22 +296,49 @@ const server = new McpServer({
   version: "1.0.0",
 });
 
+// Progress heartbeat — fires every 15s while a long-running CC task is in flight.
+// Keeps Claude.ai from timing out on tasks that legitimately take 100-260s.
+// Wrapped in try/catch so a client that ignores progress never kills the result.
+function startProgressHeartbeat(extra, label) {
+  if (!extra?.sendNotification || !extra?._meta?.progressToken) return null;
+  const progressToken = extra._meta.progressToken;
+  const startTime = Date.now();
+  const interval = setInterval(async () => {
+    const elapsed = Math.round((Date.now() - startTime) / 1000);
+    try {
+      await extra.sendNotification({
+        method: "notifications/progress",
+        params: {
+          progressToken,
+          progress: elapsed,
+          total: 300,
+          message: `${label} running… (${elapsed}s)`,
+        },
+      });
+    } catch (_) {}
+  }, 15000);
+  return interval;
+}
+
 // Tool: run_win_cc
 server.tool(
   "run_win_cc",
-  "Execute a Claude Code task on the Windows machine against the Town Crier app repo at C:\\dev\\town-crier. Use for app code, React Native, Java background service, EAS builds, and deploy scripts.",
+  "Execute a Claude Code task on the Dell Windows machine against the Town Crier app repo at C:\\dev\\town-crier. Use for app code, React Native, Java background service, EAS builds, and deploy scripts. NOT for Pi corpus work, fact generation, or queue management.",
   {
     prompt: z.string().describe("The full prompt to send to Claude Code"),
     phase: z.enum(["investigate", "implement"]).default("investigate").describe(
       '"investigate" = read-only (Phase 1). "implement" = file writes + bash enabled (Phase 2, requires prior approval).'
     ),
   },
-  async ({ prompt, phase }) => {
+  async ({ prompt, phase }, extra) => {
     log.win(`[TOOL] run_win_cc phase=${phase}`);
+    const heartbeat = startProgressHeartbeat(extra, "Win CC");
     try {
       const result = await runOnDell({ prompt, phase, repoPath: REPOS.win, logger: log.win });
+      clearInterval(heartbeat);
       return { content: [{ type: "text", text: formatResult({ result, agent: "Win", phase, repoPath: REPOS.win }) }] };
     } catch (err) {
+      clearInterval(heartbeat);
       log.win(`[OFFLINE] ${err.message} — saving to pending queue`);
       const { id } = savePending({ agent: "win", prompt, phase });
       return {
@@ -339,12 +367,15 @@ server.tool(
       '"investigate" = read-only (Phase 1). "implement" = file writes + bash enabled (Phase 2, requires prior approval).'
     ),
   },
-  async ({ prompt, phase }) => {
+  async ({ prompt, phase }, extra) => {
+    const heartbeat = startProgressHeartbeat(extra, "DS CC");
     log.ds(`[TOOL] run_ds_cc phase=${phase}`);
     try {
       const result = await runOnDell({ prompt, phase, repoPath: REPOS.ds, logger: log.ds });
+      clearInterval(heartbeat);
       return { content: [{ type: "text", text: formatResult({ result, agent: "DS", phase, repoPath: REPOS.ds }) }] };
     } catch (err) {
+      clearInterval(heartbeat);
       log.ds(`[OFFLINE] ${err.message} — saving to pending queue`);
       const { id } = savePending({ agent: "ds", prompt, phase });
       return {
@@ -366,7 +397,7 @@ server.tool(
 // Tool: run_pi_cc
 server.tool(
   "run_pi_cc",
-  "Execute a Claude Code task on the Raspberry Pi against the Town Crier facts repo at ~/town-crier-facts, or the lab at ~/town-facts-lab. Use for fact corpus work, queue management, synthesis pipeline, and publish-facts. Never use for app code.",
+  "Execute a Claude Code task on the Raspberry Pi against the Town Crier facts repo at ~/town-crier-facts, or the lab at ~/town-facts-lab. Use for fact corpus work, queue management, synthesis pipeline, and publish-facts. NOT for app code, React Native, Java, Swift, EAS builds, or anything in C:\\dev\\town-crier.",
   {
     prompt: z.string().describe("The full prompt to send to Claude Code"),
     phase: z.enum(["investigate", "implement"]).default("investigate").describe(
@@ -391,7 +422,7 @@ server.tool(
 // Tool: run_mac_tc_cc
 server.tool(
   "run_mac_tc_cc",
-  "Execute a Claude Code task on the Mac against the Town Crier repo at ~/dev/town-crier. Use for iOS development, SwiftUI, Xcode builds, CoreLocation, AVSpeechSynthesizer, and iOS-specific native code. Not for Android or Java.",
+  "Execute a Claude Code task on the Mac against the Town Crier repo at ~/dev/town-crier. Use for iOS development, SwiftUI, Xcode builds, CoreLocation, AVSpeechSynthesizer, and iOS-specific native code. NOT for Android, Java, Pi corpus work, or Windows-side tasks.",
   {
     prompt: z.string().describe("The full prompt to send to Claude Code"),
     phase: z.enum(["investigate", "implement"]).default("investigate").describe(
