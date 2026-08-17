@@ -327,7 +327,7 @@ function startProgressHeartbeat(extra, label) {
 const ROUTE_SIGNALS = {
   pi:    [/town-crier-facts/i, /town-facts-lab/i, /queue.?worker/i, /publish-facts/i, /gap.?queue/i, /buildMultiQueue/i, /runQueueWorker/i, /enrichFacts/i, /deleteTaggedFacts/i],
   mac:   [/~\/dev\/town-crier/i, /SwiftUI/i, /Xcode/i, /CoreLocation/i, /AVSpeech/i, /xcrun/i, /simulator/i, /iOS native/i, /TownCrierLocationManager/i],
-  win:   [/C:[/\\]dev[/\\]town-crier/i, /withTownCrierBackground/i, /eas build/i, /safe-deploy/i, /plugins[/\\]with/i],
+  win:   [/withTownCrierBackground/i, /eas build/i, /safe-deploy/i, /plugins[/\\]with/i],
   kokoro:[/kokoro-bench/i, /kokoro synthesis/i, /\.venv.*python/i],
 };
 
