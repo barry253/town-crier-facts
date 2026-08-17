@@ -320,6 +320,35 @@ function startProgressHeartbeat(extra, label) {
   return interval;
 }
 
+// --- Routing validator ------------------------------------------------
+// Catches model-level misroutes by checking prompt content against
+// known signals for each machine. Returns an error the model can
+// self-correct from rather than dispatching to the wrong machine.
+const ROUTE_SIGNALS = {
+  pi:    [/town-crier-facts/i, /town-facts-lab/i, /queue.?worker/i, /publish-facts/i, /gap.?queue/i, /buildMultiQueue/i, /runQueueWorker/i, /enrichFacts/i, /deleteTaggedFacts/i],
+  mac:   [/~\/dev\/town-crier/i, /SwiftUI/i, /Xcode/i, /CoreLocation/i, /AVSpeech/i, /xcrun/i, /simulator/i, /iOS native/i, /TownCrierLocationManager/i],
+  win:   [/C:[/\\]dev[/\\]town-crier/i, /withTownCrierBackground/i, /eas build/i, /safe-deploy/i, /plugins[/\\]with/i],
+  kokoro:[/kokoro-bench/i, /kokoro synthesis/i, /\.venv.*python/i],
+};
+
+function checkRouting(toolName, targetMachine, prompt) {
+  const otherSignals = {
+    pi:    { signals: ROUTE_SIGNALS.pi,    label: "Pi CC (run_pi_cc)" },
+    mac:   { signals: ROUTE_SIGNALS.mac,   label: "Mac CC (run_mac_tc_cc)" },
+    win:   { signals: ROUTE_SIGNALS.win,   label: "Win CC (run_win_cc)" },
+    kokoro:{ signals: ROUTE_SIGNALS.kokoro,label: "DS CC (run_ds_cc)" },
+  };
+
+  for (const [machine, { signals, label }] of Object.entries(otherSignals)) {
+    if (machine === targetMachine) continue;
+    const match = signals.find(re => re.test(prompt));
+    if (match) {
+      return `⚠️ Routing error: prompt was sent to ${toolName} but contains signals suggesting it belongs on ${label}. Matched pattern: ${match}. Please retry with the correct tool.`;
+    }
+  }
+  return null;
+}
+
 // Tool: run_win_cc
 server.tool(
   "run_win_cc",
@@ -332,6 +361,8 @@ server.tool(
   },
   async ({ prompt, phase }, extra) => {
     log.win(`[TOOL] run_win_cc phase=${phase}`);
+    const routeErr = checkRouting("run_win_cc", "win", prompt);
+    if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     const heartbeat = startProgressHeartbeat(extra, "Win CC");
     try {
       const result = await runOnDell({ prompt, phase, repoPath: REPOS.win, logger: log.win });
@@ -369,6 +400,8 @@ server.tool(
   },
   async ({ prompt, phase }, extra) => {
     const heartbeat = startProgressHeartbeat(extra, "DS CC");
+    const routeErr = checkRouting("run_ds_cc", "kokoro", prompt);
+    if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     log.ds(`[TOOL] run_ds_cc phase=${phase}`);
     try {
       const result = await runOnDell({ prompt, phase, repoPath: REPOS.ds, logger: log.ds });
@@ -406,6 +439,8 @@ server.tool(
   },
   async ({ prompt, phase }) => {
     log.pi(`[TOOL] run_pi_cc phase=${phase}`);
+    const routeErr = checkRouting("run_pi_cc", "pi", prompt);
+    if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     try {
       const result = await runOnPi({ prompt, phase, logger: log.pi });
       return { content: [{ type: "text", text: formatResult({ result, agent: "Pi", phase, repoPath: REPOS.pi }) }] };
@@ -431,6 +466,8 @@ server.tool(
   },
   async ({ prompt, phase }) => {
     log.mac_tc(`[TOOL] run_mac_tc_cc phase=${phase}`);
+    const routeErr = checkRouting("run_mac_tc_cc", "mac", prompt);
+    if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     try {
       const result = await runOnMac({ prompt, phase, repoPath: REPOS.mac_tc, logger: log.mac_tc });
       return { content: [{ type: "text", text: formatResult({ result, agent: "Mac TC", phase, repoPath: REPOS.mac_tc }) }] };
