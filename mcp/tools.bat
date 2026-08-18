@@ -79,9 +79,14 @@ goto menu
 :mac_ssh
 echo.
 echo  Opening SSH session to Mac CC via Pi relay...
-echo  (Type 'exit' to return to Pi, then 'exit' again to return here)
+echo  (Type 'exit' twice to return here)
 echo.
-powershell -ExecutionPolicy Bypass -NoExit -File "C:\dev\town-crier-mcp\mac-ssh.ps1"
+powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { Write-Host '  Connecting via raspberrypi.local...' -ForegroundColor Cyan; exit 0 } else { Write-Host '  Connecting via rosenpi.duckdns.org...' -ForegroundColor Cyan; exit 1 }"
+if errorlevel 1 (
+    ssh -t barry@rosenpi.duckdns.org "ssh barry@edens-macbook-air"
+) else (
+    ssh -t barry@raspberrypi.local "ssh barry@edens-macbook-air"
+)
 echo.
 pause
 goto menu
