@@ -81,7 +81,7 @@ echo.
 echo  Opening SSH session to Mac CC via Pi relay...
 echo  (Type 'exit' to return to Pi, then 'exit' again to return here)
 echo.
-ssh -t barry@raspberrypi.local "ssh -t barry@mac-tc.towncrierapp.com"
+powershell -ExecutionPolicy Bypass -NoExit -File "C:\dev\town-crier-mcp\mac-ssh.ps1"
 echo.
 pause
 goto menu
