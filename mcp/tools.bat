@@ -11,6 +11,7 @@ echo  2. Start Town Crier Editor (LOCAL)
 echo  3. Start Town Crier Editor (REMOTE)
 echo  4. Start SSH Tunnel (REMOTE via DuckDNS)
 echo  5. Start SSH Tunnel (LOCAL via raspberrypi.local)
+echo  6. SSH into Mac CC (via Pi relay)
 echo.
 echo  0. Exit
 echo.
@@ -21,6 +22,7 @@ if "%choice%"=="2" goto editor_local
 if "%choice%"=="3" goto editor_remote
 if "%choice%"=="4" goto tunnel_remote
 if "%choice%"=="5" goto tunnel_local
+if "%choice%"=="6" goto mac_ssh
 if "%choice%"=="0" goto end
 echo  Invalid option. Try again.
 timeout /t 1 >nul
@@ -70,6 +72,16 @@ echo  Starting persistent tunnel window (keep it open while working)...
 start powershell -ExecutionPolicy Bypass -NoExit -File "C:\dev\town-crier-mcp\tunnel-local.ps1"
 echo  Waiting for tunnel to establish...
 powershell -ExecutionPolicy Bypass -Command "Start-Sleep 6; $r = ssh barry@raspberrypi.local 'ssh -p 2222 tcagent@localhost echo tunnel_ok'; if ($r -eq 'tunnel_ok') { Write-Host '  Tunnel OK.' -ForegroundColor Green } else { Write-Host '  Tunnel may have failed - check the tunnel window.' -ForegroundColor Red }"
+echo.
+pause
+goto menu
+
+:mac_ssh
+echo.
+echo  Opening SSH session to Mac CC via Pi relay...
+echo  (Type 'exit' to return to Pi, then 'exit' again to return here)
+echo.
+ssh -t barry@raspberrypi.local "ssh -t barry@mac-tc.towncrierapp.com"
 echo.
 pause
 goto menu
