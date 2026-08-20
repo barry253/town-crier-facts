@@ -78,14 +78,13 @@ goto menu
 
 :mac_ssh
 echo.
-echo  Opening SSH session to Mac CC via Pi relay...
-echo  (Type 'exit' twice to return here)
+echo  SSH into Mac CC via Pi relay
+echo  --------------------------------
+echo  Paste this command into your PowerShell window:
 echo.
-powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { 'raspberrypi.local' | Set-Content C:\dev\temp\pi_host.txt } else { 'rosenpi.duckdns.org' | Set-Content C:\dev\temp\pi_host.txt }"
-for /f "delims=" %%H in (C:\dev\temp\pi_host.txt) do (
-    echo   Connecting via %%H...
-    ssh barry@%%H "ssh barry@edens-macbook-air"
-)
+powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { $cmd = "ssh barry@raspberrypi.local 'ssh barry@edens-macbook-air'"; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd } else { $cmd = "ssh barry@rosenpi.duckdns.org 'ssh barry@edens-macbook-air'"; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd }"
+echo.
+echo  (Command copied to clipboard)
 echo.
 pause
 goto menu
