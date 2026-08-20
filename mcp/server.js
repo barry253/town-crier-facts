@@ -129,7 +129,7 @@ function runOnDell({ prompt, phase, repoPath, logger }) {
     // kill it so the Dell tunnel can re-bind. Only fuser-kill on probe failure
     // to avoid severing a live connection.
     try {
-      execSync(`ssh -o ConnectTimeout=3 -o BatchMode=yes -o StrictHostKeyChecking=no -p ${REVERSE_TUNNEL_PORT} tcagent@localhost echo ok 2>/dev/null`, { stdio: "ignore" });
+      execSync(`ssh -o ConnectTimeout=3 -o BatchMode=yes -o StrictHostKeyChecking=no -p ${REVERSE_TUNNEL_PORT} tcagent@localhost echo ok 2>/dev/null`, { stdio: "ignore", timeout: 5000 });
     } catch (_) {
       // Probe failed — port may be stuck. Clear it and let Dell tunnel reconnect.
       try { execSync("sudo fuser -k 2222/tcp 2>/dev/null || true", { stdio: "ignore" }); } catch (__) {}
