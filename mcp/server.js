@@ -296,27 +296,30 @@ const server = new McpServer({
   version: "1.0.0",
 });
 
-// Progress heartbeat — fires every 15s while a long-running CC task is in flight.
-// Keeps Claude.ai from timing out on tasks that legitimately take 100-260s.
-// Wrapped in try/catch so a client that ignores progress never kills the result.
+// Progress heartbeat — fires every 5s while a long-running CC task is in flight.
+// Uses notifications/progress when progressToken is available, falls back to
+// notifications/message (log) which doesn't require a token.
+// Both approaches keep the Claude.ai HTTP/2 stream alive during long tasks.
 function startProgressHeartbeat(extra, label) {
-  if (!extra?.sendNotification || !extra?._meta?.progressToken) return null;
-  const progressToken = extra._meta.progressToken;
+  if (!extra?.sendNotification) return null;
+  const progressToken = extra?._meta?.progressToken || null;
   const startTime = Date.now();
   const interval = setInterval(async () => {
     const elapsed = Math.round((Date.now() - startTime) / 1000);
     try {
-      await extra.sendNotification({
-        method: "notifications/progress",
-        params: {
-          progressToken,
-          progress: elapsed,
-          total: 300,
-          message: `${label} running… (${elapsed}s)`,
-        },
-      });
+      if (progressToken) {
+        await extra.sendNotification({
+          method: "notifications/progress",
+          params: { progressToken, progress: elapsed, total: 300, message: `${label} running… (${elapsed}s)` },
+        });
+      } else {
+        await extra.sendNotification({
+          method: "notifications/message",
+          params: { level: "info", logger: "town-crier-mcp", data: `${label} running… (${elapsed}s)` },
+        });
+      }
     } catch (_) {}
-  }, 15000);
+  }, 5000);
   return interval;
 }
 
