@@ -70,8 +70,6 @@ echo  Clearing any existing port 2222 listener on Pi...
 powershell -ExecutionPolicy Bypass -Command "ssh barry@raspberrypi.local 'sudo fuser -k 2222/tcp 2>/dev/null; sleep 1'"
 echo  Starting persistent tunnel window (keep it open while working)...
 start powershell -ExecutionPolicy Bypass -NoExit -File "C:\dev\town-crier-mcp\tunnel-local.ps1"
-echo  Also starting background reverse tunnel (hidden)...
-powershell -ExecutionPolicy Bypass -Command "Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\town-crier-mcp\reverse-tunnel-local.ps1' -Verb RunAs"
 echo  Waiting for tunnel to establish...
 powershell -ExecutionPolicy Bypass -Command "Start-Sleep 6; $r = ssh barry@raspberrypi.local 'ssh -p 2222 tcagent@localhost echo tunnel_ok'; if ($r -eq 'tunnel_ok') { Write-Host '  Tunnel OK.' -ForegroundColor Green } else { Write-Host '  Tunnel may have failed - check the tunnel window.' -ForegroundColor Red }"
 echo.
@@ -83,11 +81,10 @@ echo.
 echo  Opening SSH session to Mac CC via Pi relay...
 echo  (Type 'exit' twice to return here)
 echo.
-powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { Write-Host '  Connecting via raspberrypi.local...' -ForegroundColor Cyan; exit 0 } else { Write-Host '  Connecting via rosenpi.duckdns.org...' -ForegroundColor Cyan; exit 1 }"
-if errorlevel 1 (
-    ssh -t barry@rosenpi.duckdns.org "ssh barry@edens-macbook-air"
-) else (
-    ssh -t barry@raspberrypi.local "ssh barry@edens-macbook-air"
+powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { 'raspberrypi.local' | Set-Content C:\dev\temp\pi_host.txt } else { 'rosenpi.duckdns.org' | Set-Content C:\dev\temp\pi_host.txt }"
+for /f "delims=" %%H in (C:\dev\temp\pi_host.txt) do (
+    echo   Connecting via %%H...
+    ssh barry@%%H "ssh barry@edens-macbook-air"
 )
 echo.
 pause
