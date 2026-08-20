@@ -12,6 +12,7 @@ echo  3. Start Town Crier Editor (REMOTE)
 echo  4. Start SSH Tunnel (REMOTE via DuckDNS)
 echo  5. Start SSH Tunnel (LOCAL via raspberrypi.local)
 echo  6. SSH into Mac CC (via Pi relay)
+echo  7. Start Background Tunnel (LOCAL - tcagent)
 echo.
 echo  0. Exit
 echo.
@@ -23,6 +24,7 @@ if "%choice%"=="3" goto editor_remote
 if "%choice%"=="4" goto tunnel_remote
 if "%choice%"=="5" goto tunnel_local
 if "%choice%"=="6" goto mac_ssh
+if "%choice%"=="7" goto bg_tunnel_local
 if "%choice%"=="0" goto end
 echo  Invalid option. Try again.
 timeout /t 1 >nul
@@ -70,8 +72,20 @@ echo  Clearing any existing port 2222 listener on Pi...
 powershell -ExecutionPolicy Bypass -Command "ssh barry@raspberrypi.local 'sudo fuser -k 2222/tcp 2>/dev/null; sleep 1'"
 echo  Starting persistent tunnel window (keep it open while working)...
 start powershell -ExecutionPolicy Bypass -NoExit -File "C:\dev\town-crier-mcp\tunnel-local.ps1"
+echo  Also starting background reverse tunnel (hidden)...
+powershell -ExecutionPolicy Bypass -Command "Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\town-crier-mcp\reverse-tunnel-local.ps1' -Verb RunAs"
 echo  Waiting for tunnel to establish...
 powershell -ExecutionPolicy Bypass -Command "Start-Sleep 6; $r = ssh barry@raspberrypi.local 'ssh -p 2222 tcagent@localhost echo tunnel_ok'; if ($r -eq 'tunnel_ok') { Write-Host '  Tunnel OK.' -ForegroundColor Green } else { Write-Host '  Tunnel may have failed - check the tunnel window.' -ForegroundColor Red }"
+echo.
+pause
+goto menu
+
+:bg_tunnel_local
+echo.
+echo  Starting background tunnel (LOCAL via raspberrypi.local)...
+echo  This runs as a hidden window - check Task Manager to confirm.
+powershell -ExecutionPolicy Bypass -Command "Start-Process powershell -ArgumentList '-ExecutionPolicy Bypass -WindowStyle Hidden -File C:\dev\town-crier-mcp\reverse-tunnel-local.ps1' -Verb RunAs"
+echo  Done.
 echo.
 pause
 goto menu
