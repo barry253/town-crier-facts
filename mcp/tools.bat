@@ -82,7 +82,7 @@ echo  SSH into Mac CC via Pi relay
 echo  --------------------------------
 echo  Paste this command into your PowerShell window:
 echo.
-powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { $cmd = "ssh barry@raspberrypi.local 'ssh barry@edens-macbook-air'"; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd } else { $cmd = "ssh barry@rosenpi.duckdns.org 'ssh barry@edens-macbook-air'"; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd }"
+powershell -ExecutionPolicy Bypass -Command "if (Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue) { $cmd = "ssh -t barry@raspberrypi.local 'ssh barry@edens-macbook-air'"; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd } else { $cmd = "ssh -t barry@rosenpi.duckdns.org 'ssh barry@edens-macbook-air'"; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd }"
 echo.
 echo  (Command copied to clipboard)
 echo.
