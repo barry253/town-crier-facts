@@ -80,11 +80,13 @@ goto menu
 echo.
 echo  SSH into Mac CC via Pi relay
 echo  --------------------------------
-echo  Paste this command into your PowerShell window:
+echo  Run one of these in your PowerShell window:
 echo.
-powershell -ExecutionPolicy Bypass -Command "$job = Start-Job { Test-Connection raspberrypi.local -Count 1 -Quiet -ErrorAction SilentlyContinue }; $local = $job | Wait-Job -Timeout 2 | Receive-Job; Remove-Job $job -Force; if ($local) { $cmd = "ssh -t barry@raspberrypi.local 'ssh barry@edens-macbook-air'" } else { $cmd = "ssh -t barry@rosenpi.duckdns.org 'ssh barry@edens-macbook-air'" }; Write-Host "  $cmd" -ForegroundColor Cyan; Set-Clipboard $cmd"
+echo  LOCAL (home wifi):
+echo    ssh -t barry@raspberrypi.local "ssh barry@edens-macbook-air"
 echo.
-echo  (Command copied to clipboard)
+echo  REMOTE:
+echo    ssh -t barry@rosenpi.duckdns.org "ssh barry@edens-macbook-air"
 echo.
 pause
 goto menu
