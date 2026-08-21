@@ -78,17 +78,15 @@ goto menu
 
 :mac_ssh
 echo.
-echo  SSH into Mac CC via Pi relay
-echo  --------------------------------
-echo  Run one of these in your PowerShell window:
+echo  SSH into Mac CC — choose connection:
 echo.
-echo  LOCAL (home wifi):
-echo    ssh -t barry@raspberrypi.local "ssh barry@edens-macbook-air"
+echo  L = Local (home wifi via raspberrypi.local)
+echo  R = Remote (via rosenpi.duckdns.org)
+echo  0 = Back
 echo.
-echo  REMOTE:
-echo    ssh -t barry@rosenpi.duckdns.org "ssh barry@edens-macbook-air"
-echo.
-pause
+set /p macchoice=Select: 
+if /i "%macchoice%"=="L" start powershell -NoExit -ExecutionPolicy Bypass -Command "ssh -t barry@raspberrypi.local 'ssh barry@edens-macbook-air'"
+if /i "%macchoice%"=="R" start powershell -NoExit -ExecutionPolicy Bypass -Command "ssh -t barry@rosenpi.duckdns.org 'ssh barry@edens-macbook-air'"
 goto menu
 
 :end
