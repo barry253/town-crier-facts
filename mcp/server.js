@@ -373,18 +373,9 @@ server.tool(
       return { content: [{ type: "text", text: formatResult({ result, agent: "Win", phase, repoPath: REPOS.win }) }] };
     } catch (err) {
       clearInterval(heartbeat);
-      log.win(`[OFFLINE] ${err.message} — saving to pending queue`);
-      const { id } = savePending({ agent: "win", prompt, phase });
+      log.win(`[OFFLINE] ${err.message}`);
       return {
-        content: [{ type: "text", text: [
-          `**Dell is unreachable** (reverse tunnel may not be established).`,
-          ``,
-          `Your prompt has been saved to the pending queue (ID: \`${id}\`).`,
-          `It will run automatically when Dell reconnects and the result will be emailed to towncrierdev@gmail.com.`,
-          ``,
-          `To reissue manually when Dell is back: just resend this same prompt.`,
-          `To cancel: the pending task will expire in 24 hours if not run.`,
-        ].join("\n") }],
+        content: [{ type: "text", text: `**Win CC unreachable** — start the tunnel via tools.bat option 4 (remote) or option 5 (local), then retry.\n\nError: ${err.message}` }],
         isError: true,
       };
     }
@@ -412,18 +403,9 @@ server.tool(
       return { content: [{ type: "text", text: formatResult({ result, agent: "DS", phase, repoPath: REPOS.ds }) }] };
     } catch (err) {
       clearInterval(heartbeat);
-      log.ds(`[OFFLINE] ${err.message} — saving to pending queue`);
-      const { id } = savePending({ agent: "ds", prompt, phase });
+      log.ds(`[OFFLINE] ${err.message}`);
       return {
-        content: [{ type: "text", text: [
-          `**Dell is unreachable** (reverse tunnel may not be established).`,
-          ``,
-          `Your prompt has been saved to the pending queue (ID: \`${id}\`).`,
-          `It will run automatically when Dell reconnects and the result will be emailed to towncrierdev@gmail.com.`,
-          ``,
-          `To reissue manually when Dell is back: just resend this same prompt.`,
-          `To cancel: the pending task will expire in 24 hours if not run.`,
-        ].join("\n") }],
+        content: [{ type: "text", text: `**DS CC unreachable** — start the tunnel via tools.bat option 4 (remote) or option 5 (local), then retry.\n\nError: ${err.message}` }],
         isError: true,
       };
     }
@@ -525,17 +507,9 @@ server.tool(
       const result = await runOnDell({ prompt, phase, repoPath: REPOS.menucha, logger: log.menucha });
       return { content: [{ type: "text", text: formatResult({ result, agent: "Menucha", phase, repoPath: REPOS.menucha }) }] };
     } catch (err) {
-      log.menucha(`[OFFLINE] ${err.message} — saving to pending queue`);
-      const { id } = savePending({ agent: "menucha", prompt, phase });
+      log.menucha(`[OFFLINE] ${err.message}`);
       return {
-        content: [{ type: "text", text: [
-          `**Dell is unreachable** (reverse tunnel may not be established).`,
-          ``,
-          `Your prompt has been saved to the pending queue (ID: \`${id}\`).`,
-          `It will run automatically when Dell reconnects.`,
-          ``,
-          `To reissue manually when Dell is back: just resend this same prompt.`,
-        ].join("\n") }],
+        content: [{ type: "text", text: `**Menucha CC unreachable** — start the tunnel via tools.bat option 4 (remote) or option 5 (local), then retry.\n\nError: ${err.message}` }],
         isError: true,
       };
     }
