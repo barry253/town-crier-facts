@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grygla.govoffice2.com/welcome"
+      "source": "https://grygla.govoffice2.com/welcome",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grygla%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Grygla%2C_Minnesota",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grygla.govoffice2.com/welcome"
+      "source": "https://grygla.govoffice2.com/welcome",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,20 +72,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grygla.govoffice2.com/welcome"
-    },
-    {
-      "id": 5,
-      "text": "Grygla lies in Valley Township on the eastern edge of Marshall County, Minnesota.",
-      "sourceSentenceIds": [
-        1,
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2",
-        "Wikipedia"
-      ],
-      "source": "https://grygla.govoffice2.com/welcome"
+      "source": "https://grygla.govoffice2.com/welcome",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -89,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grygla%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Grygla%2C_Minnesota",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

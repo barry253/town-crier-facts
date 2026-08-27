@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "St. Charles, Iowa, sits in Madison County and is part of the Des Moines–West Des Moines Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa"
-    },
-    {
       "id": 2,
       "text": "The town was platted in 1852 and later incorporated as a city in 1876.",
       "sourceSentenceIds": [
@@ -42,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stcharlesia.us/"
+      "source": "https://www.stcharlesia.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -86,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Elkwood is a town in Culpeper County, Virginia.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 2,
       "text": "The town’s post office opened in 1894, marking its early growth.",
       "sourceSentenceIds": [
@@ -48,21 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Elkwood lies 8.1 miles east‑northeast of Culpeper along U.S. Route 15.",
-      "sourceSentenceIds": [
-        12,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 4,
       "text": "The area experiences hot, humid summers and mild to cool winters, typical of the region.",
       "sourceSentenceIds": [
@@ -74,7 +45,7 @@
       "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -85,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://experienceclarkecounty.com/"
+      "source": "https://experienceclarkecounty.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ],
   "imageFallback": {

@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Beclabito lies within the Farmington Metropolitan Statistical Area and is traversed by the Trails of the Ancients Byway, a scenic route through historic lands.",
-      "sourceSentenceIds": [
-        2,
-        22,
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Beclabito%2C_New_Mexico"
-    },
-    {
       "id": 2,
       "text": "Beclabito’s Navajo name translates to 'bottom spring', pointing to the local Beclabito Spring.",
       "sourceSentenceIds": [
@@ -45,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beclabito%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Beclabito%2C_New_Mexico",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,18 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beclabito%2C_New_Mexico"
-    },
-    {
-      "id": 4,
-      "text": "Beclabito sits just 4 miles east of the Arizona border and 18 miles west of Shiprock.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://beclabito.navajochapters.org/"
+      "source": "https://en.wikipedia.org/wiki/Beclabito%2C_New_Mexico",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -78,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://beclabito.navajochapters.org/"
+      "source": "https://beclabito.navajochapters.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

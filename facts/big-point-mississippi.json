@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Big Point sits at 30°35′13″N 88°28′55″W, placing it in northeastern Jackson County.",
-      "sourceSentenceIds": [
-        7,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Big_Point%2C_Mississippi"
-    },
-    {
       "id": 2,
       "text": "A post office named Bigpoint served the community from 1894 until 1942.",
       "sourceSentenceIds": [
@@ -42,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Big_Point%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Big_Point%2C_Mississippi",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mississippi.hometownlocator.com/ms/jackson/big-point.cfm"
-    },
-    {
-      "id": 4,
-      "text": "Big Point is part of the Pascagoula Metropolitan Statistical Area, linking it to the region’s economic hub.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Big_Point%2C_Mississippi"
+      "source": "https://mississippi.hometownlocator.com/ms/jackson/big-point.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mississippi.hometownlocator.com/ms/jackson/big-point.cfm"
+      "source": "https://mississippi.hometownlocator.com/ms/jackson/big-point.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -86,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mississippi.hometownlocator.com/ms/jackson/big-point.cfm"
+      "source": "https://mississippi.hometownlocator.com/ms/jackson/big-point.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

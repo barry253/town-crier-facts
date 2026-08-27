@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Gulf Park Estates sits at 30.3769°N, 88.7606°W in southwestern Jackson County, Mississippi.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gulf_Park_Estates%2C_Mississippi"
-    },
-    {
-      "id": 2,
-      "text": "Gulf Park Estates is part of the Pascagoula Metropolitan Statistical Area in Mississippi.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gulf_Park_Estates%2C_Mississippi"
-    },
-    {
       "id": 3,
       "text": "A genealogical Gazetteer highlights Gulf Park Estates, mapping ancestors' footprints across the community.",
       "sourceSentenceIds": [
@@ -57,7 +35,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ms/gulf-park-estates-xx-jackson-genealogy.htm"
+      "source": "https://roadsidethoughts.com/ms/gulf-park-estates-xx-jackson-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -68,7 +49,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ms/gulf-park-estates-xx-jackson-genealogy.htm"
+      "source": "https://roadsidethoughts.com/ms/gulf-park-estates-xx-jackson-genealogy.htm",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -82,18 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gulf_Park_Estates%2C_Mississippi"
-    },
-    {
-      "id": 6,
-      "text": "Gulf Park Estates is a community nestled in Jackson County, Mississippi, in the heart of the Gulf Coast.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gulf_Park_Estates%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Gulf_Park_Estates%2C_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

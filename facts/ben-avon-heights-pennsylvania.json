@@ -21,22 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ben Avon Heights sits on a hill above the Ohio River nine miles from Pittsburgh, offering sweeping views of the river valley.",
-      "sourceSentenceIds": [
-        7,
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://benavonheightsborough.com/borough/borough-history.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The borough was incorporated in 1913 after the Ben Avon Country Club closed, and its former land was subdivided into residential lots.",
       "sourceSentenceIds": [
@@ -102,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ben-avon-heights-pennsylvania.jpg",

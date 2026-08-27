@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Tinsman sits in Calhoun County, Arkansas, a small community nestled in the state's southeastern region.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tinsman%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "It is part of the Camden Micropolitan Statistical Area, linking it to the nearby city of Camden.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tinsman%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "Tinsman is listed in federal geographic records such as FIPS‑55 and the GNIS, confirming its official status.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/tinsman-xx-calhoun-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/tinsman-xx-calhoun-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/tinsman-xx-calhoun-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/tinsman-xx-calhoun-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-tinsman.html"
+      "source": "https://www.citydirectory.us/city-tinsman.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-tinsman.html"
+      "source": "https://www.citydirectory.us/city-tinsman.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

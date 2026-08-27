@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sycamore is an unincorporated community in Greene County, Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 2,
       "text": "The town sits along Pennsylvania Route 18, just four miles west‑northwest of Waynesburg.",
       "sourceSentenceIds": [
@@ -44,9 +30,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -71,8 +57,8 @@
         "Web source 2"
       ],
       "source": "https://greenecountypa.gov/department-tourism-office",
-      "category": "other",
-      "quality": "poor",
+      "category": "economy",
+      "quality": "good",
       "qualityReason": "other"
     },
     {

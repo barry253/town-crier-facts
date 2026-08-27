@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Nestled in Mountrail County, Ross stands as a North Dakota city today.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota"
-    },
-    {
       "id": 2,
       "text": "The town once housed one of the oldest mosques in the United States, built by Muslim homesteaders.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -85,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Ross%2C_North_Dakota",
+      "category": "culture",
+      "quality": "good"
     }
   ]
 }

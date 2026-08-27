@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Redrock sits on the Gila River and NM State Road 464, about 27 miles west-southwest of Silver City.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Redrock%2C_New_Mexico"
-    },
-    {
       "id": 2,
       "text": "The town's elevation is 4,030 feet, roughly half a mile above sea level.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,18 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Redrock%2C_New_Mexico"
-    },
-    {
-      "id": 6,
-      "text": "Redrock lies in Grant County, in the southwestern part of New Mexico.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/nm/redrock-xx-grant-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Redrock%2C_New_Mexico",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

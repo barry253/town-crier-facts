@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Georgetown sits on the eastern edge of Copiah County, bordered by the Pearl River, placing it within the Jackson Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Mississippi"
-    },
-    {
       "id": 2,
       "text": "The Copiah-Jefferson Regional Library keeps a branch in Georgetown, offering residents access to regional collections.",
       "sourceSentenceIds": [
@@ -41,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Mississippi",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-georgetown-mississippi.html"
+      "source": "https://www.citydirectory.us/town-georgetown-mississippi.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,30 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-georgetown-mississippi.html"
-    },
-    {
-      "id": 5,
-      "text": "Georgetown lies within Copiah County, Mississippi, and residents rely on county-level services for many administrative needs.",
-      "sourceSentenceIds": [
-        5,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Mississippi"
-    },
-    {
-      "id": 6,
-      "text": "Georgetown's coordinates are 31°52′16″N 90°9′51″W, placing it in eastern Mississippi.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Mississippi"
+      "source": "https://www.citydirectory.us/town-georgetown-mississippi.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

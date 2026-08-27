@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Charlos Heights sits in the valley of the Bitterroot River in western Montana.",
-      "sourceSentenceIds": [
-        2,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Charlos_Heights%2C_Montana"
-    },
-    {
       "id": 2,
       "text": "Charlos Heights lies along U.S. Route 93 in the heart of the Bitterroot Valley.",
       "sourceSentenceIds": [
@@ -44,7 +31,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charlos_Heights%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Charlos_Heights%2C_Montana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -57,7 +47,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charlos_Heights%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Charlos_Heights%2C_Montana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -68,18 +61,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Charlos_Heights,_Montana"
-    },
-    {
-      "id": 5,
-      "text": "Charlos Heights sits at latitude 46.1263 and longitude -114.1779 in Ravalli County, Montana.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://montana.hometownlocator.com/mt/ravalli/charlos-heights.cfm"
+      "source": "https://kids.kiddle.co/Charlos_Heights,_Montana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -90,7 +75,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Charlos_Heights,_Montana"
+      "source": "https://kids.kiddle.co/Charlos_Heights,_Montana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/mcintosh_new_mexico"
+      "source": "https://grokipedia.com/page/mcintosh_new_mexico",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nm/mcintosh-xx-torrance-profile.htm"
+      "source": "https://roadsidethoughts.com/nm/mcintosh-xx-torrance-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/mcintosh_new_mexico"
+      "source": "https://grokipedia.com/page/mcintosh_new_mexico",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nm/mcintosh-xx-torrance-profile.htm"
+      "source": "https://roadsidethoughts.com/nm/mcintosh-xx-torrance-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +84,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/mcintosh_new_mexico"
-    },
-    {
-      "id": 6,
-      "text": "McIntosh lies within Torrance County, placing it in north‑central New Mexico, a region of high desert.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nm/mcintosh-xx-torrance-profile.htm"
+      "source": "https://grokipedia.com/page/mcintosh_new_mexico",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

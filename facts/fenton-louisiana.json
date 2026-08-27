@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Fenton, Louisiana, is a village in Jefferson Davis Parish in the United States.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana"
-    },
-    {
       "id": 2,
       "text": "Fenton is known for its reputation as a speed trap, with police frequently issuing tickets.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,18 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana"
-    },
-    {
-      "id": 4,
-      "text": "Fenton sits at 30°21′51″N 92°55′3″W, placing it in northwestern Jefferson Davis Parish.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana"
-    },
-    {
-      "id": 6,
-      "text": "Fenton is part of the Jennings Micropolitan Statistical Area, a regional economic hub.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Fenton%2C_Louisiana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

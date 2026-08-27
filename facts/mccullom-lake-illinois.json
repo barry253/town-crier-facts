@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "McCullom Lake is a village in McHenry County, Illinois, United States.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McCullom_Lake%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "McHenry occupies the southeast shore of McCullom Lake, giving the village a waterfront edge.",
       "sourceSentenceIds": [
@@ -44,8 +30,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/McCullom_Lake%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
+      "category": "nature",
+      "quality": "good",
       "qualityReason": "location_description"
     },
     {
@@ -99,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McCullom_Lake%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/McCullom_Lake%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mccullom-lake-illinois.jpg",

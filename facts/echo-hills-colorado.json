@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Echo Hills is part of the Denver‑Aurora‑Centennial Metropolitan Statistical Area, linking it to Colorado’s largest urban region.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Echo_Hills%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "The census‑designated place spans 364 acres, all of which are land in Clear Creek County.",
       "sourceSentenceIds": [
@@ -60,7 +46,7 @@
       "source": "https://colorado.hometownlocator.com/co/clear-creek/echo-hills.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -72,7 +58,7 @@
         "Web source 2"
       ],
       "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705",
-      "category": "nature",
+      "category": "culture",
       "quality": "good"
     },
     {
@@ -84,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705"
+      "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705",
+      "category": "nature",
+      "quality": "good"
     }
   ],
   "imageFallback": {

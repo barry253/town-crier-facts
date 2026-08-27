@@ -21,24 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Silverdale lies between U.S. Route 166 and the Oklahoma border, close to the Arkansas River.",
-      "sourceSentenceIds": [
-        8,
-        9,
-        10,
-        25,
-        26,
-        27,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Silverdale%2C_Kansas"
-    },
-    {
       "id": 2,
       "text": "The Silverdale post office opened June 5 1871, closed briefly in 1883, reopened later that year, and finally shut down July 31 1964.",
       "sourceSentenceIds": [
@@ -53,7 +35,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://alchetron.com/Silverdale%2C-Kansas"
+      "source": "https://alchetron.com/Silverdale%2C-Kansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -69,7 +53,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silverdale%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Silverdale%2C_Kansas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -81,7 +67,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Silverdale,_Kansas"
+      "source": "https://kids.kiddle.co/Silverdale,_Kansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -92,7 +80,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silverdale%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Silverdale%2C_Kansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,

@@ -34,9 +34,9 @@
         "Web source 2"
       ],
       "source": "https://en.wikipedia.org/wiki/Gwynedd%2C_Pennsylvania",
-      "category": "nature",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -49,7 +49,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Gwynedd%2C_Pennsylvania",
       "category": "other",
-      "quality": "poor"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -65,7 +66,8 @@
       ],
       "source": "https://kids.kiddle.co/Gwynedd,_Pennsylvania",
       "category": "other",
-      "quality": "poor"
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -79,7 +81,7 @@
       "source": "https://kids.kiddle.co/Gwynedd,_Pennsylvania",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -88,7 +90,10 @@
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local"
+      "source": "local",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,

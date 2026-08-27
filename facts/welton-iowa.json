@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -56,7 +61,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -67,20 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa"
-    },
-    {
-      "id": 5,
-      "text": "Welton is located within Clinton County, Iowa.",
-      "sourceSentenceIds": [
-        3,
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://www.cityofwelton.com/history"
+      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -93,7 +90,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Welton%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

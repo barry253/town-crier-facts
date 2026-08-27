@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Belle Prairie City is an incorporated town in Hamilton County, Illinois.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Belle_Prairie_City%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
-    },
-    {
       "id": 4,
       "text": "Belle Prairie City lies near the junction of Illinois Route 142 and Interstate 64.",
       "sourceSentenceIds": [
@@ -44,23 +30,9 @@
         "Web source 1"
       ],
       "source": "https://www.citydirectory.us/town-belle-prairie-city.html",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 5,
-      "text": "The town is northeast of McLeansboro and southwest of Wayne City, placing it in a primarily rural area.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-belle-prairie-city.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -71,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-belle-prairie-city.html"
+      "source": "https://www.citydirectory.us/town-belle-prairie-city.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belle-prairie-illinois.jpg",

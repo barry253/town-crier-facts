@@ -34,20 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The Village of Spaulding sits a mile and a half east of Springfield, the state capital of Illinois.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.villageofspaulding.com/",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 5,
       "text": "The municipal building where the Village Board meets is located at 111 East Prairie Street in Spaulding.",
       "sourceSentenceIds": [
@@ -59,7 +45,7 @@
       "source": "https://www.villageofspaulding.com/",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -70,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspaulding.com/"
+      "source": "https://www.villageofspaulding.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spaulding-illinois.jpg",

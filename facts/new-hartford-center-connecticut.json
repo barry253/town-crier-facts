@@ -34,17 +34,6 @@
       "quality": "good"
     },
     {
-      "id": 2,
-      "text": "The community’s core is the village of New Hartford, surrounded by the historic Pine Meadow district and stretches into nearby forested land.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Hartford_Center%2C_Connecticut"
-    },
-    {
       "id": 3,
       "text": "Route 44 runs straight through New Hartford Center as Main Street, linking the town to Winsted and Hartford along a historic corridor.",
       "sourceSentenceIds": [
@@ -55,7 +44,8 @@
       ],
       "source": "https://en.wikipedia.org/wiki/New_Hartford_Center%2C_Connecticut",
       "category": "transport",
-      "quality": "good"
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -69,31 +59,6 @@
       "source": "https://en.wikipedia.org/wiki/New_Hartford_Center%2C_Connecticut",
       "category": "nature",
       "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Eastward, the CDP borders Connecticut Route 219 near Lake McDonough, a reservoir on the East Branch of the Farmington River.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Hartford_Center%2C_Connecticut",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
-    },
-    {
-      "id": 6,
-      "text": "The western edge of the CDP follows an unnamed brook about half a mile west of the village, meeting the Barkhamsted town line to the north.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Hartford_Center%2C_Connecticut"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-hartford-center-connecticut.jpg",

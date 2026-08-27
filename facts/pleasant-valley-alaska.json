@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pleasant Valley first appeared on the 1990 U.S. Census as a census‑designated place.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley%2C_Alaska"
-    },
-    {
       "id": 2,
       "text": "Pleasant Valley sits in the valley of the Chena River, nestled between hills.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley%2C_Alaska",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Valley%2C_Alaska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,

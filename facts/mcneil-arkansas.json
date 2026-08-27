@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "McNeil is a town in Columbia County, Arkansas, part of the state’s rural heartland.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "McNeil sits in northern Columbia County, nestled just north of the county seat.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "McNeil was named after William B., a pioneer who helped settle the area.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/McNeil%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

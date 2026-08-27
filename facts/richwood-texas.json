@@ -21,33 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Richwood is a city in Brazoria County, Texas.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
-      "id": 3,
-      "text": "It is bordered to the southwest by Oyster Creek, separating it from Lake Jackson and Clute.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas",
-      "category": "landmark",
-      "quality": "good"
-    },
-    {
       "id": 4,
       "text": "Richwood earned recognition from the Keep Texas Beautiful program for its community beautification efforts.",
       "sourceSentenceIds": [
@@ -70,8 +43,9 @@
         "Web source 1"
       ],
       "source": "https://brazosport.org/brazosport-is/richwood/",
-      "category": "landmark",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -82,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/richwood-texas.jpg",

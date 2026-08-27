@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -67,18 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://blueridgemanorky.gov/"
-    },
-    {
-      "id": 5,
-      "text": "Blue Ridge Manor sits just south of Louisville, sharing its northern border with the city.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Ridge_Manor%2C_Kentucky"
+      "source": "https://blueridgemanorky.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -89,7 +88,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://blueridgemanorky.gov/about-blue-ridge-manor/"
+      "source": "https://blueridgemanorky.gov/about-blue-ridge-manor/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

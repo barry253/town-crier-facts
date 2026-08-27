@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hartman is a city in southwestern Johnson County, Arkansas, situated on the west side of Horsehead Creek about four miles north of the Arkansas River.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hartman%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "Hartman is one of 16 communities across the United States that share its name.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/hartman-xx-johnson-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/hartman-xx-johnson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-hartman-arkansas.html"
+      "source": "https://www.citydirectory.us/city-hartman-arkansas.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/hartman-xx-johnson-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/hartman-xx-johnson-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,

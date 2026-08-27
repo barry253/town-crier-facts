@@ -47,19 +47,6 @@
       "quality": "good"
     },
     {
-      "id": 3,
-      "text": "New Haven sits on the Ohio River in Mason County, West Virginia, right where the river meets the state line.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Haven%2C_West_Virginia",
-      "category": "nature",
-      "quality": "good"
-    },
-    {
       "id": 5,
       "text": "New Haven is part of the Point Pleasant, WV–OH Micropolitan Statistical Area, linking it to a broader regional community.",
       "sourceSentenceIds": [
@@ -71,7 +58,7 @@
       "source": "https://en.wikipedia.org/wiki/New_Haven%2C_West_Virginia",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -82,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://local.wv.gov/newhaven/Pages/default.aspx"
+      "source": "https://local.wv.gov/newhaven/Pages/default.aspx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-haven-west-virginia.jpg",

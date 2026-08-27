@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mount Pleasant sits in northern Marshall County, just under three miles south of the Tennessee line.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Mississippi"
-    },
-    {
       "id": 2,
       "text": "Little Coldwater Creek marks the southern edge of Mount Pleasant, feeding into the Tallahatchie River watershed.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Mississippi",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mt-pleasant-museum.squarespace.com/"
+      "source": "https://mt-pleasant-museum.squarespace.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mt-pleasant-museum.squarespace.com/"
+      "source": "https://mt-pleasant-museum.squarespace.com/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ms/mount-pleasant-xx-marshall-profile.htm"
+      "source": "https://roadsidethoughts.com/ms/mount-pleasant-xx-marshall-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ms/mount-pleasant-xx-marshall-profile.htm"
+      "source": "https://roadsidethoughts.com/ms/mount-pleasant-xx-marshall-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

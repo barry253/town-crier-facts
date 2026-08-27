@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Magazine is a small city located in Logan County, Arkansas, known for its close ties to the surrounding natural landscapes.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "The city of Magazine takes its name from the nearby Mount Magazine, the highest point in Arkansas.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.arkansas.com/"
+      "source": "https://www.arkansas.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Magazine%2C_Arkansas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.arkansas.com/"
+      "source": "https://www.arkansas.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

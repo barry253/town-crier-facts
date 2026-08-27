@@ -21,31 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ozan is a town in Hempstead County, Arkansas, part of the Hope micropolitan area.",
-      "sourceSentenceIds": [
-        4,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ozan%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "The town hall sits at P.O. Box 94, reachable by dialing (870) 983-2996.",
-      "sourceSentenceIds": [
-        14,
-        15,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/city-ozan.html"
-    },
-    {
       "id": 3,
       "text": "Ozan is listed in the Encyclopedia of Arkansas History & Culture, highlighting its place in state history.",
       "sourceSentenceIds": [
@@ -54,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ozan%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Ozan%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -65,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-ozan.html"
+      "source": "https://www.citydirectory.us/city-ozan.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -77,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-ozan.html"
+      "source": "https://www.citydirectory.us/city-ozan.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -88,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ozan%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Ozan%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

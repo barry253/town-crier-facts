@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Escondida is a very small town located about three miles north of Socorro, New Mexico.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/"
-    },
-    {
       "id": 2,
       "text": "The town’s only historic building is an early‑1900s school that was abandoned when newer facilities opened in Socorro.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/"
+      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/"
+      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,29 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/"
-    },
-    {
-      "id": 5,
-      "text": "Escondida falls under the Socorro Consolidated Schools district, linking it to the county’s educational system.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Escondida%2C_New_Mexico"
-    },
-    {
-      "id": 6,
-      "text": "Socorro County, where Escondida lies, was established by the territorial legislature in 1852 with Socorro as its county seat.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.socorrocounty.net/general-information/history"
+      "source": "https://dryheatblog.com/exploring-the-town-of-escondida-new-mexico/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

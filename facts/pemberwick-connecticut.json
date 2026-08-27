@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pemberwick sits on Greenwich’s west side, bordered to the north by Glenville, east by central Greenwich, south by Byram, and west by Port Chest NY.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut"
-    },
-    {
       "id": 2,
       "text": "Route 1, known locally as West Putnam Avenue, marks Pemberwick’s southern boundary along the town’s edge.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/connecticut_pemberwick"
+      "source": "https://www.trawellino.com/destinations/united-states/connecticut_pemberwick",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut"
-    },
-    {
-      "id": 6,
-      "text": "Pemberwick’s location on the western edge of Greenwich places it directly adjacent to the New York state line.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Pemberwick%2C_Connecticut",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

@@ -21,34 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Foscoe sits on NC 105, just southwest of Boone, nestled in the Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 2,
-      "text": "The community lies between Seven Devils and Shulls Mill, a quiet valley below Grandfather Mountain.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "In 1956, NC 105 was built over the original East Tennessee and Western North Carolina Railroad bed that once carried the Tweetsie train.",
       "sourceSentenceIds": [
@@ -59,8 +31,8 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina",
-      "category": "transport",
-      "quality": "poor",
+      "category": "history",
+      "quality": "good",
       "qualityReason": "route_only"
     },
     {
@@ -73,7 +45,7 @@
         "Web source 1"
       ],
       "source": "https://www.foscoenc.com/about",
-      "category": "history",
+      "category": "landmark",
       "quality": "good"
     },
     {
@@ -85,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.foscoenc.com/about"
+      "source": "https://www.foscoenc.com/about",
+      "category": "culture",
+      "quality": "good"
     }
   ],
   "imageFallback": {

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wilsonville is a village in Furnas County, Nebraska, in the United States.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wilsonville%2C_Nebraska"
-    },
-    {
       "id": 2,
       "text": "The village was first settled in 1872 under the name “Wild Turkey”.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilsonville%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Wilsonville%2C_Nebraska",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilsonville%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Wilsonville%2C_Nebraska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ne/wilsonville-xx-furnas-profile.htm"
+      "source": "https://roadsidethoughts.com/ne/wilsonville-xx-furnas-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

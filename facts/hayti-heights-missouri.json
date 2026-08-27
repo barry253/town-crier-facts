@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hayti Heights sits in Missouri’s Bootheel, just west of Hayti in eastern Pemiscot County.",
-      "sourceSentenceIds": [
-        13,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hayti_Heights%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "Missouri Route 84 cuts through Hayti Heights, linking the town from west to east.",
       "sourceSentenceIds": [
@@ -84,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-hayti-heights.html"
+      "source": "https://www.citydirectory.us/city-hayti-heights.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -95,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview"
+      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hayti-heights-missouri.jpg",

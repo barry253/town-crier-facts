@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The village is part of the Rockford‑Winnebago Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Winnebago%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
-    },
-    {
       "id": 3,
       "text": "The Winnebago Community Historical Society collects, preserves, and interprets local history, spotlighting the town hall and regional archives.",
       "sourceSentenceIds": [
@@ -72,8 +58,8 @@
         "Web source 1"
       ],
       "source": "https://wchs61088.org/",
-      "category": "other",
-      "quality": "poor",
+      "category": "culture",
+      "quality": "good",
       "qualityReason": "editorial_filler"
     },
     {
@@ -86,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wchs61088.org/"
+      "source": "https://wchs61088.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/winnebago-illinois.jpg",

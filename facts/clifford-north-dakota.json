@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clifford%2C_North_Dakota"
-    },
-    {
-      "id": 2,
-      "text": "Clifford sits in Traill County, North Dakota, a quiet corner of the state.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clifford%2C_North_Dakota"
-    },
-    {
-      "id": 3,
-      "text": "The town’s exact coordinates are 47.348 latitude and -97.4106 longitude, placing it in central North Dakota.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://northdakota.hometownlocator.com/nd/traill/clifford.cfm"
+      "source": "https://en.wikipedia.org/wiki/Clifford%2C_North_Dakota",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northdakota.hometownlocator.com/nd/traill/clifford.cfm"
+      "source": "https://northdakota.hometownlocator.com/nd/traill/clifford.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-clifford-north-dakota.html"
+      "source": "https://www.citydirectory.us/city-clifford-north-dakota.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

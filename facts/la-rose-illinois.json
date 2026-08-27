@@ -21,46 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "La Rose is a village in Bell Plain Township, Marshall County, Illinois.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "people",
-      "quality": "good"
-    },
-    {
-      "id": 2,
-      "text": "La Rose lies in southeastern Marshall County.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
-      "id": 3,
-      "text": "La Rose is part of the Peoria Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
-    },
-    {
       "id": 4,
       "text": "Illinois Route 89 runs through La Rose as Main Street, leading north 4 miles to Varna and southwest 5 miles to Washburn.",
       "sourceSentenceIds": [
@@ -70,8 +30,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -83,7 +44,7 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "landmark",
+      "category": "nature",
       "quality": "good"
     },
     {
@@ -95,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-la-rose.html"
+      "source": "https://www.citydirectory.us/village-la-rose.html",
+      "category": "landmark",
+      "quality": "good"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-rose-illinois.jpg",

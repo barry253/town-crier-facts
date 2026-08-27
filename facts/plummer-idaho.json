@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Plummer is a city in Benewah County, Idaho, United States, nestled in the northern part of the state.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Plummer%2C_Idaho"
-    },
-    {
       "id": 2,
       "text": "Plummer is the largest city within the Coeur d'Alene Reservation, serving as a central hub for the local community.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plummer%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Plummer%2C_Idaho",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plummer%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Plummer%2C_Idaho",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofplummer.org/"
+      "source": "https://www.cityofplummer.org/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofplummer.org/"
+      "source": "https://www.cityofplummer.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,

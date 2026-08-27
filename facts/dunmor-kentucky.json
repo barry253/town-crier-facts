@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunmor%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Dunmor%2C_Kentucky",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kyatlas.com/ky-dunmor.html"
+      "source": "https://kyatlas.com/ky-dunmor.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ky/dunmor-xx-muhlenberg-profile.htm"
+      "source": "https://roadsidethoughts.com/ky/dunmor-xx-muhlenberg-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,29 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunmor%2C_Kentucky"
-    },
-    {
-      "id": 5,
-      "text": "Dunmor lies in southern Muhlenberg County, with a small southern edge spilling into Logan County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dunmor%2C_Kentucky"
-    },
-    {
-      "id": 6,
-      "text": "The community is about 15 miles southeast of Greenville, placing it within easy reach of the county seat.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kyatlas.com/ky-dunmor.html"
+      "source": "https://en.wikipedia.org/wiki/Dunmor%2C_Kentucky",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
   ]
 }

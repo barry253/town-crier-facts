@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Page%2C_Nebraska",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://exploreholt.com/page"
+      "source": "https://exploreholt.com/page",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://exploreholt.com/page"
+      "source": "https://exploreholt.com/page",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://exploreholt.com/page"
+      "source": "https://exploreholt.com/page",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,18 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://exploreholt.com/page"
-    },
-    {
-      "id": 6,
-      "text": "Page is a village in Holt County, Nebraska, United States, located in the rural county of Holt.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Nebraska"
+      "source": "https://exploreholt.com/page",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

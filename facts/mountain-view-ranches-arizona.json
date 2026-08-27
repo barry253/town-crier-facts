@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mountain View Ranches sits at 35.236°N, 111.4818°W and follows Mountain Time (GMT‑7).",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/coconino/mountain-view-ranches.cfm"
-    },
-    {
       "id": 2,
       "text": "Mountain View Ranches is a census‑designated place, not a legal entity, so it has no local government.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/coconino/mountain-view-ranches.cfm"
+      "source": "https://arizona.hometownlocator.com/az/coconino/mountain-view-ranches.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_View_Ranches%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Mountain_View_Ranches%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_View_Ranches%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Mountain_View_Ranches%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,

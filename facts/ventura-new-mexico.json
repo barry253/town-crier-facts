@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ventura is a census-designated place in Luna County, New Mexico, located at 32.2438°N, 107.6832°W.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newmexico.hometownlocator.com/nm/luna/ventura.cfm"
-    },
-    {
       "id": 2,
       "text": "Ventura is not a legal entity and has no governmental functions, and carries a Functional Status Code 'S'.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newmexico.hometownlocator.com/nm/luna/ventura.cfm"
+      "source": "https://newmexico.hometownlocator.com/nm/luna/ventura.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -52,7 +44,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html"
+      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
@@ -63,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html"
+      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -74,7 +72,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html"
+      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -85,7 +86,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html"
+      "source": "https://www.city-data.com/city/Ventura-New-Mexico.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

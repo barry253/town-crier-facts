@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.hagermanforward.com/about-us/community-history"
+      "source": "https://www.hagermanforward.com/about-us/community-history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,20 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hagermanforward.com/about-us/community-history"
-    },
-    {
-      "id": 3,
-      "text": "Hagerman sits about two miles west of the Pecos River, nestled between the junction of the Felix and Pecos Rivers.",
-      "sourceSentenceIds": [
-        18,
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hagerman%2C_New_Mexico"
+      "source": "https://www.hagermanforward.com/about-us/community-history",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hagerman%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Hagerman%2C_New_Mexico",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hagerman%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Hagerman%2C_New_Mexico",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -88,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hagermanforward.com/about-us/community-history"
+      "source": "https://www.hagermanforward.com/about-us/community-history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

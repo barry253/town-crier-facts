@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Harrell is a town in Calhoun County, Arkansas, United States, located in the southern part of the state.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Harrell%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "Harrell is part of the Camden micropolitan area, which serves as a regional hub for commerce and culture.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harrell%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Harrell%2C_Arkansas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-harrell.html"
+      "source": "https://www.citydirectory.us/city-harrell.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/harrell-xx-calhoun-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/harrell-xx-calhoun-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/harrell-xx-calhoun-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/harrell-xx-calhoun-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +85,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/harrell-xx-calhoun-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/harrell-xx-calhoun-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

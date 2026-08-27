@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Crown Point sits at 60.42°N, 149.33°W, right where Trail River meets Kenai Lake.",
-      "sourceSentenceIds": [
-        2,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Alaska"
-    },
-    {
       "id": 2,
       "text": "The community grew from the 19th‑century settlement of Lawing, centered around Alaska Nellie's Homestead.",
       "sourceSentenceIds": [
@@ -42,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Alaska",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,41 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Alaska"
-    },
-    {
-      "id": 4,
-      "text": "The area covers about 16.25 square miles of land, with less than one square kilometer of water.",
-      "sourceSentenceIds": [
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/akcountycrownpoint.htm"
-    },
-    {
-      "id": 5,
-      "text": "It lies north of Moose Pass and south of Primrose, anchoring the Kenai Peninsula’s north‑central corridor.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Alaska"
-    },
-    {
-      "id": 6,
-      "text": "The town’s coordinates place it roughly 583 miles from Alaska’s capital, Juneau.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/akcountycrownpoint.htm"
+      "source": "https://en.wikipedia.org/wiki/Crown_Point%2C_Alaska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

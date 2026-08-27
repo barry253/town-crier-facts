@@ -21,35 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Staves was locally called the 'Y' Community because State Route 212 formed a Y where it met State Route 35.",
-      "sourceSentenceIds": [
-        4,
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Staves%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "The Y shape was later altered, adding a third stretch that connects State Route 212 to State Route 35 at a right angle.",
-      "sourceSentenceIds": [
-        5,
-        8,
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Staves%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "Staves’ post office opened in 1892, marking the community’s early establishment in the area.",
       "sourceSentenceIds": [
@@ -58,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/staves-xx-cleveland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

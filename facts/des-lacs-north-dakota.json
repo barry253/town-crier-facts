@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,29 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota"
-    },
-    {
-      "id": 4,
-      "text": "Des Lacs is part of the Minot Metropolitan Statistical Area, linking it to the regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota"
-    },
-    {
-      "id": 5,
-      "text": "Des Lacs sits in Ward County, North Dakota, anchoring the local community in the state's northern plains.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Des_Lacs%2C_North_Dakota",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofdeslacs.com/"
+      "source": "https://www.cityofdeslacs.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

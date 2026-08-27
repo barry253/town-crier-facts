@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Norwood is a village in East Feliciana Parish, Louisiana in the heart of the state’s rural landscape.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Norwood%2C_Louisiana"
-    },
-    {
-      "id": 2,
-      "text": "Norwood is part of the Baton Rouge metropolitan statistical area, linking it to the region’s economic hub.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Norwood%2C_Louisiana"
-    },
-    {
       "id": 3,
       "text": "The village’s core principles emphasize small‑town values, guided growth, and preserving its historical, cultural, and natural heritage.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://norwood.municipalimpact.com/"
+      "source": "https://norwood.municipalimpact.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://norwood.municipalimpact.com/"
+      "source": "https://norwood.municipalimpact.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://norwood.municipalimpact.com/"
+      "source": "https://norwood.municipalimpact.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,

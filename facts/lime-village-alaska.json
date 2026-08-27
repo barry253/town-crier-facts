@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Lime Village first appeared on the 1940 U.S. Census.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska"
-    },
-    {
       "id": 2,
       "text": "In July 2008, Lime Village's gasoline hit $8.55 per gallon, more than double the national average, a cost driven by Alaska's scattered villages that make transporting oil difficult.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/lacl/learn/historyculture/history.htm"
+      "source": "https://www.nps.gov/lacl/learn/historyculture/history.htm",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,18 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska"
-    },
-    {
-      "id": 6,
-      "text": "Lime Village sits at 61°20′29″N 155°29′27″W.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Lime_Village%2C_Alaska",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

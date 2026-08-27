@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Charco sits at 32°14′50″N latitude and 112°36′00″W longitude, placing it in southern Arizona's desert region.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Charco%2C_Arizona"
-    },
-    {
       "id": 2,
       "text": "Charco observes Mountain Standard Time, keeping its clocks seven hours behind Greenwich Mean Time throughout the year.",
       "sourceSentenceIds": [
@@ -40,18 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pima/charco.cfm"
-    },
-    {
-      "id": 3,
-      "text": "Charco is a census-designated place in Pima County, Arizona, lacking its own municipal government.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/pima/charco.cfm"
+      "source": "https://arizona.hometownlocator.com/az/pima/charco.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://the50unitedstates.com/arizona/charco"
+      "source": "https://the50unitedstates.com/arizona/charco",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://the50unitedstates.com/arizona/charco"
+      "source": "https://the50unitedstates.com/arizona/charco",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://the50unitedstates.com/arizona/charco"
+      "source": "https://the50unitedstates.com/arizona/charco",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -13,28 +13,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Central Valley is a hamlet in the Town of Woodbury, New York.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Central_Valley%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "Central Valley is part of the New York–Newark–Bridgeport Combined Statistical Area, linking it to a major metropolitan region.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Central_Valley%2C_New_York"
-    },
-    {
       "id": 3,
       "text": "The Woodbury Common Premium Outlets, a major shopping destination, is located right in Central Valley.",
       "sourceSentenceIds": [
@@ -43,7 +21,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Central_Valley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Central_Valley%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -54,7 +34,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Central_Valley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Central_Valley%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ],
   "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Woodbury_Town_Hall_5.jpg",

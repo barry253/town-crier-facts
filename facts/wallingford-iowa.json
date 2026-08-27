@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wallingford sits in both High Lake and Twelve Mile Lake townships of Emmet County.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Iowa"
-    },
-    {
       "id": 2,
       "text": "Wallingford was platted in 1882 and incorporated in late 1913 as a city.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ia/wallingford-xx-emmet-profile.htm"
+      "source": "https://roadsidethoughts.com/ia/wallingford-xx-emmet-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ia/wallingford-xx-emmet-profile.htm"
+      "source": "https://roadsidethoughts.com/ia/wallingford-xx-emmet-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ia/wallingford-xx-emmet-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Wallingford is part of Emmet County, Iowa, in the northwestern region of the state.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/city-wallingford-iowa.html"
+      "source": "https://roadsidethoughts.com/ia/wallingford-xx-emmet-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://desoto-ia.org/?page_id=1729"
+      "source": "https://desoto-ia.org/?page_id=1729",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://desoto-ia.org/?page_id=1729"
+      "source": "https://desoto-ia.org/?page_id=1729",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -55,7 +60,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://desoto-ia.org/"
+      "source": "https://desoto-ia.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -66,19 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://desoto-ia.org/"
-    },
-    {
-      "id": 5,
-      "text": "De Soto sits in Dallas County, Iowa, and is part of the Des Moines–West Des Moines Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/De_Soto%2C_Iowa"
+      "source": "https://desoto-ia.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

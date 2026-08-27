@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Franklinville sits where Franklinville Road meets Garden Valley‑Perkins Road in Seneca Township.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Franklinville,_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "A small stream called Franklinville Creek, a branch of the Kishwaukee River, runs through the community.",
       "sourceSentenceIds": [
@@ -75,7 +61,7 @@
       "source": "https://roadsidethoughts.com/il/franklinville-xx-mchenry-profile.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -86,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Franklinville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Franklinville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/franklinville-illinois.jpg",

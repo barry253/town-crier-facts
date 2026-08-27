@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Four Mile Road sits at 64°35′47″N 149°7′32″W, a precise point in Alaska's remote interior.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Four_Mile_Road%2C_Alaska"
-    },
-    {
-      "id": 2,
-      "text": "This places it deep in Alaska's Yukon-Koyukuk region, a sparsely populated area of the state.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Four_Mile_Road%2C_Alaska"
-    },
-    {
       "id": 3,
       "text": "The Nenana River flows just east of Four Mile Road, marking a natural boundary for the community.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Four_Mile_Road%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Four_Mile_Road%2C_Alaska",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ak/four-mile-road-xx-yukon-koyukuk-summary.htm"
+      "source": "https://roadsidethoughts.com/ak/four-mile-road-xx-yukon-koyukuk-summary.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ak/four-mile-road-xx-yukon-koyukuk-profile.htm"
+      "source": "https://roadsidethoughts.com/ak/four-mile-road-xx-yukon-koyukuk-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ak/four-mile-road-xx-yukon-koyukuk-profile.htm"
+      "source": "https://roadsidethoughts.com/ak/four-mile-road-xx-yukon-koyukuk-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

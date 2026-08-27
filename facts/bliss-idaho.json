@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bliss is a city in Gooding County, Idaho, United States.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho"
-    },
-    {
       "id": 2,
       "text": "Bliss is known for its quirky name that often appears on lists of unusual place names.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Bliss%2C_Idaho",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

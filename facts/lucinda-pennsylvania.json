@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "The town sits on Pennsylvania Route 66, just 6.5 miles north of Clarion.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lucinda%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
-    },
-    {
       "id": 3,
       "text": "In 1895 Lucinda had its own post office and was served by a railroad line.",
       "sourceSentenceIds": [
@@ -44,7 +30,7 @@
         "Web source 2"
       ],
       "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm",
-      "category": "history",
+      "category": "people",
       "quality": "good"
     },
     {
@@ -57,8 +43,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Lucinda%2C_Pennsylvania",
-      "category": "people",
-      "quality": "good"
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -72,7 +59,7 @@
       "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "vague"
+      "qualityReason": "other"
     },
     {
       "id": 6,

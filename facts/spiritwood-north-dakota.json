@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Spiritwood sits at latitude 46.9361 and longitude –98.4957, placing it firmly in central North Dakota.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood.cfm"
-    },
-    {
-      "id": 2,
-      "text": "East of Jamestown, the county seat of Stutsman County, Spiritwood lies just a short drive away.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota"
-    },
-    {
       "id": 3,
       "text": "The Spiritwood Industrial Park hosts a coal‑fired cogeneration plant built by Great River Energy in 2007.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Spiritwood%2C_North_Dakota",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood.cfm"
+      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

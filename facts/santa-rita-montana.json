@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Santa Rita sits at 3,808 feet above sea level, placing it in the high plains of northwestern Montana.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.mtmemory.org/nodes/view/128363"
-    },
-    {
       "id": 2,
       "text": "The town’s post office opened in 1937, six miles north of Cut Bank.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtmemory.org/nodes/view/128363"
+      "source": "https://www.mtmemory.org/nodes/view/128363",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitmt.com/cities-towns/santa-rita"
+      "source": "https://www.visitmt.com/cities-towns/santa-rita",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitmt.com/cities-towns/santa-rita"
+      "source": "https://www.visitmt.com/cities-towns/santa-rita",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rita%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rita%2C_Montana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

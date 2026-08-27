@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bassett is a town in Mississippi County, Arkansas, United States, located in the southern part of the county.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bassett%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "The town’s cemetery was established before the late 1860s, with the oldest grave marker dated 1868.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bassett%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Bassett%2C_Arkansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bassett%2C_Arkansas"
-    },
-    {
-      "id": 4,
-      "text": "Bassett’s geographic coordinates are 35°32′9″N 90°7′34″W in the central Mississippi River valley.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bassett%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Bassett%2C_Arkansas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     },
     {
       "id": 5,
@@ -74,18 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/arcountybassett.htm"
-    },
-    {
-      "id": 6,
-      "text": "Bassett is approximately 141 miles from Arkansas’s state capital, Little Rock, traveling eastward across the state.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/arcountybassett.htm"
+      "source": "https://www.usacitiesonline.com/arcountybassett.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

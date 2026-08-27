@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Kentucky",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.kyatlas.com/ky-white-plains.html"
-    },
-    {
-      "id": 3,
-      "text": "The city sits at 37°11′4″N 87°23′5″W, placing it in southeastern Hopkins County.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Kentucky"
+      "source": "https://www.kyatlas.com/ky-white-plains.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://whiteplains.ky.gov/"
+      "source": "https://whiteplains.ky.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

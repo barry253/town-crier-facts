@@ -21,21 +21,6 @@
   ],
   "facts": [
     {
-      "id": 2,
-      "text": "It lies on the south side of Farm to Market Road 490, three miles west of Hargill and 16 miles northeast of Edinburg.",
-      "sourceSentenceIds": [
-        14,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Coma_Heights%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 3,
       "text": "Students in La Coma Heights attend Hargill Elementary, Harwell Middle, and Edinburg North High.",
       "sourceSentenceIds": [
@@ -47,7 +32,7 @@
       "source": "https://en.wikipedia.org/wiki/La_Coma_Heights%2C_Texas",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -61,7 +46,7 @@
       "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm",
       "category": "other",
       "quality": "poor",
-      "qualityReason": "other"
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -72,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm"
+      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-coma-heights-texas.jpg",

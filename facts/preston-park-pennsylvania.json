@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Preston Park is an unincorporated community in Wayne County, Pennsylvania.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Preston_Park%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
-    },
-    {
       "id": 2,
       "text": "The community sits along Pennsylvania Route 370, just 6 miles east‑southeast of Starrucca.",
       "sourceSentenceIds": [
@@ -44,9 +30,9 @@
         "Wikipedia"
       ],
       "source": "https://en.wikipedia.org/wiki/Preston_Park%2C_Pennsylvania",
-      "category": "other",
+      "category": "transport",
       "quality": "poor",
-      "qualityReason": "location_description"
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -70,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/preston-park-xx-wayne-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/preston-park-xx-wayne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/preston-park-pennsylvania.jpg",

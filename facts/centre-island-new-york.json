@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Centre Island is a village in New York, United States.",
-      "sourceSentenceIds": [],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://centreisland.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
-    },
-    {
       "id": 2,
       "text": "For construction permits or building regulations, contact Centre Island's town hall or Nassau County authorities.",
       "sourceSentenceIds": [],
@@ -75,7 +63,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-centre-island.html"
+      "source": "https://www.citydirectory.us/village-centre-island.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ],
   "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centre-island-new-york.jpg",
