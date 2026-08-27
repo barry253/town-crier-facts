@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Sycamore is an unincorporated community in Greene County, Pennsylvania.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "The town sits along Pennsylvania Route 18, just four miles west‑northwest of Waynesburg.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sycamore%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -56,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://greenecountypa.gov/department-tourism-office",
-      "category": "economy",
-      "quality": "good",
-      "qualityReason": "other"
+      "source": "https://greenecountypa.gov/department-tourism-office"
     },
     {
       "id": 5,
@@ -70,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://greenecountypa.gov/department-tourism-office",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://greenecountypa.gov/department-tourism-office"
     },
     {
       "id": 6,
@@ -86,20 +87,5 @@
       ],
       "source": "https://greenecountypa.gov/department-tourism-office"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sycamore-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greene_County_Courthouse,_Waynesburg.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Greene County, Pennsylvania"
-  }
+  ]
 }

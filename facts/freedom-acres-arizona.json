@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona"
     },
     {
       "id": 4,
@@ -70,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/freedom-acres-xx-gila-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/az/freedom-acres-xx-gila-profile.htm"
     },
     {
       "id": 5,
@@ -84,24 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/freedom-acres-xx-gila-profile.htm",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/az/freedom-acres-xx-gila-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Freedom Acres is bordered to the north by the Beaver Valley census‑designated place.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Freedom_Acres%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/freedom-acres-arizona.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.68,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Richard N Horne",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_East_Verde_River_flows_thru_the_East_Verde_Estates_northwest_of_Payson.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "East Verde River"
-  }
+  ]
 }

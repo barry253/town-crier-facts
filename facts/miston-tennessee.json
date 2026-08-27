@@ -31,12 +31,22 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miston%2C_Tennessee",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Miston%2C_Tennessee"
     },
     {
       "id": 2,
+      "text": "The community sits on low‑lying floodplains about 272 feet above sea level, a feature that shapes its fertile loess‑derived soils.",
+      "sourceSentenceIds": [
+        18,
+        23
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/miston_tennessee"
+    },
+    {
+      "id": 3,
       "text": "Miston developed in the mid‑19th century as a small farming enclave, sometimes called “Baggett‑ville,” after the Civil War’s agricultural expansion.",
       "sourceSentenceIds": [
         26
@@ -44,12 +54,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/miston_tennessee",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/miston_tennessee"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Located just 5 miles east of the Mississippi River, Miston’s proximity once allowed farmers to ship cotton by steamboat.",
       "sourceSentenceIds": [
         5
@@ -57,13 +65,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/miston_tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://grokipedia.com/page/miston_tennessee"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town lies along Tennessee State Route 103, 3 miles east of Bogota and 13 miles northwest of Dyersburg, placing it near the county’s western edge.",
       "sourceSentenceIds": [
         6,
@@ -72,13 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miston%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Miston%2C_Tennessee"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Miston’s climate is humid subtropical, with July highs around 90°F and annual rainfall about 53 inches, typical of West Tennessee lowlands.",
       "sourceSentenceIds": [
         21,
@@ -87,25 +89,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/miston_tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://grokipedia.com/page/miston_tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/miston-tennessee.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Tony Webster from Portland, Oregon",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grant_River_Recreation_Area_along_the_Mississippi_River_-_Potosi,_Wisconsin_(24342209130).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mississippi River"
-  }
+  ]
 }

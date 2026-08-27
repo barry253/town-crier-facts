@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Portlandville%2C_New_York",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Portlandville%2C_New_York"
     },
     {
       "id": 2,
@@ -42,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm"
     },
     {
       "id": 3,
+      "text": "Per topographic data, Portlandville rests at an elevation of 1,150 feet above sea level.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Official records list Portlandville in both the FIPS‑55 and GNIS databases, confirming its recognized status.",
       "sourceSentenceIds": [
         1
@@ -55,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical surveys from 1895 noted Portlandville’s community had a post office and railroad service, reflecting its connectivity.",
       "sourceSentenceIds": [
         2
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Portlandville is situated within Otsego County, a region known for its rolling hills and historic towns.",
       "sourceSentenceIds": [
         6
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ny/portlandville-xx-otsego-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/portlandville-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Beyond My Ken",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otsego_County_Bank_Building_19_Main_Street_Cooperstown.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Otsego County, New York"
-  }
+  ]
 }

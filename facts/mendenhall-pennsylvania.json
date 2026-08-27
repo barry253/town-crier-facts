@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mendenhall%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Mendenhall%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm"
     },
     {
       "id": 3,
+      "text": "Mendenhall lies 330 feet above sea level, giving it a modest elevation within Chester County.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The town is part of Kennett Township, an unincorporated area in Chester County, Pennsylvania.",
       "sourceSentenceIds": [
         7
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mendenhall%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Mendenhall%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Mendenhall is located in Chester County, a region noted for its historic rural landscapes.",
       "sourceSentenceIds": [
         10
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The name Mendenhall is shared with communities in Arkansas and Mississippi, though the Pennsylvania town remains the only one in the state.",
       "sourceSentenceIds": [
         1
@@ -84,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/mendenhall-xx-chester-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mendenhall-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-08-31_12_38_19_View_west_along_Interstate_76_(Pennsylvania_Turnpike_Philadelphia_Extension)_from_the_overpass_for_Pennsylvania_State_Route_82_(North_Manor_Road)_in_West_Nantmeal_Township,_Chester_County,_Pennsylvania.jpg"
-  }
+  ]
 }

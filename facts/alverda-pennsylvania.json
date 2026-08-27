@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/alverda-xx-indiana-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/alverda-xx-indiana-profile.htm"
     },
     {
       "id": 3,
+      "text": "Alverda rises to 1,910 feet above sea level, giving it a higher elevation than many surrounding communities.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/alverda-xx-indiana-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Beneath the town lies the Pennsylvanian‑age Glenshaw Formation, a geologic layer that has shaped the local landscape.",
       "sourceSentenceIds": [
         8
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Just west of Alverda, the coal‑bearing Allegheny Group underlies the ground, hinting at the area’s mining heritage.",
       "sourceSentenceIds": [
         9
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Nolo Anticline, a geological fold, trends northeast‑west just west of the town, influencing local rock structures.",
       "sourceSentenceIds": [
         10
@@ -82,24 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Alverda%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alverda-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.26,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Indiana County, Pennsylvania"
-  }
+  ]
 }

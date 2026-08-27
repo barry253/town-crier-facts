@@ -22,6 +22,18 @@
   "facts": [
     {
       "id": 1,
+      "text": "Mar‑Mac Village lies in Wayne County, North Carolina, about 60 feet above sea level.",
+      "sourceSentenceIds": [
+        23,
+        25
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "Although it has no passenger train service, the nearest Amtrak station is in Selma.",
       "sourceSentenceIds": [
         21,
@@ -31,13 +43,21 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Mar‑Mac is part of the Goldsboro, North Carolina Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina"
+    },
+    {
+      "id": 4,
       "text": "Students in Mar‑Mac attend Wayne Community College in Goldsboro or Mount Olive College in Mount Olive for higher education.",
       "sourceSentenceIds": [
         20
@@ -45,13 +65,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Mar-Mac%2C_North_Carolina"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The village’s abbreviation is often written as Mar‑Mac Vlg, a nod to its compact community feel.",
       "sourceSentenceIds": [
         24
@@ -59,13 +76,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Welcome to Mar‑Mac Village, a quiet enclave that reflects the rural charm of Wayne County.",
       "sourceSentenceIds": [
         22
@@ -73,25 +87,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/nc/mar-mac-village-xx-wayne-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mar-mac-north-carolina.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.84,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Clarence Griffin, State Archives of North Carolina Raleigh, NC",
-    "license": "No restrictions",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wayne_County_Courthouse_1948.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Wayne County, North Carolina"
-  }
+  ]
 }

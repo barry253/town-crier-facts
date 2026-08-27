@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Winnebago sits in Winnebago County, Illinois, and is officially classified as a village.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Winnebago%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "The village is part of the Rockford‑Winnebago Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Winnebago%2C_Illinois"
+    },
+    {
       "id": 3,
       "text": "The Winnebago Community Historical Society collects, preserves, and interprets local history, spotlighting the town hall and regional archives.",
       "sourceSentenceIds": [
@@ -30,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wchs61088.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://wchs61088.org/"
     },
     {
       "id": 4,
@@ -43,10 +63,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wchs61088.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://wchs61088.org/"
     },
     {
       "id": 5,
@@ -57,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wchs61088.org/",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://wchs61088.org/"
     },
     {
       "id": 6,
@@ -72,21 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wchs61088.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://wchs61088.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/winnebago-illinois.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.208,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ben Jacobson (Kranar Drogin)",
-    "license": "CC BY 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winnebago,_IL_Downtown_02.JPG"
-  }
+  ]
 }

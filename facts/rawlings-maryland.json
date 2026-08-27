@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rawlings%2C_Maryland",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Rawlings%2C_Maryland"
     },
     {
       "id": 2,
@@ -46,9 +44,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rawlings%2C_Maryland",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Rawlings%2C_Maryland"
     },
     {
       "id": 3,
@@ -59,13 +55,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Rawlings,_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Rawlings,_Maryland"
     },
     {
       "id": 4,
+      "text": "The town sits 740 feet above sea level, giving it a modest elevation within Allegany County.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/md/rawlings-xx-allegany-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "A later post office was established in Rawlings in 1880, further cementing its role as a local hub.",
       "sourceSentenceIds": [
         18
@@ -73,24 +77,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/rawlings-xx-allegany-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/rawlings-xx-allegany-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rawlings-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Preservation Maryland",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegany_County_Courthouse_(25181526054).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Allegany County, Maryland"
-  }
+  ]
 }

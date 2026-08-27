@@ -31,9 +31,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.countyofcolusaca.gov/224/Stonyford",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.countyofcolusaca.gov/224/Stonyford"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.countyofcolusaca.gov/224/Stonyford",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.countyofcolusaca.gov/224/Stonyford"
     },
     {
       "id": 3,
@@ -57,12 +53,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.countyofcolusaca.gov/224/Stonyford",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.countyofcolusaca.gov/224/Stonyford"
     },
     {
       "id": 4,
+      "text": "Stonyford sits at 1,184 feet above sea level, offering a mild foothill climate.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Stonyford%2C_California"
+    },
+    {
+      "id": 5,
       "text": "The area experiences hot, dry summers with average temperatures topping 71.6 °F each month.",
       "sourceSentenceIds": [
         17
@@ -70,13 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stonyford%2C_California",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Stonyford%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Early Stonyford featured a bustling hub with two saloons, a restaurant, a livery, and a blacksmith shop, all centered around the creek.",
       "sourceSentenceIds": [
         30
@@ -84,24 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.countyofcolusaca.gov/224/Stonyford",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.countyofcolusaca.gov/224/Stonyford"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stonyford-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.14,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Sheila Sund",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_geese_overwintering_at_Colusa_Wildlife_Refuge.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Colusa County, California"
-  }
+  ]
 }

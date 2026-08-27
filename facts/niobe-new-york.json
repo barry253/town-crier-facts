@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Niobe sits in the southeast corner of Harmony, just west of Cherry Hill along County Road 12.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York"
+    },
+    {
       "id": 2,
       "text": "The hamlet once had a stop on the Pennsylvania Railroad, linking it to regional trade.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/niobe-xx-chautauqua-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/niobe-xx-chautauqua-profile.htm"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York"
     },
     {
       "id": 5,
@@ -68,10 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York"
     },
     {
       "id": 6,
@@ -82,15 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Harmony%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/niobe-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.379,
-    "y": 0.5
-  }
+  ]
 }

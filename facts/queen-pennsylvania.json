@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Queen%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Queen%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Queen%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Queen%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/queen-xx-bedford-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/queen-xx-bedford-profile.htm"
     },
     {
       "id": 4,
+      "text": "At 1,280 feet above sea level, Queen enjoys a modest hilltop elevation.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/queen-xx-bedford-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Pennsylvania hosts two communities named Queen—one in Bedford County and another in Forest County.",
       "sourceSentenceIds": [
         1
@@ -70,25 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/queen-xx-bedford-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/queen-xx-bedford-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/queen-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Canadian2006",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bedford_County_Courthouse_Pennsylvania.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Bedford County, Pennsylvania"
-  }
+  ]
 }

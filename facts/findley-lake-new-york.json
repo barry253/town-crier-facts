@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Findley_Lake%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Findley_Lake%2C_New_York"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Findley_Lake%2C_New_York",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Findley_Lake%2C_New_York"
     },
     {
       "id": 3,
@@ -55,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tourchautauqua.com/directory/findley-lake",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.tourchautauqua.com/directory/findley-lake"
     },
     {
       "id": 4,
@@ -68,12 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tourchautauqua.com/directory/findley-lake",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.tourchautauqua.com/directory/findley-lake"
     },
     {
       "id": 5,
+      "text": "Findley Lake sits at 1,440 feet above sea level on the north shore of the lake.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Findley_Lake%2C_New_York"
+    },
+    {
+      "id": 6,
       "text": "From June to September, oxygen levels drop below 13–15 feet, keeping fish from living deeper in Findley Lake.",
       "sourceSentenceIds": [
         28
@@ -81,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tourchautauqua.com/directory/findley-lake",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.tourchautauqua.com/directory/findley-lake"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/findley-lake-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.69,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Hameltion",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chautauqua_Lake_fireworks_2017.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Chautauqua Lake"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Eure is an unincorporated community in mid‑western Gates County, North Carolina.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Eure%2C_North_Carolina"
+    },
+    {
       "id": 2,
       "text": "Eure was incorporated in 1915 but later withdrew from active municipal affairs.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eure%2C_North_Carolina",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Eure%2C_North_Carolina"
     },
     {
       "id": 3,
@@ -43,9 +52,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/23492",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/23492"
     },
     {
       "id": 4,
@@ -57,10 +64,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/23492",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "vague"
+      "source": "https://museumsdatabase.com/museums/view/23492"
+    },
+    {
+      "id": 5,
+      "text": "Eure sits at an elevation of 23 feet (7 meters) above sea level.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Eure%2C_North_Carolina"
     },
     {
       "id": 6,
@@ -71,25 +86,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/23492",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://museumsdatabase.com/museums/view/23492"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eure-north-carolina.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.58,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "bobistraveling",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merchants_Millpond_SP_NC_5581.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Merchants Millpond State Park"
-  }
+  ]
 }

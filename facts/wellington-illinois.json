@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Wellington is a village in Lovejoy Township, Iroquois County, Illinois.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "The village sits at 40°32′29″N 87°40′51″W, placing it in southeastern Iroquois County.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Illinois"
+    },
+    {
+      "id": 3,
+      "text": "Wellington lies roughly 100 miles south of Chicago.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-wellington-illinois.html"
+    },
+    {
       "id": 4,
       "text": "The village borders Indiana to the east.",
       "sourceSentenceIds": [
@@ -29,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-wellington-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.citydirectory.us/village-wellington-illinois.html"
     },
     {
       "id": 5,
@@ -43,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-wellington-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-wellington-illinois.html"
     },
     {
       "id": 6,
@@ -57,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-wellington-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-wellington-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wellington-illinois.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.368,
-    "y": 0.499
-  },
-  "imageAttribution": {
-    "author": "Omnedon",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wellington,_Illinois,_USA_aerial.png"
-  }
+  ]
 }

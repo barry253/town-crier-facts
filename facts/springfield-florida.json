@@ -29,12 +29,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida"
     },
     {
       "id": 2,
+      "text": "The city sits east of Panama City and is part of the Panama City–Panama City Beach Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        3,
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida"
+    },
+    {
+      "id": 3,
       "text": "Springfield hosts four public schools: Rutherford High School, Everitt Middle School, Springfield Elementary School, and Shaw Adult Learning Center.",
       "sourceSentenceIds": [
         30
@@ -42,12 +52,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "There is no passport office in Springfield; residents must visit nearby USPS locations in Panama City or Fort Walton Beach.",
       "sourceSentenceIds": [
         1
@@ -55,13 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-springfield-florida.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-springfield-florida.html"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "For construction permits, inspections, or code enforcement, Springfield residents should contact the town hall or Bay County authorities.",
       "sourceSentenceIds": [
         2
@@ -69,25 +74,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-springfield-florida.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-springfield-florida.html"
+    },
+    {
+      "id": 6,
+      "text": "Springfield’s median age is 37.1 years, reflecting a balanced mix of families and retirees.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Springfield%2C_Florida"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bay District Schools"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/springfield-florida.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ebyabe",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PC_Bay_Cnty_crths01.jpg"
-  }
+  ]
 }

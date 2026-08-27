@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edgar%2C_Florida",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Edgar%2C_Florida"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/edgar-xx-putnam-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/fl/edgar-xx-putnam-profile.htm"
     },
     {
       "id": 3,
+      "text": "Edgar sits 80 feet above sea level, a typical elevation for central Florida.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/fl/edgar-xx-putnam-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "As an unincorporated community, Edgar is governed directly by Putnam County rather than its own city council.",
       "sourceSentenceIds": [
         10
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edgar%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Edgar%2C_Florida"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Edgar shares its name with 13 other U.S. communities, from California to Wisconsin, a quirky fact for travelers.",
       "sourceSentenceIds": [
         1
@@ -70,25 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/edgar-xx-putnam-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/fl/edgar-xx-putnam-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edgar-florida.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Excel23",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PutnamCCourtPalatka.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Putnam County, Florida"
-  }
+  ]
 }

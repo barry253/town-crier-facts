@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "North Apollo is a borough in Armstrong County, Pennsylvania, located in the heart of western Pennsylvania.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/North_Apollo%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "It sits along the Kiskiminetas River, shaping its quiet, river‑side rhythm for generations.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Apollo%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/North_Apollo%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -42,10 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/pa/north-apollo/overview",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.wikixm.com/us/pa/north-apollo/overview"
     },
     {
       "id": 4,
@@ -56,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/pa/north-apollo/overview",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.wikixm.com/us/pa/north-apollo/overview"
     },
     {
       "id": 5,
@@ -71,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/pa/north-apollo/overview",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.wikixm.com/us/pa/north-apollo/overview"
     },
     {
       "id": 6,
@@ -85,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/pa/north-apollo/overview",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.wikixm.com/us/pa/north-apollo/overview"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-apollo-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.642,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Acheson_from_18th,_North_Apollo.jpg"
-  }
+  ]
 }

@@ -34,9 +34,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona"
     },
     {
       "id": 2,
@@ -51,10 +49,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona"
     },
     {
       "id": 3,
@@ -69,9 +64,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona"
     },
     {
       "id": 4,
@@ -84,9 +77,19 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona"
+    },
+    {
+      "id": 5,
+      "text": "Roosevelt is a census‑designated place with no local government but is counted for official records.",
+      "sourceSentenceIds": [
+        12,
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Roosevelt,_Arizona"
     },
     {
       "id": 6,
@@ -101,24 +104,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Roosevelt%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roosevelt-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.25,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Marine 69-71",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Globe-Gila_County_Courthouse-101_North_Broad_Street-1910-2.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Gila County, Arizona"
-  }
+  ]
 }

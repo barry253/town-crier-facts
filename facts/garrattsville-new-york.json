@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Garrattsville sits at the crossroads of Otsego County Route 16 and New York State Route 51.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York"
+    },
+    {
       "id": 2,
       "text": "Butternut Creek winds southwest through the hamlet, adding a gentle waterway to the landscape.",
       "sourceSentenceIds": [
@@ -29,9 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York"
+    },
+    {
+      "id": 3,
+      "text": "The community’s exact coordinates are 42.6473 N latitude and –75.1718 W longitude.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm"
     },
     {
       "id": 4,
@@ -42,10 +62,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm"
+    },
+    {
+      "id": 5,
+      "text": "As a census‑designated place, Garrattsville has no formal government and relies on the town of New Lisbon for municipal services.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newyork.hometownlocator.com/ny/otsego/garrattsville.cfm"
     },
     {
       "id": 6,
@@ -54,24 +82,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Garrattsville%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/garrattsville-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "420Traveler",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Butternut_Creek_at_Bell_Hill_Road.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Butternut Creek (Otsego County)"
-  }
+  ]
 }

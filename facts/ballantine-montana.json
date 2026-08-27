@@ -27,9 +27,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ballantine%2C_Montana",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ballantine%2C_Montana"
     },
     {
       "id": 2,
@@ -40,12 +38,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mtmemory.org/nodes/view/127454",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.mtmemory.org/nodes/view/127454"
     },
     {
       "id": 3,
+      "text": "The town sits 2,995 feet above sea level, a detail noted by the Montana Historical Society.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.mtmemory.org/nodes/view/127454"
+    },
+    {
+      "id": 4,
       "text": "Irrigation transformed the surrounding sagebrush into farms of sugar beets and alfalfa, reshaping the local landscape.",
       "sourceSentenceIds": [
         11
@@ -53,12 +60,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ballantine%2C_Montana",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ballantine%2C_Montana"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The Anita Dam and Reservoir, completed in 1937 by the CCC, lies about six miles southeast of Ballantine.",
       "sourceSentenceIds": [
         13
@@ -66,21 +71,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ballantine%2C_Montana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Ballantine%2C_Montana"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ballantine-montana.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CIA World Factbook",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
-  }
+  ]
 }

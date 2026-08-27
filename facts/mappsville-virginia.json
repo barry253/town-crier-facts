@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Mappsville sits about 40 feet above sea level on Virginia’s Eastern Shore.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office began operating in 1889, marking its early growth.",
       "sourceSentenceIds": [
         18
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Wharton Place, a historic home in Mappsville, was added to the National Register of Historic Places in 1974.",
       "sourceSentenceIds": [
         2
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mappsville%2C_Virginia",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mappsville%2C_Virginia"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Mappsville first appeared in federal geographic databases such as FIPS‑55 and the GNIS.",
       "sourceSentenceIds": [
         1
@@ -55,13 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Located in Accomack County, Mappsville is part of Virginia’s picturesque Eastern Shore.",
       "sourceSentenceIds": [
         17
@@ -69,21 +73,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "The town’s latitude and longitude are roughly 36.7°N, 75.9°W, though exact coordinates still need verification.",
+      "sourceSentenceIds": [
+        21,
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/va/mappsville-xx-accomack-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mappsville-virginia.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.398,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "self",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Route_13_in_Mappsville.jpg"
-  }
+  ]
 }

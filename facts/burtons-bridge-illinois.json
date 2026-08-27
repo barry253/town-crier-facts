@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burtons_Bridge%2C_Illinois",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Burtons_Bridge%2C_Illinois"
     },
     {
       "id": 2,
@@ -42,12 +40,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://foxvalleyreview.com/towns/burtons-bridge/scenes-from-the-bridge-and-beach.html",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://foxvalleyreview.com/towns/burtons-bridge/scenes-from-the-bridge-and-beach.html"
     },
     {
       "id": 3,
+      "text": "Burtons Bridge rises 730 feet above sea level, giving it a commanding view of the surrounding prairie.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Burtons Bridge is located in McHenry County, Illinois, a detail that ties it to the county’s rich agricultural history.",
       "sourceSentenceIds": [
         6
@@ -55,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "In 1895 the community of Burtons Bridge had both a post office and railroad service, linking it to regional trade.",
       "sourceSentenceIds": [
         1
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Locals often shorten Burtons Bridge to Burtons Brg., though variations like Burtons Brdg. or Burtons Brdge. also appear in records.",
       "sourceSentenceIds": [
         7
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/burtons-bridge-xx-mchenry-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/burtons-bridge-illinois.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Barera",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waukesha_June_2023_018_(Fox_River_and_River_Walk).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Fox River (Illinois River tributary)"
-  }
+  ]
 }

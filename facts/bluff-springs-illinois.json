@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluff_Springs%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Bluff_Springs%2C_Illinois"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluff_Springs%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Bluff_Springs%2C_Illinois"
     },
     {
       "id": 3,
@@ -57,13 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm"
     },
     {
       "id": 4,
+      "text": "Bluff Springs rises 490 feet above sea level.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Historical records note whether the 1895 community had a post office or railroad service.",
       "sourceSentenceIds": [
         3
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Bluff Springs is listed in both the FIPS‑55 and the GNIS databases.",
       "sourceSentenceIds": [
         2
@@ -85,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/bluff-springs-xx-cass-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bluff-springs-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.39,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cass_County_Courthouse,_Virginia.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Cass County, Illinois"
-  }
+  ]
 }

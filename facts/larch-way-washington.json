@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Larch Way sits at 47°50′34″N 122°15′10″W.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Larch_Way%2C_Washington"
+    },
+    {
+      "id": 2,
+      "text": "The community rises 505 feet above sea level in Washington state.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Larch_Way%2C_Washington"
+    },
+    {
+      "id": 3,
       "text": "Larch Way is an unincorporated community often considered part of the Maltby area.",
       "sourceSentenceIds": [
         25
@@ -29,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "The area is surrounded by dense forests and lies near the Sammamish River, offering scenic trails.",
       "sourceSentenceIds": [
         26
@@ -43,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Farmland and forested areas shape Larch Way’s rural character in Snohomish County.",
       "sourceSentenceIds": [
         4
@@ -56,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Proximity to Interstate 5 connects Larch Way to Seattle about 60 miles south and Vancouver about 120 miles north.",
       "sourceSentenceIds": [
         5
@@ -69,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_larch-way"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/larch-way-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.76,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "ECTran71",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Granite Falls, Washington"
-  }
+  ]
 }

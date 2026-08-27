@@ -21,6 +21,29 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "La Coma Heights sits at 26.4393°N, 98.0747°W in Hidalgo County.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm"
+    },
+    {
+      "id": 2,
+      "text": "It lies on the south side of Farm to Market Road 490, three miles west of Hargill and 16 miles northeast of Edinburg.",
+      "sourceSentenceIds": [
+        14,
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Coma_Heights%2C_Texas"
+    },
+    {
       "id": 3,
       "text": "Students in La Coma Heights attend Hargill Elementary, Harwell Middle, and Edinburg North High.",
       "sourceSentenceIds": [
@@ -29,10 +52,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Coma_Heights%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/La_Coma_Heights%2C_Texas"
+    },
+    {
+      "id": 4,
+      "text": "La Coma Heights is a census‑designated place, so it has no governmental functions.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm"
     },
     {
       "id": 5,
@@ -43,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm"
     },
     {
       "id": 6,
@@ -57,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://texas.hometownlocator.com/tx/hidalgo/la-coma-heights.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-coma-heights-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.56,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Theunderratedtaco",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HidalgoCountyCourthouse.png"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Hidalgo County, Texas"
-  }
+  ]
 }

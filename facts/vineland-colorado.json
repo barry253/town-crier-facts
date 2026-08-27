@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Vineland sits in Pueblo County and is part of the Pueblo Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado"
+    },
+    {
       "id": 2,
       "text": "The CDP spans roughly 363 acres—about 1.5 square kilometers—in Colorado, entirely land.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/vineland/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://www.uncovercolorado.com/towns/vineland/"
     },
     {
       "id": 4,
@@ -57,9 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado"
     },
     {
       "id": 5,
@@ -70,9 +74,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Vineland%2C_Colorado"
     },
     {
       "id": 6,
@@ -84,20 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/vineland/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.uncovercolorado.com/towns/vineland/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vineland-colorado.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.18,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jeffrey Beall",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vineland,_Colorado.JPG"
-  }
+  ]
 }

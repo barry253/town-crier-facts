@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.bar-k-association.org/bar-k-history/history-of-the-bar-k-ranch",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.bar-k-association.org/bar-k-history/history-of-the-bar-k-ranch"
     },
     {
       "id": 2,
@@ -42,12 +40,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bark_Ranch%2C_Colorado",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Bark_Ranch%2C_Colorado"
     },
     {
       "id": 3,
+      "text": "The community’s elevation reaches 8,510 feet, roughly one and a half miles above sea level.",
+      "sourceSentenceIds": [
+        14,
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/co/bark-ranch-xx-boulder-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Bark Ranch’s census‑designated place covers 558 acres, including 6.2 acres of water.",
       "sourceSentenceIds": [
         10
@@ -55,21 +63,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bark_Ranch%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Bark_Ranch%2C_Colorado"
+    },
+    {
+      "id": 5,
+      "text": "The CDP is part of the Boulder, CO Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Bark_Ranch%2C_Colorado"
+    },
+    {
+      "id": 6,
+      "text": "Bark Ranch is located in west central Boulder County, Colorado.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Bark_Ranch%2C_Colorado"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bark-ranch-colorado.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.69,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Paul Sableman",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boulder_County_Courthouse_(31861249120).jpg"
-  }
+  ]
 }

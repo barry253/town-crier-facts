@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Morann%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Morann%2C_Pennsylvania"
     },
     {
       "id": 2,
+      "text": "The town sits 1,600 feet above sea level, giving it a high‑land feel.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "A post office opened in Morann in 1890, marking its early growth.",
       "sourceSentenceIds": [
         8
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Morann lies along Pennsylvania Route 153, just 2.8 miles south‑southwest of Houtzdale.",
       "sourceSentenceIds": [
         5
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Morann%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Morann%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical records list Morann in both the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "An 1895 atlas catalogued Morann among nearby communities, preserving its early map presence.",
       "sourceSentenceIds": [
         20
@@ -84,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/morann-xx-clearfield-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/morann-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clearfield_County_Courthouse_Apr_10.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Clearfield County, Pennsylvania"
-  }
+  ]
 }

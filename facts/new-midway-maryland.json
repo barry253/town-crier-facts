@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "New Midway is an unincorporated community in Frederick County, Maryland.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/New_Midway%2C_Maryland"
+    },
+    {
       "id": 2,
       "text": "The town’s post office has called the Reever/Renner building home since the mid‑1800s.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm",
-      "category": "people",
-      "quality": "good"
+      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm"
     },
     {
       "id": 3,
@@ -43,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm"
     },
     {
       "id": 4,
@@ -56,9 +63,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm"
+    },
+    {
+      "id": 5,
+      "text": "New Midway sits just north of Woodsboro, a short drive away, and has been a quiet hamlet for over a century.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm"
     },
     {
       "id": 6,
@@ -69,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.emmitsburg.net/archive_list/articles/history/stories/history_of_news_midway.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-midway-maryland.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Landsat/NASA",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeakelandsat.jpeg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Chesapeake Bay"
-  }
+  ]
 }

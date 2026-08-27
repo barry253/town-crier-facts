@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibbon_Glade%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Gibbon_Glade%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibbon_Glade%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Gibbon_Glade%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,13 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm"
     },
     {
       "id": 4,
+      "text": "Gibbon Glade rises to 1,680 feet above sea level, offering a modest Appalachian elevation.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Federal records list Gibbon Glade in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         1
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The community’s name appears in historical county boundary atlases, highlighting its long‑standing presence.",
       "sourceSentenceIds": [
         3
@@ -85,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/pa/gibbon-glade-xx-fayette-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fayette County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gibbon-glade-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  }
+  ]
 }

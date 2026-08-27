@@ -22,6 +22,21 @@
   "facts": [
     {
       "id": 1,
+      "text": "Muldoon takes its name from Father Michael Muldoon, the Irish clergyman who served Stephen F. Austin in the early 1830s.",
+      "sourceSentenceIds": [
+        3,
+        7,
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas"
+    },
+    {
+      "id": 2,
       "text": "The town’s historic Kerr Store, built in 1890, still stands on FM 154 beside a former blacksmith shop and other early buildings.",
       "sourceSentenceIds": [
         1
@@ -29,12 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Muldoon’s railroad heyday began in the early 1900s when the San Antonio and Aransas Pass tracks ran along what later became FM 154, bringing regular passenger traffic to the town.",
       "sourceSentenceIds": [
         10
@@ -42,12 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The old Muldoon train station was abandoned in the 1950s after the Dinky, a small passenger train from Flatonia, stopped running.",
       "sourceSentenceIds": [
         5
@@ -55,12 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town sits at the junction of FM 154 and FM 2237, a crossroads that has defined its layout since its founding.",
       "sourceSentenceIds": [
         27
@@ -68,13 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Muldoon%2C_Texas"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Muldoon occupies land originally granted in 1831 to Father Michael Muldoon, the curate who helped Stephen F. Austin in Texas history.",
       "sourceSentenceIds": [
         7,
@@ -84,20 +90,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/muldoon-tx",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/muldoon-tx"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/muldoon-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.56,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bwickliffe",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fayette_County_Courthouse,_La_Grange,_TX.jpg"
-  }
+  ]
 }

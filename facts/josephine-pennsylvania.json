@@ -22,6 +22,39 @@
   "facts": [
     {
       "id": 1,
+      "text": "Josephine is an unincorporated community in Indiana County, Pennsylvania.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Josephine%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "The community sits 1,030 feet above sea level, giving it a modest hilltop elevation.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/josephine-xx-indiana-profile.htm"
+    },
+    {
+      "id": 3,
+      "text": "Josephine lies just 4.7 miles south of Homer City, a short drive through rural Pennsylvania.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Josephine%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
       "text": "A post office opened in Josephine in 1906, marking the town’s early 20th‑century growth.",
       "sourceSentenceIds": [
         9
@@ -29,13 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/josephine-xx-indiana-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/josephine-xx-indiana-profile.htm"
     },
     {
-      "id": 3,
+      "id": 5,
+      "text": "The town is located within Indiana County, a region known for its rolling hills and coal history.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/josephine-xx-indiana-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Josephine is part of the state of Pennsylvania, a state rich in American industrial heritage.",
       "sourceSentenceIds": [
         5
@@ -43,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Josephine%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Josephine%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/josephine-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.26,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Indiana County, Pennsylvania"
-  }
+  ]
 }

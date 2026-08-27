@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowdon_Junction%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Bowdon_Junction%2C_Georgia"
     },
     {
       "id": 2,
@@ -44,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowdon_Junction%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Bowdon_Junction%2C_Georgia"
     },
     {
       "id": 3,
@@ -58,9 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowdon_Junction%2C_Georgia",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Bowdon_Junction%2C_Georgia"
     },
     {
       "id": 4,
@@ -71,12 +63,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/bowdon-junction-xx-carroll-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/bowdon-junction-xx-carroll-profile.htm"
     },
     {
       "id": 5,
+      "text": "The town’s elevation is 1,230 feet above sea level, giving it a modest hilltop setting.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/bowdon-junction-xx-carroll-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "A historic marker at Bowdon High School commemorates Bowdon College, which operated on the site from 1857 to 1936.",
       "sourceSentenceIds": [
         2
@@ -84,24 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://carrollcountyhistory.org/bowdon.html",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://carrollcountyhistory.org/bowdon.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bowdon-junction-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Rivera",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carroll_County_Courthouse_1928.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Carroll County, Georgia"
-  }
+  ]
 }

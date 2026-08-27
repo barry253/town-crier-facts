@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm"
     },
     {
       "id": 2,
+      "text": "The community sits 850 feet above sea level, giving it a modest hilltop view of Lincoln County.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "NC‑150 bypasses the old street route known as Old NC 150, a reminder of the town’s early highway history.",
       "sourceSentenceIds": [
         5
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crouse%2C_North_Carolina",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Crouse%2C_North_Carolina"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Mark’s Church Road meets NC‑279 and Pleasant Grove Church Road, a key junction for local traffic.",
       "sourceSentenceIds": [
         6
@@ -55,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crouse%2C_North_Carolina",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Crouse%2C_North_Carolina"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Crouse is located in Lincoln County, North Carolina, a detail that places it within the state’s central region.",
       "sourceSentenceIds": [
         10
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Three other U.S. communities share the name Crouse—one in Kansas, one in Texas, and one in Newfoundland and Labrador.",
       "sourceSentenceIds": [
         1
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/nc/crouse-xx-lincoln-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crouse-north-carolina.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Washuotaku",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lincoln_County_Courthouse_(Lincolnton,_North_Carolina).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Lincoln County, North Carolina"
-  }
+  ]
 }

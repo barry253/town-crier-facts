@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Mackeyville is an unincorporated community in Clinton County, Pennsylvania, in the heart of the Appalachian foothills.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "The community sits 5.8 miles south of Lock Haven in the rolling hills of central Pennsylvania.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania"
+    },
+    {
       "id": 3,
       "text": "Fishing Creek runs along the eastern edge of town center, heading north to south.",
       "sourceSentenceIds": [
@@ -29,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -42,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania"
     },
     {
       "id": 5,
@@ -55,9 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mackeyville%2C_Pennsylvania"
     },
     {
       "id": 6,
@@ -68,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mackeyville-xx-clinton-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/mackeyville-xx-clinton-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mackeyville-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "User:Ruhrfisch",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fishing_Creek_from_PA_150.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Fishing Creek (Bald Eagle Creek tributary)"
-  }
+  ]
 }

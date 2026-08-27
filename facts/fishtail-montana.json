@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishtail%2C_Montana",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Fishtail%2C_Montana"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtmemory.org/nodes/view/127714",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.mtmemory.org/nodes/view/127714"
     },
     {
       "id": 3,
@@ -57,9 +53,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishtail%2C_Montana",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Fishtail%2C_Montana"
     },
     {
       "id": 4,
@@ -70,9 +64,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishtail%2C_Montana",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Fishtail%2C_Montana"
     },
     {
       "id": 5,
@@ -83,24 +75,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitmt.com/cities-towns/fishtail",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.visitmt.com/cities-towns/fishtail"
+    },
+    {
+      "id": 6,
+      "text": "Fishtail sits at 4,465 feet elevation in the foothills of the Beartooth Mountains.",
+      "sourceSentenceIds": [
+        1,
+        13
+      ],
+      "sourceLabels": [
+        "Web source 2",
+        "Web source 1"
+      ],
+      "source": "https://www.mtmemory.org/nodes/view/127714"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fishtail-montana.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CIA World Factbook",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mountain Time Zone"
-  }
+  ]
 }

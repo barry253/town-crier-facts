@@ -21,6 +21,19 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Lake City sits at 28°4′47″N 97°53′8″W, just northeast of Corpus Creek and near Lake Corpus Crete.",
+      "sourceSentenceIds": [
+        3,
+        25
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_City%2C_Texas"
+    },
+    {
       "id": 2,
       "text": "The town’s name reflects its proximity to the western shores of Lake Corpus Crete, a key feature of the Coastal Bend region.",
       "sourceSentenceIds": [
@@ -29,9 +42,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-lake-city-texas.html",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.citydirectory.us/city-lake-city-texas.html"
     },
     {
       "id": 3,
@@ -42,10 +53,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_City%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Lake_City%2C_Texas"
     },
     {
       "id": 4,
@@ -56,10 +64,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lakecitytx.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.lakecitytx.org/"
     },
     {
       "id": 5,
@@ -72,10 +77,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-lake-city-texas.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-lake-city-texas.html"
     },
     {
       "id": 6,
@@ -86,16 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lakecitytx.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.lakecitytx.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.647,
-    "y": 0.5
-  }
+  ]
 }

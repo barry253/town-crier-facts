@@ -21,6 +21,30 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Los Huisaches first appeared as a census‑designated place in 2010.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas"
+    },
+    {
+      "id": 2,
+      "text": "It sits at 27°54′25″N 99°28′33″W, right on the Texas‑Mexico border.",
+      "sourceSentenceIds": [
+        2,
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas"
+    },
+    {
       "id": 3,
       "text": "Los Huisaches is one of several colonias in Webb County, a border community with unique housing.",
       "sourceSentenceIds": [
@@ -32,10 +56,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas"
     },
     {
       "id": 4,
@@ -49,10 +70,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas"
     },
     {
       "id": 5,
@@ -65,10 +83,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Los_Huisaches%2C_Texas"
     },
     {
       "id": 6,
@@ -79,25 +94,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Los_Huisaches,_Texas",
-      "category": "etymology",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Los_Huisaches,_Texas"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/los-huisaches-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Copernico Contreras",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Webb County, Texas"
-  }
+  ]
 }

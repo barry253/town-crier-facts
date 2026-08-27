@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Lakemont is a hamlet in the town of Starkey, Yates County, New York, United States.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakemont%2C_New_York"
+    },
+    {
+      "id": 2,
       "text": "Lakemont sits in the Finger Lakes region, a famed area known for its scenic lakes and vineyards.",
       "sourceSentenceIds": [
         7
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakemont%2C_New_York",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lakemont%2C_New_York"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Lakemont lies several miles north of Glenora, placing it near the historic Watkins Glen State Park.",
       "sourceSentenceIds": [
         8
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakemont%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lakemont%2C_New_York"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Lakemont is located in Yates County.",
       "sourceSentenceIds": [
         24
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/lakemont-xx-yates-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/lakemont-xx-yates-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Lakemont’s post office opened in 1901, marking the community’s early development.",
       "sourceSentenceIds": [
         25
@@ -69,24 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/lakemont-xx-yates-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/lakemont-xx-yates-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Lakemont sits 860 feet above sea level, giving it a mild hilltop climate.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/lakemont-xx-yates-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakemont-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.8,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "NASA",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_York%27s_Finger_Lakes.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Finger Lakes"
-  }
+  ]
 }

@@ -22,6 +22,18 @@
   "facts": [
     {
       "id": 1,
+      "text": "Sewanee climbs the western edge of the Cumberland Plateau to an elevation of 1,929 feet.",
+      "sourceSentenceIds": [
+        17,
+        19
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee"
+    },
+    {
+      "id": 2,
       "text": "The University of the South, founded in 1857, dominates Sewanee’s landscape and culture.",
       "sourceSentenceIds": [
         4,
@@ -30,12 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The Mountain Goat Trail, once a steep railroad, is now a paved multi‑use path for hikers and bikers.",
       "sourceSentenceIds": [
         7,
@@ -44,12 +54,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.sewaneevillage.com/about",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.sewaneevillage.com/about"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Every summer, Sewanee hosts a month‑long music festival that trains young orchestral musicians.",
       "sourceSentenceIds": [
         6
@@ -57,12 +65,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Templeton Library, once a repository for Sir John Templeton’s papers, now houses private apartments overlooking the valley.",
       "sourceSentenceIds": [
         13,
@@ -71,12 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sewanee%2C_Tennessee"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "DuBose Conference Center, built in 1872, has quietly hosted Episcopal gatherings and played a role in civil‑rights history.",
       "sourceSentenceIds": [
         3
@@ -84,20 +88,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.southcumberlandchamber.com/sewanee-tennessee-south-cumberland-chamber-of-commerce",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.southcumberlandchamber.com/sewanee-tennessee-south-cumberland-chamber-of-commerce"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sewanee-tennessee.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.609,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otey-Parish-Sewanee-tn1.jpg"
-  }
+  ]
 }

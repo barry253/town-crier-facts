@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claridge%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Claridge%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claridge%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Claridge%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm"
     },
     {
       "id": 4,
+      "text": "The community rests at an elevation of 1,050 feet above sea level, offering a modest rise over the surrounding valley.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Claridge is catalogued in both the FIPS‑55 and GNIS databases, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         3
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "A 1895 atlas lists Claridge among the small communities that dotted Westmoreland County in the late nineteenth century.",
       "sourceSentenceIds": [
         23
@@ -84,19 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/claridge-xx-westmoreland-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Westmoreland County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/claridge-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.54,
-    "y": 0.5
-  }
+  ]
 }

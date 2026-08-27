@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "La Rose is a village in Bell Plain Township, Marshall County, Illinois.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "La Rose lies in southeastern Marshall County.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois"
+    },
+    {
+      "id": 3,
+      "text": "La Rose is part of the Peoria Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois"
+    },
+    {
       "id": 4,
       "text": "Illinois Route 89 runs through La Rose as Main Street, leading north 4 miles to Varna and southwest 5 miles to Washburn.",
       "sourceSentenceIds": [
@@ -29,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois"
     },
     {
       "id": 5,
@@ -43,9 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/La_Rose%2C_Illinois"
     },
     {
       "id": 6,
@@ -56,20 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-la-rose.html",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.citydirectory.us/village-la-rose.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-rose-illinois.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.43,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Joseph Norton and Ronald Frazier",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illinois_River_near_LaSalle_Illinois.jpg"
-  }
+  ]
 }

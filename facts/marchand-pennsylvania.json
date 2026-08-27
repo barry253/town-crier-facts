@@ -22,6 +22,29 @@
   "facts": [
     {
       "id": 1,
+      "text": "Marchand is an unincorporated community in Indiana County, Pennsylvania.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Marchand%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "The town sits on U.S. Route 119, just 6.2 miles north of Marion Center.",
+      "sourceSentenceIds": [
+        10,
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Marchand%2C_Pennsylvania"
+    },
+    {
+      "id": 3,
       "text": "A post office opened in Marchand in 1842, and the town was formally laid out in 1860.",
       "sourceSentenceIds": [
         15
@@ -29,12 +52,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/marchand_pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/marchand_pennsylvania"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "Marchand rests at 1,558 feet above sea level, overlooking the rolling Allegheny Plateau.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/marchand_pennsylvania"
+    },
+    {
+      "id": 5,
       "text": "The community lies within North Mahoning Township, a rural area marked by forested hills and gentle valleys.",
       "sourceSentenceIds": [
         19,
@@ -43,13 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/marchand_pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://grokipedia.com/page/marchand_pennsylvania"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "Early settlers were mainly Scotch‑Irish and German farmers who cleared land for grain and lumber along Little Mahoning Creek.",
       "sourceSentenceIds": [
         30,
@@ -58,24 +87,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/marchand_pennsylvania",
-      "category": "people",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/marchand_pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marchand-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.26,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Indiana County, Pennsylvania"
-  }
+  ]
 }

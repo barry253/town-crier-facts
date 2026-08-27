@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Howard sits in Taylor County, Georgia, and is one of two towns in the state that share its name.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/howard-xx-taylor-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The Howard post office opened in 1852, marking the town’s early role in regional communication.",
       "sourceSentenceIds": [
         10
@@ -29,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/howard-xx-taylor-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/howard-xx-taylor-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "At 640 feet above sea level, Howard enjoys a modest elevation typical of central Georgia’s rolling hills.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/howard-xx-taylor-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Georgia State Route 96 cuts through Howard, linking the community to larger highways across the state.",
       "sourceSentenceIds": [
         7
@@ -42,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Howard%2C_Georgia",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Howard%2C_Georgia"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Historical maps from 1895 list Howard as a community that once had a post office and railroad service.",
       "sourceSentenceIds": [
         4
@@ -56,24 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/howard-xx-taylor-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/howard-xx-taylor-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/howard-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Rivers Langley; SaveRivers",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taylor_County,_GA_Courthouse.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Taylor County, Georgia"
-  }
+  ]
 }

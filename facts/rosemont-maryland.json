@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Rosemont is a village located in Frederick County, Maryland, in the scenic Piedmont region.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland"
+    },
+    {
       "id": 2,
       "text": "Maryland state routes 79 and 871 pass through Rosemont, providing vital connections to surrounding communities.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland"
     },
     {
       "id": 4,
@@ -57,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland"
     },
     {
       "id": 5,
@@ -71,10 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Rosemont%2C_Maryland"
     },
     {
       "id": 6,
@@ -87,16 +86,5 @@
       ],
       "source": "https://www.citydirectory.us/village-rosemont-maryland.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rosemont-maryland.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.308,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Acroterion",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosemont_MD1.jpg"
-  }
+  ]
 }

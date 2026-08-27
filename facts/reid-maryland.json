@@ -22,6 +22,18 @@
   "facts": [
     {
       "id": 1,
+      "text": "Reid sits in Washington County, Maryland, perched 580 feet above sea level.",
+      "sourceSentenceIds": [
+        11,
+        13
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office began serving residents in 1892, marking its first official federal recognition.",
       "sourceSentenceIds": [
         12
@@ -29,12 +41,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Reid is one of nine U.S. communities that share its name, with others located in Alabama, Kentucky, and West Virginia, among others.",
       "sourceSentenceIds": [
         1
@@ -42,13 +52,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Historical maps from 1895 list Reid among the communities that once dotted the Washington County area.",
       "sourceSentenceIds": [
         25
@@ -56,12 +63,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town’s modest size belies its rich local history, with a dedicated cemetery list and newspaper archive available for researchers.",
       "sourceSentenceIds": [
         22,
@@ -70,25 +75,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/md/reid-xx-washington-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/reid-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Washington County, Maryland"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Calcium sits in central Jefferson County at 44°02′05″N 75°50′32″W, just west of the town of Le Ray.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
+    },
+    {
       "id": 2,
       "text": "The hamlet of Calcium lies in the southern part of the CDP, east of U.S. Route 11.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
     },
     {
       "id": 5,
@@ -69,10 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
     },
     {
       "id": 6,
@@ -84,25 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Calcium%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/calcium-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.54,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Steven Hamsness",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St_Lawrence_in_Alexandria_Bay,_New_York._East_side.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Alexandria Bay, New York"
-  }
+  ]
 }

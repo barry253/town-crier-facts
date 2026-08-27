@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Starford%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Starford%2C_Pennsylvania"
     },
     {
       "id": 2,
+      "text": "The town sits 1,350 feet above sea level, giving it a modest hilltop view.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "A post office opened in Starford in 1905, marking its early 20th‑century growth.",
       "sourceSentenceIds": [
         19
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Starford lies just 3.6 miles northeast of Clymer, a short drive away.",
       "sourceSentenceIds": [
         5
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Starford%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Starford%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The community appears in both the FIPS‑55 and GNIS databases, confirming its official recognition.",
       "sourceSentenceIds": [
         1
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historical maps from 1895 list Starford among nearby communities, showing its long‑standing presence.",
       "sourceSentenceIds": [
         29
@@ -85,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/starford-xx-indiana-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/starford-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.26,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Indiana County, Pennsylvania"
-  }
+  ]
 }

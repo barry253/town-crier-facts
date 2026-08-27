@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Mount Saint Joseph is an unincorporated community in central Delhi Township, Hamilton County, Ohio.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mount_Saint_Joseph%2C_Ohio"
+    },
+    {
+      "id": 2,
+      "text": "The community sits at 820 feet above sea level.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "A post office opened in 1891, marking the community's early development.",
       "sourceSentenceIds": [
         13
@@ -29,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "Mount Saint Joseph is located within Hamilton County, Ohio.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The pronunciation is \"JOH-suhf\".",
       "sourceSentenceIds": [
         13
@@ -43,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "The GNIS lists Mount Saint Joseph, indicating its official geographic recognition.",
       "sourceSentenceIds": [
         3
@@ -57,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/oh/mount-saint-joseph-xx-hamilton-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-saint-joseph-ohio.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.33,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Greg Hume",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Saint_Joseph.jpg"
-  }
+  ]
 }

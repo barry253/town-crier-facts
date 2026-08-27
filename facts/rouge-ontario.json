@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.comeexplorecanada.com/ontario/parks/rouge-national-urban-park",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.comeexplorecanada.com/ontario/parks/rouge-national-urban-park"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ontariovisited.ca/rouge-national-urban-park/",
-      "category": "nature",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://ontariovisited.ca/rouge-national-urban-park/"
     },
     {
       "id": 3,
@@ -59,12 +54,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rouge_River_(Ontario)",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Rouge_River_(Ontario)"
     },
     {
       "id": 4,
+      "text": "The Rouge River watershed covers 336 km², with 40 % agricultural, 35 % urban, 24 % forest/wetland/meadow, and 1 % watercourses.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rouge_River_(Ontario)"
+    },
+    {
+      "id": 5,
       "text": "By making residents co‑authors of the park’s natural history, Rouge staff turned potential vandals into vigilant caretakers.",
       "sourceSentenceIds": [
         2
@@ -72,20 +76,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ontariovisited.ca/rouge-national-urban-park/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://ontariovisited.ca/rouge-national-urban-park/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rouge-ontario.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.188,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thanujan24",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Finch_Meandor_with_Rouge_River.jpg"
-  }
+  ]
 }

@@ -21,6 +21,21 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Yorkville sits in Gibson County in western Tennessee, about 36.1° N, 89.1° W.",
+      "sourceSentenceIds": [
+        3,
+        4,
+        30
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee"
+    },
+    {
       "id": 2,
       "text": "The town’s first hotel opened in 1840, and by 1870 a flour mill and cotton gin were operating.",
       "sourceSentenceIds": [
@@ -29,9 +44,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee"
     },
     {
       "id": 3,
@@ -42,9 +55,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee"
     },
     {
       "id": 4,
@@ -55,10 +66,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-yorkville-tennessee.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-yorkville-tennessee.html"
     },
     {
       "id": 5,
@@ -69,10 +77,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-yorkville-tennessee.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-yorkville-tennessee.html"
     },
     {
       "id": 6,
@@ -83,20 +88,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_Tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yorkville-tennessee.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trenton-Gibson-County-Courthouse-tn.jpg"
-  }
+  ]
 }

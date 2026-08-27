@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fenelton%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Fenelton%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fenelton%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Fenelton%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm"
     },
     {
       "id": 4,
+      "text": "At 1,090 feet above sea level, Fenelton enjoys a modest elevation typical of the region.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "An 1895 atlas lists Fenelton among the communities that once dotted Butler County’s landscape.",
       "sourceSentenceIds": [
         30
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Both the FIPS‑55 database and the GNIS catalog recognize Fenelton, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/fenelton-xx-butler-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fenelton-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.4,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr from Albany, NY, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Evans_City,_Pennsylvania_(8481079395).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Butler County, Pennsylvania"
-  }
+  ]
 }

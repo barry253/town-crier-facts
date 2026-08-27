@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Merna%2C_Illinois",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://en.wikipedia.org/wiki/Merna%2C_Illinois"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Merna%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Merna%2C_Illinois"
     },
     {
       "id": 3,
@@ -56,13 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/merna-xx-mclean-profile.htm",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/merna-xx-mclean-profile.htm"
     },
     {
       "id": 4,
+      "text": "Merna sits 810 feet above sea level.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/merna-xx-mclean-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "There are five other U.S. communities named Merna, in Kentucky, Missouri, Nebraska, South Carolina and Wyoming.",
       "sourceSentenceIds": [
         1
@@ -70,24 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/merna-xx-mclean-profile.htm",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://roadsidethoughts.com/il/merna-xx-mclean-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Merna is located within McLean County, a county in the state of Illinois.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/merna-xx-mclean-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/merna-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.28,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael from Palatine, Illinois",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McLean_County_Courthouse_and_Square_(7436726814).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "McLean County, Illinois"
-  }
+  ]
 }

@@ -29,13 +29,33 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Village%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Village%2C_Colorado"
     },
     {
       "id": 2,
+      "text": "It sits just southwest of Telluride in the San Juan Mountains at an elevation of 9,600 feet.",
+      "sourceSentenceIds": [
+        3,
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mountain_Village%2C_Colorado"
+    },
+    {
+      "id": 3,
+      "text": "The town’s elevation is 9,545 feet, according to the official website.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://townofmountainvillage.com/"
+    },
+    {
+      "id": 4,
       "text": "Mountain Village operates a free gondola that links the town to Telluride, though it was closed for spring maintenance through May 20.",
       "sourceSentenceIds": [
         13,
@@ -44,12 +64,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmountainvillage.com/",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://townofmountainvillage.com/"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The Mountain Village Housing Authority manages deed‑restricted housing for residents.",
       "sourceSentenceIds": [
         1
@@ -57,13 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmountainvillage.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://townofmountainvillage.com/"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Mountain Village Police Department focuses on community safety and emergency preparedness.",
       "sourceSentenceIds": [
         23,
@@ -72,21 +87,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmountainvillage.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://townofmountainvillage.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mountain-colorado.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.703,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "SkiVillage",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountainvillageco.jpg"
-  }
+  ]
 }

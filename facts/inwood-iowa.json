@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Inwood is a city in Lyon County, Iowa.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Iowa"
+    },
+    {
       "id": 2,
       "text": "Kyle Vanden Bosch, a defensive end for the Detroit Lions, hails from Inwood.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Iowa",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Iowa"
     },
     {
       "id": 3,
@@ -42,9 +51,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/"
+    },
+    {
+      "id": 4,
+      "text": "Inwood is conveniently located near Lake Pajoha Recreation Area.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/"
     },
     {
       "id": 5,
@@ -55,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/"
     },
     {
       "id": 6,
@@ -68,10 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.traveliowa.com/cities/inwood-iowa/578/"
     }
   ]
 }

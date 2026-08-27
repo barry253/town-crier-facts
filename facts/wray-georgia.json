@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wray%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Wray%2C_Georgia"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wray%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Wray%2C_Georgia"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm"
     },
     {
       "id": 4,
+      "text": "Wray stands roughly 300 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Historical records from 1895 list Wray as a community that had a post office or railroad service.",
       "sourceSentenceIds": [
         4
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Official geographic databases like FIPS‑55 and GNIS recognize Wray as a distinct place.",
       "sourceSentenceIds": [
         3
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/ga/wray-xx-irwin-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wray-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Rivera",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Irwin_County_Courthouse_(East_face).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Irwin County, Georgia"
-  }
+  ]
 }

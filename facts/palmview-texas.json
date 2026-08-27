@@ -22,6 +22,29 @@
   "facts": [
     {
       "id": 1,
+      "text": "Palmview is a city in Hidalgo County, Texas, and part of the McAllen–Edinburg–Mission metropolitan area.",
+      "sourceSentenceIds": [
+        16,
+        17
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Palmview%2C_Texas"
+    },
+    {
+      "id": 2,
+      "text": "Palmview lies in southwestern Hidalgo County, west of Mission.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Palmview%2C_Texas"
+    },
+    {
+      "id": 3,
       "text": "Interstate 2 runs through Palmview, linking east to McAllen and west to Rio Grande City.",
       "sourceSentenceIds": [
         19
@@ -29,12 +52,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmview%2C_Texas",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Palmview%2C_Texas"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "Palmview’s median age is 26 years, indicating a relatively young population.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Palmview%2C_Texas"
+    },
+    {
+      "id": 5,
       "text": "The Texas State Historical Association lists Palmview, highlighting its local heritage and historical significance.",
       "sourceSentenceIds": [
         4
@@ -42,12 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/palmview-tx",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/palmview-tx"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "Palmview sits centrally between Falcon Dam and South Padre Island, about an hour’s drive to each.",
       "sourceSentenceIds": [
         3
@@ -55,16 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofpalmview.gov/about/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://cityofpalmview.gov/about/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/palmview-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.647,
-    "y": 0.5
-  }
+  ]
 }

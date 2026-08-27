@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/pierce/north-puyallup.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://washington.hometownlocator.com/wa/pierce/north-puyallup.cfm"
     },
     {
       "id": 3,
+      "text": "The median age of residents is 51.7 years, indicating a mature population.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington"
+    },
+    {
+      "id": 4,
       "text": "About 27.7% of residents are 65 or older, while 13.3% are under 18.",
       "sourceSentenceIds": [
         3
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The CDP has 972 housing units, with 6.4% vacant.",
       "sourceSentenceIds": [
         6
@@ -71,21 +73,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/North_Puyallup%2C_Washington"
+    },
+    {
+      "id": 6,
+      "text": "North Puyallup lies at latitude 47.2068 and longitude –122.2823 in Pierce County.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://washington.hometownlocator.com/wa/pierce/north-puyallup.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-puyallup-washington.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.39,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Joe Mabel",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tacoma,_WA_-_Old_City_Hall_04.jpg"
-  }
+  ]
 }

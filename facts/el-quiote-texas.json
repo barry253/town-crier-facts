@@ -17,8 +17,34 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "El Quiote sits at 26°23′4″N 98°54′30″W, right in the heart of southern Texas.",
+      "sourceSentenceIds": [
+        1,
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/El_Quiote%2C_Texas"
+    },
+    {
+      "id": 2,
+      "text": "The community first appeared as a census‑designated place in the 2010 U.S. Census.",
+      "sourceSentenceIds": [
+        20,
+        21
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/El_Quiote%2C_Texas"
+    },
+    {
       "id": 3,
-      "text": "El Quiote was born alongside Barrera, Flor del R\u00edo, and Palo Blanco, all former parts of Los Alvarez.",
+      "text": "El Quiote was born alongside Barrera, Flor del Río, and Palo Blanco, all former parts of Los Alvarez.",
       "sourceSentenceIds": [
         11,
         12
@@ -26,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/El_Quiote,_Texas",
-      "category": "history",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/El_Quiote,_Texas"
     },
     {
       "id": 4,
@@ -39,13 +63,11 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/El_Quiote,_Texas",
-      "category": "people",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/El_Quiote,_Texas"
     },
     {
       "id": 5,
-      "text": "The local elementary school, Delia Gonzalez (DG) Garcia Elementary, serves the community\u2019s young learners.",
+      "text": "The local elementary school, Delia Gonzalez (DG) Garcia Elementary, serves the community’s young learners.",
       "sourceSentenceIds": [
         2,
         16
@@ -54,13 +76,18 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Quiote%2C_Texas",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/El_Quiote%2C_Texas"
+    },
+    {
+      "id": 6,
+      "text": "El Quiote’s coordinates translate to 26.38444° N latitude and –98.90833° W longitude, perfect for GPS navigation.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/El_Quiote,_Texas"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Starr County, Texas"
-  }
+  ]
 }

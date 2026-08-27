@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Broughton is a village in Hamilton County, Illinois, United States.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "It is part of the Mount Vernon Micropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois"
+    },
+    {
       "id": 3,
       "text": "Illinois Route 142 passes through Broughton, linking it north to McLeansboro and south to Eldorado.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois"
     },
     {
       "id": 4,
@@ -43,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois"
     },
     {
       "id": 5,
@@ -56,20 +73,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Broughton%2C_Illinois"
+    },
+    {
+      "id": 6,
+      "text": "Broughton lies northeast of Harrisburg and southwest of McLeansboro in southeastern Illinois.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-broughton-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/broughton-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.64,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "TheCatalyst31",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse_IL_2019.jpg"
-  }
+  ]
 }

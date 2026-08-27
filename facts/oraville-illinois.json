@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oraville%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Oraville%2C_Illinois"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oraville%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Oraville%2C_Illinois"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm"
     },
     {
       "id": 4,
+      "text": "The town lies 390 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Oraville appears in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historical records note that the 1895 Oraville community had a post office and railroad service.",
       "sourceSentenceIds": [
         3
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/oraville-xx-jackson-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oraville-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.4,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackson_County_Courthouse_in_Murphysboro_from_west.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Jackson County, Illinois"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prather%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Prather%2C_California"
     },
     {
       "id": 2,
@@ -42,12 +40,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prather%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Prather%2C_California"
     },
     {
       "id": 3,
+      "text": "Prather sits 25 miles northeast of Fresno at an elevation of 1,657 feet.",
+      "sourceSentenceIds": [
+        3,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Prather%2C_California"
+    },
+    {
+      "id": 4,
       "text": "It is the last community on California State Route 168 before the road climbs into the Sierra Nevada.",
       "sourceSentenceIds": [
         6
@@ -55,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prather%2C_California",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Prather%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Prather is an unincorporated community in Fresno County, California.",
       "sourceSentenceIds": [
         2
@@ -68,25 +75,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prather%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Prather%2C_California"
+    },
+    {
+      "id": 6,
+      "text": "Prather’s elevation of 505 meters (1,657 feet) places it just below the Sierra foothills, offering a mild climate.",
+      "sourceSentenceIds": [
+        3,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Prather%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prather-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.19,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "USFS Region 5",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntington_Lake_(3717098437).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Huntington Lake"
-  }
+  ]
 }

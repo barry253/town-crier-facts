@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mill-creek-east-19910",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.wisdomlib.org/cities/mill-creek-east-19910"
     },
     {
       "id": 2,
@@ -43,10 +41,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mill-creek-east-19910",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.wisdomlib.org/cities/mill-creek-east-19910"
     },
     {
       "id": 3,
@@ -57,9 +52,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mill-creek-east-19910",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.wisdomlib.org/cities/mill-creek-east-19910"
     },
     {
       "id": 4,
@@ -70,10 +63,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mill_Creek_East%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Mill_Creek_East%2C_Washington"
+    },
+    {
+      "id": 5,
+      "text": "Mill Creek East lies at 47°50'10\"N, 122°11'16\"W.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mill_Creek_East%2C_Washington"
     },
     {
       "id": 6,
@@ -84,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://millcreek.civicweb.net/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://millcreek.civicweb.net/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mill-creek-east-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.76,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "ECTran71",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Granite Falls, Washington"
-  }
+  ]
 }

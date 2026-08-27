@@ -29,9 +29,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rodman_(CDP)%2C_New_York",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Rodman_(CDP)%2C_New_York"
+    },
+    {
+      "id": 2,
+      "text": "New York State Route 177 borders Rodman’s southern edge, leading three miles west to Adams Center and connecting to U.S. Route 11.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rodman_(CDP)%2C_New_York"
     },
     {
       "id": 3,
@@ -42,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rodman_(CDP)%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Rodman_(CDP)%2C_New_York"
     },
     {
       "id": 4,
@@ -56,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-rodman-new-york.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-rodman-new-york.html"
     },
     {
       "id": 5,
@@ -70,10 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-rodman-new-york.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-rodman-new-york.html"
     },
     {
       "id": 6,
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofrodmanny.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.townofrodmanny.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rodman-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.54,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Steven Hamsness",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St_Lawrence_in_Alexandria_Bay,_New_York._East_side.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Alexandria Bay, New York"
-  }
+  ]
 }

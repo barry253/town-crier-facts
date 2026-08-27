@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Pastoria first appeared on the U.S. Census as a census-designated place in 2010.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pastoria%2C_Virginia"
+    },
+    {
+      "id": 2,
+      "text": "The community sits just 33 feet above sea level, a typical elevation for the Eastern Shore.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pastoria%2C_Virginia"
+    },
+    {
       "id": 3,
       "text": "A post office began serving Pastoria in 1883, marking its early establishment as a local hub.",
       "sourceSentenceIds": [
@@ -29,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm"
     },
     {
       "id": 4,
@@ -42,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm"
     },
     {
       "id": 5,
@@ -56,10 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm"
     },
     {
       "id": 6,
@@ -70,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/pastoria-xx-accomack-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pastoria-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
-  }
+  ]
 }

@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Boyds sits 1,330 feet above sea level, giving it a mild high‑land climate.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office opened in 1902, marking the start of formal communication for the community.",
       "sourceSentenceIds": [
         9
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Boyds is located in Ferry County, the northernmost county in Washington state.",
       "sourceSentenceIds": [
         8
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "U.S. Route 395 runs through Boyds, with Barstow just 4 miles north and Kettle Falls 10 miles south.",
       "sourceSentenceIds": [
         6
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Boyds%2C_Washington",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Boyds%2C_Washington"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Boyds appears in both the FIPS‑55 and GNIS geographic databases, confirming its official recognition.",
       "sourceSentenceIds": [
         2
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The town is highlighted in Washington’s commemorative quarter program, celebrating local heritage.",
       "sourceSentenceIds": [
         7
@@ -85,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/wa/boyds-xx-ferry-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/boyds-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "AndrewEnns at English Wikipedia)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kettle_River_from_Railway_Trestle.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Kettle River (Columbia River)"
-  }
+  ]
 }

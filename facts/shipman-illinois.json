@@ -21,6 +21,31 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Shipman is a village in Macoupin County, Illinois.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Shipman%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "It sits in southwestern Macoupin County, northeast of St. Louis and south of Springfield.",
+      "sourceSentenceIds": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-shipman.html"
+    },
+    {
       "id": 3,
       "text": "Illinois Route 16 runs through the village’s south side as Railroad Street, linking to Gillespie east and Jerseyville west.",
       "sourceSentenceIds": [
@@ -29,10 +54,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shipman%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Shipman%2C_Illinois"
     },
     {
       "id": 4,
@@ -43,10 +65,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-shipman.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-shipman.html"
     },
     {
       "id": 5,
@@ -57,10 +76,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-shipman.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-shipman.html"
     },
     {
       "id": 6,
@@ -71,21 +87,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-shipman.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-shipman.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shipman-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.4,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "BetacommandBot",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greaterstl.png"
-  }
+  ]
 }

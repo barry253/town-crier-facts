@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Stevinson sits 21 miles west of Merced, perched at an elevation of just 85 feet above sea level.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office began serving residents in 1907, marking the start of its formal community identity.",
       "sourceSentenceIds": [
         4,
@@ -31,12 +42,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "A distinctive Portuguese bullring in Stevinson hosts regular bullfighting events, a rare cultural tradition in California’s Central Valley.",
       "sourceSentenceIds": [
         5,
@@ -48,12 +57,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "During World War II, the U.S. Army built Howard Auxiliary Field in Stevinson to train pilots between 1942 and 1944.",
       "sourceSentenceIds": [
         7
@@ -61,12 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "State Routes 140 and 165 intersect in Stevinson, linking the town north to Turlock and south to Los Banos.",
       "sourceSentenceIds": [
         8,
@@ -75,13 +80,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The region enjoys warm, dry summers with average highs never exceeding 71.6 °F (22.0 °C).",
       "sourceSentenceIds": [
         10
@@ -89,25 +91,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Stevinson%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stevinson-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.83,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "JPxG",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banks_of_San_Luis_Reservoir_in_July_2021_redux_(cropped).JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Merced County, California"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.risingsuninn.org/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.risingsuninn.org/"
     },
     {
       "id": 2,
@@ -42,12 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland"
     },
     {
       "id": 3,
+      "text": "Crownsville sits at 39°1′27″N 76°35′54″W, just 7 miles northwest of Annapolis.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland"
+    },
+    {
+      "id": 4,
       "text": "A state psychiatric hospital once operated in Crownsville, marking a notable chapter in its medical history.",
       "sourceSentenceIds": [
         11
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The Rising Sun Inn lies on the famed Washington Rochambeau Revolutionary Route, a National Historic Trail.",
       "sourceSentenceIds": [
         5
@@ -68,12 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.risingsuninn.org/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.risingsuninn.org/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Waterfront communities like Arden on the Severn and Herald Harbor carry Crownsville mailing addresses despite being separate locales.",
       "sourceSentenceIds": [
         13
@@ -81,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Crownsville%2C_Maryland"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crownsville-maryland.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Cornellrockey",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_Trail,_Bacon_Ridge_Crownsville_Maryland_USA.jpg"
-  }
+  ]
 }

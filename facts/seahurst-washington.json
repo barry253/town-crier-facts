@@ -29,24 +29,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seahurst%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Seahurst%2C_Washington"
     },
     {
       "id": 2,
-      "text": "It sits on Puget Sound west of Downtown Burien and Ambaum Boulevard SW.",
+      "text": "It sits on Puget Sound west of Downtown Burien and Ambaum Blvd SW.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seahurst%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Seahurst%2C_Washington"
     },
     {
       "id": 3,
@@ -57,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seahurst%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Seahurst%2C_Washington"
     },
     {
       "id": 4,
@@ -71,12 +62,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/seahurst-xx-king-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/wa/seahurst-xx-king-profile.htm"
     },
     {
       "id": 5,
+      "text": "Seahurst rises 330 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/wa/seahurst-xx-king-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "The community was noted in both the FIPS‑55 and GNIS records, confirming its official recognition.",
       "sourceSentenceIds": [
         1
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/seahurst-xx-king-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/wa/seahurst-xx-king-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seahurst-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Walter Siegmund (talk)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abies_lasiocarpa_0775.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Ames Lake, Washington"
-  }
+  ]
 }

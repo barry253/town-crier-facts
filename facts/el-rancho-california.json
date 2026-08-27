@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "El Rancho sits 390 feet above sea level, giving it a mild foothill feel.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California"
+    },
+    {
+      "id": 2,
+      "text": "The town’s median age is 38.8 years, reflecting a balanced mix of young and middle‑aged residents.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California"
+    },
+    {
+      "id": 3,
       "text": "Households in El Rancho average 3.69 people, slightly larger than the national average.",
       "sourceSentenceIds": [
         4
@@ -29,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "About half the residents identify as 'other races' and 16% report two or more races.",
       "sourceSentenceIds": [
         2
@@ -43,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Nearly nine in ten residents are Hispanic or Latino, making it a predominantly Latino community.",
       "sourceSentenceIds": [
         3
@@ -57,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Of the 26 occupied homes, 69% are owner‑occupied while the rest are rentals.",
       "sourceSentenceIds": [
         8
@@ -71,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/El_Rancho%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/el-rancho-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.85,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Don Graham from Redlands, CA, USA - God bless it!",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_Whitney,_CA_6-20-16_(27765952931)_(cropped).jpg"
-  }
+  ]
 }

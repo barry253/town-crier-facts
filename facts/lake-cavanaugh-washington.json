@@ -31,10 +31,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Cavanaugh%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lake_Cavanaugh%2C_Washington"
     },
     {
       "id": 2,
@@ -45,9 +42,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Cavanaugh%2C_Washington",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lake_Cavanaugh%2C_Washington"
     },
     {
       "id": 3,
@@ -58,12 +53,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lakecavanaugh.info/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.lakecavanaugh.info/"
     },
     {
       "id": 4,
+      "text": "Lake Cavanaugh’s elevation is 1,010 feet above sea level, giving it a mild, high‑land climate.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/wa/lake-cavanaugh-xx-skagit-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "A commemorative quarter featuring Lake Cavanaugh was issued to honor the area’s heritage.",
       "sourceSentenceIds": [
         21
@@ -71,21 +75,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/lake-cavanaugh-xx-skagit-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/wa/lake-cavanaugh-xx-skagit-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-cavanaugh-washington.jpg",
-  "imageSource": "wikipedia_county_courthouse",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Fährtenleser",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abies_lasiocarpa_0775.JPG"
-  }
+  ]
 }

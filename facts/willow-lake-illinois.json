@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Willow Lake, Illinois sits at latitude 42.333 and longitude –89.6363, placing it firmly in northern Illinois.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://illinois.hometownlocator.com/il/stephenson/willow-lake.cfm"
+    },
+    {
+      "id": 2,
+      "text": "Willow Lake, Illinois is a census‑designated place, meaning it has no municipal government and relies on county services.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://illinois.hometownlocator.com/il/stephenson/willow-lake.cfm"
+    },
+    {
+      "id": 3,
       "text": "Home prices in Willow Lake are roughly 1.6 times lower than the Illinois median, making it an affordable spot for families.",
       "sourceSentenceIds": [
         3
@@ -29,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://illinoisstateauthority.com/counties/stephenson-county/willow-lake-illinois/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://illinoisstateauthority.com/counties/stephenson-county/willow-lake-illinois/"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "With a median household income of $100,568, Willow Lake ranks in the upper income bracket for the state.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://illinoisstateauthority.com/counties/stephenson-county/willow-lake-illinois/"
+    },
+    {
+      "id": 5,
       "text": "Located in Stephenson County, Willow Lake falls under the Central Time Zone, observing GMT‑6 during standard time.",
       "sourceSentenceIds": [
         8
@@ -42,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illinois.hometownlocator.com/il/stephenson/willow-lake.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://illinois.hometownlocator.com/il/stephenson/willow-lake.cfm"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "Willow Lake is described as a high‑income, family‑oriented village, reflecting its community focus and residential character.",
       "sourceSentenceIds": [
         3
@@ -56,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://illinoisstateauthority.com/counties/stephenson-county/willow-lake-illinois/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://illinoisstateauthority.com/counties/stephenson-county/willow-lake-illinois/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/willow-lake-illinois.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bahador~enwiki",
-    "license": "CC-BY-3.0",
-    "sourceUrl": "https://en.wikipedia.org/wiki/File:Gregoire_Lake_0356.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Willow Lake (Alberta)"
-  }
+  ]
 }

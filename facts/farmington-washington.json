@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://farmingtonwa.com/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://farmingtonwa.com/"
     },
     {
       "id": 2,
+      "text": "The town sits at the confluence of the north and south forks of Pine Creek, covering 0.91 square kilometers at 2,626 feet above sea level.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://farmingtonwa.com/"
+    },
+    {
+      "id": 3,
       "text": "Farmington was laid out in 1878 and officially incorporated a decade later in 1888.",
       "sourceSentenceIds": [
         9,
@@ -43,12 +52,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Farmington%2C_Washington",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Farmington%2C_Washington"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The town lies amid patchwork fields of grains and legumes in northeastern Whitman County, showcasing its agricultural heritage.",
       "sourceSentenceIds": [
         30
@@ -56,12 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://farmingtonwa.com/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://farmingtonwa.com/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Town hall hours change each month; residents can send a letter of interest or call for inquiries about local services.",
       "sourceSentenceIds": [
         25,
@@ -71,13 +76,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://farmingtonwa.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://farmingtonwa.com/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Farmington is part of Whitman County, Washington, and falls under the county’s administrative jurisdiction for construction permits and code enforcement.",
       "sourceSentenceIds": [
         4,
@@ -86,21 +88,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-farmington-washington.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-farmington-washington.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/farmington-washington.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.213,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Dsdugan",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmington_wa.jpg"
-  }
+  ]
 }

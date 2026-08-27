@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cherokeecounty.iowa.gov/community/meriden.php",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.cherokeecounty.iowa.gov/community/meriden.php"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/iacountymeriden.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/iacountymeriden.htm"
     },
     {
       "id": 3,
@@ -56,10 +51,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/iacountymeriden.htm",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/iacountymeriden.htm"
+    },
+    {
+      "id": 4,
+      "text": "Meriden lies within Cherokee County, Iowa, a rural area noted for its rich agricultural traditions.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Meriden%2C_Iowa"
     },
     {
       "id": 5,
@@ -70,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cherokeecounty.iowa.gov/community/meriden.php",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.cherokeecounty.iowa.gov/community/meriden.php"
     }
   ]
 }

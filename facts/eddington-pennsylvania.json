@@ -31,9 +31,7 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_eddington",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_eddington"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_eddington",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_eddington"
     },
     {
       "id": 3,
@@ -57,12 +53,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm"
     },
     {
       "id": 4,
+      "text": "The town sits just 60 feet above sea level, a modest rise that has shaped its gentle landscape.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Eddington is located in Bucks County, the county that borders the Delaware River and the state of New Jersey.",
       "sourceSentenceIds": [
         12
@@ -70,13 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Residents observe Eastern Time, switching to daylight saving time each spring and fall.",
       "sourceSentenceIds": [
         8
@@ -84,21 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/eddington-xx-bucks-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eddington-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.521,
-    "y": 0.498
-  },
-  "imageAttribution": {
-    "author": "CyberXRef",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bucks_county_-_Eddington.png"
-  }
+  ]
 }

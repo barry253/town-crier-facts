@@ -21,6 +21,19 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Oakleaf Plantation spans 6,400 acres and straddles Clay and Duval counties, sitting along the First Coast Expressway.",
+      "sourceSentenceIds": [
+        3,
+        5,
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida"
+    },
+    {
       "id": 2,
       "text": "The community was founded in 2002 by the Hutson Companies, turning a former naval airfield into a planned residential area.",
       "sourceSentenceIds": [
@@ -30,9 +43,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida"
     },
     {
       "id": 3,
@@ -43,9 +54,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida"
     },
     {
       "id": 4,
@@ -56,9 +65,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida"
     },
     {
       "id": 5,
@@ -69,20 +76,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oakleaf_Plantation%2C_Florida"
+    },
+    {
+      "id": 6,
+      "text": "Plantation’s coordinates place it at 27.0681°N, 82.3729°W in Sarasota County, within the Eastern time zone.",
+      "sourceSentenceIds": [
+        19,
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/sarasota/plantation.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plantation-florida.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Organizedchaos02 (talk) (Uploads)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baker_County_(Macclenny).jpg"
-  }
+  ]
 }

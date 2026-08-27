@@ -21,18 +21,26 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Chapeno sits at 26°33′3″N 99°8′2″W, placing it just north of the Rio Grande.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chapeno%2C_Texas"
+    },
+    {
       "id": 2,
-      "text": "The town\u2019s quiet streets welcome visitors with friendly smiles at every stop.",
+      "text": "The town’s quiet streets welcome visitors with friendly smiles at every stop.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302"
     },
     {
       "id": 3,
@@ -43,36 +51,29 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302"
     },
     {
       "id": 4,
-      "text": "Chapeno\u2019s community feels like a close\u2011knit family, where neighbors often become lifelong friends.",
+      "text": "Chapeno’s community feels like a close‑knit family, where neighbors often become lifelong friends.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302"
     },
     {
       "id": 5,
-      "text": "The Rio Grande River borders Chapeno, offering scenic views and water\u2011based recreation.",
+      "text": "The Rio Grande River borders Chapeno, offering scenic views and water‑based recreation.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302"
     },
     {
       "id": 6,
@@ -83,14 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.hellonation.com/mag/TX/Chapeno/48302"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Starr County, Texas"
-  }
+  ]
 }

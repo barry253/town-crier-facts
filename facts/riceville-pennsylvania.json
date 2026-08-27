@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Riceville sits in northeastern Crawford County, Pennsylvania, at 41°46′36″N 79°48′3″W in southeastern Bloomfield Township.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
       "text": "The community lies on the southern bank of Oil Creek, a tributary that feeds the Allegheny River.",
       "sourceSentenceIds": [
         4
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Riceville contains 32 housing units, averaging a density of 75.2 per square mile.",
       "sourceSentenceIds": [
         6
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Households in Riceville average 2.83 people, with families averaging 3.04 members.",
       "sourceSentenceIds": [
         8
@@ -56,13 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "The median household income in Riceville is $42,500, while the median family income reaches $45,938.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Riceville%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
       "text": "Riceville is mentioned in the 1899 county history, which includes biographical sketches of local figures.",
       "sourceSentenceIds": [
         2
@@ -70,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://crawfordcopa.com/places/riceville",
-      "category": "history",
-      "quality": "good"
+      "source": "https://crawfordcopa.com/places/riceville"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riceville-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.4,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nicholas",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crawford_County_Pennsylvania_Courthouse.jpg"
-  }
+  ]
 }

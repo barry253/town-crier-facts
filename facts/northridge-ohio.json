@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Northridge lies 69 miles north of Columbus, Ohio’s state capital.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.usacitiesonline.com/ohcountynorthridge.htm"
+    },
+    {
       "id": 2,
       "text": "The community spans roughly 5.9 square miles of land and has no surface water.",
       "sourceSentenceIds": [
@@ -30,10 +41,30 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/ohcountynorthridge.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.usacitiesonline.com/ohcountynorthridge.htm"
+    },
+    {
+      "id": 3,
+      "text": "Its coordinates are 39.81° N, 84.19° W, placing it about 411 miles from Washington, D.C.",
+      "sourceSentenceIds": [
+        12,
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.usacitiesonline.com/ohcountynorthridge.htm"
+    },
+    {
+      "id": 4,
+      "text": "Northridge is part of the Dayton metropolitan area, giving residents easy access to city amenities.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_northridge"
     },
     {
       "id": 5,
@@ -44,10 +75,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_northridge",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_northridge"
     },
     {
       "id": 6,
@@ -58,21 +86,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_northridge",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_northridge"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/northridge-ohio.jpg",
-  "imageSource": "wikipedia_county_courthouse",
-  "imageFocus": {
-    "x": 0.18,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Tysto",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Springfield-ohio-courthouse.jpg"
-  }
+  ]
 }

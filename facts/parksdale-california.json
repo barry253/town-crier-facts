@@ -21,6 +21,19 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Parksdale sits in California’s Central Valley at 36°56′50″N 120°01′23″W, right beside the Kings River.",
+      "sourceSentenceIds": [
+        4,
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Parksdale%2C_California"
+    },
+    {
       "id": 2,
       "text": "The town is part of the Madera Metropolitan Statistical Area, linking it to the larger city of Madera.",
       "sourceSentenceIds": [
@@ -31,10 +44,7 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parksdale%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Parksdale%2C_California"
     },
     {
       "id": 3,
@@ -45,9 +55,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale"
     },
     {
       "id": 4,
@@ -58,10 +66,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale"
     },
     {
       "id": 5,
@@ -74,10 +79,7 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale"
     },
     {
       "id": 6,
@@ -88,21 +90,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/california_parksdale"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parksdale-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Guywelch2000",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bass_Lake_California_Duceys_on_the_Lake.jpg"
-  }
+  ]
 }

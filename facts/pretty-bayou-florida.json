@@ -29,9 +29,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/florida_pretty-bayou",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/florida_pretty-bayou"
+    },
+    {
+      "id": 2,
+      "text": "The community sits at 30.1966°N latitude and 85.6966°W longitude in Bay County.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/bay/pretty-bayou.cfm"
     },
     {
       "id": 3,
@@ -42,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pretty_Bayou%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Pretty_Bayou%2C_Florida"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pretty_Bayou%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pretty_Bayou%2C_Florida"
     },
     {
       "id": 5,
@@ -69,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/bay/pretty-bayou.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://florida.hometownlocator.com/fl/bay/pretty-bayou.cfm"
     },
     {
       "id": 6,
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/florida_pretty-bayou",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/florida_pretty-bayou"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pretty-bayou-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.73,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "j.s. clark/ \"Image by jsclark.net.\"",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panama_City_Beach,_Florida_(J.S._Clark).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Panama City Beach, Florida"
-  }
+  ]
 }

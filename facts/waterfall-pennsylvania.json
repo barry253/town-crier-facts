@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Waterfall%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Waterfall%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Waterfall%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Waterfall%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm"
     },
     {
       "id": 4,
+      "text": "The community rises 850 feet above sea level, giving it a modest hilltop view.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Local newspapers have chronicled Waterfall’s history, with a dedicated page listing every paper published in the area.",
       "sourceSentenceIds": [
         27
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Genealogists can explore a curated list of cemeteries around Waterfall, complete with overhead maps.",
       "sourceSentenceIds": [
         22
@@ -84,20 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/waterfall-xx-fulton-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fulton County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/waterfall-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.3,
-    "y": 0.5
-  }
+  ]
 }

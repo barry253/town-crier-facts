@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/north-carolina_northchase",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.trawellino.com/destinations/united-states/north-carolina_northchase"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina"
     },
     {
       "id": 3,
+      "text": "The community’s median age is 38.1 years, reflecting a balanced mix of young families and mature residents.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina"
+    },
+    {
+      "id": 4,
       "text": "Every resident in Northchase lives in an urban setting—0% rural—highlighting its compact, city‑like character.",
       "sourceSentenceIds": [
         7
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Northchase contains 1,696 housing units, with just under 5% vacant, indicating a stable local housing market.",
       "sourceSentenceIds": [
         8
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Northchase%2C_North_Carolina"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Sunrise in Northchase occurs at 7:52 a.m., while sunset falls at 8:13 p.m., giving residents a 12‑hour‑21‑minute day.",
       "sourceSentenceIds": [
         1
@@ -85,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/north-carolina_northchase",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/north-carolina_northchase"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/northchase-north-carolina.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Billy Hathorn",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carolina_Beach_in_New_Hanover_County,_NC_IMG_4435.JPG"
-  }
+  ]
 }

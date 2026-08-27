@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goodview%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Goodview%2C_Virginia"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goodview%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Goodview%2C_Virginia"
     },
     {
       "id": 3,
+      "text": "Goodview sits at an elevation of 990 feet above sea level, typical for the Piedmont region.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The earliest documented reference to Goodview appears in an 1895 atlas, hinting at its long-standing presence.",
       "sourceSentenceIds": [
         10
@@ -57,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Goodview is proudly featured on Virginia's commemorative quarter, celebrating the state's heritage and local communities.",
       "sourceSentenceIds": [
         8
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "This community shares its name with two other Goodviews, one in Indiana and another in Minnesota, reflecting a common naming trend.",
       "sourceSentenceIds": [
         1
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/goodview-xx-bedford-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/goodview-virginia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coleman_Falls_Methodist_church.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Coleman Falls, Virginia"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri"
     },
     {
       "id": 3,
@@ -56,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri"
     },
     {
       "id": 4,
@@ -69,13 +62,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri"
     },
     {
       "id": 5,
+      "text": "Lodi sits 420 feet above sea level, overlooking Bennett Creek.",
+      "sourceSentenceIds": [
+        27,
+        6
+      ],
+      "sourceLabels": [
+        "Web source 2",
+        "Wikipedia"
+      ],
+      "source": "https://roadsidethoughts.com/mo/lodi-xx-wayne-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "The Coldwater Conservation Area lies to the northeast, offering scenic trails near Lodi.",
       "sourceSentenceIds": [
         8
@@ -83,24 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lodi%2C_Missouri"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lodi-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.43,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Paul Hermans",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_Bend_TC_27-09-2012_15-34-14.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bennett Creek (Missouri)"
-  }
+  ]
 }

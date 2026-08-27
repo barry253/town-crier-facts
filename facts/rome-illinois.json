@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Rome sits at 40°52′37″N 89°30′42″W, placing it in central Illinois.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois"
+    },
+    {
+      "id": 2,
       "text": "Rome is part of the Peoria Metropolitan Statistical Area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         4
@@ -29,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "The town’s median age is 40 years, reflecting a balanced age mix.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois"
+    },
+    {
+      "id": 4,
       "text": "About 22.3 percent of Rome residents are under 18, while 21.1 percent are 65 or older.",
       "sourceSentenceIds": [
         7
@@ -43,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Rome contains 724 housing units, with 7.5 percent currently vacant.",
       "sourceSentenceIds": [
         10
@@ -57,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Housing density averages 391.7 units per square mile, or 151.2 per square kilometer.",
       "sourceSentenceIds": [
         12
@@ -71,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Rome%2C_Illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rome-illinois.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "NatFee",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LakeCamelotclubhouse_20230930_0016.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Camelot, Illinois"
-  }
+  ]
 }

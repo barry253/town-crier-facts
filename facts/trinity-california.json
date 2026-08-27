@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Trinity Village sits at 1,289 feet above sea level, perched high in the California mountains.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Trinity_Village%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The 1850s gold rush on the Trinity River drew about 3,000 Chinese laborers, reshaping the valley forever.",
       "sourceSentenceIds": [
         2
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visittrinity.com/history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://visittrinity.com/history/"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Since 1856, the Trinity Journal has printed a weekly newspaper chronicling the county’s history.",
       "sourceSentenceIds": [
         8
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visittrinity.com/history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://visittrinity.com/history/"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A natural bridge near Hayfork stands as one of Trinity’s celebrated geological wonders.",
       "sourceSentenceIds": [
         9
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visittrinity.com/history/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://visittrinity.com/history/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Trinity Village’s name reflects the nearby Trinity River, a landmark central to the area’s identity.",
       "sourceSentenceIds": [
         25
@@ -68,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Trinity_Village,_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Trinity_Village,_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Trinity Village is nestled in a beautiful part of California, surrounded by rugged mountains and clear skies.",
       "sourceSentenceIds": [
         29
@@ -81,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Trinity_Village,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://kids.kiddle.co/Trinity_Village,_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/trinity-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.67,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Frank Schulenburg",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weaverville,_April_2020-2148_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Trinity County, California"
-  }
+  ]
 }

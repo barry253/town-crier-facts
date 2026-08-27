@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Lake Norman of Iredell is a census‑designated place bordered to the northeast by Mooresville and to the south, across an arm of the lake, by Cornelius in Mecklenburg County.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Norman_of_Iredell%2C_North_Carolina"
+    },
+    {
       "id": 2,
       "text": "Across the main channel of the lake, the CDP lies beside Westport in Lincoln County to the southwest and Lake Norman of Catawba in Catawba County to the northwest.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Norman_of_Iredell%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lake_Norman_of_Iredell%2C_North_Carolina"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitlakenorman.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.visitlakenorman.org/"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lakenorman.com/the-history-of-lake-norman-from-creation-to-a-thriving-community/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://lakenorman.com/the-history-of-lake-norman-from-creation-to-a-thriving-community/"
     },
     {
       "id": 5,
@@ -70,9 +74,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lakenorman.com/the-history-of-lake-norman-from-creation-to-a-thriving-community/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://lakenorman.com/the-history-of-lake-norman-from-creation-to-a-thriving-community/"
     },
     {
       "id": 6,
@@ -83,24 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lakenorman.com/the-history-of-lake-norman-from-creation-to-a-thriving-community/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://lakenorman.com/the-history-of-lake-norman-from-creation-to-a-thriving-community/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-norman-of-iredell-north-carolina.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Prince Grobhelm",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LakeNorman.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Norman"
-  }
+  ]
 }

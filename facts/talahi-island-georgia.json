@@ -29,10 +29,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia"
+    },
+    {
+      "id": 2,
+      "text": "The census-designated place lies in eastern Chatham County on an island that stretches across tidal marshes between Savannah and the Atlantic Ocean.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia"
     },
     {
       "id": 3,
@@ -43,10 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia"
+    },
+    {
+      "id": 4,
+      "text": "The island’s geographic coordinates are 32.0331° N latitude and 80.9761° W longitude.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://georgia.hometownlocator.com/ga/chatham/talahi-island.cfm"
     },
     {
       "id": 5,
@@ -57,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://georgia.hometownlocator.com/ga/chatham/talahi-island.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://georgia.hometownlocator.com/ga/chatham/talahi-island.cfm"
     },
     {
       "id": 6,
@@ -71,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Talahi_Island%2C_Georgia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/talahi-island-georgia.jpg",
-  "imageSource": "wikipedia_town",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Mikefairbanks",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tybee_Island_Pier_in_Savannah,_Georgia.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Chatham County, Georgia"
-  }
+  ]
 }

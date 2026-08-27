@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California"
     },
     {
       "id": 2,
@@ -44,12 +42,23 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California"
     },
     {
       "id": 3,
+      "text": "The community sits 3,757 feet above sea level, offering a high‑altitude desert climate.",
+      "sourceSentenceIds": [
+        12,
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California"
+    },
+    {
+      "id": 4,
       "text": "The hottest temperature recorded here was 105 °F on September 8–9, 2022, while the coldest was 4 °F on December 21, 1990.",
       "sourceSentenceIds": [
         15
@@ -57,12 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Strawberry Valley lies eight miles northeast of the historic mining town of Challenge.",
       "sourceSentenceIds": [
         12
@@ -70,13 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Strawberry_Valley%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Early records of Strawberry Valley appear in both the FIPS‑55 and GNIS databases, confirming its official recognition.",
       "sourceSentenceIds": [
         2
@@ -84,25 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/strawberry-valley-xx-yuba-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/strawberry-valley-xx-yuba-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/strawberry-valley-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CommanderCold",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plumas_Lake_%26_River_Oaks_Blvds.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Plumas Lake, California"
-  }
+  ]
 }

@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
     },
     {
       "id": 2,
@@ -46,10 +44,7 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://99wfmk.com/wellston-michigan/",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "dropped_surname_no_wiki_source"
+      "source": "https://99wfmk.com/wellston-michigan/"
     },
     {
       "id": 3,
@@ -60,10 +55,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
     },
     {
       "id": 4,
@@ -76,25 +68,18 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
+    },
+    {
+      "id": 5,
+      "text": "Within the Wellston census‑designated place lie two small lakes, Crystal Lake and Cranberry Lake.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wellston%2C_Michigan"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wellston-michigan.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.29,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "RomanKahler",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_Pines_in_the_Manistee_National_Forest.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Manistee National Forest"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vesuvius%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Vesuvius%2C_Virginia"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vesuvius%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Vesuvius%2C_Virginia"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm"
     },
     {
       "id": 4,
+      "text": "Vesuvius rises to 1,420 feet above sea level, offering a high‑altitude view of the surrounding hills.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Historical maps from 1895 list Vesuvius among the communities in the Rockbridge area.",
       "sourceSentenceIds": [
         21
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Atlas of Historical County Boundaries shows how Rockbridge County’s shape, including Vesuvius, has changed over time.",
       "sourceSentenceIds": [
         5
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/vesuvius-xx-rockbridge-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vesuvius-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "LexingtonPark",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_Hill_on_Timber_Ridge,_cropped.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Rockbridge County, Virginia"
-  }
+  ]
 }

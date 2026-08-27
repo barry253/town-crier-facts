@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Chestnut_Mountain,_Georgia",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Chestnut_Mountain,_Georgia"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chestnut_Mountain%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Chestnut_Mountain%2C_Georgia"
     },
     {
       "id": 3,
@@ -56,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chestnut_Mountain%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Chestnut_Mountain%2C_Georgia"
     },
     {
       "id": 4,
+      "text": "Chestnut Mountain rises to 1,130 feet above sea level, offering a modest elevation.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/chestnut-mountain-xx-hall-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The earliest known reference to Chestnut Mountain appears in an 1895 atlas.",
       "sourceSentenceIds": [
         11
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/chestnut-mountain-xx-hall-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ga/chestnut-mountain-xx-hall-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Chestnut Mountain is catalogued in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         3
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/chestnut-mountain-xx-hall-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ga/chestnut-mountain-xx-hall-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chestnut-mountain-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.69,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thomson200",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Gainesville,_GA_Oct_2017_1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Hall County, Georgia"
-  }
+  ]
 }

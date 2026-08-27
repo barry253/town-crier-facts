@@ -30,10 +30,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chestnut_Ridge%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Chestnut_Ridge%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -49,9 +46,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27640",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/27640"
     },
     {
       "id": 3,
@@ -62,9 +57,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27640",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/27640"
     },
     {
       "id": 4,
@@ -75,12 +68,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/chestnut-ridge-xx-fayette-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/chestnut-ridge-xx-fayette-profile.htm"
     },
     {
       "id": 5,
+      "text": "The community sits at 1,020 feet above sea level, giving it a modest elevation within the Appalachian region.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/chestnut-ridge-xx-fayette-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Two Pennsylvania places share the name Chestnut Ridge; the Fayette County one is distinct from the one in Lancaster County.",
       "sourceSentenceIds": [
         3
@@ -88,19 +90,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/chestnut-ridge-xx-fayette-profile.htm",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://roadsidethoughts.com/pa/chestnut-ridge-xx-fayette-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fayette County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chestnut-ridge-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  }
+  ]
 }

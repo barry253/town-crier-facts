@@ -33,9 +33,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friedenswald%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Friedenswald%2C_Missouri"
     },
     {
       "id": 2,
@@ -50,10 +48,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friedenswald%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Friedenswald%2C_Missouri"
     },
     {
       "id": 3,
@@ -69,10 +64,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friedenswald%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Friedenswald%2C_Missouri"
     },
     {
       "id": 4,
@@ -83,12 +75,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/friedenswald_missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/friedenswald_missouri"
     },
     {
       "id": 5,
+      "text": "At 741 feet above sea level, Friedenswald sits on typical Ozark rolling terrain.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://grokipedia.com/page/friedenswald_missouri"
+    },
+    {
+      "id": 6,
       "text": "Its irregular enclave borders Green Bay Terrace and Old Linn Creek within Camden County.",
       "sourceSentenceIds": [
         27
@@ -96,25 +97,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/friedenswald_missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://grokipedia.com/page/friedenswald_missouri"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/friedenswald-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.41,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "KTrimble (talk)",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UserKTrimble-AP_of_Bagnell_Dam_MO_2011-03-01.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Ozark, Missouri"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nealmont%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Nealmont%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -42,13 +40,43 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nealmont%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Nealmont%2C_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "The community’s coordinates are 40.6662 N, 78.2192 W in Blair County.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/blair/nealmont.cfm"
+    },
+    {
+      "id": 4,
+      "text": "Nealmont sits 880 feet above sea level.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/nealmont-xx-blair-profile.htm"
+    },
+    {
+      "id": 5,
+      "text": "As a census‑designated place, Nealmont has no governmental functions.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/blair/nealmont.cfm"
+    },
+    {
+      "id": 6,
       "text": "Nealmont is located in Blair County, Pennsylvania.",
       "sourceSentenceIds": [
         25
@@ -56,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/nealmont-xx-blair-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/nealmont-xx-blair-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bald Eagle Mountain"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nealmont-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
-  }
+  ]
 }

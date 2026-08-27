@@ -32,9 +32,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buffalo_Junction%2C_Virginia",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Junction%2C_Virginia"
     },
     {
       "id": 2,
@@ -45,10 +43,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buffalo_Junction%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Junction%2C_Virginia"
     },
     {
       "id": 3,
@@ -59,12 +54,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/buffalo-junction-xx-mecklenburg-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/buffalo-junction-xx-mecklenburg-profile.htm"
     },
     {
       "id": 4,
+      "text": "Buffalo Junction sits 420 feet above sea level, offering gentle hills typical of Mecklenburg County.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/buffalo-junction-xx-mecklenburg-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Buffalo Junction remains an unincorporated community within Mecklenburg County, Virginia.",
       "sourceSentenceIds": [
         9
@@ -72,25 +76,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buffalo_Junction%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Buffalo_Junction%2C_Virginia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buffalo-junction-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Cnjnva",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mecklenburg_County_Courthouse.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Mecklenburg County, Virginia"
-  }
+  ]
 }

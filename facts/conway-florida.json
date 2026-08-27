@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida"
     },
     {
       "id": 2,
@@ -46,13 +44,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida"
     },
     {
       "id": 3,
+      "text": "Conway sits at 28.49778°N latitude and 81.33306°W longitude, placing it just north of Orlando.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://en-academic.com/dic.nsf/enwiki/68282"
+    },
+    {
+      "id": 4,
       "text": "Conway hosts 5,414 housing units, averaging 605.9 units per square kilometer.",
       "sourceSentenceIds": [
         10,
@@ -62,21 +68,33 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida"
+    },
+    {
+      "id": 5,
+      "text": "The community is 90.20% White, with African American, Native American, Asian, and other groups making up the rest.",
+      "sourceSentenceIds": [
+        11,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida"
+    },
+    {
+      "id": 6,
+      "text": "Conway’s median age stands at 38 years, slightly higher than the national average.",
+      "sourceSentenceIds": [
+        13,
+        25
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Florida"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/conway-florida.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "LittleT889",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conway,_Florida.jpg"
-  }
+  ]
 }

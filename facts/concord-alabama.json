@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Concord sits in Lawrence County, one of five Alabama towns that share the name Concord.",
+      "sourceSentenceIds": [
+        1,
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/al/concord-xx-lawrence-profile.htm"
+    },
+    {
       "id": 2,
       "text": "A post office opened in Concord in 1855, marking the town’s early growth.",
       "sourceSentenceIds": [
@@ -29,9 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/al/concord-xx-lawrence-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/al/concord-xx-lawrence-profile.htm"
     },
     {
       "id": 3,
@@ -42,10 +52,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/al/concord-xx-lawrence-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/al/concord-xx-lawrence-profile.htm"
+    },
+    {
+      "id": 4,
+      "text": "Concord lies northwest of the Birmingham suburb of Hueytown, placing it in the region’s outskirts.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Concord%2C_Alabama"
     }
   ]
 }

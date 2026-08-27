@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horsepen%2C_Virginia",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Horsepen%2C_Virginia"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horsepen%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Horsepen%2C_Virginia"
     },
     {
       "id": 3,
@@ -58,12 +53,21 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/va/horsepen-xx-tazewell-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/horsepen-xx-tazewell-profile.htm"
     },
     {
       "id": 4,
+      "text": "The town rests at 1,970 feet above sea level, giving it a high‑land Appalachian feel.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/horsepen-xx-tazewell-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Horsepen is an unincorporated community in Tazewell County, meaning it has no municipal government.",
       "sourceSentenceIds": [
         10
@@ -71,13 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horsepen%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Horsepen%2C_Virginia"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historical maps from 1895 list Horsepen among the county’s early settlements, though its exact founding date remains unclear.",
       "sourceSentenceIds": [
         27
@@ -85,24 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/horsepen-xx-tazewell-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/horsepen-xx-tazewell-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Falls Mills, Virginia"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/horsepen-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Erechtheus",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TazewellCoCH.JPG"
-  }
+  ]
 }

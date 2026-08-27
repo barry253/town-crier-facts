@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "East Berwick sits along the Susquehanna River at 41°3′46″N 76°13′28″W.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "East Berwick borders Berwick Borough, which lies in neighboring Columbia County.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -43,10 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
+      "text": "The primary coordinate point for East Berwick is latitude 41.062 and longitude –76.2224 in Luzerne County.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/luzerne/east-berwick.cfm"
     },
     {
       "id": 5,
@@ -57,10 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/PA/EastBerwick/45320",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://hellonation.com/mag/PA/EastBerwick/45320"
     },
     {
       "id": 6,
@@ -72,20 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/East_Berwick%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-berwick-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.283,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pete unseth",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salem_Elementary_School.png"
-  }
+  ]
 }

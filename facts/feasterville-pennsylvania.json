@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitbuckscounty.com/towns-main-streets/bensalem-feasterville-trevose/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.visitbuckscounty.com/towns-main-streets/bensalem-feasterville-trevose/"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitbuckscounty.com/towns-main-streets/bensalem-feasterville-trevose/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.visitbuckscounty.com/towns-main-streets/bensalem-feasterville-trevose/"
     },
     {
       "id": 3,
@@ -55,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania"
     },
     {
       "id": 4,
+      "text": "The median age of Feasterville residents is 38.7 years.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania"
+    },
+    {
+      "id": 5,
       "text": "About 23.1 percent of Feasterville’s population is under 18, while 13.8 percent are 65 or older.",
       "sourceSentenceIds": [
         13
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Every resident of Feasterville lives in an urban area—there are no rural residents in the community.",
       "sourceSentenceIds": [
         15
@@ -83,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Feasterville%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/feasterville-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Dough4872",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PA_532_NB_at_Bustleton_Pike_split.jpg"
-  }
+  ]
 }

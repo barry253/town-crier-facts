@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Milford%2C_Indiana",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/South_Milford%2C_Indiana"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Milford%2C_Indiana",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/South_Milford%2C_Indiana"
     },
     {
       "id": 3,
@@ -57,12 +53,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/south-milford-xx-lagrange-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/in/south-milford-xx-lagrange-profile.htm"
     },
     {
       "id": 4,
+      "text": "South Milford sits 970 feet above sea level, a typical elevation for the region.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/in/south-milford-xx-lagrange-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "South Milford is an unincorporated community within Milford Township in LaGrange County, Indiana.",
       "sourceSentenceIds": [
         6
@@ -70,25 +75,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Milford%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/South_Milford%2C_Indiana"
+    },
+    {
+      "id": 6,
+      "text": "The town’s coordinates are still marked as needing verification in some historical records.",
+      "sourceSentenceIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/in/south-milford-xx-lagrange-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-milford-indiana.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Grešla",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_Lake_and_Eve_Lake,_Indiana.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Adams Lake, Indiana"
-  }
+  ]
 }

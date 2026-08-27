@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York"
+      "url": "https://en.wikipedia.org/wiki/List_of_municipalities_in_New_York"
     },
     {
       "label": "Web source 1",
@@ -22,94 +22,69 @@
   "facts": [
     {
       "id": 1,
-      "text": "Prattsburgh, New York was formed from the town of Pulteney in 1813, marking its establishment in the early 19th century.",
+      "text": "Prattsburgh’s town hall, built in 1894, now houses the Prattsburgh Community Historical Society museum.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://museumsdatabase.com/museums/view/22102"
+    },
+    {
+      "id": 2,
+      "text": "The museum showcases the town’s early days, including its founding in 1813 and the Kanona & Prattsburgh Railway Company.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://prattsburgfreelibrary.org/prattsburg-online/attractions/prattsburgh-historical-society-museum/"
     },
     {
-      "id": 2,
-      "text": "The town is named after early settler Joel Pratt, who arrived around 1799 to purchase land in the area.",
+      "id": 3,
+      "text": "The Prattsburgh Community Historical Society, founded in 1977, preserves local history through research, preservation, and public outreach.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://museumsdatabase.com/museums/view/22102"
+    },
+    {
+      "id": 4,
+      "text": "Visitors can browse an extensive library of local history publications and genealogy resources at the museum’s research desk.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/22102"
     },
     {
-      "id": 3,
-      "text": "Prattsburgh was once home to the Franklin Institute, which was described as 'old' around 1812.",
+      "id": 5,
+      "text": "The town historian meets at the museum every Tuesday from 9:00 AM to noon, offering guided tours of Prattsburgh’s heritage.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 4,
-      "text": "The hamlet of Prattsburgh was incorporated as a village in 1848 but abandoned its village status in 1972.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Prattsburgh was served by the Kanona & Prattsburgh Railroad, which operated from 1889 to 1961, connecting to the Erie Railroad.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://prattsburgfreelibrary.org/prattsburg-online/attractions/prattsburgh-historical-society-museum/"
     },
     {
       "id": 6,
-      "text": "Notable figures from Prattsburgh include Narcissa Whitman, a missionary who became one of the first women to cross the continental divide.",
+      "text": "The museum’s collection includes photographs, maps, artifacts, and oral histories that chronicle Prattsburgh’s agricultural past.",
       "sourceSentenceIds": [
-        24,
-        25
+        8
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prattsburgh%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/22102"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prattsburgh-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.633,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Adam Moss",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prattsburgh_station.jpg"
-  }
+  ]
 }

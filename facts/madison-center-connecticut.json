@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.madisonhistory.org/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.madisonhistory.org/"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.madisonhistory.org/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.madisonhistory.org/"
     },
     {
       "id": 3,
@@ -56,10 +52,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison_Center%2C_Connecticut",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Madison_Center%2C_Connecticut"
+    },
+    {
+      "id": 4,
+      "text": "The census-designated place extends south to Long Island Sound, north to Interstate 95, east to Fence Creek, and west to Long Shore Land and Stony Lane.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Madison_Center%2C_Connecticut"
     },
     {
       "id": 5,
@@ -70,9 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.madisonhistory.org/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.madisonhistory.org/"
     },
     {
       "id": 6,
@@ -83,24 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.madisonhistory.org/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.madisonhistory.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/madison-center-connecticut.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.24,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Charles Edwin Bolles",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hauling_in_Nets,_Long_Island_Sound_MET_DP113902.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Long Island Sound"
-  }
+  ]
 }

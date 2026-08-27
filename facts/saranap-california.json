@@ -31,12 +31,23 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California"
     },
     {
       "id": 2,
+      "text": "Saranap sits about 180 feet above sea level, bordered by Walnut Creek to the south and Lafayette to the north.",
+      "sourceSentenceIds": [
+        6,
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California"
+    },
+    {
+      "id": 3,
       "text": "Residents have resisted annexation by neighboring cities, preferring the freedom granted by county rules.",
       "sourceSentenceIds": [
         7,
@@ -50,13 +61,10 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The original Saranap Station sits at the corner of Tice Valley Boulevard and Olympic Way, a landmark still visible today.",
       "sourceSentenceIds": [
         3
@@ -64,24 +72,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Saranap%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/saranap-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alfred Twu",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bay Point, California"
-  }
+  ]
 }

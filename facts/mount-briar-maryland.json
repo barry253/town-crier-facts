@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Mount Briar sits at 39.4426°N latitude and 77.6858°W longitude, placing it in Washington County, Maryland.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm"
+    },
+    {
       "id": 2,
       "text": "Mount Briar follows Eastern Standard Time, shifting to Eastern Daylight Time during summer months.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm"
+    },
+    {
+      "id": 3,
+      "text": "Mount Briar is a census‑designated place, meaning it has no municipal government and relies on county services.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm"
     },
     {
       "id": 4,
@@ -43,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm"
     },
     {
       "id": 5,
@@ -57,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm"
     },
     {
       "id": 6,
@@ -71,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-briar.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-briar-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Washington County, Maryland"
-  }
+  ]
 }

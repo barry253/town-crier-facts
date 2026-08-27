@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Rouse sits at 89 feet above sea level, giving it a gently rolling foothill setting.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rouse%2C_California"
+    },
+    {
+      "id": 2,
+      "text": "The town’s GPS coordinates are 37.6195° N, 121.0084° W, placing it in central Stanislaus County.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://california.hometownlocator.com/ca/stanislaus/rouse.cfm"
+    },
+    {
+      "id": 3,
       "text": "Rouse covers no water area, its 0 square miles of water making it entirely landlocked.",
       "sourceSentenceIds": [
         12
@@ -29,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://california.hometownlocator.com/ca/stanislaus/rouse.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://california.hometownlocator.com/ca/stanislaus/rouse.cfm"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "As a census‑designated place, Rouse has no municipal government and relies on county services.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://california.hometownlocator.com/ca/stanislaus/rouse.cfm"
+    },
+    {
+      "id": 5,
       "text": "The area’s Functional Status Code “S” marks it as a statistical entity for census purposes.",
       "sourceSentenceIds": [
         13
@@ -43,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://california.hometownlocator.com/ca/stanislaus/rouse.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://california.hometownlocator.com/ca/stanislaus/rouse.cfm"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "Every resident lives in an urban setting—100% urban, 0% rural—highlighting its compact community layout.",
       "sourceSentenceIds": [
         5
@@ -57,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rouse%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Rouse%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rouse-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.84,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "USFWS",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USFWS_Aerial_View_San_Joaquin_River_Refuge_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Stanislaus County, California"
-  }
+  ]
 }

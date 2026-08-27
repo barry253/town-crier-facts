@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Emerson is a city in Mills County, Iowa.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emerson%2C_Iowa"
+    },
+    {
       "id": 2,
       "text": "Emerson was a shipping point on the Chicago, Burlington and Quincy Railroad.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emerson%2C_Iowa",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Emerson%2C_Iowa"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://emersonia.org/things-to-do/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://emersonia.org/things-to-do/"
     },
     {
       "id": 4,
@@ -55,10 +62,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://emersonia.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://emersonia.org/"
+    },
+    {
+      "id": 5,
+      "text": "Emerson is located in the United States, nestled within the heart of the Midwest.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Emerson%2C_Iowa"
     },
     {
       "id": 6,

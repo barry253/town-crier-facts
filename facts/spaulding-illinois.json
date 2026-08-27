@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Spaulding is a village in Sangamon County, Illinois, United States.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Spaulding%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "It is part of the Springfield, Illinois Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Spaulding%2C_Illinois"
+    },
+    {
       "id": 3,
       "text": "Justin Allgaier, a NASCAR driver, hails from Spaulding, Illinois.",
       "sourceSentenceIds": [
@@ -29,9 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spaulding%2C_Illinois",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Spaulding%2C_Illinois"
+    },
+    {
+      "id": 4,
+      "text": "The Village of Spaulding sits a mile and a half east of Springfield, the state capital of Illinois.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.villageofspaulding.com/"
     },
     {
       "id": 5,
@@ -42,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspaulding.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.villageofspaulding.com/"
     },
     {
       "id": 6,
@@ -56,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspaulding.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.villageofspaulding.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spaulding-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Larry D. Moore",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sangamon_County_Courthouse_2017.jpg"
-  }
+  ]
 }

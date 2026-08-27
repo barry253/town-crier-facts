@@ -31,9 +31,7 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://cityofbutterfield.com/about",
-      "category": "history",
-      "quality": "good"
+      "source": "https://cityofbutterfield.com/about"
     },
     {
       "id": 2,
@@ -47,9 +45,7 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://cityofbutterfield.com/about",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://cityofbutterfield.com/about"
     },
     {
       "id": 3,
@@ -60,13 +56,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofbutterfield.com/about",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://cityofbutterfield.com/about"
     },
     {
       "id": 4,
+      "text": "Butterfield lies along Missouri Route U, half a mile east of Route 37, at an elevation of 1,532 feet.",
+      "sourceSentenceIds": [
+        9,
+        27
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Butterfield%2C_Missouri"
+    },
+    {
+      "id": 5,
       "text": "The community is part of Butterfield Township in Barry County, Missouri, United States.",
       "sourceSentenceIds": [
         7
@@ -74,16 +80,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Butterfield%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Butterfield%2C_Missouri"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/butterfield-missouri.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.558,
-    "y": 0.5
-  }
+  ]
 }

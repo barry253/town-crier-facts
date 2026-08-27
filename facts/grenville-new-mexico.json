@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Grenville is a village in Union County, New Mexico.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Grenville%2C_New_Mexico"
+    },
+    {
       "id": 2,
       "text": "Grenville has no passport office, so residents must travel to nearby towns for passport services.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-grenville-new-mexico.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.citydirectory.us/village-grenville-new-mexico.html"
+    },
+    {
+      "id": 3,
+      "text": "Grenville is located in Union County, in the state of New Mexico.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-grenville-new-mexico.html"
     }
   ]
 }

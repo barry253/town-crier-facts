@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Providence is a small town located within Marengo County in the state of Alabama.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama"
+    },
+    {
       "id": 2,
       "text": "Providence officially became an incorporated town sometime during the 1970s, marking its formal recognition.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama"
     },
     {
       "id": 4,
@@ -55,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Providence%2C_Alabama"
     },
     {
       "id": 5,
@@ -69,9 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/providence/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://encyclopediaofalabama.org/article/providence/"
+    },
+    {
+      "id": 6,
+      "text": "Providence lies within the Canebrake region of Alabama, historically known for its vast cane stands.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://encyclopediaofalabama.org/article/providence/"
     }
   ]
 }

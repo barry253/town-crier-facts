@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Mount Lena sits at 39.5593° N latitude and 77.628° W longitude in Washington County.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+    },
+    {
+      "id": 2,
       "text": "The community observes Eastern Standard Time, shifting to Eastern Daylight Time in summer.",
       "sourceSentenceIds": [
         10
@@ -29,13 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Mount Lena is officially a census‑designated place, not a legal municipality.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+    },
+    {
+      "id": 4,
       "text": "The area reports zero square miles of water within its boundaries.",
       "sourceSentenceIds": [
         9
@@ -43,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Its Functional Status Code is “S,” indicating it is a statistical entity.",
       "sourceSentenceIds": [
         11
@@ -57,21 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://maryland.hometownlocator.com/md/washington/mount-lena.cfm"
+    },
+    {
+      "id": 6,
+      "text": "Mount Lena’s census data show a median household income of $56,838 in 2024.",
+      "sourceSentenceIds": [
+        29
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.city-data.com/city/Mount-Lena-Maryland.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-lena-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
-  }
+  ]
 }

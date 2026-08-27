@@ -8,91 +8,84 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Harriman%2C_New_York"
+      "url": "https://en.wikipedia.org/wiki/Monroe_(village)%2C_New_York"
     },
     {
       "label": "Web source 1",
       "url": "https://www.villageofharriman.gov/"
+    },
+    {
+      "label": "Web source 2",
+      "url": "https://www.monroehistoryny.org/"
     }
   ],
   "facts": [
     {
       "id": 1,
-      "text": "Harriman takes its name from E.H. Harriman, former president of the Union Pacific Railroad, whose estate Arden sat adjacent to the village.",
+      "text": "Harriman takes its name from former Union Pacific Railroad president E.H. Harriman, honoring his railroad legacy.",
       "sourceSentenceIds": [
-        2
+        7
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harriman%2C_New_York",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.villageofharriman.gov/"
     },
     {
       "id": 2,
-      "text": "The village was formerly known as Turner, named after Peter Turner's early restaurant, before residents voted 58 to 13 in 1910 to rename it Harriman after E.H. Harriman's death.",
+      "text": "The village’s name honors a 19th‑century New York state senator, not President James Monroe.",
       "sourceSentenceIds": [
-        3,
-        14
+        4
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harriman%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Monroe_(village)%2C_New_York"
     },
     {
       "id": 3,
-      "text": "In 1851, Erie Railroad executive Charles Minot issued the first train order ever sent by telegraph, wiring from what was then Turner Station to allow his train to proceed ahead of schedule.",
+      "text": "The Monroe Historical Society, founded in 1974, preserves Harriman’s heritage through photographs, artifacts, and written history.",
       "sourceSentenceIds": [
-        5,
-        6
+        1,
+        2
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harriman%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.monroehistoryny.org/"
     },
     {
       "id": 4,
-      "text": "Harriman State Park, located just east of the village, is the second-largest state park in New York State.",
+      "text": "In 1990 the Monroe Historical Society received a New York State charter, formalizing its role as a non‑profit heritage organization.",
       "sourceSentenceIds": [
-        22
+        10
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harriman%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.monroehistoryny.org/"
     },
     {
       "id": 5,
-      "text": "A former Erie Railroad right-of-way through Harriman has been converted into the 19.5-mile Heritage Trail, a shared-use path stretching to Middletown.",
+      "text": "Harriman’s Main Street is NY 17M, the village’s historic commercial artery.",
       "sourceSentenceIds": [
-        20
+        18
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harriman%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Monroe_(village)%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "The village hosts a community newspaper, The Photo News, which chronicles local events and history.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Monroe_(village)%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/harriman-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alexbuilerman",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nairiman.jpg"
-  }
+  ]
 }

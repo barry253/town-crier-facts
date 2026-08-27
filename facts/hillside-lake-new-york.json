@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Hillside Lake sits in northern East Fishkill at 41°37′11″N 73°47′34″W, right on the edge of Dutchess County.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York"
+    },
+    {
+      "id": 2,
       "text": "The community’s name comes from the small lake it surrounds, a quiet body of water that gives the CDP its character.",
       "sourceSentenceIds": [
         5
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "A 3‑mile stretch of County Route 33 runs from CR 29 near Fishkill Plains to CR 21 in LaGrange, threading through the hamlet.",
       "sourceSentenceIds": [
         6
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "County Route 33 averages about 5,000 vehicles daily, making it a modest but steady artery for local traffic.",
       "sourceSentenceIds": [
         7
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Hillside Lake is part of the Kiryas Joel–Poughkeepsie–Newburgh metropolitan area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         3
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Hillside Lake Park District Advisory Board preserves local green space and maintains the community’s park facilities.",
       "sourceSentenceIds": [
         17
@@ -84,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Hillside_Lake%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hillside-lake-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.773,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nordelch",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hudson_river_from_bear_mountain_bridge.jpg"
-  }
+  ]
 }

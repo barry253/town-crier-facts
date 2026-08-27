@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Tuxedo Park is a residential neighbourhood in the northeast and northwest quadrants of Calgary, Alberta.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary"
+    },
+    {
       "id": 2,
       "text": "The community is bisected by Centre Street from north to south, giving it a distinctive north‑south layout.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://calgarycommunities.com/ca_neighbourhood/tuxedo-park/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://calgarycommunities.com/ca_neighbourhood/tuxedo-park/"
     },
     {
       "id": 5,
@@ -70,9 +74,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary"
     },
     {
       "id": 6,
@@ -83,20 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo_Park%2C_Calgary"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tuxedo-park-alberta.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.306,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Gabriil Yanofsky",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuxedo_Park_2517_Centre_St_NW_Calgary.png"
-  }
+  ]
 }

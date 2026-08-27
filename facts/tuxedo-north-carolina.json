@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.flatrocktogether.com/good-news/historic-handsome-tuxedo",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.flatrocktogether.com/good-news/historic-handsome-tuxedo"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.flatrocktogether.com/good-news/historic-handsome-tuxedo",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.flatrocktogether.com/good-news/historic-handsome-tuxedo"
     },
     {
       "id": 3,
@@ -57,9 +53,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina"
     },
     {
       "id": 4,
@@ -70,12 +64,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina"
     },
     {
       "id": 5,
+      "text": "Tuxedo sits at 2,054 feet above sea level, roughly nine miles north of the South Carolina border.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina"
+    },
+    {
+      "id": 6,
       "text": "The community is known for its historic Green River Nature Preserve, a popular spot for hiking and kayaking.",
       "sourceSentenceIds": [
         29,
@@ -85,24 +88,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tuxedo%2C_North_Carolina"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tuxedo-north-carolina.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alphonse.fisch",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Green_River,_North_Carolina.jpeg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Green River (North Carolina)"
-  }
+  ]
 }

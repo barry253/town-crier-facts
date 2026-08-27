@@ -35,10 +35,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tranquility%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Tranquility%2C_New_Jersey"
     },
     {
       "id": 2,
@@ -49,12 +46,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nj/tranquility-xx-sussex-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/nj/tranquility-xx-sussex-profile.htm"
     },
     {
       "id": 3,
+      "text": "At 550 feet above sea level, Tranquility enjoys a modest elevation typical of the Appalachian foothills.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/nj/tranquility-xx-sussex-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Though it lacks its own government, Tranquility relies on Green Township for municipal services and local governance.",
       "sourceSentenceIds": [
         7,
@@ -63,13 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Tranquility,_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://kids.kiddle.co/Tranquility,_New_Jersey"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Sussex County, where Tranquility lies, is celebrated for its scenic natural areas and outdoor recreation opportunities.",
       "sourceSentenceIds": [
         15
@@ -77,13 +80,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Tranquility,_New_Jersey",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Tranquility,_New_Jersey"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Tranquility shares its name with six other U.S. communities, including ones in California, Maryland, North Carolina, Ohio, and Ontario.",
       "sourceSentenceIds": [
         1
@@ -91,25 +91,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nj/tranquility-xx-sussex-profile.htm",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/nj/tranquility-xx-sussex-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tranquility-new-jersey.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.65,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Zeete",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:10_White_Deer_Plaza,_Lake_Mohawk,_NJ.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Mohawk, New Jersey"
-  }
+  ]
 }

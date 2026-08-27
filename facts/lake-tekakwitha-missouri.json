@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Tekakwitha%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Lake_Tekakwitha%2C_Missouri"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Tekakwitha%2C_Missouri",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lake_Tekakwitha%2C_Missouri"
     },
     {
       "id": 3,
@@ -57,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html"
     },
     {
       "id": 4,
+      "text": "The 2024 estimated median household income is $86,460, matching the state average.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html"
+    },
+    {
+      "id": 5,
       "text": "The 2024 cost‑of‑living index for Lake Tekakwitha is 87.3, below the national average.",
       "sourceSentenceIds": [
         5
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Only 3.5% of residents live in poverty, lower than many U.S. communities.",
       "sourceSentenceIds": [
         6
@@ -85,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Lake-Tekakwitha-Missouri.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-tekakwitha-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kbh3rd",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_County_MO_courthouse-20140524-015.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Jefferson County, Missouri"
-  }
+  ]
 }

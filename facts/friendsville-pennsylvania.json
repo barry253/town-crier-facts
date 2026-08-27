@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -42,13 +40,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "It sits at 41°55′5″N 76°2′49″W (41.917987, -76.046952).",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
+      "text": "The median age of residents is about 42 years.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.allplaces.us/z/18818"
+    },
+    {
+      "id": 5,
       "text": "For construction permits or code questions, contact Friendsville town hall or county officials.",
       "sourceSentenceIds": [
         2
@@ -56,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/borough-friendsville-pennsylvania.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/borough-friendsville-pennsylvania.html"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Friendsville is part of the United States, nestled in northeastern Pennsylvania and surrounded by rolling hills.",
       "sourceSentenceIds": [
         3
@@ -70,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Friendsville%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/friendsville-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.492,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr from Albany, NY, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Francis_Church,_Friendsville,_PA.jpg"
-  }
+  ]
 }

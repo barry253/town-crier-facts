@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ridgewood_illinois",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/ridgewood_illinois"
     },
     {
       "id": 2,
@@ -43,9 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ridgewood_illinois",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/ridgewood_illinois"
     },
     {
       "id": 3,
@@ -56,12 +52,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ridgewood_illinois",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/ridgewood_illinois"
     },
     {
       "id": 4,
+      "text": "Ridgewood sits about 666 feet above sea level, offering a modest rise over the surrounding prairie.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/ridgewood_illinois"
+    },
+    {
+      "id": 5,
       "text": "The town experiences a humid continental climate, with hot, humid summers and cold, snowy winters typical of northern Illinois.",
       "sourceSentenceIds": [
         25
@@ -69,13 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ridgewood_illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/ridgewood_illinois"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Ridgewood averages 37 inches of rain yearly, spread over about 121 days of measurable precipitation.",
       "sourceSentenceIds": [
         26
@@ -83,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ridgewood_illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/ridgewood_illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ridgewood-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.26,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Teemu008 from Palatine, Illinois",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flanders_House_(5978683004).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Will County, Illinois"
-  }
+  ]
 }

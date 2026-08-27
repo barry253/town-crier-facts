@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cecil-Bishop%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Cecil-Bishop%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,31 +40,49 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ceciltownship-pa.gov/202/About-Cecil-Township",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.ceciltownship-pa.gov/202/About-Cecil-Township"
     },
     {
       "id": 3,
+      "text": "Since the 1990s, the Southpointe business park has turned nearby farmland into planned neighborhoods, reshaping the area’s skyline.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cecil-Bishop%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
+      "text": "The town’s coordinates are 40°19′20″N 80°11′29″W, placing it just north of the Ohio River.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cecil-Bishop%2C_Pennsylvania"
+    },
+    {
+      "id": 5,
+      "text": "Cecil-Bishop’s primary coordinate point is listed as latitude 40.3185 and longitude -80.1919 in Washington County records.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/washington/cecil-bishop.cfm"
+    },
+    {
+      "id": 6,
       "text": "The community’s name honors early settlers Cecil and Bishop, whose families helped establish the township in the late 1700s.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local",
-      "category": "people",
-      "quality": "good"
+      "source": "local"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cecil-bishop-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jim.henderson",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
-  }
+  ]
 }

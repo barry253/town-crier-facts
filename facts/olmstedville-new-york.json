@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/olmstedville-xx-essex-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/olmstedville-xx-essex-profile.htm"
     },
     {
       "id": 4,
+      "text": "Olmstedville sits 1,180 feet above sea level, offering a high‑altitude Adirondack view.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/olmstedville-xx-essex-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "One of two Minerva Fire & Rescue stations is located in Olmstedville, underscoring its regional importance.",
       "sourceSentenceIds": [
         6
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Telephone service in Olmstedville uses the 518‑251 exchange found in nearby North Creek.",
       "sourceSentenceIds": [
         9
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Olmstedville%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/olmstedville-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.25,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Anne LaBastille",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MAIN_BUILDING_AT_THE_STATE_UNIVERSITY_OF_NEW_YORK_COLLEGE_OF_ENVIRONMENTAL_SCIENCE_AND_FORESTRY_IN_THE_ADIRONDACK..._-_NARA_-_554694.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Adirondack Park"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Rockwood is a village in Randolph County, Illinois.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Rockwood%2C_Illinois"
+    },
+    {
       "id": 2,
       "text": "The village serves as the headquarters of the Middle Mississippi River National Wildlife Refuge.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockwood%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Rockwood%2C_Illinois"
     },
     {
       "id": 3,
@@ -42,10 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockwood%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Rockwood%2C_Illinois"
+    },
+    {
+      "id": 4,
+      "text": "Rockwood sits on the eastern bank of the Mississippi River, about 10 miles south of Chester.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-rockwood-illinois.html"
     },
     {
       "id": 5,
@@ -56,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-rockwood-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-rockwood-illinois.html"
     },
     {
       "id": 6,
@@ -72,16 +86,5 @@
       ],
       "source": "https://www.citydirectory.us/village-rockwood-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rockwood-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.29,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Randolph_County_Courthouse,_Chester.jpg"
-  }
+  ]
 }

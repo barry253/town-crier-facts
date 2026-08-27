@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Cats Bridge sits just 10 feet above sea level, making it one of the lowest-lying communities in Virginia.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cats_Bridge%2C_Virginia"
+    },
+    {
+      "id": 2,
       "text": "The town’s name appears in historic 1895 atlases, where it was listed among the small coastal communities of Accomack County.",
       "sourceSentenceIds": [
         20
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Locals sometimes shorten Cats Bridge to “Cats Brg.” or even “Cats Brdg.” in historical records.",
       "sourceSentenceIds": [
         8
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A dedicated cemetery list for Cats Bridge shows the town’s long tradition of family plots and historic graves.",
       "sourceSentenceIds": [
         18
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Newspapers from the area have been catalogued, revealing a rich local press history that dates back to the early 20th century.",
       "sourceSentenceIds": [
         22
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Cats Bridge is officially part of Accomack County, a region known for its maritime heritage and low‑lying geography.",
       "sourceSentenceIds": [
         7
@@ -82,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/va/cats-bridge-xx-accomack-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cats-bridge-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
-  }
+  ]
 }

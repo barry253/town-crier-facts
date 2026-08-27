@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lazy_Acres%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lazy_Acres%2C_Colorado"
     },
     {
       "id": 2,
@@ -44,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lazy_Acres%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lazy_Acres%2C_Colorado"
     },
     {
       "id": 3,
@@ -58,13 +52,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lazy_Acres%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Lazy_Acres%2C_Colorado"
     },
     {
       "id": 4,
+      "text": "Median home value tops $1.02 million, and every house is owned.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://datausa.io/profile/geo/lazy-acres-co/"
+    },
+    {
+      "id": 5,
       "text": "Residents in Lazy Acres average two cars per household making it a car-friendly suburb.",
       "sourceSentenceIds": [
         12
@@ -72,13 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://datausa.io/profile/geo/lazy-acres-co/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://datausa.io/profile/geo/lazy-acres-co/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Health Care & Social Assistance, Professional, Scientific & Technical Services, and Other Services lead employment.",
       "sourceSentenceIds": [
         25
@@ -86,20 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://datausa.io/profile/geo/lazy-acres-co/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://datausa.io/profile/geo/lazy-acres-co/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lazy-acres-colorado.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CIA World Factbook",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
-  }
+  ]
 }

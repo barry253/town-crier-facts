@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Fifth Street sits between Stafford and Missouri City in northeastern Fort Bend County, just shy of the Harris County line.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.tshaonline.org/handbook/entries/fifth-street-tx"
+    },
+    {
       "id": 2,
       "text": "The subdivision’s name first appeared in the 1980s, marking its emergence as a planned community.",
       "sourceSentenceIds": [
@@ -29,9 +40,40 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fifth_Street%2C_Texas",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Fifth_Street%2C_Texas"
+    },
+    {
+      "id": 3,
+      "text": "Geographically, Fifth Street lies at 29°35′56″N 95°32′57″W, placing it just south of Houston’s urban core.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Fifth_Street%2C_Texas"
+    },
+    {
+      "id": 4,
+      "text": "Residents of Fifth Street use Stafford, Texas addresses, reflecting the community’s close ties to the nearby city.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Fifth_Street%2C_Texas"
+    },
+    {
+      "id": 5,
+      "text": "As a bedroom community, most Fifth Street residents commute to Houston for work, linking the suburb to the metropolis.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Fifth_Street%2C_Texas"
     },
     {
       "id": 6,
@@ -42,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_fifth-street",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_fifth-street"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fifth-street-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.51,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Djmaschek",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FBISD_Armstrong_Elementary.jpg"
-  }
+  ]
 }

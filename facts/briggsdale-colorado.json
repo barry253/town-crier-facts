@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Briggsdale was named for Frank Briggs, the town’s founder.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/co/briggsdale-xx-weld-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "Briggsdale was established in 1909 by local farmer Frank Briggs.",
       "sourceSentenceIds": [
         12,
@@ -31,12 +42,10 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Briggsdale%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Briggsdale%2C_Colorado"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The Briggsdale post office opened on August 1, 1910.",
       "sourceSentenceIds": [
         14
@@ -44,12 +53,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Briggsdale%2C_Colorado",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Briggsdale%2C_Colorado"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "Briggsdale sits at 4,866 feet above sea level.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Briggsdale%2C_Colorado"
+    },
+    {
+      "id": 5,
       "text": "From Briggsdale, hop on Highway 14 to the Pawnee National Grassland.",
       "sourceSentenceIds": [
         7
@@ -57,13 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/briggsdale/",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://www.uncovercolorado.com/towns/briggsdale/"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Historic Briggsdale Motor Co. stands as a local landmark photographed by Jessica Hughes.",
       "sourceSentenceIds": [
         7
@@ -71,20 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/briggsdale/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.uncovercolorado.com/towns/briggsdale/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/briggsdale-colorado.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Sethant (talk) (Uploads)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BriggsdaleCOChurch.JPG"
-  }
+  ]
 }

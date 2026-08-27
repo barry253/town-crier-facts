@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_whitfield",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_whitfield"
     },
     {
       "id": 2,
@@ -42,9 +40,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_whitfield",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_whitfield"
+    },
+    {
+      "id": 3,
+      "text": "The town sits at 40°20′4″N 76°0′27″W, just north of the 40th parallel.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Whitfield%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -55,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_whitfield",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_whitfield"
     },
     {
       "id": 5,
@@ -70,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountywhitfield.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/pacountywhitfield.htm"
     },
     {
       "id": 6,
@@ -84,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountywhitfield.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.usacitiesonline.com/pacountywhitfield.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whitfield-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.24,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nicholas",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmstead_in_winter,_Windsor_Township,_Berks_County,_Pennsylvania.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Berks County, Pennsylvania"
-  }
+  ]
 }

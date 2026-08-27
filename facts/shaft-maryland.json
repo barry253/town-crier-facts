@@ -29,12 +29,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Shaft,_Maryland",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Shaft,_Maryland"
     },
     {
       "id": 2,
+      "text": "The town sits 1,795 feet above sea level in the Georges Creek Valley, just south of Frostburg.",
+      "sourceSentenceIds": [
+        4,
+        5,
+        20,
+        21
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland"
+    },
+    {
+      "id": 3,
       "text": "A deep coal mine operated by the Borden family and Hitchens Coal Company defined Shaft’s early economy.",
       "sourceSentenceIds": [
         6,
@@ -45,12 +58,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The C&P railroad delivered a windlass and used its crane to install it in the mine.",
       "sourceSentenceIds": [
         1,
@@ -60,12 +71,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Unlike most local mines, which were shallow drift mines, Shaft’s mine went deep into the ground.",
       "sourceSentenceIds": [
         8,
@@ -75,13 +84,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Borden family of Massachusetts owned the mines that gave Shaft its early prosperity.",
       "sourceSentenceIds": [
         7
@@ -89,24 +95,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Shaft%2C_Maryland"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shaft-maryland.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.78,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-06-18_15_25_01_View_north_along_Maryland_State_Route_36_(Main_Street)_at_Douglas_Avenue_in_Lonaconing,_Allegany_County,_Maryland.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Georges Creek Valley"
-  }
+  ]
 }

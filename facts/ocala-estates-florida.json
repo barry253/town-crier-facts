@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Ocala Estates sits 11 miles west of Ocala, the county seat, and is part of the Ocala, Florida Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        7,
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ocala_Estates%2C_Florida"
+    },
+    {
       "id": 2,
       "text": "The community’s name honors the Ocali people, the Timucua Indians who once called the area Ocali.",
       "sourceSentenceIds": [
@@ -29,9 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ocalamarion.com/",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.ocalamarion.com/"
     },
     {
       "id": 3,
@@ -43,9 +53,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ocalafl.gov/our-city/live/historic-preservation",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.ocalafl.gov/our-city/live/historic-preservation"
     },
     {
       "id": 4,
@@ -57,24 +65,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ocalamarion.com/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.ocalamarion.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ocala-estates-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ebyabe",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_East_Lake_Weir_post_office01.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "East Lake Weir, Florida"
-  }
+  ]
 }

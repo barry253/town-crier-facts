@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millerton%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Millerton%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millerton%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Millerton%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/millerton-xx-tioga-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/millerton-xx-tioga-profile.htm"
     },
     {
       "id": 4,
@@ -70,10 +62,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/millerton-xx-tioga-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/millerton-xx-tioga-profile.htm"
+    },
+    {
+      "id": 5,
+      "text": "The town’s geographic coordinates are 41.9834° N, 76.9386° W, placing it firmly in Tioga County.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/tioga/millerton.cfm"
     },
     {
       "id": 6,
@@ -84,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/millerton-xx-tioga-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/millerton-xx-tioga-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millerton-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.29,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nicholas",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tioga_County_Courthouse_Official.jpg"
-  }
+  ]
 }

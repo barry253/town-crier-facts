@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida"
     },
     {
       "id": 4,
@@ -70,25 +62,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida"
+    },
+    {
+      "id": 5,
+      "text": "The neighborhood’s racial composition is roughly 69 percent White, 17 percent African American, and 8 percent from other races.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Seminole_Manor%2C_Florida"
+    },
+    {
+      "id": 6,
+      "text": "Geographically, Seminole Manor sits at 26.5837°N latitude and 80.1003°W longitude in Palm Beach County.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/palm-beach/seminole-manor.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seminole-manor-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "St. Petersburg Times",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "1921 Tampa Bay hurricane"
-  }
+  ]
 }

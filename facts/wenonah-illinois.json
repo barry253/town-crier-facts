@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Wenonah is a small village in Montgomery County, Illinois.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wenonah%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "It sits 17 miles northeast of Hillsboro and 14 miles southwest of Pana, placing it in central Illinois.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wenonah%2C_Illinois"
+    },
+    {
       "id": 3,
       "text": "The village borders the city of Nokomis to the south, sharing a close community feel.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wenonah%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Wenonah%2C_Illinois"
     },
     {
       "id": 4,
@@ -43,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cityofwenona.org/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://cityofwenona.org/"
     },
     {
       "id": 5,
@@ -56,10 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wenonah%2C_Illinois",
-      "category": "history",
-      "quality": "good",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Wenonah%2C_Illinois"
     },
     {
       "id": 6,
@@ -70,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-wenonah-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-wenonah-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wenonah-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "carlfbagge",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montgomery_County_Courthouse_(1868)_(3637358510).jpg"
-  }
+  ]
 }

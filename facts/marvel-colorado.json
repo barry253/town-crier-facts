@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado"
     },
     {
       "id": 3,
+      "text": "Marvel rests at an elevation of 6,730 feet above sea level.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/co/marvel-xx-la-plata-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Homesteaders settled Marvel in the late‑1800s and early‑1900s, turning it into a ranching, farming, and oil‑extracting community.",
       "sourceSentenceIds": [
         10
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Although Marvel lies within the Southern Ute Indian Reservation, the town’s land is privately owned and the reservation proper starts several miles to the south and east.",
       "sourceSentenceIds": [
         13
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The area around Marvel grows increasingly arid as one travels toward the New Mexico border, far from the La Plata mountains.",
       "sourceSentenceIds": [
         12
@@ -83,20 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Marvel%2C_Colorado"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marvel-colorado.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.286,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jeffrey Beall",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marvel,_Colorado_Post_Office.JPG"
-  }
+  ]
 }

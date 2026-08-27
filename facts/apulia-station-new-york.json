@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Apulia_Station%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Apulia_Station%2C_New_York"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm"
     },
     {
       "id": 3,
+      "text": "At about 1,240 feet above sea level, Apulia Station sits on gently rolling terrain.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The earliest published mention of Apulia Station appears in the 1895 Business Atlas and Shippers' Guide.",
       "sourceSentenceIds": [
         22
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Locals often shorten the name to Apulia Sta., a common abbreviation for the hamlet.",
       "sourceSentenceIds": [
         8
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "A 1895 atlas lists several neighboring communities that once surrounded Apulia Station, reflecting its historical role in the region.",
       "sourceSentenceIds": [
         13
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/apulia-station-xx-onondaga-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/apulia-station-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.51,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Will Merriam",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delphi_Falls,_New_York_(August_2025)_(1).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Delphi Falls, New York"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagleton_Village%2C_Tennessee",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Eagleton_Village%2C_Tennessee"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village"
     },
     {
       "id": 3,
@@ -56,12 +51,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village"
     },
     {
       "id": 4,
+      "text": "Nestled in the Smoky Mountains foothills, Eagleton sits at 950 feet elevation, offering sweeping views of Blount County’s Appalachian landscape.",
+      "sourceSentenceIds": [
+        3,
+        20,
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village"
+    },
+    {
+      "id": 5,
       "text": "Eagleton holds the unofficial record for most bluegrass musicians per capita in Blount County, reflecting its rich musical heritage.",
       "sourceSentenceIds": [
         2
@@ -69,12 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Local lore dates Eagleton’s founding to the late 1700s, though exact dates remain shrouded in mystery.",
       "sourceSentenceIds": [
         17
@@ -82,25 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.city-usa.top/state-tennessee-city-eagleton-village"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eagleton-tennessee.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blount-county-tennessee-courthouse1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Blount County, Tennessee"
-  }
+  ]
 }

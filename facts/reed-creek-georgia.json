@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Reed Creek sits at 34.441880 N, 82.914186 W in northeastern Hart County, Georgia.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia"
+    },
+    {
       "id": 2,
       "text": "Lake Hartwell borders Reed Creek to the north and east, separating it from South Carolina across the Savannah River.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/reed-creek-xx-hart-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/reed-creek-xx-hart-profile.htm"
     },
     {
       "id": 5,
@@ -68,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/reed-creek-xx-hart-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ga/reed-creek-xx-hart-profile.htm"
     },
     {
       "id": 6,
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Reed_Creek%2C_Georgia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/reed-creek-georgia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Harrison Keely",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Hartwell_reservoir_in_Georgia_and_South_Carolina_includes_parts_of_the_Savannah,_Tugaloo,_and_Seneca_rivers_01.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Hartwell"
-  }
+  ]
 }

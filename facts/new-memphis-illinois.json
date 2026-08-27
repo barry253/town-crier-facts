@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois"
     },
     {
       "id": 2,
+      "text": "The town sits at about 423 feet above sea level, typical flat Illinois terrain.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/New_Memphis,_Illinois"
+    },
+    {
+      "id": 3,
       "text": "A Lutheran church was built in 1862, serving as the first gathering place.",
       "sourceSentenceIds": [
         4
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The first store opened in 1865, giving locals a nearby spot for supplies.",
       "sourceSentenceIds": [
         5
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "A flour mill opened in 1867, attracting farmers and boosting local economy.",
       "sourceSentenceIds": [
         6
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "New Memphis lies near the junction of Illinois Route 160 and 177, 6 miles east of Mascoutah.",
       "sourceSentenceIds": [
         3
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/New_Memphis%2C_Illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-memphis-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.56,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clinton_County_Courthouse,_Carlyle.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Clinton County, Illinois"
-  }
+  ]
 }

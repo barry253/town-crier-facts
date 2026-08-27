@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Alto earned its name from its lofty elevation of 1,394 feet, a nod to its higher altitude than surrounding areas.",
+      "sourceSentenceIds": [
+        3,
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Alto%2C_Georgia"
+    },
+    {
+      "id": 2,
       "text": "The town incorporated on December 16, 1895, and now celebrates 130 years of history shaped by railroads and community pride.",
       "sourceSentenceIds": [
         4,
@@ -31,12 +44,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://habershamnews.com/2025/12/16/town-of-alto-marks-130-years-since-its-founding/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://habershamnews.com/2025/12/16/town-of-alto-marks-130-years-since-its-founding/"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "A post office has served Alto since 1879, long before the town’s official founding.",
       "sourceSentenceIds": [
         19,
@@ -45,21 +56,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alto%2C_Georgia",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Alto%2C_Georgia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alto-georgia.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.813,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thomson M",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alto_City_Hall_-_panoramio.jpg"
-  }
+  ]
 }

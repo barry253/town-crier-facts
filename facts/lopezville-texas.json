@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Lopezville was named for Francisco Solano López, a former president of Paraguay.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas"
+    },
+    {
+      "id": 2,
       "text": "Lopezville began as a trailer park in the early 1960s.",
       "sourceSentenceIds": [
         16
@@ -29,12 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Lopezville sits at 26.2458°N, 98.1564°W, right on the Texas–Mexico border.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas"
+    },
+    {
+      "id": 4,
       "text": "Lopezville is part of the McAllen–Edinburg–Mission Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         15
@@ -42,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The CDP’s area shrank between the 2010 and 2020 censuses.",
       "sourceSentenceIds": [
         17
@@ -56,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lopezville%2C_Texas"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Lopezville is a colonia located two miles south of Edinburg on Farm Road 1426.",
       "sourceSentenceIds": [
         4
@@ -70,16 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/lopezville-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.tshaonline.org/handbook/entries/lopezville-tx"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lopezville-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.647,
-    "y": 0.5
-  }
+  ]
 }

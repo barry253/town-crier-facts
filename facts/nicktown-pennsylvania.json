@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -42,10 +40,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania"
+    },
+    {
+      "id": 3,
+      "text": "Nicktown lies 1,950 feet above sea level, perched on the Pennsylvanian age Casselman Formation.",
+      "sourceSentenceIds": [
+        7,
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -56,9 +64,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/nicktown-xx-cambria-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/nicktown-xx-cambria-profile.htm"
     },
     {
       "id": 5,
@@ -69,10 +75,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Nicktown%2C_Pennsylvania"
     },
     {
       "id": 6,
@@ -83,24 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/nicktown-xx-cambria-profile.htm",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://roadsidethoughts.com/pa/nicktown-xx-cambria-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nicktown-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Publichall",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambria_County_Courthouse_-_Ebensburg,_PA.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Cambria County, Pennsylvania"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_Plymouth%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Little_Plymouth%2C_Virginia"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm"
     },
     {
       "id": 3,
+      "text": "The community sits 110 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Little Plymouth is catalogued in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         1
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "An 1895 atlas lists Little Plymouth among the communities of King and Queen County.",
       "sourceSentenceIds": [
         21
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Local records include a detailed list of cemeteries and newspapers that have served Little Plymouth over the years.",
       "sourceSentenceIds": [
         18,
@@ -85,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/little-plymouth-xx-king-and-queen-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/little-plymouth-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.19,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "JERRYE & ROY KLOTZ MD",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KING_AND_QUEEN_COURTHOUSE_GREEN_HISTORIC_DISTRICT.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "King and Queen County, Virginia"
-  }
+  ]
 }

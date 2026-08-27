@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pinebrook%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Pinebrook%2C_Texas"
     },
     {
       "id": 2,
@@ -43,10 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pinebrook%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Pinebrook%2C_Texas"
+    },
+    {
+      "id": 3,
+      "text": "The community’s exact coordinates are 30.3093° N latitude and 95.875° W longitude.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://texas.hometownlocator.com/tx/grimes/pinebrook.cfm"
     },
     {
       "id": 4,
@@ -57,10 +62,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/grimes/pinebrook.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://texas.hometownlocator.com/tx/grimes/pinebrook.cfm"
+    },
+    {
+      "id": 5,
+      "text": "As a census-designated place, Pinebrook has no municipal government and relies on county services.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://texas.hometownlocator.com/tx/grimes/pinebrook.cfm"
     },
     {
       "id": 6,
@@ -71,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/grimes/pinebrook.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://texas.hometownlocator.com/tx/grimes/pinebrook.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pinebrook-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.65,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Patrick Feller from Humble, Texas, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grimes_County_Courthouse,_Anderson,_Texas_1803091126_(40711037292).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Grimes County, Texas"
-  }
+  ]
 }

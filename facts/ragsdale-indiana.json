@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/ragsdale-xx-knox-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/in/ragsdale-xx-knox-profile.htm"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ragsdale%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Ragsdale%2C_Indiana"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/ragsdale-xx-knox-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/in/ragsdale-xx-knox-profile.htm"
     },
     {
       "id": 4,
+      "text": "Ragsdale rests 570 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/in/ragsdale-xx-knox-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Students in Ragsdale attend schools in the North Knox School Corporation.",
       "sourceSentenceIds": [
         7
@@ -70,16 +73,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ragsdale%2C_Indiana",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Ragsdale%2C_Indiana"
+    },
+    {
+      "id": 6,
+      "text": "The community’s coordinates are 38°44′45″N 87°19′30″W, placing it firmly in eastern Knox County.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ragsdale%2C_Indiana"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ragsdale-indiana.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  }
+  ]
 }

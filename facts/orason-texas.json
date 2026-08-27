@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Orason sits within the Brownsville–Harlingen Metropolitan Statistical Area, linking it to one of Texas’s busiest border regions.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas"
+    },
+    {
       "id": 2,
       "text": "The community lies just 2 miles east of Los Fresnos and about 15 miles north of downtown Brownsville.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas",
-      "category": "other",
-      "quality": "good",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas",
-      "category": "other",
-      "quality": "good",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas"
     },
     {
       "id": 4,
@@ -57,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/chula-vista-orason-tx",
-      "category": "other",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.tshaonline.org/handbook/entries/chula-vista-orason-tx"
     },
     {
       "id": 5,
@@ -71,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/chula-vista-orason-tx",
-      "category": "other",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/chula-vista-orason-tx"
     },
     {
       "id": 6,
@@ -84,24 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas",
-      "category": "other",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Orason%2C_Texas"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Indian Lake, Texas"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/orason-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.51,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alexander Hatley from Spring, Texas, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA_-_Texas_-_Boca_Chica_-_Starbase_(51285307187).jpg"
-  }
+  ]
 }

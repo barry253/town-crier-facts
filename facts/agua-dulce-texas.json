@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Agua Dulce is a city in Nueces County, Texas.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Agua_Dulce%2C_Nueces_County%2C_Texas"
+    },
+    {
       "id": 2,
       "text": "The town was established in the 1900s.",
       "sourceSentenceIds": [
@@ -29,10 +40,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Agua_Dulce%2C_Nueces_County%2C_Texas",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Agua_Dulce%2C_Nueces_County%2C_Texas"
+    },
+    {
+      "id": 3,
+      "text": "Its latitude is 27°46′59″N.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Agua_Dulce%2C_Nueces_County%2C_Texas"
+    },
+    {
+      "id": 4,
+      "text": "Its longitude is 97°54′36″W.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Agua_Dulce%2C_Nueces_County%2C_Texas"
     },
     {
       "id": 5,
@@ -43,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/agua-dulce-tx",
-      "category": "people",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/agua-dulce-tx"
     },
     {
       "id": 6,
@@ -56,20 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/agua-dulce-tx",
-      "category": "people",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/agua-dulce-tx"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/agua-dulce-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Larry D. Moore",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nueces_county_courthouse.jpg"
-  }
+  ]
 }

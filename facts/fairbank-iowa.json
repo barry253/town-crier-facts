@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Fairbank is a city in Buchanan and Fayette counties in the U.S.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Fairbank%2C_Iowa"
+    },
+    {
       "id": 2,
       "text": "The next fire station, purchased in 1960, was located in a 40 x 60 foot building across the street.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://fairbank-ia.org/live-in-fairbank.php",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://fairbank-ia.org/live-in-fairbank.php"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairbank%2C_Iowa",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Fairbank%2C_Iowa"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fairbank-ia.org/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.fairbank-ia.org/"
     },
     {
       "id": 5,
@@ -68,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fairbank-ia.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.fairbank-ia.org/"
     },
     {
       "id": 6,
@@ -82,10 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fairbank-ia.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.fairbank-ia.org/"
     }
   ]
 }

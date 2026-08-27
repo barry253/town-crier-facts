@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California"
     },
     {
       "id": 3,
@@ -55,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/somes-bar-xx-siskiyou-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ca/somes-bar-xx-siskiyou-profile.htm"
     },
     {
       "id": 4,
+      "text": "Somes Bar lies 680 feet above sea level, giving it a mild high‑land climate.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ca/somes-bar-xx-siskiyou-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Originally part of Klamath County, the town became Siskiyou County when Klamath dissolved.",
       "sourceSentenceIds": [
         12
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Somes Bar is an unincorporated community in Siskiyou County, California.",
       "sourceSentenceIds": [
         10
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Somes_Bar%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/somes-bar-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Wade",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Klamath_at_Terwer.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Klamath River, California"
-  }
+  ]
 }

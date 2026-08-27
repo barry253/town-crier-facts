@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emeigh%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Emeigh%2C_Pennsylvania"
     },
     {
       "id": 2,
+      "text": "The community sits 1,490 feet above sea level, giving it a modest hilltop view of the surrounding valleys.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "Emeigh lies 2.5 miles north of Northern Cambria along Route 219, a short drive from the county seat.",
       "sourceSentenceIds": [
         7
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emeigh%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Emeigh%2C_Pennsylvania"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A post office opened in Emeigh in 1905, marking the town’s first federal presence.",
       "sourceSentenceIds": [
         11
@@ -57,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Emeigh appears in both the FIPS‑55 and the GNIS, confirming its official recognition by federal geographic authorities.",
       "sourceSentenceIds": [
         2
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "An 1895 atlas lists Emeigh among the small communities that dotted Cambria County in the late nineteenth century.",
       "sourceSentenceIds": [
         20
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/emeigh-xx-cambria-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/emeigh-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Publichall",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambria_County_Courthouse_-_Ebensburg,_PA.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Cambria County, Pennsylvania"
-  }
+  ]
 }

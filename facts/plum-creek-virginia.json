@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek"
     },
     {
       "id": 2,
@@ -42,13 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek"
     },
     {
       "id": 3,
+      "text": "Visitors find Plum Creek a quiet countryside retreat that emphasizes natural beauty and tranquility.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek"
+    },
+    {
+      "id": 4,
       "text": "Trawellino markets Plum Creek as a serene escape into nature, perfect for a peaceful getaway.",
       "sourceSentenceIds": [
         11
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Plum Creek offers cultural highlights alongside off‑the‑beaten‑path ideas for every traveler.",
       "sourceSentenceIds": [
         12
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The travel guide helps you navigate the town’s highlights, feel its vibe, and make the most of your visit.",
       "sourceSentenceIds": [
         13
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_plum-creek"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plum-creek-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.42,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Skye Marthaler",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montgomery_County_Courthouse_-_new.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Montgomery County, Virginia"
-  }
+  ]
 }

@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pendleton%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Pendleton%2C_North_Carolina"
     },
     {
       "id": 2,
+      "text": "Pendleton sits 70 feet above sea level.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nc/pendleton-xx-northampton-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "The Pendleton post office opened in 1888.",
       "sourceSentenceIds": [
         9
@@ -43,24 +51,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/pendleton-xx-northampton-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/nc/pendleton-xx-northampton-profile.htm"
+    },
+    {
+      "id": 4,
+      "text": "Pendleton is located within Northampton County.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nc/pendleton-xx-northampton-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pendleton-north-carolina.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.29,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Indy beetle",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northampton_County_Courthouse,_North_Carolina.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Northampton County, North Carolina"
-  }
+  ]
 }

@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Metompkin sits just 30 feet above sea level.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Metompkin%2C_Virginia"
+    },
+    {
+      "id": 2,
       "text": "A post office has served the community since 1846.",
       "sourceSentenceIds": [
         14
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The town’s name appears in both the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Metompkin once had a railroad stop that linked it to the Eastern Shore’s trade network.",
       "sourceSentenceIds": [
         2
@@ -57,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eshore.iath.virginia.edu/node/6654",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://eshore.iath.virginia.edu/node/6654"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Metompkin is located in Accomack County, Virginia, on the Eastern Shore.",
       "sourceSentenceIds": [
         13
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "1895 maps show Metompkin as an active settlement in Accomack County.",
       "sourceSentenceIds": [
         27
@@ -84,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/metompkin-xx-accomack-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/metompkin-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
-  }
+  ]
 }

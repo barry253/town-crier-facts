@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biggs%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Biggs%2C_California"
     },
     {
       "id": 2,
@@ -43,12 +41,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biggs%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Biggs%2C_California"
     },
     {
       "id": 3,
+      "text": "The town sits at 93 feet elevation in the heart of rice country, surrounded by rice fields and walnut orchards.",
+      "sourceSentenceIds": [
+        16,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.biggs-ca.gov/"
+    },
+    {
+      "id": 4,
       "text": "Marion Biggs first shipped grain by rail from the site, giving the town its early economic boost.",
       "sourceSentenceIds": [
         5
@@ -56,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biggs%2C_California",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Biggs%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Biggs is located just off State Route 99, about 25 miles south of Chico and 25 miles north of Yuba City.",
       "sourceSentenceIds": [
         16
@@ -69,13 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.biggs-ca.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://www.biggs-ca.gov/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The city’s low property taxes and low crime rate make it an attractive place for families, according to local officials.",
       "sourceSentenceIds": [
         18
@@ -83,21 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.biggs-ca.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.biggs-ca.gov/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/biggs-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.216,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Frank Schulenburg",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biggs_Elementary_School-L1003950.jpg"
-  }
+  ]
 }

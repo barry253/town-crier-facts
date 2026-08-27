@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valier%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Valier%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valier%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Valier%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valier%2C_Pennsylvania",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Valier%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -71,12 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/valier-xx-jefferson-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/valier-xx-jefferson-profile.htm"
     },
     {
       "id": 5,
+      "text": "Valier sits 1,260 feet above sea level.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/valier-xx-jefferson-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "An 1895 atlas lists Valier among communities with post offices and railroad service.",
       "sourceSentenceIds": [
         3
@@ -84,20 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/valier-xx-jefferson-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/valier-xx-jefferson-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Falls Creek, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valier-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  }
+  ]
 }

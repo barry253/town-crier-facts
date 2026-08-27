@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homestead_Meadows_North%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Homestead_Meadows_North%2C_Texas"
     },
     {
       "id": 2,
+      "text": "The community sits at an elevation of about 4,070 feet above sea level.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/tx/homestead-meadows-north-xx-el-paso-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "In 1895 the area had a post office and railroad service, reflecting its early development.",
       "sourceSentenceIds": [
         1
@@ -43,12 +51,32 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/homestead-meadows-north-xx-el-paso-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/tx/homestead-meadows-north-xx-el-paso-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "The CDP’s average household size was 3.73, with families averaging 4.04 members.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Homestead_Meadows_North%2C_Texas"
+    },
+    {
+      "id": 5,
+      "text": "The median age of residents was 27 years, indicating a relatively young population.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Homestead_Meadows_North%2C_Texas"
+    },
+    {
+      "id": 6,
       "text": "The fragment in Socorro ISD is zoned to Purple Heart Elementary, Desert Wind Middle, and El Dorado High.",
       "sourceSentenceIds": [
         12
@@ -56,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homestead_Meadows_North%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Homestead_Meadows_North%2C_Texas"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homestead-meadows-north-texas.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CIA World Factbook",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
-  }
+  ]
 }

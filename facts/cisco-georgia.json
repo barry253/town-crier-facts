@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia"
     },
     {
       "id": 2,
@@ -44,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia"
     },
     {
       "id": 3,
@@ -60,9 +54,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia"
     },
     {
       "id": 4,
@@ -73,12 +65,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cisco%2C_Georgia"
     },
     {
       "id": 5,
+      "text": "The community rests 830 feet above sea level, offering a modest elevation within the Appalachian foothills.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/cisco-xx-murray-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Cisco’s history dates back to the late 1800s, when settlers began establishing the town in the region.",
       "sourceSentenceIds": [
         5
@@ -86,24 +87,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Cisco,_Georgia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Cisco,_Georgia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cisco-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.35,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thomson200",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Murray_County,_Georgia_Courthouse,_Sept_2017.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Murray County, Georgia"
-  }
+  ]
 }

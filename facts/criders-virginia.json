@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Criders%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Criders%2C_Virginia"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Criders%2C_Virginia",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Criders%2C_Virginia"
     },
     {
       "id": 3,
+      "text": "The town rests at about 1,600 feet above sea level.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The earliest documented mention of Criders dates back to an 1895 book.",
       "sourceSentenceIds": [
         19
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical records show Criders once had both a post office and railroad service in the late 19th century.",
       "sourceSentenceIds": [
         3
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "A nearby cemetery list is maintained, offering a glimpse into the area's genealogical heritage.",
       "sourceSentenceIds": [
         28
@@ -82,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm",
-      "category": "people",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/criders-xx-rockingham-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/criders-virginia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.46,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Aneta Kaluzna",
-    "license": "CC BY-SA 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_Rocks_Little_Sluice_Mountain_GWNF.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "George Washington National Forest"
-  }
+  ]
 }

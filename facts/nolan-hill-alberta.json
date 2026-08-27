@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Nolan Hill is a residential neighbourhood in the northwest quadrant of Calgary, Alberta, Canada.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Nolan_Hill"
+    },
+    {
       "id": 2,
       "text": "Nolan Hill opened in the 2010s as a master‑planned community.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html",
-      "category": "history",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html"
     },
     {
       "id": 4,
@@ -57,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html",
-      "category": "nature",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html"
     },
     {
       "id": 5,
@@ -71,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html",
-      "category": "transport",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html"
     },
     {
       "id": 6,
@@ -85,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://calgaryhomes.ca/blog/living-in-nolan-hill-calgary.html"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Arbour Lake"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nolan-hill-alberta.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.79,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": null,
-    "license": null,
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arbor_Lake-Aerial.JPG"
-  }
+  ]
 }

@@ -32,9 +32,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Osaka%2C_Virginia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Osaka%2C_Virginia"
     },
     {
       "id": 2,
@@ -45,12 +43,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/osaka-xx-wise-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/osaka-xx-wise-profile.htm"
     },
     {
       "id": 3,
+      "text": "Osaka sits at 1,800 feet above sea level, high in Wise County’s Appalachian mountains.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/osaka-xx-wise-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Wise County, where Osaka lies, is famed for its scenic mountains and long history of coal mining.",
       "sourceSentenceIds": [
         8
@@ -58,12 +65,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Osaka,_Virginia",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Osaka,_Virginia"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Osaka’s name appears in both the FIPS‑55 and GNIS databases, confirming its status as a recognized community.",
       "sourceSentenceIds": [
         4
@@ -71,25 +76,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/osaka-xx-wise-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/osaka-xx-wise-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Osaka is located in Wise County, a region known for its beautiful mountains and coal‑mining heritage.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/osaka-xx-wise-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/osaka-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.39,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Skye Marthaler",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wise_County_Courthouse_-_Front_View.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Wise County, Virginia"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Lower Grand Lagoon sits at 30°9′3″N 85°45′41″W, placing it just north of Panama City.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lower_Grand_Lagoon%2C_Florida"
+    },
+    {
       "id": 2,
       "text": "The community is part of the Panama City–Panama City Beach Metropolitan Statistical Area.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lower_Grand_Lagoon%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lower_Grand_Lagoon%2C_Florida"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/grand_lagoon",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/grand_lagoon"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/grand_lagoon",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/grand_lagoon"
     },
     {
       "id": 5,
@@ -70,9 +74,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/grand_lagoon",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/grand_lagoon"
     },
     {
       "id": 6,
@@ -83,24 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/grand_lagoon",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/grand_lagoon"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lower-grand-lagoon-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.48,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Rolf Blauert Dk4hb",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Co_goosttown_st_elmo1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bay Harbor, Florida"
-  }
+  ]
 }

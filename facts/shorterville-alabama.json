@@ -25,10 +25,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shorterville%2C_Alabama",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Shorterville%2C_Alabama"
     },
     {
       "id": 2,
@@ -39,10 +36,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shorterville%2C_Alabama",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Shorterville%2C_Alabama"
     },
     {
       "id": 3,
@@ -53,12 +47,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/al/shorterville-xx-henry-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/al/shorterville-xx-henry-profile.htm"
     },
     {
       "id": 4,
+      "text": "The elevation of Shorterville is 410 feet above sea level.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/al/shorterville-xx-henry-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "An 1895 atlas lists Shorterville among the communities in Henry County.",
       "sourceSentenceIds": [
         18
@@ -66,12 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/al/shorterville-xx-henry-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/al/shorterville-xx-henry-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historic American Buildings Survey photographs capture Shorterville’s architectural heritage.",
       "sourceSentenceIds": [
         2
@@ -79,25 +80,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shorterville%2C_Alabama",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Shorterville%2C_Alabama"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shorterville-alabama.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Rivers Langley; SaveRivers",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_County,_Alabama_Courthouse.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Henry County, Alabama"
-  }
+  ]
 }

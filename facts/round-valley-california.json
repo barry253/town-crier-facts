@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rvit.org/about/about-us",
-      "category": "people",
-      "quality": "good"
+      "source": "https://rvit.org/about/about-us"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://noehill.com/mendocino/cal0674.asp",
-      "category": "history",
-      "quality": "good"
+      "source": "https://noehill.com/mendocino/cal0674.asp"
     },
     {
       "id": 3,
@@ -55,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://noehill.com/mendocino/cal0674.asp",
-      "category": "history",
-      "quality": "good"
+      "source": "https://noehill.com/mendocino/cal0674.asp"
     },
     {
       "id": 4,
+      "text": "Round Valley sits at 4,692 feet above sea level, offering a high‑altitude perspective of Mendocino County.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Round_Valley%2C_California"
+    },
+    {
+      "id": 5,
       "text": "California Historical Landmark #674 marks Round Valley, commemorating its significance in the state’s early history.",
       "sourceSentenceIds": [
         11
@@ -68,12 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://noehill.com/mendocino/cal0674.asp",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://noehill.com/mendocino/cal0674.asp"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Round Valley Indian Tribe’s heritage blends diverse cultures, united by a shared reservation experience and history.",
       "sourceSentenceIds": [
         9
@@ -81,15 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rvit.org/about/about-us",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://rvit.org/about/about-us"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/round-valley-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.16,
-    "y": 0.5
-  }
+  ]
 }

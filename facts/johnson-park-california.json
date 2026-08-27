@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnson_Park%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Johnson_Park%2C_California"
     },
     {
       "id": 2,
+      "text": "The community rises to 3,180 feet above sea level, giving it a high‑elevation climate.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": ""
+    },
+    {
+      "id": 3,
       "text": "An 1895 atlas lists Johnson Park, showing its long‑standing presence in the region.",
       "sourceSentenceIds": [
         27
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "",
-      "category": "history",
-      "quality": "good"
+      "source": ""
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "In 1895, Johnson Park had a post office, a sign of its early development.",
       "sourceSentenceIds": [
         5
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "",
-      "category": "history",
-      "quality": "good"
+      "source": ""
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Johnson Park is part of Shasta County, a county founded in 1850 in northern California.",
       "sourceSentenceIds": [
         13
@@ -68,25 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": ""
+    },
+    {
+      "id": 6,
+      "text": "The community’s coordinates were estimated from historical records, indicating its approximate location.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": ""
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/johnson-park-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Astronomy1",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_River_Mills_Airport.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Fall River Mills, California"
-  }
+  ]
 }

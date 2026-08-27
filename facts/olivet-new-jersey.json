@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Olivet sits 110 feet above sea level in the heart of Salem County.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nj/olivet-xx-salem-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "Olivet is located in Salem County, New Jersey, nestled along the Delaware River corridor.",
       "sourceSentenceIds": [
         18
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nj/olivet-xx-salem-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/nj/olivet-xx-salem-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Olivet is one of 13 U.S. places that share its name, including Arkansas and Wisconsin.",
       "sourceSentenceIds": [
         1
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nj/olivet-xx-salem-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/nj/olivet-xx-salem-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The CDP contains 467 housing units, averaging 72.4 units per square kilometer.",
       "sourceSentenceIds": [
         10
@@ -57,13 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olivet%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_New_Jersey"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "The median age of Olivet residents is 39 years, reflecting a balanced mix of families and retirees.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_New_Jersey"
+    },
+    {
+      "id": 6,
       "text": "For every 100 females in Olivet, there are 105.8 males, showing a slight male majority in the community.",
       "sourceSentenceIds": [
         14
@@ -71,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olivet%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_New_Jersey"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/olivet-new-jersey.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Peretzp",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salem_Nuclear_Power_Plant.jpg"
-  }
+  ]
 }

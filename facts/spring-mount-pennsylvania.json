@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Spring Mount sits at 40°16′28″N 75°27′56″W.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
       "text": "The town’s ski slope, owned by Ski Shops Buckman's Inc., offers the nearest skiing access from the Philadelphia metro.",
       "sourceSentenceIds": [
         12,
@@ -30,12 +41,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Montgomery County, where Spring Mount lies, follows Eastern time.",
       "sourceSentenceIds": [
         17
@@ -43,13 +52,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/spring-mount.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/spring-mount.cfm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The community contains 830 housing units, averaging 1,278 per square mile.",
       "sourceSentenceIds": [
         2
@@ -57,13 +63,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "About 30.8% of residents are under 18, while 41.8% fall between 25 and 44.",
       "sourceSentenceIds": [
         6
@@ -71,21 +74,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
+      "text": "The median age in Spring Mount is 33 years.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Spring_Mount%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-mount-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.417,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Montgomery County Planning Commission",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_Mount_Ski_Area.jpg"
-  }
+  ]
 }

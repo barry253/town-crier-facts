@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Big Bar is an unincorporated community in Calaveras County, California, perched at 630 feet above sea level.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://kids.kiddle.co/Big_Bar,_Calaveras_County,_California"
+    },
+    {
+      "id": 2,
       "text": "A toll bridge erected by Soher & Parrish in 1853 gave way to a ferry after a 1862 flood wiped it out.",
       "sourceSentenceIds": [
         13,
@@ -30,12 +41,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.calaverashistory.org/big-bar",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.calaverashistory.org/big-bar"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Mining began in 1848 when a bridge crossed the Mokelumne River; a quartz vein yielded eight pounds of gold in 1850.",
       "sourceSentenceIds": [
         9,
@@ -44,12 +53,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.calaverashistory.org/big-bar",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.calaverashistory.org/big-bar"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Gold Rush travelers used a unique “whale boat” ferry along the steep Miwok Trail from Mokelumne Hill to Big Bar.",
       "sourceSentenceIds": [
         6,
@@ -59,12 +66,10 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Big_Bar,_Calaveras_County,_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Big_Bar,_Calaveras_County,_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "In 1855 the Kelton family homesteaded on the Calaveras side, offering a watering trough for miners and ranchers.",
       "sourceSentenceIds": [
         22,
@@ -73,12 +78,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.calaverashistory.org/big-bar",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.calaverashistory.org/big-bar"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Pedro and Lilly, two of the last Mi‑Wuk residents, lived in Big Bar until 1928, preserving the area’s indigenous legacy.",
       "sourceSentenceIds": [
         26
@@ -86,24 +89,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.calaverashistory.org/big-bar",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.calaverashistory.org/big-bar"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/big-bar-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.76,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kuchel & Dresel",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mokelumne_Hill,_Calaveras_County,_California.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mokelumne Hill, California"
-  }
+  ]
 }

@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Plainview sits at 354 feet above sea level.",
+      "sourceSentenceIds": [
+        5,
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Plainview lies within Tulare County in California.",
       "sourceSentenceIds": [
         15
@@ -29,13 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/plainview-xx-tulare-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ca/plainview-xx-tulare-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Hispanic or Latino residents make up 94.6% of Plainview’s population.",
       "sourceSentenceIds": [
         7
@@ -43,13 +53,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "The town’s median age is 26.5 years, indicating a young community.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
+    },
+    {
+      "id": 5,
       "text": "Average household in Plainview houses 4.03 people, reflecting larger family units.",
       "sourceSentenceIds": [
         8
@@ -57,13 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Of the 220 housing units, 65.7% are owner‑occupied, showing strong home ownership.",
       "sourceSentenceIds": [
         12,
@@ -72,10 +87,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Plainview%2C_California"
     }
   ]
 }

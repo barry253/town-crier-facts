@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Piney Grove sits in the heart of the crossroads where State Routes 219 and 315 cross.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Piney_Grove%2C_Georgia"
+    },
+    {
+      "id": 2,
+      "text": "The community is unincorporated in Georgia, meaning it has no city government.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Piney_Grove,_Georgia"
+    },
+    {
+      "id": 3,
+      "text": "Piney Grove is part of Wayne County, Georgia, in the southeastern United States.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50"
+    },
+    {
       "id": 4,
       "text": "The community hall in Odum seats 75 to 100 people for local events.",
       "sourceSentenceIds": [
@@ -29,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50"
     },
     {
       "id": 5,
@@ -42,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50"
     },
     {
       "id": 6,
@@ -55,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.waynecountyga.us/topic/subtopic.php?topicid=50"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/piney-grove-georgia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.49,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Rivers Langley; SaveRivers",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pine_Mountain_Georgia_1.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Pine Mountain, Georgia"
-  }
+  ]
 }

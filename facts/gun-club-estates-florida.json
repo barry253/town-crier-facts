@@ -25,9 +25,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida"
     },
     {
       "id": 2,
@@ -38,9 +36,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida"
     },
     {
       "id": 3,
@@ -51,10 +47,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida"
     },
     {
       "id": 4,
@@ -65,12 +58,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Gun_Club_Estates%2C_Florida"
     },
     {
       "id": 5,
+      "text": "In 2024, the median household income in Gun Club Estates reached $82,742, up from $33,380 in 2000.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.city-data.com/city/Gun-Club-Estates-Florida.html"
+    },
+    {
+      "id": 6,
       "text": "About 18.9% of residents live in poverty in 2024, with White Non‑Hispanic residents experiencing the highest rate at 40.4%.",
       "sourceSentenceIds": [
         14
@@ -78,25 +80,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Gun-Club-Estates-Florida.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Gun-Club-Estates-Florida.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gun-club-estates-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "St. Petersburg Times",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "1921 Tampa Bay hurricane"
-  }
+  ]
 }

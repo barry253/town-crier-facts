@@ -22,6 +22,22 @@
   "facts": [
     {
       "id": 1,
+      "text": "Chalfant sits on the abandoned Southern Pacific Railroad, 22 miles south‑southeast of Benton, at an elevation of 4,258 feet.",
+      "sourceSentenceIds": [
+        1,
+        2,
+        24,
+        25
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town was named for William Arthur “Willie” Chalfant, who moved there in 1885 and launched The Inyo Register newspaper.",
       "sourceSentenceIds": [
         3,
@@ -31,12 +47,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Chalfant’s post office served residents from 1913 until it closed in 1928.",
       "sourceSentenceIds": [
         9,
@@ -46,12 +60,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A 6.2‑meter earthquake struck Chalfant on July 21, 1986, injuring two people and causing $2.7 million in damage.",
       "sourceSentenceIds": [
         11
@@ -59,12 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Located in the Chalfant Valley, the community rests at the western base of the White Mountains and drains south into Owens Valley.",
       "sourceSentenceIds": [
         14,
@@ -73,13 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Chalfant lies 14 miles north of Bishop along U.S. Route 6, a key corridor through the eastern Sierra.",
       "sourceSentenceIds": [
         8,
@@ -89,21 +96,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Chalfant%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chalfant-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kate McGahan",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_of_June_Lake.JPG"
-  }
+  ]
 }

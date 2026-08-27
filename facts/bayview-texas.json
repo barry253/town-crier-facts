@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Texas"
     },
     {
       "id": 2,
@@ -43,10 +40,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Texas"
+    },
+    {
+      "id": 3,
+      "text": "The town’s coordinates are 26°7′46″N 97°24′4″W, placing it just east of San Benito and northwest of Port Isabel.",
+      "sourceSentenceIds": [
+        7,
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Texas"
     },
     {
       "id": 4,
@@ -58,9 +64,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://bayviewtexas.us/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://bayviewtexas.us/"
     },
     {
       "id": 5,
@@ -71,9 +75,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://bayviewtexas.us/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://bayviewtexas.us/"
     },
     {
       "id": 6,
@@ -84,25 +86,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-bayview.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-bayview.html"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Indian Lake, Texas"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bayview-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.51,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alexander Hatley from Spring, Texas, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA_-_Texas_-_Boca_Chica_-_Starbase_(51285307187).jpg"
-  }
+  ]
 }

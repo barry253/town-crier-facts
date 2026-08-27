@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio",
-      "category": "etymology",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio"
     },
     {
       "id": 3,
@@ -56,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio"
     },
     {
       "id": 4,
+      "text": "U.S. Route 35 cuts through the southern part of the Kanauga census‑designated place, crossing the Ohio on the Silver Memorial Bridge.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio"
+    },
+    {
+      "id": 5,
       "text": "Ohio Route 7 runs through Kanauga’s center, heading northeast toward Parkersburg and southwest toward Gallipolis.",
       "sourceSentenceIds": [
         11
@@ -70,25 +73,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Kanauga%2C_Ohio"
+    },
+    {
+      "id": 6,
+      "text": "Kanauga sits 570 feet above sea level, giving it a modest elevation relative to the surrounding Ohio River valley.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/oh/kanauga-xx-gallia-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kanauga-ohio.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Charles Johnson, U.S. Army Corps of Engineers",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kanawha_Ohio_confluence.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Kanawha River"
-  }
+  ]
 }

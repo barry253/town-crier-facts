@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri"
     },
     {
       "id": 3,
@@ -55,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri"
     },
     {
       "id": 4,
@@ -69,13 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Elk_Creek%2C_Missouri"
     },
     {
       "id": 5,
+      "text": "The community rests at an elevation of 1,120 feet above sea level.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mo/elk-creek-xx-texas-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Elk Creek sits within Texas County, whose county lines have shifted over the years.",
       "sourceSentenceIds": [
         6
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/elk-creek-xx-texas-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/mo/elk-creek-xx-texas-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/elk-creek-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kbh3rd",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Texas_County_Missouri_Administrative_Center_20150314_1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Texas County, Missouri"
-  }
+  ]
 }

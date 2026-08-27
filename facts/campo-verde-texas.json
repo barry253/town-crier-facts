@@ -21,21 +21,30 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Campo Verde sits at 26°23′30″N 98°54′50″W, right on the north bank of Verde Creek.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Campo_Verde%2C_Texas"
+    },
+    {
       "id": 2,
-      "text": "The town\u2019s roots trace back to a U.S. Army frontier post founded July 8 1855 just outside Bandera Pass.",
+      "text": "The town’s roots trace back to a U.S. Army frontier post founded July 8 1855 just outside Bandera Pass.",
       "sourceSentenceIds": [
         19
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hillcountryportal.com/campverde.html",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.hillcountryportal.com/campverde.html"
     },
     {
       "id": 3,
-      "text": "Camp Verde was surrendered to the Confederacy in 1861, re\u2011occupied by Union troops in 1865, and finally abandoned on April 1 1869.",
+      "text": "Camp Verde was surrendered to the Confederacy in 1861, re‑occupied by Union troops in 1865, and finally abandoned on April 1 1869.",
       "sourceSentenceIds": [
         20,
         21
@@ -43,9 +52,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hillcountryportal.com/campverde.html",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.hillcountryportal.com/campverde.html"
     },
     {
       "id": 4,
@@ -58,10 +65,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/camp-verde-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.tshaonline.org/handbook/entries/camp-verde-tx"
     },
     {
       "id": 5,
@@ -72,9 +76,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/camp-verde-tx",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/camp-verde-tx"
     },
     {
       "id": 6,
@@ -86,14 +88,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hillcountryportal.com/campverde.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.hillcountryportal.com/campverde.html"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Starr County, Texas"
-  }
+  ]
 }

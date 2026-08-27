@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofwrightmn.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.cityofwrightmn.gov/"
     },
     {
       "id": 2,
@@ -43,9 +40,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lakesnwoods.com/Wright.htm",
-      "category": "people",
-      "quality": "good"
+      "source": "https://lakesnwoods.com/Wright.htm"
+    },
+    {
+      "id": 3,
+      "text": "Wright sits in Lake View Township, covering sections 3 and 4 of the county.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://lakesnwoods.com/Wright.htm"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wright_County%2C_Minnesota",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wright_County%2C_Minnesota"
     },
     {
       "id": 5,
@@ -69,9 +73,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wright_County%2C_Minnesota",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wright_County%2C_Minnesota"
+    },
+    {
+      "id": 6,
+      "text": "Wright County is part of the Minneapolis–St. Paul metropolitan statistical area, linking the city to the larger region.",
+      "sourceSentenceIds": [
+        14,
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wright_County%2C_Minnesota"
     }
   ]
 }

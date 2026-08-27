@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Millersburg sits 730 feet above sea level.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "Locals pronounce it MIL‑ler‑berg, and the first map that mentions it dates back to 1870.",
       "sourceSentenceIds": [
         9
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The town is in Mercer County, Illinois.",
       "sourceSentenceIds": [
         8
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Millersburg lies about 4.5 miles northwest of Aledo.",
       "sourceSentenceIds": [
         5
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millersburg%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Millersburg%2C_Illinois"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "It is one of 14 U.S. communities that share the name Millersburg.",
       "sourceSentenceIds": [
         1
@@ -70,21 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/millersburg-xx-mercer-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millersburg-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.34,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Boscophotos",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercer_County_Courthouse_Image.jpeg"
-  }
+  ]
 }

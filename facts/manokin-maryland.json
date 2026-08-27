@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Manokin is an unincorporated community in Somerset County, Maryland, known for its quiet rural charm.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland"
+    },
+    {
       "id": 2,
       "text": "The town sits on Maryland Route 361 where it meets River Road, a crossroads that has guided travelers for generations.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Manokin%2C_Maryland"
     },
     {
       "id": 4,
@@ -58,9 +64,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.roads.maryland.gov/mdotsha/pages/pressreleasedetails.aspx?newsId=4870&PageId=818",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.roads.maryland.gov/mdotsha/pages/pressreleasedetails.aspx?newsId=4870&PageId=818"
     },
     {
       "id": 5,
@@ -73,9 +77,7 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.wgmd.com/historical-marker-honoring-manonoakin-indian-town-site-unveiled-in-princess-anne/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.wgmd.com/historical-marker-honoring-manonoakin-indian-town-site-unveiled-in-princess-anne/"
     },
     {
       "id": 6,
@@ -90,24 +92,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.roads.maryland.gov/mdotsha/pages/pressreleasedetails.aspx?newsId=4870&PageId=818",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.roads.maryland.gov/mdotsha/pages/pressreleasedetails.aspx?newsId=4870&PageId=818"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/manokin-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.42,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bwave at English Wikipedia",
-    "license": "CC BY 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SalisburySign.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Somerset County, Maryland"
-  }
+  ]
 }

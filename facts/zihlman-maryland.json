@@ -22,6 +22,21 @@
   "facts": [
     {
       "id": 1,
+      "text": "Zihlman sits along Maryland Route 36, just 1.5 mi northeast of Frostburg and 500 ft lower in elevation, nestled in the Appalachian foothills.",
+      "sourceSentenceIds": [
+        4,
+        8,
+        9,
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Zihlman%2C_Maryland"
+    },
+    {
+      "id": 2,
       "text": "Travel another 3 mi northeast on MD 36 and you’ll reach Mount Savage, a historic coal‑mining town.",
       "sourceSentenceIds": [
         5,
@@ -31,13 +46,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Zihlman%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Zihlman%2C_Maryland"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Zihlman’s post office began serving residents in 1917, marking the community’s emergence as a local hub.",
       "sourceSentenceIds": [
         18
@@ -45,12 +57,34 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/zihlman-xx-allegany-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/zihlman-xx-allegany-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "The town sits at 1,590 feet above sea level, offering a mild mountain climate compared to surrounding valleys.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/md/zihlman-xx-allegany-profile.htm"
+    },
+    {
+      "id": 5,
+      "text": "Historical maps note that Zihlman’s exact coordinates still need verification, reflecting the area’s evolving cartographic records.",
+      "sourceSentenceIds": [
+        21,
+        22,
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/md/zihlman-xx-allegany-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Before its current name, the community was known as Allegany, a nod to the county that shares its name.",
       "sourceSentenceIds": [
         6
@@ -58,24 +92,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Zihlman,_Maryland",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Zihlman,_Maryland"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/zihlman-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Preservation Maryland",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegany_County_Courthouse_(25181526054).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Allegany County, Maryland"
-  }
+  ]
 }

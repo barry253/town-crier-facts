@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royal_Pines%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Royal_Pines%2C_North_Carolina"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royal_Pines%2C_North_Carolina",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Royal_Pines%2C_North_Carolina"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://thebestofbuncombe.com/royal-pines-nc",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://thebestofbuncombe.com/royal-pines-nc"
     },
     {
       "id": 4,
@@ -70,21 +62,30 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://thebestofbuncombe.com/royal-pines-nc",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://thebestofbuncombe.com/royal-pines-nc"
+    },
+    {
+      "id": 5,
+      "text": "The community’s geographic center lies at latitude 35.4751 and longitude –82.516, placing it in Buncombe County.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://northcarolina.hometownlocator.com/nc/buncombe/royal-pines.cfm"
+    },
+    {
+      "id": 6,
+      "text": "As a census-designated place, Royal Pines has a Functional Status Code of “S,” indicating a statistical entity without governmental functions.",
+      "sourceSentenceIds": [
+        26,
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://northcarolina.hometownlocator.com/nc/buncombe/royal-pines.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/royal-pines-north-carolina.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Mojo Hand",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Mountain_NC_downtown.jpg"
-  }
+  ]
 }

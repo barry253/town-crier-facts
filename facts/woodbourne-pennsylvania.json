@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Woodbourne sits at 40.202319°N, 74.888825°W, placing it just north of the Delaware River.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Woodbourne%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "The community covers 3.157 square miles, all land with no surface water bodies.",
       "sourceSentenceIds": [
@@ -30,10 +41,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountywoodbourne.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/pacountywoodbourne.htm"
+    },
+    {
+      "id": 3,
+      "text": "From Woodbourne, Washington, D.C. is 147 miles away, while the state capital Harrisburg lies 106 miles distant.",
+      "sourceSentenceIds": [
+        25,
+        26
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.usacitiesonline.com/pacountywoodbourne.htm"
     },
     {
       "id": 4,
@@ -44,10 +64,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_woodbourne",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_woodbourne"
     },
     {
       "id": 5,
@@ -58,21 +75,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodbourne%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Woodbourne%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
+      "text": "Woodbourne’s coordinates place it 40.20 degrees north of the equator and 74.88 degrees west of the prime meridian.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.usacitiesonline.com/pacountywoodbourne.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodbourne-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.773,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Adam Moss from Tonawanda, New York, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GEDC4134_(6865595397).jpg"
-  }
+  ]
 }

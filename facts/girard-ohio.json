@@ -22,6 +22,18 @@
   "facts": [
     {
       "id": 1,
+      "text": "Girard was founded in 1836, its early growth tied to the Mahoning River’s first dam.",
+      "sourceSentenceIds": [
+        3,
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.girardfreelibrary.org/content/girard-history"
+    },
+    {
+      "id": 2,
       "text": "The city’s name honors Stephen Girard, the Philadelphia philanthropist who inspired its founders.",
       "sourceSentenceIds": [
         9
@@ -29,12 +41,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.girardfreelibrary.org/content/girard-history",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.girardfreelibrary.org/content/girard-history"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Barnhisel House, a Greek Revival home built around 1840, once served stagecoach travelers and may have sheltered Underground Railroad passengers.",
       "sourceSentenceIds": [
         23,
@@ -44,12 +54,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tribtoday.com/news/local-news/2025/09/our-heritage-girard-home-to-historic-landmarks/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.tribtoday.com/news/local-news/2025/09/our-heritage-girard-home-to-historic-landmarks/"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Girard Hall of Fame, established in 1997, celebrates local athletes who excel on the field and in community character.",
       "sourceSentenceIds": [
         2,
@@ -58,12 +66,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tribtoday.com/news/local-news/2025/09/our-heritage-girard-home-to-historic-landmarks/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.tribtoday.com/news/local-news/2025/09/our-heritage-girard-home-to-historic-landmarks/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "In 1993, Girard’s boys basketball team captured Trumbull County’s only state championship, a historic high school milestone.",
       "sourceSentenceIds": [
         26
@@ -71,12 +77,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tribtoday.com/news/local-news/2025/09/our-heritage-girard-home-to-historic-landmarks/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.tribtoday.com/news/local-news/2025/09/our-heritage-girard-home-to-historic-landmarks/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "A dam on the Mahoning River, still visible from the viaduct, was the catalyst for Girard’s founding.",
       "sourceSentenceIds": [
         6
@@ -84,20 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.girardfreelibrary.org/content/girard-history",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.girardfreelibrary.org/content/girard-history"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/girard-ohio.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.539,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_Barnhisel_House_in_Girard.jpg"
-  }
+  ]
 }

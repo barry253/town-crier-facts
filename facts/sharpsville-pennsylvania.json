@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Sharpsville’s Historical Society sits in the former First Universalist Church, a building listed on the National Register of Historic Places.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://pittsburghmuseums.org/organizations/sharpsville-area-historical-society"
+    },
+    {
+      "id": 2,
       "text": "The society collects and preserves artifacts, records, and documents that chronicle Sharpsville’s pioneer days.",
       "sourceSentenceIds": [
         5
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pittsburghmuseums.org/organizations/sharpsville-area-historical-society",
-      "category": "history",
-      "quality": "good"
+      "source": "https://pittsburghmuseums.org/organizations/sharpsville-area-historical-society"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Sharpsville is a borough in western Mercer County, Pennsylvania, nestled along the banks of the Shenango River.",
       "sourceSentenceIds": [
         14
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sharpsville%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Sharpsville%2C_Pennsylvania"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The former First Universalist Church, now home to the Historical Society, is one of the few structures in Sharpsville on the National Register.",
       "sourceSentenceIds": [
         10
@@ -56,12 +62,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pittsburghmuseums.org/organizations/sharpsville-area-historical-society",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://pittsburghmuseums.org/organizations/sharpsville-area-historical-society"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "Sharpsville is part of the Hermitage micropolitan area, linking it to a broader regional community.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sharpsville%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
       "text": "The borough’s location along the Shenango River has shaped its early development and continues to influence local recreation.",
       "sourceSentenceIds": [
         14
@@ -69,15 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sharpsville%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sharpsville%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sharpsville-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.422,
-    "y": 0.5
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -42,13 +40,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "Hyde sits at 41.00°N, 78.46°W, roughly 98 miles from Harrisburg, the state capital.",
+      "sourceSentenceIds": [
+        18,
+        19
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
       "text": "The town covers 4.29 square miles of land and only 0.022 square kilometers of water.",
       "sourceSentenceIds": [
         15,
@@ -57,13 +64,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyhyde.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/pacountyhyde.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Hyde is in Clearfield County, which observes Eastern Standard Time (GMT‑5) year‑round.",
       "sourceSentenceIds": [
         26
@@ -71,13 +75,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/clearfield/hyde.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/clearfield/hyde.cfm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Hyde’s residential density averages 421 people per square mile, reflecting a tight‑knit community.",
       "sourceSentenceIds": [
         5
@@ -85,21 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Hyde%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hyde-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clearfield_County_Courthouse_Apr_10.JPG"
-  }
+  ]
 }

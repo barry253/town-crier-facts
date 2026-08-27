@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Spruce sits in the eastern part of Caledonia Township at 44°50′39″N 83°27′57″W.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan"
+    },
+    {
+      "id": 2,
       "text": "The community sprang up around a sawmill built by Don Hecox, who became the first postmaster when the post office opened May 5 1898.",
       "sourceSentenceIds": [
         10
@@ -29,12 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Spruce rests 770 feet above sea level, giving it a modest elevation for its time.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mi/spruce-xx-alcona-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Caledonia Township, where Spruce lies, also extends into Hawes Township, blending two township borders.",
       "sourceSentenceIds": [
         8
@@ -42,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Spruce is located in Alcona County, placing it in Michigan’s northeastern Lower Peninsula.",
       "sourceSentenceIds": [
         23
@@ -56,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mi/spruce-xx-alcona-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/mi/spruce-xx-alcona-profile.htm"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Route 23 runs through Caledonia Township, passing near Spruce and linking it to nearby towns.",
       "sourceSentenceIds": [
         12
@@ -70,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Caledonia_Township%2C_Alcona_County%2C_Michigan"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spruce-michigan.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.368,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ian Poellet",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caledonia_Township_Hall_-_Spruce_Michigan.jpg"
-  }
+  ]
 }

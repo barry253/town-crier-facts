@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Willard is a village in Torrance County, New Mexico, United States.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_Mexico"
+    },
+    {
+      "id": 2,
+      "text": "The village sits in the Estancia Basin, a sparsely populated high‑desert area south of Albuquerque.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-willard-new-mexico.html"
+    },
+    {
+      "id": 3,
+      "text": "Willard is part of the Albuquerque Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_Mexico"
+    },
+    {
       "id": 4,
       "text": "A wind farm was recently built on the mesa just south of Willard, adding renewable energy to the local landscape.",
       "sourceSentenceIds": [
@@ -29,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_Mexico",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_Mexico"
     },
     {
       "id": 5,
@@ -42,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://abq.net/abq-msa-2/villages/willard-87063/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://abq.net/abq-msa-2/villages/willard-87063/"
     },
     {
       "id": 6,
@@ -55,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://abq.net/abq-msa-2/villages/willard-87063/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://abq.net/abq-msa-2/villages/willard-87063/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/willard-new-mexico.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "John Phelan",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Willard_Cantina_and_Cafe,_Willard_NM.jpg"
-  }
+  ]
 }

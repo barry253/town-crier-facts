@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida"
     },
     {
       "id": 3,
@@ -57,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida"
     },
     {
       "id": 4,
+      "text": "In 2024, the median home value reached $186,600 and 75.5% of households own their homes.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://datausa.io/profile/geo/solana-fl"
+    },
+    {
+      "id": 5,
       "text": "Retail Trade is the biggest employer in Solana, with 91 people working there.",
       "sourceSentenceIds": [
         28
@@ -71,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://datausa.io/profile/geo/solana-fl",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://datausa.io/profile/geo/solana-fl"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Solana is part of the Punta Gorda Metropolitan Statistical Area and the larger North Port‑Bradenton Combined Statistical Area.",
       "sourceSentenceIds": [
         3
@@ -84,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Solana%2C_Florida"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/solana-florida.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Georgia Guercio",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Punta_Gorda,_FL,_Courthouse,_Charlotte_County,_04-18-2010_(1).JPG"
-  }
+  ]
 }

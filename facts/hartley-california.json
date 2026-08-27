@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Hartley sits just 131 feet above sea level, giving it a low‑lying foothill feel.",
+      "sourceSentenceIds": [
+        1,
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hartley%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Unlike a city, Hartley never incorporated, so it relies on county services for governance.",
       "sourceSentenceIds": [
         11
@@ -29,13 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hartley,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Hartley,_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The town enjoys a warm‑summer Mediterranean climate, with dry summers and mild, wet winters.",
       "sourceSentenceIds": [
         18,
@@ -45,12 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hartley,_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Hartley,_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Hartley covers roughly 6.5 square miles, almost all of which is land.",
       "sourceSentenceIds": [
         15,
@@ -59,13 +67,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hartley,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Hartley,_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Only about 0.43 percent of Hartley's area is water, making it almost entirely terrestrial.",
       "sourceSentenceIds": [
         17
@@ -73,13 +78,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hartley,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Hartley,_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "About 86 percent of Hartley's housing units are owner‑occupied, reflecting a strong community attachment.",
       "sourceSentenceIds": [
         8
@@ -87,21 +89,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartley%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Hartley%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hartley-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alfred Twu",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ahpd.org/museum-support/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.ahpd.org/museum-support/"
     },
     {
       "id": 2,
@@ -43,9 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ahpd.org/museum-support/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.ahpd.org/museum-support/"
     },
     {
       "id": 3,
@@ -57,10 +53,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ahpd.org/museum-support/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.ahpd.org/museum-support/"
     },
     {
       "id": 4,
@@ -71,10 +64,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arlington_Heights%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Arlington_Heights%2C_Pennsylvania"
     },
     {
       "id": 5,
@@ -85,25 +75,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arlington_Heights%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Arlington_Heights%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
+      "text": "The town sits at 41°0′7″N 75°12′28″W, a precise spot in eastern Pennsylvania.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Arlington_Heights%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/arlington-heights-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.56,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr from Albany, NY, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monroe_County_Courthouse_Nov_09.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Monroe County, Pennsylvania"
-  }
+  ]
 }

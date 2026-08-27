@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Banco%2C_West_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Banco%2C_West_Virginia"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm"
     },
     {
       "id": 3,
+      "text": "Banco sits 510 feet above sea level, giving it a modest hilltop view of the surrounding valleys.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "A Gazetteer lists Banco as a community in West Virginia, confirming its recognition by federal geographic authorities.",
       "sourceSentenceIds": [
         1
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical records from 1895 show Banco as a small settlement, though its exact founding date remains unknown.",
       "sourceSentenceIds": [
         20
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Banco’s coordinates have yet to be verified, indicating that detailed mapping of the area is still underway.",
       "sourceSentenceIds": [
         13,
@@ -86,25 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/banco-xx-madison-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/banco-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.8,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Logan-County-Courthouse-wv.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Logan County, Virginia"
-  }
+  ]
 }

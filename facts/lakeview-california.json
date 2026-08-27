@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_California"
     },
     {
       "id": 2,
@@ -42,13 +40,33 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_California",
-      "category": "people",
-      "quality": "good",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_California"
     },
     {
       "id": 3,
+      "text": "Lakeview’s average household size sits at nearly four people, one of the highest in the state.",
+      "sourceSentenceIds": [
+        7,
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_California"
+    },
+    {
+      "id": 4,
+      "text": "Owner‑occupied homes make up about 74% of Lakeview’s housing, showing strong community stability.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_California"
+    },
+    {
+      "id": 5,
       "text": "Lakeview averages four cars per household, indicating a car‑centric lifestyle common in many California suburbs.",
       "sourceSentenceIds": [
         24
@@ -56,16 +74,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://datausa.io/profile/geo/lakeview-ca",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://datausa.io/profile/geo/lakeview-ca"
+    },
+    {
+      "id": 6,
+      "text": "The median property value in Lakeview topped $548,000 in 2024, outpacing the state average.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://datausa.io/profile/geo/lakeview-ca"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakeview-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.509,
-    "y": 0.5
-  }
+  ]
 }

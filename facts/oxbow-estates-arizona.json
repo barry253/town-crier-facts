@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Oxbow Estates sits 4,630 feet above sea level, giving it a high‑elevation desert climate.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The community lies within Gila County, one of Arizona’s central counties.",
       "sourceSentenceIds": [
         8
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Oxbow Estates is about four miles south of the larger town of Payson.",
       "sourceSentenceIds": [
         1
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Oxbow_Estates,_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Oxbow_Estates,_Arizona"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "It observes Mountain Standard Time year‑round and does not switch to daylight saving time.",
       "sourceSentenceIds": [
         12
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical records show the 1895 community had a post office and railroad service, linking it to regional trade.",
       "sourceSentenceIds": [
         2
@@ -71,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/az/oxbow-estates-xx-gila-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Johns Creek, a tributary of Rye Creek, flows through Oxbow Estates and feeds the larger Tonto Creek watershed.",
       "sourceSentenceIds": [
         5
@@ -84,20 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oxbow_Estates%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oxbow_Estates%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oxbow-estates-arizona.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.406,
-    "y": 0.499
-  },
-  "imageAttribution": {
-    "author": "Richard N Horne",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxbow_Estates,_Arizona_-_Friendly_Burro.jpg"
-  }
+  ]
 }

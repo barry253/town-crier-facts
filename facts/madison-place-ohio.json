@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Madison Place is a census-designated place in Columbia Township, Hamilton County, Ohio.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Madison_Place%2C_Ohio"
+    },
+    {
       "id": 2,
       "text": "The neighborhood boasts a mix of Cape Cod, Tudor Revival, and Dutch Colonial homes built in the early to mid‑20th century.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/",
-      "category": "other",
-      "quality": "good"
+      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/"
     },
     {
       "id": 4,
@@ -55,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison_Place%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Madison_Place%2C_Ohio"
     },
     {
       "id": 5,
@@ -69,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/"
     },
     {
       "id": 6,
@@ -82,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.homes.com/local-guide/cincinnati-oh/madison-place-neighborhood/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/madison-place-ohio.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.6,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Warren LeMay from Chicago, IL, United States",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg"
-  }
+  ]
 }

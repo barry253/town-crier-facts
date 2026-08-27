@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stancounty.com/board/unincorporated-cities/keyes.shtm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.stancounty.com/board/unincorporated-cities/keyes.shtm"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stancounty.com/board/unincorporated-cities/keyes.shtm",
-      "category": "people",
-      "quality": "good"
+      "source": "https://www.stancounty.com/board/unincorporated-cities/keyes.shtm"
     },
     {
       "id": 3,
@@ -55,13 +51,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keyes%2C_California",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Keyes%2C_California"
     },
     {
       "id": 4,
+      "text": "The town sits at 37.561800 latitude and –120.917361 longitude, placing it just north of the San Joaquin Valley.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Keyes%2C_California"
+    },
+    {
+      "id": 5,
+      "text": "Keyes residents have a median age of 29.5 years, reflecting a relatively young community.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Keyes%2C_California"
+    },
+    {
+      "id": 6,
       "text": "More than half of Keyes’ population—57.7%—identifies as Hispanic or Latino, shaping the town’s cultural flavor.",
       "sourceSentenceIds": [
         20
@@ -69,20 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keyes%2C_California",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Keyes%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/keyes-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.417,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "formulanone",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keyes_California_Aerial.jpg"
-  }
+  ]
 }

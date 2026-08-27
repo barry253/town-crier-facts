@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pike%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pike%2C_California"
     },
     {
       "id": 2,
+      "text": "The town sits 3,440 feet above sea level, offering a high‑altitude Sierra County view.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ca/pike-xx-sierra-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "Pike lies 8.5 miles west‑southwest of Alleghany, a short drive into the heart of the Sierra.",
       "sourceSentenceIds": [
         16
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pike%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Pike%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The Pike post office opened as Pike City in 1877, became Pike in 1895, and closed in 1954.",
       "sourceSentenceIds": [
         17
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pike%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pike%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Pike is located in Sierra County, a region known for its rugged mountains and historic mining towns.",
       "sourceSentenceIds": [
         28
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/pike-xx-sierra-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/pike-xx-sierra-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Pike’s rich history is celebrated with local events and cultural celebrations that bring the community together.",
       "sourceSentenceIds": [
         14
@@ -82,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/CA/Pike/30206",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://hellonation.com/mag/CA/Pike/30206"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pike-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.15,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Yngvadottir",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sierraville_1_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Sierra County, California"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crosby%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Crosby%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crosby%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Crosby%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm"
     },
     {
       "id": 4,
+      "text": "Crosby rises to about 1,500 feet above sea level, offering a higher elevation than many surrounding areas.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The Gazetteer notes that there are 23 other communities named Crosby across the United States.",
       "sourceSentenceIds": [
         1
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Local records list several cemeteries in the Crosby area, reflecting its long‑standing settlement.",
       "sourceSentenceIds": [
         29
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/crosby-xx-mckean-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crosby-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.6,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nicholas from Pennsylvania, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McKean_County_Courthouse.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "McKean County, Pennsylvania"
-  }
+  ]
 }

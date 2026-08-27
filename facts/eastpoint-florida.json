@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eastpoint%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Eastpoint%2C_Florida"
     },
     {
       "id": 2,
+      "text": "Eastpoint’s median age hovers around 43 years, reflecting a mix of families and retirees.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.ourstates.org/city/eastpoint"
+    },
+    {
+      "id": 3,
       "text": "The gender split is almost even, with about 50.4% male and 49.6% female residents.",
       "sourceSentenceIds": [
         21
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.ourstates.org/city/eastpoint",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://florida.ourstates.org/city/eastpoint"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The community is predominantly White at 89.6%, with small percentages of Black, Native American, and mixed‑race residents.",
       "sourceSentenceIds": [
         22
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.ourstates.org/city/eastpoint",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://florida.ourstates.org/city/eastpoint"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Median home values in Eastpoint are around $250,000 as of early 2024, making it an affordable coastal option.",
       "sourceSentenceIds": [
         23
@@ -70,21 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.ourstates.org/city/eastpoint",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://florida.ourstates.org/city/eastpoint"
+    },
+    {
+      "id": 6,
+      "text": "About 75% of households own their homes, highlighting a strong sense of stability in the area.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.ourstates.org/city/eastpoint"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eastpoint-florida.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "The Bushranger",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franklin_County_Public_Library,_Eastpoint,_Florida.jpg"
-  }
+  ]
 }

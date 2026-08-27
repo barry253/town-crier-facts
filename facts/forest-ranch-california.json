@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_forest-ranch",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/california_forest-ranch"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California"
     },
     {
       "id": 3,
@@ -56,13 +52,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California"
     },
     {
       "id": 4,
+      "text": "Forest Ranch sits at 2,415 feet above sea level, with its eastern edge rising to 3,500 feet.",
+      "sourceSentenceIds": [
+        10,
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California"
+    },
+    {
+      "id": 5,
       "text": "On the town’s eastern side, heavy snowfall can leave residents snowed in for one to three days each year.",
       "sourceSentenceIds": [
         12
@@ -70,12 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Forest_Ranch%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Lake Oroville lies nearby, offering boating and hiking adventures for Forest Ranch residents and visitors.",
       "sourceSentenceIds": [
         28
@@ -83,20 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_forest-ranch",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/california_forest-ranch"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forest-ranch-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.15,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "California Department of Water Resources",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oroville_dam_Fyx_nEtaMAAHTtF_(cropped).jpg"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Wetherington sits 22 miles north of downtown Cincinnati.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio"
+    },
+    {
       "id": 2,
       "text": "The community’s gates, built in 2002, made it the largest gated community in southwestern Ohio at the time.",
       "sourceSentenceIds": [
@@ -29,9 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio"
+    },
+    {
+      "id": 3,
+      "text": "Wetherington lies at 39.36367°N, 84.37744°W and sits 262 meters above sea level.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://travel.nears.me/countries/united-states/wetherington-ohio-travel-guide/"
     },
     {
       "id": 4,
@@ -42,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio"
     },
     {
       "id": 5,
@@ -55,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_wetherington",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_wetherington"
     },
     {
       "id": 6,
@@ -68,15 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://en.wikipedia.org/wiki/Wetherington%2C_Ohio"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wetherington-ohio.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.365,
-    "y": 0.498
-  }
+  ]
 }

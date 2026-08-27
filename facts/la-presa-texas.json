@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "La Presa sits at 27°23′54″N 99°26′53″W on the South Texas Plains.",
+      "sourceSentenceIds": [
+        8,
+        21
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas"
+    },
+    {
+      "id": 2,
       "text": "The community is officially a colonia, one of several in Webb County.",
       "sourceSentenceIds": [
         7
@@ -29,13 +42,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "La Presa rises 510 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/tx/la-presa-xx-webb-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Students in La Presa attend Veterans Memorial Elementary, Lamar Bruni Vergara Middle, and Lyndon B. Johnson High in Laredo.",
       "sourceSentenceIds": [
         16,
@@ -45,13 +66,10 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Webb County’s designated community college for La Presa residents is Laredo Community College.",
       "sourceSentenceIds": [
         18
@@ -59,13 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/La_Presa%2C_Texas"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "A commemorative quarter was issued honoring La Presa, celebrating its local heritage.",
       "sourceSentenceIds": [
         20
@@ -73,20 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-presa-xx-webb-profile.htm",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/tx/la-presa-xx-webb-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-presa-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Copernico Contreras",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
-  }
+  ]
 }

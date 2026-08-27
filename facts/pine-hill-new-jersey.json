@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Pine_Hill%2C_New_Jersey"
+      "url": "https://en.wikipedia.org/wiki/Borough_(New_Jersey)"
     },
     {
       "label": "Web source 1",
@@ -22,67 +22,72 @@
   "facts": [
     {
       "id": 1,
-      "text": "Pine Hill, New Jersey was created on April 23, 1929, from Clementon Township, along with several other municipalities.",
+      "text": "Pine Hill got its name from the many pine trees and hills that surround the area.",
       "sourceSentenceIds": [
-        2
+        1
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hill%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://westfieldnj.com/whs/history/Counties/CamdenCounty/pinehill.htm"
     },
     {
       "id": 2,
-      "text": "The name \"Pine Hill\" reflects the area's trees and terrain, previously known as Mont Ararat or Clementon Heights.",
+      "text": "Water and sewer service in Pine Hill is supplied by the Borough of Pine Hill Municipal Utilities Authority.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hill%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://westfieldnj.com/whs/history/Counties/CamdenCounty/pinehill.htm"
     },
     {
       "id": 3,
-      "text": "In 2021, the borough of Pine Valley agreed to merge with Pine Hill, adding significant taxable property and a golf course.",
+      "text": "In New Jersey, a borough is one of five municipal government types, the most common form among 564 municipalities.",
       "sourceSentenceIds": [
-        4,
-        5
+        5,
+        6,
+        7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hill%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Borough_(New_Jersey)"
     },
     {
       "id": 4,
-      "text": "The merger of Pine Valley into Pine Hill was the first in New Jersey since the formation of Princeton in 2011.",
+      "text": "As of 2023, New Jersey has 253 boroughs, including Pine Hill.",
       "sourceSentenceIds": [
-        6
+        8
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hill%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Borough_(New_Jersey)"
+    },
+    {
+      "id": 5,
+      "text": "Pine Hill is a borough located in Camden County, in southern New Jersey.",
+      "sourceSentenceIds": [
+        29,
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/borough-pine-hill-new-jersey.html"
+    },
+    {
+      "id": 6,
+      "text": "The Borough Act of 1987 streamlined borough law, clearing accumulated amendments and contradictions.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Borough_(New_Jersey)"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pine-hill-new-jersey.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.652,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Orleans on Flickr",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Believed_to_be_Al_Capones_house_Pine_Hill,_NJ.jpg"
-  }
+  ]
 }

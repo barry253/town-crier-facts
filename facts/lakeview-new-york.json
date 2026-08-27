@@ -22,25 +22,61 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lakeview's name reflects upon its proximity to Hempstead Lake at nearby Hempstead Lake State Park",
+      "text": "Lakeview sits at latitude 40.6854, longitude -73.6526 in Nassau County.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newyork.hometownlocator.com/ny/nassau/lakeview.cfm"
+    },
+    {
+      "id": 2,
+      "text": "The community is entirely urban, with 100% of residents living in urban areas.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York"
+    },
+    {
+      "id": 3,
+      "text": "Lakeview has 1,625 housing units, 3.6% of which are vacant.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic",
-      "review": {
-        "status": "approved",
-        "reviewedAt": "2026-08-04",
-        "reviewedBy": "Barry"
-      }
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "Homeowners face a 1.3% vacancy rate while renters see a 3.0% rate.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York"
+    },
+    {
+      "id": 5,
+      "text": "The median age of Lakeview residents is 36 years.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York"
+    },
+    {
+      "id": 6,
       "text": "The average household in Lakeview holds 3.59 people, while families average 3.81.",
       "sourceSentenceIds": [
         11
@@ -48,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakeview-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.484,
-    "y": 0.524
-  },
-  "imageAttribution": {
-    "author": "AITFFan1",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Langdon_Blvd,_Lakeview,_NY_August_8,_2022.jpg"
-  }
+  ]
 }

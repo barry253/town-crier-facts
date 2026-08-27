@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Los Berros sits at an elevation of 194 feet above sea level.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Los_Berros%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The earliest known reference to Los Berros appears in an 1895 atlas.",
       "sourceSentenceIds": [
         16
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Los Berros is located in San Luis Obispo County, California.",
       "sourceSentenceIds": [
         15
@@ -43,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "Another source notes Los Berros as roughly 200 feet above sea level.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "A dedicated list of cemeteries in the Los Berros area has been compiled from historical records.",
       "sourceSentenceIds": [
         23
@@ -57,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Historical newspapers published around Los Berros are catalogued in a separate list.",
       "sourceSentenceIds": [
         28
@@ -71,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/los-berros-xx-san-luis-obispo-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/los-berros-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thomson200",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Nacimiento_2015.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Nacimiento, California"
-  }
+  ]
 }

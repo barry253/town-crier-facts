@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tioga_Center%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Tioga_Center%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tioga_Center%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Tioga_Center%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/tioga-center-xx-tioga-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/tioga-center-xx-tioga-profile.htm"
     },
     {
       "id": 4,
+      "text": "Tioga Center rests 790 feet above sea level, a modest elevation for the region.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/tioga-center-xx-tioga-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The Tioga Downs Casino Resort offers a gaming experience within the hamlet.",
       "sourceSentenceIds": [
         10
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://experiencetioga.com/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://experiencetioga.com/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Tioga Antiques Trail and the annual Owego Strawberry Festival are local cultural highlights.",
       "sourceSentenceIds": [
         13
@@ -83,15 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://experiencetioga.com/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://experiencetioga.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tioga-center-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.35,
-    "y": 0.5
-  }
+  ]
 }

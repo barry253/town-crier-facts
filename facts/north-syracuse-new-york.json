@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "North Syracuse is the first village north of the City of Syracuse, located on the historic road to Watertown and the North Country.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://northsyracuseny.org/history/"
+    },
+    {
       "id": 2,
       "text": "A historic Corduroy Road once crossed the area, built by shoveling layers of dirt and stones to create a sturdy path.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northsyracuseny.org/history/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://northsyracuseny.org/history/"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northsyracuseny.org/history/",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://northsyracuseny.org/history/"
     },
     {
       "id": 5,
@@ -68,9 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
     },
     {
       "id": 6,
@@ -81,20 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Syracuse%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-syracuse-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.502,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Quintin Soloviev",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Syracuse,_New_York_skyline_(cropped).jpg"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22536",
-      "category": "people",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/22536"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22536",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/22536"
     },
     {
       "id": 3,
@@ -55,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22536",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/22536"
     },
     {
       "id": 4,
@@ -68,10 +62,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Redwood%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Redwood%2C_New_York"
+    },
+    {
+      "id": 5,
+      "text": "Geographically, Redwood lies at 44°18′3″N 75°48′2″W, in the eastern part of Alexandria.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Redwood%2C_New_York"
     },
     {
       "id": 6,
@@ -82,24 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Redwood%2C_New_York",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Redwood%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/redwood-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.54,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Steven Hamsness",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St_Lawrence_in_Alexandria_Bay,_New_York._East_side.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Alexandria Bay, New York"
-  }
+  ]
 }

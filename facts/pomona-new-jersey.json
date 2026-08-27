@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pomona%2C_New_Jersey",
-      "category": "landmark",
-      "quality": "good",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Pomona%2C_New_Jersey"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pomona%2C_New_Jersey",
-      "category": "history",
-      "quality": "good",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Pomona%2C_New_Jersey"
     },
     {
       "id": 3,
+      "text": "The town sits at latitude 39.4785 and longitude –74.5752, right in Atlantic County’s heart.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/pomona.cfm"
+    },
+    {
+      "id": 4,
       "text": "Pomona’s total area is all land—no bodies of water touch its borders.",
       "sourceSentenceIds": [
         28
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/pomona.cfm",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/pomona.cfm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Atlantic County, where Pomona lies, observes Eastern Standard Time, shifting to daylight saving in the summer.",
       "sourceSentenceIds": [
         29
@@ -71,21 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/pomona.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/pomona.cfm"
+    },
+    {
+      "id": 6,
+      "text": "The Census Bureau classifies Pomona as a statistical entity with a Functional Status Code of “S.”",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/pomona.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pomona-new-jersey.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.532,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "US Government",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stockton_University_census-designated_place_(2020).jpg"
-  }
+  ]
 }

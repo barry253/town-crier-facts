@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/2572",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/2572"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/2572",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/2572"
     },
     {
       "id": 3,
@@ -55,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/2572",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://museumsdatabase.com/museums/view/2572"
     },
     {
       "id": 4,
+      "text": "Yankee Hill sits in Tuolumne County at an elevation of about 2,230 feet above sea level.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ca/yankee-hill-xx-tuolumne-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Two California communities share the name Yankee Hill; the one in Tuolumne County is the focus of this fact.",
       "sourceSentenceIds": [
         4
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/yankee-hill-xx-tuolumne-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ca/yankee-hill-xx-tuolumne-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Each year the society hosts an annual Yankee Hill Historic Tour, inviting visitors to explore the town’s rich history.",
       "sourceSentenceIds": [
         6
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/2572",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/2572"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yankee-hill-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Barera",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milwaukee_October_2025_16_(Milwaukee_River).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Yankee Hill, Milwaukee"
-  }
+  ]
 }

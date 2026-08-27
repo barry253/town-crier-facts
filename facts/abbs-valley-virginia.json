@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Abbs_Valley%2C_Virginia",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Abbs_Valley%2C_Virginia"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/abbs_valley_virginia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/abbs_valley_virginia"
     },
     {
       "id": 3,
@@ -57,12 +53,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/abbs-valley-xx-tazewell-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/abbs-valley-xx-tazewell-profile.htm"
     },
     {
       "id": 4,
+      "text": "The valley sits 2,610 feet above sea level, giving it a mild mountain climate.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/abbs-valley-xx-tazewell-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "During Shawnee conflicts, captives from Abbs Valley were taken to Ohio River villages, later returning after years.",
       "sourceSentenceIds": [
         5
@@ -70,12 +75,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/abbs_valley_virginia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/abbs_valley_virginia"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Early settlers focused on farming the rich soil, choosing isolation over conflict as their main strategy.",
       "sourceSentenceIds": [
         7
@@ -83,24 +86,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/abbs_valley_virginia",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/abbs_valley_virginia"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Falls Mills, Virginia"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/abbs-valley-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Erechtheus",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TazewellCoCH.JPG"
-  }
+  ]
 }

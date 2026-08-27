@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.thevillageofmillbrook.com/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.thevillageofmillbrook.com/"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.thevillageofmillbrook.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.thevillageofmillbrook.com/"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millbrook%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Millbrook%2C_Illinois"
     },
     {
       "id": 4,
@@ -70,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millbrook%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Millbrook%2C_Illinois"
     },
     {
       "id": 5,
@@ -84,20 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/millbrook-xx-kendall-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/millbrook-xx-kendall-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "The village sits at an elevation of 590 feet above sea level today.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/millbrook-xx-kendall-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millbrook-illinois.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Barera",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Waukesha_June_2023_018_(Fox_River_and_River_Walk).jpg"
-  }
+  ]
 }

@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_Home%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Valley_Home%2C_California"
     },
     {
       "id": 2,
+      "text": "The community sits just 151 feet above sea level, a modest elevation for the Central Valley.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Valley_Home%2C_California"
+    },
+    {
+      "id": 3,
       "text": "Valley Home serves as the shipping hub for the northeastern part of Stanislaus County.",
       "sourceSentenceIds": [
         13
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stancounty.com/board/unincorporated-cities/valley-home.shtm",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://www.stancounty.com/board/unincorporated-cities/valley-home.shtm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "German families began arriving around 1900, and the post office opened in 1903.",
       "sourceSentenceIds": [
         14
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stancounty.com/board/unincorporated-cities/valley-home.shtm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.stancounty.com/board/unincorporated-cities/valley-home.shtm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "After a wheat ranch was foreclosed, the land was irrigated by the Tulloch Ditch Company before being split into small ranches.",
       "sourceSentenceIds": [
         15,
@@ -69,24 +74,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stancounty.com/board/unincorporated-cities/valley-home.shtm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.stancounty.com/board/unincorporated-cities/valley-home.shtm"
+    },
+    {
+      "id": 6,
+      "text": "Its geographic coordinates are 37.8288 N latitude and –120.9122 W longitude for drivers navigating the Central Valley.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://california.hometownlocator.com/ca/stanislaus/valley-home.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valley-home-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "4300streetcar",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:California_Central_Valley_Aerial.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Central Valley (California)"
-  }
+  ]
 }

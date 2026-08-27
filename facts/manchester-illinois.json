@@ -21,6 +21,62 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Manchester is a village in southeast Scott County, Illinois, in the heart of rural Illinois.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manchester%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "Manchester is part of the Jacksonville Micropolitan Statistical Area within the broader region of central Illinois.",
+      "sourceSentenceIds": [
+        7,
+        21
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manchester%2C_Illinois"
+    },
+    {
+      "id": 3,
+      "text": "Manchester lies roughly 20 miles west of Jacksonville, a key regional hub.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-manchester-illinois.html"
+    },
+    {
+      "id": 4,
+      "text": "Manchester sits about 70 miles west of Springfield, Illinois’s state capital today.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-manchester-illinois.html"
+    },
+    {
+      "id": 5,
+      "text": "Manchester was listed in both the FIPS‑55 and the GNIS geographic databases.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/manchester-xx-scott-profile.htm"
+    },
+    {
       "id": 6,
       "text": "Manchester’s town hall offers contact details, office hours, and email for residents.",
       "sourceSentenceIds": [
@@ -29,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-manchester-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-manchester-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/manchester-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.58,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scott_County_Courthouse,_Winchester.jpg"
-  }
+  ]
 }

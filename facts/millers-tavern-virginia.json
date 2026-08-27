@@ -34,10 +34,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miller's_Tavern%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Miller's_Tavern%2C_Virginia"
     },
     {
       "id": 2,
@@ -48,9 +45,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/millers-tavern-xx-essex-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/millers-tavern-xx-essex-profile.htm"
     },
     {
       "id": 3,
@@ -64,12 +59,21 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miller's_Tavern%2C_Virginia",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Miller's_Tavern%2C_Virginia"
     },
     {
       "id": 4,
+      "text": "Millers Tavern rises 180 feet above sea level, offering a modest elevation for the region.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/millers-tavern-xx-essex-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The community appears in both the FIPS‑55 and GNIS databases, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         3
@@ -77,13 +81,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/millers-tavern-xx-essex-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/millers-tavern-xx-essex-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Millers Tavern is an unincorporated community, meaning it lacks its own municipal government.",
       "sourceSentenceIds": [
         1
@@ -91,21 +92,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Miller's_Tavern,_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Miller's_Tavern,_Virginia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millers-tavern-virginia.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.435,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Millers_Tavern_post_office_23115.jpg"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uledi%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Uledi%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uledi%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Uledi%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/uledi-xx-fayette-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/uledi-xx-fayette-profile.htm"
     },
     {
       "id": 4,
+      "text": "Uledi rests at an elevation of 1,180 feet above sea level today.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/uledi-xx-fayette-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Historical maps from 1895 list Uledi among Fayette County communities, though its founding date remains unknown.",
       "sourceSentenceIds": [
         28
@@ -70,19 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/uledi-xx-fayette-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/uledi-xx-fayette-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "The coordinates for Uledi still need verification, indicating ongoing mapping efforts in the region.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/uledi-xx-fayette-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fayette County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/uledi-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  }
+  ]
 }

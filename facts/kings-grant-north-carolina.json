@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Kings Grant lies within the Cape Fear and Harnett townships of North Carolina.",
+      "sourceSentenceIds": [
+        10,
+        25
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Kings_Grant%2C_North_Carolina"
+    },
+    {
       "id": 2,
       "text": "Its historic downtown offers charming streets and local shops that reflect the town’s small‑town feel.",
       "sourceSentenceIds": [
@@ -29,10 +41,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.islands.com/2043310/kings-grant-wilmington-charming-suburb-overlooked-north-carolina-gem-perched-sparkling-river/",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.islands.com/2043310/kings-grant-wilmington-charming-suburb-overlooked-north-carolina-gem-perched-sparkling-river/"
     },
     {
       "id": 3,
@@ -43,9 +52,29 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.islands.com/2043310/kings-grant-wilmington-charming-suburb-overlooked-north-carolina-gem-perched-sparkling-river/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.islands.com/2043310/kings-grant-wilmington-charming-suburb-overlooked-north-carolina-gem-perched-sparkling-river/"
+    },
+    {
+      "id": 4,
+      "text": "The town sits just 10 meters above sea level, giving it a low‑lying coastal character.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://travel.nears.me/countries/united-states/kings-grant-north-carolina-travel-guide/"
+    },
+    {
+      "id": 5,
+      "text": "At coordinates 34.26295, –77.8636, Kings Grant is positioned close to the Atlantic coast.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://travel.nears.me/countries/united-states/kings-grant-north-carolina-travel-guide/"
     },
     {
       "id": 6,
@@ -56,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/kings-grant-north-carolina-travel-guide/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://travel.nears.me/countries/united-states/kings-grant-north-carolina-travel-guide/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kings-grant-north-carolina.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.792,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "formulanone from Huntsville, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US117nNC132nRoadSigns_(39245152335).jpg"
-  }
+  ]
 }

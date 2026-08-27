@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Wayne Heights sits in southeastern Franklin County, just east of Washington Township’s center.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Wayne_Heights%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "Pennsylvania Route 16, the town’s Main Street, runs east to Blue Ridge Summit and west to Waynesboro.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wayne_Heights%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Wayne_Heights%2C_Pennsylvania"
+    },
+    {
+      "id": 3,
+      "text": "The community’s exact coordinates are 39.7437° N, 77.5539° W.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm"
     },
     {
       "id": 4,
@@ -43,10 +62,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm"
+    },
+    {
+      "id": 5,
+      "text": "As a census-designated place, Wayne Heights has no municipal government of its own.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm"
     },
     {
       "id": 6,
@@ -57,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://pennsylvania.hometownlocator.com/pa/franklin/wayne-heights.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wayne-heights-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Epstein.Mark",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Square_Chambersburg.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Franklin County, Pennsylvania"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm"
     },
     {
       "id": 2,
@@ -42,12 +40,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Siglerville%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Siglerville%2C_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "At 750 feet above sea level, Siglerville enjoys a modest elevation typical of central Pennsylvania.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm"
+    },
+    {
+      "id": 4,
+      "text": "Siglerville is part of Mifflin County, placing it within the heart of Pennsylvania’s rural landscape.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Both the FIPS‑55 and GNIS databases recognize Siglerville, confirming its official status as a geographic entity.",
       "sourceSentenceIds": [
         1
@@ -55,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "A dedicated cemetery list catalogues the burial sites around Siglerville, reflecting its long‑standing community heritage.",
       "sourceSentenceIds": [
         14
@@ -69,20 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/pa/siglerville-xx-mifflin-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bald Eagle State Forest"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/siglerville-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  }
+  ]
 }

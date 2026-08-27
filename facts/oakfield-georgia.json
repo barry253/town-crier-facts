@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakfield%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Oakfield%2C_Georgia"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakfield%2C_Georgia",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Oakfield%2C_Georgia"
     },
     {
       "id": 3,
@@ -57,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakfield%2C_Georgia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oakfield%2C_Georgia"
     },
     {
       "id": 4,
@@ -70,12 +62,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ga/oakfield-xx-worth-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/oakfield-xx-worth-profile.htm"
     },
     {
       "id": 5,
+      "text": "Oakfield rests 260 feet above sea level, offering gentle hills and views.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ga/oakfield-xx-worth-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Oakfield appears in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ga/oakfield-xx-worth-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ga/oakfield-xx-worth-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oakfield-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Rivera",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Worth_County_Courthouse,_(east_face).JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Worth County, Georgia"
-  }
+  ]
 }

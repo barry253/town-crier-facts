@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Hemby Bridge is a town in Union County, North Carolina located in the southeastern part of the state.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hemby_Bridge%2C_North_Carolina"
+    },
+    {
       "id": 2,
       "text": "The town covers 2.35 square miles of land and includes a small central business district.",
       "sourceSentenceIds": [
@@ -29,10 +40,29 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://northcarolina.hometownlocator.com/nc/union/hemby-bridge.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://northcarolina.hometownlocator.com/nc/union/hemby-bridge.cfm"
+    },
+    {
+      "id": 3,
+      "text": "Its geographic coordinates are 35.1188° N, 80.6303° W, placing it in Union County.",
+      "sourceSentenceIds": [
+        29
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://northcarolina.hometownlocator.com/nc/union/hemby-bridge.cfm"
+    },
+    {
+      "id": 4,
+      "text": "Hemby Bridge lies about 15 miles southeast of Charlotte, giving residents easy access to the city’s amenities.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/town-hemby-bridge.html"
     },
     {
       "id": 5,
@@ -43,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-hemby-bridge.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-hemby-bridge.html"
     },
     {
       "id": 6,
@@ -59,11 +86,5 @@
       ],
       "source": "https://www.citydirectory.us/town-hemby-bridge.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hemby-bridge-north-carolina.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.615,
-    "y": 0.5
-  }
+  ]
 }

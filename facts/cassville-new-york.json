@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cassville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Cassville%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cassville%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Cassville%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/cassville-xx-oneida-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/cassville-xx-oneida-profile.htm"
     },
     {
       "id": 4,
+      "text": "Cassville rests 1,240 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/cassville-xx-oneida-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Cassville is part of the town of Paris, sharing local governance and community services.",
       "sourceSentenceIds": [
         11
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.triphobo.com/places/cassville-new-york-united-states",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.triphobo.com/places/cassville-new-york-united-states"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Cassville’s location in Oneida County places it within the broader region of central New York.",
       "sourceSentenceIds": [
         24
@@ -84,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/cassville-xx-oneida-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ny/cassville-xx-oneida-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Oneida County, New York"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cassville-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.29,
-    "y": 0.5
-  }
+  ]
 }

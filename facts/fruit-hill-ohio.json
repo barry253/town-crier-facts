@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Fruit Hill sits at 39.07562°N, 84.36438°W and rises 221 meters above sea level.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://travel.nears.me/countries/united-states/fruit-hill-ohio-travel-guide/"
+    },
+    {
       "id": 2,
       "text": "Sunrise comes at 8:02 a.m. and sunset at 6:48 p.m., giving the town a 10‑hour‑46‑minute day.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_fruit-hill",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_fruit-hill"
+    },
+    {
+      "id": 3,
+      "text": "The community is a census‑designated place, meaning it has no municipal government but is recognized for statistical purposes.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://travel.nears.me/countries/united-states/fruit-hill-ohio-travel-guide/"
     },
     {
       "id": 4,
@@ -43,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruit_Hill%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Fruit_Hill%2C_Ohio"
     },
     {
       "id": 5,
@@ -57,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/fruit-hill-ohio-travel-guide/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://travel.nears.me/countries/united-states/fruit-hill-ohio-travel-guide/"
     },
     {
       "id": 6,
@@ -71,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/fruit-hill-ohio-travel-guide/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://travel.nears.me/countries/united-states/fruit-hill-ohio-travel-guide/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fruit-hill-ohio.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.6,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Warren LeMay from Chicago, IL, United States",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg"
-  }
+  ]
 }

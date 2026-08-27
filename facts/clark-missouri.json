@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Clark, Missouri, sits in Randolph County, a central Missouri county known for its agricultural heritage.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri"
+    },
+    {
       "id": 2,
       "text": "The town’s post office has been serving residents since 1887, a testament to its long‑standing community roots.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri",
-      "category": "landmark",
-      "quality": "good",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri"
     },
     {
       "id": 3,
@@ -44,9 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri"
     },
     {
       "id": 4,
@@ -57,20 +63,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Clark%2C_Missouri"
+    },
+    {
+      "id": 5,
+      "text": "Clark straddles both Randolph and Audrain counties, reflecting its unique position at the county line in central Missouri.",
+      "sourceSentenceIds": [
+        29
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/city-clark-missouri.html"
+    },
+    {
+      "id": 6,
+      "text": "The city lies roughly 25 miles north of Columbia, placing it within easy reach of the state’s larger urban center.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/city-clark-missouri.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clark-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.51,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "JERRYE & ROY KLOTZ MD",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CLARK_COUNTY_COURTHOUSE.jpg"
-  }
+  ]
 }

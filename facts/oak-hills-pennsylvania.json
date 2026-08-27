@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Oak Hills sits at 40.825° N, 79.919° W, right in southern Butler Township.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "Its northern edge follows Connoquenessing Creek, while Meadowood borders it to the northeast.",
       "sourceSentenceIds": [
@@ -30,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -44,9 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -57,9 +63,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania"
+    },
+    {
+      "id": 5,
+      "text": "Oak Hills is officially a census‑designated place within Butler County, Pennsylvania.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oak_Hills%2C_Pennsylvania"
     },
     {
       "id": 6,
@@ -71,16 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyoakhills.htm",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/pacountyoakhills.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oak-hills-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.545,
-    "y": 0.5
-  }
+  ]
 }

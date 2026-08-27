@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Lakewood Shores sits at 41°16′3″N 88°8′9″W, placing it just north of Chicago’s western suburbs.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois"
+    },
+    {
+      "id": 2,
       "text": "About 15% of the 2.3‑square‑mile community is water, giving it a small lake‑front feel.",
       "sourceSentenceIds": [
         19
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The CDP contains 557 housing units, averaging 240 per square mile.",
       "sourceSentenceIds": [
         4
@@ -43,21 +51,40 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois"
+    },
+    {
+      "id": 4,
+      "text": "The median age of residents is 36, reflecting a relatively young population.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois"
+    },
+    {
+      "id": 5,
+      "text": "Racially, Lakewood Shores is 97.51% White, with small percentages of African American, Native American, Asian, and mixed races.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois"
+    },
+    {
+      "id": 6,
+      "text": "Average household size is 2.88 people, while families average 3.27.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakewood_Shores%2C_Illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakewood-shores-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.26,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Teemu008 from Palatine, Illinois",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flanders_House_(5978683004).jpg"
-  }
+  ]
 }

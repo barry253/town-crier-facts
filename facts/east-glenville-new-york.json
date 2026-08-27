@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "East Glenville is a census‑designated place in the town of Glenville, New York.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/East_Glenville%2C_New_York"
+    },
+    {
+      "id": 2,
       "text": "The hamlet of Alplaus is part of the East Glenville CDP.",
       "sourceSentenceIds": [
         4
@@ -29,13 +40,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Glenville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/East_Glenville%2C_New_York"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Its geographic coordinates are 42°52′9″N 73°54′58″W.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/East_Glenville%2C_New_York"
+    },
+    {
+      "id": 4,
+      "text": "The primary coordinate point listed for East Glenville is 42.8945°N, 73.9279°W.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newyork.hometownlocator.com/ny/schenectady/east-glenville.cfm"
+    },
+    {
+      "id": 5,
       "text": "Schenectady County, where East Glenville sits, observes Eastern time (GMT‑5).",
       "sourceSentenceIds": [
         22
@@ -43,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/schenectady/east-glenville.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://newyork.hometownlocator.com/ny/schenectady/east-glenville.cfm"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "The area includes 0.29 square miles of water.",
       "sourceSentenceIds": [
         21
@@ -57,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/schenectady/east-glenville.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://newyork.hometownlocator.com/ny/schenectady/east-glenville.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-glenville-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "UpstateNYer",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nott_and_Chapel.JPG"
-  }
+  ]
 }

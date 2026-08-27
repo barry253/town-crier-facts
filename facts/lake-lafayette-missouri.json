@@ -35,10 +35,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Lafayette%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Lake_Lafayette%2C_Missouri"
     },
     {
       "id": 2,
@@ -49,10 +46,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-lake-lafayette.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-lake-lafayette.html"
     },
     {
       "id": 3,
@@ -65,10 +59,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-lake-lafayette.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-lake-lafayette.html"
     },
     {
       "id": 4,
@@ -79,13 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-lake-lafayette.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/city-lake-lafayette.html"
     },
     {
       "id": 5,
+      "text": "The city’s median age is 43.8 years, reflecting a mature community profile.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Lafayette%2C_Missouri"
+    },
+    {
+      "id": 6,
       "text": "About 53% of Lake Lafayette’s residents are male, with the remaining 47% female.",
       "sourceSentenceIds": [
         12
@@ -93,16 +92,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Lafayette%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lake_Lafayette%2C_Missouri"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-lafayette-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.68,
-    "y": 0.5
-  }
+  ]
 }

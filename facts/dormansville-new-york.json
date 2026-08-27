@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dormansville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Dormansville%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dormansville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Dormansville%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm"
     },
     {
       "id": 4,
+      "text": "Dormansville rests 1,010 feet above sea level, giving it a gently rolling hilltop setting.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The hamlet appears in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         1
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "An 1895 atlas lists Dormansville among communities that had either a post office or railroad service.",
       "sourceSentenceIds": [
         25
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/dormansville-xx-albany-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dormansville-new-york.jpg",
-  "imageSource": "wikipedia_town",
-  "imageFocus": {
-    "x": 0.55,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Case",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NY_32_in_Westerlo.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Albany County, New York"
-  }
+  ]
 }

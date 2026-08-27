@@ -29,10 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California"
+    },
+    {
+      "id": 2,
+      "text": "The town sits at 922 feet elevation, about 7.5 miles southwest of Hopland.",
+      "sourceSentenceIds": [
+        6,
+        13,
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California"
     },
     {
       "id": 3,
@@ -46,9 +57,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California"
     },
     {
       "id": 4,
@@ -62,9 +71,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California"
     },
     {
       "id": 5,
@@ -78,9 +85,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California"
     },
     {
       "id": 6,
@@ -95,24 +100,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Yorkville%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yorkville-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.28,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Missvain",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anchor_Bay_-_April_2023_-_Sarah_Stierch_01.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Anchor Bay, California"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Camp Pendleton Mainside is a census-designated place on the Marine Corps base, located at 33°18′18″N 117°18′22″W.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_Mainside%2C_California"
+    },
+    {
       "id": 2,
       "text": "The name changed to Camp Pendleton Mainside before the 2020 census to distinguish it from Camp Pendleton South.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_Mainside%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_Mainside%2C_California"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://camppendletonhistoricalsociety.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://camppendletonhistoricalsociety.org/"
     },
     {
       "id": 4,
@@ -56,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.pendleton.marines.mil/About/History/",
-      "category": "landmark",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.pendleton.marines.mil/About/History/"
     },
     {
       "id": 5,
@@ -70,21 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.pendleton.marines.mil/About/History/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.pendleton.marines.mil/About/History/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/camp-pendleton-mainside-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Davidlud",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4.3LasPlayasSunset1_copy_1.jpg"
-  }
+  ]
 }

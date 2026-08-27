@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Prattville sits at 40°12′29″N 121°9′24″W in the Sierra Nevada foothills.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Prattville%2C_California"
+    },
+    {
       "id": 2,
       "text": "The town’s cemetery was physically relocated, with graves dug up, moved, and reburied.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://plumascounty.org/rich-history/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://plumascounty.org/rich-history/"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://plumascounty.org/rich-history/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://plumascounty.org/rich-history/"
     },
     {
       "id": 4,
@@ -57,21 +63,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://plumascounty.org/rich-history/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://plumascounty.org/rich-history/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prattville-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Unknown author Unknown author",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
-  }
+  ]
 }

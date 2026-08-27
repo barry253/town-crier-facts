@@ -29,13 +29,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Coma%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/La_Coma%2C_Texas"
     },
     {
       "id": 2,
+      "text": "Its latitude and longitude read 27°30′10″N, 99°18′5″W, placing it just south of Laredo.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Coma%2C_Texas"
+    },
+    {
+      "id": 3,
+      "text": "The census‑designated place covers 1.2 square miles, all of which is land.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/La_Coma%2C_Texas"
+    },
+    {
+      "id": 4,
       "text": "La Coma sits on the rolling South Texas Plains, a landscape of flat grasslands.",
       "sourceSentenceIds": [
         11
@@ -43,12 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/la-coma-xx-webb-profile.htm",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/tx/la-coma-xx-webb-profile.htm"
     },
     {
-      "id": 3,
+      "id": 5,
+      "text": "The community rises 560 feet above sea level, giving it a mild elevation.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/tx/la-coma-xx-webb-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Students in La Coma attend Freedom Elementary, Raul Perales Middle, and United South High School.",
       "sourceSentenceIds": [
         8
@@ -56,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Coma%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/La_Coma%2C_Texas"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-coma-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Copernico Contreras",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Webb County, Texas"
-  }
+  ]
 }

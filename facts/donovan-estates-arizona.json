@@ -29,13 +29,44 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates"
     },
     {
       "id": 2,
+      "text": "The median age of residents in Donovan Estates is 29.1 years.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Donovan_Estates%2C_Arizona"
+    },
+    {
+      "id": 3,
+      "text": "Of the 394 housing units in Donovan Estates, 20 are vacant, giving a homeowner vacancy rate of 1.0% and a rental vacancy rate of 7.7%.",
+      "sourceSentenceIds": [
+        6,
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Donovan_Estates%2C_Arizona"
+    },
+    {
+      "id": 4,
+      "text": "Donovan Estates sits just outside Phoenix, making it part of the larger Phoenix metropolitan area.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates"
+    },
+    {
+      "id": 5,
       "text": "The community is primarily residential, offering a suburban lifestyle with easy access to urban amenities.",
       "sourceSentenceIds": [
         16
@@ -43,13 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.trawellino.com/destinations/united-states/arizona_donovan-estates"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "Students in Donovan Estates attend Suverkrup Elementary, Crane Middle, and Cibola High School.",
       "sourceSentenceIds": [
         12,
@@ -59,25 +87,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Donovan_Estates%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Donovan_Estates%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/donovan-estates-arizona.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CIA World Factbook",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mountain Standard Time Zone"
-  }
+  ]
 }

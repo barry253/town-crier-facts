@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Burnside first appeared on the 2000 U.S. Census as a census-designated place, marking its official recognition.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Burnside%2C_Arizona"
+    },
+    {
       "id": 2,
       "text": "The community contains 216 housing units, spread across an area that averages 23.2 units per square mile.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burnside%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Burnside%2C_Arizona"
     },
     {
       "id": 3,
@@ -43,9 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burnside%2C_Arizona",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Burnside%2C_Arizona"
+    },
+    {
+      "id": 4,
+      "text": "Burnside sits at latitude 35.7511 and longitude –109.6245, placing it firmly within Apache County's high desert landscape.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://arizona.hometownlocator.com/az/apache/burnside.cfm"
     },
     {
       "id": 5,
@@ -56,21 +73,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arizona.hometownlocator.com/az/apache/burnside.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://arizona.hometownlocator.com/az/apache/burnside.cfm"
+    },
+    {
+      "id": 6,
+      "text": "As a census-designated place, Burnside has no legal municipal government, relying instead on county-level administration.",
+      "sourceSentenceIds": [
+        22,
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://arizona.hometownlocator.com/az/apache/burnside.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/burnside-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Zereshk",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apache_Sitgreaves_Nima2.JPG"
-  }
+  ]
 }

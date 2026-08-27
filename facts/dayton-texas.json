@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Dayton was founded in 1831 as West Liberty, three miles west of the Trinity River.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Texas"
+    },
+    {
+      "id": 2,
       "text": "The town became a flag‑stop for the Texas‑New Orleans Railroad in 1860, known as Days Station or Dayton Station.",
       "sourceSentenceIds": [
         4,
@@ -32,12 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/dayton-tx",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/dayton-tx"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The Jones Public Library serves the Dayton community, preserving local history today.",
       "sourceSentenceIds": [
         23
@@ -45,13 +54,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Texas",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Texas"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Dayton’s original name, West Liberty, reflected its position west of the Trinity River, separating it from Liberty on the east bank.",
       "sourceSentenceIds": [
         6
@@ -59,20 +65,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofdaytontx.com/things-to-do/discover-dayton/our-history",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.cityofdaytontx.com/things-to-do/discover-dayton/our-history"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dayton-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.476,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "StationNT5Bmedia",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DaytonLibraryCenterSF.jpg"
-  }
+  ]
 }

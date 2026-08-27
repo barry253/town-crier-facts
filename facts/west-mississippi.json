@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "West is a small town located in northeastern Holmes County, Mississippi, with a rich history.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi"
+    },
+    {
+      "id": 2,
+      "text": "West is the easternmost municipality in Holmes County and serves as a key gateway to the Big Black River.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi"
+    },
+    {
       "id": 3,
       "text": "West borders the Big Black River to the east, which also marks the Attala County line.",
       "sourceSentenceIds": [
@@ -29,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi"
     },
     {
       "id": 4,
@@ -42,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi"
     },
     {
       "id": 5,
@@ -55,10 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi"
     },
     {
       "id": 6,
@@ -69,10 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/West%2C_Mississippi"
     }
   ]
 }

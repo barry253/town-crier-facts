@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "West Campus is bounded by West 29th, Guadalupe, North Lamar, and Martin Luther King Jr. Streets.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/West_Campus,_Austin,_Texas"
+    },
+    {
       "id": 2,
       "text": "West Campus hosts most of Texas A&M’s sports venues, the business school, agricultural programs, veterinary college, the Bush Presidential Library, and the medical school.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campus_of_Texas_A%26M_University",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Campus_of_Texas_A%26M_University"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campus_of_Texas_A%26M_University",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Campus_of_Texas_A%26M_University"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campus_of_Texas_A%26M_University",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Campus_of_Texas_A%26M_University"
     },
     {
       "id": 5,
@@ -68,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/West_Campus,_Austin,_Texas",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/West_Campus,_Austin,_Texas"
     },
     {
       "id": 6,
@@ -81,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mountbonnell.info/atx-hoods-a-to-z/original-west-university",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.mountbonnell.info/atx-hoods-a-to-z/original-west-university"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-campus-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.607,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "AndreDaGamer",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Campus_Texas_A%26M.jpg"
-  }
+  ]
 }

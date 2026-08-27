@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Norris Canyon sits at 1,063 feet above sea level, giving it a mild, high‑land climate.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Norris_Canyon%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Every resident lives in a rural setting—100 % of the population is classified as rural.",
       "sourceSentenceIds": [
         9
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Norris_Canyon%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Norris_Canyon%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The community has 385 housing units, spread out at roughly 107 units per square mile.",
       "sourceSentenceIds": [
         6
@@ -43,13 +51,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Norris_Canyon%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Norris_Canyon%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "Owner‑occupied homes dominate the area, with 95 % of occupied units owned by their residents.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Norris_Canyon%2C_California"
+    },
+    {
+      "id": 5,
+      "text": "The median home value in 2024 tops $870,000, well above the California average.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.city-data.com/city/Norris-Canyon-California.html"
+    },
+    {
+      "id": 6,
       "text": "The cost of living index in Norris Canyon is 120.1, indicating a higher expense level than the national average.",
       "sourceSentenceIds": [
         10
@@ -57,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Norris-Canyon-California.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Norris-Canyon-California.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/norris-canyon-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alfred Twu",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bay Point, California"
-  }
+  ]
 }

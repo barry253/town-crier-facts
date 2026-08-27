@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sheridan_Lake%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sheridan_Lake%2C_Colorado"
     },
     {
       "id": 2,
@@ -44,12 +42,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/sheridan-lake-xx-kiowa-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/co/sheridan-lake-xx-kiowa-profile.htm"
     },
     {
       "id": 3,
+      "text": "At 4,070 feet above sea level, Sheridan Lake sits high in eastern Kiowa County.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/co/sheridan-lake-xx-kiowa-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Colorado State Highway 385 cuts through Sheridan Lake, linking it to Cheyenne Wells and Granada.",
       "sourceSentenceIds": [
         16
@@ -57,21 +64,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sheridan_Lake%2C_Colorado",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Sheridan_Lake%2C_Colorado"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sheridan-lake-colorado.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.67,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Quintin Soloviev",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sheridan_Lake,_CO.jpg"
-  }
+  ]
 }

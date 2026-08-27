@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Linden sits atop the Mogollon Rim, rising over 6,000 feet above sea level.",
+      "sourceSentenceIds": [
+        8,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona"
+    },
+    {
+      "id": 2,
       "text": "State Route 260 cuts through Linden, serving as the main artery that connects the community to Show Low.",
       "sourceSentenceIds": [
         13
@@ -29,13 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "In 1891, a post office opened in Linden, marking the first federal presence in the area.",
       "sourceSentenceIds": [
         22
@@ -43,12 +53,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/linden-xx-navajo-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/az/linden-xx-navajo-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The 2002 Rodeo‑Chediski fire forced a temporary evacuation, and the blaze later scorched parts of Linden.",
       "sourceSentenceIds": [
         9
@@ -56,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Linden’s landscape is dominated by Ponderosa pine, pinyon pine, Gambel oak, and alligator juniper.",
       "sourceSentenceIds": [
         15
@@ -69,12 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Archaeologists uncovered the Roundy Crossing site near Linden, where 12th‑century petroglyphs depict the winter sky.",
       "sourceSentenceIds": [
         17
@@ -82,20 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Linden%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/linden-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.38,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jackson, William Henry, 1843-1942, photographer; Detroit Photographic Co., publisher",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thanksgiving_dance,_Oraibi,_Arizona_LCCN2017658704.jpg"
-  }
+  ]
 }

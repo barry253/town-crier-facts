@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Crescent City sits in Iroquois and Crescent townships of Iroquois County, Illinois.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois"
+    },
+    {
       "id": 2,
       "text": "Illinois Route 24 cuts through the village center, linking it east to Watseka and west to Gilman near I‑57.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois"
     },
     {
       "id": 4,
@@ -57,10 +62,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Crescent_City%2C_Illinois"
+    },
+    {
+      "id": 5,
+      "text": "Crescent City lies about 90 miles south of Chicago, 15 miles north of Watseka.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-crescent-city-illinois.html"
     },
     {
       "id": 6,
@@ -71,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-crescent-city-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.citydirectory.us/village-crescent-city-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crescent-city-illinois.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.727,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "David Wilson",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20120324_081_Crescent_City,_Illinois.jpg"
-  }
+  ]
 }

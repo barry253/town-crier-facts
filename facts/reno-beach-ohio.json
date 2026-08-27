@@ -30,10 +30,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reno_Beach%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Reno_Beach%2C_Ohio"
     },
     {
       "id": 2,
@@ -45,9 +42,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://rbhfcd.org/"
     },
     {
       "id": 3,
@@ -58,9 +53,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://rbhfcd.org/"
     },
     {
       "id": 4,
@@ -72,9 +65,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://rbhfcd.org/"
+    },
+    {
+      "id": 5,
+      "text": "Reno Beach’s latitude and longitude are 41°39'48\"N 83°16'10\"W, placing it at 41.6634,-83.2694 on the map.",
+      "sourceSentenceIds": [
+        26,
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.mapsof.net/reno-beach"
     },
     {
       "id": 6,
@@ -85,25 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbhfcd.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://rbhfcd.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/reno-beach-ohio.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.13,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "NOAA",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A1.23188.1851.LakeErie.143.250m.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Erie"
-  }
+  ]
 }

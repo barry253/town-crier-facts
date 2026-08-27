@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wasco%2C_Illinois",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wasco%2C_Illinois"
     },
     {
       "id": 2,
@@ -45,9 +43,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wasco%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wasco%2C_Illinois"
     },
     {
       "id": 3,
@@ -58,13 +54,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/wasco_illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://grokipedia.com/page/wasco_illinois"
     },
     {
       "id": 4,
+      "text": "Wasco's landscape blends 57% agricultural land, 26% commercial uses, and 15% open space, preserving historic barns and the Whitney Cemetery.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/wasco_illinois"
+    },
+    {
+      "id": 5,
       "text": "The Great Western Trail, once a freight rail line, now offers recreational paths through Wasco’s rolling hills.",
       "sourceSentenceIds": [
         4
@@ -72,12 +76,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/wasco_illinois",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/wasco_illinois"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "In 2007, Wasco became part of the village of Campton Hills, keeping its semi‑rural character.",
       "sourceSentenceIds": [
         10
@@ -85,24 +87,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wasco%2C_Illinois",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wasco%2C_Illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wasco-illinois.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.76,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Teemu008 from Palatine, Illinois",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campton_Town_Hall_(10725375446).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Campton Hills"
-  }
+  ]
 }

@@ -21,6 +21,19 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Ben Avon Heights sits on a hill above the Ohio River nine miles from Pittsburgh, offering sweeping views of the river valley.",
+      "sourceSentenceIds": [
+        7,
+        18
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Wikipedia"
+      ],
+      "source": "https://benavonheightsborough.com/borough/borough-history.html"
+    },
+    {
       "id": 2,
       "text": "The borough was incorporated in 1913 after the Ben Avon Country Club closed, and its former land was subdivided into residential lots.",
       "sourceSentenceIds": [
@@ -30,9 +43,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -43,9 +54,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -59,9 +68,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27510",
-      "category": "history",
-      "quality": "good"
+      "source": "https://museumsdatabase.com/museums/view/27510"
     },
     {
       "id": 5,
@@ -73,9 +80,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://benavonheightsborough.com/borough/borough-history.html",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://benavonheightsborough.com/borough/borough-history.html"
     },
     {
       "id": 6,
@@ -86,20 +91,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ben_Avon_Heights%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ben-avon-heights-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.352,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynton_Lane_in_Ben_Avon_Heights.jpg"
-  }
+  ]
 }

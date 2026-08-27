@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishs_Eddy%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Fishs_Eddy%2C_New_York"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm"
     },
     {
       "id": 3,
+      "text": "Fishs Eddy sits 980 feet above sea level, offering a modest elevation within the county.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The Basket Historical Society curates a museum and newsletter that preserve Fishs Eddy’s local history and legends.",
       "sourceSentenceIds": [
         6
@@ -57,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://baskethistorical.nygenweb.net/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://baskethistorical.nygenweb.net/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Despite its historic roots, Fishs Eddy does not have a dedicated website of its own.",
       "sourceSentenceIds": [
         15
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Fishs Eddy is officially recognized in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         1
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/fishs-eddy-xx-delaware-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fishs-eddy-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.71,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Case",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Branch_Delaware_River_at_Margaretville,_NY.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "East Branch Delaware River"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenford%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Glenford%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenford%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Glenford%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/glenford-xx-ulster-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/glenford-xx-ulster-profile.htm"
     },
     {
       "id": 4,
+      "text": "Glenford rests 650 feet above sea level, offering a modest elevation within the Catskills region.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/glenford-xx-ulster-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "By the late 1800s, Glenford, West Hurley, and Ashton were booming communities in the area.",
       "sourceSentenceIds": [
         6
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hurleyheritagesociety.org/history/old-ashton-glenford-west-hurley/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.hurleyheritagesociety.org/history/old-ashton-glenford-west-hurley/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "A rock cut for the Ulster and Delaware Railroad near West Hurley illustrates the historic rail line that once served Glenford.",
       "sourceSentenceIds": [
         7
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hurleyheritagesociety.org/history/old-ashton-glenford-west-hurley/",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://www.hurleyheritagesociety.org/history/old-ashton-glenford-west-hurley/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glenford-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Case",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_High_Falls,_NY.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "High Falls, New York"
-  }
+  ]
 }

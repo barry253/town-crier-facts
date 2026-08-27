@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Nelson sits at latitude 32.429 and longitude –111.2695 in Pima County.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm"
+    },
+    {
       "id": 2,
       "text": "Nelson observes Mountain Time, which is GMT‑7.",
       "sourceSentenceIds": [
@@ -29,10 +40,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm"
+    },
+    {
+      "id": 3,
+      "text": "Nelson is a census‑designated place, not a legal entity with its own government.",
+      "sourceSentenceIds": [
+        5,
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm"
     },
     {
       "id": 4,
@@ -43,10 +63,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm"
     },
     {
       "id": 5,
@@ -58,10 +75,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm"
     },
     {
       "id": 6,
@@ -74,21 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://arizona.hometownlocator.com/az/pima/nelson.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nelson-arizona.jpg",
-  "imageSource": "wikipedia_county_courthouse",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Tillman",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_Co._Copper_mines.jpg"
-  }
+  ]
 }

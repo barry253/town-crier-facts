@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Brownsdale is a census‑designated place in Santa Rosa County, Florida.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/santa-rosa/brownsdale.cfm"
+    },
+    {
+      "id": 2,
+      "text": "Its latitude is 30.8824 and longitude is –87.2255.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/santa-rosa/brownsdale.cfm"
+    },
+    {
+      "id": 3,
       "text": "The community observes Central Time, GMT‑6.",
       "sourceSentenceIds": [
         7
@@ -29,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/santa-rosa/brownsdale.cfm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://florida.hometownlocator.com/fl/santa-rosa/brownsdale.cfm"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "As a CDP, Brownsdale has no governmental functions.",
       "sourceSentenceIds": [
         9
@@ -42,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/santa-rosa/brownsdale.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://florida.hometownlocator.com/fl/santa-rosa/brownsdale.cfm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The Gazetteer was created to help travelers learn about ancestors’ homes.",
       "sourceSentenceIds": [
         27,
@@ -59,13 +76,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/brownsdale-xx-santa-rosa-genealogy.htm",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/fl/brownsdale-xx-santa-rosa-genealogy.htm"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Genealogy sites list Brownsdale as a historic community in Santa Rosa County.",
       "sourceSentenceIds": [
         26
@@ -73,21 +87,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/brownsdale-xx-santa-rosa-genealogy.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/fl/brownsdale-xx-santa-rosa-genealogy.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brownsdale-florida.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ebyabe",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PC_Bay_Cnty_crths01.jpg"
-  }
+  ]
 }

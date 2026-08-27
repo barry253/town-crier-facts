@@ -22,6 +22,29 @@
   "facts": [
     {
       "id": 1,
+      "text": "Oreminea sits in eastern Blair County, within Huston Township, perched 1,370 feet above sea level.",
+      "sourceSentenceIds": [
+        7,
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oreminea%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "The community lies just one mile east of Clappertown and six miles southwest of Williamsburg, making it a quiet rural spot.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Oreminea%2C_Pennsylvania"
+    },
+    {
+      "id": 3,
       "text": "The earliest map showing Oreminea dates to 1911, though its name appears on older FIPS‑55 and GNIS records.",
       "sourceSentenceIds": [
         2,
@@ -30,12 +53,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/oreminea-xx-blair-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/oreminea-xx-blair-profile.htm"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "Historic photographs from the 1880s‑1930s capture Oreminea’s mining pit, railroad, and workers, offering a window into its industrial past.",
       "sourceSentenceIds": [
         1,
@@ -44,24 +65,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.flickr.com/photos/pennstatespecial/albums/72157629132251744/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.flickr.com/photos/pennstatespecial/albums/72157629132251744/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oreminea-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Blair County, Pennsylvania"
-  }
+  ]
 }

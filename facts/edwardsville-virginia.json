@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://madcotowers.org/edwardsville/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://madcotowers.org/edwardsville/"
     },
     {
       "id": 2,
@@ -42,12 +40,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://madcotowers.org/edwardsville/",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://madcotowers.org/edwardsville/"
     },
     {
       "id": 3,
+      "text": "The 1860s facility was originally constructed as a working farm for the community.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://madcotowers.org/edwardsville/"
+    },
+    {
+      "id": 4,
       "text": "The Madison County Historical Society holds Poor Farm records from 1880 to 1859.",
       "sourceSentenceIds": [
         5
@@ -55,13 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://madcotowers.org/edwardsville/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://madcotowers.org/edwardsville/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Edwardsville is an unincorporated community in Northumberland County, Virginia in the United States.",
       "sourceSentenceIds": [
         6
@@ -69,25 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edwardsville%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Edwardsville%2C_Virginia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edwardsville-virginia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.46,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holley_Graded_School.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake, Virginia"
-  }
+  ]
 }

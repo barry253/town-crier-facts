@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ingraham%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Ingraham%2C_Illinois"
     },
     {
       "id": 2,
+      "text": "The community sits 480 feet above sea level, giving it a modest elevation within the region.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "A post office began serving Ingraham in 1862, marking its early establishment as a local hub.",
       "sourceSentenceIds": [
         9
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Ingraham lies roughly six miles north-northeast of Sailor Springs, placing it within easy reach of that nearby town.",
       "sourceSentenceIds": [
         6
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ingraham%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Ingraham%2C_Illinois"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Official geographic databases list Ingraham in both the FIPS‑55 and GNIS systems, confirming its recognized status.",
       "sourceSentenceIds": [
         2
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historical records note that Ingraham once had a railroad service, linking it to broader trade routes.",
       "sourceSentenceIds": [
         3
@@ -84,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/ingraham-xx-clay-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ingraham-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.28,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_County_Courthouse_in_Louisville_from_north-northwest.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Clay County, Illinois"
-  }
+  ]
 }

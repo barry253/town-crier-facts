@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Walnut Bottom is an unincorporated community in Cumberland County, Pennsylvania.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Walnut_Bottom%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
       "text": "The community sits along Pennsylvania Route 174, 6.7 miles east‑northeast of Shippensburg.",
       "sourceSentenceIds": [
         6
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walnut_Bottom%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Walnut_Bottom%2C_Pennsylvania"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "A post office opened in Walnut Bottom in 1850, marking its early development.",
       "sourceSentenceIds": [
         28
@@ -43,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/walnut-bottom-xx-cumberland-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/walnut-bottom-xx-cumberland-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "Walnut Bottom rises 720 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        29
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/walnut-bottom-xx-cumberland-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The town of many names almost ceased to exist in the early morning hours of April 23, 1915.",
       "sourceSentenceIds": [
         10
@@ -56,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cumberlink.com/news/local/history/article_ad7d10e8-7408-58cd-9800-45e91be5ed98.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://cumberlink.com/news/local/history/article_ad7d10e8-7408-58cd-9800-45e91be5ed98.html"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Walnut Bottom lies within Cumberland County, Pennsylvania, a region rich in early American history.",
       "sourceSentenceIds": [
         27
@@ -70,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/walnut-bottom-xx-cumberland-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/pa/walnut-bottom-xx-cumberland-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/walnut-bottom-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.28,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Springfieldohio",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Middle_Springs_Pennsylvania_Presbyterian_Church_Plaque.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Cumberland County, Pennsylvania"
-  }
+  ]
 }

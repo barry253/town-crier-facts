@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -44,12 +42,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Tiona,_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Tiona,_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "Tiona sits at an elevation of 1,362 feet (415 meters) above sea level.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
       "text": "It lies roughly halfway between the larger towns of Clarendon and Sheffield.",
       "sourceSentenceIds": [
         8
@@ -57,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town is part of Pennsylvania’s historic oil country, a region that fueled early industrial growth.",
       "sourceSentenceIds": [
         1
@@ -70,12 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Tiona is an unincorporated community within Mead Township, lacking its own municipal government.",
       "sourceSentenceIds": [
         5
@@ -83,24 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tiona%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tiona-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.28,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Adam Moss from East Amherst, New York, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Center_Street,_Bear_Lake,_Pennsylvania.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bear Lake, Pennsylvania"
-  }
+  ]
 }

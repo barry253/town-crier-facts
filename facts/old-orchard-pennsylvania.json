@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Old Orchard sits at 40°39′21″N 75°15′29″W, placing it just north of the 40th parallel.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Old_Orchard%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
       "text": "The community covers roughly 1.66 square miles, all of which is land with no significant bodies of water.",
       "sourceSentenceIds": [
         21,
@@ -30,13 +41,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyoldorchard.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/pacountyoldorchard.htm"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "At an elevation of about 417 meters, Old Orchard rises above the surrounding Pennsylvania countryside.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/"
+    },
+    {
+      "id": 4,
       "text": "Travel guides describe Old Orchard as a quintessential American destination, blending historic charm with modern conveniences.",
       "sourceSentenceIds": [
         3
@@ -44,13 +63,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The town’s cultural appeal is highlighted by its deep heritage and the way it showcases Pennsylvania’s diverse history.",
       "sourceSentenceIds": [
         4
@@ -58,13 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Visitors often note Old Orchard’s welcoming atmosphere, where local hospitality meets authentic community life.",
       "sourceSentenceIds": [
         6
@@ -72,20 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://travel.nears.me/countries/united-states/old-orchard-pennsylvania-travel-guide/"
     }
-  ],
-  "imageFallback": {
-    "strategy": "primary",
-    "source": null
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/old-orchard-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.57,
-    "y": 0.5
-  }
+  ]
 }

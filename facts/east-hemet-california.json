@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "East Hemet sits just outside the city limits of Hemet, making it an unincorporated community.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/East_Hemet%2C_California"
+    },
+    {
+      "id": 2,
+      "text": "The community lies at 33°44′10″N 116°56′25″W, a spot that marks the heart of the San Jacinto Valley.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/East_Hemet%2C_California"
+    },
+    {
       "id": 3,
       "text": "Hemet was founded long before Riverside County even existed, showing how early settlers carved out this valley.",
       "sourceSentenceIds": [
@@ -29,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thehemetmuseum.org/exhibits/some-facts-about-hemet/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://thehemetmuseum.org/exhibits/some-facts-about-hemet/"
     },
     {
       "id": 4,
@@ -42,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thehemetmuseum.org/exhibits/some-facts-about-hemet/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://thehemetmuseum.org/exhibits/some-facts-about-hemet/"
     },
     {
       "id": 5,
@@ -55,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thehemetmuseum.org/exhibits/some-facts-about-hemet/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://thehemetmuseum.org/exhibits/some-facts-about-hemet/"
     },
     {
       "id": 6,
@@ -68,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hemetca.gov/120/History-of-Hemet",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://www.hemetca.gov/120/History-of-Hemet"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-hemet-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pf1127",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canyon_Lake_City_Hall.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Canyon Lake, California"
-  }
+  ]
 }

@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Lookout sits 11 miles west of Adin at an elevation of 4,144 feet.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lookout%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town sprang up in 1875 as a silver mining boom, then collapsed when ore ran out.",
       "sourceSentenceIds": [
         1
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://unitedstatesghosttowns.com/lookout-city-california-ghost-town/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://unitedstatesghosttowns.com/lookout-city-california-ghost-town/"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Five saloons once filled Lookout, but all businesses shuttered as mining jobs vanished.",
       "sourceSentenceIds": [
         6
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://unitedstatesghosttowns.com/lookout-city-california-ghost-town/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://unitedstatesghosttowns.com/lookout-city-california-ghost-town/"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Today, hikers must drive a 4‑wheel‑drive and trek a historic pack trail to reach stone foundations and two 60‑ton furnaces.",
       "sourceSentenceIds": [
         5,
@@ -56,12 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://unitedstatesghosttowns.com/lookout-city-california-ghost-town/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://unitedstatesghosttowns.com/lookout-city-california-ghost-town/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Lookout’s post office opened in 1880, following the earlier Whitley's Ford office that operated only a year in 1874‑75.",
       "sourceSentenceIds": [
         13,
@@ -70,24 +75,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lookout%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lookout%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lookout-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Miguel Vieira from Redwood City, CA, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goose_Lake_(6024169313)_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Modoc County, California"
-  }
+  ]
 }

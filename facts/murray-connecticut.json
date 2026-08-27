@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Murray sits at latitude 41.1945 and longitude –73.2857.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://connecticut.hometownlocator.com/ct/greater-bridgeport/murray.cfm"
+    },
+    {
       "id": 2,
       "text": "Burr Street runs north–south through the center of Murray.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murray%2C_Connecticut",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Murray%2C_Connecticut"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://portal.ct.gov/about/tourism/",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://portal.ct.gov/about/tourism/"
     },
     {
       "id": 4,
@@ -57,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://connecticut.hometownlocator.com/ct/greater-bridgeport/murray.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://connecticut.hometownlocator.com/ct/greater-bridgeport/murray.cfm"
     },
     {
       "id": 5,
@@ -71,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://connecticut.hometownlocator.com/ct/greater-bridgeport/murray.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://connecticut.hometownlocator.com/ct/greater-bridgeport/murray.cfm"
     },
     {
       "id": 6,
@@ -85,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://portal.ct.gov/about/tourism/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://portal.ct.gov/about/tourism/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/murray-connecticut.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.35,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "AirportExpert",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Candlewood_Lake_Club.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Candlewood Lake Club, Connecticut"
-  }
+  ]
 }

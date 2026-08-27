@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Noblestown sits at 40°23′43″N 80°12′7″W, a pinpoint in western Pennsylvania.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Noblestown%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
       "text": "In 2010, the former Sturgeon‑Noblestown CDP split into the separate communities of Sturgeon and Noblestown.",
       "sourceSentenceIds": [
         2
@@ -29,12 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Noblestown%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Noblestown%2C_Pennsylvania"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "The town’s latitude and longitude place it just north of the Allegheny River’s western bend.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/noblestown.cfm"
+    },
+    {
+      "id": 4,
       "text": "Noblestown’s water area measures 0 square miles, making it entirely landlocked.",
       "sourceSentenceIds": [
         5
@@ -42,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/noblestown.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/noblestown.cfm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Allegheny County, where Noblestown lies, observes Eastern Standard Time (GMT‑5).",
       "sourceSentenceIds": [
         6
@@ -56,21 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/noblestown.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/noblestown.cfm"
+    },
+    {
+      "id": 6,
+      "text": "The Census Bureau classifies Noblestown as a statistical entity with a Functional Status Code of \"S\".",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/allegheny/noblestown.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/noblestown-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.33,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jim.henderson",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
-  }
+  ]
 }

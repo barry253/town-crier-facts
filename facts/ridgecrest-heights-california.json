@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Ridgecrest Heights lies 2.34 miles southwest of Ridgecrest, perched at 2,428 feet above sea level.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ridgecrest_Heights%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The neighborhood sprang up around the Naval Ordnance Test Station, founded in 1943 during World War II.",
       "sourceSentenceIds": [
         1,
@@ -31,12 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ridgecrestguide.com/history",
-      "category": "history",
-      "quality": "good"
+      "source": "https://ridgecrestguide.com/history"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Ridgecrest’s first advertisement appeared on April 13 1941, even though the plat wasn’t officially filed until May 2.",
       "sourceSentenceIds": [
         17
@@ -44,12 +53,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ridgecrestneighborhood.org/about-ridgecrest/ridgecrest-history",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.ridgecrestneighborhood.org/about-ridgecrest/ridgecrest-history"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The original Ridgecrest plat offered 272 lots with streets, water and lights for $250 to $394 each.",
       "sourceSentenceIds": [
         18
@@ -57,12 +64,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ridgecrestneighborhood.org/about-ridgecrest/ridgecrest-history",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.ridgecrestneighborhood.org/about-ridgecrest/ridgecrest-history"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town’s name comes from a large plat planned by developer Myrick R. Wood, filed February 17 1941.",
       "sourceSentenceIds": [
         15,
@@ -71,12 +76,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ridgecrestneighborhood.org/about-ridgecrest/ridgecrest-history",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.ridgecrestneighborhood.org/about-ridgecrest/ridgecrest-history"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Sidewinder missile program at NOTS cemented China Lake’s reputation as a key weapons‑research site.",
       "sourceSentenceIds": [
         7
@@ -84,24 +87,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ridgecrestguide.com/history",
-      "category": "other",
-      "quality": "poor"
+      "source": "https://ridgecrestguide.com/history"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "China Lake Acres, California"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ridgecrest-heights-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Matt Affolter (QFL247) (talk)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
-  }
+  ]
 }

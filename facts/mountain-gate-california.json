@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm"
     },
     {
       "id": 2,
@@ -42,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm"
     },
     {
       "id": 3,
+      "text": "Mountain Gate sits at an elevation of 915 feet (279 meters) above sea level.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mountain_Gate%2C_California"
+    },
+    {
+      "id": 4,
       "text": "The earliest published reference to Mountain Gate appears in the 1895 railroad atlas of North America.",
       "sourceSentenceIds": [
         11
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Mountain Gate is located in Shasta County, in northern California’s Sierra Nevada foothills.",
       "sourceSentenceIds": [
         23
@@ -68,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Locals often abbreviate the town as Mtn. Gates, a shorthand that appears on historic maps.",
       "sourceSentenceIds": [
         25
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ca/mountain-gate-xx-shasta-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mountain-gate-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Astronomy1",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_River_Mills_Airport.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Fall River Mills, California"
-  }
+  ]
 }

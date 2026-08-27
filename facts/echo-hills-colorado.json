@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Echo Hills is part of the Denver‑Aurora‑Centennial Metropolitan Statistical Area, linking it to Colorado’s largest urban region.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Echo_Hills%2C_Colorado"
+    },
+    {
       "id": 2,
       "text": "The census‑designated place spans 364 acres, all of which are land in Clear Creek County.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Echo_Hills%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Echo_Hills%2C_Colorado"
+    },
+    {
+      "id": 3,
+      "text": "Its geographic center lies at 39.6724° N latitude and 105.4155° W longitude for navigation purposes.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://colorado.hometownlocator.com/co/clear-creek/echo-hills.cfm"
     },
     {
       "id": 4,
@@ -43,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colorado.hometownlocator.com/co/clear-creek/echo-hills.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://colorado.hometownlocator.com/co/clear-creek/echo-hills.cfm"
     },
     {
       "id": 5,
@@ -57,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705"
     },
     {
       "id": 6,
@@ -70,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://hellonation.com/mag/CO/EchoHillsRanchettes/30705"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Berthoud Falls, Colorado"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/echo-hills-colorado.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bdearthco",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_County_Government_Center.jpg"
-  }
+  ]
 }

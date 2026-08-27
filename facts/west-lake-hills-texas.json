@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "West Lake Hills was founded by Emmett Shelton and officially incorporated as a village on September 9, 1953.",
+      "sourceSentenceIds": [
+        2,
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Wikipedia"
+      ],
+      "source": "https://www.westlakehills.org/index.aspx?NID=117"
+    },
+    {
+      "id": 2,
       "text": "The Emmett Shelton Bridge, named after the city’s founder, links West Lake Hills to Austin across the Colorado River.",
       "sourceSentenceIds": [
         5
@@ -29,12 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Lake_Hills%2C_Texas",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/West_Lake_Hills%2C_Texas"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "West Lake Hills sits on Farm Road 2244, just west of Lake Austin at the edge of the Edwards Plateau, about six miles from downtown Austin.",
       "sourceSentenceIds": [
         7
@@ -42,13 +53,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/west-lake-hills-tx",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.tshaonline.org/handbook/entries/west-lake-hills-tx"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The city’s rapid growth in the 1970s and 1980s was especially pronounced on the south side of the Colorado River.",
       "sourceSentenceIds": [
         21
@@ -56,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Lake_Hills%2C_Texas",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/West_Lake_Hills%2C_Texas"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Locally called “Westlake,” the city is a suburb west of central Austin, known for its scenic hill country setting.",
       "sourceSentenceIds": [
         18,
@@ -70,12 +76,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Lake_Hills%2C_Texas",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/West_Lake_Hills%2C_Texas"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "West Lake Hills was incorporated as a village in 1953, a milestone celebrated by the community’s official website and local historical records.",
       "sourceSentenceIds": [
         2
@@ -83,20 +87,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.westlakehills.org/index.aspx?NID=117",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.westlakehills.org/index.aspx?NID=117"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-lake-hills-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.44,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Larry D. Moore",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bastrop_courthouse.jpg"
-  }
+  ]
 }

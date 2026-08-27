@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Colonial Heights sits at 36°28′40″N 82°30′19″W, placing it just north of the Tennessee‑Virginia border.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Colonial_Heights%2C_Tennessee"
+    },
+    {
       "id": 2,
       "text": "The community is part of the Tri‑Cities metropolitan area, linking it with Kingsport, Bristol, and Johnson City.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colonial_Heights%2C_Tennessee",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Colonial_Heights%2C_Tennessee"
     },
     {
       "id": 3,
@@ -44,10 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/tncountycolonialheights.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.usacitiesonline.com/tncountycolonialheights.htm"
     },
     {
       "id": 4,
@@ -59,10 +64,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/tncountycolonialheights.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.usacitiesonline.com/tncountycolonialheights.htm"
+    },
+    {
+      "id": 5,
+      "text": "The town’s coordinates translate to 36.47 degrees north latitude and 82.51 degrees west longitude when measured as a straight line.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.usacitiesonline.com/tncountycolonialheights.htm"
     },
     {
       "id": 6,
@@ -73,25 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colonial_Heights%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Colonial_Heights%2C_Tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/colonial-heights-tennessee.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.6,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sullivan-county-courthouse-tn1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Sullivan County, Tennessee"
-  }
+  ]
 }

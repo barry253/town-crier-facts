@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Brownsboro Farm is a 6th class city in Eastern Jefferson County, Kentucky.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://brownsborofarm.org/"
+    },
+    {
       "id": 2,
       "text": "The city was founded in the late 1960s and is affectionately nicknamed “Mayberry.”.",
       "sourceSentenceIds": [
@@ -29,9 +40,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brownsborofarm.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://brownsborofarm.org/"
+    },
+    {
+      "id": 3,
+      "text": "Brownsboro Farm sits in northeastern Jefferson County, bordered on the southwest by Barbourmeade and surrounded by Louisville on all other sides.",
+      "sourceSentenceIds": [
+        4,
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Brownsboro_Farm%2C_Kentucky"
     },
     {
       "id": 4,
@@ -42,10 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownsboro_Farm%2C_Kentucky",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Brownsboro_Farm%2C_Kentucky"
     },
     {
       "id": 5,
@@ -56,9 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brownsborofarm.org/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://brownsborofarm.org/"
     },
     {
       "id": 6,

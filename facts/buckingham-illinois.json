@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Buckingham is a village in Kankakee County, Illinois.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Illinois"
+    },
+    {
+      "id": 2,
+      "text": "The village sits about 63.7 miles southwest of Chicago, Illinois.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Illinois"
+    },
+    {
+      "id": 3,
+      "text": "Buckingham lies 20 miles southwest of Kankakee, the county seat.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Illinois"
+    },
+    {
       "id": 4,
       "text": "It is part of the Kankakee‑Bradley Metropolitan Statistical Area.",
       "sourceSentenceIds": [
@@ -29,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Illinois"
     },
     {
       "id": 5,
@@ -43,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-buckingham-illinois.html",
-      "category": "economy",
-      "quality": "good",
-      "qualityReason": "vague"
+      "source": "https://www.citydirectory.us/village-buckingham-illinois.html"
     },
     {
       "id": 6,
@@ -57,16 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-buckingham-illinois.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-buckingham-illinois.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buckingham-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.48,
-    "y": 0.5
-  }
+  ]
 }

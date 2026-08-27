@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.santacruz.com/neighborhoods/pasatiempo",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.santacruz.com/neighborhoods/pasatiempo"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California"
     },
     {
       "id": 3,
@@ -55,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California"
     },
     {
       "id": 4,
@@ -68,9 +62,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California"
+    },
+    {
+      "id": 5,
+      "text": "Pasatiempo sits at an elevation of 394 feet (120 m).",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pasatiempo%2C_California"
     },
     {
       "id": 6,
@@ -81,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://scchistory.com/index.php/Pasatiempo",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://scchistory.com/index.php/Pasatiempo"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pasatiempo-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.42,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "SnippyHolloW from New York, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_Street,_Santa_Cruz_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Santa Cruz County, California"
-  }
+  ]
 }

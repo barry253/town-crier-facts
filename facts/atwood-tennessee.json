@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Atwood is a town in Carroll County, Tennessee.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee"
+    },
+    {
       "id": 2,
       "text": "Atwood was incorporated as a town in 1941.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee"
     },
     {
       "id": 4,
@@ -55,21 +62,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee"
+    },
+    {
+      "id": 5,
+      "text": "Atwood lies in western Tennessee, northeast of Jackson and southwest of Paris.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee"
+    },
+    {
+      "id": 6,
+      "text": "Atwood sits roughly halfway between Memphis to the southwest and Nashville to the northeast.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/atwood-tennessee.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.5,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carroll-County-Courthouse-tn.jpg"
-  }
+  ]
 }

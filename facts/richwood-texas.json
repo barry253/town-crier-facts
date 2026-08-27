@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Richwood is a city in Brazoria County, Texas.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas"
+    },
+    {
+      "id": 2,
+      "text": "Richwood sits at 29.0615°N, 95.4126°W in south‑central Brazoria County.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas"
+    },
+    {
+      "id": 3,
+      "text": "It is bordered to the southwest by Oyster Creek, separating it from Lake Jackson and Clute.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas"
+    },
+    {
       "id": 4,
       "text": "Richwood earned recognition from the Keep Texas Beautiful program for its community beautification efforts.",
       "sourceSentenceIds": [
@@ -29,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brazosport.org/brazosport-is/richwood/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://brazosport.org/brazosport-is/richwood/"
     },
     {
       "id": 5,
@@ -42,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brazosport.org/brazosport-is/richwood/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://brazosport.org/brazosport-is/richwood/"
     },
     {
       "id": 6,
@@ -56,16 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Richwood%2C_Texas"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/richwood-texas.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.707,
-    "y": 0.5
-  }
+  ]
 }

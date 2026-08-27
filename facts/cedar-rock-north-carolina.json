@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Cedar Rock is a village in Caldwell County, North Carolina.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cedar_Rock%2C_North_Carolina"
+    },
+    {
+      "id": 2,
+      "text": "The village sits northeast of Lenoir, the county seat of Caldwell County.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cedar_Rock%2C_North_Carolina"
+    },
+    {
       "id": 3,
       "text": "Cedar Rock surrounds the Cedar Rock Country Club and climbs the northern slopes of the Brushy Mountains.",
       "sourceSentenceIds": [
@@ -29,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Rock%2C_North_Carolina",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cedar_Rock%2C_North_Carolina"
     },
     {
       "id": 4,
@@ -42,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-cedar-rock.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.citydirectory.us/village-cedar-rock.html"
     },
     {
       "id": 5,
@@ -56,10 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-cedar-rock.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-cedar-rock.html"
     },
     {
       "id": 6,
@@ -70,16 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-cedar-rock.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-cedar-rock.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cedar-rock-north-carolina.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.615,
-    "y": 0.5
-  }
+  ]
 }

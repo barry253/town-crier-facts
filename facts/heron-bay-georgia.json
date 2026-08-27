@@ -31,10 +31,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Heron_Bay,_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Heron_Bay,_Georgia"
     },
     {
       "id": 2,
@@ -45,9 +42,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://websites.kw-ic.com/heronbay/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://websites.kw-ic.com/heronbay/"
     },
     {
       "id": 3,
@@ -59,10 +54,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Heron_Bay,_Georgia",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Heron_Bay,_Georgia"
     },
     {
       "id": 4,
@@ -74,21 +66,30 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Heron_Bay,_Georgia",
-      "category": "people",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Heron_Bay,_Georgia"
+    },
+    {
+      "id": 5,
+      "text": "The median age in Heron Bay is 40.6 years, reflecting a balanced mix of young families and older adults.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Heron_Bay%2C_Georgia"
+    },
+    {
+      "id": 6,
+      "text": "Heron Bay has 1,569 housing units, with 4.8% vacant, and a homeowner vacancy rate of 2.3% versus a rental rate of 4.9%.",
+      "sourceSentenceIds": [
+        5,
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Heron_Bay%2C_Georgia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/heron-bay-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.62,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "John Trainor from Roswell, GA, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McDonough_courthouse.jpg"
-  }
+  ]
 }

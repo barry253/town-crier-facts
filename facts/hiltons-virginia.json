@@ -32,9 +32,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hiltons%2C_Virginia",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hiltons%2C_Virginia"
     },
     {
       "id": 2,
@@ -48,9 +46,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hiltons,_Virginia",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Hiltons,_Virginia"
     },
     {
       "id": 3,
@@ -61,10 +57,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hiltons,_Virginia",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://kids.kiddle.co/Hiltons,_Virginia"
     },
     {
       "id": 4,
@@ -76,10 +69,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hiltons,_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Hiltons,_Virginia"
     },
     {
       "id": 5,
@@ -93,24 +83,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hiltons,_Virginia",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Hiltons,_Virginia"
+    },
+    {
+      "id": 6,
+      "text": "Coordinates 36°39′18″N 82°28′04″W place Hiltons firmly in southwestern Virginia.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hiltons%2C_Virginia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hiltons-virginia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.32,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clinch-mountain-25-tn1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Clinch Mountain"
-  }
+  ]
 }

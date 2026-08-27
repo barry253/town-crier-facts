@@ -21,6 +21,39 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Sheatown is a census‑designated place in Newport Township, Luzerne County.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://kids.kiddle.co/Sheatown,_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "Sheatown sits at 41°11′36″N 76°0′52″W, placing it in the heart of Luzerne County, Pennsylvania.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sheatown%2C_Pennsylvania"
+    },
+    {
+      "id": 3,
+      "text": "The primary coordinate point for Sheatown is latitude 41.1934 and longitude –76.0146.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/luzerne/sheatown.cfm"
+    },
+    {
       "id": 4,
       "text": "Sheatown lies directly west of the city of Nanticoke in Luzerne County, Pennsylvania.",
       "sourceSentenceIds": [
@@ -29,10 +62,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Sheatown,_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Sheatown,_Pennsylvania"
+    },
+    {
+      "id": 5,
+      "text": "As a census‑designated place, Sheatown has no governmental functions and relies on township governance.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/luzerne/sheatown.cfm"
     },
     {
       "id": 6,
@@ -43,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/luzerne/sheatown.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://pennsylvania.hometownlocator.com/pa/luzerne/sheatown.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sheatown-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.19,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jakec",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_Road_in_Lehman_Township,_Luzerne_County,_Pennsylvania.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Back Mountain"
-  }
+  ]
 }

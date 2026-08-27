@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Spring Ridge sits at 40°21′1″N 75°59′26″W, right in the heart of Berks County.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Spring_Ridge%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "It’s the wealthiest community in Berks County, according to recent data.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Ridge%2C_Pennsylvania",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Spring_Ridge%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/spring-ridge",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://triptap.com/locations/us/pennsylvania/spring-ridge"
     },
     {
       "id": 4,
@@ -55,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/spring-ridge",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://triptap.com/locations/us/pennsylvania/spring-ridge"
     },
     {
       "id": 5,
@@ -69,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/spring-ridge",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://triptap.com/locations/us/pennsylvania/spring-ridge"
     },
     {
       "id": 6,
@@ -83,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.pa.gov/agencies/phmc/historic-preservation/pa-historical-marker-program/pennsylvania-marker-search",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.pa.gov/agencies/phmc/historic-preservation/pa-historical-marker-program/pennsylvania-marker-search"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-ridge-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.24,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nicholas",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmstead_in_winter,_Windsor_Township,_Berks_County,_Pennsylvania.jpg"
-  }
+  ]
 }

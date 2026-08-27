@@ -29,13 +29,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bigelow_Corners%2C_Connecticut",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Bigelow_Corners%2C_Connecticut"
     },
     {
       "id": 2,
+      "text": "Its precise latitude and longitude are 41.472° N, 73.5046° W, placing it firmly in Western Connecticut.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://connecticut.hometownlocator.com/ct/western-connecticut/bigelow-corners.cfm"
+    },
+    {
+      "id": 3,
+      "text": "The community rests 650 feet above sea level, giving it a modest elevation compared to surrounding areas.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ct/bigelow-corners-xx-fairfield-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Bigelow Corners is part of Fairfield County, one of Connecticut's historic counties.",
       "sourceSentenceIds": [
         24
@@ -43,13 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ct/bigelow-corners-xx-fairfield-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ct/bigelow-corners-xx-fairfield-profile.htm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "A commemorative quarter featuring Bigelow Corners was issued by the state, celebrating its local heritage.",
       "sourceSentenceIds": [
         23
@@ -57,20 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ct/bigelow-corners-xx-fairfield-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ct/bigelow-corners-xx-fairfield-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "As a census‑designated place, Bigelow Corners has no municipal government and relies on the town of New Fairfield for services.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://connecticut.hometownlocator.com/ct/western-connecticut/bigelow-corners.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bigelow-corners-connecticut.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.35,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "AirportExpert",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Candlewood_Lake_Club.jpg"
-  }
+  ]
 }

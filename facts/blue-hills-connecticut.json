@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/connecticut_blue-hills",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/connecticut_blue-hills"
     },
     {
       "id": 2,
@@ -43,12 +41,22 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/connecticut_blue-hills",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/connecticut_blue-hills"
     },
     {
       "id": 3,
+      "text": "Blue Hills is the U.S. Census Bureau’s highest‑percentage Jamaican‑American community, with nearly a quarter of residents tracing Jamaican heritage.",
+      "sourceSentenceIds": [
+        22,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut"
+    },
+    {
+      "id": 4,
       "text": "The area is home to the University of Hartford, one of Connecticut’s major higher‑education institutions.",
       "sourceSentenceIds": [
         13
@@ -56,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Blue Hills lies within the city limits of Bloomfield and the neighboring city of Hartford, blending suburban and urban character.",
       "sourceSentenceIds": [
         6,
@@ -71,13 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The neighborhood’s main streets include Granby Street and Blue Hills Avenue, both historic routes that have served the community for decades.",
       "sourceSentenceIds": [
         9,
@@ -86,20 +89,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Blue_Hills%2C_Connecticut"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blue-hills-connecticut.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "John Phelan",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Hills_Fire_Department,_Blue_Hills_CT.jpg"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "South Land Park lies just south of Land Park, bordered by Sutterville Road, Freeport Boulevard, Interstate 5, and Florin Road.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California"
+    },
+    {
       "id": 2,
       "text": "The neighborhood’s modern houses, many built in the South Land Park Hills, give the area a distinctive suburban feel.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California"
     },
     {
       "id": 3,
@@ -44,9 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California"
     },
     {
       "id": 4,
@@ -57,9 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California"
     },
     {
       "id": 5,
@@ -70,25 +74,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California"
+    },
+    {
+      "id": 6,
+      "text": "South Land Park’s boundaries place it directly south of Land Park, creating a seamless residential corridor within Sacramento.",
+      "sourceSentenceIds": [
+        24,
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Land_Park%2C_Sacramento%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-land-park-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.15,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Elindstr",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Park_Entrance_(Cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "River Park, Sacramento, California"
-  }
+  ]
 }

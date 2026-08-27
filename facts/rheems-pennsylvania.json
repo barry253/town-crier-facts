@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rheems%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Rheems%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,9 +40,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm"
+    },
+    {
+      "id": 3,
+      "text": "The town’s exact latitude and longitude still await confirmation, according to the local historical archive.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm"
     },
     {
       "id": 4,
@@ -56,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm"
     },
     {
       "id": 5,
@@ -70,10 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm"
     },
     {
       "id": 6,
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/rheems-xx-lancaster-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rheems-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.4,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daderot",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lancaster_County_Courthouse_-_IMG_7712.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Lancaster County, Pennsylvania"
-  }
+  ]
 }

@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/saint_rose_illinois",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/saint_rose_illinois"
     },
     {
       "id": 2,
@@ -43,9 +41,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/saint_rose_illinois",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/saint_rose_illinois"
     },
     {
       "id": 3,
@@ -56,10 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Rose%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Saint_Rose%2C_Illinois"
     },
     {
       "id": 4,
@@ -70,10 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Rose%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Saint_Rose%2C_Illinois"
     },
     {
       "id": 5,
@@ -84,24 +74,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/saint-rose-xx-clinton-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/saint-rose-xx-clinton-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Saint Rose rises 490 feet above sea level, giving it a modest elevation within the Illinois landscape.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/il/saint-rose-xx-clinton-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/st-rose-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.56,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clinton_County_Courthouse,_Carlyle.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Clinton County, Illinois"
-  }
+  ]
 }

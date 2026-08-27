@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "St. Charles is a village in Saginaw County, Michigan, quietly nestled in a rural landscape.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Michigan"
+    },
+    {
       "id": 2,
       "text": "The Bad River flows through St. Charles, giving the village a natural waterway that shapes its scenery.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Michigan",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Michigan"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stcharlestwp.com/",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://www.stcharlestwp.com/"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.stcharlestwp.com/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.stcharlestwp.com/"
     },
     {
       "id": 5,
@@ -68,10 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Michigan",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/St._Charles%2C_Michigan"
     }
   ]
 }

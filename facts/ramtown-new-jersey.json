@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey"
     },
     {
       "id": 2,
@@ -42,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey"
     },
     {
       "id": 3,
+      "text": "Ramtown’s official latitude and longitude are 40.1209° N, 74.1438° W, pinpointing it in Monmouth County.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/monmouth/ramtown.cfm"
+    },
+    {
+      "id": 4,
       "text": "Three Howell Township Public Schools—Ramtown Elementary, Greenville Elementary, and Howell Middle School South—serve the area.",
       "sourceSentenceIds": [
         22
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Only 1.2% of Ramtown’s housing units are vacant, reflecting a tight local housing market.",
       "sourceSentenceIds": [
         8
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Ramtown%2C_New_Jersey"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Monmouth County, where Ramtown is located, observes Eastern Time (GMT‑5) and follows daylight saving time.",
       "sourceSentenceIds": [
         25
@@ -84,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/monmouth/ramtown.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://newjersey.hometownlocator.com/nj/monmouth/ramtown.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ramtown-new-jersey.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.56,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "King of Hearts",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandy_Hook_Lighthouse_October_2020_002.jpg"
-  }
+  ]
 }

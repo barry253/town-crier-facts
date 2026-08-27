@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kiskimere%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Kiskimere%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -46,9 +44,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kiskimere%2C_Pennsylvania",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Kiskimere%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -61,13 +57,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Kiskimere,_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Kiskimere,_Pennsylvania"
     },
     {
       "id": 4,
+      "text": "Kiskimere rests 910 feet above sea level, a modest elevation that shapes its local climate and scenery.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/kiskimere-xx-armstrong-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Unlike many nearby settlements, Kiskimere has never been incorporated as a town or city, remaining an unincorporated community.",
       "sourceSentenceIds": [
         9
@@ -75,13 +79,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Kiskimere,_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://kids.kiddle.co/Kiskimere,_Pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historical records show that in 1895 Kiskimere had a post office and railroad service, linking it to broader trade routes.",
       "sourceSentenceIds": [
         1
@@ -89,24 +90,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/kiskimere-xx-armstrong-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/kiskimere-xx-armstrong-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Kiskiminetas River"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kiskimere-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.42,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr from Albany, NY, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kittanning,_Pennsylvania_(8482749220).jpg"
-  }
+  ]
 }

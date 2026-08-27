@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Beverly%2C_New_Jersey"
+      "url": "https://en.wikipedia.org/wiki/List_of_municipalities_in_New_Jersey"
     },
     {
       "label": "Web source 1",
@@ -22,67 +22,49 @@
   "facts": [
     {
       "id": 1,
-      "text": "Beverly, New Jersey was originally incorporated as a borough on March 5, 1850, before becoming a city in 1857.",
+      "text": "Beverly began as a ferry port called “Dunks Ferry” on the Delaware River.",
       "sourceSentenceIds": [
-        3,
-        4
+        1
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beverly%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://thecityofbeverly.com/about"
     },
     {
       "id": 2,
-      "text": "The city of Beverly was named after Beverley, England, reflecting its historical ties to the British Isles.",
+      "text": "In 1850 Beverly incorporated as a borough, becoming a city in 1857, making it one of the smallest cities in New Jersey.",
       "sourceSentenceIds": [
-        6
+        25,
+        26
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beverly%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://thecityofbeverly.com/about"
     },
     {
       "id": 3,
-      "text": "Beverly borders Delanco Township and Edgewater Park in Burlington County, as well as Bensalem Township across the Delaware River in Pennsylvania.",
+      "text": "Beverly’s early industry featured a textile mill and a large rope factory whose ropewalk stretched along the railroad.",
       "sourceSentenceIds": [
+        7,
         8
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beverly%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://delawareriverheritagetrail.org/2021/09/23/beverly-city/"
     },
     {
       "id": 4,
-      "text": "In 1859, Beverly Township was formed and co-existed alongside Beverly City until it was renamed Delanco Township in 1926.",
+      "text": "The steamer Bristol departed from Beverly dock in 1909, illustrating the town’s historic river commerce.",
       "sourceSentenceIds": [
-        5
+        10
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beverly%2C_New_Jersey",
-      "category": "history",
-      "quality": "good"
+      "source": "https://delawareriverheritagetrail.org/2021/09/23/beverly-city/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/beverly-new-jersey.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.422,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Adam Moss",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beverly-Edgewater_Park_Station.jpg"
-  }
+  ]
 }

@@ -13,6 +13,10 @@
     {
       "label": "Web source 1",
       "url": "https://welcometoversailles.com/"
+    },
+    {
+      "label": "Web source 2",
+      "url": "https://en.versailles-tourisme.com/"
     }
   ],
   "facts": [
@@ -25,10 +29,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
+    },
+    {
+      "id": 2,
+      "text": "The community sits along Cattaraugus Creek, about 4.9 miles northwest of Gowanda.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
     },
     {
       "id": 3,
@@ -39,24 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
     },
     {
       "id": 4,
-      "text": "The hamlet's name is pronounced to rhyme with 'sales,' a nonstandard local accent common in Western New York.",
+      "text": "The hamlet’s name is pronounced to rhyme with 'sales,' a nonstandard local accent common in Western New York.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Versailles%2C_New_York"
     },
     {
       "id": 5,
@@ -67,38 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://welcometoversailles.com/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://welcometoversailles.com/"
     },
     {
       "id": 6,
-      "text": "A local guide spotlights hidden gardens and antique markets, offering residents a unique, off-the-beaten-path experience.",
+      "text": "A local guide spotlights hidden gardens and antique markets, offering residents a unique, off‑the‑beaten‑path experience.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://welcometoversailles.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://welcometoversailles.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/versailles-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.72,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ken Winters, U.S. Army Corps of Engineers",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cattaraugus_Creek_mouth_Lake_Erie.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Cattaraugus Creek"
-  }
+  ]
 }

@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Trout Creek is a hamlet within the town of Tompkins in Delaware County, New York.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Trout_Creek%2C_New_York"
+    },
+    {
       "id": 2,
       "text": "The community sits along New York State Route 206, about eight miles west‑northwest of Walton.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trout_Creek%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Trout_Creek%2C_New_York"
     },
     {
       "id": 3,
@@ -43,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm"
     },
     {
       "id": 4,
+      "text": "Trout Creek rises 1,280 feet above sea level, giving it a higher elevation than many surrounding areas.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Trout Creek is one of nine U.S. communities that share its name, including locations in British Columbia, Michigan, and Utah.",
       "sourceSentenceIds": [
         1
@@ -56,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Trout Creek is located in Delaware County, a region known for its rolling hills and historic farms.",
       "sourceSentenceIds": [
         18
@@ -70,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ny/trout-creek-xx-delaware-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/trout-creek-new-york.jpg",
-  "imageSource": "wikipedia_town",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Case",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tompkins,_NY,_town_hall.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Delaware County, New York"
-  }
+  ]
 }

@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Elm Mott is an unincorporated community in McLennan County, Texas.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Elm_Mott%2C_Texas"
+    },
+    {
+      "id": 2,
+      "text": "It sits near the junction of Interstate 35 and Farm to Market Road 308, about eight miles north of Waco.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Elm_Mott%2C_Texas"
+    },
+    {
       "id": 3,
       "text": "The area was settled shortly after the Civil War, marking the start of its rural development.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elm_Mott%2C_Texas",
-      "category": "history",
-      "quality": "good",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Elm_Mott%2C_Texas"
     },
     {
       "id": 4,
@@ -43,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elm_Mott%2C_Texas",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Elm_Mott%2C_Texas"
     },
     {
       "id": 5,
@@ -56,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wacohistory.org/items/show/129",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://wacohistory.org/items/show/129"
     },
     {
       "id": 6,
@@ -69,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wacohistory.org/items/show/129",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://wacohistory.org/items/show/129"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/elm-mott-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "HuecoBear",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Downtown_Waco_2009_Looking_East.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "McLennan County, Texas"
-  }
+  ]
 }

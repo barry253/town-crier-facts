@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mallory%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Mallory%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mallory%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Mallory%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,32 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/mallory-xx-oswego-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/mallory-xx-oswego-profile.htm"
     },
     {
       "id": 4,
+      "text": "The elevation of Mallory is 410 feet above sea level.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/mallory-xx-oswego-profile.htm"
+    },
+    {
+      "id": 5,
+      "text": "Mallory is located within Oswego County, New York.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/mallory-xx-oswego-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "A list of cemeteries in the Mallory area is maintained for genealogical research.",
       "sourceSentenceIds": [
         29
@@ -70,20 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/mallory-xx-oswego-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/ny/mallory-xx-oswego-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Oswego County, New York"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mallory-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.36,
-    "y": 0.5
-  }
+  ]
 }

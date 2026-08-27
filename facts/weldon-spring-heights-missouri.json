@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Weldon Spring Heights sits about 30 miles west of St. Louis, Missouri.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Weldon_Spring_Heights%2C_Missouri"
+    },
+    {
+      "id": 2,
+      "text": "The village is part of St. Charles County, placing it within the greater St. Louis metropolitan area.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Weldon_Spring_Heights%2C_Missouri"
+    },
+    {
       "id": 3,
       "text": "Missouri State Route 94 runs through Weldon Spring Heights, connecting it to nearby communities.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weldon_Spring_Heights%2C_Missouri",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Weldon_Spring_Heights%2C_Missouri"
     },
     {
       "id": 4,
@@ -43,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.nps.gov/"
     },
     {
       "id": 5,
@@ -56,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.nps.gov/"
     },
     {
       "id": 6,
@@ -70,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.redcrossblood.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.redcrossblood.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/weldon-spring-heights-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.4,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "BetacommandBot",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greaterstl.png"
-  }
+  ]
 }

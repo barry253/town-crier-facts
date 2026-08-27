@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "McConnico sits in the heart of central Mohave County, Arizona.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/McConnico%2C_Arizona"
+    },
+    {
+      "id": 2,
+      "text": "McConnico borders Kingman to the north, the county seat of Mohave County.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/McConnico%2C_Arizona"
+    },
+    {
       "id": 3,
       "text": "West of McConnico lies the unincorporated community of Golden Valley in Arizona.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McConnico%2C_Arizona",
-      "category": "transport",
-      "quality": "good",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/McConnico%2C_Arizona"
     },
     {
       "id": 4,
@@ -43,10 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McConnico%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/McConnico%2C_Arizona"
     },
     {
       "id": 5,
@@ -58,10 +74,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/az/mcconnico/29269",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "other"
+      "source": "https://hellonation.com/mag/az/mcconnico/29269"
     },
     {
       "id": 6,
@@ -72,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cavecreekaz.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.cavecreekaz.gov/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcconnico-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.19,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "P199",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SR_389_AZ.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Mohave County, Arizona"
-  }
+  ]
 }

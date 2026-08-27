@@ -31,13 +31,34 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mabie%2C_California",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Mabie%2C_California"
     },
     {
       "id": 2,
+      "text": "The town’s elevation is 5,341 feet, giving it a high‑mountain climate.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mabie%2C_California"
+    },
+    {
+      "id": 3,
+      "text": "Nearly all homes in Mabie are owner‑occupied, with 90.8% owner‑occupied and 96% in 2010.",
+      "sourceSentenceIds": [
+        11,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mabie%2C_California"
+    },
+    {
+      "id": 4,
       "text": "Mabie is a very small and quiet community, known for its peaceful mountain setting.",
       "sourceSentenceIds": [
         16
@@ -45,13 +66,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Mabie,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://kids.kiddle.co/Mabie,_California"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The entire area of Mabie is land, with no large lakes or rivers within its boundaries.",
       "sourceSentenceIds": [
         15
@@ -59,13 +77,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Mabie,_California",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Mabie,_California"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Mabie is nestled in the beautiful landscape of California, surrounded by rugged mountains.",
       "sourceSentenceIds": [
         14
@@ -73,21 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Mabie,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://kids.kiddle.co/Mabie,_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mabie-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Unknown author Unknown author",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
-  }
+  ]
 }

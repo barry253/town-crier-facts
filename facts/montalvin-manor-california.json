@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Montalvin Manor sits just 69 feet above sea level, giving it a low‑lying feel typical of the Delta region.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Montalvin_Manor%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Despite its own identity, residents use San Pablo mailing addresses because the town lies outside San Pablo city limits.",
       "sourceSentenceIds": [
         4
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montalvin_Manor%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Montalvin_Manor%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "County officials are working with the Public Works Department to fix persistent drainage problems that have long affected the community.",
       "sourceSentenceIds": [
         13
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ca-contracostacounty3.civicplus.com/4942/Montalvin-Manor",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://ca-contracostacounty3.civicplus.com/4942/Montalvin-Manor"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "An amnesty program once let homeowners bring their houses up to code without facing penalties, easing the burden on residents.",
       "sourceSentenceIds": [
         12
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ca-contracostacounty3.civicplus.com/4942/Montalvin-Manor",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://ca-contracostacounty3.civicplus.com/4942/Montalvin-Manor"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Montalvin Manor lies along the Sacramento River Delta, close to the city of Martinez and the unincorporated area of Clyde.",
       "sourceSentenceIds": [
         15
@@ -71,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_montalvin",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.trawellino.com/destinations/united-states/california_montalvin"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Sunrise comes at 7:11 a.m. and sunset at 7:15 p.m., giving drivers a clear 12‑hour daylight window each day.",
       "sourceSentenceIds": [
         1
@@ -85,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_montalvin",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/california_montalvin"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/montalvin-manor-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alfred Twu",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
-  }
+  ]
 }

@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Procious%2C_West_Virginia",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Procious%2C_West_Virginia"
     },
     {
       "id": 2,
@@ -48,10 +46,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Procious%2C_West_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Procious%2C_West_Virginia"
     },
     {
       "id": 3,
@@ -64,10 +59,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Procious%2C_West_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Procious%2C_West_Virginia"
     },
     {
       "id": 4,
@@ -82,12 +74,23 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/procious_west_virginia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/procious_west_virginia"
     },
     {
       "id": 5,
+      "text": "At 650 feet above sea level, Procious lies in a low‑lying valley where the Elk River scours wide floodplains.",
+      "sourceSentenceIds": [
+        27,
+        1
+      ],
+      "sourceLabels": [
+        "Web source 2",
+        "Web source 2"
+      ],
+      "source": "https://grokipedia.com/page/procious_west_virginia"
+    },
+    {
+      "id": 6,
       "text": "European‑American settlers first arrived in the area during the mid‑1800s, before Clay County was carved out in 1858.",
       "sourceSentenceIds": [
         3
@@ -95,24 +98,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/procious_west_virginia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/procious_west_virginia"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Elk River (West Virginia)"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/procious-west-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.34,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Tim Kiser (w:User:Malepheasant)",
-    "license": "CC BY-SA 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_County_Courthouse_West_Virginia.jpg"
-  }
+  ]
 }

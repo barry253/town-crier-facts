@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Starks lies about 30 miles northwest of Lake Charles and roughly 5 miles from the Texas-Louisiana border.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Starks%2C_Louisiana"
+    },
+    {
       "id": 2,
       "text": "The town celebrates Mayhaw Festival each May, honoring the bayou fruit that grows along the Texas/Louisiana border.",
       "sourceSentenceIds": [
@@ -29,9 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Starks%2C_Louisiana",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Starks%2C_Louisiana"
+    },
+    {
+      "id": 3,
+      "text": "Starks sits at latitude 30.3155 and longitude -93.6618, placing it firmly in Calcasieu Parish.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://louisiana.hometownlocator.com/la/calcasieu/starks.cfm"
     },
     {
       "id": 4,
@@ -42,10 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/LA/Starks/34936",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://hellonation.com/mag/LA/Starks/34936"
     },
     {
       "id": 5,
@@ -56,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://louisiana.hometownlocator.com/la/calcasieu/starks.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://louisiana.hometownlocator.com/la/calcasieu/starks.cfm"
     },
     {
       "id": 6,
@@ -70,10 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://louisiana.hometownlocator.com/la/calcasieu/starks.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://louisiana.hometownlocator.com/la/calcasieu/starks.cfm"
     }
   ]
 }

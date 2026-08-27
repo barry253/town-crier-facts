@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Riverside sits at 39.4737°N, 76.2413°W in Harford County, Maryland on the eastern shore of the Chesapeake Bay.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.mapsof.net/riverside-harford-county"
+    },
+    {
       "id": 2,
       "text": "Riverside is officially classified as a city within Harford County and is part of the Baltimore–Columbia–Towson metropolitan area.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/riverside-harford-county",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.mapsof.net/riverside-harford-county"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/riverside-xx-harford-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/md/riverside-xx-harford-profile.htm"
     },
     {
       "id": 4,
@@ -57,21 +62,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/riverside-xx-harford-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/md/riverside-xx-harford-profile.htm"
+    },
+    {
+      "id": 5,
+      "text": "Riverside’s geographic coordinates are listed on MapSof.net, where users can view satellite imagery.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.mapsof.net/riverside-harford-county"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riverside-maryland.jpg",
-  "imageSource": "wikipedia_county_courthouse",
-  "imageFocus": {
-    "x": 0.41,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "B2Belgium",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Governor_Visits_North_Point_High_School.jpg"
-  }
+  ]
 }

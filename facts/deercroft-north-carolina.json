@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Deercroft sits at latitude 34.9593, longitude –79.4352 in Scotland County.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://northcarolina.hometownlocator.com/nc/scotland/deercroft.cfm"
+    },
+    {
       "id": 2,
       "text": "Routes 15 and 501 cut through Deercroft, linking it to the wider region.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deercroft%2C_North_Carolina",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Deercroft%2C_North_Carolina"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.deercrofthoa.org/residents",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.deercrofthoa.org/residents"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.deercrofthoa.org/residents",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.deercrofthoa.org/residents"
     },
     {
       "id": 5,
@@ -69,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.deercrofthoa.org/residents",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.deercrofthoa.org/residents"
     },
     {
       "id": 6,
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.deercrofthoa.org/residents",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.deercrofthoa.org/residents"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/deercroft-north-carolina.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.55,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "DiscoA340",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scotland_County_Courthouse_(February_2023)_5_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Scotland County, North Carolina"
-  }
+  ]
 }

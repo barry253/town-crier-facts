@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html"
     },
     {
       "id": 2,
+      "text": "North Twin Lake covers 917 acres while South Twin Lake spans 1,020 acres, both rising to 2,572 feet above sea level.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html"
+    },
+    {
+      "id": 3,
       "text": "The lakes are mesotrophic, meaning they have an intermediate level of productivity that supports diverse fish species.",
       "sourceSentenceIds": [
         16
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A native aquatic plant called watershield dominates the beds, covering about 68 acres in North Twin Lake and 19 acres in South Twin Lake.",
       "sourceSentenceIds": [
         21,
@@ -57,12 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historically, a redband rainbow trout may have lived in Twin Lakes, but today hatchery coastal rainbow trout are the primary stock.",
       "sourceSentenceIds": [
         1
@@ -70,12 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://colvillelakes.wsu.edu/twinlakesfact.html"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The lakes’ outlet, Cornstalk Creek, flows east from North Twin Lake to the Columbia River at Inchelium.",
       "sourceSentenceIds": [
         5
@@ -83,24 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Twin_Lakes%2C_Washington",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Twin_Lakes%2C_Washington"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/twin-lakes-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Steven Pavlov",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbia_River_from_Rowena_Crest_Viewpoint_looking_east.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Columbia River"
-  }
+  ]
 }

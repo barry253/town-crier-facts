@@ -21,6 +21,50 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Conway is a town in Northampton County, North Carolina.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_North_Carolina"
+    },
+    {
+      "id": 2,
+      "text": "Conway lies in northeastern North Carolina, close to the Virginia border on the inner Coastal Plain.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/town-conway-north-carolina.html"
+    },
+    {
+      "id": 3,
+      "text": "The town sits about 20 miles east of Murfreesboro and roughly 90 miles southwest of Norfolk, Virginia.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/town-conway-north-carolina.html"
+    },
+    {
+      "id": 4,
+      "text": "Conway is part of the Roanoke Rapids Micropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_North_Carolina"
+    },
+    {
       "id": 5,
       "text": "City hall’s contact details, including address and hours, are easily accessible online for residents and visitors.",
       "sourceSentenceIds": [
@@ -29,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-conway-north-carolina.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-conway-north-carolina.html"
     },
     {
       "id": 6,
@@ -45,16 +86,5 @@
       ],
       "source": "https://www.citydirectory.us/town-conway-north-carolina.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/conway-north-carolina.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.509,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Indy beetle",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conway,_North_Carolina.jpg"
-  }
+  ]
 }

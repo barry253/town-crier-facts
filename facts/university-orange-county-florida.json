@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "University CDP sits at 28.5900° N, 81.2045° W, about 15 miles east of downtown Orlando.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/University%2C_Orange_County%2C_Florida"
+    },
+    {
       "id": 2,
       "text": "The community is built around the University of Central Florida, which occupies the heart of the CDP.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/University%2C_Orange_County%2C_Florida",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/University%2C_Orange_County%2C_Florida"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://library.ucf.edu/about/departments/special-collections-university-archives/university-history/",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://library.ucf.edu/about/departments/special-collections-university-archives/university-history/"
     },
     {
       "id": 4,
@@ -55,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://library.ucf.edu/about/departments/special-collections-university-archives/university-history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://library.ucf.edu/about/departments/special-collections-university-archives/university-history/"
     },
     {
       "id": 5,
@@ -68,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://library.ucf.edu/about/departments/special-collections-university-archives/university-history/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://library.ucf.edu/about/departments/special-collections-university-archives/university-history/"
     },
     {
       "id": 6,
@@ -81,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/University%2C_Orange_County%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/University%2C_Orange_County%2C_Florida"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/university-orange-county-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "St. Petersburg Times",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "1921 Tampa Bay hurricane"
-  }
+  ]
 }

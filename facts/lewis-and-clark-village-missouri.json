@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Lewis and Clark Village is a village in Buchanan County, Missouri.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lewis_and_Clark_Village%2C_Missouri"
+    },
+    {
+      "id": 2,
+      "text": "The village sits within the Joseph, MO–KS Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lewis_and_Clark_Village%2C_Missouri"
+    },
+    {
       "id": 3,
       "text": "The Lewis and Clark expedition reached the area that is now Buchanan County on July 4, 1804.",
       "sourceSentenceIds": [
@@ -29,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm"
     },
     {
       "id": 4,
@@ -44,9 +64,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm"
     },
     {
       "id": 5,
@@ -57,9 +75,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm"
     },
     {
       "id": 6,
@@ -70,20 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.nps.gov/articles/lewis-and-clark-near-st-joseph-missouri.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lewis-and-clark-village-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.48,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Tim Kiser (w:User:Malepheasant)",
-    "license": "CC BY-SA 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buchanan_County_Courthouse_St_Joseph_Missouri.jpg"
-  }
+  ]
 }

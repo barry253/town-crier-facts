@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Cinebar,_Washington",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Cinebar,_Washington"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/cinebar-xx-lewis-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/wa/cinebar-xx-lewis-profile.htm"
     },
     {
       "id": 3,
@@ -55,12 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cinebar%2C_Washington",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cinebar%2C_Washington"
     },
     {
       "id": 4,
+      "text": "Standing about 900 feet above sea level, the community enjoys a modest elevation that shapes its local climate.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/wa/cinebar-xx-lewis-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "In 2017, Washington’s Department of Fish and Wildlife proposed a park plan near Cinebar to enhance fishing, river access, and wildlife viewing.",
       "sourceSentenceIds": [
         10
@@ -68,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cinebar%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Cinebar%2C_Washington"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "As an unincorporated community, Cinebar is governed directly by Lewis County rather than having its own municipal government.",
       "sourceSentenceIds": [
         7
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cinebar%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Cinebar%2C_Washington"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cinebar-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Lou's Canon",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cowlitz_River_During_Smelt_Run.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Cowlitz River"
-  }
+  ]
 }

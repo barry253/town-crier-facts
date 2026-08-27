@@ -22,6 +22,40 @@
   "facts": [
     {
       "id": 1,
+      "text": "Pine Crest lies within the Johnson City Metropolitan Statistical Area, part of the Tri‑Cities region.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee"
+    },
+    {
+      "id": 2,
+      "text": "The community sits at 36°17′48″N 82°18′29″W, roughly 36.2967°N, 82.3080°W.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee"
+    },
+    {
+      "id": 3,
+      "text": "Pine Crest is a census‑designated place in Carter County, which observes Eastern Standard Time (GMT‑5).",
+      "sourceSentenceIds": [
+        11,
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://tennessee.hometownlocator.com/tn/carter/pine-crest.cfm"
+    },
+    {
+      "id": 4,
       "text": "As a CDP, Pine Crest has no municipal government and relies on county services.",
       "sourceSentenceIds": [
         15
@@ -29,13 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tennessee.hometownlocator.com/tn/carter/pine-crest.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://tennessee.hometownlocator.com/tn/carter/pine-crest.cfm"
     },
     {
-      "id": 2,
+      "id": 5,
       "text": "The area contains 1,472 housing units, averaging 683.6 per square mile.",
       "sourceSentenceIds": [
         4
@@ -43,25 +74,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee"
+    },
+    {
+      "id": 6,
+      "text": "The median age of residents is 36 years, with an average household size of 2.18.",
+      "sourceSentenceIds": [
+        7,
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pine_Crest%2C_Tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pine-crest-tennessee.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roan-Mountain-CDP-and-mountain-tn1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Roan Mountain, Tennessee"
-  }
+  ]
 }

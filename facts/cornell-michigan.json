@@ -22,16 +22,14 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cornell, Michigan was founded in 1887 by George H. Mashek.",
+      "text": "Cornell, Michigan was founded in 1887 by George H.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan"
     },
     {
       "id": 3,
@@ -55,10 +51,29 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mi/cornell-xx-delta-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/mi/cornell-xx-delta-profile.htm"
+    },
+    {
+      "id": 4,
+      "text": "Cornell is an unincorporated community within Delta County, Michigan.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan"
+    },
+    {
+      "id": 5,
+      "text": "The town lies 10.5 miles west‑northwest of Gladstone.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan"
     },
     {
       "id": 6,
@@ -69,24 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cornell%2C_Michigan"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cornell-michigan.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Royalbroil",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BarkRiverMichiganDowntownUS2US41.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bark River, Michigan"
-  }
+  ]
 }

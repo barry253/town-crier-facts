@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri"
     },
     {
       "id": 2,
@@ -44,9 +42,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri"
     },
     {
       "id": 3,
@@ -57,10 +53,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri"
     },
     {
       "id": 4,
@@ -71,12 +64,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Buell%2C_Missouri"
     },
     {
       "id": 5,
+      "text": "The town sits at an elevation of 740 feet above sea level.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mo/buell-xx-montgomery-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Buell is in Montgomery County, Missouri, within the Central Time Zone observing daylight saving.",
       "sourceSentenceIds": [
         8
@@ -84,25 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/buell-xx-montgomery-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/mo/buell-xx-montgomery-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buell-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.19,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "mostateparks",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuivre_River.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Cuivre River"
-  }
+  ]
 }

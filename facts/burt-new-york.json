@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burt%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Burt%2C_New_York"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm"
     },
     {
       "id": 3,
+      "text": "The hamlet sits 310 feet above sea level, giving it a modest elevation within the Niagara region.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Across the United States, eleven other communities share the name Burt, from Illinois to Washington.",
       "sourceSentenceIds": [
         1
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Burt lies within Niagara County, a region known for its historic canal and proximity to the Great Lakes.",
       "sourceSentenceIds": [
         17
@@ -70,25 +73,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "The exact coordinates for Burt still require verification, indicating that mapping data is incomplete.",
+      "sourceSentenceIds": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/burt-xx-niagara-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/burt-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nandaro",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_001.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Niagara Falls, New York"
-  }
+  ]
 }

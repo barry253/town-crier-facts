@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Blacklake sits at 341 feet above sea level in California's central coast.",
+      "sourceSentenceIds": [
+        1,
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Blacklake is also known as Blacklake Village in San Luis Obispo County.",
       "sourceSentenceIds": [
         2,
@@ -32,13 +45,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The village’s layout centers on the Blacklake Golf Resort, with homes built around it.",
       "sourceSentenceIds": [
         2,
@@ -48,12 +58,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Blacklake spans roughly one square mile, all land and no large bodies of water.",
       "sourceSentenceIds": [
         18,
@@ -62,13 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Blacklake,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Blacklake,_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Nearly nine‑tenths of Blacklake’s homes are owner‑occupied, reflecting a strong sense of community.",
       "sourceSentenceIds": [
         10
@@ -76,13 +81,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Blacklake%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Blacklake is part of San Luis Obispo County, placing it within California’s central coast region.",
       "sourceSentenceIds": [
         17
@@ -90,21 +92,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Blacklake,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Blacklake,_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blacklake-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thomson200",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Nacimiento_2015.JPG"
-  }
+  ]
 }

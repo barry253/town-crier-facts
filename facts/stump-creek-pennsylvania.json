@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stump_Creek%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Stump_Creek%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -44,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stump_Creek%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Stump_Creek%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -58,12 +52,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/stump-creek-xx-jefferson-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/stump-creek-xx-jefferson-profile.htm"
     },
     {
       "id": 4,
+      "text": "Stump Creek rises 1,470 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/stump-creek-xx-jefferson-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The town is featured on the commemorative quarter for Pennsylvania, highlighting its local heritage.",
       "sourceSentenceIds": [
         18
@@ -71,19 +74,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/stump-creek-xx-jefferson-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/stump-creek-xx-jefferson-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Stump Creek’s coordinates are still pending verification, a reminder of its small, evolving status.",
+      "sourceSentenceIds": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/stump-creek-xx-jefferson-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Falls Creek, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stump-creek-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  }
+  ]
 }

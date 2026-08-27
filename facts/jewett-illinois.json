@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Jewett is a village in Cumberland County, Illinois.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois"
+    },
+    {
       "id": 2,
       "text": "Jewett lies along the former National Road.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois",
-      "category": "transport",
-      "quality": "good",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois"
     },
     {
       "id": 3,
@@ -43,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois"
     },
     {
       "id": 4,
@@ -57,10 +62,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois"
+    },
+    {
+      "id": 5,
+      "text": "Jewett’s elementary, middle, and high schools are all located in nearby Toledo.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois"
     },
     {
       "id": 6,
@@ -71,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Jewett%2C_Illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jewett-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.71,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "MattHucke",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cumberland-courthouse.jpg"
-  }
+  ]
 }

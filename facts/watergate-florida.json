@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida"
     },
     {
       "id": 2,
@@ -44,13 +41,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida"
     },
     {
       "id": 3,
+      "text": "The median age of Watergate residents is 37.3 years.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida"
+    },
+    {
+      "id": 4,
       "text": "About 23.3% of Watergate’s population is under 18, while 11.5% are 65 or older.",
       "sourceSentenceIds": [
         6
@@ -58,13 +63,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "For every 100 females in Watergate, there are 99 males, and among adults 18 and over, the ratio is 95.9 males per 100 females.",
       "sourceSentenceIds": [
         7
@@ -72,21 +74,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida"
+    },
+    {
+      "id": 6,
+      "text": "All 1,135 housing units in Watergate are classified as urban, with a 3.3% vacancy rate.",
+      "sourceSentenceIds": [
+        8,
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Watergate%2C_Florida"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/watergate-florida.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Don Ramey Logan",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Palm_Beach_Florida_photo_by_Don_Ramey_Logan.jpg"
-  }
+  ]
 }

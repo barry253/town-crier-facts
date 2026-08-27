@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Watertown%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Watertown%2C_Florida"
     },
     {
       "id": 2,
+      "text": "Its precise coordinates are 30.1925° N latitude and 82.6146° W longitude.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/columbia/watertown.cfm"
+    },
+    {
+      "id": 3,
       "text": "The community observes Eastern Standard Time, which is five hours behind Greenwich Mean Time.",
       "sourceSentenceIds": [
         17
@@ -43,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/columbia/watertown.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://florida.hometownlocator.com/fl/columbia/watertown.cfm"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "Watertown is a census-designated place, meaning it has no legal municipal government.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/columbia/watertown.cfm"
+    },
+    {
+      "id": 5,
       "text": "Homeowner vacancy stands at 2.7%, indicating a relatively tight housing market.",
       "sourceSentenceIds": [
         8
@@ -57,21 +73,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Watertown%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Watertown%2C_Florida"
+    },
+    {
+      "id": 6,
+      "text": "Rental properties report a 10.7% vacancy rate, higher than the homeowner figure.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Watertown%2C_Florida"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/watertown-florida.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.169,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Excel23",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US-90_and_FL-100_junction_in_Watertown,_Florida.jpg"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Long_Eddy%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Long_Eddy%2C_New_York"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/long-eddy-xx-sullivan-profile.htm",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/long-eddy-xx-sullivan-profile.htm"
     },
     {
       "id": 3,
+      "text": "The community sits 840 feet above sea level, giving it a mild hilltop climate.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/long-eddy-xx-sullivan-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The Basket Historical Society runs a museum in Long Eddy that collects and shares local lore.",
       "sourceSentenceIds": [
         4
@@ -57,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://baskethistorical.nygenweb.net/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://baskethistorical.nygenweb.net/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The society also preserves early 19th‑century records from nearby Douglas City and Fremont.",
       "sourceSentenceIds": [
         5
@@ -70,24 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://baskethistorical.nygenweb.net/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://baskethistorical.nygenweb.net/"
+    },
+    {
+      "id": 6,
+      "text": "Long Eddy’s coordinates are estimated but place it near the center of Sullivan County.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ny/long-eddy-xx-sullivan-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Delaware River"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/long-eddy-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.49,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr from Upstate New York",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delaware_County_Courthouse_and_Clerk%27s_Office_Apr_09.jpg"
-  }
+  ]
 }

@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Tonyville sits at 361 feet above sea level, giving it a mild foothill climate.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Tonyville lies just north of Lindsay, placing it within the San Joaquin Valley's agricultural belt.",
       "sourceSentenceIds": [
         2
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "A mile north of town, Rocky Hill rises, offering a quiet landmark for locals.",
       "sourceSentenceIds": [
         3
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Nearly 98 percent of Tonyville residents identify as Hispanic or Latino, reflecting the area's rich cultural heritage.",
       "sourceSentenceIds": [
         5
@@ -56,12 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "The town's median age is 28.9 years, younger than the California average.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California"
+    },
+    {
+      "id": 6,
       "text": "About 96 percent of Tonyville's 77 housing units are occupied, showing a high residential stability.",
       "sourceSentenceIds": [
         10
@@ -69,10 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Tonyville%2C_California"
     }
   ]
 }

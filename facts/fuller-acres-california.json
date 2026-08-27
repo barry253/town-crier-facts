@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Fuller Acres lies 7.25 miles southeast of downtown Bakersfield, rising 420 feet above sea level.",
+      "sourceSentenceIds": [
+        4,
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The community contains 248 housing units, averaging 328.9 units per square mile.",
       "sourceSentenceIds": [
         11
@@ -29,13 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Of those units, 100 are owner‑occupied while 132 are renter‑occupied.",
       "sourceSentenceIds": [
         12
@@ -43,13 +53,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A commemorative quarter was issued to honor Fuller Acres’ historical significance.",
       "sourceSentenceIds": [
         13
@@ -57,13 +64,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/fuller-acres-xx-kern-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/fuller-acres-xx-kern-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Age distribution shows 31.8% of residents are under 18, with 10.8% aged 65 or older.",
       "sourceSentenceIds": [
         8
@@ -71,13 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "For every 100 females, there are 105.1 males in Fuller Acres.",
       "sourceSentenceIds": [
         10
@@ -85,21 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Fuller_Acres%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fuller-acres-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Matt Affolter (QFL247) (talk)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
-  }
+  ]
 }

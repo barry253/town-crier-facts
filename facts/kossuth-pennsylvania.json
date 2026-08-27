@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kossuth%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Kossuth%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -44,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kossuth%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Kossuth%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -58,12 +52,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/kossuth-xx-clarion-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/kossuth-xx-clarion-profile.htm"
     },
     {
       "id": 4,
+      "text": "Kossuth rests 1,550 feet above sea level, giving it a modest hilltop setting.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/kossuth-xx-clarion-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Historical atlases from 1895 list Kossuth among communities that had a post office or railroad service.",
       "sourceSentenceIds": [
         3
@@ -71,30 +74,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/kossuth-xx-clarion-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/kossuth-xx-clarion-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The community’s name honors Lajos Kossuth, the 19th‑century Hungarian reformer who inspired many American settlers.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local",
-      "category": "people",
-      "quality": "good"
+      "source": "local"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Clarion County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kossuth-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.48,
-    "y": 0.5
-  }
+  ]
 }

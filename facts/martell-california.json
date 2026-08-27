@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Martell sits 1.5 miles northwest of Jackson, perched at 1,486 feet above sea level.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Martell%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office opened in 1905, marking its first official federal presence.",
       "sourceSentenceIds": [
         20
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/martell-xx-amador-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/martell-xx-amador-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "In the late 19th century, Martell was served by the Amador Central Railroad, linking it to regional trade routes.",
       "sourceSentenceIds": [
         4,
@@ -44,12 +53,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Martell%2C_California",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Martell%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Martell lies within Amador County, California, a region known for its historic gold rush towns.",
       "sourceSentenceIds": [
         19
@@ -57,13 +64,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/martell-xx-amador-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ca/martell-xx-amador-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Geographically, Martell sits west of Jackson and east of Ione, bridging two historic communities.",
       "sourceSentenceIds": [
         4
@@ -71,25 +75,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Martell%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Martell%2C_California"
+    },
+    {
+      "id": 6,
+      "text": "The community’s elevation is about 1,480 feet, giving it a mild, high‑land climate.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/ca/martell-xx-amador-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/martell-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.39,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "There is always more mystery",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preston_Castle_(Ione).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Amador County, California"
-  }
+  ]
 }

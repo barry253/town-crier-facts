@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland"
     },
     {
       "id": 3,
@@ -56,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland"
     },
     {
       "id": 4,
@@ -69,12 +62,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/upper-falls-xx-baltimore-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/upper-falls-xx-baltimore-profile.htm"
     },
     {
       "id": 5,
+      "text": "The community sits 230 feet above sea level, offering a modest elevation within the Baltimore County landscape.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/md/upper-falls-xx-baltimore-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Around 1890, Upper Falls School operated on Franklinville Road, serving the local youth of the era.",
       "sourceSentenceIds": [
         7
@@ -82,24 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Upper_Falls%2C_Maryland"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/upper-falls-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.46,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Baltimore County Government",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baltimore_County_Council,_2022-2026_(54256734231).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Baltimore County, Maryland"
-  }
+  ]
 }

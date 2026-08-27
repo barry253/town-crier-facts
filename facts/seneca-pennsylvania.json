@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide",
-      "category": "history",
-      "quality": "good"
+      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide"
     },
     {
       "id": 3,
@@ -56,10 +51,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide"
+    },
+    {
+      "id": 4,
+      "text": "Located at 41°22′40″N 79°42′12″W, Seneca sits near the Allegheny River, a key route for early trade.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Seneca%2C_Pennsylvania"
     },
     {
       "id": 5,
@@ -70,10 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.destinationsenecacounty.org/plan-your-visit/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.destinationsenecacounty.org/plan-your-visit/"
     },
     {
       "id": 6,
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvaniainfo.blog/seneca-pennsylvania-ultimate-guide"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seneca-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "David Fulmer from Pittsburgh . . Uploaded by scillystuff",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freeport_bridge.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Allegheny River"
-  }
+  ]
 }

@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Woodland Heights sits at 41°24′34″N 79°42′6″W, placing it in Venango County, Pennsylvania.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Woodland_Heights%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "The community’s primary coordinate point is 41.4098 latitude and –79.7117 longitude.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm"
+    },
+    {
       "id": 3,
       "text": "Woodland Heights covers a tiny water area of about 0.05 square miles.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm"
     },
     {
       "id": 4,
@@ -43,10 +62,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm"
+    },
+    {
+      "id": 5,
+      "text": "Woodland Heights is classified as a census‑designated place, meaning it has no governmental functions.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm"
     },
     {
       "id": 6,
@@ -57,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://pennsylvania.hometownlocator.com/pa/venango/woodland-heights.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodland-heights-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "David Fulmer from Pittsburgh . . Uploaded by scillystuff",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freeport_bridge.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Allegheny River"
-  }
+  ]
 }

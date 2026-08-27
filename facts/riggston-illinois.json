@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riggston%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Riggston%2C_Illinois"
     },
     {
       "id": 2,
+      "text": "The town sits 600 feet above sea level, giving it a modest hilltop view.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/il/riggston-xx-scott-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "Riggston’s post office opened in 1871, marking the first federal service in the community.",
       "sourceSentenceIds": [
         22
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/riggston-xx-scott-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/riggston-xx-scott-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "It lies just five miles north‑northeast of Winchester, the county seat of Scott County.",
       "sourceSentenceIds": [
         6,
@@ -58,13 +64,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riggston%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Riggston%2C_Illinois"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Scott County, where Riggston is located, was founded in 1839 from part of Morgan County.",
       "sourceSentenceIds": [
         9
@@ -72,12 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://scottcoil.gov/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://scottcoil.gov/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The county’s name was borrowed from a Kentucky county by settlers moving westward.",
       "sourceSentenceIds": [
         1
@@ -85,24 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://scottcoil.gov/",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://scottcoil.gov/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riggston-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.58,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scott_County_Courthouse,_Winchester.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Scott County, Illinois"
-  }
+  ]
 }

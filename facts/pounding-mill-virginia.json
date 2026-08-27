@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Pounding Mill sits 2,230 feet above sea level, roughly half a mile up in the Appalachian hills.",
+      "sourceSentenceIds": [
+        11,
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm"
+    },
+    {
       "id": 2,
       "text": "The town’s post office opened in 1890, anchoring Pounding Mill as a 19th‑century community.",
       "sourceSentenceIds": [
@@ -29,9 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm"
     },
     {
       "id": 3,
@@ -42,10 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm"
     },
     {
       "id": 4,
@@ -56,10 +63,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm"
     },
     {
       "id": 5,
@@ -70,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm"
     },
     {
       "id": 6,
@@ -85,25 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/pounding-mill-xx-tazewell-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Falls Mills, Virginia"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pounding-mill-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Erechtheus",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TazewellCoCH.JPG"
-  }
+  ]
 }

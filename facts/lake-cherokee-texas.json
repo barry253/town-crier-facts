@@ -31,9 +31,7 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/lake-cherokee",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.tshaonline.org/handbook/entries/lake-cherokee"
     },
     {
       "id": 2,
@@ -44,12 +42,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Cherokee%2C_Texas",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lake_Cherokee%2C_Texas"
     },
     {
       "id": 3,
+      "text": "The dam’s crest sits at 295 feet above sea level, with a maximum design height of 291 feet.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Cherokee%2C_Texas"
+    },
+    {
+      "id": 4,
       "text": "A 1931 plan for a man‑made lake in the Longview area was abandoned because of high land costs before the project was finally realized.",
       "sourceSentenceIds": [
         17,
@@ -58,12 +65,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cherokeewatercompany.com/history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.cherokeewatercompany.com/history/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Over the decades, Lake Cherokee evolved from a weekend resort to a highly sought‑after residential community, raising property values.",
       "sourceSentenceIds": [
         4
@@ -71,12 +76,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cherokeewatercompany.com/history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.cherokeewatercompany.com/history/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The Cherokee Water Company’s 1,500 shareholders pledge to conserve the lake’s thousands of acres for future generations.",
       "sourceSentenceIds": [
         3
@@ -84,25 +87,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cherokeewatercompany.com/history/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.cherokeewatercompany.com/history/"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "East Mountain, Texas"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-cherokee-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Billy Hathorn",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gregg_County,_TX,_Courthouse_IMG_3943.JPG"
-  }
+  ]
 }

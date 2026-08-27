@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Camp%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/West_Camp%2C_New_York"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Camp%2C_New_York",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/West_Camp%2C_New_York"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm"
     },
     {
       "id": 4,
+      "text": "West Camp rises 180 feet above sea level, offering modest elevation within the Hudson Valley landscape.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Historical records show West Camp had railroad service in 1895, connecting it to regional trade routes.",
       "sourceSentenceIds": [
         2
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "West Camp appeared in an 1895 atlas of Ulster County communities, documenting its existence during that era.",
       "sourceSentenceIds": [
         19
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/west-camp-xx-ulster-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-camp-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Case",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_High_Falls,_NY.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "High Falls, New York"
-  }
+  ]
 }

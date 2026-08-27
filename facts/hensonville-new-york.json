@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hensonville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Hensonville%2C_New_York"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm"
     },
     {
       "id": 3,
+      "text": "Hensonville sits 1,630 feet above sea level, giving it a higher elevation than many surrounding towns.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The town hall that serves Windham is located in Hensonville at 371 NY‑296.",
       "sourceSentenceIds": [
         5
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hensonville%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hensonville%2C_New_York"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Hensonville is listed in both the FIPS‑55 and the GNIS, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Historical maps from 1895 show Hensonville as a community that had a post office and railroad service.",
       "sourceSentenceIds": [
         2
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/hensonville-xx-greene-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hensonville-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jayu from Harrisburg, PA, U.S.A.",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haines_Falls,_New_York_(408802206).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Haines Falls, New York"
-  }
+  ]
 }

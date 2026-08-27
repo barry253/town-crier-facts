@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/ernstville-xx-washington-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/ernstville-xx-washington-profile.htm"
     },
     {
       "id": 2,
+      "text": "The community sits 410 feet above sea level, giving it a mild hilltop view.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/md/ernstville-xx-washington-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "The Potomac River borders the county’s southern edge, and the historic Chesapeake & Ohio Canal runs nearby.",
       "sourceSentenceIds": [
         4
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visithagerstown.com/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.visithagerstown.com/"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Nearby battlefields like South Mountain and Antietam draw history buffs to the area.",
       "sourceSentenceIds": [
         7
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visithagerstown.com/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.visithagerstown.com/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Ernstville’s name appears in both the FIPS‑55 and GNIS databases, confirming its official recognition.",
       "sourceSentenceIds": [
         1
@@ -68,25 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/ernstville-xx-washington-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/md/ernstville-xx-washington-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ernstville-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Washington County, Maryland"
-  }
+  ]
 }

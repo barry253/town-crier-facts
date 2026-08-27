@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schubert%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Schubert%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schubert%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Schubert%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -56,12 +51,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/schubert-xx-berks-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/schubert-xx-berks-profile.htm"
     },
     {
       "id": 4,
+      "text": "The town sits 630 feet above sea level, a modest elevation that shapes its local climate.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/schubert-xx-berks-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Schubert is part of Berks County, Pennsylvania, a region known for its rolling hills and historic mills.",
       "sourceSentenceIds": [
         25
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/schubert-xx-berks-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/pa/schubert-xx-berks-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Blue Mountain, a prominent natural landmark, borders Schubert to the north, offering scenic vistas for drivers.",
       "sourceSentenceIds": [
         3
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Schubert,_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Schubert,_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/schubert-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.52,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Calzarette (talk) (Uploads)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Mountain_Ridge_(Pennsylvania).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Blue Mountain (Pennsylvania)"
-  }
+  ]
 }

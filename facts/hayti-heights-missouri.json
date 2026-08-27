@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Hayti Heights sits in Missouri’s Bootheel, just west of Hayti in eastern Pemiscot County.",
+      "sourceSentenceIds": [
+        13,
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hayti_Heights%2C_Missouri"
+    },
+    {
       "id": 2,
       "text": "Missouri Route 84 cuts through Hayti Heights, linking the town from west to east.",
       "sourceSentenceIds": [
@@ -29,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hayti_Heights%2C_Missouri",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Hayti_Heights%2C_Missouri"
     },
     {
       "id": 3,
@@ -43,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview"
     },
     {
       "id": 4,
@@ -56,9 +63,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview"
     },
     {
       "id": 5,
@@ -69,9 +74,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-hayti-heights.html",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.citydirectory.us/city-hayti-heights.html"
     },
     {
       "id": 6,
@@ -82,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.wikixm.com/us/mo/hayti-heights/overview"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hayti-heights-missouri.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.769,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hayti-Heights-84-mo.jpg"
-  }
+  ]
 }

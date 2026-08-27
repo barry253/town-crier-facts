@@ -33,10 +33,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Applewold%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Applewold%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -47,9 +44,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.applewoldboro.com/about-us",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.applewoldboro.com/about-us"
     },
     {
       "id": 3,
@@ -60,10 +55,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.applewoldboro.com/about-us",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.applewoldboro.com/about-us"
     },
     {
       "id": 4,
@@ -74,13 +66,22 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/borough-applewold.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.citydirectory.us/borough-applewold.html"
     },
     {
       "id": 5,
+      "text": "The borough’s median age is 40 years, matching the overall county median.",
+      "sourceSentenceIds": [
+        11,
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Applewold%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
       "text": "Applewold’s town hall serves as the hub for construction permits, inspections, and building regulations.",
       "sourceSentenceIds": [
         3,
@@ -90,21 +91,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/borough-applewold.html",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/borough-applewold.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/applewold-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.268,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_north_of_Poplar,_Applewold.jpg"
-  }
+  ]
 }

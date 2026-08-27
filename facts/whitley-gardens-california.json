@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Whitley Gardens sits 896 feet above sea level, giving it a mild, elevated climate.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Whitley_Gardens%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town lies along the Estrella River, a tributary that shapes its local landscape.",
       "sourceSentenceIds": [
         6
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitley_Gardens%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Whitley_Gardens%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Whitley Gardens prides itself on a vibrant community spirit that welcomes newcomers instantly.",
       "sourceSentenceIds": [
         18
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Residents enjoy a wide array of cultural and recreational activities that cater to all ages.",
       "sourceSentenceIds": [
         21
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town hosts music festivals, gallery openings, and farmer's markets, turning ordinary weekends into memorable events.",
       "sourceSentenceIds": [
         22
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Outdoor lovers find easy access to hiking trails and panoramic views, inviting adventure right outside the town.",
       "sourceSentenceIds": [
         24
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://hellonation.com/mag/ca/whitley-gardens/30524"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whitley-gardens-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Thomson200",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Nacimiento_2015.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Lake Nacimiento, California"
-  }
+  ]
 }

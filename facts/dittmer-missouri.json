@@ -32,9 +32,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dittmer%2C_Missouri",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Dittmer%2C_Missouri"
     },
     {
       "id": 2,
@@ -49,13 +47,22 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dittmer%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Dittmer%2C_Missouri"
     },
     {
       "id": 3,
+      "text": "Dittmer's elevation averages 669 feet above sea level, nestled in rolling terrain shaped by limestone erosion.",
+      "sourceSentenceIds": [
+        15,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/dittmer_missouri"
+    },
+    {
+      "id": 4,
       "text": "The Meramec River, a clear, spring-fed tributary of the Mississippi, runs nearby, creating gravel bars and riparian zones that support diverse wildlife.",
       "sourceSentenceIds": [
         21,
@@ -64,12 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/dittmer_missouri",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/dittmer_missouri"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The area’s climate is humid subtropical, with hot, humid summers and cool winters, averaging 43 inches of rain and 13 inches of snow annually.",
       "sourceSentenceIds": [
         26,
@@ -79,13 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/dittmer_missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://grokipedia.com/page/dittmer_missouri"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Dittmer hosts the Vianney Renewal Center, a treatment facility for Catholic clergy dealing with personal disorders.",
       "sourceSentenceIds": [
         9
@@ -93,20 +95,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dittmer%2C_Missouri",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Dittmer%2C_Missouri"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dittmer-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kbh3rd",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_County_MO_courthouse-20140524-015.jpg"
-  }
+  ]
 }

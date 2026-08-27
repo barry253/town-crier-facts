@@ -31,10 +31,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland"
     },
     {
       "id": 2,
@@ -47,10 +44,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland"
     },
     {
       "id": 3,
@@ -62,13 +56,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland"
     },
     {
       "id": 4,
+      "text": "Ladiesburg rests at about 476 feet above sea level, offering gentle hills typical of rural Maryland.",
+      "sourceSentenceIds": [
+        29
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland"
+    },
+    {
+      "id": 5,
       "text": "The nearest major city is Frederick, the county seat, providing urban amenities nearby.",
       "sourceSentenceIds": [
         30
@@ -76,13 +78,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Rural Maryland surrounds Ladiesburg, offering wide open spaces and a peaceful countryside atmosphere that defines the area.",
       "sourceSentenceIds": [
         28
@@ -90,25 +89,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://kids.kiddle.co/Ladiesburg,_Maryland"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ladiesburg-maryland.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Landsat/NASA",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeakelandsat.jpeg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Chesapeake Bay"
-  }
+  ]
 }

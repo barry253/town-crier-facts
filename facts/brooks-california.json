@@ -32,10 +32,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California"
     },
     {
       "id": 2,
@@ -46,9 +43,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California"
     },
     {
       "id": 3,
@@ -59,9 +54,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California"
     },
     {
       "id": 4,
@@ -74,12 +67,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California"
     },
     {
       "id": 5,
+      "text": "Brooks sits at 341 feet elevation, overlooking the fertile Capay Valley in Yolo County.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Brooks%2C_California"
+    },
+    {
+      "id": 6,
       "text": "Early settlers built the Cañon School in 1861, one of the first schools in the Capay Valley.",
       "sourceSentenceIds": [
         26
@@ -87,24 +89,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/brooks_california",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/brooks_california"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brooks-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Hitchster",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capay_Valley.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Capay Valley"
-  }
+  ]
 }

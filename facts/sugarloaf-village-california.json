@@ -21,6 +21,19 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Sugarloaf Village sits at an elevation of about 5,200 feet above sea level.",
+      "sourceSentenceIds": [
+        5,
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Sugarloaf_Village%2C_California"
+    },
+    {
       "id": 2,
       "text": "The community lies within the forested landscape of the southern Sierra Nevada mountains.",
       "sourceSentenceIds": [
@@ -29,9 +42,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sugarloaf-village",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.mapsof.net/sugarloaf-village"
+    },
+    {
+      "id": 3,
+      "text": "Sugarloaf Village is located at latitude 35.8258 and longitude -118.6343 in Tulare County.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://california.hometownlocator.com/ca/tulare/sugarloaf-village.cfm"
     },
     {
       "id": 4,
@@ -42,10 +64,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugarloaf_Village%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Sugarloaf_Village%2C_California"
     },
     {
       "id": 5,
@@ -56,10 +75,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sugarloaf-village",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.mapsof.net/sugarloaf-village"
+    },
+    {
+      "id": 6,
+      "text": "Sugarloaf Village is a city in Tulare County, California.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.mapsof.net/sugarloaf-village"
     }
   ]
 }

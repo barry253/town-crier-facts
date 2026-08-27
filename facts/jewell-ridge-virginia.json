@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jewell_Ridge%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Jewell_Ridge%2C_Virginia"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/jewell-ridge-xx-tazewell-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/jewell-ridge-xx-tazewell-profile.htm"
     },
     {
       "id": 3,
+      "text": "Jewell Ridge rises to 2,960 feet above sea level, offering a high‑altitude Appalachian view.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/jewell-ridge-xx-tazewell-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "In 1908 a railroad survey traced a line along Big Creek in the southeast corner of Tazewell County, near Jewell Ridge.",
       "sourceSentenceIds": [
         6
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://jewellridge.wixsite.com/jewellridgecommunity",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://jewellridge.wixsite.com/jewellridgecommunity"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town is located within Tazewell County, a region known for its rugged hills and coal history.",
       "sourceSentenceIds": [
         9
@@ -69,25 +73,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/jewell-ridge-xx-tazewell-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/jewell-ridge-xx-tazewell-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Coordinates for Jewell Ridge have been estimated but still require verification by local surveyors.",
+      "sourceSentenceIds": [
+        16,
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/jewell-ridge-xx-tazewell-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Falls Mills, Virginia"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jewell-ridge-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Erechtheus",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TazewellCoCH.JPG"
-  }
+  ]
 }

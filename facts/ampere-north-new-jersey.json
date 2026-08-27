@@ -18,6 +18,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Ampere North sits at latitude 40.7757, longitude –74.1918 in Essex County.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm"
+    },
+    {
+      "id": 2,
+      "text": "As a census‑designated place, Ampere North has no governmental powers and relies on county services.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm"
+    },
+    {
+      "id": 3,
       "text": "The Diversity Index scores how likely two random residents belong to different races; a higher number means more diversity.",
       "sourceSentenceIds": [
         10
@@ -25,13 +47,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "The Wealth Index blends income, net worth, and material possessions to gauge how affluent the area is compared to the nation.",
       "sourceSentenceIds": [
         14
@@ -39,13 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The Socioeconomic Index ranges from 0 to 100, measuring social position disparities using demographic, housing, and economic data.",
       "sourceSentenceIds": [
         17
@@ -53,21 +69,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://newjersey.hometownlocator.com/nj/essex/ampere-north.cfm"
+    },
+    {
+      "id": 6,
+      "text": "Ampere North has a homeowner vacancy rate of 1.8% and a rental vacancy rate of 5.4%, indicating a tight housing market.",
+      "sourceSentenceIds": [
+        5,
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ampere_North%2C_New_Jersey"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ampere-north-new-jersey.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "King of Hearts",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newark_Penn_Station_June_2015_001.jpg"
-  }
+  ]
 }

@@ -29,12 +29,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_old-fig-garden",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/california_old-fig-garden"
     },
     {
       "id": 2,
+      "text": "The town sits 312 feet (95 meters) above sea level, a modest elevation that keeps it comfortably below Fresno’s higher plains.",
+      "sourceSentenceIds": [
+        3,
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Old_Fig_Garden%2C_California"
+    },
+    {
+      "id": 3,
       "text": "Fresno’s annexations have completely surrounded Old Fig Garden, making it a city enclave within the larger metropolitan area.",
       "sourceSentenceIds": [
         4
@@ -42,13 +53,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Fig_Garden%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Old_Fig_Garden%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Sunrise comes at 6:05 a.m. and sunset at 8:52 p.m., giving drivers a 14‑hour, 47‑minute day to explore.",
       "sourceSentenceIds": [
         2
@@ -56,13 +64,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_old-fig-garden",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/california_old-fig-garden"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The entire CDP is classified as urban, with 100 percent of residents living in city areas and none in rural zones.",
       "sourceSentenceIds": [
         8
@@ -70,21 +75,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Fig_Garden%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Old_Fig_Garden%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fig-garden-california.jpg",
-  "imageSource": "wikipedia_town",
-  "imageFocus": {
-    "x": 0.36,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bobak Ha'Eri",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2009-0725-CA-FresnoSantaFeStation_(cropped).jpg"
-  }
+  ]
 }

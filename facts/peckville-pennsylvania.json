@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Peckville%2C_Pennsylvania",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Peckville%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/peckville_pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/peckville_pennsylvania"
     },
     {
       "id": 3,
@@ -55,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Peckville%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Peckville%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -68,13 +62,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/peckville_pennsylvania",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "dropped_surname_no_wiki_source"
+      "source": "https://grokipedia.com/page/peckville_pennsylvania"
     },
     {
       "id": 5,
+      "text": "Peckville’s elevation averages 856 feet, placing it on the floor of the Lackawanna Valley amid rolling hills.",
+      "sourceSentenceIds": [
+        28
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://grokipedia.com/page/peckville_pennsylvania"
+    },
+    {
+      "id": 6,
       "text": "The area experiences a humid continental climate, with January lows around 18°F and July highs near 82°F.",
       "sourceSentenceIds": [
         30
@@ -82,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/peckville_pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/peckville_pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/peckville-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daderot",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lackawanna_County_Courthouse_008.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Lackawanna County, Pennsylvania"
-  }
+  ]
 }

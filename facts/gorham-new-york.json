@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Gorham%2C_New_York"
+      "url": "https://en.wikipedia.org/wiki/List_of_municipalities_in_New_York"
     },
     {
       "label": "Web source 1",
@@ -22,96 +22,48 @@
   "facts": [
     {
       "id": 1,
-      "text": "Gorham, New York was originally called \"East Town\" before being organized as \"Easton\" in 1797.",
+      "text": "The Town of Gorham received its official name on April 6, 1807, after earlier changes from Easton to Lincoln.",
       "sourceSentenceIds": [
-        4
+        19
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gorham%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.town-of-gorham-new-york-historical-society.org/history-of-gorham-new-york"
     },
     {
       "id": 2,
-      "text": "The town changed its name to \"Lincoln\" in 1806, adopting the current name of Gorham in 1807.",
+      "text": "Thomas Halstead, the first settler around 1800, ran a tavern and is buried in Gorham’s Pioneer Cemetery.",
       "sourceSentenceIds": [
-        5
+        22,
+        23
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gorham%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.town-of-gorham-new-york-historical-society.org/history-of-gorham-new-york"
     },
     {
       "id": 3,
-      "text": "A significant fire in 1868 destroyed much of Gorham village, impacting its development.",
+      "text": "In 1835, John Stowits manufactured thrashing machines near Centre Gorham, highlighting early industrial activity.",
       "sourceSentenceIds": [
-        8
+        30
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gorham%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.town-of-gorham-new-york-historical-society.org/history-of-gorham-new-york"
     },
     {
       "id": 4,
-      "text": "Gorham, New York is situated at the southern border of Ontario County, near Canandaigua Lake, one of the Finger Lakes.",
+      "text": "The Town of Gorham formed from the northern part of the Town of Hopewell on March 29, 1822, expanding its boundaries.",
       "sourceSentenceIds": [
-        3
+        20
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gorham%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 5,
-      "text": "Cottage City, a hamlet in Gorham, is located on the scenic shore of Canandaigua Lake.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gorham%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 6,
-      "text": "Flint Creek, a stream flowing northward, passes through Gorham village, adding to the area's natural beauty.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gorham%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.town-of-gorham-new-york-historical-society.org/history-of-gorham-new-york"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gorham-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brampton Cyclist",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canandaigua_Lake_scenic.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Canandaigua Lake"
-  }
+  ]
 }

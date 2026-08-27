@@ -21,6 +21,28 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Stantonville is a town located in McNairy County, Tennessee.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Stantonville%2C_Tennessee"
+    },
+    {
+      "id": 2,
+      "text": "Stantonville sits at 35°9′29″N 88°25′42″W, roughly 35.158 latitude, -88.428 longitude, in western Tennessee.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Stantonville%2C_Tennessee"
+    },
+    {
       "id": 3,
       "text": "A perfect circle of thirty‑foot‑wide sunflowers was spotted near the old scorched grounds of Setters Park this morning.",
       "sourceSentenceIds": [
@@ -29,10 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitstantonville.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://visitstantonville.com/"
     },
     {
       "id": 4,
@@ -43,10 +62,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitstantonville.com/",
-      "category": "culture",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://visitstantonville.com/"
     },
     {
       "id": 5,
@@ -57,10 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitstantonville.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://visitstantonville.com/"
     },
     {
       "id": 6,
@@ -71,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-stantonville.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-stantonville.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stantonville-tennessee.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.2,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Skye Marthaler",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McNairy_Courthouse.JPG"
-  }
+  ]
 }

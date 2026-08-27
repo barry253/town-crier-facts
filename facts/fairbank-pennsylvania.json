@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/fairbank_pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/fairbank_pennsylvania"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/fairbank_pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/fairbank_pennsylvania"
     },
     {
       "id": 3,
@@ -55,10 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/fairbank_pennsylvania",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/fairbank_pennsylvania"
     },
     {
       "id": 4,
@@ -69,12 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/fairbank-xx-fayette-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/fairbank-xx-fayette-profile.htm"
     },
     {
       "id": 5,
+      "text": "At 980 feet above sea level, Fairbank sits comfortably above the surrounding valleys.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/fairbank-xx-fayette-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Fairbank lies about 7.7 miles west‑northwest of Uniontown, the county seat of Fayette.",
       "sourceSentenceIds": [
         9
@@ -82,20 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairbank%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Fairbank%2C_Pennsylvania"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fayette County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fairbank-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  }
+  ]
 }

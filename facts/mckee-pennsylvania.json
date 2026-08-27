@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/mckee-xx-blair-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/pa/mckee-xx-blair-profile.htm"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/mckee-xx-blair-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/mckee-xx-blair-profile.htm"
     },
     {
       "id": 3,
+      "text": "The town rests 1,040 feet above sea level, giving it a modest hilltop setting.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/mckee-xx-blair-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Woodbury Pike, carrying PA Routes 36 and 164, cuts through McKee’s center, linking it to I‑99 and Roaring Spring.",
       "sourceSentenceIds": [
         9
@@ -57,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McKee%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/McKee%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Halter Creek, a northwest‑flowing tributary of the Frankstown Branch Juniata River, runs through the area.",
       "sourceSentenceIds": [
         7
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McKee%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/McKee%2C_Pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "McKee is bordered to the west by East Freedom, sharing a close community boundary.",
       "sourceSentenceIds": [
         8
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McKee%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/McKee%2C_Pennsylvania"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Dunning Mountain"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mckee-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
-  }
+  ]
 }

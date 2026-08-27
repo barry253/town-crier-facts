@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Pleasant View sits at latitude 40.6106 and longitude –79.5739 in Armstrong County, Pennsylvania.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/pleasant-view.cfm"
+    },
+    {
       "id": 2,
       "text": "The community follows Eastern Time, shifting from GMT‑5 to daylight saving in summer.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/pleasant-view.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/pleasant-view.cfm"
+    },
+    {
+      "id": 3,
+      "text": "Pleasant View is a census‑designated place, meaning it has no governmental functions.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/pleasant-view.cfm"
     },
     {
       "id": 4,
@@ -43,10 +62,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Pleasant_View,_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://kids.kiddle.co/Pleasant_View,_Pennsylvania"
+    },
+    {
+      "id": 5,
+      "text": "Before 2020, Pleasant View was included in the larger North Vandergrift‑Pleasant View census‑designated place.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://kids.kiddle.co/Pleasant_View,_Pennsylvania"
     },
     {
       "id": 6,
@@ -60,20 +87,5 @@
       ],
       "source": "https://kids.kiddle.co/Pleasant_View,_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pleasant-view-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.42,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Doug Kerr from Albany, NY, United States",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kittanning,_Pennsylvania_(8482749220).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Armstrong County, Pennsylvania"
-  }
+  ]
 }

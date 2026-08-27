@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hewitt%2C_New_Jersey",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hewitt%2C_New_Jersey"
     },
     {
       "id": 2,
@@ -42,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm"
     },
     {
       "id": 3,
+      "text": "Hewitt sits 420 feet above sea level, giving it a modest elevation within Passaic County.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Hewitt is located in Passaic County, New Jersey, within the northeastern part of the state.",
       "sourceSentenceIds": [
         9
@@ -55,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Hewitt appears in both the FIPS‑55 and the GNIS databases, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         3
@@ -69,25 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/nj/hewitt-xx-passaic-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hewitt-new-jersey.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Magalags",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Falls_Town_Hall.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Little Falls, New Jersey"
-  }
+  ]
 }

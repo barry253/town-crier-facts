@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Riverdale Park sits at 37°36′40″N 121°2′38″W, right on the edge of California’s Central Valley.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Riverdale_Park%2C_California"
+    },
+    {
       "id": 2,
       "text": "It’s officially part of the Modesto Metropolitan Statistical Area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverdale_Park%2C_California",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Riverdale_Park%2C_California"
     },
     {
       "id": 3,
@@ -42,9 +51,29 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_riverdale-park",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/california_riverdale-park"
+    },
+    {
+      "id": 4,
+      "text": "Riverdale Park’s proximity to Fresno gives residents easy access to city amenities while keeping a rural feel.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.trawellino.com/destinations/united-states/california_riverdale-park"
+    },
+    {
+      "id": 5,
+      "text": "State Route 99 runs nearby, making travel to and from the area a breeze for commuters and travelers alike.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.trawellino.com/destinations/united-states/california_riverdale-park"
     },
     {
       "id": 6,
@@ -55,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_riverdale-park",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/california_riverdale-park"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riverdale-park-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.234,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "OsotedeMonte",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RiverdaleParkCA.jpg"
-  }
+  ]
 }

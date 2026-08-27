@@ -30,10 +30,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en-academic.com/dic.nsf/enwiki/66328",
-      "category": "etymology",
-      "quality": "poor",
-      "qualityReason": "dropped_surname_no_wiki_source"
+      "source": "https://en-academic.com/dic.nsf/enwiki/66328"
     },
     {
       "id": 2,
@@ -44,13 +41,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mettler%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Mettler%2C_California"
     },
     {
       "id": 3,
+      "text": "The town’s elevation is 541 feet, giving it a modest rise above the surrounding valley floor.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mettler%2C_California"
+    },
+    {
+      "id": 4,
       "text": "Mettler remains an unincorporated area, meaning it is governed directly by Kern County rather than having its own municipal government.",
       "sourceSentenceIds": [
         11
@@ -58,21 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mettler%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Mettler%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mettler-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "FinkyOfNalanja",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MettlerCalifornia.jpg"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Literberry%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Literberry%2C_Illinois"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Literberry%2C_Illinois",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Literberry%2C_Illinois"
     },
     {
       "id": 3,
@@ -56,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm"
     },
     {
       "id": 4,
+      "text": "Literberry sits 600 feet above sea level, giving it a modest elevation.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Locals pronounce Literberry as “LEYE-ter-bair-ree,” a detail often noted by visitors when they arrive.",
       "sourceSentenceIds": [
         8
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The community is situated within Morgan County, Illinois, in the heart of the state’s central region.",
       "sourceSentenceIds": [
         7
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/il/literberry-xx-morgan-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/literberry-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.68,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morgan_County_Courthouse,_Jacksonville.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Morgan County, Illinois"
-  }
+  ]
 }

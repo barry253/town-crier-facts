@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Forest Oaks is a census‑designated place in southeastern Guilford County, North Carolina.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina"
+    },
+    {
       "id": 2,
       "text": "At its heart lies the Forest Oaks Country Club, a central landmark for residents.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina"
     },
     {
       "id": 3,
@@ -42,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Forest_Oaks%2C_North_Carolina"
     },
     {
       "id": 5,
@@ -69,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-usa.top/state-north-carolina-city-forest-oaks",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.city-usa.top/state-north-carolina-city-forest-oaks"
     },
     {
       "id": 6,
@@ -83,20 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-usa.top/state-north-carolina-city-forest-oaks",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.city-usa.top/state-north-carolina-city-forest-oaks"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forest-oaks-north-carolina.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Billy Hathorn",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coast_Guard_vessel_on_the_Cape_Fear_River_IMG_4356.JPG"
-  }
+  ]
 }

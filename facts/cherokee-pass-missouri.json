@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cherokee_Pass%2C_Missouri",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cherokee_Pass%2C_Missouri"
     },
     {
       "id": 2,
@@ -43,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cherokee_Pass%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Cherokee_Pass%2C_Missouri"
     },
     {
       "id": 3,
@@ -57,12 +52,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/cherokee-pass-xx-madison-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/mo/cherokee-pass-xx-madison-profile.htm"
     },
     {
       "id": 4,
+      "text": "The town’s elevation is reported as 970 feet above sea level by local records.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/mo/cherokee-pass-xx-madison-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Cherokee Pass is located in Madison County, Missouri, within the central part of the state.",
       "sourceSentenceIds": [
         10
@@ -70,36 +74,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/cherokee-pass-xx-madison-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/mo/cherokee-pass-xx-madison-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The community’s name honors the Cherokee people who once inhabited the region before European settlement.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local",
-      "category": "etymology",
-      "quality": "good"
+      "source": "local"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cherokee-pass-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kbh3rd",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Francis_River_at_Silver_Mines_Recreation_Area_2.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "St. Francis River"
-  }
+  ]
 }

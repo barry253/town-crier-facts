@@ -22,6 +22,18 @@
   "facts": [
     {
       "id": 1,
+      "text": "Buffington sits in Fayette County, Pennsylvania, perched 1,020 feet above sea level.",
+      "sourceSentenceIds": [
+        17,
+        18
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/buffington-xx-fayette-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The town observes Eastern Time, switching to daylight saving each spring and fall.",
       "sourceSentenceIds": [
         9
@@ -29,13 +41,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/buffington-xx-fayette-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/buffington-xx-fayette-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Old coke ovens still dot the landscape, their rusted shells a reminder of Buffington’s coal‑mining past.",
       "sourceSentenceIds": [
         12,
@@ -44,12 +53,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://coalcampusa.com/westpa/klondike/buffington/buffington.htm",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://coalcampusa.com/westpa/klondike/buffington/buffington.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A former company store once lined New Salem Road, serving miners and their families during the town’s heyday.",
       "sourceSentenceIds": [
         15
@@ -57,12 +64,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://coalcampusa.com/westpa/klondike/buffington/buffington.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://coalcampusa.com/westpa/klondike/buffington/buffington.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Children used to walk home from school along railroad tracks that ran past slate dumps and ovens.",
       "sourceSentenceIds": [
         7
@@ -70,16 +75,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://coalcampusa.com/westpa/klondike/buffington/buffington.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://coalcampusa.com/westpa/klondike/buffington/buffington.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buffington-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  }
+  ]
 }

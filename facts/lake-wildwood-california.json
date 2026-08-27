@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California"
     },
     {
       "id": 2,
@@ -42,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California"
     },
     {
       "id": 3,
+      "text": "Its precise location sits at 39°14′6″N 121°12′11″W, or 39.234885, -121.203026.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California"
+    },
+    {
+      "id": 4,
       "text": "A wildfire in the area scorched more than 33,000 acres, destroying over a hundred homes.",
       "sourceSentenceIds": [
         5
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Sunrise at Lake Wildwood is at 6:40 AM while sunset falls at 8:17 PM, giving a 13‑hour daylight span.",
       "sourceSentenceIds": [
         1
@@ -70,21 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_lake-wildwood",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.trawellino.com/destinations/united-states/california_lake-wildwood"
+    },
+    {
+      "id": 6,
+      "text": "Of the 2,657 housing units, 85.6% were occupied, with 84.6% owner‑occupied and 15.4% renter‑occupied.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Wildwood%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-wildwood-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.245,
-    "y": 0.498
-  },
-  "imageAttribution": {
-    "author": "Travisthurston",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LakeWildwoodCalifornia.jpg"
-  }
+  ]
 }

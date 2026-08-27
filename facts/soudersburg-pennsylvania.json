@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Soudersburg sits at 370 feet above sea level in the heart of Lancaster County.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/soudersburg-xx-lancaster-profile.htm"
+    },
+    {
+      "id": 2,
+      "text": "Pequea Creek marks the southern edge of the Soudersburg census‑designated place in Lancaster County.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Soudersburg%2C_Pennsylvania"
+    },
+    {
+      "id": 3,
       "text": "The creek flows southwest into the Susquehanna River, joining a major waterway.",
       "sourceSentenceIds": [
         6
@@ -29,12 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Soudersburg%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Soudersburg%2C_Pennsylvania"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "The first documented mention of Soudersburg appears in an 1895 atlas published by Business Atlas and Shippers' Guide.",
       "sourceSentenceIds": [
         9,
@@ -43,12 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/soudersburg-xx-lancaster-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/soudersburg-xx-lancaster-profile.htm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Soudersburg borders Ronks to the northwest, Gordonville to the northeast, and Paradise to the southeast.",
       "sourceSentenceIds": [
         4
@@ -56,13 +74,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Soudersburg%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Soudersburg%2C_Pennsylvania"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Located in Lancaster County, Pennsylvania, Soudersburg is part of the historic region known for its Amish heritage.",
       "sourceSentenceIds": [
         8
@@ -70,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/soudersburg-xx-lancaster-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/pa/soudersburg-xx-lancaster-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/soudersburg-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.782,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Mr. Matté (if there is an issue with this image, contact me using this image's Commons talk page, my Commons user talk page, or my English Wikipedia user talk page; I'll know about it a lot faster)",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_30_wb_entering_Soudersburg,_PA,_Dec._2023.jpg"
-  }
+  ]
 }

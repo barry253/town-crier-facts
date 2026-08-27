@@ -21,6 +21,18 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Enville sits at 35°23′17″N 88°25′12″W, straddling Chester and McNairy counties in Tennessee.",
+      "sourceSentenceIds": [
+        2,
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Enville%2C_Tennessee"
+    },
+    {
       "id": 2,
       "text": "Town Hall meetings run every third Tuesday at 6:00 PM, a tradition since Enville’s incorporation in 1953.",
       "sourceSentenceIds": [
@@ -29,10 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mtas.tennessee.edu/directories/cities/enville",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://mtas.tennessee.edu/directories/cities/enville"
     },
     {
       "id": 3,
@@ -43,10 +52,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-enville.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/town-enville.html"
     },
     {
       "id": 4,
@@ -57,21 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Enville%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Enville%2C_Tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/enville-tennessee.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.206,
-    "y": 0.499
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enville-Main-St-tn.jpg"
-  }
+  ]
 }

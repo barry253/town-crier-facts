@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Pinecroft is a census‑designated place in north‑central Blair County, within the southern part of Antis Township.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pinecroft%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
       "text": "The community lies just 4 miles north of Altoona, the county’s largest city.",
       "sourceSentenceIds": [
         18
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pinecroft%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Pinecroft%2C_Pennsylvania"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The Little Juniata River skirts Pinecroft’s northwestern edge, shaping its local landscape.",
       "sourceSentenceIds": [
         19
@@ -43,12 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pinecroft%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Pinecroft%2C_Pennsylvania"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "Pinecroft sits 1,060 feet above sea level, offering a modest elevation within the Appalachian foothills.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/pinecroft-xx-blair-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The earliest published reference to Pinecroft appears in the 1895 North American Railroad Atlas – Northeast edition.",
       "sourceSentenceIds": [
         11
@@ -56,25 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/pinecroft-xx-blair-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/pinecroft-xx-blair-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pinecroft-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Blair County, Pennsylvania"
-  }
+  ]
 }

@@ -34,9 +34,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California"
     },
     {
       "id": 2,
@@ -49,12 +47,22 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California"
     },
     {
       "id": 3,
+      "text": "In the 1920s and 1930s, three large canneries opened in Isleton, drawing a workforce that was over 90% Asian.",
+      "sourceSentenceIds": [
+        18,
+        19
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California"
+    },
+    {
+      "id": 4,
       "text": "Isleton’s historic Bing Kong Tong Building, once a Chinese community center, is now being restored with a phase‑one grant.",
       "sourceSentenceIds": [
         7
@@ -62,12 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cityofisleton.com/about",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.cityofisleton.com/about"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The 1923 Isleton Bridge, crossed by California State Route 160, connects the city across the Sacramento River Delta.",
       "sourceSentenceIds": [
         15,
@@ -76,12 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Isleton lies on Andrus Island amid slough wetlands, making it part of the Sacramento‑San Joaquin River Delta’s unique ecosystem.",
       "sourceSentenceIds": [
         13
@@ -89,20 +93,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Isleton%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/isleton-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.736,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Sarah Stierch",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Isleton_Chinese_and_Japanese_Commercial_Districts_-_Stierch_2.jpg"
-  }
+  ]
 }

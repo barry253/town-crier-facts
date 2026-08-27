@@ -22,6 +22,30 @@
   "facts": [
     {
       "id": 1,
+      "text": "Phillipsburg sits at 31°26′24″N 83°31′9″W, right in the heart of Tift County, Georgia.",
+      "sourceSentenceIds": [
+        7,
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Phillipsburg%2C_Georgia"
+    },
+    {
+      "id": 2,
+      "text": "The town rises 310 feet above sea level, giving it a gentle hilltop feel.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "Its downtown streets weave a historic tapestry, where local shops and eateries serve classic southern flavors.",
       "sourceSentenceIds": [
         5
@@ -29,12 +53,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/GA/Phillipsburg/32563",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://hellonation.com/mag/GA/Phillipsburg/32563"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "Back in 1895, Phillipsburg was noted for having a post office and railroad service, linking it to the wider region.",
       "sourceSentenceIds": [
         2
@@ -42,12 +64,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Phillipsburg shares its name with 15 other U.S. communities, from Colorado to Texas.",
       "sourceSentenceIds": [
         1
@@ -55,21 +75,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ga/phillipsburg-xx-tift-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/phillipsburg-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Michael Rivera",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tift_County_Courthouse.jpg"
-  }
+  ]
 }

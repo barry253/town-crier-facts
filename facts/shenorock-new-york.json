@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shenorock%2C_New_York",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Shenorock%2C_New_York"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/new-york_shenorock",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.trawellino.com/destinations/united-states/new-york_shenorock"
     },
     {
       "id": 3,
@@ -56,13 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/shenorock-xx-westchester-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ny/shenorock-xx-westchester-profile.htm"
     },
     {
       "id": 4,
+      "text": "Shenorock sits roughly 500 feet above sea level, giving it a gentle elevation compared to surrounding areas.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/shenorock-xx-westchester-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Shenorock lies just north of the Amawalk Reservoir, placing it near one of Westchester County's largest bodies of water.",
       "sourceSentenceIds": [
         10
@@ -70,21 +73,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shenorock%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Shenorock%2C_New_York"
+    },
+    {
+      "id": 6,
+      "text": "The community is bounded by U.S. Route 202 to the south and New York State Route 118 to the west.",
+      "sourceSentenceIds": [
+        8,
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Shenorock%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shenorock-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.234,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kyle Turchick (Krturchi at English Wikipedia)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Shenorock.jpg"
-  }
+  ]
 }

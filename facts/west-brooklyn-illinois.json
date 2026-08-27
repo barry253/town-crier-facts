@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois"
     },
     {
       "id": 3,
+      "text": "The median age of West Brooklyn residents is 39.5 years.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois"
+    },
+    {
+      "id": 4,
       "text": "West Brooklyn hosts St. Mary of the Assumption Catholic Parish, the village’s sole church.",
       "sourceSentenceIds": [
         14,
@@ -58,12 +63,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/West_Brooklyn%2C_Illinois"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "West Brooklyn lies about 90 miles west of Chicago near the Rock River.",
       "sourceSentenceIds": [
         21
@@ -71,13 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-west-brooklyn.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.citydirectory.us/village-west-brooklyn.html"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "West Brooklyn sits northwest of DeKalb and southwest of Rockford, offering a rural alternative within reach of larger cities.",
       "sourceSentenceIds": [
         22
@@ -85,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-west-brooklyn.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.citydirectory.us/village-west-brooklyn.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-brooklyn-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.25,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Dual Freq",
-    "license": "CC BY 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illinois_wind_farm_near_I-39_exit_82.jpg"
-  }
+  ]
 }

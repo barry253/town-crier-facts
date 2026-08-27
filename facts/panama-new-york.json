@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Panama%2C_New_York"
+      "url": "https://en.wikipedia.org/wiki/List_of_municipalities_in_New_York"
     },
     {
       "label": "Web source 1",
@@ -22,96 +22,59 @@
   "facts": [
     {
       "id": 1,
-      "text": "Panama, New York, was incorporated as a village in 1861, reflecting its long-standing community history.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Panama%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 2,
-      "text": "The village of Panama is named after Panama Rocks, a notable rock formation located south of the village.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Panama%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 3,
-      "text": "Paleozoic fossils can be seen in the outcrops around Panama, New York, attracting visitors to the area.",
+      "text": "Panama Village earned its name from the nearby Panama Rocks formation.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Panama%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en-academic.com/dic.nsf/enwiki/83841/"
     },
     {
-      "id": 4,
-      "text": "George Hawkins, one of Panama's early settlers, purchased land in 1825 and contributed to the village's development.",
+      "id": 2,
+      "text": "Panama Village incorporated in 1865, long before the railroad reached the area.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.panamarocks.com/human-history.html"
+    },
+    {
+      "id": 3,
+      "text": "At its peak, Panama housed six mills, a tannery, and even a seven‑story ashery.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Panama%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.panamarocks.com/human-history.html"
+    },
+    {
+      "id": 4,
+      "text": "Archaeologists found 3,000‑year‑old Mound Builder arrowheads at Panama Rocks, hinting at ancient habitation.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.panamarocks.com/human-history.html"
     },
     {
       "id": 5,
-      "text": "The first recorded use of the name \"Panama\" occurred in 1826 when the post office was established in the village.",
+      "text": "The Panama Rocks hotel once hosted figures like James Ward Packard and Thomas Edison’s second wife, Mina Miller Edison.",
       "sourceSentenceIds": [
-        13
+        26,
+        27
       ],
       "sourceLabels": [
-        "Wikipedia"
+        "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Panama%2C_New_York",
-      "category": "history",
-      "quality": "good"
-    },
-    {
-      "id": 6,
-      "text": "Local legend suggests that the village's name came from a traveler who found the rock formations reminiscent of those in Panama.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Panama%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.panamarocks.com/human-history.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/panama-new-york.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.69,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Hameltion",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chautauqua_Lake_fireworks_2017.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Chautauqua Lake"
-  }
+  ]
 }

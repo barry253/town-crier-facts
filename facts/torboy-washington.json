@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington"
     },
     {
       "id": 4,
@@ -70,10 +62,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Torboy%2C_Washington"
+    },
+    {
+      "id": 5,
+      "text": "Torboy’s geographic coordinates are 48.6799°N, 118.6628°W, placing it deep in Washington’s northwestern frontier.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://washington.hometownlocator.com/wa/ferry/torboy.cfm"
     },
     {
       "id": 6,
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/ferry/torboy.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://washington.hometownlocator.com/wa/ferry/torboy.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/torboy-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kevmin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanpoil_Arm,_Lake_Roosevelt_south_of_Keller,_WA.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Sanpoil River"
-  }
+  ]
 }

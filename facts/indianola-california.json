@@ -22,6 +22,20 @@
   "facts": [
     {
       "id": 1,
+      "text": "Indianola lies 4 miles south of Arcata, perched 46 feet above sea level.",
+      "sourceSentenceIds": [
+        3,
+        15,
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Indianola%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Long ago, a Native American settlement under the bluff served as a bustling supply center for bay fish, clams, and crabs.",
       "sourceSentenceIds": [
         5,
@@ -33,12 +47,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Indianola%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Indianola%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "A post office opened in 1900, operating until 1915, briefly linking the town to the wider world.",
       "sourceSentenceIds": [
         6,
@@ -50,13 +62,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Indianola%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Indianola%2C_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The Indianola Historical Society works to safeguard the town’s historic character, guarding buildings, neighborhoods, and landmarks.",
       "sourceSentenceIds": [
         1
@@ -64,12 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cityofindianolane.net/indianola-historical-society",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://cityofindianolane.net/indianola-historical-society"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Though not an official city, Indianola is considered part of the Eureka, California area.",
       "sourceSentenceIds": [
         17
@@ -77,21 +84,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Indianola,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Indianola,_California"
+    },
+    {
+      "id": 6,
+      "text": "Indianola appears on the USGS Arcata South topographic map, marking its official geographic recognition.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Indianola%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/indianola-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.461,
-    "y": 0.498
-  },
-  "imageAttribution": {
-    "author": "Ellin Beltz",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indianola_CA_Midway2.jpg"
-  }
+  ]
 }

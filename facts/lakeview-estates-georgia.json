@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Lakeview Estates sits at 33°42′24″N 84°02′10″W, right in the heart of Georgia's Piedmont region.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview_Estates%2C_Georgia"
+    },
+    {
+      "id": 2,
       "text": "The community first appeared on the U.S. Census as a CDP in 1980, marking its official recognition.",
       "sourceSentenceIds": [
         4
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview_Estates%2C_Georgia",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lakeview_Estates%2C_Georgia"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Sunrise comes at 6:03 a.m. and sunset at 6:27 p.m., giving Lakeview Estates a 12‑hour, 24‑minute day.",
       "sourceSentenceIds": [
         1
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/georgia_lakeview-estates",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/georgia_lakeview-estates"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "With a cost‑of‑living index of 94.8, Lakeview Estates is slightly cheaper than the national average.",
       "sourceSentenceIds": [
         13
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city//Lakeview-Estates-Georgia.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city//Lakeview-Estates-Georgia.html"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Every resident lives in an urban setting—Lakeview Estates reports 100 % urban and 0 % rural.",
       "sourceSentenceIds": [
         8
@@ -70,21 +73,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview_Estates%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Lakeview_Estates%2C_Georgia"
+    },
+    {
+      "id": 6,
+      "text": "The homeowner vacancy rate stands at zero percent, indicating a tight housing market with no empty homes.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lakeview_Estates%2C_Georgia"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakeview-estates-georgia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "The original uploader was Skarg at English Wikipedia.",
-    "license": "CC BY 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockdale-county-courthouse.jpg"
-  }
+  ]
 }

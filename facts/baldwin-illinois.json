@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Baldwin is a town in Randolph County, Illinois.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Baldwin%2C_Illinois"
+    },
+    {
+      "id": 2,
       "text": "The village’s post office opened in 1873, marking the start of its formal community.",
       "sourceSentenceIds": [
         20
@@ -29,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Baldwin sits 460 feet above sea level, giving it a modest elevation within the Illinois basin.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Within Randolph County, Baldwin ranks as the 10th most populous community.",
       "sourceSentenceIds": [
         22
@@ -42,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Locals pronounce Baldwin as BAWLD‑win, a distinctive twist on the name.",
       "sourceSentenceIds": [
         20
@@ -56,20 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/il/baldwin-xx-randolph-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/baldwin-illinois.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.29,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Randolph_County_Courthouse,_Chester.jpg"
-  }
+  ]
 }

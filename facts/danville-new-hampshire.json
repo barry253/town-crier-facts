@@ -31,9 +31,7 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www2.nhes.nh.gov/GraniteStats/SessionServlet?page=Community.jsp&SID=1&city=000806&cityName=Danville",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www2.nhes.nh.gov/GraniteStats/SessionServlet?page=Community.jsp&SID=1&city=000806&cityName=Danville"
     },
     {
       "id": 2,
@@ -46,12 +44,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.townofdanville.org/1337/Historic-District",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.townofdanville.org/1337/Historic-District"
     },
     {
       "id": 3,
+      "text": "The town’s highest point, Rock Rimmon Hill, rises just over 350 feet above sea level on Danville’s eastern border.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire"
+    },
+    {
+      "id": 4,
       "text": "The 1781–82 smallpox outbreak in Danville, then called Hawke, was one of the town’s most tragic events.",
       "sourceSentenceIds": [
         6
@@ -59,12 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Families first settled in the area around 1735, long before Danville’s official incorporation.",
       "sourceSentenceIds": [
         12
@@ -72,12 +77,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "From 1790 onward, Danville invested heavily in road construction, turning its once footpath network into a more reliable thoroughfare.",
       "sourceSentenceIds": [
         21
@@ -85,20 +88,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Danville%2C_New_Hampshire"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/danville-new-hampshire.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "John Phelan",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_Hall,_Danville_NH.jpg"
-  }
+  ]
 }

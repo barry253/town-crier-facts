@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ashville%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Ashville%2C_New_York"
     },
     {
       "id": 2,
@@ -45,9 +42,7 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ashville%2C_New_York",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Ashville%2C_New_York"
     },
     {
       "id": 3,
@@ -58,12 +53,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/ashville-xx-chautauqua-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/ashville-xx-chautauqua-profile.htm"
     },
     {
       "id": 4,
+      "text": "At 1,350 feet above sea level, Ashville enjoys a higher elevation than many surrounding New York towns.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/ashville-xx-chautauqua-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Quiet yet rich in history, Ashville offers a glimpse into local heritage for curious travelers.",
       "sourceSentenceIds": [
         8
@@ -71,21 +75,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Ashville,_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://kids.kiddle.co/Ashville,_New_York"
+    },
+    {
+      "id": 6,
+      "text": "Ashville is a charming hamlet that offers a glimpse into local history.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://kids.kiddle.co/Ashville,_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ashville-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.731,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:U.S._Post_Office_Ashville_NY_Jul_12.jpg"
-  }
+  ]
 }

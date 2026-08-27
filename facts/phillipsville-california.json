@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California"
     },
     {
       "id": 2,
@@ -43,12 +41,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California"
     },
     {
       "id": 3,
+      "text": "Phillipsville sits on the South Fork of the Eel River, 7.5 miles north of Garberville, at 289 feet elevation.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California"
+    },
+    {
+      "id": 4,
       "text": "Phillipsville is the southernmost town along the famed Avenue of the Giants.",
       "sourceSentenceIds": [
         13
@@ -56,13 +63,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town enjoys a warm-summer Mediterranean climate, with hot days and cool nights typical of the tall coniferous forest biome.",
       "sourceSentenceIds": [
         17
@@ -70,24 +74,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Phillipsville%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/phillipsville-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ellin Beltz",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArcataAndMadRiverPlaque.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Blue Lake, California"
-  }
+  ]
 }

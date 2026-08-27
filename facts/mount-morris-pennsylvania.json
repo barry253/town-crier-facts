@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://greenecountypa.gov/municipality-perry-township",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://greenecountypa.gov/municipality-perry-township"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Morris%2C_Pennsylvania",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mount_Morris%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -56,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitgreene.org/2021/10/world-famous-boundary-line/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://visitgreene.org/2021/10/world-famous-boundary-line/"
     },
     {
       "id": 4,
@@ -69,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitgreene.org/2021/10/world-famous-boundary-line/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://visitgreene.org/2021/10/world-famous-boundary-line/"
     },
     {
       "id": 5,
@@ -83,24 +74,19 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Morris%2C_Pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mount_Morris%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
+      "text": "Mount Morris lies on I‑79 near the West Virginia line, at 938 feet elevation.",
+      "sourceSentenceIds": [
+        12,
+        13
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Mount_Morris%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-morris-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greene_County_Courthouse,_Waynesburg.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Greene County, Pennsylvania"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitlaketahoe.com/",
-      "category": "culture",
-      "quality": "good",
-      "qualityReason": "editorial_filler"
+      "source": "https://visitlaketahoe.com/"
     },
     {
       "id": 2,
@@ -44,9 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitlaketahoe.com/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://visitlaketahoe.com/"
     },
     {
       "id": 3,
@@ -57,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitlaketahoe.com/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://visitlaketahoe.com/"
     },
     {
       "id": 4,
@@ -71,9 +64,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitlaketahoe.com/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://visitlaketahoe.com/"
+    },
+    {
+      "id": 5,
+      "text": "Tahoe Vista is part of the Sacramento metropolitan area, linking it to California’s capital region.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tahoe_Vista%2C_California"
     },
     {
       "id": 6,
@@ -84,21 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitlaketahoe.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://visitlaketahoe.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tahoe-vista-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.518,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "DimiTalen",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Tahoe_Beach,_Tahoe_Vista,_2011.jpg"
-  }
+  ]
 }

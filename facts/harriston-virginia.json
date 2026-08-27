@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Harriston sits 1,160 feet above sea level, giving it a mild hilltop climate.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office opened in 1879, marking its first official federal recognition.",
       "sourceSentenceIds": [
         10
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Harriston is located in Augusta County, Virginia, part of the Shenandoah Valley region.",
       "sourceSentenceIds": [
         9
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "An 1895 atlas lists several neighboring communities around Harriston, illustrating its historical rural network.",
       "sourceSentenceIds": [
         19
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Harriston is one of five U.S. communities sharing its name, including locations in Mississippi, Missouri, Nova Scotia, Ontario, and Washington.",
       "sourceSentenceIds": [
         1
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The town appears in both the FIPS‑55 and GNIS databases, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         2
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/va/harriston-xx-augusta-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/harriston-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-06-25_09_32_06_View_east_along_Interstate_64_and_north_along_Interstate_81_from_the_overpass_for_Virginia_State_Route_620_(Spotswood_Road)_in_Spotswood,_Augusta_County,_Virginia.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Augusta County, Virginia"
-  }
+  ]
 }

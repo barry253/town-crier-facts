@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado"
     },
     {
       "id": 2,
@@ -44,12 +42,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado"
     },
     {
       "id": 3,
+      "text": "Perched at 4,200 feet above sea level, Kirk enjoys a high‑altitude prairie setting.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/co/kirk-xx-yuma-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Kirk’s historic core includes a grain elevator, a meat‑processing plant, a bank, a grocery, a feed store, and the long‑running post office.",
       "sourceSentenceIds": [
         11
@@ -57,12 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The community lies within Yuma County, Colorado.",
       "sourceSentenceIds": [
         14
@@ -70,21 +75,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/kirk-xx-yuma-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/co/kirk-xx-yuma-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "The Kirk census‑designated place covers 10.622 km² (2,625 acres), all land.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Kirk%2C_Colorado"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kirk-colorado.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.199,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jeffrey Beall",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kirk,_Colorado_post_office.JPG"
-  }
+  ]
 }

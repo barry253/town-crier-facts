@@ -22,6 +22,39 @@
   "facts": [
     {
       "id": 1,
+      "text": "Perkins is an unincorporated community located in Jenkins County, Georgia.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia"
+    },
+    {
+      "id": 2,
+      "text": "The town sits just 7 miles north of Millen, the county seat of Jenkins County.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia"
+    },
+    {
+      "id": 3,
+      "text": "Perkins rests at an elevation of 239 feet (73 meters) above sea level.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia"
+    },
+    {
+      "id": 4,
       "text": "The community is part of the Central Savannah River Area, a regional designation for southeastern Georgia.",
       "sourceSentenceIds": [
         12
@@ -29,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia"
     },
     {
-      "id": 2,
+      "id": 5,
       "text": "Perkins lies a short distance east of U.S. Highway 25, a major north‑south route through Georgia.",
       "sourceSentenceIds": [
         9
@@ -43,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Georgia"
     },
     {
-      "id": 3,
+      "id": 6,
       "text": "Another Perkins exists in Burke County, Georgia, making the name shared by two distinct communities in the state.",
       "sourceSentenceIds": [
         1
@@ -57,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ga/perkins-xx-jenkins-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ga/perkins-xx-jenkins-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/perkins-georgia.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.76,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Sir Mildred Pierce from North Augusta, SC, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Augusta_Common_and_Lamar_Building_Augusta_GA.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Central Savannah River Area"
-  }
+  ]
 }

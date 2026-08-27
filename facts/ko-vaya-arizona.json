@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Ko Vaya sits at about 2,710 feet above sea level, giving it a mild desert climate.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Ko_Vaya,_Arizona"
+    },
+    {
+      "id": 2,
       "text": "The community covers roughly 1.1 square miles, the size of a few large parks put together.",
       "sourceSentenceIds": [
         13,
@@ -30,13 +41,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ko_Vaya,_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Ko_Vaya,_Arizona"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Located in southern Arizona’s Pima County, Ko Vaya lies within the Sonoran Desert’s flat, dry landscape.",
       "sourceSentenceIds": [
         12,
@@ -45,12 +53,34 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Ko_Vaya,_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Ko_Vaya,_Arizona"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "In 2010, the median age of residents was about 36.5 years, reflecting a balanced mix of young and older adults.",
+      "sourceSentenceIds": [
+        5,
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ko_Vaya%2C_Arizona"
+    },
+    {
+      "id": 5,
+      "text": "The CDP’s racial makeup was 84.8% American Indian, with 10.9% White and small percentages of other groups.",
+      "sourceSentenceIds": [
+        6,
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Ko_Vaya%2C_Arizona"
+    },
+    {
+      "id": 6,
       "text": "Of the 16 housing units in Ko Vaya, 15 were occupied and only one remained vacant, averaging three people per home.",
       "sourceSentenceIds": [
         7,
@@ -60,25 +90,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ko_Vaya%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Ko_Vaya%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ko-vaya-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Gillfoto",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_County_Courthouse_10.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Pima County, Arizona"
-  }
+  ]
 }

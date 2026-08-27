@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri"
     },
     {
       "id": 4,
+      "text": "Riverview Estates rises 920 feet above sea level, giving it a modest elevation within the Kansas City basin.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mo/riverview-estates-xx-cass-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The village’s name reflects its scenic riverside setting, a common naming trend for Missouri communities in the late 19th century.",
       "sourceSentenceIds": [
         6
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Riverview Estates is officially recognized as a village, a status that distinguishes it from larger cities and townships in Missouri.",
       "sourceSentenceIds": [
         6
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Riverview_Estates%2C_Missouri"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riverview-estates-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.67,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kbh3rd",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cass_County_Missouri_Courthouse_20191026-6991.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Cass County, Missouri"
-  }
+  ]
 }

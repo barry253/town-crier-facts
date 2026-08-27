@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cathedral%2C_Colorado",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Cathedral%2C_Colorado"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cathedral%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Cathedral%2C_Colorado"
     },
     {
       "id": 3,
@@ -56,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cathedral%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Cathedral%2C_Colorado"
     },
     {
       "id": 4,
+      "text": "The town rests at an elevation of 9,249 feet above sea level.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.uncovercolorado.com/towns/cathedral/"
+    },
+    {
+      "id": 5,
       "text": "Only 14 people lived in Cathedral according to the 2010 census.",
       "sourceSentenceIds": [
         8
@@ -70,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/cathedral/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.uncovercolorado.com/towns/cathedral/"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Mailing addresses in Cathedral are handled by the Powderhorn Post Office (ZIP 81243).",
       "sourceSentenceIds": [
         9
@@ -84,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/cathedral/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.uncovercolorado.com/towns/cathedral/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cathedral-colorado.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bdearthco",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_County_Government_Center.jpg"
-  }
+  ]
 }

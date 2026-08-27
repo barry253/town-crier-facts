@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Milledgeville is a village in Jasper Township, Fayette County, Ohio.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio"
+    },
+    {
       "id": 2,
       "text": "The village was laid out in 1855, the same year a mill was built on its site.",
       "sourceSentenceIds": [
@@ -30,9 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio"
     },
     {
       "id": 3,
@@ -43,10 +52,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio"
     },
     {
       "id": 4,
@@ -57,10 +63,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Milledgeville%2C_Ohio"
     },
     {
       "id": 5,
@@ -71,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-milledgeville-ohio.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.citydirectory.us/village-milledgeville-ohio.html"
     },
     {
       "id": 6,
@@ -87,16 +87,5 @@
       ],
       "source": "https://www.citydirectory.us/village-milledgeville-ohio.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/milledgeville-ohio.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.754,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Aesopposea",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MilledgevilleOH2.JPG"
-  }
+  ]
 }

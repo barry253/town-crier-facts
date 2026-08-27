@@ -31,9 +31,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee"
     },
     {
       "id": 2,
@@ -46,10 +44,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee"
     },
     {
       "id": 3,
@@ -62,10 +57,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee"
     },
     {
       "id": 4,
@@ -76,10 +68,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Olivet,_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Olivet,_Tennessee"
     },
     {
       "id": 5,
@@ -90,25 +79,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Olivet-Tennessee.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Olivet-Tennessee.html"
+    },
+    {
+      "id": 6,
+      "text": "The median household income in Olivet is about $65,739, showing a modest economic profile for the community.",
+      "sourceSentenceIds": [
+        7,
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Olivet%2C_Tennessee"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/olivet-tennessee.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Cohee",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hardin_County,_Tennessee_courthouse_in_Savannah,_Tennessee.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Hardin County, Tennessee"
-  }
+  ]
 }

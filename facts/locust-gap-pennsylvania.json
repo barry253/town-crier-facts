@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "The community rises to 1,191 feet above sea level.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania"
+    },
+    {
+      "id": 4,
       "text": "Locust Gap’s 1929 history book by H.J. McCafferty chronicles local industry, churches, schools, and civic groups.",
       "sourceSentenceIds": [
         7,
@@ -59,12 +64,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://archive.org/details/locustgapnorthum00mcca",
-      "category": "history",
-      "quality": "good"
+      "source": "https://archive.org/details/locustgapnorthum00mcca"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The book also includes brief biographical sketches of important local residents.",
       "sourceSentenceIds": [
         20
@@ -72,12 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://app.thebookpatch.com/BookStore/locust-gap---a-history/1700b7a6-e919-4684-ba3a-dff1f19e785e",
-      "category": "people",
-      "quality": "good"
+      "source": "https://app.thebookpatch.com/BookStore/locust-gap---a-history/1700b7a6-e919-4684-ba3a-dff1f19e785e"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Pennsylvania Route 54 and Route 901 pass through Locust Gap, linking it to regional traffic.",
       "sourceSentenceIds": [
         18
@@ -85,25 +86,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Locust_Gap%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/locust-gap-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jakec",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susquehanna_River_from_the_Shikellamy_State_Park_overlook.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Northumberland County, Pennsylvania"
-  }
+  ]
 }

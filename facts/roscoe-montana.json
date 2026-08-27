@@ -31,9 +31,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roscoe%2C_Montana",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Roscoe%2C_Montana"
     },
     {
       "id": 2,
@@ -45,12 +43,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roscoe%2C_Montana",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Roscoe%2C_Montana"
     },
     {
       "id": 3,
+      "text": "Roscoe sits 5,000 feet above sea level, roughly one mile higher than sea level.",
+      "sourceSentenceIds": [
+        14,
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mt/roscoe-xx-carbon-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Roscoe is located in Carbon County, Montana, a region known for its rugged landscapes.",
       "sourceSentenceIds": [
         12
@@ -58,13 +66,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mt/roscoe-xx-carbon-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/mt/roscoe-xx-carbon-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Roscoe’s post office opened in 1905, marking its formal establishment and beginning of community life.",
       "sourceSentenceIds": [
         13
@@ -72,24 +77,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mt/roscoe-xx-carbon-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/mt/roscoe-xx-carbon-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roscoe-montana.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.7,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CIA World Factbook",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mountain Time Zone"
-  }
+  ]
 }

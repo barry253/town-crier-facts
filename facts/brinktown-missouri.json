@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinktown%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Brinktown%2C_Missouri"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinktown%2C_Missouri",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Brinktown%2C_Missouri"
     },
     {
       "id": 3,
@@ -57,12 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinktown%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Brinktown%2C_Missouri"
     },
     {
       "id": 4,
+      "text": "Brinktown sits 1,050 feet above sea level, giving it a modest hilltop view of the surrounding countryside.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mo/brinktown-xx-maries-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The community’s post office, established in 1903, remains a key historical landmark that helped anchor Brinktown’s early growth.",
       "sourceSentenceIds": [
         12
@@ -70,24 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/brinktown-xx-maries-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/mo/brinktown-xx-maries-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brinktown-missouri.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.33,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kbh3rd",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maries_County_MO_Courthouse_20160423_1893.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Maries County, Missouri"
-  }
+  ]
 }

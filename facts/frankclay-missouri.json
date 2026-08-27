@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Frankclay,_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Frankclay,_Missouri"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frankclay%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Frankclay%2C_Missouri"
     },
     {
       "id": 3,
@@ -55,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frankclay%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Frankclay%2C_Missouri"
     },
     {
       "id": 4,
+      "text": "The town sits roughly 900 feet above sea level, giving it a mild hilltop view.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mo/frankclay-xx-saint-francois-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "Frankclay lies within Saint Francois County in eastern Missouri.",
       "sourceSentenceIds": [
         10
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/frankclay-xx-saint-francois-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/mo/frankclay-xx-saint-francois-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "An 1895 atlas lists Frankclay among the small communities of the area.",
       "sourceSentenceIds": [
         24
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/frankclay-xx-saint-francois-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/mo/frankclay-xx-saint-francois-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/frankclay-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.21,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "TCP04",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Park_Hills,_Missouri.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Flat River, Missouri"
-  }
+  ]
 }

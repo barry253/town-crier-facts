@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.smithtownship.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.smithtownship.org/"
     },
     {
       "id": 2,
@@ -41,9 +39,18 @@
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local",
-      "category": "etymology",
-      "quality": "good"
+      "source": "local"
+    },
+    {
+      "id": 3,
+      "text": "Geographically, Slovan lies at 40.3592° N latitude and –80.3898° W longitude in western Pennsylvania.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/washington/slovan.cfm"
     },
     {
       "id": 4,
@@ -54,10 +61,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.smithtownship.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.smithtownship.org/"
     },
     {
       "id": 5,
@@ -68,21 +72,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/washington/slovan.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://pennsylvania.hometownlocator.com/pa/washington/slovan.cfm"
+    },
+    {
+      "id": 6,
+      "text": "As a census-designated place, Slovan has no municipal government of its own but relies on Smith Township for local services.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/washington/slovan.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/slovan-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.33,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jim.henderson",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
-  }
+  ]
 }

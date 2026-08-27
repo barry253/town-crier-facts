@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Meadow Valley sits at 39°56′13″N 121°3′43″W, right in the heart of Plumas County, California.",
+      "sourceSentenceIds": [
+        7,
+        28
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 1"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Meadow_Valley%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town’s post office opened in 1855, marking the first formal establishment in the area.",
       "sourceSentenceIds": [
         29
@@ -29,12 +42,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/meadow-valley-xx-plumas-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/meadow-valley-xx-plumas-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "Meadow Valley rises to 3,770 feet above sea level, offering a high‑altitude setting for its residents.",
+      "sourceSentenceIds": [
+        30
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ca/meadow-valley-xx-plumas-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Summer temperatures stay pleasantly warm but never exceed 71.6 °F, giving the area a dry, mild climate.",
       "sourceSentenceIds": [
         8
@@ -42,13 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Valley%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Valley%2C_California"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "The Gazetteer notes that another Meadow Valley exists in Utah and another in Wisconsin, but none share the same name in California.",
       "sourceSentenceIds": [
         1
@@ -56,21 +75,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/meadow-valley-xx-plumas-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/meadow-valley-xx-plumas-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadow-valley-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.53,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Unknown author Unknown author",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
-  }
+  ]
 }

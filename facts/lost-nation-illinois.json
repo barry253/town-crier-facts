@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Lost Nation sits just south of the city of Oregon in Ogle County, Illinois.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lost_Nation%2C_Illinois"
+    },
+    {
       "id": 2,
       "text": "The city covers 2.552 square miles, with 2.441 of that land and 0.111 water.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lost_Nation%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Lost_Nation%2C_Illinois"
     },
     {
       "id": 3,
@@ -43,9 +51,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lost_Nation%2C_Illinois",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Lost_Nation%2C_Illinois"
+    },
+    {
+      "id": 4,
+      "text": "The golf course’s northern boundary stretches east along the POA property to Lowden Road.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.lostlakercd.org/about"
+    },
+    {
+      "id": 5,
+      "text": "Geographically, Lost Nation sits at 41°54'40\"N 89°22'0\"W, or 41.9111,-89.3668 in decimal.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.mapsof.net/lost-nation"
     },
     {
       "id": 6,
@@ -56,21 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/lost-nation",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.mapsof.net/lost-nation"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lost-nation-illinois.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.521,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ben Jacobson (Kranar Drogin)",
-    "license": "CC BY 2.5",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lost_Nation,_IL_Lost_Lake_Sign.JPG"
-  }
+  ]
 }

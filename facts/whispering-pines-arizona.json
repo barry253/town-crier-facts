@@ -22,6 +22,19 @@
   "facts": [
     {
       "id": 1,
+      "text": "Whispering Pines sits in northern Gila County, perched 5,330 feet above sea level in the upper valley of the East Verde River.",
+      "sourceSentenceIds": [
+        12,
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Wikipedia"
+      ],
+      "source": "https://roadsidethoughts.com/az/whispering-pines-xx-gila-profile.htm"
+    },
+    {
+      "id": 2,
       "text": "The community lies 12 miles north of Payson, placing it just outside the town’s western boundary.",
       "sourceSentenceIds": [
         8
@@ -29,13 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Whispering Pines is one of only two places in Arizona that share its name, the other located in Greenlee County.",
       "sourceSentenceIds": [
         6,
@@ -45,13 +55,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "It sits between Washington Park to the north and Beaver Valley to the south, framing a quiet valley setting.",
       "sourceSentenceIds": [
         7
@@ -59,12 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The town observes Mountain Standard Time year‑round and does not switch to daylight saving time.",
       "sourceSentenceIds": [
         1
@@ -72,13 +77,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/whispering-pines-xx-gila-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/az/whispering-pines-xx-gila-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Whispering Pines is part of the Gila County school district, with Payson High School serving its students.",
       "sourceSentenceIds": [
         9
@@ -86,25 +88,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Whispering_Pines%2C_Arizona"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whispering-pines-arizona.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.68,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Richard N Horne",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_East_Verde_River_flows_thru_the_East_Verde_Estates_northwest_of_Payson.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "East Verde River"
-  }
+  ]
 }

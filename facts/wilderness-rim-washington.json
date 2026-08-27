@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilderness_Rim%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Wilderness_Rim%2C_Washington"
     },
     {
       "id": 2,
@@ -43,12 +40,32 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilderness_Rim%2C_Washington",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Wilderness_Rim%2C_Washington"
     },
     {
       "id": 3,
+      "text": "Its coordinates are 47.4464 latitude and –121.7691 longitude.",
+      "sourceSentenceIds": [
+        22
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://washington.hometownlocator.com/wa/king/wilderness-rim.cfm"
+    },
+    {
+      "id": 4,
+      "text": "The Census Bureau classifies Wilderness Rim as a CDP with a functional status code of \"S\".",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://washington.hometownlocator.com/wa/king/wilderness-rim.cfm"
+    },
+    {
+      "id": 5,
       "text": "The Wilderness Rim Association oversees local water meters and releases monthly newsletters.",
       "sourceSentenceIds": [
         12
@@ -56,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wildernessrim.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://wildernessrim.org/"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "A new playground is slated for installation, with the final weekend already announced to residents.",
       "sourceSentenceIds": [
         19,
@@ -71,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wildernessrim.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://wildernessrim.org/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wilderness-rim-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Walter Siegmund (talk)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abies_lasiocarpa_0775.JPG"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Ames Lake, Washington"
-  }
+  ]
 }

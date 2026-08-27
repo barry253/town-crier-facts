@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Pamelia Center sits in central Jefferson County within the town of Pamelia.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Pamelia_Center%2C_New_York"
+    },
+    {
       "id": 2,
       "text": "The Black River skirts the southwestern edge of Pamelia Center, flowing westward through the area.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofpamelia.gov/index.html",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://www.townofpamelia.gov/index.html"
     },
     {
       "id": 3,
@@ -42,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofpamelia.gov/index.html",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.townofpamelia.gov/index.html"
     },
     {
       "id": 4,
@@ -55,10 +62,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofpamelia.gov/index.html",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.townofpamelia.gov/index.html"
+    },
+    {
+      "id": 5,
+      "text": "The town’s coordinates are 44.0401° N latitude and 75.9008° W longitude.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://newyork.hometownlocator.com/ny/jefferson/pamelia-center.cfm"
     },
     {
       "id": 6,
@@ -69,10 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/jefferson/pamelia-center.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://newyork.hometownlocator.com/ny/jefferson/pamelia-center.cfm"
     }
   ]
 }

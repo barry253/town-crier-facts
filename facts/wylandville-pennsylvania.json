@@ -29,13 +29,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wylandville%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Wylandville%2C_Pennsylvania"
     },
     {
       "id": 2,
+      "text": "The town rests 1,010 feet above sea level, giving it a modest hilltop feel.",
+      "sourceSentenceIds": [
+        29
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/pa/wylandville-xx-washington-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "Wylandville’s post office opened in 1890, marking the community’s first official federal presence.",
       "sourceSentenceIds": [
         28
@@ -43,12 +51,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/wylandville-xx-washington-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/wylandville-xx-washington-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Official records list Wylandville in both the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -56,21 +62,31 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/wylandville-xx-washington-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/pa/wylandville-xx-washington-profile.htm"
+    },
+    {
+      "id": 5,
+      "text": "The town’s coordinates are 40.194° N, 80.1337° W, placing it firmly in Washington County’s eastern time zone.",
+      "sourceSentenceIds": [
+        5,
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/washington/wylandville.cfm"
+    },
+    {
+      "id": 6,
+      "text": "Wylandville’s designation as a census‑designated place means it has no municipal government of its own.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://pennsylvania.hometownlocator.com/pa/washington/wylandville.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wylandville-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.54,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Generic1139",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_County_Courthouse_(Pennsylvania)_south.jpg"
-  }
+  ]
 }

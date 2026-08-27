@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plumtree%2C_North_Carolina",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Plumtree%2C_North_Carolina"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plumtree%2C_North_Carolina",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Plumtree%2C_North_Carolina"
     },
     {
       "id": 3,
@@ -57,9 +51,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/plumtree-xx-avery-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/nc/plumtree-xx-avery-profile.htm"
     },
     {
       "id": 4,
@@ -70,12 +62,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.plumtreechurch.com/history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.plumtreechurch.com/history/"
     },
     {
       "id": 5,
+      "text": "Plumtree sits at 2,860 feet above sea level, high in the Appalachian foothills.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/nc/plumtree-xx-avery-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "A historic church in Plumtree houses a colored‑glass window memorializing a husband, later adorned with donated furnishings.",
       "sourceSentenceIds": [
         6
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.plumtreechurch.com/history/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.plumtreechurch.com/history/"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Beech Mountain, North Carolina"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plumtree-north-carolina.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Mark Clifton",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avery_County_Courthouse_in_Newland.jpg"
-  }
+  ]
 }

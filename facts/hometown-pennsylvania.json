@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hometown%2C_Pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hometown%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visithersheyharrisburg.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.visithersheyharrisburg.org/"
     },
     {
       "id": 3,
@@ -55,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visithersheyharrisburg.org/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.visithersheyharrisburg.org/"
     },
     {
       "id": 4,
+      "text": "Hometown sits at an elevation of 1,129 feet (344 meters) above sea level.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hometown%2C_Pennsylvania"
+    },
+    {
+      "id": 5,
       "text": "Today, Hometown remains a quiet residential area that proudly preserves its strong sense of local history.",
       "sourceSentenceIds": [
         6
@@ -68,21 +73,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_hometown",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_hometown"
+    },
+    {
+      "id": 6,
+      "text": "The town’s coordinates are 40°49′20″N 75°59′2″W, placing it just north of Tamaqua and south of Hazleton.",
+      "sourceSentenceIds": [
+        7,
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hometown%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hometown-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "User:Dincher",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hometown_Intersection.JPG"
-  }
+  ]
 }

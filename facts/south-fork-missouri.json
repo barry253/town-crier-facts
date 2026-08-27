@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Missouri"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Missouri"
     },
     {
       "id": 3,
@@ -56,12 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Missouri"
     },
     {
       "id": 4,
+      "text": "South Fork rests at 1,090 feet above sea level, typical of the Missouri Ozarks terrain.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/mo/south-fork-xx-howell-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The town lies within Howell County, part of the scenic Ozark region of southern Missouri.",
       "sourceSentenceIds": [
         10
@@ -69,13 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/south-fork-xx-howell-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/mo/south-fork-xx-howell-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "South Fork’s history includes a 1895 community profile noting railroad service and post office status.",
       "sourceSentenceIds": [
         3
@@ -83,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/south-fork-xx-howell-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/mo/south-fork-xx-howell-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-fork-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Brian Stansberry",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain-View-1st-St-mo.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mountain View, Missouri"
-  }
+  ]
 }

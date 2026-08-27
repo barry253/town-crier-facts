@@ -29,12 +29,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm"
     },
     {
       "id": 2,
+      "text": "Blue Valley stands 9,270 feet above sea level.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm"
+    },
+    {
+      "id": 3,
       "text": "That elevation equals roughly 1.19 miles above sea level.",
       "sourceSentenceIds": [
         9
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Blue Valley is part of the Denver–Aurora–Lakewood Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         5
@@ -56,13 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Valley%2C_Colorado",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Blue_Valley%2C_Colorado"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical records show Blue Valley had a post office and railroad service in 1895.",
       "sourceSentenceIds": [
         3
@@ -70,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Blue Valley has a detailed list of newspapers that have been published in the area.",
       "sourceSentenceIds": [
         22
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/co/blue-valley-xx-clear-creek-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Berthoud Falls, Colorado"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blue-valley-colorado.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Bdearthco",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_County_Government_Center.jpg"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground"
     },
     {
       "id": 2,
@@ -44,10 +41,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground"
     },
     {
       "id": 3,
@@ -58,10 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brpfoundation.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://brpfoundation.org/"
     },
     {
       "id": 4,
@@ -72,12 +63,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://brpfoundation.org/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://brpfoundation.org/"
     },
     {
       "id": 5,
+      "text": "Blue Ridge sits at 6,929 feet elevation, offering sweeping views of canyon‑carved uplands.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground"
+    },
+    {
+      "id": 6,
       "text": "Blue Ridge is about 10 miles by road from Cragin Reservoir, a popular spot for wildlife watching and hiking.",
       "sourceSentenceIds": [
         13,
@@ -86,25 +86,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.fs.usda.gov/r03/coconino/recreation/blue-ridge-campground"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blue-ridge-arizona.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kaibab National Forest",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Lake_Ranger_Station.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Jacob Lake, Arizona"
-  }
+  ]
 }

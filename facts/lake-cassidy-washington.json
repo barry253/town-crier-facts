@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Lake Cassidy sits at 48.066044, -122.082433, a precise spot in Washington's north.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Cassidy%2C_Washington"
+    },
+    {
+      "id": 2,
+      "text": "The lake rests 371 feet above sea level, a modest elevation for the region.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lake_Cassidy%2C_Washington"
+    },
+    {
+      "id": 3,
       "text": "Spanning 131 acres, Lake Cassidy averages 11 feet deep, making it a shallow but inviting waterway.",
       "sourceSentenceIds": [
         10
@@ -29,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://snohomishcountywa.gov/5357/Cassidy",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://snohomishcountywa.gov/5357/Cassidy"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "A public boat launch on the southwest shore lets visitors launch electric or low‑speed gas boats up to 8 mph.",
       "sourceSentenceIds": [
         15,
@@ -43,12 +63,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://snohomishcountywa.gov/5357/Cassidy",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://snohomishcountywa.gov/5357/Cassidy"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Snohomish County’s Centennial Trail hugs Lake Cassidy’s eastern edge, featuring a wetlands park and interpretive trail.",
       "sourceSentenceIds": [
         12,
@@ -57,12 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://snohomishcountywa.gov/5357/Cassidy",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://snohomishcountywa.gov/5357/Cassidy"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "The lake’s watershed covers 2,649.6 acres, with roughly 18% developed land draining into it.",
       "sourceSentenceIds": [
         11
@@ -70,25 +86,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://snohomishcountywa.gov/5357/Cassidy",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://snohomishcountywa.gov/5357/Cassidy"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-cassidy-washington.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.76,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "ECTran71",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Granite Falls, Washington"
-  }
+  ]
 }

@@ -31,12 +31,21 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsyth%2C_Illinois",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Forsyth%2C_Illinois"
     },
     {
       "id": 2,
+      "text": "Forsyth sits just north of Decatur, the county seat, along U.S. Route 51.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Forsyth%2C_Illinois"
+    },
+    {
+      "id": 3,
       "text": "The original town was laid out in eight blocks by Smith, honoring Forsyth.",
       "sourceSentenceIds": [
         2,
@@ -45,12 +54,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://forsyth.omeka.net/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://forsyth.omeka.net/"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Forsyth lies in north‑central Macon County and is bordered to the south by Decatur.",
       "sourceSentenceIds": [
         11,
@@ -59,21 +66,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsyth%2C_Illinois",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Forsyth%2C_Illinois"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forsyth-illinois.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.36,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Vofforsyth",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Village_of_Forsyth_Logo.jpg"
-  }
+  ]
 }

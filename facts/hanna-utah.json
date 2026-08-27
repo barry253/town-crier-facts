@@ -33,9 +33,7 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah"
     },
     {
       "id": 2,
@@ -46,13 +44,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah"
     },
     {
       "id": 3,
+      "text": "Hanna’s elevation reaches 6,765 feet, giving it a high‑altitude climate with sharp seasonal temperature swings.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah"
+    },
+    {
+      "id": 4,
       "text": "In the early 1900s, a resort called Defas Park—complete with a dance hall and cabins—once drew visitors to the area.",
       "sourceSentenceIds": [
         4
@@ -60,12 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hanna%2C_Utah"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The Uintah and Ouray Indian Reservation hosted a federal Indian agency in Hanna during the 1860s, marking an early governmental presence.",
       "sourceSentenceIds": [
         14
@@ -73,12 +77,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://uintahmeridian.com/community-guides/hanna",
-      "category": "history",
-      "quality": "good"
+      "source": "https://uintahmeridian.com/community-guides/hanna"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Nearby Stockmore, first settled in 1905, grew as a ranching community that still reflects Hanna’s agricultural roots.",
       "sourceSentenceIds": [
         15
@@ -86,24 +88,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://uintahmeridian.com/community-guides/hanna",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://uintahmeridian.com/community-guides/hanna"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hanna-utah.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ashley National Forest, US Forest Service",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Fork_Duchesne_Canyon_-_Social_1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Duchesne River"
-  }
+  ]
 }

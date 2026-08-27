@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Spiritwood Lake is a city in Stutsman County, North Dakota, located in the state's eastern region.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Spiritwood_Lake%2C_North_Dakota"
+    },
+    {
       "id": 2,
       "text": "The city covers 1.07 square miles of land and 0.72 square miles of water.",
       "sourceSentenceIds": [
@@ -30,10 +41,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood-lake.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood-lake.cfm"
     },
     {
       "id": 3,
@@ -44,9 +52,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.stutsmancounty.gov/departments/parks/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.stutsmancounty.gov/departments/parks/"
+    },
+    {
+      "id": 4,
+      "text": "Spiritwood Lake sits at latitude 47.0764 and longitude -98.5732 in the central plains of North Dakota.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood-lake.cfm"
     },
     {
       "id": 5,
@@ -57,10 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood-lake.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://northdakota.hometownlocator.com/nd/stutsman/spiritwood-lake.cfm"
     },
     {
       "id": 6,
@@ -71,10 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.stutsmancounty.gov/departments/parks/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.stutsmancounty.gov/departments/parks/"
     }
   ]
 }

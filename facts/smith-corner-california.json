@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Smith Corner sits at 35°28'42\"N 119°16'43\"W, placing it in Kern County, California.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.mapsof.net/smith-corner"
+    },
+    {
+      "id": 2,
       "text": "The community lies just 1.5 miles south of Shafter, a short drive away.",
       "sourceSentenceIds": [
         4,
@@ -31,13 +42,23 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smith_Corner%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Smith_Corner%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
+      "text": "At 331 feet above sea level, Smith Corner enjoys a modest elevation typical of the Central Valley.",
+      "sourceSentenceIds": [
+        4,
+        24
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Smith_Corner%2C_California"
+    },
+    {
+      "id": 4,
       "text": "In 2010, about 84% of residents identified as Hispanic or Latino, reflecting the area's strong cultural heritage.",
       "sourceSentenceIds": [
         27
@@ -45,12 +66,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Smith_Corner,_California",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Smith_Corner,_California"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Households in Smith Corner average four people, a figure that mirrors the region's family‑oriented lifestyle.",
       "sourceSentenceIds": [
         29
@@ -58,13 +77,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Smith_Corner,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Smith_Corner,_California"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Roughly 37% of the population is under 18, indicating a youthful community with many families.",
       "sourceSentenceIds": [
         30
@@ -72,21 +88,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Smith_Corner,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Smith_Corner,_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/smith-corner-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Matt Affolter (QFL247) (talk)",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nottingham%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Nottingham%2C_Maryland"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nottingham%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Nottingham%2C_Maryland"
     },
     {
       "id": 3,
@@ -57,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nottingham%2C_Maryland",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Nottingham%2C_Maryland"
     },
     {
       "id": 4,
@@ -70,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.risingsunmd.org/department/division.php?structureid=54",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.risingsunmd.org/department/division.php?structureid=54"
     },
     {
       "id": 5,
@@ -83,25 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.risingsunmd.org/department/division.php?structureid=54",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://www.risingsunmd.org/department/division.php?structureid=54"
+    },
+    {
+      "id": 6,
+      "text": "Nottingham’s elevation is 62 feet (19 meters) above sea level, typical of the region’s gently rolling landscape.",
+      "sourceSentenceIds": [
+        12
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.triphobo.com/places/nottingham-maryland-united-states"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nottingham-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.46,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Baltimore County Government",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baltimore_County_Council,_2022-2026_(54256734231).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Baltimore County, Maryland"
-  }
+  ]
 }

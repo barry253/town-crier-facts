@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.envisionhilltop.com/data",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.envisionhilltop.com/data"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.envisionhilltop.com/data",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.envisionhilltop.com/data"
     },
     {
       "id": 3,
@@ -55,9 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop_(Columbus%2C_Ohio)",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hilltop_(Columbus%2C_Ohio)"
+    },
+    {
+      "id": 4,
+      "text": "Hilltop’s boundaries are Interstate 70 to the north, the CSX railroad to the east, and Interstate 270 to the south and west.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hilltop_(Columbus%2C_Ohio)"
     },
     {
       "id": 5,
@@ -68,9 +73,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://u.osu.edu/bethestreet/hilltop-histories/history-of-the-hilltop-and-its-diversity/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://u.osu.edu/bethestreet/hilltop-histories/history-of-the-hilltop-and-its-diversity/"
     },
     {
       "id": 6,
@@ -81,24 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop_(Columbus%2C_Ohio)",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Hilltop_(Columbus%2C_Ohio)"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hilltop-ohio.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.25,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Onthehilltop",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westgate_Elementary_School,_Columbus,_Ohio_06.11.2026-1.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "The Hilltop (Columbus, Ohio)"
-  }
+  ]
 }

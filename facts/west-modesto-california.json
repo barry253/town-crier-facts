@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "West Modesto sits at 37°37′20″N 121°1′44″W, right in California’s Central Valley.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/West_Modesto%2C_California"
+    },
+    {
       "id": 2,
       "text": "It’s part of the Modesto Metropolitan Statistical Area, linking it to the broader Central Valley economy.",
       "sourceSentenceIds": [
@@ -29,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Modesto%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/West_Modesto%2C_California"
     },
     {
       "id": 3,
@@ -43,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.modchamber.org/visiting-modesto/modesto-history/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.modchamber.org/visiting-modesto/modesto-history/"
     },
     {
       "id": 4,
@@ -56,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.modchamber.org/visiting-modesto/modesto-history/",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.modchamber.org/visiting-modesto/modesto-history/"
     },
     {
       "id": 5,
@@ -69,9 +73,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.modchamber.org/visiting-modesto/modesto-history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.modchamber.org/visiting-modesto/modesto-history/"
     },
     {
       "id": 6,
@@ -82,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.modestogov.com/?hl=en",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.modestogov.com/?hl=en"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-modesto-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.84,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "USFWS",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USFWS_Aerial_View_San_Joaquin_River_Refuge_(cropped).jpg"
-  }
+  ]
 }

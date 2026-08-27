@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wiscon%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Wiscon%2C_Florida"
     },
     {
       "id": 2,
@@ -44,10 +41,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wiscon%2C_Florida",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Wiscon%2C_Florida"
+    },
+    {
+      "id": 3,
+      "text": "The town’s geographic coordinates are 28.5408 N latitude and –82.462 W longitude.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/hernando/wiscon.cfm"
     },
     {
       "id": 4,
@@ -58,10 +63,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/hernando/wiscon.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://florida.hometownlocator.com/fl/hernando/wiscon.cfm"
+    },
+    {
+      "id": 5,
+      "text": "As a census‑designated place, Wiscon has no municipal government and relies on county services.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://florida.hometownlocator.com/fl/hernando/wiscon.cfm"
     },
     {
       "id": 6,
@@ -72,21 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/hernando/wiscon.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://florida.hometownlocator.com/fl/hernando/wiscon.cfm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wiscon-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.59,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "DanTD",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Lindsey_Mall_-_Close_Up.jpg"
-  }
+  ]
 }

@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Vision%2C_New_York",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Mount_Vision%2C_New_York"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Vision%2C_New_York",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mount_Vision%2C_New_York"
     },
     {
       "id": 3,
@@ -56,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Vision%2C_New_York",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Mount_Vision%2C_New_York"
     },
     {
       "id": 4,
@@ -69,12 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/mount-vision-xx-otsego-profile.htm",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ny/mount-vision-xx-otsego-profile.htm"
     },
     {
       "id": 5,
+      "text": "The town sits at 1,170 feet above sea level, giving it a modest elevation within Otsego County.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/ny/mount-vision-xx-otsego-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Mount Vision is located in Otsego County, New York, within the central part of the state.",
       "sourceSentenceIds": [
         8
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/mount-vision-xx-otsego-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ny/mount-vision-xx-otsego-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-vision-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Beyond My Ken",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otsego_County_Bank_Building_19_Main_Street_Cooperstown.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Otsego County, New York"
-  }
+  ]
 }

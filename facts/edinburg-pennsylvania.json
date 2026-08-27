@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Edinburg is an unincorporated community in Lawrence County, Pennsylvania.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Pennsylvania"
+    },
+    {
       "id": 2,
       "text": "The town sits along Pennsylvania Route 551, just west of U.S. 224 on the south bank of the Mahoning River, 4.7 mi from New Castle.",
       "sourceSentenceIds": [
@@ -30,10 +41,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Edinburg%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -44,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://edinburghistoricalsociety.org/local-historic-sites/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://edinburghistoricalsociety.org/local-historic-sites/"
     },
     {
       "id": 4,
@@ -57,9 +63,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm"
     },
     {
       "id": 5,
@@ -71,10 +75,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm",
-      "category": "landmark",
-      "quality": "good",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm"
     },
     {
       "id": 6,
@@ -85,24 +86,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/edinburg-xx-lawrence-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edinburg-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Tim Kiser",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahoning_River_Market_Street_Bridge_Youngstown.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Mahoning River"
-  }
+  ]
 }

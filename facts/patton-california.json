@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Patton Village sits 4,111 feet above sea level.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Patton_Village,_California"
+    },
+    {
+      "id": 2,
       "text": "The entire 0.83 square mile area consists only of land, no lakes or rivers.",
       "sourceSentenceIds": [
         7
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Patton_Village,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://kids.kiddle.co/Patton_Village,_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "In 2010, 345 housing units dotted the community, averaging about 104 per square mile.",
       "sourceSentenceIds": [
         22,
@@ -44,13 +52,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Patton_Village,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Patton_Village,_California"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "More than six‑tenths of residents owned their homes, while the remaining third rented.",
       "sourceSentenceIds": [
         24,
@@ -59,13 +64,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Patton_Village,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Patton_Village,_California"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "The median age of Patton Village residents is 44.3 years, with the largest group (31.9%) between 45 and 64.",
+      "sourceSentenceIds": [
+        21,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Patton_Village,_California"
+    },
+    {
+      "id": 6,
       "text": "Households average 2.43 people, reflecting a modest family size typical of small rural towns.",
       "sourceSentenceIds": [
         16
@@ -73,21 +87,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Patton_Village,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://kids.kiddle.co/Patton_Village,_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/patton-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.6,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech . It is in the public domain in the United States.",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg"
-  }
+  ]
 }

@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bargaintown%2C_New_Jersey",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Bargaintown%2C_New_Jersey"
     },
     {
       "id": 2,
@@ -44,12 +42,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bargaintown%2C_New_Jersey",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Bargaintown%2C_New_Jersey"
     },
     {
       "id": 3,
+      "text": "Geographically, Bargaintown sits at 39.3626°N latitude and –74.581°W longitude in Atlantic County, New Jersey.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/atlantic/bargaintown.cfm"
+    },
+    {
+      "id": 4,
       "text": "The Greate Egg Harbour Township Historical Society Museum and Research Library preserves Egg Harbor Township history, tracing back to 1710 when the area encompassed all of present‑day Atlantic County.",
       "sourceSentenceIds": [
         1
@@ -57,13 +64,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://gehthsmuseum.org/",
-      "category": "landmark",
-      "quality": "good",
-      "qualityReason": "other"
+      "source": "https://gehthsmuseum.org/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The museum’s collections showcase artifacts that illustrate everyday life, events, and activities of Egg Harbor Township from its early days to today.",
       "sourceSentenceIds": [
         10
@@ -71,25 +75,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://gehthsmuseum.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://gehthsmuseum.org/"
+    },
+    {
+      "id": 6,
+      "text": "Bargaintown’s median age is 44.1 years, with roughly 24% of residents under 18 and 20% aged 65 or older, reflecting a balanced age spread.",
+      "sourceSentenceIds": [
+        13,
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Bargaintown%2C_New_Jersey"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bargaintown-new-jersey.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.23,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-07-11_12_43_07_View_north_along_New_Jersey_State_Route_444_(Garden_State_Parkway)_at_the_Ocean_View_Service_Area_in_Dennis_Township,_Cape_May_County,_New_Jersey.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Garden State Parkway"
-  }
+  ]
 }

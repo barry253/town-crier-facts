@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_reservoir",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_reservoir"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_reservoir",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_reservoir"
     },
     {
       "id": 3,
@@ -55,9 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -68,13 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania"
     },
     {
       "id": 5,
+      "text": "Loop Mountain rises southeast of Reservoir to an elevation of 2,495 feet, offering a prominent local landmark.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania"
+    },
+    {
+      "id": 6,
       "text": "The Blair county seat, Hollidaysburg, lies just 4 miles north of Reservoir by road.",
       "sourceSentenceIds": [
         7
@@ -82,25 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Reservoir%2C_Pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/reservoir-pennsylvania.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.63,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Smallbones",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Pike_Bridge_1889_3.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Frankstown Branch Juniata River"
-  }
+  ]
 }

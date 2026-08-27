@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Westdale sits at 27.97°N, 97.97°W, placing it in northeastern Jim Wells County, Texas.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Westdale%2C_Texas"
+    },
+    {
+      "id": 2,
+      "text": "Westdale is located in northeastern Jim Wells County, Texas.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Westdale%2C_Texas"
+    },
+    {
+      "id": 3,
       "text": "Westdale is featured in the Texas Almanac, the official State Book of Texas.",
       "sourceSentenceIds": [
         10
@@ -29,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.texasalmanac.com/places/westdale",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.texasalmanac.com/places/westdale"
     },
     {
-      "id": 2,
+      "id": 4,
       "text": "The Texas Almanac has been published since 1857, a long‑standing Texas heritage.",
       "sourceSentenceIds": [
         11
@@ -43,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.texasalmanac.com/places/westdale",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.texasalmanac.com/places/westdale"
     },
     {
-      "id": 3,
+      "id": 5,
       "text": "Westdale’s cost of living index in 2024 is 78.8, below the national average.",
       "sourceSentenceIds": [
         14
@@ -57,21 +73,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Westdale-Texas.html",
-      "category": "economy",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://www.city-data.com/city/Westdale-Texas.html"
+    },
+    {
+      "id": 6,
+      "text": "The estimated median house value in Westdale for 2024 is $363,634, up from $67,500 in 2000.",
+      "sourceSentenceIds": [
+        14
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.city-data.com/city/Westdale-Texas.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westdale-texas.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Larry D. Moore",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_wells_courthouse.jpg"
-  }
+  ]
 }

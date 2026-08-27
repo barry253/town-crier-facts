@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/barstow_washington",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/barstow_washington"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/barstow_washington",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/barstow_washington"
     },
     {
       "id": 3,
@@ -55,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/barstow_washington",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/barstow_washington"
     },
     {
       "id": 4,
+      "text": "The community remains sparsely populated, with most of its 52 housing units occupied and a median household income above the county average.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/barstow_washington"
+    },
+    {
+      "id": 5,
       "text": "Barstow lies along U.S. Route 395, 14 miles north of Kettle Falls and 17 miles south of the Canadian border.",
       "sourceSentenceIds": [
         21
@@ -68,25 +73,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barstow%2C_Washington",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Barstow%2C_Washington"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Kettle Falls, Washington"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/barstow-washington.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Kevmin",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Curlew_Lake_looking_South.jpg"
-  }
+  ]
 }

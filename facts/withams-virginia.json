@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm"
     },
     {
       "id": 3,
@@ -57,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Withams%2C_Virginia",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Withams%2C_Virginia"
     },
     {
       "id": 4,
+      "text": "Withams sits within Accomack County, placing it on Virginia’s eastern shore.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The Withams post office opened in 1904, a milestone that helped anchor the community.",
       "sourceSentenceIds": [
         7
@@ -71,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Withams lies near sea level, reflecting its coastal plain setting.",
       "sourceSentenceIds": [
         8
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/va/withams-xx-accomack-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/withams-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Accomack County, Virginia"
-  }
+  ]
 }

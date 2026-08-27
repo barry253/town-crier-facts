@@ -22,6 +22,28 @@
   "facts": [
     {
       "id": 1,
+      "text": "Green Knoll sits at latitude 40.6001, longitude -74.6121 in Somerset County.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/somerset/green-knoll.cfm"
+    },
+    {
+      "id": 2,
+      "text": "The community is officially a census‑designated place, meaning it has no municipal government.",
+      "sourceSentenceIds": [
+        24
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/somerset/green-knoll.cfm"
+    },
+    {
+      "id": 3,
       "text": "The area’s Diversity Index indicates a high likelihood that two randomly chosen residents belong to different races or ethnic groups.",
       "sourceSentenceIds": [
         26
@@ -29,13 +51,32 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/somerset/green-knoll.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://newjersey.hometownlocator.com/nj/somerset/green-knoll.cfm"
     },
     {
-      "id": 2,
+      "id": 4,
+      "text": "The Housing Affordability Index for Green Knoll is above 100, showing that median‑income residents can generally afford the median home price.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://newjersey.hometownlocator.com/nj/somerset/green-knoll.cfm"
+    },
+    {
+      "id": 5,
+      "text": "Green Knoll’s median age is 45.7 years, reflecting a mature community.",
+      "sourceSentenceIds": [
+        18
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Green_Knoll%2C_New_Jersey"
+    },
+    {
+      "id": 6,
       "text": "The median household size averages 2.46 people, while families average 3.10 members.",
       "sourceSentenceIds": [
         17
@@ -43,21 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Green_Knoll%2C_New_Jersey",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Green_Knoll%2C_New_Jersey"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/green-knoll-new-jersey.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.258,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Mr. Matté (if there is an issue with this image, contact me using this image's Commons talk page, my Commons user talk page, or my English Wikipedia user talk page; I'll know about it a lot faster)",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somerset,_NJ_CR_639_nb,_Green_Knoll,_March_2024.jpg"
-  }
+  ]
 }

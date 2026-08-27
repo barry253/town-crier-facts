@@ -31,12 +31,22 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/charlottsville_pennsylvania",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/charlottsville_pennsylvania"
     },
     {
       "id": 2,
+      "text": "The community sits 932 feet above sea level on the northwestern side of the Little Juniata River valley.",
+      "sourceSentenceIds": [
+        27,
+        28
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/charlottsville_pennsylvania"
+    },
+    {
+      "id": 3,
       "text": "A stretch of the Pittsburgh Line of the Norfolk Southern Railway forms Charlottsville’s northwestern boundary, linking it to Altoona and Pittsburgh.",
       "sourceSentenceIds": [
         13,
@@ -46,12 +56,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charlottsville%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Charlottsville%2C_Pennsylvania"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "In the 1850s Scotch‑Irish and German pioneers cleared the Little Juniata valley for farms and mills, shaping the area’s early economy.",
       "sourceSentenceIds": [
         18,
@@ -60,12 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/charlottsville_pennsylvania",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/charlottsville_pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Housing in Charlottsville is almost evenly split between owner‑occupied and renter‑occupied units, most three‑bedroom homes valued between $100,000 and $149,999.",
       "sourceSentenceIds": [
         16
@@ -73,13 +79,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/charlottsville_pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://grokipedia.com/page/charlottsville_pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The town experiences a humid continental climate, with cold snowy winters and warm, humid summers typical of central Pennsylvania.",
       "sourceSentenceIds": [
         29
@@ -87,25 +90,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/charlottsville_pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/charlottsville_pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/charlottsville-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.45,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Pubdog (talk)",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Blair County, Pennsylvania"
-  }
+  ]
 }

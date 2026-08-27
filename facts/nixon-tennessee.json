@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Nixon is an unincorporated community in Hardin County, Tennessee.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee"
+    },
+    {
+      "id": 2,
       "text": "The town sits along Tennessee State Route 128, a key north–south corridor in the region.",
       "sourceSentenceIds": [
         8
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee",
-      "category": "transport",
-      "quality": "good",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Nixon lies just north of the Pickwick Landing Dam on the Tennessee River.",
       "sourceSentenceIds": [
         8
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Nixon%2C_Tennessee"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A post office opened in Nixon in 1880, marking the community’s early development.",
       "sourceSentenceIds": [
         11
@@ -57,12 +62,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "The community sits 490 feet above sea level, typical of the gently rolling terrain in Hardin County.",
+      "sourceSentenceIds": [
+        13
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Nixon’s history is tied to the 1895 atlas listings, which noted its post office and railroad service status.",
       "sourceSentenceIds": [
         3
@@ -70,24 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/tn/nixon-xx-hardin-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nixon-tennessee.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ɱ",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Market_Street_Bridge_02.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Tennessee River"
-  }
+  ]
 }

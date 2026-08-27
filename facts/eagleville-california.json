@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/eagleville-xx-yuba-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/eagleville-xx-yuba-profile.htm"
     },
     {
       "id": 2,
@@ -42,12 +40,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California"
     },
     {
       "id": 3,
+      "text": "Eagleville sits at an elevation of about 4,640 feet, giving it a high‑altitude feel.",
+      "sourceSentenceIds": [
+        10,
+        14
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California"
+    },
+    {
+      "id": 4,
       "text": "It lies roughly 25 miles east‑southeast of Alturas, placing it deep in the Sierra Nevada foothills.",
       "sourceSentenceIds": [
         10
@@ -55,13 +63,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The community is nestled in Surprise Valley, just south of Cedarville.",
       "sourceSentenceIds": [
         11
@@ -69,13 +74,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Baseball legend Joseph Floyd “Arky” Vaughan owned a ranch near Eagleville before his tragic death in 1952.",
       "sourceSentenceIds": [
         26
@@ -83,24 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Eagleville%2C_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eagleville-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.27,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Miguel Vieira from Redwood City, CA, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goose_Lake_(6024169313)_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Modoc County, California"
-  }
+  ]
 }

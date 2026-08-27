@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Thomasboro is a small village nestled in Champaign County, Illinois, part of the United States.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Thomasboro%2C_Illinois"
+    },
+    {
       "id": 2,
       "text": "The village derives its name from pioneer settler John Thomas, who helped establish the community in the 19th century.",
       "sourceSentenceIds": [
@@ -29,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thomasboro%2C_Illinois",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Thomasboro%2C_Illinois"
     },
     {
       "id": 3,
@@ -42,20 +51,40 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thomasboro%2C_Illinois",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Thomasboro%2C_Illinois"
+    },
+    {
+      "id": 4,
+      "text": "Thomasboro, Illinois, is located within Champaign County, placing it in the heart of the state's agricultural belt.",
+      "sourceSentenceIds": [
+        19
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-thomasboro.html"
+    },
+    {
+      "id": 5,
+      "text": "Thomasboro lies within Champaign County in the United States, making it part of the broader Champaign–Urbana metropolitan area.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-thomasboro.html"
+    },
+    {
+      "id": 6,
+      "text": "Geographically, Thomasboro sits in east‑central Illinois, roughly midway between the cities of Champaign and Urbana.",
+      "sourceSentenceIds": [
+        21
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://www.citydirectory.us/village-thomasboro.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thomasboro-illinois.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.81,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Daniel Schwen",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomasboro,_IL.jpg"
-  }
+  ]
 }

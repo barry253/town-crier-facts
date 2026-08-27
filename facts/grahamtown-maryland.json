@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grahamtown%2C_Maryland",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Grahamtown%2C_Maryland"
     },
     {
       "id": 2,
@@ -43,12 +41,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grahamtown%2C_Maryland",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Grahamtown%2C_Maryland"
     },
     {
       "id": 3,
+      "text": "Perched at 1,870 feet above sea level, Grahamtown lies where Maryland Route 36 crosses Welsh Hill.",
+      "sourceSentenceIds": [
+        28,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 2",
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/md/grahamtown-xx-allegany-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "Grahamtown is part of the Cumberland, MD‑WV Metropolitan Statistical Area, linking it to a broader regional community.",
       "sourceSentenceIds": [
         8
@@ -56,13 +65,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grahamtown%2C_Maryland",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Grahamtown%2C_Maryland"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The first published reference to Grahamtown appears in the 1895 SPV’s Comprehensive Railroad Atlas of North America – Appalachia & Piedmont.",
       "sourceSentenceIds": [
         6
@@ -70,24 +76,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/grahamtown-xx-allegany-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/md/grahamtown-xx-allegany-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grahamtown-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.66,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Preservation Maryland",
-    "license": "CC BY-SA 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegany_County_Courthouse_(25181526054).jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Allegany County, Maryland"
-  }
+  ]
 }

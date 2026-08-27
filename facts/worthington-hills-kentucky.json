@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Worthington Hills is a home‑rule class city nestled in Jefferson County, Kentucky.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Worthington_Hills%2C_Kentucky"
+    },
+    {
       "id": 2,
       "text": "The city officially became independent on January 31, 1980, when the state legislature incorporated it.",
       "sourceSentenceIds": [
@@ -29,9 +40,40 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worthington_Hills%2C_Kentucky",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Worthington_Hills%2C_Kentucky"
+    },
+    {
+      "id": 3,
+      "text": "Located in northeastern Jefferson County, Worthington Hills sits just north of Louisville’s urban core.",
+      "sourceSentenceIds": [
+        3
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Worthington_Hills%2C_Kentucky"
+    },
+    {
+      "id": 4,
+      "text": "Its northern and eastern borders meet Coldstream, while the rest of its perimeter adjoins consolidated Louisville/Jefferson County.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Worthington_Hills%2C_Kentucky"
+    },
+    {
+      "id": 5,
+      "text": "Downtown Louisville lies roughly 15 miles (24 km) southwest of Worthington Hills, a short drive away.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Worthington_Hills%2C_Kentucky"
     },
     {
       "id": 6,
@@ -42,10 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofworthingtonhillsky.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.cityofworthingtonhillsky.gov/"
     }
   ]
 }

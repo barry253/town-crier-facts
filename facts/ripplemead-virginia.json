@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ripplemead%2C_Virginia",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Ripplemead%2C_Virginia"
     },
     {
       "id": 2,
@@ -43,12 +40,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/ripplemead-xx-giles-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/ripplemead-xx-giles-profile.htm"
     },
     {
       "id": 3,
+      "text": "At 1,830 feet above sea level, Ripplemead enjoys a higher elevation than many surrounding areas.",
+      "sourceSentenceIds": [
+        11
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/ripplemead-xx-giles-profile.htm"
+    },
+    {
+      "id": 4,
       "text": "The name Ripplemead reflects the town’s connection to the land and the river that flows nearby.",
       "sourceSentenceIds": [
         5,
@@ -57,12 +63,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Ripplemead,_Virginia",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://kids.kiddle.co/Ripplemead,_Virginia"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "An 1895 atlas lists Ripplemead among the communities that once dotted Giles County’s landscape.",
       "sourceSentenceIds": [
         21
@@ -70,20 +74,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/ripplemead-xx-giles-profile.htm",
-      "category": "history",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/va/ripplemead-xx-giles-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "Ripplemead’s coordinates have been estimated but are believed to lie close to the documented location.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/va/ripplemead-xx-giles-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "New River (Kanawha River)"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ripplemead-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.48,
-    "y": 0.5
-  }
+  ]
 }

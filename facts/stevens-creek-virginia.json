@@ -29,9 +29,29 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stevens_Creek%2C_Virginia",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Stevens_Creek%2C_Virginia"
+    },
+    {
+      "id": 2,
+      "text": "The census‑designated place sits less than two miles northwest of Fries and about ten miles northwest of Galax.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Stevens_Creek%2C_Virginia"
+    },
+    {
+      "id": 3,
+      "text": "Its geographic coordinates are roughly 36.7287°N latitude and –80.999°W longitude.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://virginia.hometownlocator.com/va/grayson/stevens-creek.cfm"
     },
     {
       "id": 4,
@@ -43,10 +63,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/stevens-creek-xx-carroll-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://roadsidethoughts.com/va/stevens-creek-xx-carroll-profile.htm"
     },
     {
       "id": 5,
@@ -57,24 +74,18 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/stevens-creek-xx-carroll-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/va/stevens-creek-xx-carroll-profile.htm"
+    },
+    {
+      "id": 6,
+      "text": "As a census‑designated place, Stevens Creek has no legal status or governmental functions.",
+      "sourceSentenceIds": [
+        10
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://virginia.hometownlocator.com/va/grayson/stevens-creek.cfm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "New River (Kanawha River tributary)"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stevens-creek-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.75,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Ceh2624",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CarrollCountyCourtFront.JPG"
-  }
+  ]
 }

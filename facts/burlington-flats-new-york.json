@@ -21,6 +21,19 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Burlington Flats sits at 42.7452°N 75.183°W in Otsego County, New York.",
+      "sourceSentenceIds": [
+        4,
+        28
+      ],
+      "sourceLabels": [
+        "Wikipedia",
+        "Web source 2"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Burlington_Flats%2C_New_York"
+    },
+    {
       "id": 2,
       "text": "It is part of the Town of Burlington, which hosts a community library and historical society.",
       "sourceSentenceIds": [
@@ -29,10 +42,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofburlingtonny.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://www.townofburlingtonny.com/"
     },
     {
       "id": 3,
@@ -43,9 +53,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burlington_Flats%2C_New_York",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Burlington_Flats%2C_New_York"
     },
     {
       "id": 4,
@@ -56,10 +64,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofburlingtonny.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.townofburlingtonny.com/"
     },
     {
       "id": 5,
@@ -70,10 +75,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofburlingtonny.com/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.townofburlingtonny.com/"
     },
     {
       "id": 6,
@@ -85,25 +87,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/burlington-flats-xx-otsego-genealogy.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ny/burlington-flats-xx-otsego-genealogy.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/burlington-flats-new-york.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.31,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Beyond My Ken",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otsego_County_Bank_Building_19_Main_Street_Cooperstown.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Otsego County, New York"
-  }
+  ]
 }

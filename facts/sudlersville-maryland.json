@@ -30,9 +30,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.qacchamber.com/sudlersville/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.qacchamber.com/sudlersville/"
     },
     {
       "id": 2,
@@ -44,12 +42,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.qacchamber.com/sudlersville/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.qacchamber.com/sudlersville/"
     },
     {
       "id": 3,
+      "text": "Sudlersville’s historic heart still hosts the Asbury Methodist Episcopal Church, now the Sudlersville Memorial Library.",
+      "sourceSentenceIds": [
+        4,
+        7
+      ],
+      "sourceLabels": [
+        "Web source 1",
+        "Web source 2"
+      ],
+      "source": "https://www.qacchamber.com/sudlersville/"
+    },
+    {
+      "id": 4,
       "text": "Andrew's Episcopal Chapel and Dudley's Chapel, just outside town, are both listed on the National Register of Historic Places.",
       "sourceSentenceIds": [
         2
@@ -57,12 +66,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sudlersville%2C_Maryland",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Sudlersville%2C_Maryland"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "The Sudlersville Memorial Library, located at 105 West Main St., serves the community and is housed in a former church building.",
       "sourceSentenceIds": [
         7,
@@ -71,20 +78,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://msa.maryland.gov/msa/mdmanual/37mun/sudlers/html/s.html",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://msa.maryland.gov/msa/mdmanual/37mun/sudlers/html/s.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sudlersville-maryland.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.422,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-06-30_10_34_08_View_north_along_Maryland_State_Route_313_(Church_Street)_at_Maryland_State_Route_300_(Main_Street)_in_Sudlersville,_Queen_Anne%27s_County,_Maryland.jpg"
-  }
+  ]
 }

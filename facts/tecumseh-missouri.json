@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri",
-      "category": "etymology",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri"
     },
     {
       "id": 4,
@@ -70,12 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri",
-      "category": "history",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Tecumseh%2C_Missouri"
     },
     {
       "id": 5,
+      "text": "Tecumseh sits at an elevation of 610 feet above sea level, typical of the Ozark highlands.",
+      "sourceSentenceIds": [
+        27
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://roadsidethoughts.com/mo/tecumseh-xx-ozark-profile.htm"
+    },
+    {
+      "id": 6,
       "text": "Tecumseh is part of the Missouri Ozarks, a region famed for its rugged hills and clear waterways.",
       "sourceSentenceIds": [
         24
@@ -83,25 +84,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/tecumseh-xx-ozark-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/mo/tecumseh-xx-ozark-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tecumseh-missouri.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.77,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Vsmith",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridge_over_the_upper_North_Fork_River.jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "North Fork River (Missouri–Arkansas)"
-  }
+  ]
 }

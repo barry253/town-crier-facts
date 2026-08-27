@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kleindale%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Kleindale%2C_Arizona"
     },
     {
       "id": 2,
@@ -43,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cavecreekaz.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.cavecreekaz.gov/"
     },
     {
       "id": 3,
@@ -57,9 +51,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitcanoa.com/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.visitcanoa.com/"
     },
     {
       "id": 4,
@@ -70,9 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitcanoa.com/",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://www.visitcanoa.com/"
     },
     {
       "id": 5,
@@ -83,25 +73,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cavecreekaz.gov/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://www.cavecreekaz.gov/"
+    },
+    {
+      "id": 6,
+      "text": "The Canoa Ranch Rest Area on I‑19 near Kleindale offers a snapshot of the region’s 14,000‑year history.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.visitcanoa.com/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kleindale-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Gillfoto",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_County_Courthouse_10.JPG"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Pima County, Arizona"
-  }
+  ]
 }

@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Summitview sits at 47°8'11\"N latitude and 122°21'7\"W longitude, right in central Washington.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://kids.kiddle.co/Summit_View,_Washington"
+    },
+    {
+      "id": 2,
       "text": "This unincorporated community looks like a town but isn’t officially governed as one.",
       "sourceSentenceIds": [
         11
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Summit_View,_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://kids.kiddle.co/Summit_View,_Washington"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "The area contains 308 housing units, spread over roughly 119.3 homes per square mile.",
       "sourceSentenceIds": [
         3
@@ -43,21 +51,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Summitview%2C_Washington",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Summitview%2C_Washington"
+    },
+    {
+      "id": 4,
+      "text": "The median age of residents is 40 years, reflecting a balanced mix of families and adults.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Summitview%2C_Washington"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/summitview-washington.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.79,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Chetsford",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yakima_County.jpg"
-  }
+  ]
 }

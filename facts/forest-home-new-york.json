@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fhia.org/short-history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.fhia.org/short-history/"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fhia.org/short-history/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://www.fhia.org/short-history/"
     },
     {
       "id": 3,
@@ -55,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fhia.org/short-history/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.fhia.org/short-history/"
     },
     {
       "id": 4,
+      "text": "Forest Home sits on gently rolling hills, with an average elevation of about 387 feet above sea level.",
+      "sourceSentenceIds": [
+        25
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Armonk%2C_New_York"
+    },
+    {
+      "id": 5,
       "text": "The IBM corporate headquarters, a landmark of modern technology, is located in nearby Armonk, just a short drive from Forest Home.",
       "sourceSentenceIds": [
         24
@@ -68,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Armonk%2C_New_York",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Armonk%2C_New_York"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Howard Stern, the nationally known radio host, called Forest Home home from 1990 to 2010.",
       "sourceSentenceIds": [
         1
@@ -82,20 +84,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Armonk%2C_New_York",
-      "category": "people",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Armonk%2C_New_York"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forest-home-new-york.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.315,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "ajay_suresh",
-    "license": "CC BY 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Armonk,_NY_(55153969492).jpg"
-  }
+  ]
 }

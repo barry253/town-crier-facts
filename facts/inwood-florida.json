@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Inwood sits within the Lakeland–Winter Haven Metropolitan Statistical Area.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida"
+    },
+    {
+      "id": 2,
       "text": "Four lakes—Blue, Cannon, Jessie, and Deer—dot the town, with Blue the only one entirely inside Inwood.",
       "sourceSentenceIds": [
         8
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Every resident lives in an urban setting; the census reports 0% rural population.",
       "sourceSentenceIds": [
         12
@@ -42,13 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "Inwood has 3,249 housing units, 12.3% of which are vacant.",
       "sourceSentenceIds": [
         13
@@ -56,13 +62,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida"
     },
     {
-      "id": 4,
+      "id": 5,
+      "text": "The community is 68.29% White, 23.51% African American, with smaller percentages of other races.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida"
+    },
+    {
+      "id": 6,
       "text": "Polk County School Board runs Inwood’s public schools, including two elementary, one middle, and a private institution.",
       "sourceSentenceIds": [
         22,
@@ -71,21 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Inwood%2C_Florida"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/inwood-florida.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.37,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "CKColerEL",
-    "license": "CC BY 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eagle_Lake_Florida_Overlooking_Dock.jpg"
-  }
+  ]
 }

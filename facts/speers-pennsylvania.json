@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://speersborough.org/",
-      "category": "history",
-      "quality": "good"
+      "source": "https://speersborough.org/"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Speers%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://en.wikipedia.org/wiki/Speers%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -56,10 +51,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Speers%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "good",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Speers%2C_Pennsylvania"
     },
     {
       "id": 4,
@@ -70,21 +62,29 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://speersborough.org/",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://speersborough.org/"
+    },
+    {
+      "id": 5,
+      "text": "The town hall, located at 300 Phillips Street, serves as the hub for permits, inspections, and community meetings.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.citydirectory.us/borough-speers.html"
+    },
+    {
+      "id": 6,
+      "text": "Speers lies about 25 miles south of Pittsburgh, placing it within the greater Pittsburgh metropolitan area.",
+      "sourceSentenceIds": [
+        26
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://www.citydirectory.us/borough-speers.html"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/speers-pennsylvania.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.492,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "VitaleBaby at en.wikipedia",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Speers88.jpg"
-  }
+  ]
 }

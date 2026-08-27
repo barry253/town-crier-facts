@@ -29,10 +29,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Millsboro%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/East_Millsboro%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -43,9 +40,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Millsboro%2C_Pennsylvania",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/East_Millsboro%2C_Pennsylvania"
     },
     {
       "id": 3,
@@ -56,12 +51,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm"
     },
     {
       "id": 4,
+      "text": "East Millsboro rises 800 feet above sea level, giving it a modest elevation compared to surrounding areas.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm"
+    },
+    {
+      "id": 5,
       "text": "The area hosts a list of historic cemeteries, offering a glimpse into the region’s genealogical roots.",
       "sourceSentenceIds": [
         16
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "A detailed newspaper archive chronicles local stories, reflecting East Millsboro’s rich journalistic heritage.",
       "sourceSentenceIds": [
         21
@@ -82,19 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/pa/east-millsboro-xx-fayette-profile.htm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Fayette County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-millsboro-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  }
+  ]
 }

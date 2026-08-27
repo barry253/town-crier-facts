@@ -21,6 +21,17 @@
   ],
   "facts": [
     {
+      "id": 1,
+      "text": "Brown Station first appeared as a census‑designated place in the 2020 U.S. Census.",
+      "sourceSentenceIds": [
+        20
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Brown_Station%2C_Maryland"
+    },
+    {
       "id": 2,
       "text": "Brown Station Road is home to the Prince George’s County landfill and a new animal shelter.",
       "sourceSentenceIds": [
@@ -29,10 +40,18 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brown_Station%2C_Maryland",
-      "category": "landmark",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Brown_Station%2C_Maryland"
+    },
+    {
+      "id": 3,
+      "text": "The town sits at 38.8539° N, 76.7977° W, right in Prince George’s County.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://maryland.hometownlocator.com/md/prince-georges/brown-station.cfm"
     },
     {
       "id": 4,
@@ -43,20 +62,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://decorhint.com/the-maryland-town-near-the-borders-of-two-states-with-a-rich-railroad-history/",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://decorhint.com/the-maryland-town-near-the-borders-of-two-states-with-a-rich-railroad-history/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brown-station-maryland.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.54,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Famartin",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-04_15_06_33_View_north_along_Interstate_95_and_Interstate_495_(Capital_Beltway)_from_the_pedestrian_overpass_for_the_Woodrow_Wilson_Bridge_Trail_in_National_Harbor,_Prince_George%27s_County,_Maryland.jpg"
-  }
+  ]
 }

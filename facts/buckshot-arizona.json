@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Buckshot first appeared on the 2010 U.S. Census as a census-designated place.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona"
+    },
+    {
+      "id": 2,
       "text": "Redondo Lake, a reservoir fed by seepage from the Gila Gravity Main Canal, sits just north of Buckshot.",
       "sourceSentenceIds": [
         2
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Buckshot lies in the heart of the Gila River Valley, a region known for its rich agricultural history.",
       "sourceSentenceIds": [
         3
@@ -42,12 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona",
-      "category": "economy",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona"
     },
     {
-      "id": 3,
+      "id": 4,
+      "text": "The median age of Buckshot residents is 63.8 years, reflecting its status as a popular retirement community.",
+      "sourceSentenceIds": [
+        5
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona"
+    },
+    {
+      "id": 5,
       "text": "The community is overwhelmingly White, with 92.2% of residents identifying as such according to the latest census.",
       "sourceSentenceIds": [
         6
@@ -55,13 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "census_demographic"
+      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona"
     },
     {
-      "id": 4,
+      "id": 6,
       "text": "Children in Buckshot attend Desert Mesa Elementary and Castle Dome Middle School, while high schoolers go to Gila Ridge High School.",
       "sourceSentenceIds": [
         8,
@@ -70,25 +85,7 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Buckshot%2C_Arizona"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Gila River Valley"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buckshot-arizona.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.42,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Cbl62",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Yuma_City_Hall.jpg"
-  }
+  ]
 }

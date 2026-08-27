@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/derrick_city_pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/derrick_city_pennsylvania"
     },
     {
       "id": 2,
@@ -42,9 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/derrick_city_pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/derrick_city_pennsylvania"
     },
     {
       "id": 3,
@@ -55,13 +51,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Derrick_City%2C_Pennsylvania",
-      "category": "transport",
-      "quality": "poor",
-      "qualityReason": "route_only"
+      "source": "https://en.wikipedia.org/wiki/Derrick_City%2C_Pennsylvania"
     },
     {
       "id": 4,
+      "text": "Derrick City lies 1,562 feet above sea level on the Allegheny Plateau near the New York border.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/derrick_city_pennsylvania"
+    },
+    {
+      "id": 5,
       "text": "Seasonal climate swings bring lake‑effect snow in winter and warm July highs around 78°F, supporting lush forests.",
       "sourceSentenceIds": [
         23,
@@ -70,13 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/derrick_city_pennsylvania",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/derrick_city_pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Remnants of 19th‑century oil derricks still leave soil contamination, prompting ongoing remediation near abandoned wells.",
       "sourceSentenceIds": [
         1
@@ -84,25 +85,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/derrick_city_pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://grokipedia.com/page/derrick_city_pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/derrick-city-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.6,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nicholas from Pennsylvania, USA",
-    "license": "CC BY 2.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McKean_County_Courthouse.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "McKean County, Pennsylvania"
-  }
+  ]
 }

@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Delhi,_California",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/Delhi,_California"
     },
     {
       "id": 2,
@@ -42,13 +40,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California"
     },
     {
       "id": 3,
+      "text": "Delhi sits 118 feet above sea level, 18 miles west‑northwest of Merced.",
+      "sourceSentenceIds": [
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California"
+    },
+    {
+      "id": 4,
       "text": "The New Beginnings Christian Center building was originally displayed at the 1939 San Francisco World’s Fair.",
       "sourceSentenceIds": [
         14
@@ -56,12 +62,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Delhi’s Harmony School opened in 2005, reflecting the community’s focus on education.",
       "sourceSentenceIds": [
         11
@@ -69,12 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California",
-      "category": "culture",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Delhi%2C_California"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "The area experiences a Central Valley climate with July highs around 96°F and January lows near 40°F.",
       "sourceSentenceIds": [
         3
@@ -82,21 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Delhi,_California",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/Delhi,_California"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/delhi-california.jpg",
-  "imageSource": "wikipedia",
-  "imageFocus": {
-    "x": 0.234,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Jim Costa",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_Costa_with_Delhi_Middle_School_students.jpg"
-  }
+  ]
 }

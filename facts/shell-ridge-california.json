@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Shell Ridge sits at an elevation of 295 feet.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Shell_Ridge%2C_California"
+    },
+    {
+      "id": 2,
       "text": "Shell Ridge Open Space is the largest in Walnut Creek, boasting 31 miles of trails.",
       "sourceSentenceIds": [
         2
@@ -29,12 +40,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shell_Ridge%2C_California",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://en.wikipedia.org/wiki/Shell_Ridge%2C_California"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Shell Ridge spans 1,400 acres of parallel ridges that rise to 829 feet at their peak.",
       "sourceSentenceIds": [
         15
@@ -42,12 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ebcnps.org/fieldtrip/exploring-the-oak-diversity-of-shell-ridge/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://ebcnps.org/fieldtrip/exploring-the-oak-diversity-of-shell-ridge/"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "The ridge forms a key habitat corridor, protecting biodiversity around Mount Diablo.",
       "sourceSentenceIds": [
         14
@@ -55,12 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ebcnps.org/fieldtrip/exploring-the-oak-diversity-of-shell-ridge/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://ebcnps.org/fieldtrip/exploring-the-oak-diversity-of-shell-ridge/"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Coast live oaks stay evergreen while valley and blue oaks turn brown around Thanksgiving.",
       "sourceSentenceIds": [
         22,
@@ -69,24 +74,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ebcnps.org/fieldtrip/exploring-the-oak-diversity-of-shell-ridge/",
-      "category": "nature",
-      "quality": "good"
+      "source": "https://ebcnps.org/fieldtrip/exploring-the-oak-diversity-of-shell-ridge/"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shell-ridge-california.jpg",
-  "imageSource": "wikipedia_geo_link",
-  "imageFocus": {
-    "x": 0.61,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Alfred Twu",
-    "license": "CC0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
-  },
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Bay Point, California"
-  }
+  ]
 }

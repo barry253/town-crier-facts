@@ -19,15 +19,28 @@
       "url": "https://www.allplaces.us/z/16734"
     }
   ],
-  "facts": [],
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Elk County, Pennsylvania"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/james-city-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.62,
-    "y": 0.5
-  }
+  "facts": [
+    {
+      "id": 1,
+      "text": "James City lies about 4 miles south of Kane, just a mile from Pennsylvania Route 66.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/James_City%2C_Pennsylvania"
+    },
+    {
+      "id": 2,
+      "text": "The town sits in northern Highland Township, right on the McKean County line.",
+      "sourceSentenceIds": [
+        2
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/James_City%2C_Pennsylvania"
+    }
+  ]
 }

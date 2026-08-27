@@ -22,6 +22,17 @@
   "facts": [
     {
       "id": 1,
+      "text": "Stones Landing sits at 5,118 feet above sea level, a high‑altitude spot in northern California.",
+      "sourceSentenceIds": [
+        7
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Stones_Landing%2C_California"
+    },
+    {
+      "id": 2,
       "text": "The town’s altitude is about one mile above sea level, making it one of the higher communities in the state.",
       "sourceSentenceIds": [
         12
@@ -29,13 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm",
-      "category": "nature",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm"
     },
     {
-      "id": 2,
+      "id": 3,
       "text": "Stones Landing is nestled in Lassen County, a remote part of northeastern California.",
       "sourceSentenceIds": [
         9
@@ -43,13 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm"
     },
     {
-      "id": 3,
+      "id": 4,
       "text": "A commemorative quarter was issued to honor Stones Landing, celebrating its place in California history.",
       "sourceSentenceIds": [
         8
@@ -57,13 +62,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Historical records show that Stones Landing once had a post office and railroad service, linking it to regional trade.",
       "sourceSentenceIds": [
         4
@@ -71,12 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm",
-      "category": "history",
-      "quality": "good"
+      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Some of the town’s coordinates still need verification, possibly because the sites lie on private property.",
       "sourceSentenceIds": [
         6
@@ -84,25 +84,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://roadsidethoughts.com/ca/stones-landing-xx-lassen-profile.htm"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stones-landing-california.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.87,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "en:User:Mav",
-    "license": "CC BY-SA 3.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lassen_Peak_from_Devastated_Area-1200px.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Lassen County, California"
-  }
+  ]
 }

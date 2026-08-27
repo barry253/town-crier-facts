@@ -32,10 +32,7 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holbrook%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "other"
+      "source": "https://en.wikipedia.org/wiki/Holbrook%2C_Pennsylvania"
     },
     {
       "id": 2,
@@ -48,13 +45,23 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holbrook%2C_Pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "location_description"
+      "source": "https://en.wikipedia.org/wiki/Holbrook%2C_Pennsylvania"
     },
     {
       "id": 3,
+      "text": "Holbrook sits at roughly 1,000 feet elevation, offering scenic views over the Monongahela River watershed.",
+      "sourceSentenceIds": [
+        16,
+        21,
+        20
+      ],
+      "sourceLabels": [
+        "Web source 1"
+      ],
+      "source": "https://grokipedia.com/page/holbrook_pennsylvania"
+    },
+    {
+      "id": 4,
       "text": "The area was first settled around 1774, with Scotch‑Irish and German pioneers farming corn and wheat.",
       "sourceSentenceIds": [
         5,
@@ -64,12 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/holbrook_pennsylvania",
-      "category": "history",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/holbrook_pennsylvania"
     },
     {
-      "id": 4,
+      "id": 5,
       "text": "Foley Site, an archaeological location in Jackson Township, was listed on the National Register of Historic Places in 1984.",
       "sourceSentenceIds": [
         4
@@ -77,12 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/holbrook_pennsylvania",
-      "category": "landmark",
-      "quality": "good"
+      "source": "https://grokipedia.com/page/holbrook_pennsylvania"
     },
     {
-      "id": 5,
+      "id": 6,
       "text": "Holbrook experiences a humid continental climate, with July highs around 82°F and January lows near 21°F.",
       "sourceSentenceIds": [
         23,
@@ -91,25 +94,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/holbrook_pennsylvania",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://grokipedia.com/page/holbrook_pennsylvania"
     }
-  ],
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/holbrook-pennsylvania.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.47,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "Nyttend",
-    "license": "Public domain",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greene_County_Courthouse,_Waynesburg.jpg"
-  },
-  "imageFallback": {
-    "strategy": "county",
-    "source": "Greene County, Pennsylvania"
-  }
+  ]
 }

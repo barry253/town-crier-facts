@@ -29,9 +29,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahshorespoa-cwa.org/general-4",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.shenandoahshorespoa-cwa.org/general-4"
     },
     {
       "id": 2,
@@ -42,10 +40,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahshorespoa-cwa.org/general-4",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.shenandoahshorespoa-cwa.org/general-4"
     },
     {
       "id": 3,
@@ -57,9 +52,7 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahshorespoa-cwa.org/general-4",
-      "category": "history",
-      "quality": "good"
+      "source": "https://www.shenandoahshorespoa-cwa.org/general-4"
     },
     {
       "id": 4,
@@ -70,10 +63,18 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahshorespoa-cwa.org/general-4",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "vague"
+      "source": "https://www.shenandoahshorespoa-cwa.org/general-4"
+    },
+    {
+      "id": 5,
+      "text": "Shenandoah Shores sits at 38.9604° N latitude and 78.1431° W longitude in Warren County.",
+      "sourceSentenceIds": [
+        16
+      ],
+      "sourceLabels": [
+        "Web source 2"
+      ],
+      "source": "https://virginia.hometownlocator.com/va/warren/shenandoah-shores.cfm"
     },
     {
       "id": 6,
@@ -84,25 +85,7 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://virginia.hometownlocator.com/va/warren/shenandoah-shores.cfm",
-      "category": "other",
-      "quality": "poor",
-      "qualityReason": "editorial_filler"
+      "source": "https://virginia.hometownlocator.com/va/warren/shenandoah-shores.cfm"
     }
-  ],
-  "imageFallback": {
-    "strategy": "geo_link",
-    "source": "Apple Mountain Lake, Virginia"
-  },
-  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shenandoah-shores-virginia.jpg",
-  "imageSource": "wikipedia_county",
-  "imageFocus": {
-    "x": 0.73,
-    "y": 0.5
-  },
-  "imageAttribution": {
-    "author": "AgnosticPreachersKid",
-    "license": "CC BY-SA 4.0",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warren_County_Courthouse_cropped.JPG"
-  }
+  ]
 }
