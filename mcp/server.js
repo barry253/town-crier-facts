@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 // --- Config -----------------------------------------------------------
 
 const PORT              = process.env.MCP_PORT || 3000;
-const TASK_TIMEOUT_MS   = 5 * 60 * 1000;   // 5 minutes per task
+const TASK_TIMEOUT_MS   = 10 * 60 * 1000;  // 10 minutes per task
 const SSH_TIMEOUT_S     = 10;               // seconds for SSH connection attempt
 const REVERSE_TUNNEL_PORT = 2222;           // Dell's SSH port as seen from Pi
 
@@ -67,6 +67,18 @@ const log = {
   mac_tc:      makeLogger("mac-tc-cc"),
   mac_menucha: makeLogger("mac-menucha-cc"),
 };
+
+// --- Per-agent dispatch queue -----------------------------------------
+// Prevents concurrent SSH sessions to the same machine from racing each
+// other. Each agent processes one task at a time; others queue behind it.
+const agentQueue = new Map();
+
+function enqueue(agent, fn) {
+  if (!agentQueue.has(agent)) agentQueue.set(agent, Promise.resolve());
+  const next = agentQueue.get(agent).then(() => fn()).catch(() => fn());
+  agentQueue.set(agent, next.catch(() => {}));
+  return next;
+}
 
 // --- Pending queue ----------------------------------------------------
 
@@ -123,7 +135,13 @@ function runOnDell({ prompt, phase, repoPath, logger }) {
     logger(`[START] phase=${phase} repo=${repoPath}`);
     logger(`[PROMPT] ${prompt.slice(0, 200)}${prompt.length > 200 ? "…" : ""}`);
 
-    const start = Date.now();
+    // Agent-identity preamble so CC self-identifies correctly even when
+    // tool-call attribution is swapped at the claude.ai client layer.
+    const isAlt = repoPath.toLowerCase().includes("kokoro");
+    const agentLabel = isAlt ? "DS CC" : "Win CC";
+    prompt = `[You are ${agentLabel} on the Dell. Do not route this task to any other machine.]\n\n` + prompt;
+
+        const start = Date.now();
 
     // If port 2222 is listening but not accepting connections (stale zombie),
     // kill it so the Dell tunnel can re-bind. Only fuser-kill on probe failure
@@ -368,7 +386,7 @@ server.tool(
     if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     const heartbeat = startProgressHeartbeat(extra, "Win CC");
     try {
-      const result = await runOnDell({ prompt, phase, repoPath: REPOS.win, logger: log.win });
+      const result = await enqueue("win", () => runOnDell({ prompt, phase, repoPath: REPOS.win, logger: log.win }));
       clearInterval(heartbeat);
       return { content: [{ type: "text", text: formatResult({ result, agent: "Win", phase, repoPath: REPOS.win }) }] };
     } catch (err) {
@@ -398,7 +416,7 @@ server.tool(
     if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     log.ds(`[TOOL] run_ds_cc phase=${phase}`);
     try {
-      const result = await runOnDell({ prompt, phase, repoPath: REPOS.ds, logger: log.ds });
+      const result = await enqueue("ds", () => runOnDell({ prompt, phase, repoPath: REPOS.ds, logger: log.ds }));
       clearInterval(heartbeat);
       return { content: [{ type: "text", text: formatResult({ result, agent: "DS", phase, repoPath: REPOS.ds }) }] };
     } catch (err) {
@@ -504,7 +522,7 @@ server.tool(
   async ({ prompt, phase }) => {
     log.menucha(`[TOOL] run_menucha_cc phase=${phase}`);
     try {
-      const result = await runOnDell({ prompt, phase, repoPath: REPOS.menucha, logger: log.menucha });
+      const result = await enqueue("menucha", () => runOnDell({ prompt, phase, repoPath: REPOS.menucha, logger: log.menucha }));
       return { content: [{ type: "text", text: formatResult({ result, agent: "Menucha", phase, repoPath: REPOS.menucha }) }] };
     } catch (err) {
       log.menucha(`[OFFLINE] ${err.message}`);
