@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alto%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Alto%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.east-texas.com/alto-texas.htm"
+      "source": "https://www.east-texas.com/alto-texas.htm",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.east-texas.com/alto-texas.htm"
+      "source": "https://www.east-texas.com/alto-texas.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alto%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Alto%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alto%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Alto%2C_Texas",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alto-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angelina_River_west_of_Nacogdoches,_Texas.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Angelina River"
+  }
 }

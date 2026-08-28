@@ -27,7 +27,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,14 +57,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Carlos,_Maryland"
+      "source": "https://kids.kiddle.co/Carlos,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
       "text": "The name Carlos reflects the early settlers’ heritage, though the exact origin of the name remains a local anecdote.",
       "sourceSentenceIds": [],
       "sourceLabels": [],
-      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -72,7 +82,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Carlos%2C_Maryland",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +96,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Carlos,_Maryland"
+      "source": "https://kids.kiddle.co/Carlos,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carlos-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NPS",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand_Teton_in_Winter-NPS.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big Savage Mountain"
+  }
 }

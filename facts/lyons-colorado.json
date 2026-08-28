@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Colorado",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,10 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://lyonscolorado.com/818/Lyons-Historical-Context-Report"
+      "source": "https://lyonscolorado.com/818/Lyons-Historical-Context-Report",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -79,7 +88,20 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.townoflyons.com/232/History-of-Lyons"
+      "source": "https://www.townoflyons.com/232/History-of-Lyons",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lyons-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Lyons,_CO_IMG_5242.JPG"
+  }
 }

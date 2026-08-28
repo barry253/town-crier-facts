@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laketon%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Laketon%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laketon%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Laketon%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Laketon sits 750 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The town is located in Wabash County, Indiana, a detail highlighted by local maps.",
       "sourceSentenceIds": [
         8
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm"
+      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Laketon shares its name with eight other U.S. communities, including ones in Kentucky and Texas.",
       "sourceSentenceIds": [
         1
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm"
+      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical records note that Laketon’s 1895 community had a post office and railroad service.",
       "sourceSentenceIds": [
         3
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm"
+      "source": "https://roadsidethoughts.com/in/laketon-xx-wabash-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laketon-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cortes_del_Condado_de_Wabash,_Wabash,_Indiana,_Estados_Unidos,_2012-11-12,_DD_01.jpg"
+  }
 }

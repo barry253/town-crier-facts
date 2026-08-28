@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fallentimber%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Fallentimber%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fallentimber%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Situated at 40°41′12″N 78°29′57″W, Fallentimber sits 1,437 feet above sea level.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/fallentimber_pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Fallentimber%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/fallentimber_pennsylvania"
+      "source": "https://grokipedia.com/page/fallentimber_pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/fallentimber_pennsylvania"
+      "source": "https://grokipedia.com/page/fallentimber_pennsylvania",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fallentimber-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Publichall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambria_County_Courthouse_-_Ebensburg,_PA.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Cambria County, Pennsylvania"
+  }
 }

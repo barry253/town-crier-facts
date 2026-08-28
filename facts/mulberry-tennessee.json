@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mulberry%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mulberry%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mulberry%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mulberry%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -53,21 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tn/mulberry-xx-lincoln-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/mulberry-xx-lincoln-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Mulberry rests 740 feet above sea level, offering a modest elevation typical of the Lincoln County landscape.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/tn/mulberry-xx-lincoln-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "As an unincorporated community, Mulberry lacks a municipal government but remains a distinct part of Lincoln County.",
       "sourceSentenceIds": [
         8,
@@ -77,10 +73,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mulberry%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mulberry%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town’s coordinates have yet to be fully verified, a detail noted by local historians.",
       "sourceSentenceIds": [
         30
@@ -88,7 +87,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tn/mulberry-xx-lincoln-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/mulberry-xx-lincoln-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mulberry-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.842,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mulberry-Methodist-Church-tn1.jpg"
+  }
 }

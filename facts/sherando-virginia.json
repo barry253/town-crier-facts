@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sherando sits at 37°59′25″N 78°57′4″W, placing it in the Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sherando%2C_Virginia"
-    },
-    {
-      "id": 2,
       "text": "The town is part of the Staunton–Waynesboro Micropolitan Statistical Area.",
       "sourceSentenceIds": [
         2
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sherando%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Sherando%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Sherando Lake Recreation Area offers hiking, camping, and fishing amid hardwood forests and mountain ridgelines.",
       "sourceSentenceIds": [
         13,
@@ -53,21 +45,12 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://triptap.com/locations/us/virginia/sherando"
+      "source": "https://triptap.com/locations/us/virginia/sherando",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The area’s elevation is 1,810 feet, giving it a cooler mountain climate.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "An amphitheatre and visitor’s center welcome guests at Sherando Lake, enhancing the outdoor experience.",
       "sourceSentenceIds": [
         29
@@ -75,10 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/"
+      "source": "https://dwr.virginia.gov/vbwt/sites/sherando-lake/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Sherando is celebrated for its serene natural beauty, making it a popular spot for hikers and outdoor enthusiasts.",
       "sourceSentenceIds": [
         11
@@ -86,7 +71,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/virginia/sherando"
+      "source": "https://triptap.com/locations/us/virginia/sherando",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sherando-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.685,
+    "y": 0.5
+  }
 }

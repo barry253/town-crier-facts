@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hooksett%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Hooksett%2C_New_Hampshire",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://hooksetthistory.wordpress.com/"
+      "source": "https://hooksetthistory.wordpress.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://www.achp.gov/index.php/preserve-america/community/hooksett-new-hampshire"
+      "source": "https://www.achp.gov/index.php/preserve-america/community/hooksett-new-hampshire",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hooksett%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Hooksett%2C_New_Hampshire",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -80,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hooksetthistory.wordpress.com/"
+      "source": "https://hooksetthistory.wordpress.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +102,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hooksetthistory.wordpress.com/"
+      "source": "https://hooksetthistory.wordpress.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hooksett-new-hampshire.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "John Phelan",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hooksett_Municipal_Building,_Hooksett_NH.jpg"
+  }
 }

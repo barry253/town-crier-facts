@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.oakviewmo.org/about"
-    },
-    {
-      "id": 2,
-      "text": "Oakview is a village in Clay County, Missouri, United States.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Oakview is part of the Kansas City metropolitan area.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri"
+      "source": "https://www.oakviewmo.org/about",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oakview%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.oakviewmo.org/about"
+      "source": "https://www.oakviewmo.org/about",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.oakviewmo.org/about"
+      "source": "https://www.oakviewmo.org/about",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oakview-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SamuelNelsonGISP",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OakViewMissouri.jpg"
+  }
 }

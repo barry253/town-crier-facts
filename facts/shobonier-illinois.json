@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -49,7 +51,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -61,7 +66,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Shobonier,_Illinois"
+      "source": "https://kids.kiddle.co/Shobonier,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -74,7 +82,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -89,7 +100,25 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Shobonier%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shobonier-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fayette_County_Courthouse,_Vandalia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Illinois"
+  }
 }

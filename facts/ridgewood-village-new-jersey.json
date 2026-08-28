@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://localhistory.ridgewoodlibrary.org/ridgewood-history/a-brief-history-of-ridgewood/"
+      "source": "https://localhistory.ridgewoodlibrary.org/ridgewood-history/a-brief-history-of-ridgewood/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://localhistory.ridgewoodlibrary.org/ridgewood-history/a-brief-history-of-ridgewood/"
+      "source": "https://localhistory.ridgewoodlibrary.org/ridgewood-history/a-brief-history-of-ridgewood/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://localhistory.ridgewoodlibrary.org/ridgewood-history/a-brief-history-of-ridgewood/"
+      "source": "https://localhistory.ridgewoodlibrary.org/ridgewood-history/a-brief-history-of-ridgewood/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgewood%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ridgewood%2C_New_Jersey",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -78,7 +87,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgewood%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ridgewood%2C_New_Jersey",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +100,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgewood%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ridgewood%2C_New_Jersey",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ridgewood-village-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.475,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "J",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:VAN_DIEN_HOUSE,_RIDGEWOOD,_BERGEN_COUNTY.jpg"
+  }
 }

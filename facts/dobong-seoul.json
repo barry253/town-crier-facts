@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.dobong.go.kr/subsite/eng/intro/intro3_4.asp"
+      "source": "https://www.dobong.go.kr/subsite/eng/intro/intro3_4.asp",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dobong_District"
+      "source": "https://en.wikipedia.org/wiki/Dobong_District",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dobong.go.kr/subsite/eng/culture/culture1.asp"
+      "source": "https://www.dobong.go.kr/subsite/eng/culture/culture1.asp",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.dobong.go.kr/subsite/eng/intro/intro3_4.asp"
+      "source": "https://www.dobong.go.kr/subsite/eng/intro/intro3_4.asp",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dobong.go.kr/subsite/eng/culture/culture1.asp"
+      "source": "https://www.dobong.go.kr/subsite/eng/culture/culture1.asp",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dobong-seoul.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.727,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ox1997cow",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changdong_Railway_Bridge_and_Dongbu_Expressway_20231009.jpg"
+  }
 }

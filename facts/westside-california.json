@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Westside_(Los_Angeles_County)"
+      "source": "https://en.wikivoyage.org/wiki/Westside_(Los_Angeles_County)",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westsidecities.org/tourism"
+      "source": "https://westsidecities.org/tourism",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Westside_(Los_Angeles_County)"
+      "source": "https://en.wikivoyage.org/wiki/Westside_(Los_Angeles_County)",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,18 +71,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westsidecities.org/tourism"
+      "source": "https://westsidecities.org/tourism",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "Westside’s road network features I‑10, I‑405, and historic Route 66 via Santa Monica Blvd.",
+      "text": "Westside’s road network features I‑10, I‑405, and historic Route 66 via Santa Monica Boulevard.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Westside_(Los_Angeles_County)"
+      "source": "https://en.wikivoyage.org/wiki/Westside_(Los_Angeles_County)",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +99,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westsidecities.org/tourism"
+      "source": "https://westsidecities.org/tourism",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westside-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hyfen",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Port_of_Long_Beach.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Westside, Long Beach, California"
+  }
 }

@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bankston, Iowa, sits in Dubuque County and is part of the Dubuque Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa"
-    },
-    {
       "id": 2,
       "text": "Bankston covers just 0.713 square miles of land and has no surface water.",
       "sourceSentenceIds": [
@@ -42,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/iacountybankston.htm"
+      "source": "https://www.usacitiesonline.com/iacountybankston.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -75,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Bankston%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -86,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/iacountybankston.htm"
+      "source": "https://www.usacitiesonline.com/iacountybankston.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

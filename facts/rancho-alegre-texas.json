@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,19 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre"
-    },
-    {
-      "id": 3,
-      "text": "Geographically, Rancho Alegre sits at 27°44′24″N 98°5′35″W, right in central Jim Wells County.",
-      "sourceSentenceIds": [
-        5,
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rancho_Alegre%2C_Texas"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +68,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_rancho-alegre",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rancho_Alegre%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rancho_Alegre%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rancho-alegre-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_wells_courthouse.jpg"
+  }
 }

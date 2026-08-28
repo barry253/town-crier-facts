@@ -31,7 +31,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.co.jim-wells.tx.us/page/co.city.orange_grove"
+      "source": "https://www.co.jim-wells.tx.us/page/co.city.orange_grove",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,20 +46,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/orange-grove-tx"
-    },
-    {
-      "id": 3,
-      "text": "Orange Grove sits in northeastern Jim Wells County, Texas, at coordinates 27°57′22″N 97°56′21″W.",
-      "sourceSentenceIds": [
-        24,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Orange_Grove%2C_Texas"
+      "source": "https://www.tshaonline.org/handbook/entries/orange-grove-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orange_Grove%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Orange_Grove%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +72,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orange_Grove%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Orange_Grove%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/orange-grove-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Marston%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +85,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/marston-xx-richmond-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The community rests 420 feet above sea level, offering gentle rolling hills typical of the region.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nc/marston-xx-richmond-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/marston-xx-richmond-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marston-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.32,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jerrye & Roy Klotz, MD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RICHMOND_COUNTY_COURTHOUSE.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Richmond County, North Carolina"
+  }
 }

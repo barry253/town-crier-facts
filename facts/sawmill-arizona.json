@@ -30,18 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://navajotimes.com/news/chapters/030614sawmill.php"
-    },
-    {
-      "id": 2,
-      "text": "The Sawmill chapter was certified in 1957 and lies 20 miles north of Window Rock.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://sawmill.navajochapters.org/"
+      "source": "https://navajotimes.com/news/chapters/030614sawmill.php",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sawmill%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Sawmill%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sawmill.navajochapters.org/"
+      "source": "https://sawmill.navajochapters.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sawmill.navajochapters.org/"
+      "source": "https://sawmill.navajochapters.org/",
+      "category": "economy",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sawmill.navajochapters.org/"
+      "source": "https://sawmill.navajochapters.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sawmill-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zereshk",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apache_Sitgreaves_Nima2.JPG"
+  }
 }

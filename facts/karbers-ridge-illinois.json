@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Karbers_Ridge%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Karbers_Ridge%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Karbers_Ridge%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Karbers_Ridge%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm"
+      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The elevation of Karbers Ridge is about 600 feet above sea level.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Locals pronounce the name as KAHR‑buhrz, a detail often shared by residents and visitors alike.",
       "sourceSentenceIds": [
         8
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm"
+      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The geographic coordinates for Karbers Ridge still require verification, according to the latest online gazetteer.",
       "sourceSentenceIds": [
         12
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm"
+      "source": "https://roadsidethoughts.com/il/karbers-ridge-xx-hardin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/karbers-ridge-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Schwen",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hardin_County_Courthouse,_Elizabethtown.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Hardin County, Illinois"
+  }
 }

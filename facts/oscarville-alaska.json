@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Oscarville sits at 60°43′17″N 161°46′6″W, placing it deep in Alaska’s northern interior.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oscarville%2C_Alaska"
-    },
-    {
-      "id": 2,
-      "text": "The community first appeared on the 1940 U.S. Census, marking its official recognition.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oscarville%2C_Alaska"
-    },
-    {
       "id": 3,
       "text": "Oscarville hosts a bilingual English‑Yup'ik school, preserving both languages for local students.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oscarville%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Oscarville%2C_Alaska",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,29 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/akcountyoscarville.htm"
-    },
-    {
-      "id": 5,
-      "text": "Oscarville lies about 1,040 miles from Alaska’s capital, Juneau, when measured as the crow flies.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/akcountyoscarville.htm"
-    },
-    {
-      "id": 6,
-      "text": "From Oscarville, Washington, D.C. is roughly 4,153 miles away, a long drive across the continent.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/akcountyoscarville.htm"
+      "source": "https://www.usacitiesonline.com/akcountyoscarville.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

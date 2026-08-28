@@ -29,29 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mendes%2C_Georgia"
-    },
-    {
-      "id": 2,
-      "text": "Mendes sits at a latitude of 31.9988 degrees north.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm"
-    },
-    {
-      "id": 3,
-      "text": "Its longitude measures –81.974 degrees west, placing it in southeastern Georgia.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm"
+      "source": "https://en.wikipedia.org/wiki/Mendes%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm"
+      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,18 +57,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm"
-    },
-    {
-      "id": 6,
-      "text": "As a census‑designated place, Mendes has no municipal government and relies on county administration.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm"
+      "source": "https://georgia.hometownlocator.com/ga/tattnall/mendes.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mendes-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jud McCranie",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tattnall_County_Courthouse,_Reidsville,_GA,_US.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Tattnall County, Georgia"
+  }
 }

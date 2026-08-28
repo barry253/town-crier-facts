@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ripley_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Ripley_(CDP)%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tourchautauqua.com/directory/ripley-town-of"
+      "source": "https://www.tourchautauqua.com/directory/ripley-town-of",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tourchautauqua.com/directory/ripley-town-of"
+      "source": "https://www.tourchautauqua.com/directory/ripley-town-of",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tourchautauqua.com/directory/ripley-town-of"
+      "source": "https://www.tourchautauqua.com/directory/ripley-town-of",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ripleyny.gov/about-us.html"
+      "source": "https://www.ripleyny.gov/about-us.html",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -90,7 +102,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ripleyny.gov/about-us.html"
+      "source": "https://www.ripleyny.gov/about-us.html",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ripley-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.69,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chautauqua_Lake_fireworks_2017.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chautauqua Lake"
+  }
 }

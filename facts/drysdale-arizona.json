@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Drysdale sits at 32.6452°N latitude and –114.7068°W longitude in Yuma County Arizona.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/drysdale.cfm"
-    },
-    {
-      "id": 2,
       "text": "Students in Drysdale attend Mesquite Elementary and Crane Middle before heading to Cibola High.",
       "sourceSentenceIds": [
         5,
@@ -41,51 +30,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Drysdale%2C_Arizona"
-    },
-    {
-      "id": 3,
-      "text": "The town’s median age is 59.0 years, older than the state average.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Drysdale%2C_Arizona"
-    },
-    {
-      "id": 4,
-      "text": "Drysdale’s census-designated place contains 84 housing units, with 74 occupied and 10 vacant.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Drysdale%2C_Arizona"
-    },
-    {
-      "id": 5,
-      "text": "Drysdale is officially a census‑designated place, not a legal municipality with its own government.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/drysdale.cfm"
-    },
-    {
-      "id": 6,
-      "text": "The community’s geographic coordinates place it near the U.S.–Mexico border in southwestern Arizona.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/drysdale.cfm"
+      "source": "https://en.wikipedia.org/wiki/Drysdale%2C_Arizona",
+      "category": "people",
+      "quality": "good",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/drysdale-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain Standard Time Zone"
+  }
 }

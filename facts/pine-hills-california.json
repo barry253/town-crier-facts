@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "Pine Hills sits at 40°43′59″N 124°09′08″W, placing it just north of the San Joaquin Valley.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_pine-hills"
+      "source": "https://www.trawellino.com/destinations/united-states/california_pine-hills",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,5 +85,16 @@
       ],
       "source": "https://www.trawellino.com/destinations/united-states/california_pine-hills"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pine-hills-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ellin Beltz",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArcataAndMadRiverPlaque.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://getindiana.com/news/huntingburg"
+      "source": "https://getindiana.com/news/huntingburg",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://visitduboiscounty.com/a-day-in-huntingburg/"
+      "source": "https://visitduboiscounty.com/a-day-in-huntingburg/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://getindiana.com/news/huntingburg"
+      "source": "https://getindiana.com/news/huntingburg",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntingburg%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Huntingburg%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntingburg%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Huntingburg%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/huntingburg-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.458,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Flook",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntingburg,Indiana.jpg"
+  }
 }

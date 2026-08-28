@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Vermontville%2C_New_York",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vermontville-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adirondack_Presbyterian_Church_02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Clear, New York"
+  }
 }

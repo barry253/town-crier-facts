@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Day_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Day_Valley%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aptoscommunitynews.org/neighborhoods/day-valley/"
+      "source": "https://aptoscommunitynews.org/neighborhoods/day-valley/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Day Valley sits at 37°0′32″N 121°51′24″W, placing it just east of Freedom Boulevard in Aptos.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Day_Valley%2C_California"
-    },
-    {
-      "id": 4,
       "text": "About 39 percent of Day Valley residents live in urban settings while the remaining 61 percent enjoy rural surroundings.",
       "sourceSentenceIds": [
         6
@@ -62,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Day_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Day_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
-      "text": "The median age in Day Valley is 50.5 years, reflecting a mature community with many long‑time residents.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Day_Valley%2C_California"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Day Valley’s land area covers roughly 44 square miles, all of which is land with no surface water bodies recorded.",
       "sourceSentenceIds": [
         18,
@@ -85,7 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountydayvalley.htm"
+      "source": "https://www.usacitiesonline.com/cacountydayvalley.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/day-valley-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Alfred Twu",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
+  }
 }

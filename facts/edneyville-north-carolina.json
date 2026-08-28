@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.chimneyrockvillagenc.gov/about"
+      "source": "https://www.chimneyrockvillagenc.gov/about",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,22 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Edneyville sits at 2,246 feet above sea level in the Blue Ridge Mountains, offering a high‑altitude Appalachian setting.",
-      "sourceSentenceIds": [
-        10,
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina"
-    },
-    {
-      "id": 6,
       "text": "Route 64 runs through Edneyville, connecting it directly to Hendersonville 9 miles southwest and Bat Cave 5 miles northeast.",
       "sourceSentenceIds": [
         11
@@ -89,7 +85,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Edneyville%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Broad River (Carolinas)"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edneyville-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pollinator at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henderson_courthouse_9239.JPG"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hamilton_Branch%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hamilton_Branch%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/hamilton-branch-xx-plumas-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/hamilton-branch-xx-plumas-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/hamilton_branch/29849"
+      "source": "https://hellonation.com/mag/ca/hamilton_branch/29849",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/hamilton_branch/29849"
+      "source": "https://hellonation.com/mag/ca/hamilton_branch/29849",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +83,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/hamilton-branch-xx-plumas-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Hamilton Branch is located at 40.274001, –121.095899, right on Lake Almanor’s sparkling edge.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hamilton_Branch%2C_California"
+      "source": "https://roadsidethoughts.com/ca/hamilton-branch-xx-plumas-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hamilton-branch-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
+  }
 }

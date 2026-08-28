@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,18 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado"
-    },
-    {
-      "id": 6,
-      "text": "Padroni is a census‑designated place in Colorado, part of the Sterling micropolitan area.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Padroni%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/padroni-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.64,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Padroni,_Colorado.JPG"
+  }
 }

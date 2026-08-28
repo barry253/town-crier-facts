@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Jay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Blue_Jay%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.sbcuniteandawake.com/post/blue-jay"
+      "source": "https://www.sbcuniteandawake.com/post/blue-jay",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Jay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Blue_Jay%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Blue_Jay,_California"
+      "source": "https://kids.kiddle.co/Blue_Jay,_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,24 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Jay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Blue_Jay%2C_California",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blue-jay-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech . It is in the public domain in the United States.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Arrowbear Lake, California"
+  }
 }

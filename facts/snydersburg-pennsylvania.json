@@ -29,32 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Snydersburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Snydersburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The town sits on Pennsylvania Route 66, about 8.3 miles north of Clarion.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Snydersburg%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Snydersburg’s elevation is 1,590 feet above sea level, placing it among the higher points in Clarion County.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The earliest documented reference to Snydersburg dates back to an 1895 atlas.",
       "sourceSentenceIds": [
         9
@@ -62,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Snydersburg lies within Clarion County, a region noted for its changing county boundaries over time.",
       "sourceSentenceIds": [
         4
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Because the exact latitude and longitude have not yet been confirmed, Snydersburg’s coordinates remain to be verified by cartographers.",
       "sourceSentenceIds": [
         14
@@ -84,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/snydersburg-xx-clarion-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clarion County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/snydersburg-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  }
 }

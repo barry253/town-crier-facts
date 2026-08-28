@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oildale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Oildale%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.standardschools.net/60827_2"
+      "source": "https://www.standardschools.net/60827_2",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.standardschools.net/60827_2"
+      "source": "https://www.standardschools.net/60827_2",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,22 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-oildale-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-oildale-nature-adventure-and-history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Oildale sits 3.5 miles north‑northwest of downtown Bakersfield at 469 feet elevation, adjacent to three major California oil fields.",
-      "sourceSentenceIds": [
-        28,
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oildale%2C_California"
-    },
-    {
-      "id": 6,
       "text": "The Oildale Historical Museum, originally located elsewhere, now showcases exhibits on the oil industry and local pioneers.",
       "sourceSentenceIds": [
         7,
@@ -89,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-oildale-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-oildale-nature-adventure-and-history/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oildale-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.745,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dorothea Lange",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oildale,_Kern_County,_California._%22Tent_village%22_another_private_auto_court_for_agricultural_workers_._._._-_NARA_-_521794.jpg"
+  }
 }

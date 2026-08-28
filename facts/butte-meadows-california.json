@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Butte Meadows sits at 4,340 feet above sea level, so it almost always gets snow in winter.",
-      "sourceSentenceIds": [
-        1,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Just over a mile from the Tehama County line, Butte Meadows borders another county every day.",
       "sourceSentenceIds": [
         2,
@@ -44,10 +31,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Between 1878 and 1888 the post office shuffled back and forth between Butte Meadows and Tehama County.",
       "sourceSentenceIds": [
         3,
@@ -57,10 +47,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community lies about five miles off State Route 32 on Humboldt Road, a quiet mountain escape.",
       "sourceSentenceIds": [
         24
@@ -68,10 +61,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Butte_Meadows,_California"
+      "source": "https://kids.kiddle.co/Butte_Meadows,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "All 213 housing units in Butte Meadows are rural—100 percent of residents live outside urban areas.",
       "sourceSentenceIds": [
         7
@@ -79,10 +75,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Butte Meadows is nestled within Plumas National Forest, part of the larger Lassen National Forest system.",
       "sourceSentenceIds": [
         12
@@ -90,7 +89,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Butte_Meadows%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/butte-meadows-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "California Department of Water Resources",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oroville_dam_Fyx_nEtaMAAHTtF_(cropped).jpg"
+  }
 }

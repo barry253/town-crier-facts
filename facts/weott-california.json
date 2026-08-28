@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weott%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Weott%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weott%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Weott%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weott%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Weott%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lostcoastoutpost.com/2025/oct/18/humboldt-history-glory-days-weott-and-how-they-wer/"
+      "source": "https://lostcoastoutpost.com/2025/oct/18/humboldt-history-glory-days-weott-and-how-they-wer/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +83,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lostcoastoutpost.com/2025/oct/18/humboldt-history-glory-days-weott-and-how-they-wer/"
+      "source": "https://lostcoastoutpost.com/2025/oct/18/humboldt-history-glory-days-weott-and-how-they-wer/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/weott-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ellin Beltz",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArcataAndMadRiverPlaque.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Blue Lake, California"
+  }
 }

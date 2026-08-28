@@ -31,7 +31,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://legendsofkansas.com/larned-kansas/"
+      "source": "https://legendsofkansas.com/larned-kansas/",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -44,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Larned%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Larned%2C_Kansas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://legendsofkansas.com/larned-kansas/"
+      "source": "https://legendsofkansas.com/larned-kansas/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +77,20 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Larned%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Larned%2C_Kansas",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/larned-kansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.57,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ichabod",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_larned_kansas_2009.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "Goss sits 750 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/goss-xx-monroe-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Time Zone: Goss lies in the Central Time Zone (CST/CDT) and observes daylight saving time.",
       "sourceSentenceIds": [
         6
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/goss-xx-monroe-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/goss-xx-monroe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Goss sits on high ground that drains north to Otter Creek and south to the Middle Fork of the Salt River.",
       "sourceSentenceIds": [
         13
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Goss%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/goss-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USACE_Mark_Twain_Lake_and_Dam.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Salt River (Missouri)"
+  }
 }

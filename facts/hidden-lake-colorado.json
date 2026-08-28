@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hidden Lake is a census‑designated place in western Boulder County, part of the Boulder Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hidden_Lake%2C_Colorado"
-    },
-    {
       "id": 2,
       "text": "The community sits in the Front Range of the Colorado Rocky Mountains.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hidden_Lake%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Hidden_Lake%2C_Colorado",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hidden_Lake%2C_Colorado"
-    },
-    {
-      "id": 4,
-      "text": "Its geographic coordinates are 40.11° N, 105.4786° W in Boulder County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/boulder/hidden-lake.cfm"
+      "source": "https://en.wikipedia.org/wiki/Hidden_Lake%2C_Colorado",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/co/hidden-lake-xx-adams-profile.htm"
+      "source": "https://roadsidethoughts.com/co/hidden-lake-xx-adams-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colorado.hometownlocator.com/co/boulder/hidden-lake.cfm"
+      "source": "https://colorado.hometownlocator.com/co/boulder/hidden-lake.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hidden-lake-colorado.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  }
 }

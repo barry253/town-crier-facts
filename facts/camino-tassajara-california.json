@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.sfzc.org/locations/tassajara/about-tassajara"
+      "source": "https://www.sfzc.org/locations/tassajara/about-tassajara",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.sfzc.org/locations/tassajara/about-tassajara"
+      "source": "https://www.sfzc.org/locations/tassajara/about-tassajara",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Camino Tassajara sits at an elevation of 814 feet (248 meters) above sea level.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Camino_Tassajara%2C_California"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Camino Tassajara in 1896, marking the community’s early development.",
       "sourceSentenceIds": [
         19
@@ -62,21 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/tassajara-xx-contra-costa-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/tassajara-xx-contra-costa-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "The community is located 700 feet above sea level, offering a mild, elevated climate.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/tassajara-xx-contra-costa-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Camino Tassajara no longer falls within the Blackhawk-Camino Tassajara census-designated place after the area was renamed Blackhawk.",
       "sourceSentenceIds": [
         1
@@ -84,7 +68,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camino_Tassajara%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Camino_Tassajara%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/camino-tassajara-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Alfred Twu",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bay Point, California"
+  }
 }

@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Meadowbrook sits 1,621 feet above sea level, offering a mild high‑land climate.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Meadowbrook observes Pacific Time, switching to daylight saving like the rest of California.",
       "sourceSentenceIds": [
         5
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/meadowbrook-xx-riverside-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/meadowbrook-xx-riverside-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Every resident in Meadowbrook lives in a rural setting—no urban areas exist here.",
       "sourceSentenceIds": [
         11
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Meadowbrook contains 1,097 housing units, with 89% occupied and 11% vacant.",
       "sourceSentenceIds": [
         12
@@ -62,29 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California"
-    },
-    {
-      "id": 5,
-      "text": "Of the occupied homes, 66.3% are owner‑occupied while 33.7% are rented.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California"
-    },
-    {
-      "id": 6,
-      "text": "The homeowner vacancy rate stands at 2.2%, and rentals at 4.0%.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Meadowbrook%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadowbrook-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Z3lvs",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadowbrook,_California.jpg"
+  }
 }

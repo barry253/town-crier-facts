@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lake_Mohawk%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -80,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://lake-mohawk.org/?catid=0&id=137"
+      "source": "https://lake-mohawk.org/?catid=0&id=137",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +102,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_lake-mohawk"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_lake-mohawk",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-mohawk-ohio.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.51,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carroll_County_Courthouse,_Ohio.jpg"
+  }
 }

@@ -31,7 +31,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://atlas.thc.texas.gov/Details/5093003020"
+      "source": "https://atlas.thc.texas.gov/Details/5093003020",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/lamkin-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/lamkin-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://atlas.thc.texas.gov/Details/5093003020"
+      "source": "https://atlas.thc.texas.gov/Details/5093003020",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/lamkin-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/lamkin-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://atlas.thc.texas.gov/Details/5093003020"
+      "source": "https://atlas.thc.texas.gov/Details/5093003020",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +97,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lamkin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lamkin%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lamkin-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "HuecoBear",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brazos_River_below_Possum_Kingdom_Lake,_Palo_Pinto_County,_Texas.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Brazos River"
+  }
 }

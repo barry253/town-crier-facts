@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goldsboro%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Goldsboro%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goldsboro%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Goldsboro%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://goldsboromd.com/"
+      "source": "https://goldsboromd.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://goldsboromd.com/"
+      "source": "https://goldsboromd.com/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://goldsboromd.com/"
+      "source": "https://goldsboromd.com/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/goldsboro-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.266,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goldsboro_Town_Hall_and_PO_MD1.jpg"
+  }
 }

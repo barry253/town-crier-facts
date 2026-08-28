@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bethany is a village in Moultrie County, Illinois.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bethany%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "It sits along Illinois Route 121, which runs along the northern and eastern sides of the village.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bethany%2C_Illinois"
-    },
-    {
       "id": 3,
       "text": "Marrowbone Creek runs through the western and southern parts of the village, flowing southeast toward the West Okaw River.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bethany%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Bethany%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +42,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofbethany.com/"
-    },
-    {
-      "id": 5,
-      "text": "Bethany values guided growth and preservation of historical, cultural, and natural heritage.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://villageofbethany.com/"
-    },
-    {
-      "id": 6,
-      "text": "The elementary and high school are located in Bethany while the middle school sits in nearby Findlay.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bethany%2C_Illinois"
+      "source": "https://villageofbethany.com/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bethany-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaskaskia_River_Illinois_and_barges.jpg"
+  }
 }

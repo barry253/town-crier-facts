@@ -32,7 +32,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/belford_new_jersey"
+      "source": "https://grokipedia.com/page/belford_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,21 +47,12 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/belford_new_jersey"
+      "source": "https://grokipedia.com/page/belford_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Belford sits on a low‑lying coastal plain, only about 10 feet above sea level, making it vulnerable to tidal surges from Sandy Hook Bay.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/belford_new_jersey"
-    },
-    {
-      "id": 4,
       "text": "Ware Creek and its tidal marsh lie to the east of Belford, adding to the area’s natural waterfront character.",
       "sourceSentenceIds": [
         28
@@ -67,18 +60,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belford%2C_New_Jersey"
-    },
-    {
-      "id": 5,
-      "text": "Belford’s southern border is defined by New Jersey Route 36, which runs east toward Atlantic Highlands and west toward Keansburg.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Belford%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Belford%2C_New_Jersey",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belford-new-jersey.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.41,
+    "y": 0.5
+  }
 }

@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan"
-    },
-    {
-      "id": 2,
-      "text": "Lake Fenton’s census‑designated place includes the unincorporated communities of Bayport Park and Lakeside.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Lake_Fenton%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-fenton-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.78,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Notorious4life (talk) (Uploads)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Fenton,_MI_location.png"
+  }
 }

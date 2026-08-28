@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Jefferson Valley is a census‑designated place in Westchester County, New York.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "Its geographic coordinates are 41°19′1″N 73°48′6″W (41.316874, –73.801722).",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York"
-    },
-    {
       "id": 3,
       "text": "The hamlet of Jefferson Valley sits in the northeast part of the CDP along U.S. Route 6.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jefferson_Valley%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jefferson-valley-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.73,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Krams59",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_Valley_Mall.jpg"
+  }
 }

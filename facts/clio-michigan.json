@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://clio.govoffice.com/history"
+      "source": "https://clio.govoffice.com/history",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -81,7 +90,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Michigan",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clio-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.78,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Notorious4life (talk) (Uploads)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clio,_Michigan_location.png"
+  }
 }

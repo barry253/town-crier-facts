@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ranchitos East sits at 27°29′24″N 99°22′1″W, right in the heart of Webb County, Texas.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The community covers just 0.1 square miles—about the size of a small park—and is entirely land.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "As a census‑designated place, Ranchitos East has no municipal government and relies on county services.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/webb/ranchitos-east.cfm"
+      "source": "https://en.wikipedia.org/wiki/Ranchitos_East%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/webb/ranchitos-east.cfm"
+      "source": "https://texas.hometownlocator.com/tx/webb/ranchitos-east.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ranchitos-east-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

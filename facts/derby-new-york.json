@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/derby-xx-erie-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/derby-xx-erie-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Derby rises 700 feet above sea level, giving it a mild elevation for the region.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/derby-xx-erie-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The historic First Church of Evans Complex is a notable landmark within Derby.",
       "sourceSentenceIds": [
         3
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "In the early 1900s, wealthy Buffalo families built summer estates in Derby, including Frank Lloyd Wright’s Graycliff for the Larkin family.",
       "sourceSentenceIds": [
         10
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Derby%2C_New_York",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/derby-new-york.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Upstate New York",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:U.S._Post_Office_Angola_NY_Jan_10.jpg"
+  }
 }

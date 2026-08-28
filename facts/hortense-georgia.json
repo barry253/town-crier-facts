@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hortense_georgia"
+      "source": "https://grokipedia.com/page/hortense_georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hortense_georgia"
+      "source": "https://grokipedia.com/page/hortense_georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hortense_georgia"
+      "source": "https://grokipedia.com/page/hortense_georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Hortense sits at 56 feet above sea level where U.S. 301 meets Georgia 32, a key crossroads in southeastern Georgia.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hortense%2C_Georgia"
-    },
-    {
-      "id": 5,
       "text": "Until about 1950, roughly 80 percent of Brantley County was forested, sustaining the local timber industry.",
       "sourceSentenceIds": [
         11
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hortense_georgia"
+      "source": "https://grokipedia.com/page/hortense_georgia",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community straddles Brantley and Wayne counties, with a small portion extending into the neighboring county.",
       "sourceSentenceIds": [
         16,
@@ -86,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/hortense-xx-brantley-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/hortense-xx-brantley-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hortense-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hortense_Post_Office.JPG"
+  }
 }

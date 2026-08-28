@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -66,18 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "The city sits between Interstate 30 to the north and Interstate 20 to the south, about twelve miles southeast of Fort Worth.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/dalworthington-gardens-tx"
+      "source": "https://en.wikipedia.org/wiki/Dalworthington_Gardens%2C_Texas",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -90,5 +89,16 @@
       ],
       "source": "https://www.tshaonline.org/handbook/entries/dalworthington-gardens-tx"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dalworthington-gardens-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fort_Worth_June_2016_32_(Tarrant_County_Courthouse).jpg"
+  }
 }

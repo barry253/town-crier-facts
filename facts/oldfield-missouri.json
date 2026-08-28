@@ -22,41 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oldfield is an unincorporated community in Christian County, Missouri.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
-    },
-    {
-      "id": 2,
-      "text": "The town sits 2.6 miles southeast of Sparta at the junction of Route 125 and Route T.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Oldfield rises to 1,381 feet above sea level, nestled in the Missouri Ozarks.",
-      "sourceSentenceIds": [
-        10,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
-    },
-    {
-      "id": 4,
       "text": "It is part of the Springfield, Missouri Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         11
@@ -64,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 2,
       "text": "Every Saturday night, the Oldfield Opry hosts a donation‑only country music show that draws listeners from miles around.",
       "sourceSentenceIds": [
         14,
@@ -79,7 +47,7 @@
       "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "A Frisco Railway line reached Oldfield in 1883, but passenger service ended in March 1933.",
       "sourceSentenceIds": [
         12,
@@ -91,5 +59,20 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Oldfield%2C_Missouri"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oldfield-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.24,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christian_County_MO_Courthouse_20151022-158.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Christian County, Missouri"
+  }
 }

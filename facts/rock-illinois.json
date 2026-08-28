@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rock City is a village in Stephenson County, Illinois.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois"
-    },
-    {
       "id": 2,
       "text": "The town’s first general store opened in 1859 by Samuel Jay Davis, after whom nearby Davis is named.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rock_City%2C_Illinois",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofrockcity.com/"
+      "source": "https://villageofrockcity.com/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofrockcity.com/"
+      "source": "https://villageofrockcity.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rock-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ben Jacobson (Kranar Drogin)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_City,_IL_Sign_02.JPG"
+  }
 }

@@ -32,7 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://cityofdelcity.gov/our-city/history/"
+      "source": "https://cityofdelcity.gov/our-city/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +77,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -83,7 +92,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -94,7 +105,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Del_City%2C_Oklahoma",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/del-city-oklahoma.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dcheagle",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DCAPC.jpg"
+  }
 }

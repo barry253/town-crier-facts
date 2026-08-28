@@ -17,17 +17,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Johnston Square lies east of the Fallsway, west of Oliver, bordered by Greenmount Cemetery north and Eager Street south.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Johnston_Square%2C_Baltimore"
-    },
-    {
       "id": 2,
       "text": "The neighborhood grew after Civil War when country estates were sold to developers, shaping modern Johnston Square.",
       "sourceSentenceIds": [
@@ -36,7 +25,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://evaluatingurbanplaces.com/2023/01/28/johnston-square-an-east-baltimore-neighborhood-on-the-rise/"
+      "source": "https://evaluatingurbanplaces.com/2023/01/28/johnston-square-an-east-baltimore-neighborhood-on-the-rise/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -47,7 +38,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://evaluatingurbanplaces.com/2023/01/28/johnston-square-an-east-baltimore-neighborhood-on-the-rise/"
+      "source": "https://evaluatingurbanplaces.com/2023/01/28/johnston-square-an-east-baltimore-neighborhood-on-the-rise/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -58,7 +51,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://evaluatingurbanplaces.com/2023/01/28/johnston-square-an-east-baltimore-neighborhood-on-the-rise/"
+      "source": "https://evaluatingurbanplaces.com/2023/01/28/johnston-square-an-east-baltimore-neighborhood-on-the-rise/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -69,7 +64,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnston_Square%2C_Baltimore"
+      "source": "https://en.wikipedia.org/wiki/Johnston_Square%2C_Baltimore",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -80,7 +77,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnston_Square%2C_Baltimore"
+      "source": "https://en.wikipedia.org/wiki/Johnston_Square%2C_Baltimore",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/johnston-square-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Baltimore Heritage from Baltimore, MD, USA",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johnston_Square_gateway_sign,_Greenmount_Avenue_and_E._Biddle_Street_(southeast_corner),_Baltimore,_MD_21202_(46258590315).jpg"
+  }
 }

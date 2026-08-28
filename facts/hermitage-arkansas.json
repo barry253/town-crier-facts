@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hermitage is a city located in Bradley County, Arkansas, United States, today.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "Genesee & Wyoming owns the railroad that passes through Hermitage, after it was sold by the Chicago, Rock Island and Pacific Railroad to the Fordyce & Princeton Railroad.",
       "sourceSentenceIds": [
@@ -42,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Hermitage%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

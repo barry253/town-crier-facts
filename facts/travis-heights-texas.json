@@ -22,14 +22,17 @@
   "facts": [
     {
       "id": 1,
-      "text": "Travis Heights borders Lady Bird Lake to the north, I‑35 east, Congress Ave west, Oltorf St south.",
+      "text": "Travis Heights borders Lady Bird Lake to the north, I‑35 east, Congress Avenue west, Oltorf St south.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Travis_Heights%2C_Austin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Travis_Heights%2C_Austin%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://historictravisheights.org/"
+      "source": "https://historictravisheights.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://historictravisheights.org/"
+      "source": "https://historictravisheights.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Travis_Heights%2C_Austin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Travis_Heights%2C_Austin%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Travis_Heights%2C_Austin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Travis_Heights%2C_Austin%2C_Texas",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +96,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://historictravisheights.org/"
+      "source": "https://historictravisheights.org/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/travis-heights-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WhisperToMe",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TravisheightsES.JPG"
+  }
 }

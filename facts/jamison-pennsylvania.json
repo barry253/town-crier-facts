@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jamison%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Jamison%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniagenealogy.org/bucks/jamison-pennsylvania.htm"
+      "source": "https://pennsylvaniagenealogy.org/bucks/jamison-pennsylvania.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniagenealogy.org/bucks/jamison-pennsylvania.htm"
+      "source": "https://pennsylvaniagenealogy.org/bucks/jamison-pennsylvania.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniagenealogy.org/bucks/jamison-pennsylvania.htm"
+      "source": "https://pennsylvaniagenealogy.org/bucks/jamison-pennsylvania.htm",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jamison%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Jamison%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +100,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.bestofbuckscounty.com/destinations/bucks-county/towns/jamison"
+      "source": "https://www.bestofbuckscounty.com/destinations/bucks-county/towns/jamison",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jamison-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bucks_Courthouse.JPG"
+  }
 }

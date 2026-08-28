@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bogus_hill_connecticut"
+      "source": "https://grokipedia.com/page/bogus_hill_connecticut",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bogus_hill_connecticut"
+      "source": "https://grokipedia.com/page/bogus_hill_connecticut",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bogus_hill_connecticut"
+      "source": "https://grokipedia.com/page/bogus_hill_connecticut",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bogus_hill_connecticut"
+      "source": "https://grokipedia.com/page/bogus_hill_connecticut",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.komoot.com/guide/1968422/attractions-around-bogus-hill"
+      "source": "https://www.komoot.com/guide/1968422/attractions-around-bogus-hill",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bogus_hill_connecticut"
+      "source": "https://grokipedia.com/page/bogus_hill_connecticut",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bogus-hill-connecticut.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Karlfonza",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cranbury_Park_Norwalk_III.jpg"
+  }
 }

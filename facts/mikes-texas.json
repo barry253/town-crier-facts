@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mikes sits at 26°18′53″N 98°38′1″W, about 200 feet above sea level.",
-      "sourceSentenceIds": [
-        16,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mikes%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The community lies on the South Texas Plains within Starr County, a region known for its ranching heritage.",
       "sourceSentenceIds": [
@@ -42,40 +30,50 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/mikes-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/mikes-xx-starr-profile.htm",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Mikes’ coordinates place it deep in Starr County, an area characterized by semi‑arid scrubland and a strong ranching history.",
+      "text": "Mikes\u2019 coordinates place it deep in Starr County, an area characterized by semi\u2011arid scrubland and a strong ranching history.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mikes-117530"
+      "source": "https://www.wisdomlib.org/cities/mikes-117530",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "The name “Mikes” appears in local lore but is not recognized as an official city in Texas records.",
+      "text": "The name \u201cMikes\u201d appears in local lore but is not recognized as an official city in Texas records.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mikes-117530"
+      "source": "https://www.wisdomlib.org/cities/mikes-117530",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The surrounding Rio Grande Valley hosts wildlife refuges popular with birdwatchers, historic missions, and vibrant border‑culture centers.",
+      "text": "The surrounding Rio Grande Valley hosts wildlife refuges popular with birdwatchers, historic missions, and vibrant border\u2011culture centers.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mikes-117530"
+      "source": "https://www.wisdomlib.org/cities/mikes-117530",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +84,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mikes-117530"
+      "source": "https://www.wisdomlib.org/cities/mikes-117530",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

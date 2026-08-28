@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mascot is an unincorporated community in King and Queen County, Virginia.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mascot%2C_Virginia"
-    },
-    {
       "id": 2,
       "text": "Mascot is a quiet, rural area where neighbors often know each other well.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Mascot,_Virginia"
+      "source": "https://kids.kiddle.co/Mascot,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -53,19 +45,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Mascot,_Virginia"
-    },
-    {
-      "id": 4,
-      "text": "Mascot sits in eastern Virginia and follows Eastern Standard Time in winter and Eastern Daylight Time in summer.",
-      "sourceSentenceIds": [
-        19,
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Mascot,_Virginia"
+      "source": "https://kids.kiddle.co/Mascot,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -77,7 +60,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Mascot,_Virginia"
+      "source": "https://kids.kiddle.co/Mascot,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -88,7 +74,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Mascot,_Virginia"
+      "source": "https://kids.kiddle.co/Mascot,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mascot-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JERRYE & ROY KLOTZ MD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KING_AND_QUEEN_COURTHOUSE_GREEN_HISTORIC_DISTRICT.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "King and Queen County, Virginia"
+  }
 }

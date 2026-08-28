@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Woods Creek sits at latitude 47.8787 and longitude –121.8985 in Snohomish County.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm"
-    },
-    {
       "id": 2,
       "text": "The community lies along the Woods Creek waterway just outside the city of Monroe.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_woods-creek"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_woods-creek",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_woods-creek"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_woods-creek",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm"
+      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm"
+      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm"
+      "source": "https://washington.hometownlocator.com/wa/snohomish/woods-creek.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woods-creek-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  }
 }

@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Finley sits 1,352 feet above sea level, just southeast of Lakeport in Lake County.",
-      "sourceSentenceIds": [
-        6,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Finley%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The first post office opened in 1907, marking the town’s early development.",
       "sourceSentenceIds": [
         7,
@@ -44,10 +31,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Finley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Finley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Finley was named after settler Samuel Finley Sylar, who helped establish the community.",
       "sourceSentenceIds": [
         8,
@@ -57,10 +47,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Finley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Finley%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The area enjoys warm, dry summers with average highs never exceeding 71.6°F.",
       "sourceSentenceIds": [
         9
@@ -68,10 +60,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Finley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Finley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Finley lies within Lake County, a region whose county lines have shifted over time.",
       "sourceSentenceIds": [
         4
@@ -79,7 +74,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/finley-xx-lake-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/finley-xx-lake-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/finley-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chalandray",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kelsey_Creek_Schoolhouse.jpg"
+  }
 }

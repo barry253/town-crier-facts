@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosenberg%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rosenberg%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://texastimetravel.com/cities/rosenberg/"
+      "source": "https://texastimetravel.com/cities/rosenberg/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rosenbergtx.gov/386/Visitors"
+      "source": "https://rosenbergtx.gov/386/Visitors",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,21 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://texastimetravel.com/cities/rosenberg/"
+      "source": "https://texastimetravel.com/cities/rosenberg/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rosenberg-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WhisperToMe",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RosenbergWelcome.jpg"
+  }
 }

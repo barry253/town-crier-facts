@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Edgewater Estates sits at 28°5′49″N 97°51′54″W, a precise spot on the Texas Gulf Coast.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Edgewater_Estates%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community rises just 120 feet above sea level, giving it a modest elevation for a coastal town.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Edgewater Estates is part of San Patricio County, a region known for its rich maritime history.",
       "sourceSentenceIds": [
         13
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "The Texas Legislature officially designates the Texas Almanac as the State Book of Texas, a fact celebrated in Edgewater Estates.",
       "sourceSentenceIds": [
         7
@@ -62,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.texasalmanac.com/places/edgewater-estates"
+      "source": "https://www.texasalmanac.com/places/edgewater-estates",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Edgewater Estates is located on the Gulf Coast, placing it within the coastal plain that stretches along Texas’s southern shoreline.",
       "sourceSentenceIds": [
         12
@@ -73,10 +57,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Edgewater Estates is sometimes abbreviated as Edgewater Ests., a shorthand used by locals and mapmakers alike.",
       "sourceSentenceIds": [
         14
@@ -84,7 +71,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/edgewater-estates-xx-san-patricio-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Ingleside on the Bay, Texas"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edgewater-estates-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_patricio_courthouse.jpg"
+  }
 }

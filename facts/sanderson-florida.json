@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida"
-    },
-    {
-      "id": 2,
-      "text": "Sanderson is an unincorporated community in Baker County, Florida.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Sanderson%2C_Florida",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida-state.blog/sanderson-florida-hidden-gems-local-secrets"
+      "source": "https://florida-state.blog/sanderson-florida-hidden-gems-local-secrets",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida-state.blog/sanderson-florida-hidden-gems-local-secrets"
+      "source": "https://florida-state.blog/sanderson-florida-hidden-gems-local-secrets",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sanderson-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.228,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Excel23",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SandersonFL14.JPG"
+  }
 }

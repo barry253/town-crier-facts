@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofcorinthny.gov/corinth/"
+      "source": "https://villageofcorinthny.gov/corinth/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Corinth%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/corinth_village_new_york"
+      "source": "https://grokipedia.com/page/corinth_village_new_york",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/corinth-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.813,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tyler A. McNeil",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Corinth,_New_York_businesses.jpg"
+  }
 }

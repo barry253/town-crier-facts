@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Mappsburg sits just 13 feet above sea level, a fact that echoes its coastal roots.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mappsburg%2C_Virginia"
-    },
-    {
-      "id": 2,
       "text": "The community is part of Accomack County, a region known for its rich maritime history.",
       "sourceSentenceIds": [
         12
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Mappsburg’s earliest documented mention dates back to an 1895 atlas, hinting at its long‑standing presence on the Eastern Shore.",
       "sourceSentenceIds": [
         13
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The town’s name appears in both the FIPS‑55 and GNIS databases, confirming its official recognition.",
       "sourceSentenceIds": [
         1
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Students in Mappsburg attend schools in the Accomack County Public Schools district, linking the town to the county’s educational system.",
       "sourceSentenceIds": [
         10
@@ -73,18 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mappsburg%2C_Virginia"
-    },
-    {
-      "id": 6,
-      "text": "Mappsburg’s coordinates have been estimated from historic maps, though precise verification is still pending.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/mappsburg-xx-accomack-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Mappsburg%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mappsburg-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "self",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_in_Mappsburg,_Virginia.jpg"
+  }
 }

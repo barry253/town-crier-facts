@@ -31,21 +31,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.californiahistoricallandmarks.com/landmarks/chl-430"
+      "source": "https://www.californiahistoricallandmarks.com/landmarks/chl-430",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 32 miles northeast of Alturas, perched at 4,564 feet above sea level.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California"
-    },
-    {
-      "id": 3,
       "text": "California Historical Landmark #430, Fort Bidwell’s plaque was once removed by local Paiute tribesmen.",
       "sourceSentenceIds": [
         1,
@@ -55,10 +46,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Fort Bidwell Indian Community Council oversees a 3,546‑acre reservation for the Gidutikad Band of Northern Paiutes.",
       "sourceSentenceIds": [
         13,
@@ -68,10 +61,12 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://gidutikadpaiute.com/?page_id=218"
+      "source": "https://gidutikadpaiute.com/?page_id=218",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Camp Bidwell near Chico was renamed Camp Chico before Fort Bidwell opened, reflecting Army naming practices.",
       "sourceSentenceIds": [
         5,
@@ -81,10 +76,12 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The post office began operating in 1868, signaling Fort Bidwell’s shift from military outpost to civilian town.",
       "sourceSentenceIds": [
         24
@@ -92,7 +89,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Fort_Bidwell%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fort-bidwell-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mulmatsherm",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goose_Lake_01.jpg"
+  }
 }

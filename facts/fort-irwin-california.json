@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center"
+      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,22 +44,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center"
+      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The base sits 2,454 feet above sea level, 37 miles northeast of Barstow in the Mojave Desert.",
-      "sourceSentenceIds": [
-        17,
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center"
-    },
-    {
-      "id": 4,
       "text": "Fort Irwin hosts the National Training Center, a major U.S. Army training area in the Mojave Desert.",
       "sourceSentenceIds": [
         16
@@ -65,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center"
+      "source": "https://en.wikipedia.org/wiki/Fort_Irwin_National_Training_Center",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Early soldiers lived six per tent, with only a Post Exchange, fire station, dining facilities and latrines as permanent structures.",
       "sourceSentenceIds": [
         14
@@ -76,7 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://main.sbcounty.gov/2025/07/24/san-bernardino-county-history-fort-irwin/"
+      "source": "https://main.sbcounty.gov/2025/07/24/san-bernardino-county-history-fort-irwin/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fort-irwin-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.468,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jarek Tuszyński",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fort_Irwin_National_Training_Center_-_Welcome_sign_-_2.jpg"
+  }
 }

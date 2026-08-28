@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Devault%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Devault%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Devault%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Devault%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/devault-xx-chester-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/devault-xx-chester-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community rises 350 feet above sea level, offering gentle hills typical of the area.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/devault-xx-chester-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Devault’s climate features hot, humid summers and generally mild to cool winters, typical of southeastern Pennsylvania.",
       "sourceSentenceIds": [
         7
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Devault%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Devault%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical maps from 1895 list Devault among Chester County’s small communities, showing its long‑standing presence.",
       "sourceSentenceIds": [
         2
@@ -84,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/devault-xx-chester-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/devault-xx-chester-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/devault-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-08-31_12_38_19_View_west_along_Interstate_76_(Pennsylvania_Turnpike_Philadelphia_Extension)_from_the_overpass_for_Pennsylvania_State_Route_82_(North_Manor_Road)_in_West_Nantmeal_Township,_Chester_County,_Pennsylvania.jpg"
+  }
 }

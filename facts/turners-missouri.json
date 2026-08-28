@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Turners%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Turners%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -46,7 +49,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://sgcld.thelibrary.org/lochist/periodicals/wrv/V8/N4/S83g.htm"
+      "source": "https://sgcld.thelibrary.org/lochist/periodicals/wrv/V8/N4/S83g.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +64,9 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://www.ozarksalive.com/stories/turners-station-mercantile-folks-keep-alive"
+      "source": "https://www.ozarksalive.com/stories/turners-station-mercantile-folks-keep-alive",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +77,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ozarksalive.com/stories/turners-station-mercantile-folks-keep-alive"
+      "source": "https://www.ozarksalive.com/stories/turners-station-mercantile-folks-keep-alive",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +90,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sgcld.thelibrary.org/lochist/periodicals/wrv/V8/N4/S83g.htm"
+      "source": "https://sgcld.thelibrary.org/lochist/periodicals/wrv/V8/N4/S83g.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/turners-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

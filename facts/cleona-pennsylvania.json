@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cleonaborough.org/about-cleona/"
+      "source": "https://cleonaborough.org/about-cleona/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cleonaborough.org/about-cleona/"
+      "source": "https://cleonaborough.org/about-cleona/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aurica.ai/en/article/martin-sparks/cleona-pennsylvania/"
+      "source": "https://aurica.ai/en/article/martin-sparks/cleona-pennsylvania/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,21 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aurica.ai/en/article/martin-sparks/cleona-pennsylvania/"
+      "source": "https://aurica.ai/en/article/martin-sparks/cleona-pennsylvania/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Cleona sits at 40°20′14″N 76°28′29″W, right in the heart of Lebanon County, Pennsylvania.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cleona%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
       "text": "The borough is part of the Lebanon, Pennsylvania Metropolitan Statistical Area, linking it to a larger regional community.",
       "sourceSentenceIds": [
         11
@@ -86,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cleona%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Cleona%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cleona-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cleona,_PA_Keystone_Marker_in_2009.jpg"
+  }
 }

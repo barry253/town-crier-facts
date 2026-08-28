@@ -30,21 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community lies 1,280 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/spring-hill-xx-bradford-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Spring Hill in 1836, marking its early establishment.",
       "sourceSentenceIds": [
         18
@@ -52,10 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/spring-hill-xx-bradford-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/spring-hill-xx-bradford-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Spring Hill is located in Bradford County according to local records.",
       "sourceSentenceIds": [
         17
@@ -63,27 +57,26 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/spring-hill-xx-bradford-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/spring-hill-xx-bradford-profile.htm",
+      "category": "other",
+      "quality": "poor"
     },
     {
-      "id": 5,
-      "text": "Its geographic coordinates are 40.374494°N, 78.667533°W.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Spring Hill’s name reflects the common Pennsylvania practice of naming settlements after nearby hills.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-hill-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.611,
+    "y": 0.5
+  }
 }

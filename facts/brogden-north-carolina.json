@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town sits about 175 feet above sea level, a typical elevation for the Atlantic Coastal Plain.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina"
-    },
-    {
-      "id": 5,
       "text": "Brogden enjoys warm summers and moderate winters, with an average temperature of roughly 62 degrees Fahrenheit.",
       "sourceSentenceIds": [
         19,
@@ -76,10 +71,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Brogden%2C_North_Carolina",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Brogden does not have its own passenger train station; the nearest Amtrak stop is in Selma.",
       "sourceSentenceIds": [
         10,
@@ -88,7 +86,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Brogden,_North_Carolina"
+      "source": "https://kids.kiddle.co/Brogden,_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brogden-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Clarence Griffin, State Archives of North Carolina Raleigh, NC",
+    "license": "No restrictions",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wayne_County_Courthouse_1948.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wayne County, North Carolina"
+  }
 }

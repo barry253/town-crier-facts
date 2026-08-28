@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/branchport_new_york"
+      "source": "https://grokipedia.com/page/branchport_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/branchport_new_york"
+      "source": "https://grokipedia.com/page/branchport_new_york",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/branchport_new_york"
+      "source": "https://grokipedia.com/page/branchport_new_york",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.lifeinthefingerlakes.com/picturesque-branchport-tiny-hamlet-steeped-tradition/"
+      "source": "https://www.lifeinthefingerlakes.com/picturesque-branchport-tiny-hamlet-steeped-tradition/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +89,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/branchport_new_york"
+      "source": "https://grokipedia.com/page/branchport_new_york",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -92,7 +103,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/branchport_new_york"
+      "source": "https://grokipedia.com/page/branchport_new_york",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/branchport-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Theghostofmojo",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keuka_Lake.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Keuka Lake"
+  }
 }

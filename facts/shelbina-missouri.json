@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofshelbina.com/about/index.php"
+      "source": "https://cityofshelbina.com/about/index.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://schsmuseum.org/"
+      "source": "https://schsmuseum.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofshelbina.com/about/index.php"
+      "source": "https://cityofshelbina.com/about/index.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shelbina%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Shelbina%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofshelbina.com/about/index.php"
+      "source": "https://cityofshelbina.com/about/index.php",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shelbina-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.328,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kaethesson",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CarnegiePublicLibraryShelbinaMissouri.jpg"
+  }
 }

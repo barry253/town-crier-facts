@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community rests at 4,787 feet above sea level, giving it a high‑altitude Sierra feel.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California"
-    },
-    {
-      "id": 3,
       "text": "In 2020, Sierra Village had 553 housing units, spread over about 2.44 square miles.",
       "sourceSentenceIds": [
         11
@@ -51,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
-      "text": "About 69% of those units were owner‑occupied, while the remaining 31% were rented.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "The median home or condo value in 2024 is projected at $447,823, well below the California average.",
       "sourceSentenceIds": [
         13
@@ -73,18 +57,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Sierra-Village-California.html"
-    },
-    {
-      "id": 6,
-      "text": "Sierra Village first appeared as a census‑designated place in the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Village%2C_California"
+      "source": "https://www.city-data.com/city/Sierra-Village-California.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sierra-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.14,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Eric Kilby from Somerville, MA, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hetch_Hetchy_Valley_(54152192812)_(cropped).jpg"
+  }
 }

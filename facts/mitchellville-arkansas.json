@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mitchellville is a city in Desha County, Arkansas.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mitchellville%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "The town’s earliest documented mention appears in a 1895 railroad atlas, showing its roots in the rail era.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/mitchellville-xx-desha-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/mitchellville-xx-desha-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/mitchellville-xx-desha-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/mitchellville-xx-desha-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,

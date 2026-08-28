@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mayport%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mayport%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history"
+      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history"
+      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history"
+      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history"
+      "source": "https://www.kupi.com/en-ae/explore/united-states/mayport/history",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clarion County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mayport-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  }
 }

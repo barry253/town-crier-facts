@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.argentail.com/"
+      "source": "https://www.argentail.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aopld.org/prairie-river-historical-society/"
+      "source": "https://aopld.org/prairie-river-historical-society/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Argenta%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Argenta%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Argenta%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Argenta%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -75,19 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.argentail.com/"
-    },
-    {
-      "id": 6,
-      "text": "Located in northeastern Macon County, Argenta is part of the Decatur Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        6,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Argenta%2C_Illinois"
+      "source": "https://www.argentail.com/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/argenta-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.354,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argenta_Illinois_Post_Office.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The community rests 480 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/taylor-xx-marion-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Taylor is part of the Hannibal Micropolitan Statistical Area, linking it to regional commerce.",
       "sourceSentenceIds": [
         10
@@ -74,7 +70,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Taylor%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/taylor-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

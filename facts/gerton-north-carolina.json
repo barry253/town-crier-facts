@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gerton%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Gerton%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gerton%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Gerton%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
-      "text": "Gerton sits atop the Continental Divide, roughly at the same elevation as Chimney Rock, 2,800 feet above sea level.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://hickorynutchamber.org/gerton-nc"
-    },
-    {
-      "id": 4,
       "text": "The area is flanked by Bearwallow and Little Pisgah mountains, which rise sharply across the Divide and offer marked trails to their summits.",
       "sourceSentenceIds": [
         16,
@@ -63,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hickorynutchamber.org/gerton-nc"
+      "source": "https://hickorynutchamber.org/gerton-nc",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Every summer, the Gerton Community Center hosts a potluck dinner, a summer play, and a Fourth of July picnic, drawing residents and visitors alike.",
       "sourceSentenceIds": [
         20
@@ -74,7 +70,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hickorynutchamber.org/gerton-nc"
+      "source": "https://hickorynutchamber.org/gerton-nc",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Broad River (Carolinas)"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gerton-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pollinator at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henderson_courthouse_9239.JPG"
+  }
 }

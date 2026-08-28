@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Midway North sits at 26.1857°N, 98.0169°W in southern Texas.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas"
-    },
-    {
-      "id": 2,
       "text": "The community is part of the McAllen–Edinburg–Mission Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         3
@@ -40,32 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
-      "text": "Midway North’s median age is 29.8 years, reflecting a relatively young population.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "The town’s average household size is 4.73, one of the largest in the state.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "Two elementary schools, Cleckler-Heald and Rudy Silva, serve the area’s young residents.",
       "sourceSentenceIds": [
         18
@@ -73,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "Residents attend Beatriz Garza Middle School and Weslaco High School for secondary education.",
       "sourceSentenceIds": [
         19
@@ -84,7 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Midway_North%2C_Texas",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/midway-north-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Theunderratedtaco",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HidalgoCountyCourthouse.png"
+  }
 }

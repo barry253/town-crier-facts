@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,18 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut"
-    },
-    {
-      "id": 5,
-      "text": "Knollcrest’s coordinates are 41.4987° N latitude and 73.4665° W longitude, placing it in Western Connecticut County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://connecticut.hometownlocator.com/ct/western-connecticut/knollcrest.cfm"
+      "source": "https://en.wikipedia.org/wiki/Knollcrest%2C_Connecticut",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "unverified=['houghton']"
     },
     {
       "id": 6,
@@ -83,7 +82,20 @@
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local"
+      "source": "local",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/knollcrest-connecticut.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Tichnor Brothers, Publisher",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Knoll_Crest,_Lake_Candlewood,_Conn_(69299).jpg"
+  }
 }

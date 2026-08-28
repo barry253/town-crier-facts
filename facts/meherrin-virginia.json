@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meherrin%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Meherrin%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meherrin%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Meherrin%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Meherrin River"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meherrin-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rhyssdavies",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LunenburgCourthouse2018.jpg"
+  }
 }

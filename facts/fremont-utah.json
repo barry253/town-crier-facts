@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://capitolreefcountry.com/fremont/"
+      "source": "https://capitolreefcountry.com/fremont/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "At 7,218 feet above sea level, Fremont sits high in the Wasatch foothills.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah"
-    },
-    {
-      "id": 4,
       "text": "Allred Point hosts a historic monument that honors the Mormon pioneers who trekked through the area.",
       "sourceSentenceIds": [
         2
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://capitolreefcountry.com/fremont/"
+      "source": "https://capitolreefcountry.com/fremont/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town lies along State Route 72, a key corridor through southern Utah’s high desert.",
       "sourceSentenceIds": [
         6
@@ -75,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "To the north, Fishlake National Forest offers rugged scenery and outdoor adventures just a short drive from Fremont.",
       "sourceSentenceIds": [
         7
@@ -86,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Fremont%2C_Utah",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fremont-utah.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mark Muir",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AspenOverview0172.JPG"
+  }
 }

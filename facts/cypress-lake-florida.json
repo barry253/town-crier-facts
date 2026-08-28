@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cypress Lake is a census‑designated place in central Lee County, Florida.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida"
-    },
-    {
-      "id": 2,
       "text": "The community sits just 7 miles south of Fort Myers, the county seat.",
       "sourceSentenceIds": [
         17
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Cypress Lake is part of the Cape Coral‑Fort Myers Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         15
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The CDP contains only urban land, with 100 % of its area classified as urban.",
       "sourceSentenceIds": [
         21
@@ -62,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
-      "text": "The median age of residents is 60.2 years, indicating a mature population.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "There are 9,306 housing units in Cypress Lake, 22.8 % of which are vacant.",
       "sourceSentenceIds": [
         22
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Cypress_Lake%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cypress-lake-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ecomerford",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Base_Operations_at_Page_Field.jpg"
+  }
 }

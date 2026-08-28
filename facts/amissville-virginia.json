@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.rappahannockcountyva.gov/about_us/index.php"
+      "source": "https://www.rappahannockcountyva.gov/about_us/index.php",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Amissville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Amissville%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://bramwellwv.com/chestnut/his.html"
+      "source": "https://bramwellwv.com/chestnut/his.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Amissville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Amissville%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/amissville-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The original uploader was Ser Amantio di Nicolao at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amissville,_Virginia.jpg"
+  }
 }

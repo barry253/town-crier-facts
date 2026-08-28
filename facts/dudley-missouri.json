@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Dudley is a city in Stoddard County, Missouri, United States.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dudley%2C_Missouri"
-    },
-    {
-      "id": 2,
       "text": "A post office has operated in Dudley since 1879, marking the town’s long‑standing community hub.",
       "sourceSentenceIds": [
         7,
@@ -42,10 +31,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dudley%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Dudley%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The town’s name honors a pioneer citizen, Mr. Dudley, whose legacy lives in the community’s identity.",
       "sourceSentenceIds": [
         8,
@@ -54,31 +45,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dudley%2C_Missouri"
-    },
-    {
-      "id": 4,
-      "text": "Dudley sits just seven miles west of Dexter, placing it firmly within the heart of Missouri’s Bootheel region.",
-      "sourceSentenceIds": [
-        10,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dudley%2C_Missouri"
-    },
-    {
-      "id": 5,
-      "text": "The city’s elevation is 350 feet above sea level, offering a modest rise above the surrounding floodplain.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/dudley-xx-stoddard-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Dudley%2C_Missouri",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dudley-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.438,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dudley-water-tower-mo.jpg"
+  }
 }

@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverside%2C_Suffolk_County%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "Riverside sits at latitude 40.8812 and longitude -72.6779 in Suffolk County.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newyork.hometownlocator.com/ny/suffolk/riverside.cfm"
+      "source": "https://en.wikipedia.org/wiki/Riverside%2C_Suffolk_County%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newyork.hometownlocator.com/ny/suffolk/riverside.cfm"
-    },
-    {
-      "id": 4,
-      "text": "Riverside is a census‑designated place, meaning it has no governmental functions.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newyork.hometownlocator.com/ny/suffolk/riverside.cfm"
+      "source": "https://newyork.hometownlocator.com/ny/suffolk/riverside.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverside%2C_Suffolk_County%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Riverside%2C_Suffolk_County%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -84,7 +70,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riverside%2C_Suffolk_County%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Riverside%2C_Suffolk_County%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riverside-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.552,
+    "y": 0.498
+  }
 }

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://matcha-jp.com/en/mcm28880"
+      "source": "https://matcha-jp.com/en/mcm28880",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minoh"
+      "source": "https://en.wikipedia.org/wiki/Minoh",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minoh"
+      "source": "https://en.wikipedia.org/wiki/Minoh",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://matcha-jp.com/en/mcm28880"
+      "source": "https://matcha-jp.com/en/mcm28880",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minoh"
+      "source": "https://en.wikipedia.org/wiki/Minoh",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,20 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minoh"
+      "source": "https://en.wikipedia.org/wiki/Minoh",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/minoh-osaka.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.393,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jnn",
+    "license": "CC BY 2.1 jp",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Katsuo-ji2336.jpg"
+  }
 }

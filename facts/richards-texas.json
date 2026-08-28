@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/richards-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/richards-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/richards-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/richards-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/richards-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/richards-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/richards-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ann_Richards_School_Austin_Texas_2023.jpg"
+  }
 }

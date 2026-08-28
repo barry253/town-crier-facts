@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Portland, Colorado sits in Fremont County at roughly one mile above sea level.",
-      "sourceSentenceIds": [
-        26,
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/co/portland-xx-fremont-profile.htm"
-    },
-    {
       "id": 2,
       "text": "The town’s post office opened in 1900, officially marking its establishment for the community.",
       "sourceSentenceIds": [
@@ -41,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/portland-xx-fremont-profile.htm"
+      "source": "https://roadsidethoughts.com/co/portland-xx-fremont-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.canoncitydailyrecord.com/2019/09/08/back-in-time-fremont-countys-portland-once-a-booming-industrial-town/"
+      "source": "https://www.canoncitydailyrecord.com/2019/09/08/back-in-time-fremont-countys-portland-once-a-booming-industrial-town/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.canoncitydailyrecord.com/2019/09/08/back-in-time-fremont-countys-portland-once-a-booming-industrial-town/"
+      "source": "https://www.canoncitydailyrecord.com/2019/09/08/back-in-time-fremont-countys-portland-once-a-booming-industrial-town/",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/portland-xx-fremont-profile.htm"
+      "source": "https://roadsidethoughts.com/co/portland-xx-fremont-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

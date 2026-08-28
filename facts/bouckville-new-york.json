@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://secretnyc.co/madison-bouckville-ny-antique-capital-getaway/"
+      "source": "https://secretnyc.co/madison-bouckville-ny-antique-capital-getaway/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Madison%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://secretnyc.co/madison-bouckville-ny-antique-capital-getaway/"
+      "source": "https://secretnyc.co/madison-bouckville-ny-antique-capital-getaway/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.visitmadisoncny.com/plan-your-visit/about-us/communities/madison-area/"
+      "source": "https://www.visitmadisoncny.com/plan-your-visit/about-us/communities/madison-area/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Madison%2C_New_York",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://secretnyc.co/madison-bouckville-ny-antique-capital-getaway/"
+      "source": "https://secretnyc.co/madison-bouckville-ny-antique-capital-getaway/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bouckville-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jayu from Harrisburg, PA, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison,_New_York_(408041254).jpg"
+  }
 }

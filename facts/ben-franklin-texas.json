@@ -31,7 +31,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.historictexas.net/city/ben-franklin-texas"
+      "source": "https://www.historictexas.net/city/ben-franklin-texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/ben-franklin-texas"
+      "source": "https://www.historictexas.net/city/ben-franklin-texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,18 +74,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Franklin%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Ben Franklin lies at the crossroads of Farm to Market Roads 38 and 128, just four miles northeast of Pecan Gap.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ben_Franklin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ben_Franklin%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +87,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/ben-franklin-tx",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ben-franklin-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ben_Franklin_October_2015_(Ben_Franklin_United_Methodist_Church).jpg"
+  }
 }

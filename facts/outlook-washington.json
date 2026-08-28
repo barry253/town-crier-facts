@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Outlook,_Washington"
+      "source": "https://kids.kiddle.co/Outlook,_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -42,7 +45,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -55,7 +61,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -70,7 +79,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -84,7 +95,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Outlook%2C_Washington",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -96,7 +109,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Outlook,_Washington"
+      "source": "https://kids.kiddle.co/Outlook,_Washington",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/outlook-washington.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chetsford",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yakima_County.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Yakima County, Washington"
+  }
 }

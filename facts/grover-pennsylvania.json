@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grover%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Grover%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grover%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Grover%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grover%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Grover%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "Grover is located in Bradford County.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/grover-xx-bradford-genealogy.htm"
-    },
-    {
-      "id": 5,
       "text": "The Atlas of Historical County Boundaries helps illustrate how Pennsylvania’s county lines, including those around Grover, have evolved.",
       "sourceSentenceIds": [
         1
@@ -73,10 +71,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/grover-xx-bradford-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/grover-xx-bradford-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Grover’s name appears in genealogical records that trace family histories back to the early 19th century.",
       "sourceSentenceIds": [
         16
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/grover-xx-bradford-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/grover-xx-bradford-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grover-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.586,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Adam Moss",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grover_PA_sign.jpg"
+  }
 }

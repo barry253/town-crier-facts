@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.legendsofamerica.com/il-mitchell/"
+      "source": "https://www.legendsofamerica.com/il-mitchell/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mitchell%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Mitchell%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mitchell%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Mitchell%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://madison.illinoisgenweb.org/town_histories/mitchell_history.html"
+      "source": "https://madison.illinoisgenweb.org/town_histories/mitchell_history.html",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mitchell-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_County_Courthouse,_Edwardsville.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Madison County, Illinois"
+  }
 }

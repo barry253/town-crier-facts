@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/call-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/call-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The town’s elevation is 95 feet (29 meters) above sea level.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas"
-    },
-    {
-      "id": 5,
       "text": "Call’s climate features hot, humid summers and generally mild to cool winters.",
       "sourceSentenceIds": [
         30
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Call%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "By 1942, a local well that once served the community had been abandoned.",
       "sourceSentenceIds": [
         14
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/call-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/call-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/call-texas.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Patrick Feller from Humble, Texas, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newton_County_Coourthouse,_Newton,_Texas_1709161321_(36495904124).jpg"
+  }
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Route 7 Gateway sits on Ridgefield's east side, bordered by Redding to the east and Danbury to the northeast.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Route_7_Gateway%2C_Connecticut"
-    },
-    {
       "id": 2,
       "text": "Route 7 cuts through the heart of Route 7 Gateway, heading north toward Danbury and south toward Norwalk.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Route_7_Gateway%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Route_7_Gateway%2C_Connecticut",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Route_7_Gateway%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Route_7_Gateway%2C_Connecticut",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://statedemographics.com/connecticut/route-7-gateway/"
+      "source": "https://statedemographics.com/connecticut/route-7-gateway/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://connecticut.hometownlocator.com/ct/fairfield/route-7-gateway.cfm"
+      "source": "https://connecticut.hometownlocator.com/ct/fairfield/route-7-gateway.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,

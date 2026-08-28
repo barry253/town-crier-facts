@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Paxtang is a borough in Dauphin County, Pennsylvania, and a suburb of Harrisburg.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The town’s name comes from the Lenape word Peshtank, meaning “where the waters stand,” later anglicized to Paxtang.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Paxtang%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +82,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.paxtang.org/about"
+      "source": "https://www.paxtang.org/about",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/paxtang-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.711,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mr. Matté (if there is an issue with this image, contact me using this image's Commons talk page, my Commons user talk page, or my English Wikipedia user talk page; I'll know about it a lot faster)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paxtang,_PA_Municipal_Building_and_former_theater,_June_2025.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/little-river-academy-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/little-river-academy-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Little River-Academy sits at 30°59′N 97°21′W, southeast of Bell County’s center.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Little_River-Academy%2C_Texas",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/little-river-academy-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.842,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_River_Academy_Texas_Gymnasium_2021.jpg"
+  }
 }

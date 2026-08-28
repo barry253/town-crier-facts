@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.wallawallawa.gov/our-city/history"
+      "source": "https://www.wallawallawa.gov/our-city/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wallawallawa.gov/our-city/history"
+      "source": "https://www.wallawallawa.gov/our-city/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wwcowa.gov/explore/history/index.php"
+      "source": "https://www.wwcowa.gov/explore/history/index.php",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walla_Walla%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Walla_Walla%2C_Washington",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walla_Walla%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Walla_Walla%2C_Washington",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/walla-walla-east-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.44,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Squarestate7",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Second_and_Main_in_Walla_Walla.jpg"
+  }
 }

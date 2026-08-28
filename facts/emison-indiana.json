@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emison%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Emison%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/in/emison-xx-knox-profile.htm"
+      "source": "https://roadsidethoughts.com/in/emison-xx-knox-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 460 feet above sea level, offering a modest elevation within Knox County.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/emison-xx-knox-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Indiana State Road 550 leaves Emison heading southeast for four miles to Bruceville.",
       "sourceSentenceIds": [
         10
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emison%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Emison%2C_Indiana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Emison is located in the northwestern part of Knox County, Indiana.",
       "sourceSentenceIds": [
         9
@@ -75,7 +71,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emison%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Emison%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/emison-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  }
 }

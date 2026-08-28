@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spry%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spry%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ghosttownpix.com/spry-history/"
+      "source": "https://ghosttownpix.com/spry-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ghosttownpix.com/spry-history/"
+      "source": "https://ghosttownpix.com/spry-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,18 +69,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ghosttownpix.com/spry-history/"
-    },
-    {
-      "id": 5,
-      "text": "Spry lies at 39°54′45″N 76°41′14″W in York Township, south of York, Pennsylvania.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spry%2C_Pennsylvania"
+      "source": "https://ghosttownpix.com/spry-history/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spry-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.586,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christ_Lutheran_Spry_York_TWP_York_Co_PA_1.jpg"
+  }
 }

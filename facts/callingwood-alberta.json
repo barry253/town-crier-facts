@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/callingwood_edmonton"
+      "source": "https://grokipedia.com/page/callingwood_edmonton",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The neighbourhood’s residential mix reflects its post‑war roots, with 20 % row houses, 56 % low‑rise apartments and 25 % high‑rise units as of 2011.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/callingwood_edmonton"
-    },
-    {
-      "id": 3,
       "text": "West Edmonton Mall lies just 6 km southwest of Callingwood, making the suburb a short drive from the region’s largest shopping and entertainment complex.",
       "sourceSentenceIds": [
         8
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/callingwood_edmonton"
+      "source": "https://grokipedia.com/page/callingwood_edmonton",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Callingwood‑Lymburn Community League, founded in 1979, operates a community hall and outdoor rink at 188 Street and 72 Avenue.",
       "sourceSentenceIds": [
         29
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callingwood%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Callingwood%2C_Edmonton",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Construction in Callingwood peaked between 1961 and 1980, a period that marked Edmonton’s rapid suburban growth after World War II.",
       "sourceSentenceIds": [
         7
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/callingwood_edmonton"
+      "source": "https://grokipedia.com/page/callingwood_edmonton",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Callingwood North sits north of 69 Avenue while Callingwood South lies south of that same street, with the two sections bounded by 178 Street, 170 Street, Whitemud Drive and Callingwood Road.",
       "sourceSentenceIds": [
         26,
@@ -85,7 +83,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callingwood%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Callingwood%2C_Edmonton",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/callingwood-alberta.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kiyoteru Awaji",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Lake_Area,_Edmonton.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big Lake, Edmonton"
+  }
 }

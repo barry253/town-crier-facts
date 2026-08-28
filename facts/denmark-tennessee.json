@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Denmark%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +97,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitswtenn.com/location/big-black-creek-historical-association/"
+      "source": "https://www.visitswtenn.com/location/big-black-creek-historical-association/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/denmark-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Www78",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Madison_County_Courthouse,_Jackson.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Madison County, Tennessee"
+  }
 }

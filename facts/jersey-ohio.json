@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.jerseytownship.us/"
+      "source": "https://www.jerseytownship.us/",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.jerseytownship.us/"
+      "source": "https://www.jerseytownship.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/jersey-xx-licking-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/jersey-xx-licking-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/jersey-xx-licking-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/jersey-xx-licking-profile.htm",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Interstate_76_(Ohio%E2%80%93New_Jersey)"
+      "source": "https://en.wikipedia.org/wiki/Interstate_76_(Ohio%E2%80%93New_Jersey)",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jersey-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2020-07-07_12_30_13_View_west_along_Interstate_76_(North-South_Freeway)_at_Exit_2_(Interstate_676_NORTH,_Camden,_Benjamin_Franklin_Bridge)_in_Gloucester_City,_Camden_County,_New_Jersey.jpg"
+  }
 }

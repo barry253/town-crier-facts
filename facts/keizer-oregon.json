@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitoregon.com/cities/keizer-oregon/"
+      "source": "https://www.visitoregon.com/cities/keizer-oregon/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.keizeror.gov/337/History"
+      "source": "https://www.keizeror.gov/337/History",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Keizer%2C_Oregon",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/keizer-oregon.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.812,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gary Halvorson, Oregon State Archives",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keizer_City_Hall,_Keizer_-_DPLA_-_6ce1d2139f26d01e987f8c01eed612ee.jpg"
+  }
 }

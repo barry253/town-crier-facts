@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofeastdublin.org/wp/about/"
+      "source": "https://cityofeastdublin.org/wp/about/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Dublin%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/East_Dublin%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofeastdublin.org/wp/about/"
+      "source": "https://cityofeastdublin.org/wp/about/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,23 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofeastdublin.org/wp/about/"
+      "source": "https://cityofeastdublin.org/wp/about/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The city’s coordinates are roughly 32.55°N, 82.87°W, placing it in north‑central Laurens County.",
-      "sourceSentenceIds": [
-        4,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Dublin%2C_Georgia"
-    },
-    {
-      "id": 6,
       "text": "East Dublin’s land area totals about 3.96 square miles, with 0.15 square miles of water.",
       "sourceSentenceIds": [
         26,
@@ -88,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://georgia.hometownlocator.com/ga/laurens/east-dublin.cfm"
+      "source": "https://georgia.hometownlocator.com/ga/laurens/east-dublin.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-dublin-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.438,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Dublin_City_Hall.jpg"
+  }
 }

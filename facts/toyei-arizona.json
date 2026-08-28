@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Toyei%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Toyei%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,33 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Toyei%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Toyei%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Toyei sits 6,530 feet above sea level, about one and a half miles high.",
-      "sourceSentenceIds": [
-        27,
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/toyei-xx-apache-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "The community lies within Apache County, Arizona.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/toyei-xx-apache-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Toyei is part of the Canyon de Chelly National Monument, managed jointly by the National Park Service and the Navajo Nation.",
       "sourceSentenceIds": [
         7,
@@ -75,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/cach/index.htm"
+      "source": "https://www.nps.gov/cach/index.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Toyei’s name appears on the commemorative quarter issued for Arizona.",
       "sourceSentenceIds": [
         25
@@ -86,7 +71,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/toyei-xx-apache-profile.htm"
+      "source": "https://roadsidethoughts.com/az/toyei-xx-apache-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/toyei-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zereshk",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apache_Sitgreaves_Nima2.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Apache County, Arizona"
+  }
 }

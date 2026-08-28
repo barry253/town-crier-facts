@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Snook is a city in Burleson County, Texas, United States.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Snook%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "Snook began as an all‑Czech settlement, a heritage still visible in its local culture.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofsnook.com/about"
+      "source": "https://www.cityofsnook.com/about",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/snook-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/snook-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +55,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofsnook.com/about"
-    },
-    {
-      "id": 5,
-      "text": "Snook sits at the crossroads of Farm Roads 60 and 2155, about fifteen miles southeast of Caldwell.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/snook-tx"
-    },
-    {
-      "id": 6,
-      "text": "The city lies just 13 miles southwest of College Station, placing it close to Texas A&M University.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Snook%2C_Texas"
+      "source": "https://www.cityofsnook.com/about",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/snook-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.546,
+    "y": 0.5
+  }
 }

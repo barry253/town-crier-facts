@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.britannica.com/place/Las-Vegas-Nevada/History"
+      "source": "https://www.britannica.com/place/Las-Vegas-Nevada/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Vegas"
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Vegas"
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Vegas"
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Vegas"
+      "source": "https://en.wikipedia.org/wiki/Las_Vegas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/las-vegas-nevada.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.765,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike McBey",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Las_Vegas_from_above_(40064746644).jpg"
+  }
 }

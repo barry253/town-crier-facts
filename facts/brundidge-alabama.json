@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Brundidge was founded before the Civil War by George C. in the early 1850s.",
+      "text": "Brundidge was founded before the Civil War by George C. Collier in the early 1850s.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/brundidge/"
+      "source": "https://encyclopediaofalabama.org/article/brundidge/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/brundidge/"
+      "source": "https://encyclopediaofalabama.org/article/brundidge/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Brundidge%2C_Alabama",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brundidge-alabama.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.233,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rivers Langley; SaveRivers",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brundidge_Alabama_1.JPG"
+  }
 }

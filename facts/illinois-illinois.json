@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Illinois City is an unincorporated community in the U.S. state of Illinois.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
-    },
-    {
       "id": 2,
       "text": "The community sits directly across the Mississippi River from Muscatine, Iowa.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,18 +71,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "Illinois City’s location on the Mississippi makes it a quiet gateway between Illinois and Iowa.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Illinois_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/illinois-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tony Webster from Portland, Oregon",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grant_River_Recreation_Area_along_the_Mississippi_River_-_Potosi,_Wisconsin_(24342209130).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mississippi River"
+  }
 }

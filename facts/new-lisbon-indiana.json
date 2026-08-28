@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Lisbon%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/New_Lisbon%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Lisbon%2C_Indiana"
-    },
-    {
-      "id": 3,
-      "text": "New Lisbon sits 1,100 feet above sea level, higher than most of Indiana.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/new-lisbon-xx-henry-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/New_Lisbon%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.in.gov/library/collections-and-services/indiana/county-history-holdings-guide/henry-county/"
+      "source": "https://www.in.gov/library/collections-and-services/indiana/county-history-holdings-guide/henry-county/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-lisbon-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Publichall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_County_Courthouse_-_New_Castle,_IN.jpg"
+  }
 }

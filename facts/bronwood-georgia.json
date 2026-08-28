@@ -37,7 +37,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.cityofbronwood.com/home/history"
+      "source": "https://www.cityofbronwood.com/home/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -51,7 +53,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bronwood%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Bronwood%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -63,7 +67,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Bronwood,_Georgia"
+      "source": "https://grokipedia.com/page/Bronwood,_Georgia",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bronwood-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Terrell_County_Courthouse,_Georgia.JPG"
+  }
 }

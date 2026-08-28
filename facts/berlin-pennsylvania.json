@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.scrta.org/berlin/"
+      "source": "https://www.scrta.org/berlin/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,21 +58,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Berlin sits at 2,323 feet, the second‑highest elevation in Pennsylvania after Seven Springs, giving it a crisp mountain climate.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "Local snack lovers know that Snyder of Berlin potato chips are still produced in town, a proud culinary legacy that feeds the region.",
       "sourceSentenceIds": [
         14
@@ -76,18 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
-      "text": "Berlin is part of the Johnstown Metropolitan Statistical Area, linking it culturally and economically to the larger regional community.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Berlin%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/berlin-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bonnachoven",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berlin_PA_.jpg"
+  }
 }

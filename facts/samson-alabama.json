@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/samson/"
+      "source": "https://encyclopediaofalabama.org/article/samson/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://genevacountyal.gov/samson/"
+      "source": "https://genevacountyal.gov/samson/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Samson%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Samson%2C_Alabama",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +72,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Samson%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Samson%2C_Alabama",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/samson-alabama.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Wmr36104",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alabama-Geneva_County_Courthouse.jpg"
+  }
 }

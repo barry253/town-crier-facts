@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campo%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Campo%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campo%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Campo%2C_California",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campo%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Campo%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,18 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campo%2C_California"
-    },
-    {
-      "id": 5,
-      "text": "A private airstrip lies 4.2 miles north of Campo, positioned 332 degrees off true north at 32°39′35″N 116°30′08″W.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Campo%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Campo%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/morena-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Campo Store (Life time: 1900) .",
+    "license": "Public domain",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Campo_Store_also_called_Gaskill%E2%80%99s_Brothers_Stone_Store_in_1900.jpg"
+  }
 }

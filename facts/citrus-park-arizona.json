@@ -29,42 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/citrus-park-188833"
-    },
-    {
-      "id": 2,
-      "text": "The community sits on the western edge of the Phoenix metropolitan area, about 25 miles west‑northwest of downtown Phoenix.",
-      "sourceSentenceIds": [
-        9,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona"
-    },
-    {
-      "id": 3,
-      "text": "Perryville Road marks Citrus Park’s western boundary, yet it technically lies within Glendale’s city limits, hinting at future expansion possibilities.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona"
-    },
-    {
-      "id": 4,
-      "text": "Northern Avenue serves as the northern edge of Citrus Park, while Goodyear borders the south and Glendale the east.",
-      "sourceSentenceIds": [
-        10,
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona"
+      "source": "https://www.wisdomlib.org/cities/citrus-park-188833",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/citrus-park-188833"
+      "source": "https://www.wisdomlib.org/cities/citrus-park-188833",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +56,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Citrus_Park%2C_Arizona",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/citrus-park-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zeb Micelli",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maricopa_County_Courthouse_October_6_2013_Phoenix_Arizona_2816x2112_Rear.JPG"
+  }
 }

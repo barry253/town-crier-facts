@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bullock%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Bullock%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -42,7 +45,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bullock%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Bullock%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -56,7 +62,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bullock%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Bullock%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -67,7 +76,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Bullock,_North_Carolina"
+      "source": "https://kids.kiddle.co/Bullock,_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +90,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Bullock,_North_Carolina"
+      "source": "https://kids.kiddle.co/Bullock,_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -90,7 +104,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Bullock,_North_Carolina"
+      "source": "https://kids.kiddle.co/Bullock,_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bullock-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granville_County_Courthouse,_Oxford_01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Granville County, North Carolina"
+  }
 }

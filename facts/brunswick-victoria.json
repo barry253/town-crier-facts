@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://brunswickhistory.org.au/"
+      "source": "https://brunswickhistory.org.au/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brunswick%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Brunswick%2C_Victoria",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.vic.gov.au/stories-our-public-records-brunswick-historical-association"
+      "source": "https://www.vic.gov.au/stories-our-public-records-brunswick-historical-association",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brunswick%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Brunswick%2C_Victoria",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brunswick%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Brunswick%2C_Victoria",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brunswick-victoria.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Philip Mallis",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heritage_buildings_on_Sydney_Road,_Brunswick.jpg"
+  }
 }

@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Java Village is a hamlet in Wyoming County, New York.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Java_Village%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The community sits along New York State Route 78, just 9.6 miles north of Arcade.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Java_Village%2C_New_York"
-    },
-    {
       "id": 3,
       "text": "The Java Historical Society, founded in 2007, preserves and shares the village’s history.",
       "sourceSentenceIds": [
@@ -53,7 +31,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22080"
+      "source": "https://museumsdatabase.com/museums/view/22080",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22080"
+      "source": "https://museumsdatabase.com/museums/view/22080",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +57,28 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22080"
+      "source": "https://museumsdatabase.com/museums/view/22080",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "It also organizes hikes and outdoor events that showcase the area’s natural beauty.",
+      "text": "The Java Historical Society also organizes hikes and outdoor events that showcase the area’s natural beauty.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22080"
+      "source": "https://museumsdatabase.com/museums/view/22080",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/java-village-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  }
 }

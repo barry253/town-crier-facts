@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Paton is a city in Greene County, Iowa.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa"
-    },
-    {
       "id": 2,
       "text": "Paton sprang up when a railroad was built through the area, linking it to other towns and spurring growth.",
       "sourceSentenceIds": [
@@ -42,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/50217"
+      "source": "https://www.allplaces.us/z/50217",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -77,7 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Paton%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

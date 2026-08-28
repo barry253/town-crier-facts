@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heidelberg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Heidelberg%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://heidelbergborough.org/"
+      "source": "https://heidelbergborough.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heidelberg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Heidelberg%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heidelberg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Heidelberg%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://heidelbergborough.org/"
+      "source": "https://heidelbergborough.org/",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +99,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://heidelbergboro.com/"
+      "source": "https://heidelbergboro.com/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/heidelberg-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.604,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heidelberg,_Pennsylvania_Madison_Ave_1st_and_Ellsworth.jpg"
+  }
 }

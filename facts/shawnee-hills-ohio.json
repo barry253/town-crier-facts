@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shawneehillsoh.org/community/history"
+      "source": "https://shawneehillsoh.org/community/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shawneehillsoh.org/community/history"
+      "source": "https://shawneehillsoh.org/community/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shawneehillsoh.org/community/history"
+      "source": "https://shawneehillsoh.org/community/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
@@ -63,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shawneehillsoh.org/community/history"
+      "source": "https://shawneehillsoh.org/community/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -75,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shawneehillsoh.org/community/history"
+      "source": "https://shawneehillsoh.org/community/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +101,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shawneehillsoh.org/community/history"
+      "source": "https://shawneehillsoh.org/community/history",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shawnee-hills-ohio.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Schwen",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garden_of_the_Gods_Sunset.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Shawnee Hills"
+  }
 }

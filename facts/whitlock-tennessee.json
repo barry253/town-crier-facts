@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitlock%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Whitlock%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Whitlock sits 530 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The name Whitlock appears in both FIPS‑55 and GNIS records, confirming its official recognition.",
       "sourceSentenceIds": [
         2
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical maps from 1895 list Whitlock among communities with railroad service, hinting at past connectivity.",
       "sourceSentenceIds": [
         3
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A local atlas shows that Whitlock’s boundaries have shifted over time, reflecting county changes.",
       "sourceSentenceIds": [
         4
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/whitlock-xx-henry-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whitlock-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cj4258",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_County_Tennessee_Courthouse_24nov05.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Henry County, Tennessee"
+  }
 }

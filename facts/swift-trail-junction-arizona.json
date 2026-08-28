@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swift_Trail_Junction%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Swift_Trail_Junction%2C_Arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swift_Trail_Junction%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Swift_Trail_Junction%2C_Arizona",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swift_Trail_Junction%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Swift_Trail_Junction%2C_Arizona",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r03/coronado/recreation/groups/swift-trail-parkway-state-highway-366-scenic-drive"
+      "source": "https://www.fs.usda.gov/r03/coronado/recreation/groups/swift-trail-parkway-state-highway-366-scenic-drive",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/swift-trail-junction-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  }
 }

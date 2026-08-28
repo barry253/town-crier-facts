@@ -32,7 +32,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/durand_illinois"
+      "source": "https://grokipedia.com/page/durand_illinois",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -46,7 +49,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Durand%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Durand%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +64,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/durand_illinois"
+      "source": "https://grokipedia.com/page/durand_illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +77,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/durand_illinois"
+      "source": "https://grokipedia.com/page/durand_illinois",
+      "category": "other",
+      "quality": "poor"
     },
     {
       "id": 5,
@@ -81,7 +90,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/durand_illinois"
+      "source": "https://grokipedia.com/page/durand_illinois",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/durand-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ben Jacobson (Kranar Drogin)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rockford,_IL_Winnebago_County_Justice_Center_01.JPG"
+  }
 }

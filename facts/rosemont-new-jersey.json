@@ -31,7 +31,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm"
+      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -42,21 +45,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm"
+      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Rosemont sits 310 feet above sea level, giving it a modest elevation within the Piedmont region.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Both Rosemonts appear in federal geographic databases, listed in the FIPS‑55 and the GNIS records.",
       "sourceSentenceIds": [
         3
@@ -64,10 +58,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm"
+      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Gazetteer notes that New Jersey hosts two distinct Rosemonts, a detail that often surprises visitors.",
       "sourceSentenceIds": [
         1
@@ -75,10 +72,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm"
+      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Rosemont’s historical context is preserved in the Atlas of Historical County Boundaries, which tracks county line changes over time.",
       "sourceSentenceIds": [
         5
@@ -86,7 +86,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm"
+      "source": "https://roadsidethoughts.com/nj/rosemont-xx-hunterdon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rosemont-new-jersey.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jared Kofsky",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canal_in_Lambertville.JPG"
+  }
 }

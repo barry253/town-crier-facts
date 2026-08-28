@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming"
+      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming"
+      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Pinedale sits at 7,175 feet above sea level, overlooking the Wind River Range.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pinedale%2C_Wyoming"
-    },
-    {
-      "id": 4,
       "text": "Pinedale is a gateway to the Wind River Range and a hub for hunting outfitting.",
       "sourceSentenceIds": [
         17
@@ -63,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pinedale%2C_Wyoming"
+      "source": "https://en.wikipedia.org/wiki/Pinedale%2C_Wyoming",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In 1957 the Pinedale Lions Club raised funds to bring a television translator, enabling local broadcast of KID-TV from Idaho Falls for the first time.",
       "sourceSentenceIds": [
         9
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming"
+      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Pinedale library began in the 1950s when residents formed associations to raise books, becoming the county’s first public library before state law support in 1958.",
       "sourceSentenceIds": [
         11,
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming"
+      "source": "https://www.wyohistory.org/encyclopedia/pinedale-wyoming",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pinedale-wyoming.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.791,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tarabholmes",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PinedaleWyoming.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://glennvillega.gov/about/"
+      "source": "https://glennvillega.gov/about/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://glennvillega.gov/about/"
+      "source": "https://glennvillega.gov/about/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://glennvillega.gov/about/"
+      "source": "https://glennvillega.gov/about/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://glennvillega.gov/about/"
+      "source": "https://glennvillega.gov/about/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glennville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Glennville%2C_Georgia",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glennville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Glennville%2C_Georgia",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glennville-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.673,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Jud McCranie",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glennwanis_Hotel,_Glenview,_GA,_US.jpg"
+  }
 }

@@ -22,29 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Centertown lies in Warren County, Tennessee, centrally located between McMinnville and Woodbury on the Cumberland Plateau.",
-      "sourceSentenceIds": [
-        19,
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-centertown-tennessee.html"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 35°43′21″N 85°55′13″W, placing it in the heart of middle Tennessee.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee"
-    },
-    {
-      "id": 3,
       "text": "Centertown has 117 housing units, averaging 127 per square mile across its small area.",
       "sourceSentenceIds": [
         7
@@ -52,33 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
-      "text": "The racial makeup is 97.28% White, 1.17% African American, and 1.56% two or more races.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee"
-    },
-    {
-      "id": 5,
-      "text": "The median age of residents is 37 years, with a slightly higher male population among adults.",
-      "sourceSentenceIds": [
-        10,
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centertown%2C_Tennessee"
-    },
-    {
-      "id": 6,
+      "id": 2,
       "text": "The town’s building department handles construction permits and code enforcement, guiding projects through local regulations.",
       "sourceSentenceIds": [
         2,
@@ -87,7 +44,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-centertown-tennessee.html"
+      "source": "https://www.citydirectory.us/town-centertown-tennessee.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centertown-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.218,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centertown-bank-building-tn1.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McDermott%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/McDermott%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McDermott%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/McDermott%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "McDermott sits 580 feet above sea level, giving it a modest elevation compared to surrounding areas.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/mcdermott-xx-scioto-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "McDermott is located in Scioto County, Ohio, placing it within the state’s southwestern region.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mcdermott-xx-scioto-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/mcdermott-xx-scioto-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In the 1890s, McDermott was served by a railroad line that connected it to regional markets.",
       "sourceSentenceIds": [
         4
@@ -73,7 +69,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/mcdermott-xx-scioto-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/mcdermott-xx-scioto-profile.htm",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcdermott-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.376,
+    "y": 0.5
+  }
 }

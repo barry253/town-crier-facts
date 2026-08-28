@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.legendsofamerica.com/eden-arizona/"
+      "source": "https://www.legendsofamerica.com/eden-arizona/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.legendsofamerica.com/eden-arizona/"
+      "source": "https://www.legendsofamerica.com/eden-arizona/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.legendsofamerica.com/eden-arizona/"
+      "source": "https://www.legendsofamerica.com/eden-arizona/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,18 +72,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.legendsofamerica.com/eden-arizona/"
-    },
-    {
-      "id": 5,
-      "text": "Eden sits at 2,756 feet above sea level in Graham County’s Gila Valley.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Arizona"
+      "source": "https://www.legendsofamerica.com/eden-arizona/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eden-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Lund",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GrahamCountyCourthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Graham County, Arizona"
+  }
 }

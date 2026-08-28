@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ford%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Ford%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ford%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Ford%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -60,7 +65,25 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ford%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Ford%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ford-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cecouchman",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DinwiddieCountyCourthouse_9855.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Dinwiddie County, Virginia"
+  }
 }

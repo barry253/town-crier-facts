@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mountain Meadows is a census‑designated place in Boulder County, Colorado, and part of the Boulder metropolitan area.",
-      "sourceSentenceIds": [
-        1,
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado"
-    },
-    {
       "id": 2,
       "text": "The community nestles in the hills west of Boulder, lying in south‑central Boulder County.",
       "sourceSentenceIds": [
@@ -43,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +47,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -69,31 +63,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado"
-    },
-    {
-      "id": 5,
-      "text": "As a census‑designated place, Mountain Meadows has no city government and relies on county services.",
-      "sourceSentenceIds": [
-        6,
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Mountain_Meadows,_Colorado"
-    },
-    {
-      "id": 6,
-      "text": "Its geographic coordinates are 40.0239° N latitude and 105.3805° W longitude, placing it just west of Boulder’s urban core.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/boulder/mountain-meadows.cfm"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Meadows%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mountain-meadows-colorado.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  }
 }

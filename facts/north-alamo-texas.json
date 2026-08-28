@@ -29,32 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Alamo%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/North_Alamo%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "North Alamo sits at 26°12′53″N 98°7′27″W, roughly 26.2°N latitude and 98.1°W longitude.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/North_Alamo%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Travel guides describe North Alamo as a destination rich in historical attractions and cultural experiences.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/"
-    },
-    {
-      "id": 4,
       "text": "Tourism services in North Alamo cater to visitors eager to explore detailed historical heritage and immersive cultural experiences.",
       "sourceSentenceIds": [
         7
@@ -62,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "North Alamo balances preserving traditional character with embracing modern tourism improvements, keeping its heritage alive for travelers.",
       "sourceSentenceIds": [
         8
@@ -73,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Situated in culturally rich and geographically diverse Texas, North Alamo reflects the state’s unique blend of history and contemporary life.",
       "sourceSentenceIds": [
         4
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/north-alamo-texas-travel-guide/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-alamo-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Theunderratedtaco",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HidalgoCountyCourthouse.png"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Downtown_Atlanta"
+      "source": "https://en.wikipedia.org/wiki/Downtown_Atlanta",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Downtown_Atlanta"
+      "source": "https://en.wikipedia.org/wiki/Downtown_Atlanta",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.britannica.com/place/Atlanta-Georgia"
+      "source": "https://www.britannica.com/place/Atlanta-Georgia",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/downtown-atlanta-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.174,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AtlChampion",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AATL202503-0850.jpg"
+  }
 }

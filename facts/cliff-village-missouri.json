@@ -30,32 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cliff_Village%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Cliff_Village%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
-      "text": "The village’s coordinates are 37°1′31″N 94°31′2″W, placing it just north of the Arkansas border.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cliff_Village%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Cliff Village rises to 950 feet above sea level, giving it a modest hilltop view of the surrounding plains.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/cliff-village-xx-newton-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "At 950 feet, the village is the 20th most populous community in Newton County.",
       "sourceSentenceIds": [
         23
@@ -63,10 +44,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/cliff-village-xx-newton-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/cliff-village-xx-newton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "The village’s name reflects its elevated position, a nod to the nearby cliffs that overlook the area.",
       "sourceSentenceIds": [
         20
@@ -74,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/cliff-village-xx-newton-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/cliff-village-xx-newton-profile.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Cliff Village’s modest size—just 17 housing units—creates a tight-knit community feel for residents and visitors alike.",
       "sourceSentenceIds": [
         6
@@ -85,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cliff_Village%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Cliff_Village%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cliff-village-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newton_County_MO_Courthouse_20151022-113.jpg"
+  }
 }

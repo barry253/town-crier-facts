@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Joslin%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Joslin%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -45,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Joslin%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Joslin%2C_Illinois",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +66,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Joslin%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Joslin%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,21 +79,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/joslin-xx-rock-island-profile.htm"
+      "source": "https://roadsidethoughts.com/il/joslin-xx-rock-island-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town sits 580 feet above sea level, a modest rise in the Illinois plains.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/joslin-xx-rock-island-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Joslin is an unincorporated community, meaning it has no municipal government of its own.",
       "sourceSentenceIds": [
         8
@@ -94,7 +92,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Joslin,_Illinois"
+      "source": "https://kids.kiddle.co/Joslin,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/joslin-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Farragutful",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Island_County_Justice_Center.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Rock Island County, Illinois"
+  }
 }

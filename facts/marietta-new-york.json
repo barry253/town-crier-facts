@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Marietta%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marietta-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.51,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Will Merriam",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delphi_Falls,_New_York_(August_2025)_(1).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Delphi Falls, New York"
+  }
 }

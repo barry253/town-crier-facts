@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,24 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits at 5,689 feet, roughly one mile above sea level.",
-      "sourceSentenceIds": [
-        12,
-        26,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Calpine’s name may be an abbreviation of the surname McAlpine.",
       "sourceSentenceIds": [
         14
@@ -65,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "By 1939 the timber stocks were depleted, and the mill closed shortly thereafter.",
       "sourceSentenceIds": [
         13
@@ -76,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Calpine%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A post office opened in Calpine in 1921, marking the town’s first official federal presence.",
       "sourceSentenceIds": [
         25
@@ -87,7 +81,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/calpine-xx-sierra-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/calpine-xx-sierra-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/calpine-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Yngvadottir",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sierraville_1_(cropped).jpg"
+  }
 }

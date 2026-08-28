@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ogema is a small city located in Becker County, Minnesota, United States.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ogema%2C_Minnesota"
-    },
-    {
       "id": 2,
       "text": "The name Ogema comes from the Ojibwe word ogimaa, meaning 'chief' in the local language.",
       "sourceSentenceIds": [
@@ -40,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ogema%2C_Minnesota"
-    },
-    {
-      "id": 3,
-      "text": "Ogema sits at latitude 47.1027 and longitude -95.925 within the northern Minnesota region.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://minnesota.hometownlocator.com/mn/becker/ogema.cfm"
+      "source": "https://en.wikipedia.org/wiki/Ogema%2C_Minnesota",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://minnesota.hometownlocator.com/mn/becker/ogema.cfm"
+      "source": "https://minnesota.hometownlocator.com/mn/becker/ogema.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/56569"
+      "source": "https://www.allplaces.us/z/56569",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://azgenwebcochise.com/towns/pirtleville_main.html"
+      "source": "https://azgenwebcochise.com/towns/pirtleville_main.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/pirtleville-xx-cochise-profile.htm"
+      "source": "https://roadsidethoughts.com/az/pirtleville-xx-cochise-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 3,960 feet above sea level, a high‑altitude desert setting.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/pirtleville-xx-cochise-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Pirtleville is an unincorporated community north of Douglas in Cochise County.",
       "sourceSentenceIds": [
         19,
@@ -65,10 +58,13 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://azgenwebcochise.com/towns/pirtleville_main.html"
+      "source": "https://azgenwebcochise.com/towns/pirtleville_main.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community observes Mountain Standard Time year‑round, never shifting for daylight saving.",
       "sourceSentenceIds": [
         30
@@ -76,10 +72,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/pirtleville-xx-cochise-profile.htm"
+      "source": "https://roadsidethoughts.com/az/pirtleville-xx-cochise-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Despite its small size, Pirtleville’s history ties closely to the Calumet and Arizona smelter’s labor needs.",
       "sourceSentenceIds": [
         20
@@ -87,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://azgenwebcochise.com/towns/pirtleville_main.html"
+      "source": "https://azgenwebcochise.com/towns/pirtleville_main.html",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pirtleville-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.41,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike Lewis",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kartchner_Big_Room.jpg"
+  }
 }

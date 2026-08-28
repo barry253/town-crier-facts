@@ -29,32 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eshore.iath.virginia.edu/node/2110"
+      "source": "https://eshore.iath.virginia.edu/node/2110",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community first appeared on the census as a census‑designated place in 2010.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Quinby%2C_Virginia"
-    },
-    {
-      "id": 3,
-      "text": "Quinby sits just 7 feet above sea level, a typical elevation for the Eastern Shore’s low‑lying marshlands.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Quinby%2C_Virginia"
-    },
-    {
-      "id": 4,
       "text": "The nearest railroad station was at Keller, eight miles away, linking Quinby to the broader rail network in the late 19th century.",
       "sourceSentenceIds": [
         1
@@ -62,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eshore.iath.virginia.edu/node/2110"
+      "source": "https://eshore.iath.virginia.edu/node/2110",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Littleton Thomas LeCato, a prominent lawyer from the area, helped secure a United States Post Office for Quinby in the 1890s.",
       "sourceSentenceIds": [
         21,
@@ -74,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eshore.iath.virginia.edu/node/2110"
+      "source": "https://eshore.iath.virginia.edu/node/2110",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Before the post office, residents had to travel five miles to the nearest store, prompting LeCato to lobby for local mail services.",
       "sourceSentenceIds": [
         25
@@ -85,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eshore.iath.virginia.edu/node/2110"
+      "source": "https://eshore.iath.virginia.edu/node/2110",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/quinby-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "self",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quinby_USPO_and_Virginia_Landing_sign.jpg"
+  }
 }

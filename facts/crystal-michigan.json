@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crystal%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Crystal%2C_Michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crystal%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Crystal%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crystal%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Crystal%2C_Michigan",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://genealogytrails.com/mich/montcalm/historycrystal.html"
+      "source": "https://genealogytrails.com/mich/montcalm/historycrystal.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://discovermontcalmpodcast.com/crystal/"
+      "source": "https://discovermontcalmpodcast.com/crystal/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +101,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://discovermontcalmpodcast.com/crystal/"
+      "source": "https://discovermontcalmpodcast.com/crystal/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crystal-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Toth",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Island_Park_Grand_Ledge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Grand River (Michigan)"
+  }
 }

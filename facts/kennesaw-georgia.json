@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kennesaw%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Kennesaw%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.kennesaw-ga.gov/about-kennesaw/our-history/"
+      "source": "https://www.kennesaw-ga.gov/about-kennesaw/our-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.kennesaw.com/attractions/"
+      "source": "https://www.kennesaw.com/attractions/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.kennesaw-ga.gov/about-kennesaw/our-history/"
+      "source": "https://www.kennesaw-ga.gov/about-kennesaw/our-history/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kennesaw-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.499
+  }
 }

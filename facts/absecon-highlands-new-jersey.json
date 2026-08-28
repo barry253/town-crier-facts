@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Absecon Highlands is a census‑designated place in eastern Atlantic County, within Galloway Township.",
-      "sourceSentenceIds": [
-        17,
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Absecon_Highlands%2C_New_Jersey"
-    },
-    {
       "id": 2,
       "text": "To the south lies the city of Absecon, while Reeds Bay to the east opens to the Atlantic via Broad Creek and Absecon Inlet.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Absecon_Highlands%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Absecon_Highlands%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.abseconhistory.com/index.html"
+      "source": "https://www.abseconhistory.com/index.html",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.abseconhistory.com/index.html"
+      "source": "https://www.abseconhistory.com/index.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +70,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.abseconhistory.com/index.html"
-    },
-    {
-      "id": 6,
-      "text": "Absecon Highlands sits at 39.4468°N, 74.474°W, just north of the Atlantic coast.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/atlantic/absecon-highlands.cfm"
+      "source": "https://www.abseconhistory.com/index.html",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/absecon-highlands-new-jersey.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dough4872",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brigantine_NJ_from_47th_floor_of_Revel_Atlantic_City.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Absecon Inlet"
+  }
 }

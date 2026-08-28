@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,23 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Its geographic coordinates are 36°18′12″N 119°38′10″W, or latitude 36.3033 and longitude –119.6362.",
-      "sourceSentenceIds": [
-        5,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California"
-    },
-    {
-      "id": 5,
       "text": "All 100 % of residents live in urban areas, with no rural population reported.",
       "sourceSentenceIds": [
         6
@@ -75,20 +70,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California"
-    },
-    {
-      "id": 6,
-      "text": "Of the 469 housing units, 56 % are owner‑occupied while 44 % are renter‑occupied, and the homeowner vacancy rate is 1.2 % versus an 8.5 % rental vacancy rate.",
-      "sourceSentenceIds": [
-        11,
-        12,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Home_Garden%2C_California",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/home-garden-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Trace Fleeman Garcia",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reconstituted_tulare_lake_(cropped).jpg"
+  }
 }

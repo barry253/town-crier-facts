@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Glendale sits at 31.3646°N, 89.3062°W, placing it in the heart of Forrest County, Mississippi.",
-      "sourceSentenceIds": [
-        11,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://www.mapsof.net/glendale-ms"
-    },
-    {
       "id": 2,
       "text": "Glendale’s summers can hit 102°F, with heat indices soaring up to 111°F.",
       "sourceSentenceIds": [
@@ -44,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/glendale-ms"
+      "source": "https://www.mapsof.net/glendale-ms",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
@@ -66,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -77,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -88,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Glendale%2C_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
   ]
 }

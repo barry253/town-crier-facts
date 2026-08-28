@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Belfast sits 830 feet above sea level, giving it a modest elevation compared to surrounding hills.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tn/belfast-xx-marshall-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Belfast lies roughly halfway between Nashville to the north and Huntsville to the south.",
       "sourceSentenceIds": [
         14
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "On February 29, 1952, a weak but catastrophic F1 tornado struck Belfast, killing three people.",
       "sourceSentenceIds": [
         17
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Belfast%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belfast-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kentondickerson",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NC%26StL_Belfast,_TN_edited.jpg"
+  }
 }

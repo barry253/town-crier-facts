@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland"
-    },
-    {
-      "id": 3,
-      "text": "Potomac Heights sits at 38°36′5″N 77°7′56″W, a spot just outside Washington, D.C., in Montgomery County.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -76,7 +72,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Potomac_Heights%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/potomac-heights-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ser Amantio di Nicolao",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Condo_building_in_downtown_Falls_Church.jpg"
+  }
 }

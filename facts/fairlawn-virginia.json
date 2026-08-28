@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/fairlawn-xx-covington-ccity-profile.htm"
+      "source": "https://roadsidethoughts.com/va/fairlawn-xx-covington-ccity-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community sits at about 1,400 feet above sea level.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/fairlawn-xx-covington-ccity-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "In the late 19th century, Fairlawn served as a key stop on the Norfolk and Western Railway, ferrying coal from nearby mines.",
       "sourceSentenceIds": [
         7
@@ -51,21 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_fairlawn"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_fairlawn",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Fairlawn’s coordinates are estimated but believed to be near the listed latitude and longitude.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/fairlawn-xx-covington-ccity-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Fairlawn’s sunrise is at 07:19 and sunset at 20:29, giving a day length of 13 hours 10 minutes.",
       "sourceSentenceIds": [
         6
@@ -73,7 +56,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_fairlawn"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_fairlawn",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fairlawn-virginia.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skyrunner75",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulaski_County_Courthouse.JPG"
+  }
 }

@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Waldorf was originally called Beantown, renamed in 1880 after the railroad expansion.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html"
-    },
-    {
-      "id": 2,
       "text": "The area that is Waldorf was once part of the Piscataway Indian Nation’s territory, reflecting its Native American roots.",
       "sourceSentenceIds": [
         12,
@@ -42,10 +31,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Waldorf%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Waldorf%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Thomas Stone, a signer of the Declaration of Independence, is commemorated at the Thomas Stone National Historic Site about 13 miles southwest of Waldorf.",
       "sourceSentenceIds": [
         28,
@@ -54,10 +45,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html"
+      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Waldorf’s rural character persisted for much of its history, with agriculture remaining a mainstay until the late 20th century.",
       "sourceSentenceIds": [
         18
@@ -65,10 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html"
+      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Waldorf’s name honors the Waldorf family, a local family after whom the town was renamed from Beantown.",
       "sourceSentenceIds": [
         11
@@ -76,7 +71,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html"
+      "source": "https://www.realestateagent.org/travel/history-of-waldorf.html",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/waldorf-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.333,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Preservation Maryland",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr._Samuel_Mudd_House_(21603494465).jpg"
+  }
 }

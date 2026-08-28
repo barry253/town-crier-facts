@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Lynn is a town in Lawrence County, Arkansas, United States.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "Lynn sits at 36 degrees north latitude and 91 degrees west longitude, placing it in western Arkansas.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "Lynn is home to the Screamin' Eagles, the local high school football team that brings the community together each season.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Arkansas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-lynn-arkansas.html"
+      "source": "https://www.citydirectory.us/town-lynn-arkansas.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-lynn-arkansas.html"
+      "source": "https://www.citydirectory.us/town-lynn-arkansas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/arcountylynn.htm"
+      "source": "https://www.usacitiesonline.com/arcountylynn.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

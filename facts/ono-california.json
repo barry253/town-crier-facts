@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ono%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ono%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/ono-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/ono-xx-shasta-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community sits 960 feet above sea level, overlooking Shasta County’s rolling hills.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/ono-xx-shasta-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Since the late 1970s, Ono has faced slow decline after its school and post office closed in nearby Igo.",
       "sourceSentenceIds": [
         13
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ono%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ono%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In 2020, the Zogg Fire razed several historic buildings in Ono, including the beloved Ono Store and Ono Grange.",
       "sourceSentenceIds": [
         14
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ono%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ono%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Ono’s only road to the outside world is County Road A16, locally called Platina Road, winding through the valley.",
       "sourceSentenceIds": [
         10
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ono%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ono%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ono-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Astronomy1",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_River_Mills_Airport.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Fall River Mills, California"
+  }
 }

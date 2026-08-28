@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nearbylens.com/cities/usa/pa/strongstown/"
+      "source": "https://nearbylens.com/cities/usa/pa/strongstown/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nearbylens.com/cities/usa/pa/strongstown/"
+      "source": "https://nearbylens.com/cities/usa/pa/strongstown/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/26652"
+      "source": "https://museumsdatabase.com/museums/view/26652",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +76,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/26652"
+      "source": "https://museumsdatabase.com/museums/view/26652",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -82,7 +90,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/26652"
+      "source": "https://museumsdatabase.com/museums/view/26652",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -94,7 +104,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Strongstown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Strongstown%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/strongstown-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.594,
+    "y": 0.499
+  }
 }

@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Palatine Bridge village sits on the north side of the Mohawk River, where NY State Route 5 runs through the town.",
-      "sourceSentenceIds": [
-        13,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York"
-    },
-    {
       "id": 2,
       "text": "The village’s name honors the Palatinate Germans who settled here in the mid‑1700s after fleeing French raids.",
       "sourceSentenceIds": [
@@ -44,7 +32,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +47,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +60,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofpalatinebridge.org/departments/history"
+      "source": "https://www.villageofpalatinebridge.org/departments/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -91,7 +88,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Palatine%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/palatine-bridge-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.535,
+    "y": 0.498
+  }
 }

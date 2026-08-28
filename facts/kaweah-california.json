@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Kaweah is an unincorporated community in Tulare County, California.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The town sits just 2 miles north‑northwest of Three Rivers, a short drive away.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California"
-    },
-    {
       "id": 3,
       "text": "The Kaweah Heritage Visitor Center on Lemon Hill lets visitors view Terminus Dam and Lake Kaweah from a scenic overlook.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wanderlog.com/place/details/4250446/kaweah-heritage-visitor-center"
+      "source": "https://wanderlog.com/place/details/4250446/kaweah-heritage-visitor-center",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wanderlog.com/place/details/4250446/kaweah-heritage-visitor-center"
+      "source": "https://wanderlog.com/place/details/4250446/kaweah-heritage-visitor-center",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,5 +73,16 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Kaweah%2C_California"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kaweah-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.813,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jane S. Richardson (talk · contribs)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaweah_downValley.jpg"
+  }
 }

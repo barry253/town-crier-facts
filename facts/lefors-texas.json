@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lefors was founded in 1888 by Travis Leach, Perry LeFors, Henry Thut, and Henry B.",
+      "text": "Lefors was founded in 1888 by Travis Leach, Perry LeFors, Henry Thut, and Henry B. Lovett.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +98,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lefors%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lefors-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.617,
+    "y": 0.5
+  }
 }

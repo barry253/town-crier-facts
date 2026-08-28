@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahatwar.org/fishers-hill-battlefield/"
+      "source": "https://www.shenandoahatwar.org/fishers-hill-battlefield/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahatwar.org/fishers-hill-battlefield/"
+      "source": "https://www.shenandoahatwar.org/fishers-hill-battlefield/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishers_Hill%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Fishers_Hill%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishers_Hill%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Fishers_Hill%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "In the 1880s, landscape painters Bertha Von Hillern and Maria J. … made Fishers Hill their studio, enriching the area’s artistic legacy.",
+      "text": "German-American painter and champion walker Bertha von Hillern made Fisher's Hill her studio in the 1880s, drawn by the Shenandoah Valley's scenic ridges.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fishers_Hill%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Fishers_Hill%2C_Virginia",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shenandoahatwar.org/fishers-hill-battlefield/"
+      "source": "https://www.shenandoahatwar.org/fishers-hill-battlefield/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fishers-hill-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shenandoah_County_Courthouse,_new.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Shenandoah County, Virginia"
+  }
 }

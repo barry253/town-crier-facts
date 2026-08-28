@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Lamar is an unincorporated community in Clay Township, Spencer County, Indiana.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lamar%2C_Indiana"
-    },
-    {
       "id": 2,
       "text": "A post office has been in operation at Lamar since 1888, marking over a century of continuous service.",
       "sourceSentenceIds": [
@@ -40,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lamar%2C_Indiana"
-    },
-    {
-      "id": 3,
-      "text": "The town sits at 38°04′09″N 86°54′20″W, placing it in the heart of southern Indiana.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lamar%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Lamar%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/lamar-indiana-untold-story-unique-history-charm"
+      "source": "https://allthingsusa.blog/lamar-indiana-untold-story-unique-history-charm",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/lamar-indiana-untold-story-unique-history-charm"
+      "source": "https://allthingsusa.blog/lamar-indiana-untold-story-unique-history-charm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/lamar-indiana-untold-story-unique-history-charm"
+      "source": "https://allthingsusa.blog/lamar-indiana-untold-story-unique-history-charm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lamar-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spencer_County_Courthouse_in_Rockport.jpg"
+  }
 }

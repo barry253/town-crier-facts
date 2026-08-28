@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Rombauer rests 330 feet above sea level, a modest elevation for the region.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Historical records show Rombauer appeared in both the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "An 1895 atlas lists Rombauer among communities served by railroad service, hinting at past rail connections.",
       "sourceSentenceIds": [
         3
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Local genealogists can explore a curated list of cemeteries around Rombauer, preserving family histories.",
       "sourceSentenceIds": [
         24,
@@ -86,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/rombauer-xx-butler-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rombauer-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Francis_River_at_Silver_Mines_Recreation_Area_2.jpg"
+  }
 }

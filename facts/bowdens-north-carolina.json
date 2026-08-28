@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowdens%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Bowdens%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowdens%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Bowdens%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Bowdens sits 160 feet above sea level, a modest rise in the flat coastal plain.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The earliest documented reference to Bowdens appears in an 1895 atlas, though the exact founding date remains unknown.",
       "sourceSentenceIds": [
         9,
@@ -63,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Bowdens is listed in both the FIPS‑55 and GNIS geographic databases, confirming its official recognition.",
       "sourceSentenceIds": [
         2
@@ -74,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A commemorative quarter for North Carolina features Bowdens, highlighting its cultural significance.",
       "sourceSentenceIds": [
         7
@@ -85,7 +85,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/bowdens-xx-duplin-profile.htm",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bowdens-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "APK",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duplin_County_Courthouse_-_North_Carolina.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Duplin County, North Carolina"
+  }
 }

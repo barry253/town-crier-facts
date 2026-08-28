@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Gorge%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Grand_Gorge%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Gorge%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Grand_Gorge%2C_New_York",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -55,22 +60,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/grand-gorge-xx-delaware-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/grand-gorge-xx-delaware-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The hamlet sits 1,560 feet above sea level, giving it a mild mountain climate.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/grand-gorge-xx-delaware-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "John and Betty More emigrated from Scotland in 1772, settled near Hobart, and returned in 1786 to claim land that became Grand Gorge.",
+      "text": "John and Betty Taylor More emigrated from Scotland in 1772, settled near Hobart, and returned in 1786 to claim land that became Grand Gorge.",
       "sourceSentenceIds": [
         10,
         11
@@ -78,7 +74,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Gorge%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Grand_Gorge%2C_New_York",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grand-gorge-new-york.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Upstate New York",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roxbury_Central_School_and_Methodist_Church_Feb_09.jpg"
+  }
 }

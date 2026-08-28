@@ -33,7 +33,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/cedar_crest_massachusetts"
+      "source": "https://grokipedia.com/page/cedar_crest_massachusetts",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/cedar_crest_massachusetts"
+      "source": "https://grokipedia.com/page/cedar_crest_massachusetts",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/cedar_crest_massachusetts"
+      "source": "https://grokipedia.com/page/cedar_crest_massachusetts",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -72,7 +79,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Crest%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Cedar_Crest%2C_Massachusetts",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cedar-crest-massachusetts.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.2,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "T.S. Custadio aka ToddC4176 at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marshfield_MA_Town_Hall.jpg"
+  }
 }

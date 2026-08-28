@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Fruitport%2C_Michigan",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://fruitporttownship-mi.gov/about/"
+      "source": "https://fruitporttownship-mi.gov/about/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -89,7 +100,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fruitportvillage.com/"
+      "source": "https://www.fruitportvillage.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fruitport-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Toth",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Island_Park_Grand_Ledge.jpg"
+  }
 }

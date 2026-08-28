@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.experiencepa.com/chestnut-hill/"
+      "source": "https://www.experiencepa.com/chestnut-hill/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "During the American Revolutionary War era, Chestnut Hill was a summer retreat because its 400–500 feet elevation kept temperatures cooler than Center City.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Chestnut_Hill%2C_Philadelphia"
-    },
-    {
-      "id": 3,
       "text": "In 1884, the Philadelphia, Germantown and Chestnut Hill Railroad added a second line, cementing the area’s status as a railroad suburb of Center City.",
       "sourceSentenceIds": [
         7
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chestnut_Hill%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Chestnut_Hill%2C_Philadelphia",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Chestnut Hill Conservancy protects the neighborhood’s historic facades and tree‑lined sidewalks, earning it praise as one of the best main streets in the U.S.",
       "sourceSentenceIds": [
         22,
@@ -63,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.experiencepa.com/chestnut-hill/"
+      "source": "https://www.experiencepa.com/chestnut-hill/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Chestnut Hill’s park features forested paths, historic bridges, and a serene creek, making it a favorite spot for outdoor enthusiasts.",
       "sourceSentenceIds": [
         24
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.experiencepa.com/chestnut-hill/"
+      "source": "https://www.experiencepa.com/chestnut-hill/",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Chestnut Hill Branch of the Free Library of Philadelphia sits at 8711 Germantown Avenue, serving the community with a rich collection.",
       "sourceSentenceIds": [
         30
@@ -85,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chestnut_Hill%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Chestnut_Hill%2C_Philadelphia",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chestnut-hill-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.759,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Chestnut_Hill,_Philadelphia,_business_district_with_its_cobblestone_streets.jpg"
+  }
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Madera Acres sits at 37°01′09″N 120°04′01″W in California's Central Valley.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Madera_Acres%2C_California"
-    },
-    {
       "id": 2,
       "text": "The name 'Madera' means wood in Spanish, echoing the area's historic lumber and agriculture roots.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/madera-acres-41592"
+      "source": "https://www.wisdomlib.org/cities/madera-acres-41592",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/madera-acres-travel-guide-top-10-must-visit-tourist-places/"
+      "source": "https://touristplaces.guide/madera-acres-travel-guide-top-10-must-visit-tourist-places/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/madera-acres-travel-guide-top-10-must-visit-tourist-places/"
+      "source": "https://touristplaces.guide/madera-acres-travel-guide-top-10-must-visit-tourist-places/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/madera-acres-travel-guide-top-10-must-visit-tourist-places/"
+      "source": "https://touristplaces.guide/madera-acres-travel-guide-top-10-must-visit-tourist-places/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madera_Acres%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Madera_Acres%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/madera-acres-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Guywelch2000",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bass_Lake_California_Duceys_on_the_Lake.jpg"
+  }
 }

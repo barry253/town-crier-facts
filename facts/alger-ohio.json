@@ -31,7 +31,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/alger_ohio"
+      "source": "https://grokipedia.com/page/alger_ohio",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -44,7 +47,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/alger_ohio"
+      "source": "https://grokipedia.com/page/alger_ohio",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/alger_ohio"
+      "source": "https://grokipedia.com/page/alger_ohio",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alger%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Alger%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alger-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.681,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Alvintrusty",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alger_Ohio_looking_North.jpg"
+  }
 }

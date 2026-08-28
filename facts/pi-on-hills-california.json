@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Piñon Hills sits at 4,173 feet above sea level, giving it a high desert climate.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The Puma Canyon Ecological Reserve covers more than 350 acres of native chaparral and Joshua trees.",
       "sourceSentenceIds": [
         9,
@@ -41,10 +30,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Longtime residents keep the tradition of animal husbandry, gardening, and farming alive in Piñon Hills.",
       "sourceSentenceIds": [
         2
@@ -52,10 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://countywideplan.sbcounty.gov/community/north-desert-unincorporated/phelan-pinon-hills/"
+      "source": "https://countywideplan.sbcounty.gov/community/north-desert-unincorporated/phelan-pinon-hills/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Engman Road honors Andy Engman, a Disney animator who spent his later years in Piñon Hills.",
       "sourceSentenceIds": [
         1,
@@ -65,10 +58,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Every summer, the Jubilee Boy Scout Ranch hosts Operation Lion Claws, one of the largest airsoft events in the country.",
       "sourceSentenceIds": [
         26
@@ -76,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Piñon Hills is part of a tri‑community that includes Phelan and Wrightwood, sharing a common history of ranching and outdoor recreation.",
       "sourceSentenceIds": [
         7
@@ -87,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pi%C3%B1on_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pi-on-hills-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech . It is in the public domain in the United States.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg"
+  }
 }

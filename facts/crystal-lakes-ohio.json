@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.crystallakespoa.org/about-us"
+      "source": "https://www.crystallakespoa.org/about-us",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.crystallakespoa.org/about-us"
+      "source": "https://www.crystallakespoa.org/about-us",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.crystallakespoa.org/about-us"
+      "source": "https://www.crystallakespoa.org/about-us",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_crystal-lakes"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_crystal-lakes",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crystal_Lakes%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Crystal_Lakes%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +99,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crystal_Lakes%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Crystal_Lakes%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crystal-lakes-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.586,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crystal_Lakes_from_3500_feet.jpg"
+  }
 }

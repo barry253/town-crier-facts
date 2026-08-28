@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eugene%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Eugene%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eugene%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Eugene%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eugene%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Eugene%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The community rests at an elevation of 830 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/eugene-xx-cole-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Eugene first appeared in federal geographic records such as the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         3
@@ -75,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/eugene-xx-cole-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/eugene-xx-cole-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eugene-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cole_County_MO_Courthouse_20140920-1.jpg"
+  }
 }

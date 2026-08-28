@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Kisumu"
+      "source": "https://en.wikivoyage.org/wiki/Kisumu",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kisumu"
+      "source": "https://en.wikipedia.org/wiki/Kisumu",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The city’s elevation is 1,131 meters, about 320 km northwest of Nairobi, on Lake Victoria shores.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kisumu"
-    },
-    {
-      "id": 4,
       "text": "Kisumu is the third‑largest city in Kenya and the second‑largest in the Lake Victoria Basin after Kampala.",
       "sourceSentenceIds": [
         20,
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kisumu"
+      "source": "https://en.wikipedia.org/wiki/Kisumu",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The historic railway station at Kisumu was built in 1901 and remains a key link between Lake Victoria and Mombasa.",
       "sourceSentenceIds": [
         16,
@@ -76,10 +72,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Kisumu"
+      "source": "https://en.wikivoyage.org/wiki/Kisumu",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Lupita Nyong’o, Academy Award‑winning actress and author, hails from Kisumu in Kenya.",
       "sourceSentenceIds": [
         1
@@ -87,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kisumu"
+      "source": "https://en.wikipedia.org/wiki/Kisumu",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kisumu-nairobi.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.842,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Leo Hempstone",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kisumu_rooftop.jpg"
+  }
 }

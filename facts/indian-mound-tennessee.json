@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tennesseeencyclopedia.net/entries/stewart-county/"
+      "source": "https://tennesseeencyclopedia.net/entries/stewart-county/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tennesseeencyclopedia.net/entries/stewart-county/"
+      "source": "https://tennesseeencyclopedia.net/entries/stewart-county/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Indian_Mound%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Indian_Mound%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Indian_Mound%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Indian_Mound%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Indian_Mound%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Indian_Mound%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/indian-mound-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Geobeedude",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stewart_County,_Tennessee_courthouse,_Dec_2012.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Stewart County, Tennessee"
+  }
 }

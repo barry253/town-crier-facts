@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crocker_Highlands%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Crocker_Highlands%2C_Oakland%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crocker_Highlands%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Crocker_Highlands%2C_Oakland%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Crocker Highlands sits at an elevation of 285 feet (87 m) above sea level.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crocker_Highlands%2C_Oakland%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Crocker Highlands is one of Oakland’s most picturesque and prestigious residential enclaves.",
       "sourceSentenceIds": [
         11
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pamelastrikefullerton.com/neighborhoods/crocker-highlands/"
+      "source": "https://pamelastrikefullerton.com/neighborhoods/crocker-highlands/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The neighborhood is famous for its “Storybook” architecture, featuring meticulously maintained Tudors, Mediterraneans, and traditional estates that look like English villages.",
       "sourceSentenceIds": [
         12
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pamelastrikefullerton.com/neighborhoods/crocker-highlands/"
+      "source": "https://pamelastrikefullerton.com/neighborhoods/crocker-highlands/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "While secluded and quiet, Crocker Highlands is just a short walk to Lakeshore and Grand Avenues, giving residents easy access to Oakland’s best amenities.",
       "sourceSentenceIds": [
         13
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pamelastrikefullerton.com/neighborhoods/crocker-highlands/"
+      "source": "https://pamelastrikefullerton.com/neighborhoods/crocker-highlands/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crocker-highlands-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pi.1415926535",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BART_train_from_Farallones_Street_footbridge_(1),_July_2023.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bay Area Rapid Transit"
+  }
 }

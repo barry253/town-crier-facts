@@ -29,32 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marion_Heights%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Marion_Heights%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The borough sits at latitude 40.804745 and longitude –76.464013.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Marion_Heights%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "The median age of Marion Heights residents is 43 years.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Marion_Heights%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
       "text": "Construction permits and building inspections are handled at the Marion Heights town hall.",
       "sourceSentenceIds": [
         2,
@@ -64,10 +45,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/borough-marion-heights.html"
+      "source": "https://www.citydirectory.us/borough-marion-heights.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "The Kulpmont Sewer Authority serves Marion Heights from its office on State Route 61.",
       "sourceSentenceIds": [
         1
@@ -75,10 +59,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://marionheightsborough.org/"
+      "source": "https://marionheightsborough.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Mount Carmel Township Police Department, located on Laurel Street, provides law enforcement for the area.",
       "sourceSentenceIds": [
         1
@@ -86,7 +72,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://marionheightsborough.org/"
+      "source": "https://marionheightsborough.org/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marion-heights-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.747,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marion_Heights_Fire_Company_building.JPG"
+  }
 }

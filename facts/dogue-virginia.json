@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dogue%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dogue%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dogue%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dogue%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm"
+      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Dogue sits approximately 100 feet above sea level, offering gentle rolling hills.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Dogue is listed in both the FIPS‑55 and GNIS federal geographic databases.",
       "sourceSentenceIds": [
         1
@@ -75,10 +71,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm"
+      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical records note whether Dogue had a post office or railroad service in 1895.",
       "sourceSentenceIds": [
         2
@@ -86,7 +85,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm"
+      "source": "https://roadsidethoughts.com/va/dogue-xx-king-george-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dogue-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.8,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mojo Hand",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:King_George_VA_courthouse.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "King George County, Virginia"
+  }
 }

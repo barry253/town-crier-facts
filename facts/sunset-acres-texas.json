@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "Its geographic coordinates are 27°47′39″N 99°27′24″W.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Sunset Acres first appeared as a census‑designated place before the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sunset_Acres%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +71,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nactx.us/"
+      "source": "https://www.nactx.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunset-acres-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

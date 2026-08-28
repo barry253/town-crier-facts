@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centerville%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Centerville%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,11 +44,13 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.traveliowa.com/cities/centerville-iowa/17/"
+      "source": "https://www.traveliowa.com/cities/centerville-iowa/17/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The 1910 brick Chicago, Burlington & Quincy Railroad depot on Hwy 5 remains a proud monument to the town’s railroad past.",
+      "text": "The 1910 brick Chicago, Burlington & Quincy Railroad depot on Highway 5 remains a proud monument to the town’s railroad past.",
       "sourceSentenceIds": [
         15,
         16
@@ -55,7 +59,9 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://pactiowa.org/historical-sites/"
+      "source": "https://pactiowa.org/historical-sites/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://pactiowa.org/historical-sites/"
+      "source": "https://pactiowa.org/historical-sites/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +89,21 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centerville%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Centerville%2C_Iowa",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "unverified=['marion']"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centerville-iowa.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.531,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim Roberts",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_United_States_Post_Office_Centerville,_Iowa.jpg"
+  }
 }

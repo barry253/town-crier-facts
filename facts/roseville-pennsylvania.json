@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/roseville-47957"
+      "source": "https://www.wisdomlib.org/cities/roseville-47957",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-roseville-pennsylvania.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -86,7 +99,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/roseville-47957"
+      "source": "https://www.wisdomlib.org/cities/roseville-47957",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roseville-pennsylvania.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_County_Courthouse_Brookville_PA_Nov_09.jpg"
+  }
 }

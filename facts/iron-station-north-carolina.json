@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Iron_Station%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Iron_Station%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://nearbylens.com/cities/usa/nc/iron_station/"
+      "source": "https://nearbylens.com/cities/usa/nc/iron_station/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Iron_Station%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Iron_Station%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://nearbylens.com/cities/usa/nc/iron_station/"
+      "source": "https://nearbylens.com/cities/usa/nc/iron_station/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Iron_Station%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Iron_Station%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/iron-station-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The ed17",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catawba_River,_North_Fork,_near_Ashford,_North_Carolina.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Catawba River"
+  }
 }

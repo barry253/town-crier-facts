@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warriors_Mark%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Warriors_Mark%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://warriorsmarkareahistoricalsociety.com/"
+      "source": "https://warriorsmarkareahistoricalsociety.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://warriorsmarkareahistoricalsociety.com/"
+      "source": "https://warriorsmarkareahistoricalsociety.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://warriorsmarktwp.com/"
+      "source": "https://warriorsmarktwp.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -78,7 +88,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://warriorsmarktwp.com/"
+      "source": "https://warriorsmarktwp.com/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +102,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://warriorsmarktwp.com/"
+      "source": "https://warriorsmarktwp.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/warriors-mark-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntingdon_County_Courthouse_in_Huntingdon,_Pennsylvania,_was_built_in_1883_03.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Huntingdon County, Pennsylvania"
+  }
 }

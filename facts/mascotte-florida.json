@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Mascotte got its name from the ship that hauled tobacco from Cuba during the Spanish–American War, owned by Tampa booster Henry B.",
+      "text": "Mascotte got its name from the ship that hauled tobacco from Cuba during the Spanish–American War, owned by Tampa booster Henry B. Plant.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mascotte%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mascotte%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mascotte%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mascotte%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,18 +56,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mascotte%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mascotte%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The new Mascotte Sports Complex opened at 750 Park Rd, bringing a fresh hub for local sports and community events.",
+      "text": "The new Mascotte Sports Complex opened at 750 Park Road, bringing a fresh hub for local sports and community events.",
       "sourceSentenceIds": [
         29
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofmascotte.com/?SEC=7976DA12-CEF3-44B0-9CEC-005579DFAAF4"
+      "source": "https://www.cityofmascotte.com/?SEC=7976DA12-CEF3-44B0-9CEC-005579DFAAF4",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofmascotte.com/?SEC=7976DA12-CEF3-44B0-9CEC-005579DFAAF4"
+      "source": "https://www.cityofmascotte.com/?SEC=7976DA12-CEF3-44B0-9CEC-005579DFAAF4",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mascotte-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.516,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mascotte_FL_city_hall02.jpg"
+  }
 }

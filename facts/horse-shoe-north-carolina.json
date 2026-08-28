@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://horseshoenc.us/about/history/"
+      "source": "https://horseshoenc.us/about/history/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://horseshoenc.us/about/history/"
+      "source": "https://horseshoenc.us/about/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://horseshoenc.us/about/history/"
+      "source": "https://horseshoenc.us/about/history/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://horseshoenc.us/about/history/"
+      "source": "https://horseshoenc.us/about/history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://horseshoenc.us/about/history/"
+      "source": "https://horseshoenc.us/about/history/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horse_Shoe%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Horse_Shoe%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/horse-shoe-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pollinator at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:French_broad_river_9228.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "French Broad River"
+  }
 }

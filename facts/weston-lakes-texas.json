@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westonlakestexas.gov/about-us/"
+      "source": "https://westonlakestexas.gov/about-us/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westonlakestexas.gov/about-us/"
+      "source": "https://westonlakestexas.gov/about-us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -80,7 +90,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +103,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Weston_Lakes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/weston-lakes-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "HuecoBear",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brazos_River_below_Possum_Kingdom_Lake,_Palo_Pinto_County,_Texas.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Brazos River"
+  }
 }

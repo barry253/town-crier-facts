@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lazy_Y_U%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Lazy_Y_U%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,29 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lazy_Y_U%2C_Arizona"
-    },
-    {
-      "id": 3,
-      "text": "Its latitude is 35.1369 and longitude -113.9685, pinpointing it on the map.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/mohave/lazy-y-u.cfm"
-    },
-    {
-      "id": 4,
-      "text": "As a census‑designated place, Lazy Y U has no governmental functions and no municipal services.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/mohave/lazy-y-u.cfm"
+      "source": "https://en.wikipedia.org/wiki/Lazy_Y_U%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/mohave/lazy-y-u.cfm"
+      "source": "https://arizona.hometownlocator.com/az/mohave/lazy-y-u.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +71,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/mohave/lazy-y-u.cfm"
+      "source": "https://arizona.hometownlocator.com/az/mohave/lazy-y-u.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lazy-y-u-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "S. Winkvist",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:London_Bridge,_Lake_Havasu_City_-_2011_(Aerial_Photo).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Havasu City, Arizona"
+  }
 }

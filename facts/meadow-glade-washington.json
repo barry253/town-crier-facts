@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Glade%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Glade%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,19 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Glade%2C_Washington"
-    },
-    {
-      "id": 3,
-      "text": "Its latitude 45.7584 and longitude –122.5604 put it squarely in the Pacific time zone.",
-      "sourceSentenceIds": [
-        12,
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://washington.hometownlocator.com/wa/clark/meadow-glade.cfm"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Glade%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,18 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/washington_meadow-glade"
-    },
-    {
-      "id": 5,
-      "text": "Meadow Glade is officially a census‑designated place, meaning it has no municipal government but is recognized for statistical purposes.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://washington.hometownlocator.com/wa/clark/meadow-glade.cfm"
+      "source": "https://www.trawellino.com/destinations/united-states/washington_meadow-glade",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/clark/meadow-glade.cfm"
+      "source": "https://washington.hometownlocator.com/wa/clark/meadow-glade.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadow-glade-washington.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Visitor7",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clark_County_Courthouse_(Vancouver,_Washington).jpg"
+  }
 }

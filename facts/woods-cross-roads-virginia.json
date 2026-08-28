@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woods_Crossroads%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Woods_Crossroads%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woods_Crossroads%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Woods_Crossroads%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,21 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Woods Crossroads rises roughly 100 feet above sea level, giving it a modest elevation compared to the surrounding Tidewater region.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Locals often shorten the name to Woods Xrds, a common abbreviation used in regional maps and signage.",
       "sourceSentenceIds": [
         21
@@ -74,10 +71,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Woods Crossroads appears in both the FIPS‑55 and GNIS databases, confirming its recognition as a geographic feature.",
       "sourceSentenceIds": [
         2
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woods-crossroads-xx-gloucester-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woods-cross-roads-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "O. David Redwine",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GL-CH-square.jpg"
+  }
 }

@@ -9,14 +9,6 @@
     {
       "label": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana"
-    },
-    {
-      "label": "Web source 1",
-      "url": "https://www.citydirectory.us/town-saratoga-indiana.html"
-    },
-    {
-      "label": "Web source 2",
-      "url": "https://www.saratogahistory.com/"
     }
   ],
   "facts": [
@@ -29,7 +21,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,32 +34,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The Saratoga Historical Foundation preserves the town’s heritage and operates the Saratoga History Museum, where visitors glimpse the past.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.saratogahistory.com/"
-    },
-    {
-      "id": 4,
-      "text": "Mary Brown, wife of abolitionist John Brown, lived in Saratoga for several years and is buried in historic Madronia Cemetery.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.saratogahistory.com/"
-    },
-    {
-      "id": 5,
       "text": "Saratoga residents may obtain a free library card from the Winchester Community Public Library in Winchester.",
       "sourceSentenceIds": [
         23
@@ -73,18 +47,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana"
-    },
-    {
-      "id": 6,
-      "text": "A self‑guided historic home bicycling tour is available online, letting cyclists explore 100‑year‑old homes and landmarks.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.saratogahistory.com/"
+      "source": "https://en.wikipedia.org/wiki/Saratoga%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/saratoga-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Flook",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saratoga,_Indiana.jpg"
+  }
 }

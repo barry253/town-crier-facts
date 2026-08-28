@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenvar%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Glenvar%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenvar%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Glenvar%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenvar%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Glenvar%2C_Virginia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.roanokecountyva.gov/1947/Glenvar-Village"
+      "source": "https://www.roanokecountyva.gov/1947/Glenvar-Village",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Glenvar sits at an elevation of 1,080 feet above sea level in the Appalachian foothills.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/glenvar-xx-roanoke-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "The Glenvar post office began operations in 1896 providing mail service to the community.",
       "sourceSentenceIds": [
         16
@@ -85,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/glenvar-xx-roanoke-profile.htm"
+      "source": "https://roadsidethoughts.com/va/glenvar-xx-roanoke-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glenvar-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Shaynedwyer",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Television_and_Radio_Tower_Farm_on_Poor_Mountain_in_Roanoke_Virginia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Poor Mountain"
+  }
 }

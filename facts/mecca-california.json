@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_mecca"
+      "source": "https://www.trawellino.com/destinations/united-states/california_mecca",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mecca%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mecca%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mecca%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mecca%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mecca%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mecca%2C_California",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mecca-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Z3lvs",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mecca,_California_and_Mecca_Hills.jpg"
+  }
 }

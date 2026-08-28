@@ -30,18 +30,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Idaho",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The city grew around a railroad; in 1906 stores lined Pennsylvania Ave facing the tracks.",
+      "text": "The city grew around a railroad; in 1906 stores lined Pennsylvania Avenue facing the tracks.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fruitland.org/history"
+      "source": "https://www.fruitland.org/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Idaho",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.islands.com/2010695/fruitland-idaho-nestled-between-two-rivers-idaho-orchard-country-city-rural-charm-natural-beauty/"
+      "source": "https://www.islands.com/2010695/fruitland-idaho-nestled-between-two-rivers-idaho-orchard-country-city-rural-charm-natural-beauty/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.islands.com/2010695/fruitland-idaho-nestled-between-two-rivers-idaho-orchard-country-city-rural-charm-natural-beauty/"
+      "source": "https://www.islands.com/2010695/fruitland-idaho-nestled-between-two-rivers-idaho-orchard-country-city-rural-charm-natural-beauty/",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fruitland-idaho.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tamanoeconomico",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fruitland,_Idaho.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Entriken%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Entriken%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Entriken%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Entriken%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Entriken rises about 900 feet above sea level, offering a modest elevation within the Appalachian foothills.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Official records list Entriken in both the FIPS‑55 and GNIS databases, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         2
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historically, Entriken had railroad service, linking it to regional trade routes during the late 19th and early 20th centuries.",
       "sourceSentenceIds": [
         3
@@ -84,7 +84,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/entriken-xx-huntingdon-profile.htm",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/entriken-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntingdon_County_Courthouse_in_Huntingdon,_Pennsylvania,_was_built_in_1883_03.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Huntingdon County, Pennsylvania"
+  }
 }

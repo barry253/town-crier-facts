@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,21 +73,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Wales_Center%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The hamlet sits 880 feet above sea level.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/wales-center-xx-erie-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "The earliest documented mention of Wales Center dates back to a book published in 1895.",
       "sourceSentenceIds": [
         23
@@ -86,7 +86,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/wales-center-xx-erie-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/wales-center-xx-erie-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wales-center-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "dIPENdAVE",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_County_Hall_Buffalo_NY.jpg"
+  }
 }

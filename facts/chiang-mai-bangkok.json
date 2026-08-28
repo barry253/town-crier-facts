@@ -33,21 +33,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chiang_Mai"
+      "source": "https://en.wikipedia.org/wiki/Chiang_Mai",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Chiang Mai’s name comes from the northern Thai words chiang, meaning 'city', and mai, meaning 'new'.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://en.wikivoyage.org/wiki/Chiang_Mai"
-    },
-    {
-      "id": 3,
       "text": "Wat Chedi Luang, a large Lanna‑style chedi, was founded in 1401 and took many years to finish.",
       "sourceSentenceIds": [
         6
@@ -55,10 +46,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chiang_Mai"
+      "source": "https://en.wikipedia.org/wiki/Chiang_Mai",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Chiang Mai’s historic center is a walled city, and its old‑town streets close to motorised traffic on Sundays for the famous Sunday Night Market.",
       "sourceSentenceIds": [
         21
@@ -66,10 +59,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chiang_Mai"
+      "source": "https://en.wikipedia.org/wiki/Chiang_Mai",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The settlement served as the capital of the Lanna Thai kingdom until 1558, when it fell to the Myanmar.",
       "sourceSentenceIds": [
         8
@@ -77,10 +72,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.britannica.com/place/Chiang-Mai"
+      "source": "https://www.britannica.com/place/Chiang-Mai",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A mobile app using augmented reality showcases Chiang Mai’s historical attractions, part of a government push to promote the city as a heritage site.",
       "sourceSentenceIds": [
         14
@@ -88,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chiang_Mai"
+      "source": "https://en.wikipedia.org/wiki/Chiang_Mai",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chiang-mai-bangkok.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.624,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nawit science",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:0020-%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%B4%E0%B8%87%E0%B8%AB%E0%B9%8C%E0%B8%A7%E0%B8%A3%E0%B8%A1%E0%B8%AB%E0%B8%B2%E0%B8%A7%E0%B8%B4%E0%B8%AB%E0%B8%B2%E0%B8%A3.jpg"
+  }
 }

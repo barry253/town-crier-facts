@@ -21,20 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wingate sits in Dorchester County, Maryland, an unincorporated community that relies on county services for roads and public safety.",
-      "sourceSentenceIds": [
-        3,
-        16,
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wingate%2C_Maryland"
-    },
-    {
       "id": 2,
       "text": "The area hosts several historic sites tied to the Underground Railroad, reflecting its role in the fight for freedom.",
       "sourceSentenceIds": [
@@ -43,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wingate,_Maryland"
+      "source": "https://kids.kiddle.co/Wingate,_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wingate,_Maryland"
+      "source": "https://kids.kiddle.co/Wingate,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -67,7 +58,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wingate%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Wingate%2C_Maryland",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wingate,_Maryland"
+      "source": "https://kids.kiddle.co/Wingate,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -91,7 +87,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wingate,_Maryland"
+      "source": "https://kids.kiddle.co/Wingate,_Maryland",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wingate-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bohemian Baltimore",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:House_on_the_Honga_04.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Honga River"
+  }
 }

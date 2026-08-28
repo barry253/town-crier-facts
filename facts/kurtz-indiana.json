@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kurtz%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Kurtz%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/kurtz-xx-jackson-profile.htm"
+      "source": "https://roadsidethoughts.com/in/kurtz-xx-jackson-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 590 feet above sea level, a modest elevation for the region.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/in/kurtz-xx-jackson-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Kurtz is an unincorporated community in Owen Township, Jackson County, Indiana, in the heart of the county.",
       "sourceSentenceIds": [
         6
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kurtz%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Kurtz%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Kurtz is listed in both the FIPS‑55 and the GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -73,7 +69,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/kurtz-xx-jackson-profile.htm"
+      "source": "https://roadsidethoughts.com/in/kurtz-xx-jackson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kurtz-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fourth_Street_in_Kurtz.jpg"
+  }
 }

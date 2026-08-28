@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "Saint Francisville lies just 12 miles south of Lawrenceville, the county seat of Lawrence County.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Francisville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/saint-francisville-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.496,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St-Francisville-Main-Street-il.jpg"
+  }
 }

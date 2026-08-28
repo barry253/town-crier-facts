@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.visitpa.com/explore/regions/alleghenies/ebensburg/"
+      "source": "https://www.visitpa.com/explore/regions/alleghenies/ebensburg/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ebensburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ebensburg%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,12 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://ebensburgpa.com/borough-history/"
+      "source": "https://ebensburgpa.com/borough-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Ebensburg sits at about 2,140 feet above sea level, perched on a rise in the Allegheny Mountains.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ebensburg%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "The Ghost Town Trail, a rail trail opened in 1991, follows the former Ebensburg and Black Lick Railroad right‑of‑way.",
       "sourceSentenceIds": [
         6
@@ -77,7 +72,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ebensburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ebensburg%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ebensburg-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Publichall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambria_County_Courthouse_-_Ebensburg,_PA.jpg"
+  }
 }

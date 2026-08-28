@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22811"
+      "source": "https://museumsdatabase.com/museums/view/22811",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coats%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Coats%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +61,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-coats-north-carolina.html"
+      "source": "https://www.citydirectory.us/town-coats-north-carolina.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -67,21 +75,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coats%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Coats%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
-      "text": "The Coats Museum’s collection includes historic photographs and documents that capture the town’s past.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://museumsdatabase.com/museums/view/22811"
-    },
-    {
-      "id": 6,
       "text": "Coats’s official website provides contact details for city hall, including address, office hours, and phone or email options.",
       "sourceSentenceIds": [
         21
@@ -89,7 +89,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-coats-north-carolina.html"
+      "source": "https://www.citydirectory.us/town-coats-north-carolina.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/coats-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gerry Dincher from Hope Mills, NC",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street_in_Coats_North_Carolina_6-23-2014.jpg"
+  }
 }

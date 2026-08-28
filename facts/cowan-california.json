@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cowan sits at 75 feet above sea level.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The town’s median age is 34 years, reflecting a relatively young population.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Average household in Cowan houses just over four people, with a size of 4.07.",
       "sourceSentenceIds": [
         6
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Of the 97 housing units, 84 are occupied, giving a 86.6% occupancy rate.",
       "sourceSentenceIds": [
         7
@@ -62,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
-      "text": "Owner-occupied homes make up 59.5% of occupied units, while renters hold 40.5%.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cowan%2C_California"
-    },
-    {
-      "id": 6,
+      "id": 3,
       "text": "Cowan’s sunny skies and abundant parks create a welcoming atmosphere that encourages outdoor activities.",
       "sourceSentenceIds": [
         13,
@@ -86,7 +59,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/CA/Cowan/29672"
+      "source": "https://www.hellonation.com/mag/CA/Cowan/29672",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cowan-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "USFWS",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USFWS_Aerial_View_San_Joaquin_River_Refuge_(cropped).jpg"
+  }
 }

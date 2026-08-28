@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Point_Isabel%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Point_Isabel%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Point_Isabel%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Point_Isabel%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +61,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/point-isabel-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/in/point-isabel-xx-grant-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -69,7 +77,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Point_Isabel%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Point_Isabel%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -80,7 +91,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Point_Isabel,_Indiana"
+      "source": "https://kids.kiddle.co/Point_Isabel,_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -91,7 +105,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/point-isabel-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/in/point-isabel-xx-grant-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/point-isabel-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Point_Isabel,_Indiana.jpg"
+  }
 }

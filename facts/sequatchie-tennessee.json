@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sequatchie%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Sequatchie%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sequatchie%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Sequatchie%2C_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sequatchie%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Sequatchie%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +73,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-sequatchie-county"
+      "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-sequatchie-county",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +87,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tennesseeencyclopedia.net/entries/sequatchie-county/"
+      "source": "https://tennesseeencyclopedia.net/entries/sequatchie-county/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sequatchie-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.568,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sequatchie-houses-Valley-View-tn1.jpg"
+  }
 }

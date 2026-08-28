@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Leeper sits where Pennsylvania Routes 66 and 36 cross in northern Clarion County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Leeper%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "A post office opened in Leeper in 1882, marking its early growth.",
       "sourceSentenceIds": [
         9
@@ -40,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Leeper rises 1,640 feet above sea level, offering a modest hilltop view.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "Baseball pitcher Gene Host once called Leeper home before his major‑league career.",
       "sourceSentenceIds": [
         6
@@ -62,29 +42,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leeper%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
-      "text": "Leeper is officially catalogued in both the FIPS‑55 and GNIS geographic databases.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The town lies within Clarion County, a region known for its rugged Pennsylvania countryside.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/leeper-xx-clarion-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Leeper%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/leeper-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.368,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmington_Township_fire_hall.jpg"
+  }
 }

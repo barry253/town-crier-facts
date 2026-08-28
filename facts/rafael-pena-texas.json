@@ -22,69 +22,35 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rafael Pena sits at 26°18′3″N 98°38′27″W, a pinpoint in Starr County, Texas.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rafael_Pena%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "It holds the record for the smallest census‑designated place in the United States, covering just 0.005 square miles.",
+      "text": "It holds the record for the smallest census\u2011designated place in the United States, covering just 0.005 square miles.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rafael_Pena%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rafael_Pena%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 3,
-      "text": "The median age of residents is 81.6 years, far older than the Texas average of 35.9 years.",
+      "id": 2,
+      "text": "Housing values average $87,800 in Rafael Pena, compared to $313,200 statewide, reflecting its small\u2011town character.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Rafael-Pena-Texas.html"
-    },
-    {
-      "id": 4,
-      "text": "About 42.9 % of Rafael Pena’s population lives below the poverty line, a figure that matches the state’s overall trend.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Rafael-Pena-Texas.html"
-    },
-    {
-      "id": 5,
-      "text": "The community’s median household income in 2024 is estimated at $32,157, well below the Texas median of $79,721.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Rafael-Pena-Texas.html"
-    },
-    {
-      "id": 6,
-      "text": "Housing values average $87,800 in Rafael Pena, compared to $313,200 statewide, reflecting its small‑town character.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Rafael-Pena-Texas.html"
+      "source": "https://www.city-data.com/city/Rafael-Pena-Texas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/thorofare_new_jersey"
+      "source": "https://grokipedia.com/page/thorofare_new_jersey",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/thorofare_new_jersey"
+      "source": "https://grokipedia.com/page/thorofare_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/thorofare_new_jersey"
+      "source": "https://grokipedia.com/page/thorofare_new_jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,21 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/thorofare_new_jersey"
+      "source": "https://grokipedia.com/page/thorofare_new_jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Thorofare’s elevation averages only about 20 feet above sea level, keeping it close to the river’s floodplain.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/thorofare_new_jersey"
-    },
-    {
-      "id": 6,
       "text": "Dutch explorers first claimed the area with Fort Nassau in 1623, but the English seized it in 1664, later granting it to Quaker proprietors in 1674.",
       "sourceSentenceIds": [
         24,
@@ -87,7 +86,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/thorofare_new_jersey"
+      "source": "https://grokipedia.com/page/thorofare_new_jersey",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thorofare-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.5
+  }
 }

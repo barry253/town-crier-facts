@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hamlet_illinois"
+      "source": "https://grokipedia.com/page/hamlet_illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hamlet_illinois"
+      "source": "https://grokipedia.com/page/hamlet_illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/hamlet-xx-mercer-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hamlet-xx-mercer-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hamlet%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hamlet%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "The town sits 800 feet above sea level, a typical elevation for the gently rolling plains of western Illinois.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/hamlet-xx-mercer-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Mercer County, where Hamlet lies, was established in 1825 from unorganized territory after the Black Hawk War.",
       "sourceSentenceIds": [
         8
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/hamlet_illinois"
+      "source": "https://grokipedia.com/page/hamlet_illinois",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hamlet-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.34,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Boscophotos",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercer_County_Courthouse_Image.jpeg"
+  }
 }

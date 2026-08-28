@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://johnsoncityexplorer.wordpress.com/2025/09/14/the-history-of-johnson-city-tennessee-roots-of-a-mountain-town/"
+      "source": "https://johnsoncityexplorer.wordpress.com/2025/09/14/the-history-of-johnson-city-tennessee-roots-of-a-mountain-town/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnson_City%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Johnson_City%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnson_City%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Johnson_City%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/johnson-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.315,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mrgriffter",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johnson_City.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Argyle%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Argyle%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/argyle-xx-winnebago-profile.htm"
+      "source": "https://roadsidethoughts.com/il/argyle-xx-winnebago-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/argyle-xx-winnebago-profile.htm"
+      "source": "https://roadsidethoughts.com/il/argyle-xx-winnebago-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Argyle’s elevation is 880 feet above sea level, giving it a mild hilltop feel.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/argyle-xx-winnebago-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "In 2010, an EF2 tornado struck Argyle, a notable weather event for the area.",
       "sourceSentenceIds": [
         8,
@@ -75,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Argyle%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Argyle%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Argyle is part of the Rockford, Illinois Metropolitan Statistical Area, linking it to the larger region.",
       "sourceSentenceIds": [
         7
@@ -86,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Argyle%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Argyle%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/argyle-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Department of Agriculture . Preston Keres/Office of Communications-Photography Services Center",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20170506-OC-PJK-0243_1_(34111882220).jpg"
+  }
 }

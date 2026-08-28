@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnsville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Johnsville%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnsville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Johnsville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnsville%2C_Ohio"
-    },
-    {
-      "id": 4,
-      "text": "The town’s elevation is 1,340 feet above sea level, giving it a slightly higher perch than surrounding areas.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/shauck-xx-morrow-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Johnsville%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shauck-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JBTHEMILKER",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shauck_Post_Office.jpg"
+  }
 }

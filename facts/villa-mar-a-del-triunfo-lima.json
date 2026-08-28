@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Villa_Mar%C3%ADa_del_Triunfo"
+      "source": "https://en.wikipedia.org/wiki/Villa_Mar%C3%ADa_del_Triunfo",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "Its administrative center stands 158 meters above sea level.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Villa_Mar%C3%ADa_del_Triunfo"
-    },
-    {
-      "id": 3,
       "text": "To the north lies La Molina, east Pachacámac, south Villa El Salvador and Lurín, and west San Juan de Miraflores.",
       "sourceSentenceIds": [
         3
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Villa_Mar%C3%ADa_del_Triunfo"
+      "source": "https://en.wikipedia.org/wiki/Villa_Mar%C3%ADa_del_Triunfo",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The district blends residential neighborhoods with small‑scale manufacturing and workshop industries.",
       "sourceSentenceIds": [
         28
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aroundus.com/p/4191270-villa-maria-del-triunfo"
+      "source": "https://aroundus.com/p/4191270-villa-maria-del-triunfo",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Rapid growth of its communities has shaped the district’s development over recent decades.",
       "sourceSentenceIds": [
         29
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aroundus.com/p/4191270-villa-maria-del-triunfo"
+      "source": "https://aroundus.com/p/4191270-villa-maria-del-triunfo",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Early mornings and late afternoons provide the most comfortable temperatures for exploring Villa María del Triunfo.",
       "sourceSentenceIds": [
         30
@@ -84,7 +84,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://aroundus.com/p/4191270-villa-maria-del-triunfo"
+      "source": "https://aroundus.com/p/4191270-villa-maria-del-triunfo",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/villa-mar-a-del-triunfo-lima.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.535,
+    "y": 0.5
+  }
 }

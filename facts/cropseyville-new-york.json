@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cropseyville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Cropseyville%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/cropseyville_new_york"
+      "source": "https://grokipedia.com/page/cropseyville_new_york",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/cropseyville_new_york"
+      "source": "https://grokipedia.com/page/cropseyville_new_york",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,23 +72,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/cropseyville_new_york"
+      "source": "https://grokipedia.com/page/cropseyville_new_york",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The hamlet sits at 919 feet elevation, higher than nearby coastal areas, giving it a distinct hilltop feel.",
-      "sourceSentenceIds": [
-        13,
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cropseyville%2C_New_York"
-    },
-    {
-      "id": 6,
       "text": "Forests around Cropseyville are dominated by northern hardwoods like beech and maple, with conifers such as red spruce and balsam fir.",
       "sourceSentenceIds": [
         6
@@ -90,7 +85,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/cropseyville_new_york"
+      "source": "https://grokipedia.com/page/cropseyville_new_york",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Equinox Mountain"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cropseyville-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "UpstateNYer",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AlbanyCapitolFromEast2.JPG"
+  }
 }

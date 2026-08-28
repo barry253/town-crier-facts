@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Westover%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/westover-xx-somerset-profile.htm"
+      "source": "https://roadsidethoughts.com/md/westover-xx-somerset-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westover-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bwave at English Wikipedia",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SalisburySign.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Somerset County, Maryland"
+  }
 }

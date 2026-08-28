@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,11 +69,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://jasonlallis.com/trinidad"
+      "source": "https://jasonlallis.com/trinidad",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Located in Ward 5’s northeast quadrant, Trinidad is primarily a residential enclave bordered by West Virginia Ave, Florida Ave, Mount Olivet Rd, and Bladensburg Rd.",
+      "text": "Located in Ward 5’s northeast quadrant, Trinidad is primarily a residential enclave bordered by West Virginia Avenue, Florida Avenue, Mount Olivet Road, and Bladensburg Road.",
       "sourceSentenceIds": [
         13,
         14,
@@ -76,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Trinidad_(Washington%2C_D.C.)",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/trinidad-washington-dc.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Eric T Gunther",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trinidad_Washington_DC_2.jpg"
+  }
 }

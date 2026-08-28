@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Stockton%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://talbotcountymd.gov/talbot_county_history"
+      "source": "https://talbotcountymd.gov/talbot_county_history",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stockton-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Department of the Interior",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Chincoteague_Bay_(9354058396).jpg"
+  }
 }

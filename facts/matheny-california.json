@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_matheny"
+      "source": "https://www.trawellino.com/destinations/united-states/california_matheny",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at an elevation of 269 feet, or 82 meters above sea level.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Matheny%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Matheny’s water system, Pratt Mutual, has been found to contain elevated arsenic levels.",
       "sourceSentenceIds": [
         8
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Matheny%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Matheny%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 2016, the State Water Resource Control Board ordered Tulare to connect Matheny Tract to the county water system.",
       "sourceSentenceIds": [
         9,
@@ -63,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Matheny%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Matheny%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Matheny is surrounded by citrus and olive groves, reflecting its agricultural roots in the San Joaquin Valley.",
       "sourceSentenceIds": [
         20
@@ -74,10 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_matheny"
+      "source": "https://www.trawellino.com/destinations/united-states/california_matheny",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town’s foothill setting near the Sierra Nevada and proximity to Sequoia National Forest offers hikers scenic outdoor adventures.",
       "sourceSentenceIds": [
         21,
@@ -86,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_matheny"
+      "source": "https://www.trawellino.com/destinations/united-states/california_matheny",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,21 +58,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "The village’s median age is about 29.3 years, slightly higher than the state average.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.allplaces.us/z/62480"
-    },
-    {
-      "id": 5,
       "text": "Willow Hill lies in eastern Jasper County, placing it near the county’s agricultural heartland.",
       "sourceSentenceIds": [
         6
@@ -74,10 +72,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Willow_Hill%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Village of Willow Hill is a registered entity in the U.S. System for Award Management (SAM).",
       "sourceSentenceIds": [
         29
@@ -85,7 +86,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://opengovus.com/sam-entity/K28JCNWXK117"
+      "source": "https://opengovus.com/sam-entity/K28JCNWXK117",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/willow-hill-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "TheCatalyst31",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Willow_Hill_post_office_and_water_tower.jpg"
+  }
 }

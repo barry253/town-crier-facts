@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.flheritage.org/post/from-pastureland-to-florida-s-friendliest-hometown-the-history-of-the-villages-florida"
+      "source": "https://www.flheritage.org/post/from-pastureland-to-florida-s-friendliest-hometown-the-history-of-the-villages-florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/The_Villages%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/the-villages-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Connor J. Williams",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spanish_springs_entrance_arch_the_villages_florida.jpg"
+  }
 }

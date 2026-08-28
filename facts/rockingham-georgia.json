@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://baconcounty.org/index.php"
+      "source": "https://baconcounty.org/index.php",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Rockingham sits just 194 feet above sea level, typical of Georgia’s low‑lying wiregrass region.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia"
-    },
-    {
-      "id": 5,
       "text": "A post office operated in Rockingham from 1902 until 1939, marking its early growth.",
       "sourceSentenceIds": [
         9
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Rockingham lies along State Route 32, east of Alma, the county seat of Bacon County.",
       "sourceSentenceIds": [
         7
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rockingham%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rockingham-georgia.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bacon_County_Courthouse,_Alma_City_services_face.JPG"
+  }
 }

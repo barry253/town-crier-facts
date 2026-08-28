@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/prunedale-24980"
+      "source": "https://www.wisdomlib.org/cities/prunedale-24980",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prunedale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Prunedale%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prunedale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Prunedale%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.california.com/prunedale-california-a-hidden-gem-of-the-golden-state/"
+      "source": "https://www.california.com/prunedale-california-a-hidden-gem-of-the-golden-state/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.california.com/prunedale-california-a-hidden-gem-of-the-golden-state/"
+      "source": "https://www.california.com/prunedale-california-a-hidden-gem-of-the-golden-state/",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +99,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prunedale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Prunedale%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prunedale-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Calbear22",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prunedale_Pop_Sign_101_North.JPG"
+  }
 }

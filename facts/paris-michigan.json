@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paris%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Paris%2C_Michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/paris_michigan"
+      "source": "https://grokipedia.com/page/paris_michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/paris_michigan"
+      "source": "https://grokipedia.com/page/paris_michigan",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,24 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paris%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Paris%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/paris-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rachel Kramer",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Michigan_Sleeping_Bear_Dunes.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Michigan"
+  }
 }

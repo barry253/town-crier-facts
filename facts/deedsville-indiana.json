@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "Deedsville sits 840 feet above sea level, placing it modestly higher than many surrounding areas.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/in/deedsville-xx-miami-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "The community’s name comes from its founders, Albert Deeds and Ryan “Deed” Driscoll, whose surnames inspired the town’s name.",
       "sourceSentenceIds": [
         9,
@@ -86,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Deedsville%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/deedsville-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.51,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tysto",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peru-indiana-courthouse.jpg"
+  }
 }

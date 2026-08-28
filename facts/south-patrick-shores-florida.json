@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "South Patrick Shores has a median age of 52.8 years, making it one of the older communities in Florida.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida"
-    },
-    {
-      "id": 2,
       "text": "About 15.5% of residents are under 18, while 26.8% are 65 or older.",
       "sourceSentenceIds": [
         5
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Every resident lives in an urban setting—South Patrick Shores reports 100% urban and 0% rural.",
       "sourceSentenceIds": [
         7
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community contains 3,414 housing units, with 12.7% currently vacant.",
       "sourceSentenceIds": [
         8
@@ -62,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
-      "text": "The racial makeup is 90.44% White, 3.65% African American, 2.09% Asian, and 2.31% two or more races.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "South Patrick Drive, a secondary major route, runs parallel to A1A and hugs the Banana River.",
       "sourceSentenceIds": [
         18
@@ -84,7 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/South_Patrick_Shores%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-patrick-shores-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Leonard J. DeFrancisci",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Merritt_Island,_Florida_(southern_tip).jpg"
+  }
 }

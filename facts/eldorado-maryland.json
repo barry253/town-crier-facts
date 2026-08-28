@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Eldorado, Maryland, sits in Dorchester County on the Eastern Shore, just southeast of Cambridge and Salisbury.",
-      "sourceSentenceIds": [
-        24,
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-eldorado-maryland.html"
-    },
-    {
       "id": 2,
       "text": "The town’s name, Eldorado, echoes the legendary Spanish city of gold, hinting at early settlers’ hopes.",
       "sourceSentenceIds": [
@@ -41,20 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland"
-    },
-    {
-      "id": 3,
-      "text": "Eldorado’s coordinates are 38°35′6″N 75°47′15″W, placing it near the scenic Nanticoke River.",
-      "sourceSentenceIds": [
-        5,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eldorado%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +68,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-eldorado-maryland.html"
+      "source": "https://www.citydirectory.us/town-eldorado-maryland.html",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eldorado-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Eli Pousson",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dorchester_County_Courthouse.jpg"
+  }
 }

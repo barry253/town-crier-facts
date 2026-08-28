@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Patterson is an unincorporated community nestled in Caldwell County, North Carolina, in the heart of the Appalachian foothills.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Patterson%2C_North_Carolina"
-    },
-    {
-      "id": 2,
-      "text": "The town sits 1,250 feet above sea level, giving it a mild mountain climate.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/nc/patterson-xx-caldwell-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Patterson in 1855, marking the community’s early growth.",
       "sourceSentenceIds": [
         21
@@ -51,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/patterson-xx-caldwell-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/patterson-xx-caldwell-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "U.S. Route 321 passes just six miles north-northwest of Lenoir, close to Patterson.",
       "sourceSentenceIds": [
         8
@@ -62,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Patterson%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Patterson%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Clover Hill, near Patterson, earned a spot on the National Register of Historic Places in 1973.",
       "sourceSentenceIds": [
         3
@@ -73,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Patterson%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Patterson%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Patterson shares its name with 42 other U.S. communities, from Arkansas to California to Florida.",
       "sourceSentenceIds": [
         1
@@ -84,7 +69,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/patterson-xx-caldwell-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/patterson-xx-caldwell-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/patterson-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_North_Carolina_02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Granite Falls, North Carolina"
+  }
 }

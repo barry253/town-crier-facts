@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "East Alliance borders the city of Alliance to the west and Knox Township in Columbiana County to the south.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Alliance%2C_Ohio"
-    },
-    {
       "id": 2,
       "text": "Route 62 skirts the southern edge of East Alliance, heading west into Alliance and east 11 miles to Salem.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Alliance%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/East_Alliance%2C_Ohio",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://alliancehistory.org/"
+      "source": "https://alliancehistory.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +57,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://alliancehistory.org/"
+      "source": "https://alliancehistory.org/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-alliance-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.783,
+    "y": 0.498
+  }
 }

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Kathryn%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Lake_Kathryn%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,23 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Kathryn%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Lake_Kathryn%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The region's elevation is only 43 feet above sea level, making it prone to occasional flooding during heavy rains.",
-      "sourceSentenceIds": [
-        20,
-        24,
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/lake_kathryn_florida"
-    },
-    {
-      "id": 4,
       "text": "Summer highs often reach 92°F while winter lows average 43°F, giving a mild year‑round climate.",
       "sourceSentenceIds": [
         21
@@ -66,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lake_kathryn_florida"
+      "source": "https://grokipedia.com/page/lake_kathryn_florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The lake’s water quality has been monitored since 1995, with the latest sample taken in June 2024.",
       "sourceSentenceIds": [
         3
@@ -77,10 +71,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lake.wateratlas.usf.edu/waterbodies/lakes/8016/lake-kathryn-near-lake-kathryn-heights"
+      "source": "https://lake.wateratlas.usf.edu/waterbodies/lakes/8016/lake-kathryn-near-lake-kathryn-heights",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Hurricane Matthew in 2016 caused minor coastal surge impacts in the area, though the inland location kept damage limited.",
       "sourceSentenceIds": [
         2
@@ -88,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lake_kathryn_florida"
+      "source": "https://grokipedia.com/page/lake_kathryn_florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-kathryn-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lady_Lake_Town_Hall01.jpg"
+  }
 }

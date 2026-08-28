@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Westlake Corner is part of the Roanoke metropolitan area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia"
-    },
-    {
       "id": 2,
       "text": "The community sits beside Smith Mountain Lake, a large popular lake.",
       "sourceSentenceIds": [
@@ -42,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +84,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Corner%2C_Virginia",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westlake-corner-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.43,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Julie Kertesz from Paris neighbourhood, France",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Replica_of_Roanoke_River_Light_NCarolina-037.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Roanoke River"
+  }
 }

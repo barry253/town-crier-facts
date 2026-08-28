@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Moss is an unincorporated community in Clay County, Tennessee, United States.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Moss%2C_Tennessee"
-    },
-    {
-      "id": 2,
       "text": "Moss sits 6.8 miles west‑northwest of Celina along Tennessee State Route 52.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Moss%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Moss%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The Moss post office opened in 1883, marking the town’s early development.",
       "sourceSentenceIds": [
         9
@@ -51,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Moss rests 1,100 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Moss appears in both the FIPS‑55 and the GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Across the United States, 13 other communities share the name Moss, from Alabama to West Virginia.",
       "sourceSentenceIds": [
         1
@@ -84,7 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/moss-xx-clay-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/moss-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.762,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moss-SR52-tn1.jpg"
+  }
 }

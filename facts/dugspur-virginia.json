@@ -31,22 +31,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dugspur%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dugspur%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community sits at an elevation of roughly 2,661 feet, giving it a cool, humid subtropical climate with mild winters and warm summers.",
-      "sourceSentenceIds": [
-        22,
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/dugspur_virginia"
-    },
-    {
-      "id": 3,
       "text": "Dugspur’s name honors Charles Carroll of Carrollton, the last surviving signer of the Declaration of Independence, rather than John Carroll himself.",
       "sourceSentenceIds": [
         1
@@ -54,10 +45,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/dugspur_virginia"
+      "source": "https://grokipedia.com/page/dugspur_virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Early settlers were Scotch‑Irish immigrants who arrived after the Revolutionary War, drawn by high‑altitude land grants despite tough soils.",
       "sourceSentenceIds": [
         2,
@@ -67,10 +60,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/dugspur_virginia"
+      "source": "https://grokipedia.com/page/dugspur_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The area’s first inhabitants were Native Americans who lived there for about 10,000 years before European arrival.",
       "sourceSentenceIds": [
         28
@@ -78,10 +73,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/dugspur_virginia"
+      "source": "https://grokipedia.com/page/dugspur_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Dugspur emerged as a distinct settlement in the late 18th century, closely tied to Quaker communities that promoted mutual aid and anti‑slavery sentiments.",
       "sourceSentenceIds": [
         29,
@@ -90,7 +87,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/dugspur_virginia"
+      "source": "https://grokipedia.com/page/dugspur_virginia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dugspur-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ceh2624",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CarrollCountyCourtFront.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Carroll County, Virginia"
+  }
 }

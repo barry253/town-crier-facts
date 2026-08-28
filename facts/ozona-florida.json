@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ozona%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Ozona%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.florida-backroads-travel.com/ozona-florida.html"
+      "source": "https://www.florida-backroads-travel.com/ozona-florida.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ozonavillagefl.us/ozonahistory"
+      "source": "https://www.ozonavillagefl.us/ozonahistory",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ozonavillagefl.us/ozonahistory"
+      "source": "https://www.ozonavillagefl.us/ozonahistory",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -78,7 +87,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ozonavillagefl.us/ozonahistory"
+      "source": "https://www.ozonavillagefl.us/ozonahistory",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +100,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.florida-backroads-travel.com/ozona-florida.html"
+      "source": "https://www.florida-backroads-travel.com/ozona-florida.html",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ozona-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mary Marconi, Coldwell Banker Realtor Palm Harbor, FL",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ozona_Sunset.jpg"
+  }
 }

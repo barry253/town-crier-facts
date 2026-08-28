@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Meadow%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Meadow is located at 33°20′18″N 102°12′28″W (33.338336, –102.207772).",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadow%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Meadow%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-meadow-texas.html"
+      "source": "https://www.citydirectory.us/city-meadow-texas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.meadow.texas.gov/"
+      "source": "https://www.meadow.texas.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +84,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.meadow.texas.gov/"
+      "source": "https://www.meadow.texas.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadow-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Hillhurst%2C_Calgary"
+      "source": "https://en.wikipedia.org/wiki/West_Hillhurst%2C_Calgary",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/"
+      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/"
+      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/"
+      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/"
+      "source": "https://www.heritageinspiresyyc.org/heritage-places/communities-west-hillhurst/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +102,25 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Hillhurst%2C_Calgary"
+      "source": "https://en.wikipedia.org/wiki/West_Hillhurst%2C_Calgary",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-hillhurst-alberta.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Phil Whitehouse from London, United Kingdom",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bow_River_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bow River"
+  }
 }

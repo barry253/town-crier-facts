@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Apache Creek sits 3 miles northeast of Cruzville, where the creek meets the Tularosa River.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico"
-    },
-    {
       "id": 2,
       "text": "In 1969, the New Mexico Historic Preservation Commission listed Apache Creek as the Apache Creek Ruin.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico"
-    },
-    {
-      "id": 5,
-      "text": "The town sits at an elevation of 6,410 feet above sea level.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nm/apache-creek-xx-catron-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Apache_Creek%2C_New_Mexico",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

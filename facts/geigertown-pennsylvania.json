@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Geigertown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Geigertown%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Geigertown%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "The town straddles Union and Robeson Townships along Hay Creek Road, formerly Pennsylvania Route 82, from Geigertown Road to Fire Tower Road.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Geigertown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Geigertown%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/geigertown-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.24,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmstead_in_winter,_Windsor_Township,_Berks_County,_Pennsylvania.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Berks County, Pennsylvania"
+  }
 }

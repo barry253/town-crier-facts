@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +76,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lansing%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,18 +90,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Lansing,_Ohio"
-    },
-    {
-      "id": 6,
-      "text": "Lansing’s latitude and longitude are 40°4'32\"N 80°47'24\"W, placing it in eastern Ohio near the West Virginia border.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.mapsof.net/lansing-oh"
+      "source": "https://kids.kiddle.co/Lansing,_Ohio",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lansing-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.348,
+    "y": 0.499
+  }
 }

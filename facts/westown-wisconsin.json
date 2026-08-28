@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Downtown_Milwaukee"
+      "source": "https://en.wikipedia.org/wiki/Downtown_Milwaukee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Downtown_Milwaukee"
+      "source": "https://en.wikipedia.org/wiki/Downtown_Milwaukee",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,22 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Downtown_Milwaukee"
+      "source": "https://en.wikipedia.org/wiki/Downtown_Milwaukee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Westown’s top historical sites include the Pabst Brewery, where tours reveal the empire’s brewing legacy.",
-      "sourceSentenceIds": [
-        25,
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.atly.com/united-states/wisconsin/milwaukee/westown/best-historical-sites"
-    },
-    {
-      "id": 5,
       "text": "A historic tour at the Pabst site brings brewing history alive with detailed exhibits and knowledgeable guides.",
       "sourceSentenceIds": [
         6,
@@ -75,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.atly.com/united-states/wisconsin/milwaukee/westown/best-historical-sites"
+      "source": "https://www.atly.com/united-states/wisconsin/milwaukee/westown/best-historical-sites",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "While driving through Westown, you’re steps from the Milwaukee Public Museum, Art Museum, and the bustling Public Market.",
       "sourceSentenceIds": [
         11
@@ -86,7 +82,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitmilwaukee.org/plan-a-visit/areas-to-explore/westown/"
+      "source": "https://www.visitmilwaukee.org/plan-a-visit/areas-to-explore/westown/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westown-wisconsin.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Milwaukee_October_2025_16_(Milwaukee_River).jpg"
+  }
 }

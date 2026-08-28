@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Scissors sits at 26°8′13″N 98°2′43″W, a short drive southeast of Alamo in Hidalgo County.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Scissors%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The community is officially classified as a colonia, a type of unincorporated settlement in Texas.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -65,7 +60,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Scissors%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Scissors%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +88,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/scissors-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/scissors-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

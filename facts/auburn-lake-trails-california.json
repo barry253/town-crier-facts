@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Auburn Lake Trails sits at 1,916 feet above sea level today.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Auburn_Lake_Trails%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Residents enjoy a tight‑knit social scene with multiple active clubs focused on hobbies, arts, and community service.",
       "sourceSentenceIds": [
         12
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://auburnlaketrails.eunify.net/"
+      "source": "https://auburnlaketrails.eunify.net/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Every holiday is marked by a community‑sponsored event, plus a calendar of special gatherings throughout the year.",
       "sourceSentenceIds": [
         13
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://auburnlaketrails.eunify.net/"
+      "source": "https://auburnlaketrails.eunify.net/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Of the 1,497 housing units, 94.8% are occupied, showing a strong sense of homeownership.",
       "sourceSentenceIds": [
         9
@@ -62,18 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Auburn_Lake_Trails%2C_California"
-    },
-    {
-      "id": 5,
-      "text": "Owner‑occupied homes make up 91.5% of the community, reflecting its stable residential character.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Auburn_Lake_Trails%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Auburn_Lake_Trails%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/auburn-lake-trails-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.17,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tahoenathan",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Echolakes.jpg"
+  }
 }

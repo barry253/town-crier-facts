@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rosemount sits at 38.78619°N, 82.97906°W, rising 185 meters above sea level.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/"
-    },
-    {
       "id": 2,
       "text": "The town’s geography covers 8 square miles of all‑land terrain, giving it a compact, walkable feel.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_rosemount"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_rosemount",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_rosemount"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_rosemount",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +85,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/rosemount-ohio-travel-guide/",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rosemount-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.365,
+    "y": 0.498
+  }
 }

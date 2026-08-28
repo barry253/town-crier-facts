@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://marvinnc.gov/About-Marvin/Who-We-Are"
+      "source": "https://marvinnc.gov/About-Marvin/Who-We-Are",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://marvinhistoricalsociety.com/"
+      "source": "https://marvinhistoricalsociety.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvin%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Marvin%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://marvinhistoricalsociety.com/"
+      "source": "https://marvinhistoricalsociety.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marvin%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Marvin%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +98,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://marvinhistoricalsociety.com/"
+      "source": "https://marvinhistoricalsociety.com/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marvin-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.615,
+    "y": 0.5
+  }
 }

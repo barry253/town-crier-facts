@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huachuca_City%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Huachuca_City%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huachuca_City%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Huachuca_City%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.thecrazytourist.com/15-best-things-to-do-in-huachuca-city-az/"
+      "source": "https://www.thecrazytourist.com/15-best-things-to-do-in-huachuca-city-az/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huachuca_City%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Huachuca_City%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.thecrazytourist.com/15-best-things-to-do-in-huachuca-city-az/"
+      "source": "https://www.thecrazytourist.com/15-best-things-to-do-in-huachuca-city-az/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/huachuca-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.41,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike Lewis",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kartchner_Big_Room.jpg"
+  }
 }

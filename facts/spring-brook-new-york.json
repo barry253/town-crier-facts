@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Spring Brook is a hamlet in the town of Elma, Erie County, New York.",
-      "sourceSentenceIds": [
-        5,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Brook%2C_New_York"
-    },
-    {
-      "id": 2,
       "text": "The local post office opened in 1848, marking the community’s early establishment.",
       "sourceSentenceIds": [
         18
@@ -42,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/spring-brook-xx-erie-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/spring-brook-xx-erie-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Spring Brook sits 790 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/spring-brook-xx-erie-profile.htm"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "Its name is recorded in both the FIPS‑55 and the GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -64,18 +42,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/spring-brook-xx-erie-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "Spring Brook’s coordinates are listed in the Gazetteer, though they still need verification.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/spring-brook-xx-erie-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/spring-brook-xx-erie-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-brook-new-york.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jayu from Harrisburg, PA, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elma,_New_York_(412993277).jpg"
+  }
 }

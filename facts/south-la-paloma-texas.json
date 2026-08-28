@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158"
+      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158"
+      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158"
+      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158"
+      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158"
+      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158"
+      "source": "https://www.wisdomlib.org/cities/south-la-paloma-97158",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-la-paloma-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jim_wells_courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Jim Wells County, Texas"
+  }
 }

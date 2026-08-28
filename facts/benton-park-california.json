@@ -18,17 +18,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Benton Park sits at an elevation of 394 feet, giving it a mild, rolling hilltop feel.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Benton_Park%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The neighborhood is wrapped on three sides by Bakersfield and borders Old Stine to the west.",
       "sourceSentenceIds": [
         5
@@ -36,10 +25,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Benton_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Benton_Park%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Neighbors in Benton Park greet each other by name, creating a warm, inviting atmosphere for newcomers.",
       "sourceSentenceIds": [
         16
@@ -47,10 +39,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/CA/BentonPark/29518"
+      "source": "https://hellonation.com/mag/CA/BentonPark/29518",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The heart of Benton Park is its beautifully landscaped community spaces, perfect for sun‑soaked gatherings.",
       "sourceSentenceIds": [
         17
@@ -58,10 +53,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/CA/BentonPark/29518"
+      "source": "https://hellonation.com/mag/CA/BentonPark/29518",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Local galleries, theaters, and regular art walks showcase the creativity of Benton Park’s residents, enriching its cultural scene.",
       "sourceSentenceIds": [
         20
@@ -69,10 +67,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/CA/BentonPark/29518"
+      "source": "https://hellonation.com/mag/CA/BentonPark/29518",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Benton Park’s dynamic vibe comes from neighbors who are artists, musicians, or budding entrepreneurs, each adding energy to the town.",
       "sourceSentenceIds": [
         1
@@ -80,7 +80,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/CA/BentonPark/29518"
+      "source": "https://hellonation.com/mag/CA/BentonPark/29518",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "China Lake Acres, California"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/benton-park-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

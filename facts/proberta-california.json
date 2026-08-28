@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Proberta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Proberta%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,20 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Proberta%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "The town sits 7.5 miles south‑southeast of Red Bluff, placing it firmly within Tehama County’s rural heartland.",
-      "sourceSentenceIds": [
-        7,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Proberta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Proberta%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Proberta,_California"
+      "source": "https://kids.kiddle.co/Proberta,_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -78,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Proberta,_California"
+      "source": "https://kids.kiddle.co/Proberta,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -89,7 +86,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/proberta-xx-tehama-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/proberta-xx-tehama-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/proberta-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "LassenNPS",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brokeoff_(15168792867).jpg"
+  }
 }

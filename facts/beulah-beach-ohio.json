@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The town rests about 600 feet (180 meters) above sea level, offering gentle elevations typical of the region.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio"
-    },
-    {
-      "id": 5,
       "text": "Route 6 borders the community’s southern edge, leading 5 miles northeast to Vermilion and 6 miles west to Huron.",
       "sourceSentenceIds": [
         8
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Cleveland lies roughly 46 miles east of Beulah Beach, a short drive across Ohio’s northern plains.",
       "sourceSentenceIds": [
         9
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Beulah_Beach%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/beulah-beach-ohio.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.13,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NOAA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A1.23188.1851.LakeErie.143.250m.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Erie"
+  }
 }

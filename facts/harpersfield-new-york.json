@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harpersfield%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Harpersfield%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofharpersfield.gov/history"
+      "source": "https://townofharpersfield.gov/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.harpersfieldhistoricalsociety.com/"
+      "source": "https://www.harpersfieldhistoricalsociety.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.harpersfieldhistoricalsociety.com/"
+      "source": "https://www.harpersfieldhistoricalsociety.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harpersfield%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Harpersfield%2C_New_York",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +96,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harpersfield%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Harpersfield%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/harpersfield-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Upstate New York",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delaware_County_Courthouse_and_Clerk%27s_Office_Apr_09.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Delaware County, New York"
+  }
 }

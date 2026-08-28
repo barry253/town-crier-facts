@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Homewood Canyon sits today at 3,074 feet above sea level.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Homewood_Canyon%2C_California"
-    },
-    {
-      "id": 2,
       "text": "In 1961, after the 1960 Olympics, Tahoe was becoming a ski destination, shaping Homewood Canyon’s growth.",
       "sourceSentenceIds": [
         1
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://donsnotes.com/tahoe/hmwd-hst.html"
+      "source": "https://donsnotes.com/tahoe/hmwd-hst.html",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Jack Sargeant Ellis, a dairy farmer, gave his name to nearby Ellis Peak.",
       "sourceSentenceIds": [
         2
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://donsnotes.com/tahoe/hmwd-hst.html"
+      "source": "https://donsnotes.com/tahoe/hmwd-hst.html",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 1973, scenes from Godfather Part II were filmed at Fleur Du Lac, a local landmark.",
       "sourceSentenceIds": [
         7
@@ -62,7 +55,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://donsnotes.com/tahoe/hmwd-hst.html"
+      "source": "https://donsnotes.com/tahoe/hmwd-hst.html",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homewood-canyon-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Geographer (talk · contribs)",
+    "license": "CC BY 1.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Whitney_2003-03-25.jpg"
+  }
 }

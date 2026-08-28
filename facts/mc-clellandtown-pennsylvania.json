@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McClellandtown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McClellandtown%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McClellandtown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McClellandtown%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McClellandtown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McClellandtown%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://relocationgenius.net/location/Mc-Clellandtown/PA/"
+      "source": "https://relocationgenius.net/location/Mc-Clellandtown/PA/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-mcclellandtown-pennsylvania"
+      "source": "https://hometownhistorymaps.com/pages/history-of-mcclellandtown-pennsylvania",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +99,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-mcclellandtown-pennsylvania"
+      "source": "https://hometownhistorymaps.com/pages/history-of-mcclellandtown-pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mc-clellandtown-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim.henderson",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
+  }
 }

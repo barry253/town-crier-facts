@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mohler%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Mohler%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/wa/mohler-xx-lincoln-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/mohler-xx-lincoln-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Mohler sits 1,990 feet above sea level, offering a high desert perspective.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/wa/mohler-xx-lincoln-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Mohler lies 6.5 miles southwest of Harrington, placing it deep in Lincoln County.",
       "sourceSentenceIds": [
         1
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mohler%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Mohler%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Mohler is an unincorporated community in Lincoln County, Washington, United States, located in the Pacific Northwest.",
       "sourceSentenceIds": [
         7
@@ -73,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mohler%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Mohler%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mohler-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cascades410",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohler04212020.jpg"
+  }
 }

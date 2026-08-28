@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coleta%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Coleta%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
-      "text": "Coleta sits at 41°54′20″N 89°48′18″W, a latitude and longitude that places it in northwestern Illinois.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Coleta%2C_Illinois"
-    },
-    {
-      "id": 3,
       "text": "Sterling High School serves the Coleta community as its zoned comprehensive high school.",
       "sourceSentenceIds": [
         16
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coleta%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Coleta%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Coleta lies roughly 100 miles west of Chicago, giving it a rural feel while remaining within reach of the city.",
       "sourceSentenceIds": [
         22
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-coleta.html"
+      "source": "https://www.citydirectory.us/village-coleta.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The village is about 50 miles northeast of the Quad Cities, near the Mississippi River.",
       "sourceSentenceIds": [
         22
@@ -73,18 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-coleta.html"
-    },
-    {
-      "id": 6,
-      "text": "Coleta is located in the northwestern part of the United States, within Illinois.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-coleta.html"
+      "source": "https://www.citydirectory.us/village-coleta.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/coleta-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "IvoShandor",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Whiteside_County_Courthouse,_Morrison.jpg"
+  }
 }

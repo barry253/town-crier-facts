@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gap%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gap%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/gap_pennsylvania"
+      "source": "https://grokipedia.com/page/gap_pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,21 +60,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/gap_pennsylvania"
+      "source": "https://grokipedia.com/page/gap_pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Gap’s elevation is 580 feet, sitting between Mine Ridge and Gap Hill, both rising to about 750 feet.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gap%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "The first house in what would become Gap was erected by Isaac Taylor in 1747, marking the area's earliest settlement.",
       "sourceSentenceIds": [
         25
@@ -78,7 +73,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gap%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gap%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gap-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gap,_Lancaster_Co,_PA_1.JPG"
+  }
 }

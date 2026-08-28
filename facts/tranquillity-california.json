@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 10 miles southeast of Mendota at an elevation of just 164 feet above sea level.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Tranquillity High School is the only high school serving the town’s students.",
       "sourceSentenceIds": [
         5
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The first post office in Tranquillity opened in 1910, marking the town’s early growth.",
       "sourceSentenceIds": [
         6
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tranquillity%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Tranquillity partners with local farmers on regenerative agriculture projects to boost resilience and sustainability.",
       "sourceSentenceIds": [
         26,
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tranquillityrcd.ca.gov/"
+      "source": "https://tranquillityrcd.ca.gov/",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town’s community board frequently hosts workshops on climate‑friendly practices, inviting residents to learn and share ideas.",
       "sourceSentenceIds": [
         28
@@ -85,7 +82,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tranquillityrcd.ca.gov/"
+      "source": "https://tranquillityrcd.ca.gov/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tranquillity-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Crd637",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KingsCanyonNP.JPG"
+  }
 }

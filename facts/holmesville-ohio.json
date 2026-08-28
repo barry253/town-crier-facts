@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Holmesville was platted in 1836 and named for its location within Holmes County.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Holmesville%2C_Ohio"
-    },
-    {
-      "id": 2,
       "text": "The village sits along Killbuck Creek, a winding waterway that shaped early settlement.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holmesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Holmesville%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Holmesville is part of Ohio’s Amish Country, known for handcrafted gifts and traditional farming.",
       "sourceSentenceIds": [
         20,
@@ -52,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ohiosamishcountry.com/holmesville"
+      "source": "https://ohiosamishcountry.com/holmesville",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Residents turn to the Holmesville Village Office for building permits and code enforcement.",
       "sourceSentenceIds": [
         2
@@ -63,10 +56,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-holmesville.html"
+      "source": "https://www.citydirectory.us/village-holmesville.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "If you have inquiries related to construction permits, inspections, code enforcement, or building regulations, contact Holmesville's town hall or Holmes County authorities directly.",
       "sourceSentenceIds": [
         3
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-holmesville.html"
+      "source": "https://www.citydirectory.us/village-holmesville.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Holmesville is a village in Holmes County, Ohio, United States.",
       "sourceSentenceIds": [
         6
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holmesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Holmesville%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/holmesville-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.572,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Roseohioresident",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holmesville,_Ohio_Post_Office.jpg"
+  }
 }

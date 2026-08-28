@@ -29,32 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 40°4′25″N 120°50′17″W, placing it in the Sierra Nevada foothills of Plumas County.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "Taylorsville rises to 3,540 feet above sea level, offering a high‑altitude mountain setting.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Taylorsville in 1864, marking the town’s early development during the Gold Rush era.",
       "sourceSentenceIds": [
         17
@@ -62,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "There are 21 other communities named Taylorsville across the United States, from Alabama to Utah.",
       "sourceSentenceIds": [
         1
@@ -73,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Taylorsville is located within Plumas County, a region known for its rugged terrain and historic mining towns.",
       "sourceSentenceIds": [
         16
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/taylorsville-xx-plumas-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/taylorsville-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
+  }
 }

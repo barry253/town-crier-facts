@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://southernview.us/"
+      "source": "https://southernview.us/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village sits on 398 acres at an altitude of 610 feet above sea level.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://southernview.us/"
-    },
-    {
-      "id": 3,
       "text": "The community park covers 29 acres and features two baseball fields, a soccer field, a roller‑hockey arena, a 1.6‑acre pond, play areas, and covered gathering spots.",
       "sourceSentenceIds": [
         25,
@@ -53,10 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://southernview.us/"
+      "source": "https://southernview.us/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Southern View is part of the Springfield Metropolitan Statistical Area in Illinois.",
       "sourceSentenceIds": [
         4
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southern_View%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Southern_View%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "SMTD bus routes 12, 14, and 202 link Southern View to downtown Springfield.",
       "sourceSentenceIds": [
         18
@@ -75,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southern_View%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Southern_View%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The village celebrated its 75th anniversary in 2014, marking a quarter‑century since its founding.",
       "sourceSentenceIds": [
         20
@@ -86,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://southernview.us/"
+      "source": "https://southernview.us/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/southern-view-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sangamon_County_Courthouse_2017.jpg"
+  }
 }

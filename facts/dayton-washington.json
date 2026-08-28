@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.achp.gov/preserve-america/community/dayton-washington"
+      "source": "https://www.achp.gov/preserve-america/community/dayton-washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Dayton sits 1,600 feet above sea level where the Touchet River meets Patit Creek, nesting in a valley.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.achp.gov/preserve-america/community/dayton-washington"
-    },
-    {
-      "id": 3,
       "text": "The city was incorporated November 10, 1881, and named after founder Jesse Day.",
       "sourceSentenceIds": [
         4
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Dayton hosts a full‑scale, historically authentic model of the Patit Creek campsite from the Lewis and Clark Bicentennial.",
       "sourceSentenceIds": [
         12
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.achp.gov/preserve-america/community/dayton-washington"
+      "source": "https://www.achp.gov/preserve-america/community/dayton-washington",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town’s Art, Wine, and Heritage Getaway package includes historic depot admission, a restored theater movie, and local gallery tours.",
       "sourceSentenceIds": [
         13
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.achp.gov/preserve-america/community/dayton-washington"
+      "source": "https://www.achp.gov/preserve-america/community/dayton-washington",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Dayton's library began as a 1919 reading room funded by a women’s civics club, later becoming the county’s only public library.",
       "sourceSentenceIds": [
         16,
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Dayton%2C_Washington",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dayton-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Williamborg",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Historic_Courthouse_Dayton_Washington.JPG"
+  }
 }

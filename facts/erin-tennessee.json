@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The town sits at an elevation of 480 feet above sea level.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee"
-    },
-    {
-      "id": 5,
       "text": "Researchers can access an online inventory of Houston County microfilm records through the county’s website.",
       "sourceSentenceIds": [
         7
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-houston-county"
+      "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-houston-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "State Routes 13, 49, and 149 all traverse Erin, linking it to regional traffic corridors.",
       "sourceSentenceIds": [
         17
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Erin%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/erin-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houston_County_Courthouse,_Erin.jpg"
+  }
 }

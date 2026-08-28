@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.thearmchairexplorer.com/colorado/manassa-colorado.php"
+      "source": "https://www.thearmchairexplorer.com/colorado/manassa-colorado.php",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,32 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The town sits at an elevation of 7,683 feet above sea level.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado"
-    },
-    {
-      "id": 5,
-      "text": "In 1880 the Denver & Rio Grande Railroad chose to run its line through Romeo, three miles west of Manassa.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.thearmchairexplorer.com/colorado/manassa-colorado.php"
-    },
-    {
-      "id": 6,
       "text": "Manassa lies within the high‑elevation San Luis Valley, whose average height is about 7,664 feet.",
       "sourceSentenceIds": [
         28
@@ -85,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Manassa%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/manassa-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.64,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manassa,_Colorado.JPG"
+  }
 }

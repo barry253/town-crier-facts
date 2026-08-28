@@ -31,20 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community sits at the crossroads of Farm to Market Roads 932 and 1241, about 13 miles northwest of Gatesville.",
-      "sourceSentenceIds": [
-        5,
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/purmela-tx"
+      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -66,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -77,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Purmela%2C_Texas",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -90,7 +88,24 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/purmela-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/purmela-tx",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "South Mountain, Texas"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/purmela-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Aualliso",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coryell_County_Courthouse_September_2020.jpg"
+  }
 }

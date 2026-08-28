@@ -32,7 +32,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/kildare_texas"
+      "source": "https://grokipedia.com/page/kildare_texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/kildare_texas"
+      "source": "https://grokipedia.com/page/kildare_texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/kildare-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/kildare-tx",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +72,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/kildare_texas"
+      "source": "https://grokipedia.com/page/kildare_texas",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kildare-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.41,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cass_County_Courthouse_2015,_Linden,_TX.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Cass County, Texas"
+  }
 }

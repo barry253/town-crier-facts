@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Merritt%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Merritt%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm"
+      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Merritt rises about 600 feet above sea level, offering a modest elevation typical of the Illinois prairie.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Merritt is located in Scott County, a region known for its rich agricultural heritage.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm"
+      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "It is one of 17 communities across the United States that share the name Merritt, from Alabama to Washington.",
       "sourceSentenceIds": [
         1
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm"
+      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical records from 1895 show that Merritt’s community had either a post office or railroad service, reflecting its early connectivity.",
       "sourceSentenceIds": [
         3
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm"
+      "source": "https://roadsidethoughts.com/il/merritt-xx-scott-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/merritt-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scott_County_Courthouse,_Winchester.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Scott County, Illinois"
+  }
 }

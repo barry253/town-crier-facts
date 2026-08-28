@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The town’s geographic coordinates are 25.7587° N latitude and 80.3984° W longitude, placing it firmly in Miami‑Dade County.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/miami-dade/tamiami.cfm"
-    },
-    {
-      "id": 5,
       "text": "Tamiami is part of the Miami metropolitan area, sharing the region’s cultural and economic ties to South Florida.",
       "sourceSentenceIds": [
         1
@@ -74,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Tamiami%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tamiami-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.727,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Livan13",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lvedadondata.jpg"
+  }
 }

@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Buttonwillow Tree is California Historical Landmark No. 492, an ancient buttonbush that gave the town its name.",
-      "sourceSentenceIds": [
-        1,
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://www.latimes.com/california/newsletter/2025-05-29/the-legend-of-rural-california-ancient-buttonwillow-tree"
-    },
-    {
-      "id": 2,
       "text": "Indigenous Yokuts used the lone buttonbush as a meeting place on an old trans‑valley trail before settlers arrived.",
       "sourceSentenceIds": [
         16
@@ -42,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buttonwillow%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Buttonwillow%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The Buttonwillow Tree became a California State Landmark in 1952, cementing its historic status.",
       "sourceSentenceIds": [
         25
@@ -53,10 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.kvpr.org/podcast/central-valley-roots/2025-05-06/buttonwillow-an-ancient-tree-in-kern-county"
+      "source": "https://www.kvpr.org/podcast/central-valley-roots/2025-05-06/buttonwillow-an-ancient-tree-in-kern-county",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The town first appeared as an unincorporated place in the 1970 U.S. Census, marking its official recognition.",
       "sourceSentenceIds": [
         10
@@ -64,7 +55,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buttonwillow%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Buttonwillow%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buttonwillow-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jey0h (talk)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buttonwillow.jpg"
+  }
 }

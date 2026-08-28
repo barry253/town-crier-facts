@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Country Life Acres sits within St. Louis County, Missouri, United States.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri"
-    },
-    {
-      "id": 3,
       "text": "The community is a gated neighborhood surrounded by Town and Country, Missouri.",
       "sourceSentenceIds": [
         9
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Country Life Acres is surrounded by the Town and Country neighborhood.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Country_Life_Acres%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The village lies in Saint Louis County, Missouri.",
       "sourceSentenceIds": [
         28
@@ -73,18 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/country-life-acres-xx-saint-louis-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Country Life Acres sits 640 feet above sea level.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/country-life-acres-xx-saint-louis-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/country-life-acres-xx-saint-louis-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/country-life-acres-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.414,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Guerreroast",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Country_Life_Acres,_MO.jpg"
+  }
 }

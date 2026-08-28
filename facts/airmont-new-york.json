@@ -29,19 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The village sits at 41°5′57″N 74°6′0″W, just north of New Jersey’s border.",
-      "sourceSentenceIds": [
-        29,
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.airmont.org/"
+      "source": "https://www.airmont.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Airmont%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/airmont-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.792,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zjacomow",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cherry_Lane_School.JPG"
+  }
 }

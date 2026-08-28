@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://royaltonpa.com/about/history/early-history/"
+      "source": "https://royaltonpa.com/about/history/early-history/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +83,34 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "The first postmaster of Royalton was Mary E., marking the start of its postal history.",
+      "text": "The first postmaster of Royalton was Mary E. Snavely, marking the start of its postal history.",
       "sourceSentenceIds": [
         15
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Royalton%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/royalton-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.667,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Paul Comstock",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_Keystone_Ave.jpg"
+  }
 }

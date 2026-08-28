@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fincastle%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Fincastle%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townoffincastle.org/news-details.php?sid=tour"
+      "source": "https://www.townoffincastle.org/news-details.php?sid=tour",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townoffincastle.org/news-details.php?sid=tour"
+      "source": "https://www.townoffincastle.org/news-details.php?sid=tour",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fincastle%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Fincastle%2C_Tennessee",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +84,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_fincastle"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_fincastle",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +97,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_fincastle"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_fincastle",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fincastle-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.353,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fincastle-houses-tn1.jpg"
+  }
 }

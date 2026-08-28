@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dreamlandvilla.org/page.cfm/2669"
+      "source": "https://www.dreamlandvilla.org/page.cfm/2669",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dreamland_Villa%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Dreamland_Villa%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dreamlandvilla.org/page.cfm/2669"
+      "source": "https://www.dreamlandvilla.org/page.cfm/2669",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,21 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dreamland_Villa%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Dreamland_Villa%2C_Arizona",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Dreamland Villa sits at an elevation of 1,371 feet above sea level.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dreamland_Villa%2C_Arizona"
-    },
-    {
-      "id": 6,
       "text": "The Dreamland Villa Community Club became a non‑profit organization on June 1, 1961.",
       "sourceSentenceIds": [
         23
@@ -87,7 +84,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dreamlandvilla.org/page.cfm/2669"
+      "source": "https://www.dreamlandvilla.org/page.cfm/2669",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dreamland-villa-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Transferred from en.wikipedia to Commons by FastilyClone using MTC!.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacaton.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Gila River Indian Community"
+  }
 }

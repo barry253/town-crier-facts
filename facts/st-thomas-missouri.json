@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "St. Thomas sits at 38°22′16″N 92°13′6″W, right in Cole County.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/St._Thomas%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/st-thomas-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.497,
+    "y": 0.5
+  }
 }

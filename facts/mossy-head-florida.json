@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mossy_Head%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mossy_Head%2C_Florida",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/fl/mossy-head-xx-walton-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/mossy-head-xx-walton-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mossy_Head%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mossy_Head%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community rises 250 feet above sea level, offering a modest elevation compared to surrounding coastal areas.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/fl/mossy-head-xx-walton-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Mossy Head appears in both the FIPS‑55 and GNIS geographic databases, confirming its recognized status.",
       "sourceSentenceIds": [
         1
@@ -73,7 +68,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/fl/mossy-head-xx-walton-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/mossy-head-xx-walton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mossy-head-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DeFuniak_Springs_Hist_Dist_crths02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Walton County, Florida"
+  }
 }

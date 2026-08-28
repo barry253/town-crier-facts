@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://putnam-fl-historical-society.org/a-brief-history-of-palatka/"
+      "source": "https://putnam-fl-historical-society.org/a-brief-history-of-palatka/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://putnam-fl-historical-society.org/a-brief-history-of-palatka/"
+      "source": "https://putnam-fl-historical-society.org/a-brief-history-of-palatka/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Palatka%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/East_Palatka%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,18 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Palatka%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "Its geographic coordinates are 29.6583° N latitude and 81.5984° W longitude.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/putnam/east-palatka.cfm"
+      "source": "https://en.wikipedia.org/wiki/East_Palatka%2C_Florida",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Palatka%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/East_Palatka%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-palatka-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.716,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "LittleT889",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:East_Palatka_Intersection.jpg"
+  }
 }

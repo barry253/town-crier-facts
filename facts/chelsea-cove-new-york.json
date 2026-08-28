@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chelsea_Cove%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Chelsea_Cove%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chelsea_Cove%2C_New_York"
-    },
-    {
-      "id": 3,
-      "text": "Its geographic coordinates are 41.6132° N latitude and 73.7477° W longitude.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newyork.hometownlocator.com/ny/dutchess/chelsea-cove.cfm"
+      "source": "https://en.wikipedia.org/wiki/Chelsea_Cove%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chelsea-cove-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nordelch",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hudson_river_from_bear_mountain_bridge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Hillside Lake, New York"
+  }
 }

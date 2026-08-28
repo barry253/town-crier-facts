@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Fort Washington sits just 249 feet above sea level, giving it a mild, low‑lying climate.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Washington%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The town’s heart is the bustling City Center, where local shops, restaurants, and community events create a lively atmosphere.",
       "sourceSentenceIds": [
         13
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pana.ph/blog/fort-washington-guide-city-center-of-fort-washington-local-markets-hidden-gems"
+      "source": "https://pana.ph/blog/fort-washington-guide-city-center-of-fort-washington-local-markets-hidden-gems",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "A short stroll leads to Fort Washington Park, a green oasis perfect for morning jogs, picnics, or a quiet break from the city.",
       "sourceSentenceIds": [
         15
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pana.ph/blog/fort-washington-guide-city-center-of-fort-washington-local-markets-hidden-gems"
+      "source": "https://pana.ph/blog/fort-washington-guide-city-center-of-fort-washington-local-markets-hidden-gems",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Food lovers will enjoy the Local Market & Food Street, where fresh produce and authentic regional dishes await at every corner.",
       "sourceSentenceIds": [
         14
@@ -62,21 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pana.ph/blog/fort-washington-guide-city-center-of-fort-washington-local-markets-hidden-gems"
+      "source": "https://pana.ph/blog/fort-washington-guide-city-center-of-fort-washington-local-markets-hidden-gems",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
-      "text": "Residents enjoy a relatively mature community, with a median age of 45.1 years reflecting a balanced mix of families and retirees.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Washington%2C_California"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "The town’s public schools include Liberty Elementary, Kastner Intermediate, and Clovis West High, serving the local youth.",
       "sourceSentenceIds": [
         11
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Washington%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Fort_Washington%2C_California",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fort-washington-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Crd637",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KingsCanyonNP.JPG"
+  }
 }

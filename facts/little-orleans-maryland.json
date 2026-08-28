@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_Orleans%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Little_Orleans%2C_Maryland",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.riverexplorer.com/details.php?id=843"
+      "source": "https://www.riverexplorer.com/details.php?id=843",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.canaltrust.org/discoveryarea/little-orleans/"
+      "source": "https://www.canaltrust.org/discoveryarea/little-orleans/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_Orleans%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Little_Orleans%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Little_Orleans%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Little_Orleans%2C_Maryland",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.canaltrust.org/discoveryarea/little-orleans/"
+      "source": "https://www.canaltrust.org/discoveryarea/little-orleans/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/little-orleans-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.73,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bonnachoven",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Orleans_Maryland.jpg"
+  }
 }

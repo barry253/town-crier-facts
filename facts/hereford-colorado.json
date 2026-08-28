@@ -22,31 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Hereford sits at 40°58′30″N 104°18′19″W, right in the heart of Weld County, Colorado.",
-      "sourceSentenceIds": [
-        12,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hereford%2C_Colorado"
-    },
-    {
-      "id": 2,
-      "text": "The community rises to 5,270 feet above sea level, giving it a high‑altitude feel.",
-      "sourceSentenceIds": [
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/co/hereford-xx-weld-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The first documented mention of Hereford appears on a 1939 map, hinting at its early 20th‑century roots.",
       "sourceSentenceIds": [
         15
@@ -54,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/hereford-xx-weld-profile.htm"
+      "source": "https://roadsidethoughts.com/co/hereford-xx-weld-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Hereford is an unincorporated community, meaning it has no formal municipal government.",
       "sourceSentenceIds": [
         10
@@ -65,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hereford%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Hereford%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "A post office once served Hereford, linking this small community to the wider world.",
       "sourceSentenceIds": [
         11
@@ -76,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hereford%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Hereford%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Hereford’s name echoes the famous English cattle breed, though the town itself has no direct ranching heritage.",
       "sourceSentenceIds": [
         2
@@ -87,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/hereford-xx-weld-profile.htm"
+      "source": "https://roadsidethoughts.com/co/hereford-xx-weld-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hereford-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hereford,_Colorado.JPG"
+  }
 }

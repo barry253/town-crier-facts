@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "North Tustin borders the city of Tustin on three sides and Orange to the north.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tustinhistory.com/"
+      "source": "https://tustinhistory.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tustinca.org/833/Tustin-History"
+      "source": "https://www.tustinca.org/833/Tustin-History",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Tustin%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-tustin-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cal3165",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fairmont_in_NTustin.jpg"
+  }
 }

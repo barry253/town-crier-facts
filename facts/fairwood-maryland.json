@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Fairwood sits in Prince George's County, Maryland, at 38.9562° N, 76.7735° W, a classic suburban spot.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fairwood%2C_Maryland"
-    },
-    {
-      "id": 2,
-      "text": "The area first appeared as a census‑designated place in the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fairwood%2C_Maryland"
-    },
-    {
       "id": 3,
       "text": "Its neighborhoods were built on a historic parcel of land, offering picturesque views.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://fairwoodcommunity.org/"
+      "source": "https://fairwoodcommunity.org/",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -63,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://mdhistory.libraryhost.com/repositories/2/digital_objects/16885"
+      "source": "https://mdhistory.libraryhost.com/repositories/2/digital_objects/16885",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://fairwoodcommunity.org/"
+      "source": "https://fairwoodcommunity.org/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairwood%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Fairwood%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fairwood-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-04_15_06_33_View_north_along_Interstate_95_and_Interstate_495_(Capital_Beltway)_from_the_pedestrian_overpass_for_the_Woodrow_Wilson_Bridge_Trail_in_National_Harbor,_Prince_George%27s_County,_Maryland.jpg"
+  }
 }

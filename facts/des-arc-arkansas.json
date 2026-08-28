@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "unverified=['mcghee']"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,19 +88,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas"
-    },
-    {
-      "id": 6,
-      "text": "The town’s street grid follows an 1854 plan, with McNulty Street marking the northern edge and Barrier Street the southernmost east‑west street.",
-      "sourceSentenceIds": [
-        23,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Des_Arc%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/des-arc-arkansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brandonrush",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Des_Arc,_AR_014.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hendersonville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Hendersonville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "At 990 feet above sea level, Hendersonville enjoys a modest elevation typical of western Pennsylvania.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Hendersonville is part of Washington County, placing it within one of Pennsylvania’s oldest counties.",
       "sourceSentenceIds": [
         20
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Although Hendersonville shares its name with two other Pennsylvania communities, it remains the only one in Washington County.",
       "sourceSentenceIds": [
         1
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Early federal records list Hendersonville in both the FIPS‑55 and GNIS databases, confirming its official recognition.",
       "sourceSentenceIds": [
         4
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/hendersonville-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hendersonville-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_County_Courthouse_(Pennsylvania)_south.jpg"
+  }
 }

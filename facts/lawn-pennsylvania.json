@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Lawn%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/West_Lawn%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Lawn%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/West_Lawn%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "West Lawn sits at 40°19′43″N 75°59′40″W, or 40.328676, −75.994407 in latitude and longitude.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Lawn%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Lawn in 1846, marking the community’s early development.",
       "sourceSentenceIds": [
         22
@@ -62,21 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/lawn-xx-lebanon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lawn-xx-lebanon-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "Lawn rests 470 feet above sea level, giving it a modest elevation within Lebanon County.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/lawn-xx-lebanon-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "West Lawn is located in Lebanon County, Pennsylvania, in the central part of the state.",
       "sourceSentenceIds": [
         21
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/lawn-xx-lebanon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lawn-xx-lebanon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lawn-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.497,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penn_west_of_Woodside,_West_Lawn.jpg"
+  }
 }

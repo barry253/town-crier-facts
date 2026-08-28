@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gateway%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Gateway%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.blm.gov/visit/gateway"
+      "source": "https://www.blm.gov/visit/gateway",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.blm.gov/visit/gateway"
+      "source": "https://www.blm.gov/visit/gateway",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gateway%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Gateway%2C_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/gateway/"
+      "source": "https://www.uncovercolorado.com/towns/gateway/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gateway-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.8,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gateway,_Colorado.JPG"
+  }
 }

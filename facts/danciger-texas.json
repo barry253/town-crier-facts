@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +99,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Danciger%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/danciger-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn (talk). Original uploader was Billy Hathorn at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Bay_City,_TX_IMG_1041.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bay City, Texas"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mayo.md.us/"
+      "source": "https://www.mayo.md.us/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +97,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Mayo%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mayo-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Landsat/NASA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeakelandsat.jpeg"
+  }
 }

@@ -31,18 +31,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Bay%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "The village is part of the Peoria Metropolitan Statistical Area, linking it to a larger regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Bay%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Spring_Bay%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspringbay.org/"
+      "source": "https://www.villageofspringbay.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspringbay.org/"
+      "source": "https://www.villageofspringbay.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -75,7 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/village-spring-bay.html"
+      "source": "https://www.citydirectory.us/village-spring-bay.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +87,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofspringbay.org/"
+      "source": "https://www.villageofspringbay.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-bay-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ProfDEH",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Metamora-Courthouse-008.jpg"
+  }
 }

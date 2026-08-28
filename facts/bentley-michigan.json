@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The community sits at an elevation of 738 feet, or 225 meters, above sea level.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan"
-    },
-    {
-      "id": 4,
       "text": "Gibson Township, where Bentley is located, is part of Bay County and the Bay City Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         8,
@@ -63,7 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Gibson_Township%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bentley-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Notorious4life (talk) (Uploads)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gibson_Township,_Michigan.jpg"
+  }
 }

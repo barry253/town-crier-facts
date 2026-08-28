@@ -30,23 +30,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/barium_springs_north_carolina"
+      "source": "https://grokipedia.com/page/barium_springs_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "A health resort opened in the 1880s, and a mineral spa there led to the community’s renaming to Barium Springs.",
-      "sourceSentenceIds": [
-        10,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Barium_Springs%2C_North_Carolina"
-    },
-    {
-      "id": 3,
       "text": "The Presbyterian Orphans Home began in 1883 in Charlotte, moved to Barium Springs in 1891, and became the Barium Springs Home for Children.",
       "sourceSentenceIds": [
         14,
@@ -57,10 +46,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/barium_springs_north_carolina"
+      "source": "https://grokipedia.com/page/barium_springs_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The campus once housed a former resort hotel purchased from Davidson College, which served as the home’s original building.",
       "sourceSentenceIds": [
         14
@@ -68,19 +59,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/barium_springs_north_carolina"
-    },
-    {
-      "id": 5,
-      "text": "Barium Springs sits at about 948 feet elevation, roughly 7 miles northwest of Statesville, within the humid subtropical climate of the Piedmont.",
-      "sourceSentenceIds": [
-        18,
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/barium_springs_north_carolina"
+      "source": "https://grokipedia.com/page/barium_springs_north_carolina",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/barium-springs-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Upstateherd",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iredell_County_Courthouse_-_Statesville,_NC.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Iredell County, North Carolina"
+  }
 }

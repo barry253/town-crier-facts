@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Oaks Corners is a hamlet in Ontario County, New York in the United States.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oaks_Corners%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The community lies 4.7 miles north‑northwest of Geneva in western New York state.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oaks_Corners%2C_New_York"
-    },
-    {
       "id": 3,
       "text": "Jonathan Oaks erected a large framed public house in Oaks Corners in 1794.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.phelpsnyhistory.com/district-stories.html"
+      "source": "https://www.phelpsnyhistory.com/district-stories.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.phelpsnyhistory.com/district-stories.html"
+      "source": "https://www.phelpsnyhistory.com/district-stories.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.phelpsnyhistory.com/district-stories.html"
+      "source": "https://www.phelpsnyhistory.com/district-stories.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +72,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.phelpsnyhistory.com/district-stories.html"
+      "source": "https://www.phelpsnyhistory.com/district-stories.html",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oaks-corners-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Case",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ontario_County_Courthouse,_Canandaigua,_NY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Ontario County, New York"
+  }
 }

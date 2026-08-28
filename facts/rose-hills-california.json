@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rose Hills sits at 518 feet above sea level in the heart of California.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The CDP lies entirely within the grounds of Rose Hills Memorial Park.",
       "sourceSentenceIds": [
         2
@@ -40,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Rose Hills is a census‑designated place that is part of unincorporated Whittier.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "Rio Hondo College, a community college, is located within Rose Hills.",
       "sourceSentenceIds": [
         20
@@ -62,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Homeowner vacancy in Rose Hills is just 0.2 percent, reflecting a tight housing market.",
       "sourceSentenceIds": [
         9
@@ -73,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Rental vacancy in Rose Hills is 0.0 percent, indicating all rental units are occupied.",
       "sourceSentenceIds": [
         9
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rose-hills-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.256,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech . It is in the public domain in the United States.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg"
+  }
 }

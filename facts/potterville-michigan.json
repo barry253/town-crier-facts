@@ -33,23 +33,12 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://pottervillemi.org/"
+      "source": "https://pottervillemi.org/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town was named after Linus Potter, the original settler who arrived in 1844.",
-      "sourceSentenceIds": [
-        4,
-        3
-      ],
-      "sourceLabels": [
-        "Web source 2",
-        "Wikipedia"
-      ],
-      "source": "https://99wfmk.com/potterville-michigan-1881-2020s/"
-    },
-    {
-      "id": 3,
       "text": "In 1881 Potterville incorporated as a village within Benton Township, later becoming a city in 1962.",
       "sourceSentenceIds": [
         27
@@ -57,10 +46,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Potterville%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Potterville%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The railroad was routed through Potterville thanks to James Potter’s efforts, helping the town grow.",
       "sourceSentenceIds": [
         6
@@ -68,10 +59,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Potterville%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Potterville%2C_Michigan",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Potterville’s historic downtown and four parks make it a charming place for residents and visitors alike.",
       "sourceSentenceIds": [
         8
@@ -79,7 +72,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pottervillemi.org/"
+      "source": "https://pottervillemi.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/potterville-michigan.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Whaldude",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eaton_MI_Density.png"
+  }
 }

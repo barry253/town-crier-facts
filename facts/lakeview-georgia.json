@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lakeview began in 1925 as a planned community built around Lake Winnepesaukah.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia"
-    },
-    {
-      "id": 2,
       "text": "The Lake Winnie amusement park sits inside Lakeview’s limits, offering rides and a historic carousel.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "A typical visit to Lakeview lasts one to two days, giving enough time to explore the lake and local shops.",
       "sourceSentenceIds": [
         24
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.triphobo.com/places/lakeview-georgia-united-states"
+      "source": "https://www.triphobo.com/places/lakeview-georgia-united-states",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Lakeview is part of the Chattanooga, TN–GA Metropolitan Statistical Area, linking it to a larger regional community.",
       "sourceSentenceIds": [
         4
@@ -62,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
-      "text": "Lakeview’s coordinates place it at 34°58'42\" North, 85°15'26\" West, right in the heart of Georgia’s foothills.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Lakeview’s origins as a lake‑side planned community make it a unique example of early 20th‑century suburban development.",
       "sourceSentenceIds": [
         5
@@ -84,7 +70,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Lakeview%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakeview-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "KudzuVine",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catoosa_County_Courthouse,_Ringgold,_Georgia.JPG"
+  }
 }

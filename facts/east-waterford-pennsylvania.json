@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "East Waterford sits at 40°22′14″N 77°36′15″W in southwestern Juniata County in the rolling hills of Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Waterford%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "Pennsylvania Route 75 cuts through East Waterford, linking it to Port Royal and Doylesburg.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Waterford%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Waterford%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Tuscarora Creek, a tributary of the Juniata River, borders East Waterford to the north.",
       "sourceSentenceIds": [
         7
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Waterford%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Waterford%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "East Waterford’s post office began operating in 1828, marking the town’s early communication link.",
       "sourceSentenceIds": [
         28
@@ -62,21 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-waterford-xx-juniata-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/east-waterford-xx-juniata-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "The community sits 620 feet above sea level, offering gentle elevations typical of the region.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/east-waterford-xx-juniata-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "East Waterford is highlighted on a commemorative Pennsylvania quarter, celebrating the state’s heritage.",
       "sourceSentenceIds": [
         26
@@ -84,7 +69,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-waterford-xx-juniata-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/east-waterford-xx-juniata-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-waterford-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dough4872",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juniata_River_west_of_PA_103.jpeg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Juniata River"
+  }
 }

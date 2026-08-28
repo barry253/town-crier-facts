@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lee Mont sits just 13 feet above sea level, a detail noted in its Wikipedia entry.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lee_Mont%2C_Virginia"
-    },
-    {
-      "id": 2,
       "text": "Historical records show Lee Mont’s 1895 community had a post office or railroad service, highlighting its early connectivity.",
       "sourceSentenceIds": [
         2
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/lee-mont-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/lee-mont-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The town’s name appears in both the FIPS‑55 and GNIS databases, confirming its official geographic recognition.",
       "sourceSentenceIds": [
         1
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/lee-mont-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/lee-mont-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Every year, Hometown Heroes honors Lee Mont residents who served in the armed forces, celebrating their courage and sacrifice.",
       "sourceSentenceIds": [
         27,
@@ -65,10 +60,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/va/lee_mont/50089"
+      "source": "https://hellonation.com/mag/va/lee_mont/50089",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Lee Mont’s farmer markets overflow with fresh produce and handcrafted goods, offering a taste of the region’s agricultural bounty.",
       "sourceSentenceIds": [
         15
@@ -76,10 +73,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/va/lee_mont/50089"
+      "source": "https://hellonation.com/mag/va/lee_mont/50089",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Lee Mont’s scenic landscapes and tree‑lined streets provide a tranquil backdrop for leisurely strolls and outdoor adventures.",
       "sourceSentenceIds": [
         12
@@ -87,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/va/lee_mont/50089"
+      "source": "https://hellonation.com/mag/va/lee_mont/50089",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lee-mont-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
+  }
 }

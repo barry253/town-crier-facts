@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lochsloy sits at 48°3′25″N 122°1′56″W on Highway 92 between Lake Stevens and Granite Falls.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lochsloy%2C_Washington"
-    },
-    {
-      "id": 2,
       "text": "The community lies within Snohomish County, which observes Pacific Standard Time year‑round.",
       "sourceSentenceIds": [
         11
@@ -40,21 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://washington.hometownlocator.com/wa/snohomish/lochsloy.cfm"
+      "source": "https://washington.hometownlocator.com/wa/snohomish/lochsloy.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
-      "text": "In 2024, median household income in Lochsloy reached $104,492, up from $52,375 in 2000.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.city-data.com/city/Lochsloy-Washington.html"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "The median value of a home or condo in Lochsloy hit $645,094 in 2024, compared to $185,500 in 2000.",
       "sourceSentenceIds": [
         30
@@ -62,29 +43,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Lochsloy-Washington.html"
-    },
-    {
-      "id": 5,
-      "text": "Average household size in Lochsloy is 2.89 people, while families average 3.20 members.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lochsloy%2C_Washington"
-    },
-    {
-      "id": 6,
-      "text": "The per capita income in 2024 is estimated at $45,475, nearly double the 2000 figure of $23,770.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.city-data.com/city/Lochsloy-Washington.html"
+      "source": "https://www.city-data.com/city/Lochsloy-Washington.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lochsloy-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  }
 }

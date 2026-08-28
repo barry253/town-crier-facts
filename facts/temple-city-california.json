@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Temple_City%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Temple_City%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.templecityca.gov/243/History"
+      "source": "https://www.templecityca.gov/243/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,7 +64,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Temple_City%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Temple_City%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -73,7 +79,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.templecityca.gov/243/History"
+      "source": "https://www.templecityca.gov/243/History",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -84,7 +92,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.templecityca.gov/243/History"
+      "source": "https://www.templecityca.gov/243/History",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -95,7 +106,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.templecityca.gov/243/History"
+      "source": "https://www.templecityca.gov/243/History",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/temple-city-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.328,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Deusexes",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Temple_City_Park.jpg"
+  }
 }

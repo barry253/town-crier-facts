@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "Carbon is part of the Terre Haute Metropolitan Statistical Area, linking it to a larger region.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Carbon%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofcarbon.com/"
+      "source": "https://townofcarbon.com/",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-carbon-indiana.html"
+      "source": "https://www.citydirectory.us/town-carbon-indiana.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carbon-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "William Eccles",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_County_Courthouse,_Brazil.jpg"
+  }
 }

@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/carrizo-hill-tx"
-    },
-    {
-      "id": 2,
-      "text": "Carrizo Hill is located at 28°30′12″N 99°49′40″W (28.503386, -99.827670).",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carrizo_Hill%2C_Texas"
+      "source": "https://www.tshaonline.org/handbook/entries/carrizo-hill-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.texasalmanac.com/places/carrizo-0"
+      "source": "https://www.texasalmanac.com/places/carrizo-0",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carrizo_Hill%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Carrizo_Hill%2C_Texas",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carrizo-hill-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dimmit_County,_TX,_Courthouse_IMG_1701.JPG"
+  }
 }

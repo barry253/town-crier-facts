@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/humptulips-xx-grays-harbor-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/humptulips-xx-grays-harbor-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Humptulips%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Humptulips%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://en-academic.com/dic.nsf/enwiki/95025"
+      "source": "https://en-academic.com/dic.nsf/enwiki/95025",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Humptulips%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Humptulips%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/humptulips-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SchmuckyTheCat at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Entering_Humptulips.jpg"
+  }
 }

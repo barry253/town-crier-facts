@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Obernburg%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Obernburg%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Obernburg%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Obernburg%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Obernburg sits at 1,650 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The earliest documented reference to Obernburg appears in an 1895 atlas, though its founding date is unknown.",
       "sourceSentenceIds": [
         18
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "A dedicated cemetery list for the area provides overhead views of local burial sites.",
       "sourceSentenceIds": [
         26,
@@ -74,10 +72,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Obernburg is noted in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -85,7 +86,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/obernburg-xx-sullivan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Kauneonga Lake, New York"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/obernburg-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Eric Richards",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shallow_Stream_in_Rock_Hill,_NY.jpg"
+  }
 }

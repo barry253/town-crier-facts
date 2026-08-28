@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/woodruff_arizona"
+      "source": "https://grokipedia.com/page/woodruff_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/woodruff_arizona"
+      "source": "https://grokipedia.com/page/woodruff_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,22 +59,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/woodruff_arizona"
+      "source": "https://grokipedia.com/page/woodruff_arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Woodruff’s elevation averages 5,151 feet, giving it a high‑altitude desert climate with cold winters and hot summers.",
-      "sourceSentenceIds": [
-        22,
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/woodruff_arizona"
-    },
-    {
-      "id": 5,
       "text": "Annual precipitation averages about 10 inches, mostly during July‑September monsoon thunderstorms that bring brief but intense rains.",
       "sourceSentenceIds": [
         24
@@ -78,10 +72,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/woodruff_arizona"
+      "source": "https://grokipedia.com/page/woodruff_arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Woodruff is located 10.5 miles southeast of Holbrook, placing it within the Colorado Plateau’s remote, rural setting.",
       "sourceSentenceIds": [
         14,
@@ -91,7 +87,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodruff%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Woodruff%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodruff-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jackson, William Henry, 1843-1942, photographer; Detroit Photographic Co., publisher",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thanksgiving_dance,_Oraibi,_Arizona_LCCN2017658704.jpg"
+  }
 }

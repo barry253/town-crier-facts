@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Greenacres,_California"
+      "source": "https://kids.kiddle.co/Greenacres,_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_green-acres"
+      "source": "https://www.trawellino.com/destinations/united-states/california_green-acres",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Green Acres sits at an elevation of 1,555 feet (474 m) above sea level.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Green_Acres%2C_California"
-    },
-    {
-      "id": 4,
       "text": "The town enjoys a long day, with sunrise at 8:55 am and sunset at 7:34 pm.",
       "sourceSentenceIds": [
         1
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_green-acres"
+      "source": "https://www.trawellino.com/destinations/united-states/california_green-acres",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "All of Green Acres’ 0.5 sq mi is land; there are no lakes or rivers within its borders.",
       "sourceSentenceIds": [
         19
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Greenacres,_California"
+      "source": "https://kids.kiddle.co/Greenacres,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The average household in Green Acres holds almost three people, reflecting its family‑friendly character.",
       "sourceSentenceIds": [
         27
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Greenacres,_California"
+      "source": "https://kids.kiddle.co/Greenacres,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/green-acres-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pf1127",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canyon_Lake_City_Hall.jpg"
+  }
 }

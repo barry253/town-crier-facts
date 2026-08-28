@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Oak%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/White_Oak%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Oak%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/White_Oak%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Oak%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/White_Oak%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -65,7 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/White_Oak,_Ohio"
+      "source": "https://kids.kiddle.co/White_Oak,_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -76,7 +87,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/white-oak-25446"
+      "source": "https://www.wisdomlib.org/cities/white-oak-25446",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +100,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/white-oak-25446"
+      "source": "https://www.wisdomlib.org/cities/white-oak-25446",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/white-oak-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Warren LeMay from Chicago, IL, United States",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg"
+  }
 }

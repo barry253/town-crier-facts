@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dover_Hill%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Dover_Hill%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Dover_Hill,_Indiana"
+      "source": "https://kids.kiddle.co/Dover_Hill,_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dover_Hill%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Dover_Hill%2C_Indiana",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,21 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dover_Hill%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Dover_Hill%2C_Indiana",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Dover Hill rises 660 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/dover-hill-xx-martin-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "An 1895 atlas lists Dover Hill among the communities in its area.",
       "sourceSentenceIds": [
         27
@@ -88,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/dover-hill-xx-martin-profile.htm"
+      "source": "https://roadsidethoughts.com/in/dover-hill-xx-martin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dover-hill-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Charles Edward",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martin_County_Indiana_Courthouse.jpg"
+  }
 }

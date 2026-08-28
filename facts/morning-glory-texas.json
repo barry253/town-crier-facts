@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arcsphere.blog/morning-glory-texas-history-community-growth"
+      "source": "https://arcsphere.blog/morning-glory-texas-history-community-growth",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arcsphere.blog/morning-glory-texas-history-community-growth"
+      "source": "https://arcsphere.blog/morning-glory-texas-history-community-growth",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Morning_Glory%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "The town’s coordinates are 31.5701 N, 106.2158 W, placing it just west of the Rio Grande.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/el-paso/morning-glory.cfm"
+      "source": "https://en.wikipedia.org/wiki/Morning_Glory%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/el-paso/morning-glory.cfm"
+      "source": "https://texas.hometownlocator.com/tx/el-paso/morning-glory.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arcsphere.blog/morning-glory-texas-history-community-growth"
+      "source": "https://arcsphere.blog/morning-glory-texas-history-community-growth",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/morning-glory-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  }
 }

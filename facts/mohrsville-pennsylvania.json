@@ -32,7 +32,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/"
+      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mohrsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mohrsville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +61,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/"
+      "source": "https://www.readingeagle.com/2020/08/24/berks-places-mohrsville-defies-boundaries-and-thrived-as-a-railroad-station-stop/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mohrsville-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.24,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmstead_in_winter,_Windsor_Township,_Berks_County,_Pennsylvania.jpg"
+  }
 }

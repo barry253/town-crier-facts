@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +59,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Peace_Valley%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +85,15 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/peace-valley-xx-howell-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Peace Valley sits at an elevation of 870 feet above sea level, a typical height for the surrounding hills.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/peace-valley-xx-howell-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/peace-valley-xx-howell-profile.htm",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/peace-valley-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

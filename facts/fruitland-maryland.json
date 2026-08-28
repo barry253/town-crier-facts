@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityoffruitland.com/how_do_i_/learn_about_find/history.php"
+      "source": "https://www.cityoffruitland.com/how_do_i_/learn_about_find/history.php",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Fruitland City Hall now sits on the very spot that once marked Disharoon’s Cross Roads, preserving the town’s original crossroads.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.cityoffruitland.com/how_do_i_/learn_about_find/history.php"
-    },
-    {
-      "id": 4,
       "text": "Until 1867 the village straddled Somerset and Worcester Counties, making it politically split until Wicomico County was created.",
       "sourceSentenceIds": [
         7,
@@ -66,10 +59,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Fruitland’s humid subtropical climate brings evenly distributed rainfall and warm summers, a hallmark of the Mid‑Atlantic.",
       "sourceSentenceIds": [
         28
@@ -77,7 +72,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Fruitland%2C_Maryland",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fruitland-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Blueman33",
+    "license": "CC-BY-SA-3.0",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Fruitland_intermediate_school.jpg"
+  }
 }

@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit"
+      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit"
+      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Banks_Lake_South%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Banks_Lake_South%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -67,7 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit"
+      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -79,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit"
+      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +102,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit"
+      "source": "https://wdfw.wa.gov/places-to-go/wildlife-areas/banks-lake-wildlife-area-unit",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/banks-lake-south-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.32,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Williamborg",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grand-Coulee-Steamboat-RockPB110055.JPG"
+  }
 }

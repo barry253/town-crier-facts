@@ -25,7 +25,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Canaveral_Groves%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/West_Canaveral_Groves%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -37,7 +40,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/"
+      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -48,7 +54,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/"
+      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -59,7 +67,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/"
+      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -71,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/"
+      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -82,7 +96,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/"
+      "source": "https://cocoabeachinsider.com/2023/04/21/canaveral-groves-living-in-cocoa-florida/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Barefoot Bay, Florida"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-canaveral-groves-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titusville,_FL,_Courthouse,_Brevard_County,_08-07-2010_(5).JPG"
+  }
 }

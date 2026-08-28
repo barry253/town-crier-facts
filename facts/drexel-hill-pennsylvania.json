@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Drexel_Hill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Drexel_Hill%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Drexel_Hill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Drexel_Hill%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Drexel_Hill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Drexel_Hill%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.upperdarby.org/ExperienceUpperDarby"
+      "source": "https://www.upperdarby.org/ExperienceUpperDarby",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/drexel-hill-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "User:Smallbones on English Wikipedia.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LowerSwedishCabin.JPG"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delong%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Delong%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/delong-xx-fulton-profile.htm"
+      "source": "https://roadsidethoughts.com/in/delong-xx-fulton-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Delong sits 730 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/delong-xx-fulton-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Delong is an unincorporated community within Aubbeenaubbee Township, Fulton County, Indiana in the heart of rural Indiana.",
       "sourceSentenceIds": [
         7
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delong%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Delong%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community appears in historical records such as the 1895 atlas, indicating its long‑standing presence.",
       "sourceSentenceIds": [
         25
@@ -73,18 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/delong-xx-fulton-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Delong’s coordinates are still being verified, hinting at the need for precise mapping.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/delong-xx-fulton-profile.htm"
+      "source": "https://roadsidethoughts.com/in/delong-xx-fulton-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/delong-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Derek Jensen (Tysto)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fulton_County_Courthouse_in_Rochester.jpg"
+  }
 }

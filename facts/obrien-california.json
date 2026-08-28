@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "O'Brien is an unincorporated community in Shasta County, California.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The town sits along Interstate 5, about 16 miles north of Redding.",
       "sourceSentenceIds": [
         13
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California"
+      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "O'Brien was named after Con O'Brien, who once ran a resort in the area.",
       "sourceSentenceIds": [
         1,
@@ -53,10 +45,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California"
+      "source": "https://en.wikipedia.org/wiki/O'Brien%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community was officially established in 1945.",
       "sourceSentenceIds": [
         16
@@ -64,18 +58,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "O'Brien sits 1,230 feet above sea level.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/o-brien-xx-shasta-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/obrien-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Astronomy1",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_River_Mills_Airport.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Fall River Mills, California"
+  }
 }

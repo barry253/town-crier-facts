@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.trawellino.com/destinations/greece/attica_agios-dimitrios"
+      "source": "https://www.trawellino.com/destinations/greece/attica_agios-dimitrios",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios"
+      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios"
+      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios"
+      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios"
+      "source": "https://en.wikipedia.org/wiki/Agios_Dimitrios",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/agios-dimitrios-attica.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.379,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dimorsitanos",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bouliagmenis-agios-dimitrios.jpg"
+  }
 }

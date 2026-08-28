@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hartland%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "In the Public Land Survey System, Hartland lies near the midpoint between Sections 22 and 23 of Township 45 North, Range 6 East.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hartland%2C_Illinois"
-    },
-    {
-      "id": 3,
       "text": "The town’s post office began serving residents in 1839, long before many nearby communities were established.",
       "sourceSentenceIds": [
         18
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/hartland-xx-mchenry-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hartland-xx-mchenry-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Hartland Township’s administrative hub is located on Nelson Road in Woodstock, where residents attend monthly board meetings.",
       "sourceSentenceIds": [
         11,
@@ -63,21 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hartlandtownshipil.org/about/"
+      "source": "https://hartlandtownshipil.org/about/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
-      "text": "The community sits 920 feet above sea level, giving it a modest elevation compared to surrounding Illinois terrain.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/hartland-xx-mchenry-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Hartland’s historic center is served by the Woodstock 60098 post office, linking the small community to the larger region.",
       "sourceSentenceIds": [
         9
@@ -85,7 +70,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hartland%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hartland-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cosmo1976",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crystal_Lake_01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Crystal Lake, Illinois"
+  }
 }

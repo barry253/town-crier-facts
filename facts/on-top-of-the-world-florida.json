@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/On_Top_of_the_World%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/On_Top_of_the_World%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html"
+      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html"
+      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html"
+      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,19 +84,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html"
-    },
-    {
-      "id": 6,
-      "text": "The median age in On Top of the World is 72.5 years, with over 80% of residents aged 65 or older, reflecting its status as a 55+ retirement community.",
-      "sourceSentenceIds": [
-        10,
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/On_Top_of_the_World%2C_Florida"
+      "source": "https://www.florida-backroads-travel.com/on-top-of-the-world-ocala-florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/on-top-of-the-world-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_East_Lake_Weir_post_office01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "East Lake Weir, Florida"
+  }
 }

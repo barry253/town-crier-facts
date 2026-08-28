@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.triphobo.com/places/eulonia-georgia-united-states"
+      "source": "https://www.triphobo.com/places/eulonia-georgia-united-states",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ga/eulonia-xx-mcintosh-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/eulonia-xx-mcintosh-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +86,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +100,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Eulonia%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eulonia-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jud McCranie",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eulonia,_GA,_US.jpg"
+  }
 }

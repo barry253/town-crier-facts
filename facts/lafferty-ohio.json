@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lafferty%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lafferty%2C_Ohio",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lafferty%2C_Ohio"
-    },
-    {
-      "id": 3,
-      "text": "The town’s primary coordinate point is 40.1117° N latitude and –81.0193° W longitude in Belmont County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://ohio.hometownlocator.com/oh/belmont/lafferty.cfm"
+      "source": "https://en.wikipedia.org/wiki/Lafferty%2C_Ohio",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ohio.hometownlocator.com/oh/belmont/lafferty.cfm"
+      "source": "https://ohio.hometownlocator.com/oh/belmont/lafferty.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +70,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/lafferty-xx-belmont-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/lafferty-xx-belmont-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lafferty-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Roseohioresident",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lafferty,_Ohio_Post_Office_43951.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/11th_arrondissement_of_Paris"
+      "source": "https://en.wikipedia.org/wiki/11th_arrondissement_of_Paris",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/11th_arrondissement_of_Paris"
+      "source": "https://en.wikipedia.org/wiki/11th_arrondissement_of_Paris",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://culturetravel.com/11th-arrondissement-paris/"
+      "source": "https://culturetravel.com/11th-arrondissement-paris/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://culturetravel.com/11th-arrondissement-paris/"
+      "source": "https://culturetravel.com/11th-arrondissement-paris/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://culturetravel.com/11th-arrondissement-paris/"
+      "source": "https://culturetravel.com/11th-arrondissement-paris/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://frenchmoments.eu/eleventh-arrondissement-of-paris/"
+      "source": "https://frenchmoments.eu/eleventh-arrondissement-of-paris/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/11th-arrondissement-ile-de-france.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.475,
+    "y": 0.543
+  },
+  "imageAttribution": {
+    "author": "DXR",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cirque_d%27hiver,_Paris_11e,_Southwest_view_20140316_1.jpg"
+  }
 }

@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenwood%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Glenwood%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -42,21 +45,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm"
+      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community sits 520 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Glenwood appears in the 1895 atlas as a community that had either a post office or railroad service.",
       "sourceSentenceIds": [
         4
@@ -64,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm"
+      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Three Maryland communities share the name Glenwood, including those in Harford and Howard counties.",
       "sourceSentenceIds": [
         1,
@@ -77,10 +73,13 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm"
+      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town is listed in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         3
@@ -88,7 +87,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm"
+      "source": "https://roadsidethoughts.com/md/glenwood-xx-howard-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glenwood-maryland.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-06-12_12_35_54_View_east_along_Maryland_State_Route_138_(Troyer_Road)_entering_Harford_County,_Maryland_from_Baltimore_County,_Maryland.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cadyville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Cadyville%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dec.ny.gov/places/cadyville-state-forest"
+      "source": "https://dec.ny.gov/places/cadyville-state-forest",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dec.ny.gov/places/cadyville-state-forest"
+      "source": "https://dec.ny.gov/places/cadyville-state-forest",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dec.ny.gov/places/cadyville-state-forest"
+      "source": "https://dec.ny.gov/places/cadyville-state-forest",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,7 +86,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dec.ny.gov/places/cadyville-state-forest"
+      "source": "https://dec.ny.gov/places/cadyville-state-forest",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +100,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dec.ny.gov/places/cadyville-state-forest"
+      "source": "https://dec.ny.gov/places/cadyville-state-forest",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cadyville-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.44,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mwanner",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saranac_River_north_of_Saranac_Lake,_NY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Saranac River"
+  }
 }

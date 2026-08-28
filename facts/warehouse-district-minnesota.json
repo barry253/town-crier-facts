@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "The Minneapolis Warehouse Historic District, roughly bounded by 1st Ave N and 6th St N, reflects the city’s early commercial and industrial development.",
+      "text": "The Minneapolis Warehouse Historic District, roughly bounded by 1st Avenue N and 6th St N, reflects the city’s early commercial and industrial development.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.minneapolismn.gov/resident-services/property-housing/preservation/landmarks-districts/historic-districts/warehouse/"
+      "source": "https://www.minneapolismn.gov/resident-services/property-housing/preservation/landmarks-districts/historic-districts/warehouse/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.minneapolismn.gov/resident-services/property-housing/preservation/landmarks-districts/historic-districts/warehouse/"
+      "source": "https://www.minneapolismn.gov/resident-services/property-housing/preservation/landmarks-districts/historic-districts/warehouse/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "At its peak, the Wyman Building at 400 First Ave N housed more than twenty contemporary art galleries.",
+      "text": "At its peak, the Wyman Building at 400 First Avenue N housed more than twenty contemporary art galleries.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis"
+      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis"
+      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis"
+      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis"
+      "source": "https://en.wikipedia.org/wiki/North_Loop%2C_Minneapolis",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/warehouse-district-minnesota.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "User:Mulad",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Minneapolis_Warehouse_District.jpg"
+  }
 }

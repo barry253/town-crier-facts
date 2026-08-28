@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Redwood sits on Cottonwood Creek along Farm Road 1978, about 17 miles north of Seguin.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/redwood-tx"
-    },
-    {
       "id": 2,
       "text": "A post office operated in Redwood from 1895 until 1906.",
       "sourceSentenceIds": [
@@ -40,18 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/redwood-tx"
-    },
-    {
-      "id": 3,
-      "text": "Redwood is part of the San Antonio Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Redwood%2C_Texas"
+      "source": "https://www.tshaonline.org/handbook/entries/redwood-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_redwood"
-    },
-    {
-      "id": 5,
-      "text": "Web source 2 highlights a quick set of cultural, historical, and surprising details that make Redwood feel memorable before you visit.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.trawellino.com/destinations/united-states/texas_redwood"
+      "source": "https://www.trawellino.com/destinations/united-states/texas_redwood",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,5 +58,11 @@
       ],
       "source": "https://www.tshaonline.org/handbook/entries/redwood-tx"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/redwood-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

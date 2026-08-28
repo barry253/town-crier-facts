@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barling%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Barling%2C_Arkansas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ar/barling-xx-sebastian-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/barling-xx-sebastian-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Barling sits 400 feet above sea level, giving it a modest elevation within Sebastian County.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ar/barling-xx-sebastian-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Incorporated in 1956, Barling joined the Fort Smith metropolitan area.",
       "sourceSentenceIds": [
         9,
@@ -64,10 +58,12 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barling%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Barling%2C_Arkansas",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community is the county’s third‑most populous, reflecting its growth since the 19th century.",
       "sourceSentenceIds": [
         29
@@ -75,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ar/barling-xx-sebastian-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/barling-xx-sebastian-profile.htm",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Barling is part of the Fort Smith, Arkansas‑Oklahoma Metropolitan Statistical Area, linking it to a larger regional identity.",
       "sourceSentenceIds": [
         8
@@ -86,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barling%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Barling%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/barling-arkansas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Troy Jarrell troyjarrell",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fort_Smith,_United_States_(Unsplash).jpg"
+  }
 }

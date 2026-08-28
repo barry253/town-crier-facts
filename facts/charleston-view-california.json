@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +84,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Charleston_View%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +97,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.inyocounty.us/services/planning-department/long-range-projects-plans-and-studies/community-plans-charleston-view"
+      "source": "https://www.inyocounty.us/services/planning-department/long-range-projects-plans-and-studies/community-plans-charleston-view",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/charleston-view-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Geographer (talk · contribs)",
+    "license": "CC BY 1.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Whitney_2003-03-25.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Inyo County, California"
+  }
 }

@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://birminghamuk.com/2026/01/07/alum-rock/"
+      "source": "https://birminghamuk.com/2026/01/07/alum-rock/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham"
+      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townandvillageguide.com/West_Midlands/Alum_Rock.html"
-    },
-    {
-      "id": 4,
-      "text": "Alum Rock Road runs roughly three kilometres from Saltley Gate to Railway Bridge, cutting through several neighbourhoods.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham"
+      "source": "https://www.townandvillageguide.com/West_Midlands/Alum_Rock.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham"
+      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham"
+      "source": "https://en.wikipedia.org/wiki/Alum_Rock%2C_Birmingham",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alum-rock-england.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.492,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Eaak79",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alum_Rock_Road_Saltely_Birmingham.jpg"
+  }
 }

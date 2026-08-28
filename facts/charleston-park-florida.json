@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://charlestonparkcc.org/history/"
+      "source": "https://charlestonparkcc.org/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://charlestonparkcc.org/history/"
+      "source": "https://charlestonparkcc.org/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Railroad Ave was the only illuminated path, lit by the nearby railroad tracks that ran through the area.",
+      "text": "Railroad Avenue was the only illuminated path, lit by the nearby railroad tracks that ran through the area.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://charlestonparkcc.org/history/"
+      "source": "https://charlestonparkcc.org/history/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_Park%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Charleston_Park%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,18 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Charleston_Park%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "The primary coordinate point for Charleston Park is latitude 26.7056, longitude –81.5804 in Lee County.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/lee/charleston-park.cfm"
+      "source": "https://en.wikipedia.org/wiki/Charleston_Park%2C_Florida",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/charleston-park-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ecomerford",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Base_Operations_at_Page_Field.jpg"
+  }
 }

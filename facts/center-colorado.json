@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Center%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Center%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Center%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Center%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits at an elevation of 7,644 feet in Rio Grande County.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.uncovercolorado.com/towns/center/"
-    },
-    {
-      "id": 4,
       "text": "Center is a quiet south central Colorado town with a small historic district.",
       "sourceSentenceIds": [
         18
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/center/"
+      "source": "https://www.uncovercolorado.com/towns/center/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "It’s the agricultural center of the San Luis Valley for local farmers.",
       "sourceSentenceIds": [
         19
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/center/"
+      "source": "https://www.uncovercolorado.com/towns/center/",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/center-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Center,_Colorado.JPG"
+  }
 }

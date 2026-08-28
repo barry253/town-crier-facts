@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Vidal,_California"
+      "source": "https://grokipedia.com/page/Vidal,_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 812 feet above sea level, just two miles north of the Riverside County line.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Vidal lies 38 miles north of Blythe and 55 miles south of Needles along U.S. Route 95.",
       "sourceSentenceIds": [
         15
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 1979 a Santa Fe Railway train derailed 17 cars two miles west of Vidal, a notable rail incident.",
       "sourceSentenceIds": [
         20
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Summers in Vidal are virtually rainless, with July average highs reaching 108°F, while the Colorado River offers a slight moderating effect.",
       "sourceSentenceIds": [
         1,
@@ -75,10 +70,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Vidal,_California"
+      "source": "https://grokipedia.com/page/Vidal,_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The highest temperature ever recorded in Vidal was 127°F in 1905, the hottest in California history.",
       "sourceSentenceIds": [
         22
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Vidal%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vidal-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Marine 69-71",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:California-Vidal-Wyatt_Earp_and_Josephine_Sarah_Marcus_Cottage-5.jpg"
+  }
 }

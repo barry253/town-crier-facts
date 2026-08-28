@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/sumner-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/sumner-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/sumner_texas"
+      "source": "https://grokipedia.com/page/sumner_texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,21 +61,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sumner%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sumner%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The landscape around Sumner is flat to gently rolling, with elevations between 400 and 635 feet above sea level.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/sumner_texas"
-    },
-    {
-      "id": 5,
       "text": "Sumner experiences a humid subtropical climate, featuring hot, humid summers and mild winters.",
       "sourceSentenceIds": [
         23
@@ -79,10 +75,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/sumner_texas"
+      "source": "https://grokipedia.com/page/sumner_texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Sumner sits 12 miles west of Paris on Farm Road 79, placing it in northwestern Lamar County.",
       "sourceSentenceIds": [
         25,
@@ -92,7 +91,25 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sumner%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sumner%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sumner-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lamar_courthouse_tx_2010.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lamar County, Texas"
+  }
 }

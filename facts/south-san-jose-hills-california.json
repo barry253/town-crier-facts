@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "South San Jose Hills is bordered by City of Industry to the south, La Puente to the west, West Covina to the north, and Walnut to the east.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/South_San_Jose_Hills%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -75,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-san-jose-hills-26967"
+      "source": "https://www.wisdomlib.org/cities/south-san-jose-hills-26967",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/south-san-jose-hills-26967"
+      "source": "https://www.wisdomlib.org/cities/south-san-jose-hills-26967",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-san-jose-hills-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.811,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_looking_ENE_toward_City_of_Industry_and_South_San_Jose_Hills,_CA_-_02_(cropped).jpg"
+  }
 }

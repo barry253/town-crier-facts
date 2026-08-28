@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shenandoahfarms.org/history/"
+      "source": "https://shenandoahfarms.org/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shenandoah_Farms%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Shenandoah_Farms%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shenandoahfarms.org/history/"
+      "source": "https://shenandoahfarms.org/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shenandoahfarms.org/history/"
+      "source": "https://shenandoahfarms.org/history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shenandoahfarms.org/history/"
+      "source": "https://shenandoahfarms.org/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +96,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://shenandoahfarms.org/history/"
+      "source": "https://shenandoahfarms.org/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shenandoah-farms-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Arbogastlw at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Ridge1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Blue Ridge Mountain"
+  }
 }

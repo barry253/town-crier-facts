@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nettle_Lake%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Nettle_Lake%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The lake sits 950 feet above sea level, giving it a modest elevation for the region.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/nettle-lake-xx-williams-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Four low earthen mounds, the Nettle Lake Mound Group, overlook a stream that feeds the lake.",
       "sourceSentenceIds": [
         6
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/nettle_lake_ohio"
+      "source": "https://grokipedia.com/page/nettle_lake_ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Those mounds were built by the Hopewell people between about 200 BCE and 500 CE.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/nettle_lake_ohio"
+      "source": "https://grokipedia.com/page/nettle_lake_ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Nettle Lake lies just one mile south of Michigan, four miles east of Indiana, and 13 miles northwest of Montpelier.",
       "sourceSentenceIds": [
         9
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nettle_Lake%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Nettle_Lake%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A post office opened in Nettle Lake in 1851, marking the community’s early development.",
       "sourceSentenceIds": [
         14
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/nettle-lake-xx-williams-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/nettle-lake-xx-williams-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nettle-lake-ohio.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.13,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NOAA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A1.23188.1851.LakeErie.143.250m.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Erie"
+  }
 }

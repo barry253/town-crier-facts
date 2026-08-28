@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://digital-desert.com/hinkley-ca/"
+      "source": "https://digital-desert.com/hinkley-ca/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://digital-desert.com/hinkley-ca/"
+      "source": "https://digital-desert.com/hinkley-ca/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +90,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hinkley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hinkley-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.631,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "(VOA/C. Richard)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HINKLEY_school_VOA.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grapeviewwa.com/about-gca/history-grapeview-gca/"
+      "source": "https://grapeviewwa.com/about-gca/history-grapeview-gca/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://beckdc.com/historical-places-in-grapeview/"
+      "source": "https://beckdc.com/historical-places-in-grapeview/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://beckdc.com/historical-places-in-grapeview/"
+      "source": "https://beckdc.com/historical-places-in-grapeview/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grapeviewwa.com/about-gca/history-grapeview-gca/"
+      "source": "https://grapeviewwa.com/about-gca/history-grapeview-gca/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grapeviewwa.com/about-gca/history-grapeview-gca/"
+      "source": "https://grapeviewwa.com/about-gca/history-grapeview-gca/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grapeview-washington.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ian Poellet",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mason_County_Courthouse_-_Shelton_Washington.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Mason County, Washington"
+  }
 }

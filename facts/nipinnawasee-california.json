@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Nipinnawasee was named around 1908 by Edgar B. and the name was accepted by the Post Office in 1915.",
+      "text": "Nipinnawasee was named around 1908 by Edgar B. Landon and the name was accepted by the Post Office in 1915.",
       "sourceSentenceIds": [
         1,
         8
@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community sits 1 mile southeast of Miami Mountain in the Sierra Nevada, 14 miles southeast of Mariposa, at 2,930 feet elevation.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California"
-    },
-    {
-      "id": 5,
       "text": "California State Route 49 is the main road that runs through Nipinnawasee.",
       "sourceSentenceIds": [
         12
@@ -74,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Peterson Creek, a south‑flowing tributary of the Fresno River, drains the Nipinnawasee area.",
       "sourceSentenceIds": [
         13
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nipinnawasee%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nipinnawasee-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.229,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Guywelch2000",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nipinnawasee.jpg"
+  }
 }

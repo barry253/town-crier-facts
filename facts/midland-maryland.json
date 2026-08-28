@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Midland sits 1,600 feet above sea level, overlooking the Georges Creek Valley.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland"
-    },
-    {
-      "id": 4,
       "text": "MD 936, the old alignment of MD 36, runs through Midland, echoing its early transportation history.",
       "sourceSentenceIds": [
         26
@@ -64,21 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "Midland is part of the Cumberland, MD‑WV Metropolitan Statistical Area, linking it to a larger regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Paradise Run and Neff's Run channel rain from Dan's Mountain eastward into Georges Creek, shaping Midland's watershed.",
       "sourceSentenceIds": [
         7
@@ -86,7 +70,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Midland%2C_Maryland",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/midland-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-05-17_15_26_47_View_north_along_Maryland_State_Route_36_(New_Georges_Creek_Road-Main_Street)_at_Maryland_State_Route_936_(Church_Street)_in_Midland,_Allegany_County,_Maryland.jpg"
+  }
 }

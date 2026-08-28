@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Esmond%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Esmond%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
-      "text": "Esmond sits at 42°02′01″N 88°56′08″W, about 42.0336°N, –88.9357°W.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Esmond%2C_Illinois"
-    },
-    {
-      "id": 3,
       "text": "The town’s post office opened in 1887, marking its early establishment.",
       "sourceSentenceIds": [
         11
@@ -51,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm"
+      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Esmond lies 820 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "The pronunciation is “EZ-muhnd,” a detail locals often note.",
       "sourceSentenceIds": [
         11
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm"
+      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "In 1895, Esmond was noted for having a post office and railroad service.",
       "sourceSentenceIds": [
         4
@@ -84,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm"
+      "source": "https://roadsidethoughts.com/il/esmond-xx-dekalb-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/esmond-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andy McMurray",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esmond5.jpg"
+  }
 }

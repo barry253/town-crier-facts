@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island"
+      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island"
+      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +63,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island"
+      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,7 +78,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island"
+      "source": "https://en.wikipedia.org/wiki/Brackley_Beach%2C_Prince_Edward_Island",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -84,7 +92,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tourismpei.com/what-to-do/beaches-parks/brackley-beach-pei-national-park"
+      "source": "https://www.tourismpei.com/what-to-do/beaches-parks/brackley-beach-pei-national-park",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -96,7 +106,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tourismpei.com/what-to-do/beaches-parks/brackley-beach-pei-national-park"
+      "source": "https://www.tourismpei.com/what-to-do/beaches-parks/brackley-beach-pei-national-park",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Clyde River, Prince Edward Island"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brackley-beach-prince-edward-island.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.64,
+    "y": 0.5
+  }
 }

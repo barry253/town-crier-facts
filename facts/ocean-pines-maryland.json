@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,22 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The community hosts the largest concentration of retirees on the Eastern Shore, with a median age of 58.4 years.",
-      "sourceSentenceIds": [
-        13,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ocean_Pines%2C_Maryland"
-    },
-    {
-      "id": 6,
       "text": "In 2021, a history panel in Ocean Pines gathered long‑time residents to discuss the development’s founding during Worcester County History Week.",
       "sourceSentenceIds": [
         4,
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://baysideoc.net/pines-history-panel-delves-into-developments-founding/"
+      "source": "https://baysideoc.net/pines-history-panel-delves-into-developments-founding/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ocean-pines-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.421,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bwave at English Wikipedia",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SalisburySign.jpg"
+  }
 }

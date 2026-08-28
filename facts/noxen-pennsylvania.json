@@ -27,7 +27,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Noxen%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Noxen%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -38,21 +41,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Noxen rests 980 feet above sea level, offering gentle hills typical of the Wyoming County landscape.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "In 1895, records show Noxen had both a post office and railroad service, linking it to regional trade.",
       "sourceSentenceIds": [
         2
@@ -60,10 +54,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community’s name appears in FIPS‑55 and GNIS databases, confirming its status as a recognized place.",
       "sourceSentenceIds": [
         1
@@ -71,10 +67,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A 1895 atlas lists Noxen among nearby communities, illustrating its long‑standing presence in the area.",
       "sourceSentenceIds": [
         18
@@ -82,7 +81,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/noxen-xx-wyoming-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/noxen-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.664,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Street_in_Noxen,_Pennsylvania.JPG"
+  }
 }

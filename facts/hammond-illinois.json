@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hammond%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hammond%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://villageofhammond.com/about-us"
+      "source": "https://villageofhammond.com/about-us",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hammond%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Hammond%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -66,23 +73,13 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://villageofhammond.com/about-us"
+      "source": "https://villageofhammond.com/about-us",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Hammond is a small village located in Piatt County.",
-      "sourceSentenceIds": [
-        12,
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://villageofhammond.com/about-us"
-    },
-    {
-      "id": 6,
       "text": "Hammond is in central Illinois.",
       "sourceSentenceIds": [
         12,
@@ -92,7 +89,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://villageofhammond.com/about-us"
+      "source": "https://villageofhammond.com/about-us",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hammond-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.688,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hammond_Illinois_Post_Office.jpg"
+  }
 }

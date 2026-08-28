@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://richesmi.cah.ucf.edu/omeka/items/show/1032"
+      "source": "https://richesmi.cah.ucf.edu/omeka/items/show/1032",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://richesmi.cah.ucf.edu/omeka/items/show/1032"
+      "source": "https://richesmi.cah.ucf.edu/omeka/items/show/1032",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.paradiseparcels.com/the-dirt/-a-locals-guide-to-georgetown-fl-where-quiet-living-meets-river-life"
+      "source": "https://www.paradiseparcels.com/the-dirt/-a-locals-guide-to-georgetown-fl-where-quiet-living-meets-river-life",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "Georgetown’s elevation is only 23 feet above sea level in the Florida Panhandle.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Georgetown%2C_Florida"
-    },
-    {
-      "id": 6,
       "text": "Quiet streets in Georgetown feature mossy oaks and frog sounds instead of traffic.",
       "sourceSentenceIds": [
         24
@@ -85,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.paradiseparcels.com/the-dirt/-a-locals-guide-to-georgetown-fl-where-quiet-living-meets-river-life"
+      "source": "https://www.paradiseparcels.com/the-dirt/-a-locals-guide-to-georgetown-fl-where-quiet-living-meets-river-life",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/georgetown-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "TampAGS, for AGS Media",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_George_Channel.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake George (Florida)"
+  }
 }

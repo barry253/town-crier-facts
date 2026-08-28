@@ -22,30 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Los Minerales sits at 27°39′20″N 99°37′4″W, a spot in Webb County on the South Texas Plains.",
-      "sourceSentenceIds": [
-        5,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The census‑designated place covers 1.1 square miles, all land, making it a compact colonia community.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas"
-    },
-    {
-      "id": 3,
       "text": "Los Minerales is officially a colonia, a term used for unincorporated settlements lacking full municipal services.",
       "sourceSentenceIds": [
         4
@@ -53,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
-      "text": "The community rises 430 feet above sea level, giving it a modest elevation compared to surrounding plains.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tx/los-minerales-xx-webb-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "Children in Los Minerales attend Julia Bird Jones Muller Elementary, George Washington Middle, and United High School.",
       "sourceSentenceIds": [
         7
@@ -75,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "Webb County’s designated community college is Laredo Community College, the nearest higher‑education option for residents.",
       "sourceSentenceIds": [
         8
@@ -86,7 +57,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Los_Minerales%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/los-minerales-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

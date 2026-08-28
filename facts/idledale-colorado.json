@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.uncovercolorado.com/towns/idledale/"
+      "source": "https://www.uncovercolorado.com/towns/idledale/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Idledale%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Idledale%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/idledale/"
+      "source": "https://www.uncovercolorado.com/towns/idledale/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Idledale%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Idledale%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -77,7 +86,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.uncovercolorado.com/towns/idledale/"
+      "source": "https://www.uncovercolorado.com/towns/idledale/",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -89,7 +101,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/idledale/"
+      "source": "https://www.uncovercolorado.com/towns/idledale/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/idledale-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idledale,_Colorado.JPG"
+  }
 }

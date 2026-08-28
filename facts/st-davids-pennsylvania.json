@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "St. Davids lies within Radnor Township, Delaware County, at an elevation of 351 feet above sea level.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://dbpedia.org/page/St._Davids%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
       "text": "Eastern University’s main campus is located in St. Davids, offering a four‑year liberal arts education.",
       "sourceSentenceIds": [
         19
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town is part of the affluent Philadelphia Main Line suburbs, a region known for its historic estates and tree‑lined streets.",
       "sourceSentenceIds": [
         5
@@ -75,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/St._Davids%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/st-davids-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Lucius Kwok",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Davids_Station_Pennsylvania.jpg"
+  }
 }

@@ -28,7 +28,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carbonate%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Carbonate%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Carbonate,_Colorado"
+      "source": "https://grokipedia.com/page/Carbonate,_Colorado",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carbonate%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Carbonate%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Carbonate,_Colorado"
+      "source": "https://grokipedia.com/page/Carbonate,_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Carbonate,_Colorado"
+      "source": "https://grokipedia.com/page/Carbonate,_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +101,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Carbonate,_Colorado"
+      "source": "https://grokipedia.com/page/Carbonate,_Colorado",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carbonate-colorado.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Carol M. Highsmith",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Garfield_County_Courthouse_and_county_office_building_in_Glenwood_Springs,_Colorado_LCCN2015633571.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Garfield County, Colorado"
+  }
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Schlusser sits at 40°14′19″N 77°11′1″W, right where North Middleton and Middlesex townships meet.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Conodoguinet Creek, a tributary of the Susquehanna River, winds through Schlusser’s center, giving the area a gentle waterway charm.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_schlusser"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_schlusser",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Schlusser%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/schlusser-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Calzarette (talk) (Uploads)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Mountain_Ridge_(Pennsylvania).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Blue Mountain (Pennsylvania)"
+  }
 }

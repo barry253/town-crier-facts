@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,30 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida"
-    },
-    {
-      "id": 4,
-      "text": "The main entrance to the original development is marked by a waterfall on Spring Hill Drive beside U.S. Route 19.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "Spring Hill is bordered to the west by U.S. 19, known locally as Commercial Way, and to the north by State Road 50, Cortez Boulevard.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Spring_Hill%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-hill-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DanTD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Spring_Hill,_Florida_Gateway_@_US_19.jpg"
+  }
 }

@@ -31,7 +31,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county"
+      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county"
+      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county"
+      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county"
+      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county"
+      "source": "https://www.tshaonline.org/handbook/entries/votaw-tx-hardin-county",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +98,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Votaw%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Votaw%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/votaw-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.57,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicolas Henderson from Coppell, Texas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sour_Lake,_Texas_(2014).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Sour Lake, Texas"
+  }
 }

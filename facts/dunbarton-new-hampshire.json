@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town’s highest spot rises to 925 feet above sea level near Route 13 north of Dunbarton Center.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire"
-    },
-    {
-      "id": 4,
       "text": "A 1791 stone enclosure in Dunbarton still stands as a relic of colonial livestock management.",
       "sourceSentenceIds": [
         10
@@ -63,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://localnh.com/towns/dunbarton"
+      "source": "https://localnh.com/towns/dunbarton",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Remnants of William Stinson’s mills, including stacked boulder foundations, are visible from a wooden footbridge in the town.",
       "sourceSentenceIds": [
         9
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://localnh.com/towns/dunbarton"
+      "source": "https://localnh.com/towns/dunbarton",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Dunbarton claims to host New England’s geographic center, a point calculated by Boston University in 2008.",
       "sourceSentenceIds": [
         18
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Dunbarton%2C_New_Hampshire",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dunbarton-new-hampshire.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.632,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ascended Dreamer",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunbarton_NH_4-21-26.jpg"
+  }
 }

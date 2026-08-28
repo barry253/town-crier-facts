@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/%C3%98sterbro"
+      "source": "https://en.wikipedia.org/wiki/%C3%98sterbro",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitdenmark.com/denmark/plan-your-trip/osterbro-gdk957757"
+      "source": "https://www.visitdenmark.com/denmark/plan-your-trip/osterbro-gdk957757",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Copenhagen/%C3%98sterbro"
+      "source": "https://en.wikivoyage.org/wiki/Copenhagen/%C3%98sterbro",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitdenmark.com/denmark/plan-your-trip/osterbro-gdk957757"
+      "source": "https://www.visitdenmark.com/denmark/plan-your-trip/osterbro-gdk957757",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitdenmark.com/denmark/plan-your-trip/osterbro-gdk957757"
+      "source": "https://www.visitdenmark.com/denmark/plan-your-trip/osterbro-gdk957757",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Copenhagen/%C3%98sterbro"
+      "source": "https://en.wikivoyage.org/wiki/Copenhagen/%C3%98sterbro",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sterbro-copenhagen.jpg",
+  "imageSource": "wikipedia_international",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Froztbyte",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oesterbro_Stadion_tribune.jpg"
+  }
 }

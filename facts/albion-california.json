@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Albion%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Albion%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Albion%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Albion%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Albion sits 174 feet above sea level, offering a gentle rise from the Pacific coast.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Albion%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Albion Ridge Road stretches east from town center, with side roads labeled from B through Q.",
       "sourceSentenceIds": [
         7,
@@ -63,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Albion%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Albion%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Schooner's Landing Museum preserves Albion's maritime heritage, showcasing artifacts from the region's seafaring past.",
       "sourceSentenceIds": [
         27
@@ -74,10 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Albion_(California)"
+      "source": "https://en.wikivoyage.org/wiki/Albion_(California)",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Quiet Meadow Cottage, a 13‑acre garden and meadow retreat, sits 1.5 miles from downtown Albion on a dead‑end paved road.",
       "sourceSentenceIds": [
         30
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://en.wikivoyage.org/wiki/Albion_(California)"
+      "source": "https://en.wikivoyage.org/wiki/Albion_(California)",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/albion-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Robert Hsiao",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albion_Head,_Albion_Bridge,_Town_of_Albion_CA.png"
+  }
 }

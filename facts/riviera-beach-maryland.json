@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riviera_Beach%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Riviera_Beach%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riviera_Beach%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Riviera_Beach%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rbia.communitysite.com/p/History-of-the-Beach"
+      "source": "https://rbia.communitysite.com/p/History-of-the-Beach",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riviera_Beach%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Riviera_Beach%2C_Maryland",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.oceancity.com/"
+      "source": "https://www.oceancity.com/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/riviera-beach-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-25_10_11_16_View_north_along_Interstate_97_(Robert_Crain_Highway)_from_the_overpass_for_Benfield_Boulevard_on_the_edge_of_Gambrills_and_Severna_Park_in_Anne_Arundel_County,_Maryland.jpg"
+  }
 }

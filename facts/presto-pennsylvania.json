@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Presto%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Presto%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Presto%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Presto%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Presto%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Presto%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/presto-xx-allegheny-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/presto-xx-allegheny-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Presto sits 820 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/presto-xx-allegheny-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Two other U.S. communities share the name Presto—one in Idaho and one in Utah.",
       "sourceSentenceIds": [
         1
@@ -84,7 +84,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/presto-xx-allegheny-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/presto-xx-allegheny-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/presto-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joshua Fry and Peter Jefferson",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kitfry-1-.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chartiers Creek"
+  }
 }

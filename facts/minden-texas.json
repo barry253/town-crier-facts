@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/minden-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/minden-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Farm to Market Road 1798 runs through Minden, linking it 12 miles southeast of Henderson.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas",
+      "category": "transport",
+      "quality": "good",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Minden%2C_Texas",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/minden-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henderson_July_2017_33_(Rusk_County_Courthouse).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Rusk County, Texas"
+  }
 }

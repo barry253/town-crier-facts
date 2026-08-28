@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lampe%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Lampe%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lampe%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Lampe%2C_Missouri",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lampe%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Lampe%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,21 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/lampe-xx-stone-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/lampe-xx-stone-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Lampe rises to about 1,300 feet above sea level, typical of the Ozark highlands.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/lampe-xx-stone-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Lampe is nestled in the scenic Missouri Ozarks, a region known for its rugged hills and clear streams.",
       "sourceSentenceIds": [
         9
@@ -84,7 +84,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/lampe-xx-stone-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/lampe-xx-stone-profile.htm",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lampe-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

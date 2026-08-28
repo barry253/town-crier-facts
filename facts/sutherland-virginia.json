@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sutherland%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Sutherland%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/sutherland_virginia"
+      "source": "https://grokipedia.com/page/sutherland_virginia",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sutherland-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cecouchman",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DinwiddieCountyCourthouse_9855.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Dinwiddie County, Virginia"
+  }
 }

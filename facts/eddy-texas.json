@@ -31,7 +31,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://bruceville-eddy.org/history"
+      "source": "https://bruceville-eddy.org/history",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -46,7 +49,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -59,7 +65,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eddy-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruceville-Eddy_First_National_Bank_Wiki-1.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/nason"
+      "source": "https://www.mapsof.net/nason",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nason%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Nason%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "At 430 feet above sea level, Nason enjoys a modest elevation typical of southern Illinois.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Pronounced “NAY‑suhn,” the name Nason reflects local pronunciation traditions.",
       "sourceSentenceIds": [
         26
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Nason is the ninth‑most populous community in Jefferson County, a ranking that highlights its regional significance.",
       "sourceSentenceIds": [
         28
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/il/nason-xx-jefferson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nason-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author or not provided",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photograph_of_Big_Muddy_River_-_NARA_-_2129041.jpg"
+  }
 }

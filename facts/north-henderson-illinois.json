@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Henderson%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/North_Henderson%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,21 +45,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm"
+      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "North Henderson rises 770 feet above sea level, giving it a modest elevation compared to surrounding Illinois terrain.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "It is the county’s 11th‑most populous community, reflecting its steady growth since the mid‑1800s.",
       "sourceSentenceIds": [
         23
@@ -64,10 +58,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm"
+      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Locals pronounce the name as HEN‑der‑suhn, a detail often noted by visitors and residents alike.",
       "sourceSentenceIds": [
         21
@@ -75,10 +72,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm"
+      "source": "https://roadsidethoughts.com/il/north-henderson-xx-mercer-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "North Henderson is officially classified as a village, a designation it shares with many small communities across Illinois.",
       "sourceSentenceIds": [
         6
@@ -86,7 +86,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Henderson%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/North_Henderson%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-henderson-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.34,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Boscophotos",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercer_County_Courthouse_Image.jpeg"
+  }
 }

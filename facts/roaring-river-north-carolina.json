@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The community sits 970 feet above sea level, giving it a modest hilltop setting.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/nc/roaring-river-xx-wilkes-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Roaring River in 1874, marking the town’s early development.",
       "sourceSentenceIds": [
         24
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/roaring-river-xx-wilkes-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/roaring-river-xx-wilkes-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Roaring River is a tributary of the Yadkin River, contributing to the region’s watershed.",
       "sourceSentenceIds": [
         8
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "A Tyson Company plant operates in the area, reflecting the town’s industrial presence.",
       "sourceSentenceIds": [
         5
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The village’s economy has long been rooted in agriculture, a tradition that still shapes local life.",
       "sourceSentenceIds": [
         9
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Roaring_River%2C_North_Carolina",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Moravian Falls, North Carolina"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roaring-river-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Upstateherd",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilkes_County_Courthouse_1.jpg"
+  }
 }

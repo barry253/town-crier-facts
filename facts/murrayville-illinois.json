@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murrayville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murrayville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm"
+      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "At 670 feet above sea level, Murrayville enjoys a modest elevation within the Illinois plains.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Murrayville ranks as the county’s sixth‑most populous community, reflecting its modest growth.",
       "sourceSentenceIds": [
         21
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm"
+      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Locals pronounce the name MUHR‑ray‑vil, a distinctive phonetic twist on the common “Murray.”.",
       "sourceSentenceIds": [
         19
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm"
+      "source": "https://roadsidethoughts.com/il/murrayville-xx-morgan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The village is part of the Jacksonville Micropolitan Statistical Area, linking it to a broader regional economy.",
       "sourceSentenceIds": [
         7
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murrayville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murrayville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/murrayville-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morgan_County_Courthouse,_Jacksonville.jpg"
+  }
 }

@@ -35,36 +35,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/JF_Villarreal%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/JF_Villarreal%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 26°25′12″N 98°58′44″W, right on the Texas‑Mexico border in Starr County.",
-      "sourceSentenceIds": [
-        2,
-        20,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/JF_Villarreal%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Every resident identifies as Hispanic or Latino, giving JF Villarreal a 100 % Hispanic/Latino population.",
-      "sourceSentenceIds": [
-        27,
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/JF_Villarreal,_Texas"
-    },
-    {
-      "id": 4,
       "text": "Earthquake activity around JF Villarreal is significantly below the Texas state average, making seismic events rare here.",
       "sourceSentenceIds": [
         1
@@ -72,29 +48,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/JF-Villarreal-Texas.html"
-    },
-    {
-      "id": 5,
-      "text": "The median age in JF Villarreal is 23.8 years, noticeably younger than Texas’s median of 35.9 years.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/JF-Villarreal-Texas.html"
-    },
-    {
-      "id": 6,
-      "text": "JF Villarreal first appeared as a census‑designated place in the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/JF_Villarreal,_Texas"
+      "source": "https://www.city-data.com/city/JF-Villarreal-Texas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

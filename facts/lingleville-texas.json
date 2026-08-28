@@ -32,7 +32,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.texasalmanac.com/places/lingleville"
+      "source": "https://www.texasalmanac.com/places/lingleville",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +61,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +76,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -82,7 +92,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -94,7 +107,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lingleville%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lingleville-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.607,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lingleville_Tabernacle_Wiki_(1_of_1).jpg"
+  }
 }

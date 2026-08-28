@@ -29,23 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The community sits 640 feet (195 meters) above sea level.",
-      "sourceSentenceIds": [
-        10,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois"
-    },
-    {
-      "id": 3,
       "text": "On September 2, 1983, a Baltimore and Ohio Railroad train derailed in Murdock, sparking a fire.",
       "sourceSentenceIds": [
         3,
@@ -57,10 +47,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The fire ignited liquefied petroleum gas tanks, producing two massive boiling liquid expanding vapor explosions.",
       "sourceSentenceIds": [
         11,
@@ -72,10 +64,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The first explosion hurled a tanker car 3,630 feet (1,110 meters) into the surrounding wilderness.",
       "sourceSentenceIds": [
         12,
@@ -85,10 +79,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Video footage of the incident was broadcast worldwide, bringing unexpected attention to this small Illinois community.",
       "sourceSentenceIds": [
         7,
@@ -98,7 +94,24 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Murdock%2C_Illinois",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/murdock-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.8,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Douglas_County_Illinois_Courthouse_Monument.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Douglas County, Illinois"
+  }
 }

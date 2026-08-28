@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,22 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community lies at 42°5′36″N 73°56′5″W, placing it in the eastern part of the Town of Saugerties.",
-      "sourceSentenceIds": [
-        3,
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York"
-    },
-    {
-      "id": 4,
       "text": "The area hosts 174 housing units, averaging 342.7 per square mile.",
       "sourceSentenceIds": [
         5
@@ -64,22 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
-      "text": "The median age of residents is 36 years, with an average household size of 2.70.",
-      "sourceSentenceIds": [
-        8,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Saugerties High School serves the Malden community as its zoned comprehensive high school.",
       "sourceSentenceIds": [
         12
@@ -87,7 +70,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Malden%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/malden-on-hudson-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.5
+  }
 }

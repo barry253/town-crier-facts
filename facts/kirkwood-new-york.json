@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofkirkwood.gov/town-history.php"
+      "source": "https://townofkirkwood.gov/town-history.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22073"
+      "source": "https://museumsdatabase.com/museums/view/22073",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kirkwood%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Kirkwood%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kirkwood-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.373,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Infrarrojo00",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_of_Kirkwood_NY_Locator_Map.png"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntsdale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntsdale%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntsdale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntsdale%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Huntsdale sits 590 feet above sea level, giving it a mild hilltop view of Boone County.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/huntsdale-xx-boone-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Though small, Huntsdale ranks as Boone County’s 10th most populous community.",
       "sourceSentenceIds": [
         23
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/huntsdale-xx-boone-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/huntsdale-xx-boone-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Huntsdale is part of the Columbia, Missouri Metropolitan Statistical Area, linking it to the regional hub.",
       "sourceSentenceIds": [
         11
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntsdale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntsdale%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The village’s original post office opened in 1892, marking the start of its formal community services.",
       "sourceSentenceIds": [
         21
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/huntsdale-xx-boone-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/huntsdale-xx-boone-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/huntsdale-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Americasroof at en.wikipedia",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mkt-bridge1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Katy Trail State Park"
+  }
 }

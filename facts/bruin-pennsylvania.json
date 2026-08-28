@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruin%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Bruin%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruin%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Bruin%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruin%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Bruin%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.butlereagle.com/20241008/personalities-work-ethic-drive-history-of-bruin-parker-township/"
+      "source": "https://www.butlereagle.com/20241008/personalities-work-ethic-drive-history-of-bruin-parker-township/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.butlereagle.com/20241008/personalities-work-ethic-drive-history-of-bruin-parker-township/"
+      "source": "https://www.butlereagle.com/20241008/personalities-work-ethic-drive-history-of-bruin-parker-township/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.butlereagle.com/20241008/personalities-work-ethic-drive-history-of-bruin-parker-township/"
+      "source": "https://www.butlereagle.com/20241008/personalities-work-ethic-drive-history-of-bruin-parker-township/",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bruin-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_near_Firehouse_in_Bruin.jpg"
+  }
 }

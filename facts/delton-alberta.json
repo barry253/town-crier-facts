@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,29 +43,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The Delton Community League, founded in 1961, maintains a community hall and outdoor rink at 88 St and 123 Ave.",
+      "text": "The Delton Community League, founded in 1961, maintains a community hall and outdoor rink at 88 St and 123 Avenue.",
       "sourceSentenceIds": [
         27
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton"
-    },
-    {
-      "id": 4,
-      "text": "Delton is bounded by the CN Railway tracks to the north, 97 Street to the west, 86 Street to the east, and 122 Avenue to the south.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Delton%2C_Edmonton",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.alberta.ca/historic-sites-museums"
+      "source": "https://www.alberta.ca/historic-sites-museums",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.alberta.ca/historic-sites-museums"
+      "source": "https://www.alberta.ca/historic-sites-museums",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/delton-alberta.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kiyoteru Awaji",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Lake_Area,_Edmonton.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big Lake, Edmonton"
+  }
 }

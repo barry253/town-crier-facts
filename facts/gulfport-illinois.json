@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://mississippivalleytraveler.com/gulfport/"
+      "source": "https://mississippivalleytraveler.com/gulfport/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://mississippivalleytraveler.com/gulfport/"
+      "source": "https://mississippivalleytraveler.com/gulfport/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -86,7 +98,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Gulfport%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gulfport-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Lpangelrob at English Wikipedia",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Burlington,_Iowa_Riverfront_at_Night.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virginia_State_Route_231"
+      "source": "https://en.wikipedia.org/wiki/Virginia_State_Route_231",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.etlan.com/"
+      "source": "https://www.etlan.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/etlan-xx-madison-profile.htm"
+      "source": "https://roadsidethoughts.com/va/etlan-xx-madison-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.etlan.com/"
+      "source": "https://www.etlan.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +85,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/etlan-xx-madison-profile.htm"
+      "source": "https://roadsidethoughts.com/va/etlan-xx-madison-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +99,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.etlan.com/"
+      "source": "https://www.etlan.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/etlan-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-07-21_13_16_25_View_north_along_Virginia_State_Route_231_(Blue_Ridge_Turnpike)_just_north_of_U.S._Route_29_Business_(Main_Street)_just_north_of_Madison,_Madison_County,_Virginia.jpg"
+  }
 }

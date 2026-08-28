@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Helm%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Helm%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -48,7 +50,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Helm%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Helm%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -63,21 +67,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Helm%2C_California"
-    },
-    {
-      "id": 4,
-      "text": "The unincorporated community sits 13 miles south of Kerman at an elevation of 187 feet (57 meters).",
-      "sourceSentenceIds": [
-        13,
-        18,
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Helm%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Helm%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -91,7 +83,25 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Helm%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Helm%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/helm-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Duanerh",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntington_Lake_from_Kaiser_Peak.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Huntington Lake, California"
+  }
 }

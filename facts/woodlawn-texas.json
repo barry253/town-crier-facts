@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodlawn%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Woodlawn%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodlawn%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Woodlawn%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/woodlawn-tx",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodlawn-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.64,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marshall_October_2016_29_(Harrison_County_Courthouse).jpg"
+  }
 }

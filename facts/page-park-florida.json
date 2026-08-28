@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Page Park, officially Westchester, sits within the Miami metropolitan area of South Florida.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
-    },
-    {
-      "id": 2,
-      "text": "The community lies just ten miles west of downtown Miami, a quick drive across the city.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
-    },
-    {
       "id": 3,
       "text": "Before 2010, the western half of what is now Westchester was its own CDP called University Park.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +69,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Westchester%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/page-park-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.516,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Averette",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westchester_sign.jpg"
+  }
 }

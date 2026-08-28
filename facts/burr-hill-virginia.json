@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burr_Hill%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Burr_Hill%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burr_Hill%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Burr_Hill%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm"
+      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town sits 270 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Burr Hill is catalogued in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         3
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm"
+      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical records show Burr Hill existed in 1895, with documentation of its post office or railroad service.",
       "sourceSentenceIds": [
         4
@@ -84,7 +84,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm"
+      "source": "https://roadsidethoughts.com/va/burr-hill-xx-orange-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/burr-hill-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JohnnyReb67",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_of_the_Woods_Entrance.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake of the Woods, Virginia"
+  }
 }

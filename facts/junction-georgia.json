@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,18 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia"
-    },
-    {
-      "id": 6,
-      "text": "Its geographic coordinates are 32°36′11″N 84°27′29″W (32.603083, –84.458190).",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/junction-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rivers Langley; SaveRivers",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Junction_City,_GA.jpg"
+  }
 }

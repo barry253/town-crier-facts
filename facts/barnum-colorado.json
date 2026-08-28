@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barnum%2C_Denver"
+      "source": "https://en.wikipedia.org/wiki/Barnum%2C_Denver",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barnum%2C_Denver"
+      "source": "https://en.wikipedia.org/wiki/Barnum%2C_Denver",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,18 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://extremecommunitymakeover.org/barnum/"
-    },
-    {
-      "id": 4,
-      "text": "The neighborhood is bounded by Sixth Avenue Freeway to the north, Federal Boulevard to the east, Alameda Avenue to the south, and Perry Street to the west.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Barnum%2C_Denver"
+      "source": "https://extremecommunitymakeover.org/barnum/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://history.denverlibrary.org/neighborhood-history-guide/barnum-neighborhood-history"
+      "source": "https://history.denverlibrary.org/neighborhood-history-guide/barnum-neighborhood-history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://history.denverlibrary.org/neighborhood-history-guide/barnum-neighborhood-history"
+      "source": "https://history.denverlibrary.org/neighborhood-history-guide/barnum-neighborhood-history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/barnum-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.499,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BarnumDenver.JPG"
+  }
 }

@@ -33,7 +33,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php"
+      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -46,7 +49,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php"
+      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php"
+      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +76,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php"
+      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,19 +89,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php"
-    },
-    {
-      "id": 6,
-      "text": "Though surrounded by San Antonio, Shavano Park’s terrain remains flat to gently rolling, with elevations between 950 and 1,000 feet above sea level.",
-      "sourceSentenceIds": [
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Shavano_Park%2C_Texas"
+      "source": "https://www.shavanoparktx.gov/residents/about_the_city.php",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shavano-park-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.86,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pismo~commonswiki",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canyon_Lake_TX_wide.JPG"
+  }
 }

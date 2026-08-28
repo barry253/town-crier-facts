@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Stonybrook sits at 39°58′48″N 76°37′54″W in Springettsbury Township, just east of York.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stonybrook%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town observes Eastern Time, switching to daylight saving in the summer months.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm"
-    },
-    {
       "id": 3,
       "text": "Sunrise in Stonybrook is around 6:33 am, while sunset comes close to 8:42 pm, giving a 14‑hour daylight span.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_stonybrook"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_stonybrook",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_stonybrook"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_stonybrook",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/stonybrook-xx-bucks-profile.htm",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stonybrook-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skabat169",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Countryside_in_York_County_PA.jpg"
+  }
 }

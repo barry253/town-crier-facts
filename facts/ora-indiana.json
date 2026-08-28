@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ora%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Ora%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ora%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Ora%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +58,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ora%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Ora%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The town rests 710 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/ora-xx-starke-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Ora is one of twelve U.S. communities that share its name, found in states like Alabama, California, and Texas.",
       "sourceSentenceIds": [
         1
@@ -75,10 +72,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/ora-xx-starke-profile.htm"
+      "source": "https://roadsidethoughts.com/in/ora-xx-starke-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Located within Starke County, Ora is part of the broader North Bend Township area.",
       "sourceSentenceIds": [
         10
@@ -86,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/ora-xx-starke-profile.htm"
+      "source": "https://roadsidethoughts.com/in/ora-xx-starke-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ora-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.817,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Light",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ora_9522.jpg"
+  }
 }

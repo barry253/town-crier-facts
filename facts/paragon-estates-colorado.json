@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paragon_Estates%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Paragon_Estates%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paragon_Estates%2C_Colorado"
-    },
-    {
-      "id": 3,
-      "text": "Its geographic coordinates are 39.9819 latitude and –105.1747 longitude.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/boulder/paragon-estates.cfm"
+      "source": "https://en.wikipedia.org/wiki/Paragon_Estates%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paragon_Estates%2C_Colorado"
-    },
-    {
-      "id": 5,
-      "text": "As a census-designated place, Paragon Estates has no governmental functions.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/boulder/paragon-estates.cfm"
+      "source": "https://en.wikipedia.org/wiki/Paragon_Estates%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colorado.hometownlocator.com/co/boulder/paragon-estates.cfm"
+      "source": "https://colorado.hometownlocator.com/co/boulder/paragon-estates.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/paragon-estates-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.796,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mikepascoe",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paragon_Estates_open-space_path_at_Vaquero_Drive_with_Flatirons,_Boulder_County,_Colorado,_USA_-_2025.jpg"
+  }
 }

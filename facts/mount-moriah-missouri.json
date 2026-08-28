@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,18 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri"
-    },
-    {
-      "id": 5,
-      "text": "Mount Moriah lies on the west side of the Thompson River floodplain, just northwest of U.S. Route 136.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Mount_Moriah%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-moriah-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.459,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Art davis",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt._Moriah_Farmers_Exchange.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Bangor%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Bangor%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Bangor%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Bangor%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,21 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "North Bangor rests at an elevation of 660 feet above sea level.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The hamlet lies within the Adirondack Mountains, offering scenic forested landscapes.",
       "sourceSentenceIds": [
         22
@@ -74,10 +71,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Two other communities share the name North Bangor, one in Maine and one in Pennsylvania.",
       "sourceSentenceIds": [
         1
@@ -85,7 +84,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/north-bangor-xx-franklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-bangor-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adirondack_Presbyterian_Church_02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Clear, New York"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mymarylandrealestate.com/blog/pasadena-md-history-farmland-suburb"
+      "source": "https://www.mymarylandrealestate.com/blog/pasadena-md-history-farmland-suburb",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pasadena%2C_Maryland"
-    },
-    {
-      "id": 3,
-      "text": "Pasadena sits at 39°6′46″N 76°33′7″W, just north of Baltimore and east of the Patapsco River.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pasadena%2C_Maryland"
-    },
-    {
-      "id": 4,
-      "text": "The town borders the city of Baltimore to the north, Riviera Beach to the east, Lake Shore to the southeast, Severna Park to the south, and Glen Burnie to the west.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pasadena%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Pasadena%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mymarylandrealestate.com/blog/pasadena-md-history-farmland-suburb"
+      "source": "https://www.mymarylandrealestate.com/blog/pasadena-md-history-farmland-suburb",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +68,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pasadena%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Pasadena%2C_Maryland",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pasadena-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.563,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "thisisbossi from Washington, DC, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007_11_24_-_228_-_Pasadena_-_MD2_at_MD10_(3109931750).jpg"
+  }
 }

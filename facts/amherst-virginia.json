@@ -33,7 +33,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://amherstva.gov/about-us/town-history/"
+      "source": "https://amherstva.gov/about-us/town-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitamherstcounty.org/"
+      "source": "https://visitamherstcounty.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +102,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Amherst%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/amherst-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.547,
+    "y": 0.5
+  }
 }

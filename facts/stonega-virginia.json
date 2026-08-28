@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stonega%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stonega%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stonega%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stonega%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dhr.virginia.gov/historic-registers/097-0042/"
+      "source": "https://www.dhr.virginia.gov/historic-registers/097-0042/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.dhr.virginia.gov/historic-registers/097-0042/"
+      "source": "https://www.dhr.virginia.gov/historic-registers/097-0042/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.dhr.virginia.gov/historic-registers/097-0042/"
+      "source": "https://www.dhr.virginia.gov/historic-registers/097-0042/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +101,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://coalcampusa.com/swva/southwestern/stonega-virginia-coal-camp/stonega-virginia-coal-camp.htm"
+      "source": "https://coalcampusa.com/swva/southwestern/stonega-virginia-coal-camp/stonega-virginia-coal-camp.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stonega-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skye Marthaler",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wise_County_Courthouse_-_Front_View.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wise County, Virginia"
+  }
 }

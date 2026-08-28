@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "North Valley Stream’s name reflects its location north of the incorporated Village of Valley Stream.",
+      "text": "The Southern State Parkway meanders its way west-to-east within North Valley Stream, roughly bisecting the hamlet in half.",
       "sourceSentenceIds": [
         21
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Valley_Stream%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Valley_Stream%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Valley_Stream%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Valley_Stream%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -53,18 +58,23 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://valleystreamny.gov/?SEC=17E2184D-D1F2-402C-8953-35B0520559EA&DE=5B33F1D9-185E-47B7-975E-A588E1F60876"
+      "source": "https://valleystreamny.gov/?SEC=17E2184D-D1F2-402C-8953-35B0520559EA&DE=5B33F1D9-185E-47B7-975E-A588E1F60876",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Despite the rich history of the area, it still has plenty to offer modern visitors.",
+      "text": "North Valley Stream is located within the boundaries of (and is thus served by) the Valley Stream Central High School District and the Sewanhaka Central High School District, in different parts.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.longislandexchange.com/towns/north-valley-stream/"
+      "source": "https://www.longislandexchange.com/towns/north-valley-stream/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +86,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://valleystreamny.gov/?SEC=17E2184D-D1F2-402C-8953-35B0520559EA&DE=5B33F1D9-185E-47B7-975E-A588E1F60876"
+      "source": "https://valleystreamny.gov/?SEC=17E2184D-D1F2-402C-8953-35B0520559EA&DE=5B33F1D9-185E-47B7-975E-A588E1F60876",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-valley-stream-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AITFFan1",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niagara_Street,_North_Valley_Stream,_NY_August_11,_2022_A.jpg"
+  }
 }

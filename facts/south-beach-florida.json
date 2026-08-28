@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitflorida.com/places-to-go/southeast/south-beach/"
+      "source": "https://www.visitflorida.com/places-to-go/southeast/south-beach/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitflorida.com/places-to-go/southeast/south-beach/"
+      "source": "https://www.visitflorida.com/places-to-go/southeast/south-beach/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.miamibeachfl.gov/visit-miami-beach/"
+      "source": "https://www.miamibeachfl.gov/visit-miami-beach/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.miamibeachfl.gov/visit-miami-beach/"
+      "source": "https://www.miamibeachfl.gov/visit-miami-beach/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +81,34 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.miamibeachfl.gov/visit-miami-beach/"
+      "source": "https://www.miamibeachfl.gov/visit-miami-beach/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
-      "text": "The neighborhood’s name honors Carl G., an automotive parts pioneer who helped shape the area’s early development.",
+      "text": "The neighborhood’s name honors Carl G. Fisher, an automotive parts pioneer who helped shape the area’s early development.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fisher_Island%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Fisher_Island%2C_Florida",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-beach-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Russian Elmo",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_View_Fisher_Island.jpg"
+  }
 }

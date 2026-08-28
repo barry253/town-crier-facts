@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/annetta-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/annetta-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.annettatx.org/about-us"
+      "source": "https://www.annettatx.org/about-us",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/annetta-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/annetta-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -66,7 +73,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.annettatx.org/about-us"
+      "source": "https://www.annettatx.org/about-us",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/annetta-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parker_County_Courthouse_Weatherford_Wiki_(1_of_1).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Parker County, Texas"
+  }
 }

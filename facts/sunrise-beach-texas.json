@@ -31,18 +31,22 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.hillcountryportal.com/sunrisebeach.html"
+      "source": "https://www.hillcountryportal.com/sunrisebeach.html",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village sits on the southern shore of Lake Lyndon B., offering residents a true lakeside setting.",
+      "text": "The village sits on the southern shore of Lake Lyndon B. Johnson, offering residents a true lakeside setting.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunrise_Beach_Village%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sunrise_Beach_Village%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunrise_Beach_Village%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sunrise_Beach_Village%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/sunrise-beach-village-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/sunrise-beach-village-tx",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 5,
@@ -75,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunrise_Beach_Village%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Sunrise_Beach_Village%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunrise-beach-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.811,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise_Beach_Village_Texas_Entrance_Sign.jpg"
+  }
 }

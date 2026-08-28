@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hamden%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Hamden%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-hamden-ohio.html"
+      "source": "https://www.citydirectory.us/village-hamden-ohio.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,34 +58,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hamden%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Hamden%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
-      "text": "The median age of residents is 38 years, with roughly 26% under 18 and 14% over 65.",
-      "sourceSentenceIds": [
-        19,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hamden%2C_Ohio"
-    },
-    {
-      "id": 5,
-      "text": "The village’s racial makeup is predominantly White at 97%, with small Native American and mixed-race populations.",
-      "sourceSentenceIds": [
-        17,
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hamden%2C_Ohio"
-    },
-    {
-      "id": 6,
       "text": "Hamden’s town hall offers contact details, office hours, and phone or email options for residents.",
       "sourceSentenceIds": [
         25
@@ -88,7 +72,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-hamden-ohio.html"
+      "source": "https://www.citydirectory.us/village-hamden-ohio.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hamden-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.248,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_at_Chillicothe,_Hamden.jpg"
+  }
 }

@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/List_of_municipalities_in_New_York"
+      "url": "https://en.wikipedia.org/wiki/Lacona%2C_New_York"
     },
     {
       "label": "Web source 1",
@@ -22,69 +22,64 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lacona was founded in 1803 and incorporated as a village in 1880.",
+      "text": "Lacona, New York was founded around 1803 and officially incorporated as a village in 1880.",
       "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.villageoflacona.com/about.html"
-    },
-    {
-      "id": 2,
-      "text": "The village grew around the Watertown and Rome railroad, a key commerce route in northern New York.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.villageoflacona.com/about.html"
-    },
-    {
-      "id": 3,
-      "text": "The former Lacona Depot has been restored and now houses the Village of Lacona and Village of Sandy Creek offices.",
-      "sourceSentenceIds": [
+        3,
         4
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://www.villageoflacona.com/about.html"
+      "source": "https://en.wikipedia.org/wiki/Lacona%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 2,
+      "text": "The village features several historic sites, including the Barlow House and the Lacona Clock Tower, listed on the National Register of Historic Places.",
+      "sourceSentenceIds": [
+        5,
+        6
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lacona%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 3,
+      "text": "Little Sandy Creek flows westward through Lacona, contributing to the village's natural landscape.",
+      "sourceSentenceIds": [
+        9
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Lacona%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Lacona’s heritage includes dairy farming, water‑powered mills, and lumber manufacturing that once fueled the local economy.",
+      "text": "Lacona, New York is situated halfway between Syracuse and Watertown, within Oswego County.",
       "sourceSentenceIds": [
-        18
+        1,
+        2
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://www.villageoflacona.com/about.html"
-    },
-    {
-      "id": 5,
-      "text": "Lacona is surrounded by forests and farm fields, making it an idyllic spot a short drive from Oswego, Watertown, and Syracuse via I‑81 and State Routes 3 and 11.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.villageoflacona.com/about.html"
-    },
-    {
-      "id": 6,
-      "text": "Lacona’s Volunteer Fire Department, founded in 1880, celebrated 145 years of service in 2025.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.villageoflacona.com/about.html"
+      "source": "https://en.wikipedia.org/wiki/Lacona%2C_New_York",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lacona-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.36,
+    "y": 0.5
+  }
 }

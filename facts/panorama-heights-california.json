@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Panorama Heights rises to 5,043 feet above sea level, offering panoramic views of the surrounding valley.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Panorama_Heights%2C_Tulare_County%2C_California"
-    },
-    {
-      "id": 2,
       "text": "About 80 percent of Panorama Heights’ 154 housing units are seasonal, reflecting its popularity as a vacation spot.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Panorama_Heights%2C_Tulare_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Panorama_Heights%2C_Tulare_County%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Drivers can add the Watch Duty app to their phone for the latest local fire alerts in Panorama Heights.",
       "sourceSentenceIds": [
         8
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.panoramaheights.org/"
+      "source": "https://www.panoramaheights.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Community members report a rise in vandalism and larceny, urging residents to stay vigilant in Panorama Heights.",
       "sourceSentenceIds": [
         9
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.panoramaheights.org/"
+      "source": "https://www.panoramaheights.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Mark your calendar: the PHPOA Annual General Meeting takes place May 24, 2026 at Clark Wilbur Park in Panorama Heights.",
       "sourceSentenceIds": [
         12
@@ -73,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.panoramaheights.org/"
+      "source": "https://www.panoramaheights.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "On November 22, 2025, Panorama Heights finalized a new snow‑plow policy for non‑county roads, improving winter safety.",
       "sourceSentenceIds": [
         22
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.panoramaheights.org/"
+      "source": "https://www.panoramaheights.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/panorama-heights-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.85,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Don Graham from Redlands, CA, USA - God bless it!",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_Whitney,_CA_6-20-16_(27765952931)_(cropped).jpg"
+  }
 }

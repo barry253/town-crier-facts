@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.leegov.com/dcd/planning/cp/buckingham"
+      "source": "https://www.leegov.com/dcd/planning/cp/buckingham",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.leegov.com/dcd/planning/cp/buckingham"
+      "source": "https://www.leegov.com/dcd/planning/cp/buckingham",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,18 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "Covering 19.0 square miles at just 12 feet above sea level, Buckingham’s low elevation shapes its coastal character.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://usacity.info/florida/lee/buckingham"
+      "source": "https://en.wikipedia.org/wiki/Buckingham%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/buckingham-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ecomerford",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Base_Operations_at_Page_Field.jpg"
+  }
 }

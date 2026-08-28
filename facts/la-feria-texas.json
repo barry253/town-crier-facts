@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/la-feria-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/la-feria-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/la-feria-tx"
-    },
-    {
-      "id": 3,
-      "text": "La Feria sits at 26°9′30″N 97°49′30″W, placing it just west of Cameron County’s border with Mexico.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Feria%2C_Texas"
+      "source": "https://www.tshaonline.org/handbook/entries/la-feria-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Feria%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/La_Feria%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Feria%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/La_Feria%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-feria-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

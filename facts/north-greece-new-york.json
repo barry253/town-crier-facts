@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://greeceny.gov/Visitors/"
+      "source": "https://greeceny.gov/Visitors/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://greeceny.gov/Visitors/"
+      "source": "https://greeceny.gov/Visitors/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/"
+      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/"
+      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/"
+      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +95,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/"
+      "source": "https://northgreecegreeceneighborhood.org/from-farmland-to-community-the-rich-history-and-heritage-of-north-greece/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Honeoye Falls, New York"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-greece-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DanielPenfield",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MonroeCountyOfficeBuilding.JPG"
+  }
 }

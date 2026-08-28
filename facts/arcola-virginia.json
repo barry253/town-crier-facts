@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arcola%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Arcola%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arcola%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Arcola%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.loudounnow.com/news/documentary-details-history-of-arcola-slave-quarters/article_17e5298c-4850-11ef-9404-ff7d3318fe71.html"
+      "source": "https://www.loudounnow.com/news/documentary-details-history-of-arcola-slave-quarters/article_17e5298c-4850-11ef-9404-ff7d3318fe71.html",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.dhr.virginia.gov/blog-posts/loudoun-county-arcola-slave-quarters-archaeological-excavations-surveys/"
+      "source": "https://www.dhr.virginia.gov/blog-posts/loudoun-county-arcola-slave-quarters-archaeological-excavations-surveys/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/arcola-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "General George Marshall",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loudoun_County,_Virginia_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Loudoun County, Virginia"
+  }
 }

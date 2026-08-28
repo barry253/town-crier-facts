@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Dundas sits just seven miles north of Olney, a short drive into Richland County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dundas%2C_Illinois"
-    },
-    {
-      "id": 2,
       "text": "The town’s post office first opened in 1858, marking its early growth for settlers.",
       "sourceSentenceIds": [
         19
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Dundas lies within Richland County, a region known for its agricultural heritage.",
       "sourceSentenceIds": [
         18
@@ -51,21 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
-      "text": "The community sits 470 feet above sea level, offering gentle rolling hills.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Locals pronounce Dundas as DUHN-duhs, a nod to its early settlers’ accents.",
       "sourceSentenceIds": [
         19
@@ -73,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Across North America, eight other places share the name Dundas, from Minnesota to Wisconsin.",
       "sourceSentenceIds": [
         1
@@ -84,7 +69,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/dundas-xx-richland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dundas-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.24,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richland_County_Courthouse_in_Olney.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Richland County, Illinois"
+  }
 }

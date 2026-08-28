@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Taylorsville was surveyed around 1870 by Edward G.",
+      "text": "Taylorsville was surveyed circa 1870 by Edward G. Taylor, and named for him.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Taylorsville%2C_Georgia",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/taylorsville-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Melissa J from Douglasville, GA, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farmers_Supply_Co_Taylorsville_Georgia_10-17-2007.jpg"
+  }
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Woodbridge was founded in 1852 by Jeremiah H., marking the town’s first official settlement.",
+      "text": "Woodbridge was founded in 1852 by Jeremiah H. Woods, marking the town’s first official settlement.",
       "sourceSentenceIds": [
         8,
         3
@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Woodbridge sits at an elevation of 43 feet, or 13 meters, above sea level.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California"
-    },
-    {
-      "id": 4,
       "text": "The town lies on the northwest side of Lodi, along the banks of the Mokelumne River.",
       "sourceSentenceIds": [
         29
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Woodbridge is best known for its place in California’s San Joaquin Valley winegrowing region.",
       "sourceSentenceIds": [
         30
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Woodbridge%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "An 1895 Sanborn map of Woodbridge reveals downtown’s layout, labeled businesses, and industrial buildings.",
       "sourceSentenceIds": [
         6,
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-woodbridge-california"
+      "source": "https://hometownhistorymaps.com/pages/history-of-woodbridge-california",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodbridge-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.456,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steveozone",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IOOF_Hall,_Woodbridge_California_(3).jpg"
+  }
 }

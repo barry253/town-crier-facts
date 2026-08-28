@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seacliff%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seacliff%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.santacruz.org/blog/beachside-bliss-seacliff/"
+      "source": "https://www.santacruz.org/blog/beachside-bliss-seacliff/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seacliff%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seacliff%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/?page_id=29738"
+      "source": "https://www.parks.ca.gov/?page_id=29738",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/?page_id=29738"
+      "source": "https://www.parks.ca.gov/?page_id=29738",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.santacruz.org/blog/beachside-bliss-seacliff/"
+      "source": "https://www.santacruz.org/blog/beachside-bliss-seacliff/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seacliff-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SnippyHolloW from New York, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beach_Street,_Santa_Cruz_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Santa Cruz County, California"
+  }
 }

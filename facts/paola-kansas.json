@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paola%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Paola%2C_Kansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.miamicountyks.gov/472/Paola-Area"
+      "source": "https://www.miamicountyks.gov/472/Paola-Area",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paola%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Paola%2C_Kansas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paola%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Paola%2C_Kansas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofpaola.com/62/History-of-Paola"
+      "source": "https://cityofpaola.com/62/History-of-Paola",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.miamicountyks.gov/472/Paola-Area"
+      "source": "https://www.miamicountyks.gov/472/Paola-Area",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/paola-kansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.305,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ichabod",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_paola_kansas2_2009.jpg"
+  }
 }

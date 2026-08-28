@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roans_Prairie%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Roans_Prairie%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -42,7 +45,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/roans-prairie-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/roans-prairie-tx",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 3,
@@ -55,7 +61,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/roans-prairie-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/roans-prairie-tx",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +74,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roans_Prairie%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Roans_Prairie%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roans-prairie-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.65,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Patrick Feller from Humble, Texas, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grimes_County_Courthouse,_Anderson,_Texas_1803091126_(40711037292).jpg"
+  }
 }

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,21 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Vibbard%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Vibbard sits at 1,040 feet above sea level.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/vibbard-xx-ray-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Vibbard first appeared in federal geographic databases like FIPS‑55 and the GNIS.",
       "sourceSentenceIds": [
         2
@@ -86,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/vibbard-xx-ray-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/vibbard-xx-ray-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vibbard-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_County_Missouri_Courthouse_20191027-7046.jpg"
+  }
 }

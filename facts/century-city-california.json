@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Century_City"
+      "source": "https://en.wikipedia.org/wiki/Century_City",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.centurycitycc.com/history/"
+      "source": "https://www.centurycitycc.com/history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Century_City"
+      "source": "https://en.wikipedia.org/wiki/Century_City",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Century_City"
+      "source": "https://en.wikipedia.org/wiki/Century_City",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -77,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Century_City"
+      "source": "https://en.wikipedia.org/wiki/Century_City",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -88,7 +100,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.discoverlosangeles.com/visit/hidden-gems-in-century-city"
+      "source": "https://www.discoverlosangeles.com/visit/hidden-gems-in-century-city",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/century-city-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Basil D Soufi",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Century_City_Towers.jpg"
+  }
 }

@@ -32,7 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.westportct.gov/about"
+      "source": "https://www.westportct.gov/about",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +98,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Westport%2C_Connecticut",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westport-connecticut.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.284,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Westport,_Connecticut_downtown.jpg"
+  }
 }

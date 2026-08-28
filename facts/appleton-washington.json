@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Appleton%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Appleton%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -42,21 +45,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Appleton%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Appleton%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The community sits at 2,310 feet above sea level.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/wa/appleton-xx-klickitat-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Appleton’s post office opened in 1910, marking its first formal federal recognition.",
       "sourceSentenceIds": [
         21
@@ -64,10 +59,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/appleton-xx-klickitat-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/appleton-xx-klickitat-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Appleton experiences a cooler humid continental climate, typical of Washington’s interior highlands.",
       "sourceSentenceIds": [
         7
@@ -75,10 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Appleton%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Appleton%2C_Washington",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Appleton is one of 22 U.S. communities that share its name, spanning states from Alabama to Wisconsin.",
       "sourceSentenceIds": [
         1
@@ -86,7 +85,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/appleton-xx-klickitat-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/appleton-xx-klickitat-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/appleton-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "pfly from Pugetopolis",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_Adams_from_Trout_Lake_Highway.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Trout Lake, Washington"
+  }
 }

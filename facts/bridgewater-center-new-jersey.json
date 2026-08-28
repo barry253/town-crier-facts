@@ -17,17 +17,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bridgewater Center first appeared as a census‑designated place in 2020.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bridgewater_Center%2C_New_Jersey"
-    },
-    {
       "id": 2,
       "text": "The Somerset County Tourism & Information Center sits at 360 Grove St. in Bridgewater Center.",
       "sourceSentenceIds": [
@@ -36,7 +25,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/"
+      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -47,7 +38,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/"
+      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -58,7 +52,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/"
+      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -69,7 +66,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/"
+      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -80,7 +80,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/"
+      "source": "https://www.newjerseyrestareas.com/new-jersey-somerset-county-tourism-information-center/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bridgewater-center-new-jersey.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Freeholdman12",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raritan_River_at_Duke_Island.jpg"
+  }
 }

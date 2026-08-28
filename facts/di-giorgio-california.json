@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Di_Giorgio%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Di_Giorgio%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Di_Giorgio,_California"
+      "source": "https://kids.kiddle.co/Di_Giorgio,_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Di Giorgio sits 495 feet above sea level, a modest elevation that shapes its mild desert climate.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/di-giorgio-xx-kern-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Located 6.5 miles south of Edison, Di Giorgio lies within Kern County’s agricultural heartland.",
       "sourceSentenceIds": [
         8
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Di_Giorgio%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Di_Giorgio%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "DiGiorgio Elementary School serves the town’s children, reflecting the community’s commitment to local education.",
       "sourceSentenceIds": [
         12
@@ -75,7 +71,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Di_Giorgio%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Di_Giorgio%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "China Lake Acres, California"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/di-giorgio-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

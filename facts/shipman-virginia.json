@@ -31,7 +31,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/shipman_virginia"
+      "source": "https://grokipedia.com/page/shipman_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/shipman_virginia"
+      "source": "https://grokipedia.com/page/shipman_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dhr.virginia.gov/historic-registers/062-5312/"
+      "source": "https://www.dhr.virginia.gov/historic-registers/062-5312/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town sits on gently rolling Piedmont hills, with elevations ranging from 683 to 726 feet above sea level.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/shipman_virginia"
-    },
-    {
-      "id": 5,
       "text": "Nero Creek runs through Shipman’s eastern side, while the nearby Rockfish River feeds the larger James River watershed.",
       "sourceSentenceIds": [
         9
@@ -77,10 +72,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/shipman_virginia"
+      "source": "https://grokipedia.com/page/shipman_virginia",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Shipman’s climate is humid subtropical, averaging 55°F year‑long with hot, humid summers and mild winters that sometimes bring light snowfall.",
       "sourceSentenceIds": [
         24,
@@ -92,7 +90,25 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/shipman_virginia"
+      "source": "https://grokipedia.com/page/shipman_virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shipman-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.73,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Co_Courthouse_Dec_08.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Nelson County, Virginia"
+  }
 }

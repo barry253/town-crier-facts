@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frisco%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Frisco%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -44,7 +47,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/frisco_pennsylvania"
+      "source": "https://grokipedia.com/page/frisco_pennsylvania",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 3,
@@ -57,23 +63,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frisco%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Frisco%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Frisco’s elevation averages 930 feet, giving it a gently rolling landscape typical of the region.",
-      "sourceSentenceIds": [
-        24,
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/frisco_pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "The CDP covers 0.457 square miles, mostly land, making it a compact residential enclave near the Beaver-Lawrence county line.",
       "sourceSentenceIds": [
         22,
@@ -83,10 +78,13 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/frisco_pennsylvania"
+      "source": "https://grokipedia.com/page/frisco_pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Early settlement centered on a grist mill run by the Hazen family, with 1876 maps showing only four buildings clustered near the mill.",
       "sourceSentenceIds": [
         28
@@ -94,7 +92,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/frisco_pennsylvania"
+      "source": "https://grokipedia.com/page/frisco_pennsylvania",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/frisco-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mvincec",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beaver_Falls,_PA_(cropped).JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Beaver Falls, Pennsylvania"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.rsfassociation.org/at-a-glance/history"
+      "source": "https://www.rsfassociation.org/at-a-glance/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/rancho-san-diego-22258"
+      "source": "https://www.wisdomlib.org/cities/rancho-san-diego-22258",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.rsfassociation.org/at-a-glance/history"
+      "source": "https://www.rsfassociation.org/at-a-glance/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,7 +70,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rancho_San_Diego%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rancho_San_Diego%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rancho-san-diego-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.209,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "RightCowLeftCoast",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Miguel_from_the_north.jpg"
+  }
 }

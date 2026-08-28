@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/reading_center_new_york"
+      "source": "https://grokipedia.com/page/reading_center_new_york",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/reading_center_new_york"
+      "source": "https://grokipedia.com/page/reading_center_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/reading_center_new_york"
+      "source": "https://grokipedia.com/page/reading_center_new_york",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/reading_center_new_york"
+      "source": "https://grokipedia.com/page/reading_center_new_york",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/reading_center_new_york"
+      "source": "https://grokipedia.com/page/reading_center_new_york",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +99,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/reading_center_new_york"
+      "source": "https://grokipedia.com/page/reading_center_new_york",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/reading-center-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mitchazenia",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montour_Falls_from_Mill_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Montour Falls, New York"
+  }
 }

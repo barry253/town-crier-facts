@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Robesonia was founded in 1855 by Henry P. and grew around the iron industry that began in 1845.",
+      "text": "Robesonia was founded in 1855 by Henry P. Robeson and grew around the iron industry that began in 1845.",
       "sourceSentenceIds": [
         2,
         3
@@ -31,7 +31,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,20 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "Geographically, Robesonia sits at 40°21′6″N 76°8′12″W, surrounded by Heidelberg Township yet remaining an independent borough.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -88,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Robesonia%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/robesonia-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.268,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penn_west_of_Wayne_in_Robesonia.jpg"
+  }
 }

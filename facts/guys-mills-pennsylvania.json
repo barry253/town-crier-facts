@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,32 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/guys-mills-xx-crawford-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/guys-mills-xx-crawford-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Guys Mills sits 1,380 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/guys-mills-xx-crawford-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "The town’s coordinates are 41.630787 N, 79.976325 W, placing it in northwestern Crawford County.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
       "text": "Pennsylvania Route 198 runs through Guys Mills, connecting it to Blooming Valley and Route 27.",
       "sourceSentenceIds": [
         7
@@ -84,7 +68,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Guys_Mills%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/guys-mills-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crawford_County_Pennsylvania_Courthouse.jpg"
+  }
 }

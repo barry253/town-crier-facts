@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Perched atop Manson Mesa, Page sits 4,300 feet above sea level and 600 feet above Lake Powell.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona"
-    },
-    {
-      "id": 4,
       "text": "Page hosts two of the western U.S.'s largest power plants: the 1.29‑million‑kW Glen Canyon Dam and the 2.25‑million‑kW Navajo Generating Station.",
       "sourceSentenceIds": [
         20,
@@ -66,10 +59,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The city is the gateway to Glen Canyon National Recreation Area and Lake Powell, drawing over 3 million visitors yearly, and Antelope Canyon opened to tourists in 1997.",
       "sourceSentenceIds": [
         19,
@@ -79,10 +74,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Page’s local news comes from the Lake Powell Chronicle and a community radio station.",
       "sourceSentenceIds": [
         12
@@ -90,7 +87,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Page%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/page-arizona.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.819,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Adbar",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colorado,_Page,_Navajo_generating_station.JPG"
+  }
 }

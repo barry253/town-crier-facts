@@ -22,18 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Swanton towers 2,320 feet above sea level—roughly half a mile higher than sea level.",
-      "sourceSentenceIds": [
-        11,
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm"
-    },
-    {
-      "id": 2,
       "text": "The town’s earliest documented reference appears in an 1895 atlas, though its founding date remains unknown.",
       "sourceSentenceIds": [
         10
@@ -41,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm"
+      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Anderson Chapel, a historic church in Swanton, was added to the National Register of Historic Places in 1984.",
       "sourceSentenceIds": [
         4
@@ -52,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swanton%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Swanton%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Downtown Swanton centers around a church and a post office, anchoring the community’s social core.",
       "sourceSentenceIds": [
         7
@@ -63,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swanton%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Swanton%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Swanton is one of two Maryland towns named Swanton, the other located in Kent County.",
       "sourceSentenceIds": [
         1
@@ -74,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm"
+      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A commemorative Maryland quarter features Swanton, highlighted on the town’s welcome page.",
       "sourceSentenceIds": [
         8
@@ -85,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm"
+      "source": "https://roadsidethoughts.com/md/swanton-xx-garrett-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Deep Creek Lake State Park"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/swanton-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.8,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skye Marthaler",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garrett_County_Courthouse,_Maryland.JPG"
+  }
 }

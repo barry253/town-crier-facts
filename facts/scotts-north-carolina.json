@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/scotts_north_carolina"
+      "source": "https://grokipedia.com/page/scotts_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/scotts_north_carolina"
+      "source": "https://grokipedia.com/page/scotts_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/scotts_north_carolina"
+      "source": "https://grokipedia.com/page/scotts_north_carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/scotts_north_carolina"
+      "source": "https://grokipedia.com/page/scotts_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/scotts_north_carolina"
+      "source": "https://grokipedia.com/page/scotts_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/scotts_north_carolina"
+      "source": "https://grokipedia.com/page/scotts_north_carolina",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/scotts-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Upstateherd",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Iredell_County_Courthouse_-_Statesville,_NC.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Iredell County, North Carolina"
+  }
 }

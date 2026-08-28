@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lynch_Station%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Lynch_Station%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lynch_Station%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Lynch_Station%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
-      "text": "The town sits 705 feet (215 meters) above sea level, a typical elevation for the region.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lynch_Station%2C_Virginia"
-    },
-    {
-      "id": 4,
       "text": "The earliest published mention of Lynch Station appears in the 1895 Business Atlas and Shippers' Guide.",
       "sourceSentenceIds": [
         9,
@@ -63,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/lynch-station-xx-campbell-profile.htm"
+      "source": "https://roadsidethoughts.com/va/lynch-station-xx-campbell-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Lynch Station is listed in the Gazetteer as part of Campbell County, confirming its long-standing presence in the area.",
       "sourceSentenceIds": [
         8
@@ -74,16 +71,27 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/lynch-station-xx-campbell-profile.htm"
+      "source": "https://roadsidethoughts.com/va/lynch-station-xx-campbell-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community’s name reflects its historical role as a railroad stop, a common naming practice in 19th‑century Virginia.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local"
+      "source": "local",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lynch-station-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.498
+  }
 }

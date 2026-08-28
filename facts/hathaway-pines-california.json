@@ -29,24 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The community sits at 3,323 feet (1,013 meters) above sea level, giving it cooler temperatures and distinct plant life.",
-      "sourceSentenceIds": [
-        3,
-        15,
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California"
-    },
-    {
-      "id": 3,
       "text": "The town’s name honors Robert B. Hathaway, a vacation‑resort promoter who became the first postmaster when the post office opened in 1943.",
       "sourceSentenceIds": [
         4,
@@ -57,10 +46,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Hathaway Pines experiences a warm‑summer Mediterranean climate, with dry summers and average monthly highs never exceeding 71.6°F.",
       "sourceSentenceIds": [
         6,
@@ -72,10 +63,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "As an unincorporated community, Hathaway Pines has no local government; county officials manage its services.",
       "sourceSentenceIds": [
         9,
@@ -84,10 +77,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The area’s high elevation often results in cooler temperatures and a unique mix of flora compared to lower surrounding regions.",
       "sourceSentenceIds": [
         17
@@ -95,7 +91,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Hathaway_Pines%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hathaway-pines-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.17,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Army Corps of Engineers Sacramento District",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:More_water_at_New_Hogan_in_2011_(11934901683)_(cropped).jpg"
+  }
 }

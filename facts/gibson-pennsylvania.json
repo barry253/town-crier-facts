@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/gibson_pennsylvania"
+      "source": "https://grokipedia.com/page/gibson_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/gibson_pennsylvania"
+      "source": "https://grokipedia.com/page/gibson_pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/gibson_pennsylvania"
+      "source": "https://grokipedia.com/page/gibson_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/gibson_pennsylvania"
+      "source": "https://grokipedia.com/page/gibson_pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/gibson_pennsylvania"
+      "source": "https://grokipedia.com/page/gibson_pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +97,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/gibson_pennsylvania"
+      "source": "https://grokipedia.com/page/gibson_pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Forest Lake, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gibson-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susquehanna_County_County_Seat.jpg"
+  }
 }

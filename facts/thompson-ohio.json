@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thompson%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Thompson%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thompson%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Thompson%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
-      "text": "The town sits at 1,270 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Thompson%2C_Ohio"
-    },
-    {
-      "id": 4,
       "text": "In the early 1830s, Thompson became a stop for pioneers of the Church of Jesus Christ of Latter‑Day Saints.",
       "sourceSentenceIds": [
         18
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.josephsmithpapers.org/place/thompson-township-ohio"
+      "source": "https://www.josephsmithpapers.org/place/thompson-township-ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community is mentioned in the Encyclopedia of Latter‑Day Saint History, highlighting its role in early Mormon migration.",
       "sourceSentenceIds": [
         18
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.josephsmithpapers.org/place/thompson-township-ohio"
+      "source": "https://www.josephsmithpapers.org/place/thompson-township-ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Thompson is documented in the 19th‑century 'Pioneer and General History of Geauga County' volumes, detailing its early settlers.",
       "sourceSentenceIds": [
         2,
@@ -86,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.josephsmithpapers.org/place/thompson-township-ohio"
+      "source": "https://www.josephsmithpapers.org/place/thompson-township-ohio",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thompson-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Light",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geauga_County_Courthouse_P7010530.jpg"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,7 +64,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -74,7 +81,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -88,7 +97,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.triphobo.com/places/efland-united-states"
+      "source": "https://www.triphobo.com/places/efland-united-states",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -101,7 +112,24 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Efland%2C_North_Carolina",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/efland-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_County_Courthouse,_North_Carolina.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Orange County, North Carolina"
+  }
 }

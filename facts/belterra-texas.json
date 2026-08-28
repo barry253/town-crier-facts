@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belterra%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Belterra%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -44,7 +47,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belterra%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Belterra%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +62,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Belterra,_Texas"
+      "source": "https://kids.kiddle.co/Belterra,_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -67,7 +76,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Belterra,_Texas"
+      "source": "https://kids.kiddle.co/Belterra,_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -78,19 +90,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.belterracommunity.com/home/"
-    },
-    {
-      "id": 6,
-      "text": "The community’s borders run south to Mesa Verde Drive and Sand Hills Lane, west to Sawyer Ranch Road, and east to Nutty Brown Road.",
-      "sourceSentenceIds": [
-        20,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Belterra,_Texas"
+      "source": "https://www.belterracommunity.com/home/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belterra-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Liveon001 ©Travis Witt",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_City_Texas.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain City, Texas"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Freedom%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Freedom%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom"
+      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom"
+      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom"
+      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Freedom%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Freedom%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +96,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom"
+      "source": "https://www.latimes.com/california/newsletter/2025-06-03/a-california-town-called-freedom",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/freedom-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.71,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Delirium",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monterey_Bay_STS090-705-5.jpg"
+  }
 }

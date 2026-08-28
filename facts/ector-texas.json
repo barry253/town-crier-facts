@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ector%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ector%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/ector-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/ector-tx",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fannincountyhistory.org/ector"
+      "source": "https://www.fannincountyhistory.org/ector",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ector-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.707,
+    "y": 0.5
+  }
 }

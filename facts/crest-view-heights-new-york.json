@@ -25,7 +25,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -36,7 +38,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -47,7 +51,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -58,7 +65,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -69,7 +79,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -80,7 +93,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Crest_View_Heights%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crest-view-heights-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kesticc",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susquehanna_River_from_above_the_Breezyview_Gazebo_in_Chickies_Rock_County_Park.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Susquehanna River"
+  }
 }

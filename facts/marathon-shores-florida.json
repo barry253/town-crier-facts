@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marathon_Shores"
-    },
-    {
-      "id": 2,
-      "text": "Its GPS coordinates are 24.726° N, 81.048° W, and the land rises just 3 feet above sea level.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Marathon_Shores"
+      "source": "https://en.wikipedia.org/wiki/Marathon_Shores",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/marathon-shores-xx-monroe-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/marathon-shores-xx-monroe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/33052"
+      "source": "https://www.allplaces.us/z/33052",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/marathon-shores-xx-monroe-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/marathon-shores-xx-monroe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +85,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/marathon-shores-xx-monroe-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/marathon-shores-xx-monroe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marathon-shores-florida.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Flip Schulke",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:TRAILER_PARK_UNDER_CONSTRUCTION_AT_MARATHON_IN_THE_CENTRAL_FLORIDA_KEYS._THIS_IS_ONE_OF_MANY_SUCH_PARKS_SPRINGING_UP..._-_NARA_-_548762.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Monroe County, Florida"
+  }
 }

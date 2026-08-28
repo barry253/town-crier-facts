@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grovespring%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Grovespring%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grovespring%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Grovespring%2C_Missouri",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grovespring%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Grovespring%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/grovespring-xx-wright-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/grovespring-xx-wright-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Grovespring rests 1,290 feet above sea level, offering a modest elevation for the region.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/grovespring-xx-wright-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Grovespring is easy to locate, with clear signage and a straightforward route along Route 5.",
       "sourceSentenceIds": [
         4
@@ -84,7 +83,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Grovespring,_Missouri"
+      "source": "https://kids.kiddle.co/Grovespring,_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grovespring-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

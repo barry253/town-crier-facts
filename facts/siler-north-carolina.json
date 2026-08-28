@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://preservationsilercity.org/research"
+      "source": "https://preservationsilercity.org/research",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -85,7 +98,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Siler_City%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/siler-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.427,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gerry Dincher",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Chatham_Ave.jpg"
+  }
 }

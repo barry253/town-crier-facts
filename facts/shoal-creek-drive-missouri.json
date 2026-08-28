@@ -29,19 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shoal_Creek_Drive%2C_Missouri"
-    },
-    {
-      "id": 2,
-      "text": "The village sits in southwestern Missouri, close to the Kansas state line and within the Four‑State Area.",
-      "sourceSentenceIds": [
-        27,
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-shoal-creek-drive.html"
+      "source": "https://en.wikipedia.org/wiki/Shoal_Creek_Drive%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/shoal-creek-drive-xx-newton-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/shoal-creek-drive-xx-newton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-shoal-creek-drive.html"
+      "source": "https://www.citydirectory.us/village-shoal-creek-drive.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shoal_Creek_Drive%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Shoal_Creek_Drive%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-shoal-creek-drive.html"
+      "source": "https://www.citydirectory.us/village-shoal-creek-drive.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shoal-creek-drive-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Newton_County_MO_Courthouse_20151022-113.jpg"
+  }
 }

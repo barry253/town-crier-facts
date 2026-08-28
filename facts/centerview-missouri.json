@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centerview%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Centerview%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/centerview-164903"
+      "source": "https://www.wisdomlib.org/cities/centerview-164903",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centerview%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Centerview%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://jocomohistory.org/centerview/"
+      "source": "https://jocomohistory.org/centerview/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centerview-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nja1985, retouched by Kbh3rd",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johnson_County_Mo_Courthouse-retouched.jpg"
+  }
 }

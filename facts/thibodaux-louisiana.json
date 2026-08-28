@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thibodaux%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Thibodaux%2C_Louisiana",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Thibodaux"
+      "source": "https://www.britannica.com/place/Thibodaux",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thibodaux%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Thibodaux%2C_Louisiana",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ci.thibodaux.la.us/"
+      "source": "https://ci.thibodaux.la.us/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Thibodaux"
+      "source": "https://www.britannica.com/place/Thibodaux",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +95,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thibodaux%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Thibodaux%2C_Louisiana",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thibodaux-louisiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ian munroe from Steinwenden, Germany",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Drag_in_downtown_Thibodaux.jpg"
+  }
 }

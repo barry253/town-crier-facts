@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://historyofwadleygeorgia.wordpress.com/"
+      "source": "https://historyofwadleygeorgia.wordpress.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,18 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia"
-    },
-    {
-      "id": 3,
-      "text": "Wadley sits at 32°52′14″N 82°24′14″W, firmly in rural Jefferson County.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wadley%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wadleyga.gov/"
+      "source": "https://wadleyga.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -88,7 +87,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://historyofwadleygeorgia.wordpress.com/"
+      "source": "https://historyofwadleygeorgia.wordpress.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wadley-georgia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Sir Mildred Pierce from North Augusta, SC, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Augusta_Common_and_Lamar_Building_Augusta_GA.jpg"
+  }
 }

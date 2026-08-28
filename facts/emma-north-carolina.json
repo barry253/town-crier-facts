@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/emma_north_carolina"
+      "source": "https://grokipedia.com/page/emma_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://specialcollections.buncombenc.gov/2019/06/01/cousin-caney-the-corrupt-commissioner-and-the-brand-new-emma-leicester-road-52-weeks-52-communities/"
+      "source": "https://specialcollections.buncombenc.gov/2019/06/01/cousin-caney-the-corrupt-commissioner-and-the-brand-new-emma-leicester-road-52-weeks-52-communities/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/emma_north_carolina"
+      "source": "https://grokipedia.com/page/emma_north_carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/emma_north_carolina"
+      "source": "https://grokipedia.com/page/emma_north_carolina",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/emma_north_carolina"
+      "source": "https://grokipedia.com/page/emma_north_carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/emma-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mojo Hand",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Mountain_NC_downtown.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Black Mountain, North Carolina"
+  }
 }

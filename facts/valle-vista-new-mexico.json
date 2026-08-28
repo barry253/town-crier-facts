@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Valle Vista lies 10 miles southwest of Santa Fe, the state capital.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_New_Mexico"
-    },
-    {
-      "id": 2,
-      "text": "The community sits at latitude 35.5839 and longitude -106.0603.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newmexico.hometownlocator.com/nm/santa-fe/valle-vista.cfm"
-    },
-    {
       "id": 3,
       "text": "Valle Vista follows Mountain Time, which is GMT‑7 in the United States.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newmexico.hometownlocator.com/nm/santa-fe/valle-vista.cfm"
+      "source": "https://newmexico.hometownlocator.com/nm/santa-fe/valle-vista.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newmexico.hometownlocator.com/nm/santa-fe/valle-vista.cfm"
+      "source": "https://newmexico.hometownlocator.com/nm/santa-fe/valle-vista.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_New_Mexico"
-    },
-    {
-      "id": 6,
-      "text": "Valle Vista is a census‑designated place in central Santa Fe County of New Mexico.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_New_Mexico",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

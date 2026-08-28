@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rupert is an unincorporated community in Taylor County, Georgia.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rupert%2C_Georgia"
-    },
-    {
-      "id": 2,
       "text": "It sits along U.S. Route 19, about 8.4 miles south‑southwest of Butler.",
       "sourceSentenceIds": [
         6,
@@ -41,10 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rupert%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rupert%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The post office opened in 1892, marking Rupert’s early establishment.",
       "sourceSentenceIds": [
         10
@@ -52,21 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Rupert rests 430 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Rupert shares its name with ten other communities across North America, yet remains the only one in Georgia.",
       "sourceSentenceIds": [
         1
@@ -74,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "An 1895 atlas notes that Rupert once had a railroad service, hinting at its past connectivity.",
       "sourceSentenceIds": [
         3
@@ -85,7 +70,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/rupert-xx-taylor-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rupert-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rivers Langley; SaveRivers",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taylor_County,_GA_Courthouse.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Taylor County, Georgia"
+  }
 }

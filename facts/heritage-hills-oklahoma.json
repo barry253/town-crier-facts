@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City"
+      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City"
+      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City"
+      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,18 +78,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://heritagehills.org/history/"
-    },
-    {
-      "id": 5,
-      "text": "Heritage Hills borders Mesta Park to the west and north, Heritage Hills East to the east, and Midtown to the south.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City"
+      "source": "https://heritagehills.org/history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -94,7 +91,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City"
+      "source": "https://en.wikipedia.org/wiki/Heritage_Hills%2C_Oklahoma_City",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/heritage-hills-oklahoma.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.786,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "MARELBU",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1415_N_Hudson_Ave,_Oklahoma_City,_OK_USA_-_Heritage_Hills_(Year_Built-1905,_Single_Family-9,107_sq_ft_)_-_panoramio.jpg"
+  }
 }

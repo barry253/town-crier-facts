@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "Just two miles west of Ovid, Willard rises to about 600 feet above sea level.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York"
-    },
-    {
-      "id": 3,
       "text": "The historic Willard Asylum for the Chronic Insane, now a National Register of Historic Places site, once stood here.",
       "sourceSentenceIds": [
         4
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Willard’s post office began serving residents in 1871, marking the community’s early growth.",
       "sourceSentenceIds": [
         26
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/willard-xx-seneca-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/willard-xx-seneca-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "From its hilltop, Willard offers sweeping views of Seneca Lake.",
       "sourceSentenceIds": [
         11
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Town of Romulus government offices are located in Willard, making it the administrative hub of the town.",
       "sourceSentenceIds": [
         12
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Willard%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Seneca Falls, New York"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/willard-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "marjobani",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Seneca_County_Courthouse_Complex_at_Ovid_(August_2017).jpg"
+  }
 }

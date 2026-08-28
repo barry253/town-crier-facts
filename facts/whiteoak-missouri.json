@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "White Oak rises just 260 feet above sea level, typical of the low‑lying Bootheel landscape.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The earliest documented reference to White Oak dates back to an 1895 book, though the exact founding date remains unknown.",
       "sourceSentenceIds": [
         27
@@ -63,10 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Across the United States, 62 communities share the name White Oak, from Alabama to Wisconsin.",
       "sourceSentenceIds": [
         1
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "White Oak proudly features a Missouri commemorative quarter, a collectible that celebrates the state’s heritage.",
       "sourceSentenceIds": [
         24
@@ -85,7 +84,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/white-oak-xx-dunklin-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whiteoak-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Robert Nunnally from Allen, TX, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beech_Ridge_Trail_(3668306215).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "White Oak Lake State Park"
+  }
 }

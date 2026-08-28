@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,23 +44,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Dora sits 1,040 feet above sea level in the heart of the Missouri Ozarks.",
-      "sourceSentenceIds": [
-        15,
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/dora-xx-ozark-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The town is an unincorporated community in Ozark County, Missouri.",
       "sourceSentenceIds": [
         7,
@@ -68,10 +59,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Steve Cropper, the legendary guitarist and producer, was born in Dora in 1941.",
       "sourceSentenceIds": [
         10
@@ -79,20 +73,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri"
-    },
-    {
-      "id": 6,
-      "text": "Dora’s coordinates are estimated but generally place it within the Ozark County boundaries.",
-      "sourceSentenceIds": [
-        19,
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/dora-xx-ozark-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Dora%2C_Missouri",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dora-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.74,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ozark_County_MO_Courthouse_20151021-028.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Ozark County, Missouri"
+  }
 }

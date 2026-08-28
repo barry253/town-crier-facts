@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Texas%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Texas%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-texas-xx-lehigh-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/east-texas-xx-lehigh-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Texas%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Texas%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "East Texas sits 440 feet above sea level, giving it a modest hilltop view of the Lehigh Valley.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/east-texas-xx-lehigh-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "East Texas lies within Lower Macungie Township in Lehigh County, Pennsylvania, placing it in the heart of the Lehigh Valley.",
       "sourceSentenceIds": [
         6
@@ -74,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Texas%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Texas%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Gazetteer lists East Texas among communities in Pennsylvania, noting its inclusion in both FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         3
@@ -85,7 +83,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-texas-xx-lehigh-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/east-texas-xx-lehigh-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-texas-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Writerchic99 (talk) (Uploads)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bear-creek.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bear Creek Mountain Resort"
+  }
 }

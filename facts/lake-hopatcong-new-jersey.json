@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Hopatcong%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Lake_Hopatcong%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Hopatcong%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Lake_Hopatcong%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hopatcong.org/about_us/history/index.php"
+      "source": "https://www.hopatcong.org/about_us/history/index.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hopatcong.org/about_us/history/index.php"
+      "source": "https://www.hopatcong.org/about_us/history/index.php",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +85,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lakehopatconghistory.com/"
+      "source": "https://lakehopatconghistory.com/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-hopatcong-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.254,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "W. J. Harris",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Isles_Bridge,_Lake_Hopatcong,_New_Jersey,_circa_1911.png"
+  }
 }

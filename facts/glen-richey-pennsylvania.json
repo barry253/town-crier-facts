@@ -30,32 +30,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/glen-richey-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/glen-richey-xx-clearfield-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 1,390 feet above sea level, offering a modest hilltop view of Clearfield County.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/glen-richey-xx-clearfield-profile.htm"
-    },
-    {
-      "id": 3,
-      "text": "Glen Richey opened its post office in 1888, marking its emergence as a 19th‑century rural hub.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/glen-richey-xx-clearfield-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Located 3.1 miles southeast of Curwensville, Glen Richey lies just outside the county seat’s bustle.",
       "sourceSentenceIds": [
         5
@@ -63,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glen_Richey%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Glen_Richey%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Glen Richey is an unincorporated community, meaning it lacks its own municipal government and relies on county governance.",
       "sourceSentenceIds": [
         4
@@ -74,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glen_Richey%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Glen_Richey%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "The town is situated within Clearfield County, Pennsylvania, placing it in the state's northwestern region.",
       "sourceSentenceIds": [
         18
@@ -85,7 +71,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/glen-richey-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/glen-richey-xx-clearfield-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glen-richey-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clearfield_County_Courthouse_Apr_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clearfield County, Pennsylvania"
+  }
 }

@@ -31,18 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/"
-    },
-    {
-      "id": 2,
-      "text": "The neighborhood is bounded by Rebouças, Pinheiros Marginal, Brigadeiro Luís Antônio, and Paulista avenues.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jardins"
+      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jardins"
+      "source": "https://en.wikipedia.org/wiki/Jardins",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/"
+      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/"
+      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/"
+      "source": "https://en.portalsampa.com.br/everything-about-the-jardins-neighborhood-in-sao-paulo/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jardins-s-o-paulo.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.246,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Fernando Stankuns",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bairro_dos_jardins_em_s%C3%A3o_paulo.jpg"
+  }
 }

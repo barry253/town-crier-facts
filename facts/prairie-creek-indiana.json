@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Prairie Creek, also called Middletown, was laid out on August 24, 1831 by James D.",
+      "text": "Prairie Creek, also called Middletown, was laid out on August 24, 1831 by James D. Piety.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,21 +71,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "Prairie Creek’s elevation is 530 feet above sea level, giving it a modest hilltop view of the surrounding countryside.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/in/prairie-creek-xx-vigo-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "The community’s early businesses included Daniel Ryerson’s hotel and drug store, Jonas P. Hunt’s hotel, and Hiram Hight’s steam mill in 1847.",
       "sourceSentenceIds": [
         11,
@@ -87,7 +86,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Creek%2C_Indiana",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prairie-creek-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Flook",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prairie_Creek,_Indiana.jpg"
+  }
 }

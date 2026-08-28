@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagle_Springs%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Eagle_Springs%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 673 feet (205 meters) above sea level.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eagle_Springs%2C_North_Carolina"
-    },
-    {
-      "id": 3,
       "text": "A 60‑acre correctional complex for delinquent girls opened in 1918 and famously had no fence.",
       "sourceSentenceIds": [
         9
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eagle_Springs%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Eagle_Springs%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Eagle Springs’ post office began operating in 1890.",
       "sourceSentenceIds": [
         22
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/eagle-springs-xx-moore-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/eagle-springs-xx-moore-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community lies within Moore County, North Carolina.",
       "sourceSentenceIds": [
         21
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/eagle-springs-xx-moore-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/eagle-springs-xx-moore-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical records note that the 1895 Eagle Springs community had both a post office and railroad service.",
       "sourceSentenceIds": [
         3
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/eagle-springs-xx-moore-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/eagle-springs-xx-moore-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eagle-springs-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.161,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eagle_Springs,_North_Carolina.jpg"
+  }
 }

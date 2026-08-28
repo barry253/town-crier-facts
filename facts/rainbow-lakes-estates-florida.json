@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rainbow Lakes Estates sits in western Marion County and southeastern Levy County.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rainbow_Lakes_Estates%2C_Florida"
-    },
-    {
       "id": 2,
       "text": "US 41 marks the easternmost edge of Rainbow Lakes Estates, just 6 miles north of Dunnellon.",
       "sourceSentenceIds": [
@@ -40,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rainbow_Lakes_Estates%2C_Florida"
-    },
-    {
-      "id": 3,
-      "text": "The Marion County part of Rainbow Lakes Estates belongs to the Ocala Metropolitan Statistical Area, while the Levy County side falls under Gainesville's.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rainbow_Lakes_Estates%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Rainbow_Lakes_Estates%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.marionfl.org/agencies-departments/departments-facilities-offices/municipal-services/rainbow-lakes-estates-msd"
+      "source": "https://www.marionfl.org/agencies-departments/departments-facilities-offices/municipal-services/rainbow-lakes-estates-msd",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.marionfl.org/agencies-departments/departments-facilities-offices/municipal-services/rainbow-lakes-estates-msd"
+      "source": "https://www.marionfl.org/agencies-departments/departments-facilities-offices/municipal-services/rainbow-lakes-estates-msd",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.marionfl.org/agencies-departments/departments-facilities-offices/municipal-services/rainbow-lakes-estates-msd"
+      "source": "https://www.marionfl.org/agencies-departments/departments-facilities-offices/municipal-services/rainbow-lakes-estates-msd",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rainbow-lakes-estates-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_Lakes_Estates_lake01.jpg"
+  }
 }

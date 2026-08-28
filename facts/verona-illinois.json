@@ -29,31 +29,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village began around 1876, founded by George D.",
+      "text": "The village began around 1876, founded by George D. Smith.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "Verona sits in Grundy County, Illinois, in the state’s northern region.",
-      "sourceSentenceIds": [
-        6,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Verona%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -75,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-verona-illinois.html"
+      "source": "https://www.citydirectory.us/village-verona-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-verona-illinois.html"
+      "source": "https://www.citydirectory.us/village-verona-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/verona-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Teemu08",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grundy_County_Courthouse_(7395451684).jpg"
+  }
 }

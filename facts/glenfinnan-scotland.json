@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Glenfinnan is a small historic village nestled in the Scottish Highlands at the head of Loch Shiel.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://localpage.uk/glenfinnan"
-    },
-    {
-      "id": 2,
-      "text": "The village has no supermarket, petrol station, or bank, so residents travel to Fort William or Mallaig.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://localpage.uk/glenfinnan"
-    },
-    {
       "id": 3,
       "text": "The 18‑metre Glenfinnan Monument, a column topped by a kilted Highlander, commemorates the 1745 Jacobite rising.",
       "sourceSentenceIds": [
@@ -53,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenfinnan"
+      "source": "https://en.wikipedia.org/wiki/Glenfinnan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitwesthighlands.co.uk/travel-guides/lochaber/glenfinnan/"
+      "source": "https://visitwesthighlands.co.uk/travel-guides/lochaber/glenfinnan/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +60,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://localpage.uk/glenfinnan"
+      "source": "https://localpage.uk/glenfinnan",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,8 +74,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenfinnan"
+      "source": "https://en.wikipedia.org/wiki/Glenfinnan",
+      "category": "history",
+      "quality": "good"
     }
   ],
-  "createdVia": "editor-resolved"
+  "createdVia": "editor-resolved",
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glenfinnan-scotland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.518,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Antony McCallum",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glenfinnanmonument-wyrd-5214.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volcano%2C_Hawaii"
+      "source": "https://en.wikipedia.org/wiki/Volcano%2C_Hawaii",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/havo/index.htm"
+      "source": "https://www.nps.gov/havo/index.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Hawaii-Volcanoes-National-Park"
+      "source": "https://www.britannica.com/place/Hawaii-Volcanoes-National-Park",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/havo/index.htm"
+      "source": "https://www.nps.gov/havo/index.htm",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volcano%2C_Hawaii"
+      "source": "https://en.wikipedia.org/wiki/Volcano%2C_Hawaii",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -84,7 +95,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/havo/index.htm"
+      "source": "https://www.nps.gov/havo/index.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/volcano-hawaii.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.157,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kilauea_Lodge_Volcano_Hawaii_2021.jpg"
+  }
 }

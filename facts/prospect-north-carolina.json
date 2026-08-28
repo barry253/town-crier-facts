@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Prospect United Methodist Church was founded by Reverend W., anchoring the town’s early history.",
+      "text": "Prospect United Methodist Church was founded by Reverend Adolph W. Dial, anchoring the town’s early history.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina"
-    },
-    {
-      "id": 3,
-      "text": "Prospect’s borders stretch east to Preston and Red Hill Roads and north to Old Maxton/Red Spring Rd.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Prospect%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prospect-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robeson_County_Courthouse_(May_2023)_17_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Robeson County, North Carolina"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wrightsboro%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Wrightsboro%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,40 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/north-carolina/wrightsboro"
-    },
-    {
-      "id": 3,
-      "text": "The town sits just a short drive from Wilmington’s historic downtown, the USS North Carolina Battleship, and pristine beaches.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://triptap.com/locations/us/north-carolina/wrightsboro"
-    },
-    {
-      "id": 4,
-      "text": "Wrightsboro is part of the Wilmington Metropolitan Statistical Area, linking it to a larger economic and cultural hub.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wrightsboro%2C_North_Carolina"
-    },
-    {
-      "id": 5,
-      "text": "Located in North Carolina, Wrightsboro reflects the state’s diverse geography and deep cultural heritage.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://travel.nears.me/countries/united-states/wrightsboro-north-carolina-travel-guide/"
+      "source": "https://triptap.com/locations/us/north-carolina/wrightsboro",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +56,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travel.nears.me/countries/united-states/wrightsboro-north-carolina-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/wrightsboro-north-carolina-travel-guide/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wrightsboro-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Edward Orde",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wrightsboro,_North_Carolina_02.jpg"
+  }
 }

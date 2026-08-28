@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The town sits 120 feet above sea level in the rolling hills of southern Maryland.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/md/newburg-xx-charles-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Newburg marks the northbound terminus of the Harry Nice Memorial Bridge on U.S. Route 301.",
       "sourceSentenceIds": [
         8
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The earliest documented reference to Newburg appears in an 1895 atlas, showing its early role in regional trade.",
       "sourceSentenceIds": [
         11
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/newburg-xx-charles-profile.htm"
+      "source": "https://roadsidethoughts.com/md/newburg-xx-charles-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Higdon Elementary School serves the entire Cobb Neck peninsula, including Newburg, providing education to families across the peninsula.",
       "sourceSentenceIds": [
         6,
@@ -74,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Newburg lies along Maryland Route 257, which runs all the way to Cobb Island.",
       "sourceSentenceIds": [
         6,
@@ -86,7 +85,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Newburg%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/newburg-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ewillison",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gov._Harry_W._Nice_Memorial_Bridge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Harry Nice Memorial Bridge"
+  }
 }

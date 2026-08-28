@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parker_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Parker_City%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parker_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Parker_City%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "The town sits at an elevation of 1,025 feet above sea level.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parker_City%2C_Indiana"
-    },
-    {
-      "id": 4,
       "text": "Railroads helped create or revive Parker City along with other nearby towns such as Farmland and Union City.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.in.gov/counties/randolph/about/history/"
+      "source": "https://www.in.gov/counties/randolph/about/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Randolph County, where Parker City lies, was known for its early abolitionist stance.",
       "sourceSentenceIds": [
         5
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.in.gov/counties/randolph/about/history/"
+      "source": "https://www.in.gov/counties/randolph/about/history/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parker-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Flook",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parker_City,_Indiana.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maytown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Maytown%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/26968"
+      "source": "https://museumsdatabase.com/museums/view/26968",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/26968"
+      "source": "https://museumsdatabase.com/museums/view/26968",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maytown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Maytown%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maytown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Maytown%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -85,7 +97,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.localoffices.org/historical-society/pennsylvania/maytown"
+      "source": "https://www.localoffices.org/historical-society/pennsylvania/maytown",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/maytown-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maytown,_Pennsylvania_(6287815068).jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "State Route 7, also called Pacific Ave, cuts through Parkland, linking it north to Tacoma and south toward Mount Rainier.",
+      "text": "State Route 7, also called Pacific Avenue, cuts through Parkland, linking it north to Tacoma and south toward Mount Rainier.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tacomatreefoundation.org/blog/parkland-wilderness-to-unfair-forest"
+      "source": "https://tacomatreefoundation.org/blog/parkland-wilderness-to-unfair-forest",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tacomatreefoundation.org/blog/parkland-wilderness-to-unfair-forest"
+      "source": "https://tacomatreefoundation.org/blog/parkland-wilderness-to-unfair-forest",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Parkland%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parkland-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.392,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joe Mabel",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parkland,_WA_-_Trinity_Lutheran_Church_01.jpg"
+  }
 }

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofrushford.gov/history.html"
+      "source": "https://www.townofrushford.gov/history.html",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofrushford.gov/history.html"
+      "source": "https://www.townofrushford.gov/history.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofrushford.gov/history.html"
+      "source": "https://www.townofrushford.gov/history.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofrushford.gov/history.html"
+      "source": "https://www.townofrushford.gov/history.html",
+      "category": "etymology",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofrushford.gov/history.html"
+      "source": "https://www.townofrushford.gov/history.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rushford_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Rushford_(CDP)%2C_New_York",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rushford-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pollinator at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genesee_river_9044.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Genesee River"
+  }
 }

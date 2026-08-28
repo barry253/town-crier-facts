@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chandlers_Valley%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Chandlers_Valley%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Chandlers Valley sits 1,500 feet above sea level in the hills.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Chandlers Valley appears in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical records indicate Chandlers Valley once had a post office and railroad service.",
       "sourceSentenceIds": [
         4
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Chandlers Valley is highlighted on a Pennsylvania commemorative quarter.",
       "sourceSentenceIds": [
         8
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/chandlers-valley-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chandlers-valley-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Adam Moss from East Amherst, New York, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Center_Street,_Bear_Lake,_Pennsylvania.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bear Lake, Pennsylvania"
+  }
 }

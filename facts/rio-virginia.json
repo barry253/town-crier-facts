@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/vacountyrio.htm"
+      "source": "https://www.usacitiesonline.com/vacountyrio.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/vacountyrio.htm"
-    },
-    {
-      "id": 3,
-      "text": "Rio lies at 38.07°N latitude and 78.46°W longitude, placing it just north of the Mason‑Dixon line.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/vacountyrio.htm"
+      "source": "https://www.usacitiesonline.com/vacountyrio.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Rio%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/vacountyrio.htm"
+      "source": "https://www.usacitiesonline.com/vacountyrio.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/vacountyrio.htm"
+      "source": "https://www.usacitiesonline.com/vacountyrio.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rio-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WaldoJ",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albemarle_County_Office_Building.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mango%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mango%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mango%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Mango%2C_Florida",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,18 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mango%2C_Florida"
-    },
-    {
-      "id": 4,
-      "text": "The town’s exact coordinates are 27.9797° N, 82.3065° W.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/hillsborough/mango.cfm"
+      "source": "https://en.wikipedia.org/wiki/Mango%2C_Florida",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -74,18 +72,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/hillsborough/mango.cfm"
-    },
-    {
-      "id": 6,
-      "text": "As a census‑designated place, Mango has no municipal government and relies on county services.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/hillsborough/mango.cfm"
+      "source": "https://florida.hometownlocator.com/fl/hillsborough/mango.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mango-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.639,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Piperpet",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Seffner-Mango_Branch_Library.jpg"
+  }
 }

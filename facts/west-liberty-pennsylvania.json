@@ -21,39 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "West Liberty is a borough in Butler County, Pennsylvania, United States.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Liberty%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The borough sits at 41°0′34″N 80°3′33″W, a precise geographic coordinate for navigation.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Liberty%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "West Liberty borders Brady Township to the east and south, Worth Township to the west, and Slippery Rock Township to the north.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Liberty%2C_Pennsylvania"
-    },
-    {
       "id": 4,
       "text": "Its main settlement lies in the valley of Hogue Run and stretches northward to Slippery Rock Creek.",
       "sourceSentenceIds": [
@@ -62,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Liberty%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/West_Liberty%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +42,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-west-liberty-pennsylvania.html"
-    },
-    {
-      "id": 6,
-      "text": "West Liberty occupies the western part of Pennsylvania, placing it in the heart of the state’s rural landscape.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/borough-west-liberty-pennsylvania.html"
+      "source": "https://www.citydirectory.us/borough-west-liberty-pennsylvania.html",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-liberty-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.726,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_from_West_Liberty_in_West_Liberty.jpg"
+  }
 }

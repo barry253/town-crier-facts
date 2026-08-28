@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "La Loma de Falcon sits at 26°32′13″N 99°5′46″W.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Loma_de_Falcon%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "La Loma de Falcon blends tradition and modernity with stunning landscapes and a friendly atmosphere.",
       "sourceSentenceIds": [
@@ -41,11 +30,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773"
+      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
-      "text": "Residents greet each other by name and host lively local events that keep the town’s spirit alive.",
+      "text": "Residents greet each other by name and host lively local events that keep the town\u2019s spirit alive.",
       "sourceSentenceIds": [
         18,
         19
@@ -53,22 +45,27 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773"
+      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "The town’s farmers market is a lively hub where you can taste fresh, locally‑grown produce and homemade goods.",
+      "text": "The town\u2019s farmers market is a lively hub where you can taste fresh, locally\u2011grown produce and homemade goods.",
       "sourceSentenceIds": [
         20
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773"
+      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "La Loma de Falcon is a haven for outdoor enthusiasts, with well‑maintained parks for sunny afternoons.",
+      "text": "La Loma de Falcon is a haven for outdoor enthusiasts, with well\u2011maintained parks for sunny afternoons.",
       "sourceSentenceIds": [
         21,
         22
@@ -76,7 +73,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773"
+      "source": "https://www.hellonation.com/mag/TX/LaLomadeFalcon/48773",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

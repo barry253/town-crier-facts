@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lake in the Hills was founded in 1923 by Federal Judge Walter J., marking the start of a planned lakeside community.",
+      "text": "Lake in the Hills was founded in 1923 by Federal Judge Walter J. LaBuy, marking the start of a planned lakeside community.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/9178"
+      "source": "https://museumsdatabase.com/museums/view/9178",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/9178"
+      "source": "https://museumsdatabase.com/museums/view/9178",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lake_in_the_Hills%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-in-the-hills-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.807,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Locallllll",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_in_the_Hills_-_Woods_Creek_Lake.jpg"
+  }
 }

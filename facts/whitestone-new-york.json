@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.cityneighborhoods.nyc/whitestone"
+      "source": "https://www.cityneighborhoods.nyc/whitestone",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityneighborhoods.nyc/whitestone"
+      "source": "https://www.cityneighborhoods.nyc/whitestone",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://urbanareas.net/info/resources/neighborhoods-queens/whitestone-queens-history/"
+      "source": "https://urbanareas.net/info/resources/neighborhoods-queens/whitestone-queens-history/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitestone%2C_Queens"
+      "source": "https://en.wikipedia.org/wiki/Whitestone%2C_Queens",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityneighborhoods.nyc/whitestone"
+      "source": "https://www.cityneighborhoods.nyc/whitestone",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +100,20 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitestone%2C_Queens"
+      "source": "https://en.wikipedia.org/wiki/Whitestone%2C_Queens",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whitestone-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.589,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Metropolitan Transportation Authority of the State of New York",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bronx-Whitestone_Bridge_(7263774480).jpg"
+  }
 }

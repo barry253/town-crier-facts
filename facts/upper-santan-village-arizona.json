@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Upper Santan Village sits at 33.1164°N, 111.7441°W in Pinal County, Arizona, in a desert area.",
-      "sourceSentenceIds": [
-        1,
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/pinal/upper-santan-village.cfm"
-    },
-    {
       "id": 2,
       "text": "Upper Santan Village carries a Functional Status Code of 'S', marking it as a statistical entity for census purposes.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pinal/upper-santan-village.cfm"
+      "source": "https://arizona.hometownlocator.com/az/pinal/upper-santan-village.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -55,7 +45,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://arizona.hometownlocator.com/az/pinal/upper-santan-village.cfm"
+      "source": "https://arizona.hometownlocator.com/az/pinal/upper-santan-village.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -66,7 +59,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Upper_Santan_Village,_Arizona"
+      "source": "https://kids.kiddle.co/Upper_Santan_Village,_Arizona",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Upper_Santan_Village,_Arizona"
+      "source": "https://kids.kiddle.co/Upper_Santan_Village,_Arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +86,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Upper_Santan_Village,_Arizona"
+      "source": "https://kids.kiddle.co/Upper_Santan_Village,_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

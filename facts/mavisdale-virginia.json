@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,21 +72,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Mavisdale%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Mavisdale sits 1,360 feet above sea level, giving it a modest mountain‑hill setting.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/mavisdale-xx-buchanan-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Historical maps from 1895 list Mavisdale among the communities in Buchanan County.",
       "sourceSentenceIds": [
         22
@@ -86,7 +85,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mavisdale-xx-buchanan-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mavisdale-xx-buchanan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Buchanan County, Virginia"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mavisdale-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  }
 }

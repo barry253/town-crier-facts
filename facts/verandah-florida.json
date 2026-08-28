@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Verandah is a census‑designated place in Lee County, Florida, with no municipal government of its own.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/lee/verandah.cfm"
-    },
-    {
-      "id": 2,
-      "text": "The community sits at 26.6929°N latitude and 81.7404°W longitude, right in southwestern Florida.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/lee/verandah.cfm"
-    },
-    {
-      "id": 3,
       "text": "Verandah is included in the Cape Coral‑Fort Myers Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         4
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Fort Myers, the county seat, lies 10 miles southwest of Verandah along State Road 80.",
       "sourceSentenceIds": [
         3
@@ -62,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
-      "text": "The median age in Verandah is 67.2 years, highlighting its large senior community.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida"
-    },
-    {
-      "id": 6,
+      "id": 3,
       "text": "Nearly 59% of residents are 65 or older, while only about 4% are under 18.",
       "sourceSentenceIds": [
         6
@@ -84,7 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Verandah%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/verandah-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ecomerford",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Base_Operations_at_Page_Field.jpg"
+  }
 }

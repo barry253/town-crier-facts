@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Redfield%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Redfield%2C_Texas",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/redfield-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.texasalmanac.com/places/redfield"
+      "source": "https://www.texasalmanac.com/places/redfield",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/redfield-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nacogdoches_tx_county_courthouse_2015.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Nacogdoches County, Texas"
+  }
 }

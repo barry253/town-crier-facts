@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,22 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Residents applied for a post office in 1867 under the name Martin's Mill, but a duplicate name forced a change to Martinsville.",
-      "sourceSentenceIds": [
-        19,
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx"
-    },
-    {
-      "id": 4,
       "text": "A school opened before 1904, enrolling eighty‑four students that year, marking early educational development.",
       "sourceSentenceIds": [
         21
@@ -65,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "By 1990 Martinsville remained a dispersed rural community, reflecting its modest growth over time.",
       "sourceSentenceIds": [
         22
@@ -76,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/martinsville-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Martinsville is an unincorporated community in Nacogdoches County, Texas, United States, located in the eastern part of the state.",
       "sourceSentenceIds": [
         14
@@ -87,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Martinsville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Martinsville%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/martinsville-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Post_office,_Martinsville,_TX_IMG_4007.JPG"
+  }
 }

@@ -34,7 +34,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.experiencepa.com/somerset/"
+      "source": "https://www.experiencepa.com/somerset/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -69,21 +76,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Somerset sits at 2,190 feet, the ninth‑highest elevation of Pennsylvania towns in the Appalachian region.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
       "text": "Somerset’s climate is so cold that it recorded snow in June 1913, the only Pennsylvania town to do so.",
       "sourceSentenceIds": [
         29
@@ -91,7 +89,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Somerset%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/somerset-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.796,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Canadian2006",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somerset_County_Courthouse_Pa_2012.jpg"
+  }
 }

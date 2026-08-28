@@ -31,23 +31,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Taylor_Ridge%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Taylor_Ridge%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The village’s median home value is about $181,100, roughly one and a half times lower than the Illinois median.",
-      "sourceSentenceIds": [
-        30,
-        4
-      ],
-      "sourceLabels": [
-        "Web source 2",
-        "Web source 2"
-      ],
-      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/"
-    },
-    {
-      "id": 3,
       "text": "Travelers heading north can catch the nearest Amtrak service in Galesburg, a short drive from Taylor Ridge.",
       "sourceSentenceIds": [
         8
@@ -55,10 +45,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/"
+      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Taylor Ridge is part of Rock Island County, one of Illinois’s northernmost counties along the Mississippi River.",
       "sourceSentenceIds": [
         23,
@@ -68,10 +61,13 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/"
+      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community is officially classified as a village, not an incorporated city, reflecting its small civic structure.",
       "sourceSentenceIds": [
         23,
@@ -81,10 +77,13 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/"
+      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Despite its modest size, Taylor Ridge maintains its own local governance within the county‑municipal framework.",
       "sourceSentenceIds": [
         25,
@@ -94,7 +93,25 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/"
+      "source": "https://illinoisstateauthority.com/counties/rock-island-county/taylor-ridge-illinois/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/taylor-ridge-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Farragutful",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Island_County_Justice_Center.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Rock Island County, Illinois"
+  }
 }

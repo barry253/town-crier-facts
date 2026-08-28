@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Hermon%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Mount_Hermon%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hellonation.com/mag/va/mount-hermon/50137"
+      "source": "https://hellonation.com/mag/va/mount-hermon/50137",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +96,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon"
+      "source": "https://www.trawellino.com/destinations/united-states/virginia_mount-hermon",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-hermon-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mojo Hand",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pittsylvania_courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Pittsylvania County, Virginia"
+  }
 }

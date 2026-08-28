@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://advantagestone.com/firestone-co/"
+      "source": "https://advantagestone.com/firestone-co/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://advantagestone.com/firestone-co/"
+      "source": "https://advantagestone.com/firestone-co/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://advantagestone.com/firestone-co/"
+      "source": "https://advantagestone.com/firestone-co/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,22 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Firestone%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Firestone%2C_Colorado",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Firestone sits at 4,971 feet elevation, about 30 miles north of Denver.",
-      "sourceSentenceIds": [
-        19,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Firestone%2C_Colorado"
-    },
-    {
-      "id": 6,
       "text": "Firestone’s post office opened August 30, 1907, and the town incorporated October 8, 1908.",
       "sourceSentenceIds": [
         12
@@ -85,7 +81,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Firestone%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Firestone%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/firestone-colorado.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bdearthco",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_County_Government_Center.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartford%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Hartford%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartford%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Hartford%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hartfordmichigan.com/hartfordhistory/"
+      "source": "https://hartfordmichigan.com/hartfordhistory/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.vanburencountyhistoricalsociety.org/"
+      "source": "https://www.vanburencountyhistoricalsociety.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hartfordmichigan.com/hartfordhistory/"
+      "source": "https://hartfordmichigan.com/hartfordhistory/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +99,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hartfordmichigan.com/hartfordhistory/"
+      "source": "https://hartfordmichigan.com/hartfordhistory/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hartford-michigan.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Whaldude",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Van_Buren_MI_Density.png"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Huffman%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/huffman-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pseudopanax at en.wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Locomotive_J_1211_front.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Beaumont, Sour Lake and Western Railway"
+  }
 }

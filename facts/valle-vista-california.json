@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/valle-vista-24997"
+      "source": "https://www.wisdomlib.org/cities/valle-vista-24997",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,18 +45,23 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Harris Park, a county park at 25175 Fairview Ave, honors a Riverside County Sheriff who served the Valle Vista community.",
+      "text": "Harris Park, a county park at 25175 Fairview Avenue, honors a Riverside County Sheriff who served the Valle Vista community.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Valle_Vista%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/valle-vista-24997"
+      "source": "https://www.wisdomlib.org/cities/valle-vista-24997",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valle-vista-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Z3lvs",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orange_Groves_and_San_Jacinto_Mountains_in_Valle_Vista,_California.jpg"
+  }
 }

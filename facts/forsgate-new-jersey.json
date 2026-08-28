@@ -21,7 +21,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -32,7 +34,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -43,7 +48,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -54,7 +61,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -65,18 +75,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey"
-    },
-    {
-      "id": 6,
-      "text": "Forsgate first appeared as a census-designated place in the 2020 U.S. Census.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Forsgate%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forsgate-new-jersey.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-05-20_10_18_51_View_north_along_New_Jersey_State_Route_444_(Garden_State_Parkway)_just_south_of_Exit_120_in_Old_Bridge_Township,_Middlesex_County,_New_Jersey.jpg"
+  }
 }

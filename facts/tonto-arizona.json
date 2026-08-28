@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona"
-    },
-    {
-      "id": 2,
-      "text": "The village lies just 1 mile west of Arizona State Route 260, which leads southwest 15 miles to Payson.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Tonto_Village%2C_Arizona",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r03/tonto/recreation/discover-history"
+      "source": "https://www.fs.usda.gov/r03/tonto/recreation/discover-history",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tonto-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Marine 69-71",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Globe-Gila_County_Courthouse-101_North_Broad_Street-1910-2.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Gila County, Arizona"
+  }
 }

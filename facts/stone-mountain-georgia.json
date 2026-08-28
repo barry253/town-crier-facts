@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.georgiaencyclopedia.org/articles/geography-environment/stone-mountain/"
+      "source": "https://www.georgiaencyclopedia.org/articles/geography-environment/stone-mountain/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://stonemountainhistoricsociety.org/about-our-village/"
+      "source": "https://stonemountainhistoricsociety.org/about-our-village/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://stonemountainhistoricsociety.org/about-our-village/"
+      "source": "https://stonemountainhistoricsociety.org/about-our-village/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stone_Mountain%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Stone_Mountain%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.georgiaencyclopedia.org/articles/geography-environment/stone-mountain/"
+      "source": "https://www.georgiaencyclopedia.org/articles/geography-environment/stone-mountain/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -90,7 +101,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.georgiaencyclopedia.org/articles/geography-environment/stone-mountain/"
+      "source": "https://www.georgiaencyclopedia.org/articles/geography-environment/stone-mountain/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stone-mountain-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.249,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Mayer",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stone_Mountain,_Georgia_downtown.JPG"
+  }
 }

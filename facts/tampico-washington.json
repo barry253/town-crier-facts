@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,22 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/wa/tampico-xx-yakima-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/tampico-xx-yakima-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Tampico sits 2,120 feet above sea level, roughly a half‑mile up from sea level.",
-      "sourceSentenceIds": [
-        14,
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/wa/tampico-xx-yakima-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Chief Kamiakin, leader of the Yakama, Palouse, and Klickitat during the Yakima War, was born near Tampico in 1800.",
       "sourceSentenceIds": [
         9
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Joseph’s Mission, first built in 1852, has been rebuilt several times and still hosts regular services today.",
       "sourceSentenceIds": [
         10
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Tampico%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tampico-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.792,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Walter Siegmund (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abies_lasiocarpa_0775.JPG"
+  }
 }

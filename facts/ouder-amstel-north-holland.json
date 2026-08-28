@@ -33,7 +33,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel"
+      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel"
+      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -58,7 +63,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel"
+      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -71,19 +78,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel"
-    },
-    {
-      "id": 5,
-      "text": "Ouder-Amstel shares borders with Diemen, Amsterdam, Amstelveen and De Ronde Venen.",
-      "sourceSentenceIds": [
-        16,
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.mapsof.net/gemeente-ouder-amstel"
+      "source": "https://en.wikipedia.org/wiki/Ouder-Amstel",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -94,7 +91,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Ouder-Amstel"
+      "source": "https://kids.kiddle.co/Ouder-Amstel",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ouder-amstel-north-holland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.279,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Clockwork Orange at Dutch Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerkduivendrecht.JPG"
+  }
 }

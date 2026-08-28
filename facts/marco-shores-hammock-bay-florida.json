@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay"
-    },
-    {
-      "id": 2,
-      "text": "It is bordered to the west by Florida State Road 951 (Collier Boulevard) and to the south by McIlvane Bay.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Marco_Shores-Hammock_Bay%2C_Florida"
+      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marco_Shores-Hammock_Bay%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Marco_Shores-Hammock_Bay%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay"
+      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay"
+      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay"
+      "source": "https://www.komoot.com/guide/1984164/attractions-around-marco-shores-hammock-bay",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marco-shores-hammock-bay-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "formulanone from Huntsville, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_29_-_Deep_Lake_(31408876676).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Deep Lake, Florida"
+  }
 }

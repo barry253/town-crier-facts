@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gough%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Gough%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/gough-xx-burke-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/gough-xx-burke-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gough%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Gough%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The community rests 400 feet above sea level, giving it a gentle hilltop view.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ga/gough-xx-burke-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Gough is part of Burke County, a region known for its historic plantations and rolling hills.",
       "sourceSentenceIds": [
         12
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/gough-xx-burke-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/gough-xx-burke-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Old photographs capture residents picking blackberries along railroad tracks, a nostalgic reminder of the town’s rail heritage.",
       "sourceSentenceIds": [
         6
@@ -84,7 +84,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://vanishinggeorgia.com/2014/11/29/gough-georgia/"
+      "source": "https://vanishinggeorgia.com/2014/11/29/gough-georgia/",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Burke County, Georgia"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gough-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.5
+  }
 }

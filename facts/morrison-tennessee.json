@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Morrison sits in Tennessee’s Warren County, with a small portion extending into neighboring Coffee County.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.citydirectory.us/town-morrison-tennessee.html"
-    },
-    {
-      "id": 2,
-      "text": "The town’s geographic coordinates are 35°36′18″N 85°54′54″W, placing it southeast of Nashville on the Cumberland Plateau.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Morrison%2C_Tennessee"
-    },
-    {
       "id": 3,
       "text": "Morrison’s public library, located at 138 W. Main Street, serves residents with books, events, and community programs.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.morrisoncity.org/_information/index.php"
+      "source": "https://www.morrisoncity.org/_information/index.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.morrisoncity.org/_information/index.php"
+      "source": "https://www.morrisoncity.org/_information/index.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.morrisoncity.org/_information/index.php"
+      "source": "https://www.morrisoncity.org/_information/index.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +68,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.morrisoncity.org/_information/index.php"
+      "source": "https://www.morrisoncity.org/_information/index.php",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/morrison-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.322,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Morrison-cityhall-library-tn1.jpg"
+  }
 }

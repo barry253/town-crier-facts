@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -66,21 +73,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.bacacountyco.gov/towns/walsh-colorado/"
+      "source": "https://www.bacacountyco.gov/towns/walsh-colorado/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Walsh sits at 3,953 feet elevation, a typical height for southeastern Colorado’s prairie landscape.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.uncovercolorado.com/towns/walsh/"
-    },
-    {
-      "id": 6,
       "text": "The hottest recorded temperature was 109°F on July 17, 2022, while the coldest was –25°F on January 18, 1984.",
       "sourceSentenceIds": [
         9
@@ -88,7 +86,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Walsh%2C_Colorado",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/walsh-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walsh,_Colorado.JPG"
+  }
 }

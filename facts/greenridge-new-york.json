@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenridge%2C_Staten_Island"
+      "source": "https://en.wikipedia.org/wiki/Greenridge%2C_Staten_Island",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenridge%2C_Staten_Island"
+      "source": "https://en.wikipedia.org/wiki/Greenridge%2C_Staten_Island",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenridge%2C_Staten_Island"
+      "source": "https://en.wikipedia.org/wiki/Greenridge%2C_Staten_Island",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/greenridge-new-york.jpg",
+  "imageSource": "override",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim.henderson",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richmond_Creek_bluebelt_jeh.JPG"
+  }
 }

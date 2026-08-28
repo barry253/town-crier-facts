@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,18 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California"
-    },
-    {
-      "id": 5,
-      "text": "Canyondam’s geographic coordinates are 40°10′12″N 121°4′32″W, placing it at latitude 40.169921 and longitude –121.075586.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +86,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Canyondam%2C_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/canyondam-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
+  }
 }

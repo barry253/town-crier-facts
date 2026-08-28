@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,23 +46,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Clipper Mills sits at an elevation of 3,550 feet (1,082 meters) above sea level.",
-      "sourceSentenceIds": [
-        14,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Like many 1895 communities, Clipper Mills once had railroad service that helped transport timber to market.",
       "sourceSentenceIds": [
         12
@@ -68,10 +59,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/clipper-mills-xx-butte-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/clipper-mills-xx-butte-profile.htm",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The area experiences warm, dry summers with average temperatures never exceeding 71.6 °F.",
       "sourceSentenceIds": [
         24
@@ -79,10 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Clipper_Mills%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Clipper Mills is located in Butte County, placing it within California’s historic lumber belt.",
       "sourceSentenceIds": [
         1
@@ -90,7 +85,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/clipper-mills-xx-butte-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/clipper-mills-xx-butte-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clipper-mills-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "California Department of Water Resources",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oroville_dam_Fyx_nEtaMAAHTtF_(cropped).jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://exploresouthernhistory.com/sneads.html"
+      "source": "https://exploresouthernhistory.com/sneads.html",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://exploresouthernhistory.com/sneads.html"
+      "source": "https://exploresouthernhistory.com/sneads.html",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sneads%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Sneads%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://exploresouthernhistory.com/sneads.html"
+      "source": "https://exploresouthernhistory.com/sneads.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sneads%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Sneads%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sneads-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.278,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sneads_FL_house_at_1943-02.jpg"
+  }
 }

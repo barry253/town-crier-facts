@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herald%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Herald%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herald%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Herald%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Herald sits just 79 feet above sea level, a low‑lying spot that once made it a strategic location for early California rail and road routes.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Herald%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Located east of Galt along State Route 104, Herald developed as a quiet farming community before the nuclear boom.",
       "sourceSentenceIds": [
         7
@@ -63,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herald%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Herald%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Herald Fruit Stand, a local landmark, still offers fresh produce and a taste of the town’s agricultural roots.",
       "sourceSentenceIds": [
         2
@@ -74,10 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_herald"
+      "source": "https://www.trawellino.com/destinations/united-states/california_herald",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Herald’s cooling towers, the tallest structures in California’s Central Valley, remain a striking reminder of the town’s industrial past.",
       "sourceSentenceIds": [
         8
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herald%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Herald%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/herald-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Devinmccutchen",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herald_Store_in_Herald,_California.jpg"
+  }
 }

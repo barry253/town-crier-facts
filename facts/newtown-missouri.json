@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newtown%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Newtown%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newtown%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Newtown%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 910 feet above sea level in the rolling hills of northern Missouri.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/newtown-xx-sullivan-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Newtown lies in Sullivan County, Missouri, within the heart of the state's northeastern region.",
       "sourceSentenceIds": [
         28
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/newtown-xx-sullivan-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/newtown-xx-sullivan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Chicago, Milwaukee, St. Paul and Pacific Railroad passed the east side of Newtown.",
       "sourceSentenceIds": [
         5
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newtown%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Newtown%2C_Missouri",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Newtown shares its name with another Missouri community in Saint Francois County.",
       "sourceSentenceIds": [
         2
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/newtown-xx-sullivan-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/newtown-xx-sullivan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/newtown-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Putnam_County_MO_courthouse_20151003-036.jpg"
+  }
 }

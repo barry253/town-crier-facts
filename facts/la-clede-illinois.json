@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Clede%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/La_Clede%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/la-clede-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/la-clede-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 570 feet above sea level, offering gentle rolling hills typical of central Illinois.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/la-clede-xx-fayette-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "La Clede is an unincorporated community within La Clede Township in Fayette County, Illinois.",
       "sourceSentenceIds": [
         5
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Clede%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/La_Clede%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Located in Fayette County, La Clede lies in the heart of Illinois’ rural landscape.",
       "sourceSentenceIds": [
         14
@@ -73,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/la-clede-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/la-clede-xx-fayette-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-clede-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fayette_County_Courthouse,_Vandalia.jpg"
+  }
 }

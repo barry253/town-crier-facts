@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Red Corral sits at 2,710 feet above sea level.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Red_Corral%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The town lies along the Calaveras River, surrounded by rolling farmland.",
       "sourceSentenceIds": [
         12
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_red-corral"
+      "source": "https://www.trawellino.com/destinations/united-states/california_red-corral",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Nearly all of Red Corral’s residents live in rural areas, with 100% rural population.",
       "sourceSentenceIds": [
         6
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Red_Corral%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Red_Corral%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community’s main activity is farming, with a focus on outdoor activities.",
       "sourceSentenceIds": [
         13
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_red-corral"
+      "source": "https://www.trawellino.com/destinations/united-states/california_red-corral",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Sunrise comes at 6:50 AM and sunset at 6:19 PM, giving 11 hours 29 minutes of daylight.",
       "sourceSentenceIds": [
         1
@@ -73,18 +69,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_red-corral"
-    },
-    {
-      "id": 6,
-      "text": "Of occupied housing units, 75.9% are owner‑occupied and 24.1% are renter‑occupied.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Red_Corral%2C_California"
+      "source": "https://www.trawellino.com/destinations/united-states/california_red-corral",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/red-corral-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "There is always more mystery",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preston_Castle_(Ione).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Amador County, California"
+  }
 }

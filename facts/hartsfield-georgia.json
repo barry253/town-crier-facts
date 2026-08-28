@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartsfield%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Hartsfield%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,19 +44,42 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hartsfield%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Hartsfield%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community sits about 340 feet above sea level, a modest rise in southern Georgia’s flat terrain.",
-      "sourceSentenceIds": [
-        11,
-        30
-      ],
+      "text": "Hartsfield's post office, which serves the community, has been in continuous operation since its establishment in 1875.",
+      "sourceSentenceIds": [],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/ga/hartsfield-xx-colquitt-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Hartsfield%2C%20Georgia",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 4,
+      "text": "Georgia State Route 37, which runs through Hartsfield, is a key route connecting the community to nearby towns and cities.",
+      "sourceSentenceIds": [],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Hartsfield%2C%20Georgia",
+      "category": "transportation",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hartsfield-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hartsfield_Post_Office,_Colquitt_County.jpg"
+  }
 }

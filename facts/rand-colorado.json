@@ -32,24 +32,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.uncovercolorado.com/towns/rand/"
+      "source": "https://www.uncovercolorado.com/towns/rand/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 8,627 feet, about one mile above sea level.",
-      "sourceSentenceIds": [
-        18,
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://www.uncovercolorado.com/towns/rand/"
-    },
-    {
-      "id": 3,
       "text": "Rand lies at the southern end of North Park, south of Walden, roughly twenty miles from the county’s commercial hub.",
       "sourceSentenceIds": [
         15,
@@ -60,10 +48,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rand%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Rand%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Ranching has long been the backbone of Rand’s economy, with several homes and businesses supporting local cattle operations.",
       "sourceSentenceIds": [
         15,
@@ -73,10 +64,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rand%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Rand%2C_Colorado",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community’s name may honor pioneer Charles Rand, though some attribute it to J.A. Rand.",
       "sourceSentenceIds": [
         1,
@@ -86,10 +79,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rand%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Rand%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Indian Creek flows by Rand, adding a natural waterway to the high‑altitude landscape.",
       "sourceSentenceIds": [
         23
@@ -97,7 +92,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/rand/"
+      "source": "https://www.uncovercolorado.com/towns/rand/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rand-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rand,_Colorado.JPG"
+  }
 }

@@ -30,23 +30,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 1,237 feet above sea level, giving it a mild foothill climate.",
-      "sourceSentenceIds": [
-        7,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Lodoga lies at the southern end of East Park Reservoir, created by the 1910 East Park Dam.",
       "sourceSentenceIds": [
         8
@@ -54,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The reservoir and its dam were among the first projects of the U.S. Bureau of Reclamation in California.",
       "sourceSentenceIds": [
         9
@@ -65,22 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Lodoga%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "The original 1895 community had no reliable GPS coordinates, often leaving historians guessing its exact spot.",
-      "sourceSentenceIds": [
-        1,
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/lodoga-xx-colusa-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Lodoga’s name appears in both the FIPS‑55 and GNIS federal geographic databases.",
       "sourceSentenceIds": [
         1
@@ -88,7 +69,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/lodoga-xx-colusa-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/lodoga-xx-colusa-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lodoga-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.14,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Sheila Sund",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_geese_overwintering_at_Colusa_Wildlife_Refuge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Colusa County, California"
+  }
 }

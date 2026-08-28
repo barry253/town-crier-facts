@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.wellingtoncoloradochamber.net/live-in-wellington/history-of-wellington/"
+      "source": "https://www.wellingtoncoloradochamber.net/live-in-wellington/history-of-wellington/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,19 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Colorado"
-    },
-    {
-      "id": 3,
-      "text": "Located at 40°42′8″N 105°0′20″W, Wellington sits in northern Colorado within the Fort Collins‑Loveland metro area.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +58,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wellington-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.64,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wellington,_Colorado.JPG"
+  }
 }

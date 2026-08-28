@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://unitedstatesghosttowns.com/camanche-california-ghost-town/"
+      "source": "https://unitedstatesghosttowns.com/camanche-california-ghost-town/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/camanche_village_california"
+      "source": "https://grokipedia.com/page/camanche_village_california",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://unitedstatesghosttowns.com/camanche-california-ghost-town/"
+      "source": "https://unitedstatesghosttowns.com/camanche-california-ghost-town/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The village sits at an elevation of 276 feet (84 meters) above sea level.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Camanche_Village%2C_California"
-    },
-    {
-      "id": 5,
       "text": "All 357 housing units in Camanche Village are located in a completely rural setting, with 100% rural residency.",
       "sourceSentenceIds": [
         22
@@ -77,10 +72,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camanche_Village%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Camanche_Village%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Artifacts recovered from the submerged town are displayed at the Calaveras County Historical Society Museum.",
       "sourceSentenceIds": [
         12
@@ -88,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://unitedstatesghosttowns.com/camanche-california-ghost-town/"
+      "source": "https://unitedstatesghosttowns.com/camanche-california-ghost-town/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/camanche-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "There is always more mystery",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preston_Castle_(Ione).jpg"
+  }
 }

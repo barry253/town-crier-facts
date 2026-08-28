@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Greenville was founded in 1828 as the new county seat of Meriwether County.",
-      "sourceSentenceIds": [
-        4,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia"
-    },
-    {
-      "id": 2,
       "text": "The town honors Major General Nathanael Greene, whose 1781 victory at Guilford Court House weakened British control.",
       "sourceSentenceIds": [
         5,
@@ -44,10 +31,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Central of Georgia Railway reached Greenville in 1905‑06, turning the town into a cotton trade hub.",
       "sourceSentenceIds": [
         10
@@ -55,10 +44,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Greenville,_Georgia"
+      "source": "https://grokipedia.com/page/Greenville,_Georgia",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Greenville lies 60 miles southwest of Atlanta, making it part of the larger Atlanta metropolitan area.",
       "sourceSentenceIds": [
         14
@@ -66,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Water from Greenville flows south into Walnut Creek, which feeds the Flint River watershed.",
       "sourceSentenceIds": [
         19,
@@ -78,10 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Greenville serves as the historic county seat of Meriwether County, Georgia, in the heart of the region.",
       "sourceSentenceIds": [
         13
@@ -89,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/greenville-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SaveRivers",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GREENVILLE,_GA.jpg"
+  }
 }

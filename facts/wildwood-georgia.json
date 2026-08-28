@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/boyer-museum-wildwood/"
+      "source": "https://www.wonderfulmuseums.com/museum/boyer-museum-wildwood/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/boyer-museum-wildwood/"
+      "source": "https://www.wonderfulmuseums.com/museum/boyer-museum-wildwood/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/boyer-museum-wildwood/"
+      "source": "https://www.wonderfulmuseums.com/museum/boyer-museum-wildwood/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wildwood%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wildwood%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -77,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wildwood%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wildwood%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -89,7 +101,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.georgiahistory.com/ghmi_marker_updated/wildwood/"
+      "source": "https://www.georgiahistory.com/ghmi_marker_updated/wildwood/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wildwood-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dade Dude",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wildwood,_GA_Post_Office.jpg"
+  }
 }

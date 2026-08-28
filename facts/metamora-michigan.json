@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://michigan4you.com/metamora-michigan-history/"
+      "source": "https://michigan4you.com/metamora-michigan-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Metamora%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Metamora%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://michigan4you.com/metamora-michigan-history/"
+      "source": "https://michigan4you.com/metamora-michigan-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://metamoratownship.com/history/"
+      "source": "https://metamoratownship.com/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://michigan4you.com/metamora-michigan-history/"
+      "source": "https://michigan4you.com/metamora-michigan-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +98,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://michigan4you.com/metamora-michigan-history/"
+      "source": "https://michigan4you.com/metamora-michigan-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/metamora-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.188,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Detroit Lions Super Bowl Champs",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Village_of_Metamora.jpg"
+  }
 }

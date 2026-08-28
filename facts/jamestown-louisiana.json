@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Jamestown is a village in Bienville Parish, Louisiana.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Louisiana"
-    },
-    {
-      "id": 2,
-      "text": "Jamestown lies just 4 miles west of Kepler Lake.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Louisiana"
-    },
-    {
       "id": 3,
       "text": "The village once had a post office and railroad service in 1895.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/la/jamestown-xx-bienville-profile.htm"
+      "source": "https://roadsidethoughts.com/la/jamestown-xx-bienville-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Louisiana"
+      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Louisiana",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/la/jamestown-xx-bienville-profile.htm"
+      "source": "https://roadsidethoughts.com/la/jamestown-xx-bienville-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/la/jamestown-xx-bienville-profile.htm"
+      "source": "https://roadsidethoughts.com/la/jamestown-xx-bienville-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pittsburghmuseums.org/organizations/smock-historical-society"
+      "source": "https://pittsburghmuseums.org/organizations/smock-historical-society",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pittsburghmuseums.org/organizations/smock-historical-society"
+      "source": "https://pittsburghmuseums.org/organizations/smock-historical-society",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +95,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Smock%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/smock-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.417,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cramerwiki",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SmockPennsylvania.jpg"
+  }
 }

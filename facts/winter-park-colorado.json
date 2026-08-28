@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wpgov.com/live-play-visit/history/"
+      "source": "https://wpgov.com/live-play-visit/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wpgov.com/live-play-visit/history/"
+      "source": "https://wpgov.com/live-play-visit/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wpgov.com/live-play-visit/history/"
+      "source": "https://wpgov.com/live-play-visit/history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Perched on the western slope of the Continental Divide, Winter Park ranges from 8,700 to 12,060 feet above sea level.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Winter_Park%2C_Colorado"
-    },
-    {
-      "id": 5,
       "text": "Winter Park Resort, owned by Denver and managed by Alterra, is served by Amtrak's Winter Park Express ski train.",
       "sourceSentenceIds": [
         22,
@@ -76,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Winter_Park%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Winter_Park%2C_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "USA Today readers voted Winter Park Resort the Best Ski Resort in North America in a national contest.",
       "sourceSentenceIds": [
         6
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wayfy.co/destinations/winter-park/history-and-culture"
+      "source": "https://www.wayfy.co/destinations/winter-park/history-and-culture",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/winter-park-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.458,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Darkshark0159 at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Winter_Park,_Colorado_2005.jpg"
+  }
 }

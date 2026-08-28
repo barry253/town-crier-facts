@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Larke%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The census‑designated place lies 2.5 miles south of Williamsburg along Upper Clover Creek Road.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Larke%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Larke%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Larke%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "The town’s geographic coordinates are 40.4276° N latitude and –78.2058° W longitude in Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/larke.cfm"
+      "source": "https://en.wikipedia.org/wiki/Larke%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,18 +56,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/larke.cfm"
-    },
-    {
-      "id": 6,
-      "text": "As a census‑designated place, Larke has no governmental functions and is not a legal entity.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/larke.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/blair/larke.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/larke-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Pike_Bridge_1889_3.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Frankstown Branch Juniata River"
+  }
 }

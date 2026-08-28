@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.montereypark.ca.gov/720/Facts"
+      "source": "https://www.montereypark.ca.gov/720/Facts",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.montereypark.ca.gov/720/Facts"
+      "source": "https://www.montereypark.ca.gov/720/Facts",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ca-montereypark.civicplus.com/1/Home"
+      "source": "https://ca-montereypark.civicplus.com/1/Home",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Monterey Park Tract sits at an elevation of 62 feet (19 meters).",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Monterey_Park_Tract%2C_California"
-    },
-    {
-      "id": 5,
       "text": "Spanning 7.73 square miles in the San Gabriel Valley east of Los Angeles, Monterey Park is well served by rail and bus transit.",
       "sourceSentenceIds": [
         20,
@@ -74,18 +69,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.montereypark.ca.gov/720/Facts"
-    },
-    {
-      "id": 6,
-      "text": "Monterey Park allocates 60% of its land to residential use, 12% industrial, 10% commercial, and 18% for schools and recreation.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.montereypark.ca.gov/720/Facts"
+      "source": "https://www.montereypark.ca.gov/720/Facts",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/monterey-park-tract-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "USFWS",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USFWS_Aerial_View_San_Joaquin_River_Refuge_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Stanislaus County, California"
+  }
 }

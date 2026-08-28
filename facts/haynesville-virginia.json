@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Haynesville_Correctional_Center"
+      "source": "https://en.wikipedia.org/wiki/Haynesville_Correctional_Center",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community of Haynesville sits 140 feet above sea level, giving it a modest elevation within the Tidewater region.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Haynesville’s post office opened in 1890, marking the town’s first official federal presence.",
       "sourceSentenceIds": [
         9
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm"
+      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Haynesville is located in Richmond County, Virginia, and shares its name with several other U.S. communities.",
       "sourceSentenceIds": [
         8
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm"
+      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Haynesville’s coordinates have been estimated but are believed to be accurate enough for navigation purposes.",
       "sourceSentenceIds": [
         15,
@@ -74,7 +70,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm"
+      "source": "https://roadsidethoughts.com/va/haynesville-xx-richmond-profile.htm",
+      "category": "other",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/haynesville-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.71,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The Library of Virginia from USA",
+    "license": "No restrictions",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rt._603_Flooding_(7797532996).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "James River Correctional Center"
+  }
 }

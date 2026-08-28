@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Brandon is a city in Buchanan County, Iowa.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa"
-    },
-    {
       "id": 2,
       "text": "Brandon is home to Iowa's largest frying pan.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Brandon%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,

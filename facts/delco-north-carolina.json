@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delco%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Delco%2C_North_Carolina",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Delco sits at the eastern tip of Columbus County, just 49 feet above sea level.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Delco%2C_North_Carolina"
-    },
-    {
-      "id": 3,
       "text": "Acme-Delco Middle School operated in Delco until its closure in 2020.",
       "sourceSentenceIds": [
         10
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Delco%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Delco%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Visitors can explore the Historic Carson House, Emerald Village Museum, and Mountain Gateway Museum to learn about the Blue Ridge’s past.",
       "sourceSentenceIds": [
         2
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.destinationmcdowell.com/"
+      "source": "https://www.destinationmcdowell.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Newtown Edgmont Friends & Neighbors History Spotlight celebrates Delco’s unique community spirit.",
       "sourceSentenceIds": [
         4
@@ -73,7 +69,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.thenemag.com/thats-so-delco/"
+      "source": "https://www.thenemag.com/thats-so-delco/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/delco-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.616,
+    "y": 0.5
+  }
 }

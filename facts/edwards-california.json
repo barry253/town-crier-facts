@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Edwards sits 2,350 feet above sea level, a height that matches the elevation listed for the town.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ca/edwards-xx-kern-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The town lies 16 miles east‑southeast of Mojave and 5.5 miles south of California City, placing it in the high desert of Kern County.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Edwards is officially part of the Edwards Air Force Base reservation, tying its identity closely to the military installation.",
       "sourceSentenceIds": [
         10
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Edwards%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A post office opened in Edwards in 1951, marking the town’s formal establishment as a community.",
       "sourceSentenceIds": [
         24
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/edwards-xx-kern-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/edwards-xx-kern-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "China Lake Acres, California"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edwards-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ennice_north_carolina"
+      "source": "https://grokipedia.com/page/ennice_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ennice_north_carolina"
+      "source": "https://grokipedia.com/page/ennice_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ennice_north_carolina"
+      "source": "https://grokipedia.com/page/ennice_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ennice%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Ennice%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ennice_north_carolina"
+      "source": "https://grokipedia.com/page/ennice_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/ennice_north_carolina"
+      "source": "https://grokipedia.com/page/ennice_north_carolina",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ennice-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "G Keith Hall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alleghany_County_Courthouse_Sparta_NC.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Alleghany County, North Carolina"
+  }
 }

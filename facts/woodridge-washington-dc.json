@@ -29,21 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)"
-    },
-    {
-      "id": 2,
-      "text": "The neighborhood is bounded by Eastern Avenue NE to the south, Taylor Street NE to the west, South Dakota Avenue NE to the north, and Bladensburg Road NE to the east.",
-      "sourceSentenceIds": [
-        11,
-        12,
-        13,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -54,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)"
+      "source": "https://en.wikipedia.org/wiki/Woodridge_(Washington%2C_D.C.)",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://woodridgecivicassociation.org/history/"
+      "source": "https://woodridgecivicassociation.org/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://woodridgecivicassociation.org/history/"
+      "source": "https://woodridgecivicassociation.org/history/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodridge-washington-dc.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": null,
+    "license": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myrtle_Ave_HDR.jpeg"
+  }
 }

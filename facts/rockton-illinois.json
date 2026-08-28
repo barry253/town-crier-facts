@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.gorockford.com/listing/rockton-township-historical-society-museum/510/"
+      "source": "https://www.gorockford.com/listing/rockton-township-historical-society-museum/510/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.downtownrockton.com/explore/"
+      "source": "https://www.downtownrockton.com/explore/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +100,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rockton%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rockton-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.257,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Boscophotos",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Image_Hollister-Balsley_House_C.1854.jpeg"
+  }
 }

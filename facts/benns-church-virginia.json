@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,18 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia"
-    },
-    {
-      "id": 6,
-      "text": "The town’s central point sits at 36.9379°N latitude and 76.5861°W longitude in Isle of Wight County.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://virginia.hometownlocator.com/va/isle-of-wight/benns-church.cfm"
+      "source": "https://en.wikipedia.org/wiki/Benns_Church%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/benns-church-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thea Ganoe",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:JamesRiverWG.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "James River"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hardemancounty.org/about-us/cities-and-towns/hornsby"
+      "source": "https://hardemancounty.org/about-us/cities-and-towns/hornsby",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -79,18 +88,20 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee"
-    },
-    {
-      "id": 6,
-      "text": "Geographically, Hornsby sits at 35°13′36″N 88°49′47″W, in Hardeman County, Tennessee.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hornsby%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hornsby-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "RealElectrical",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Courthouse_in_Spring,_Bolivar_TN.JPG"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida"
-    },
-    {
-      "id": 4,
-      "text": "Meadow Oaks became a census‑designated place in 2010.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Oaks%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadow-oaks-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DanTD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moon_Lake_Gardens_%26_Dude_Ranch_Plaque.JPG"
+  }
 }

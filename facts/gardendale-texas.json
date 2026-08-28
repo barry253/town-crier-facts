@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Gardendale sits at 32°1′21″N 102°22′42″W, located in northeastern Ector County, Texas, today.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gardendale%2C_Texas"
-    },
-    {
-      "id": 2,
       "text": "The community was annexed by Corpus Christi in 1954, ending its independent status.",
       "sourceSentenceIds": [
         30
@@ -40,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county"
+      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Gardendale was originally established in the early 1900s, roughly bounded by South Alameda Street and the Texas‑Mexican Railway.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "At one time a school and several stores operated in Gardendale, serving local residents.",
       "sourceSentenceIds": [
         29
@@ -62,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county"
+      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Gardendale is part of the Odessa, Texas Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         16
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gardendale%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Gardendale%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Gardendale was at a site near the western edge of present Corpus Christi in eastern Nueces County.",
       "sourceSentenceIds": [
         4
@@ -84,7 +70,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county"
+      "source": "https://www.tshaonline.org/handbook/entries/gardendale-tx-nueces-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gardendale-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

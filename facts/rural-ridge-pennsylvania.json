@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rural Ridge is an unincorporated community in the heart of Allegheny County, Pennsylvania.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Ridge%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Historical records show Rural Ridge has appeared as Rural Rdg., Rural Rdge., or Rural Ridg.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +59,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm"
+      "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -88,5 +89,20 @@
       ],
       "source": "https://roadsidethoughts.com/pa/rural-ridge-xx-allegheny-genealogy.htm"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rural-ridge-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim.henderson",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Allegheny County, Pennsylvania"
+  }
 }

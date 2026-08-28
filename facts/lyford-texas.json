@@ -32,7 +32,10 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.historictexas.net/city/lyford-texas"
+      "source": "https://www.historictexas.net/city/lyford-texas",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/lyford-texas"
+      "source": "https://www.historictexas.net/city/lyford-texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/lyford-texas"
+      "source": "https://www.historictexas.net/city/lyford-texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,19 +73,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyford%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Geographically, Lyford sits at 26.411247 N, 97.789939 W and spans roughly 1.8 square miles.",
-      "sourceSentenceIds": [
-        18,
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lyford%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lyford%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lyford-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

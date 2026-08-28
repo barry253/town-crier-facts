@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laneview%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Laneview%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm"
+      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 120 feet above sea level, offering gentle rolling hills typical of eastern Virginia.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Laneview’s name appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         2
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm"
+      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "An 1895 atlas lists Laneview among communities that once had post offices or railroad service.",
       "sourceSentenceIds": [
         28
@@ -73,18 +70,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Laneview’s coordinates are estimated but believed to lie within the vicinity of Essex County’s historic core.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm"
+      "source": "https://roadsidethoughts.com/va/laneview-xx-essex-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laneview-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mojo Hand",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Essex_County_VA_courthouse2.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Essex County, Virginia"
+  }
 }

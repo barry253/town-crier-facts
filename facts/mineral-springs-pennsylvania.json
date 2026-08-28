@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mineral_Springs%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mineral_Springs%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,21 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Mineral Springs sits 1,390 feet above sea level, giving it a gently elevated landscape.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Across the United States, 26 communities share the name Mineral Springs, from Alabama to West Virginia.",
       "sourceSentenceIds": [
         1
@@ -74,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Mineral Springs is part of Clearfield County, a region whose county boundaries have evolved over time.",
       "sourceSentenceIds": [
         4
@@ -85,7 +85,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/mineral-springs-xx-clearfield-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mineral-springs-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clearfield_County_Courthouse_Apr_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clearfield County, Pennsylvania"
+  }
 }

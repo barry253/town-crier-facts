@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitforgottonia.com/village-of-good-hope/"
+      "source": "https://www.visitforgottonia.com/village-of-good-hope/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Good_Hope%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Good_Hope%2C_Illinois",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitforgottonia.com/village-of-good-hope/"
+      "source": "https://www.visitforgottonia.com/village-of-good-hope/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,29 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitforgottonia.com/village-of-good-hope/"
-    },
-    {
-      "id": 5,
-      "text": "The village sits 710 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/good-hope-xx-mcdonough-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Water from Good Hope drains south into Town Fork, a tributary of the Illinois River.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Good_Hope%2C_Illinois"
+      "source": "https://www.visitforgottonia.com/village-of-good-hope/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/good-hope-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.727,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Adam Moss",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_67_north_in_Good_Hope_IL.jpg"
+  }
 }

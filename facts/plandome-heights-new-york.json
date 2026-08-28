@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.manhassetchamber.com/villages-of-manhasset"
+      "source": "https://www.manhassetchamber.com/villages-of-manhasset",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.manhassetcivic.org/phca/"
+      "source": "https://www.manhassetcivic.org/phca/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +84,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Plandome_Manor%2C_New_York",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plandome-heights-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AITFFan1",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plandome_Manor_Entrance_Sign,_Plandome_Manor,_Long_Island,_New_York_September_2,_2021.jpg"
+  }
 }

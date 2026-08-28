@@ -30,21 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "Its borders run along Gladstone to the east and west, Oakview to the north, and Oakwood to the south.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri"
-    },
-    {
-      "id": 3,
       "text": "Students in Oakwood Park attend Oakwood Manor Elementary, Antioch Middle, and Oak Park High, all located in nearby Gladstone and Kansas City.",
       "sourceSentenceIds": [
         23
@@ -52,10 +44,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The village contains 86 housing units, giving it a residential density of about 1,054 units per square mile.",
       "sourceSentenceIds": [
         16
@@ -63,21 +58,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
-      "text": "Per capita income in Oakwood Park averages $27,990, reflecting the area's modest economic profile.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakwood_Park%2C_Missouri"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Oakwood Park itself does not host a passport office, but nearby Kansas City offers several facilities for travelers.",
       "sourceSentenceIds": [
         3
@@ -85,7 +72,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-oakwood-park.html"
+      "source": "https://www.citydirectory.us/village-oakwood-park.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oakwood-park-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SamuelNelsonGISP",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OakwoodParkMissouri.jpg"
+  }
 }

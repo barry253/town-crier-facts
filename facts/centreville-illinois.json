@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,40 +56,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois"
-    },
-    {
-      "id": 4,
-      "text": "Centreville’s population was 95.46% African American, with the remaining 4.54% made up of white, Native American, Pacific Islander, and other races.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois"
-    },
-    {
-      "id": 5,
-      "text": "The town sits at 38°35′4″N 90°6′14″W, or 38.584583, –90.103768 in decimal coordinates.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "The median age of Centreville residents was 31 years, reflecting a relatively young community.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Centreville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centreville-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_County_Courthouse,_Cairo.jpg"
+  }
 }

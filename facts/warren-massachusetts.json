@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warren%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Warren%2C_Massachusetts",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warren%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Warren%2C_Massachusetts",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,12 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://newenglandtowns.org/massachusetts/warren"
+      "source": "https://newenglandtowns.org/massachusetts/warren",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The river Chicopee also flows through Warren, offering good sites for factories in the past.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://greenerpasture.com/Places/Details/698"
-    },
-    {
-      "id": 5,
       "text": "Warren contains the villages of Warren and West Warren, reflecting its early settlement layout.",
       "sourceSentenceIds": [
         26
@@ -77,10 +72,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warren%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Warren%2C_Massachusetts",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "General Henry Knox passed through Warren in winter 1775‑76 carrying 59 cannons to Boston.",
       "sourceSentenceIds": [
         19,
@@ -89,7 +87,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://greenerpasture.com/Places/Details/698"
+      "source": "https://greenerpasture.com/Places/Details/698",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/warren-massachusetts.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Original uploader was LymanSchool at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WestWarrenQuagboag.jpg"
+  }
 }

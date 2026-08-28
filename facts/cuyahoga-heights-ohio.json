@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cuyahoga_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Cuyahoga_Heights%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cuyahoga_Heights%2C_Ohio"
-    },
-    {
-      "id": 3,
-      "text": "The village lies at 41°26′10″N 81°39′11″W, a spot that maps to 41.436202, -81.653145.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cuyahoga_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Cuyahoga_Heights%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cuyahogacounty.gov/"
+      "source": "https://cuyahogacounty.gov/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cuyahogacounty.gov/"
+      "source": "https://cuyahogacounty.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cuyahogacounty.gov/"
+      "source": "https://cuyahogacounty.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cuyahoga-heights-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SilentMatt Psychedelic",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuyahoga_heights_village_hall.jpg"
+  }
 }

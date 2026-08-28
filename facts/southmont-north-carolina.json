@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Southmont%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/southmont-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hennap (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HighRockLowWater2002.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "High Rock Lake"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reynolds_Heights%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Heights%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Reynolds_Heights%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Reynolds_Heights%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Its geographic coordinates are 41.3451°N, 80.3942°W, placing it in Mercer County’s heart.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/mercer/reynolds-heights.cfm"
-    },
-    {
-      "id": 4,
       "text": "Mercer County observes Eastern Time, so Reynolds Heights follows the same clock as New York City.",
       "sourceSentenceIds": [
         6
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/mercer/reynolds-heights.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/mercer/reynolds-heights.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In 2024, every resident of Reynolds Heights was born in the United States, reflecting a fully native population.",
       "sourceSentenceIds": [
         25
@@ -73,18 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://datausa.io/profile/geo/reynolds-heights-pa/"
-    },
-    {
-      "id": 6,
-      "text": "That same year, the median home value hit $111,700 and 68.5% of homes were owner‑occupied, showing a strong housing market.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://datausa.io/profile/geo/reynolds-heights-pa/"
+      "source": "https://datausa.io/profile/geo/reynolds-heights-pa/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/reynolds-heights-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Canadian2006",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercer_County_Courthouse_Pennsylvania_2010.jpg"
+  }
 }

@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "East Alto Bonito sits at 26.3023° N, 98.6358° W, right in the heart of southern Texas.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Alto_Bonito%2C_Texas"
-    },
-    {
-      "id": 2,
       "text": "The town lies along the historic El Camino Real de los Tejas, the original Spanish trade route.",
       "sourceSentenceIds": [
         4
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/historic-sites/caddo-mounds"
+      "source": "https://thc.texas.gov/historic-sites/caddo-mounds",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Nearby Caddo Mounds State Historic Site is a prehistoric village and ceremonial center built by the Caddo people.",
       "sourceSentenceIds": [
         7
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/historic-sites/caddo-mounds"
+      "source": "https://thc.texas.gov/historic-sites/caddo-mounds",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Caddo Mounds is located at 1649 State Highway, just a short drive from East Alto Bonito.",
       "sourceSentenceIds": [
         6
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/historic-sites/caddo-mounds"
+      "source": "https://thc.texas.gov/historic-sites/caddo-mounds",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Every first Saturday, educator John Zumwalt leads reflective walks through Caddo Mounds, sharing its stories.",
       "sourceSentenceIds": [
         1
@@ -73,18 +68,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/historic-sites/caddo-mounds"
-    },
-    {
-      "id": 6,
-      "text": "In 2024, the median property value in East Alto Bonito was $107,800, reflecting its growing real‑estate market.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://datausa.io/profile/geo/east-alto-bonito-tx/"
+      "source": "https://thc.texas.gov/historic-sites/caddo-mounds",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

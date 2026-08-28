@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakdale%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Oakdale%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://oakdaleislipneighborhood.org/"
+      "source": "https://oakdaleislipneighborhood.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,14 +63,16 @@
     },
     {
       "id": 4,
-      "text": "Oakdale’s name may derive from a Nicoll descendant, according to local historian Charles P. in the mid‑19th century.",
+      "text": "Oakdale’s name may derive from a Nicoll descendant, according to local historian Charles P. Dickerson in the mid‑19th century.",
       "sourceSentenceIds": [
         17
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakdale%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Oakdale%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -90,5 +96,16 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Oakdale%2C_New_York"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oakdale-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.715,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Robertjhennigan",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oakdale_Sign_NY_2025.jpg"
+  }
 }

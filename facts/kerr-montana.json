@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Kerr sits in north-central Lake County, just southwest of Polson, the county seat.",
-      "sourceSentenceIds": [
-        4,
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kerr%2C_Montana"
-    },
-    {
       "id": 2,
       "text": "At 2,960 feet above sea level, Kerr sits roughly half a mile higher than sea level.",
       "sourceSentenceIds": [
@@ -43,7 +30,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mt/kerr-xx-lake-profile.htm"
+      "source": "https://roadsidethoughts.com/mt/kerr-xx-lake-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -54,7 +44,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mt/kerr-xx-lake-profile.htm"
+      "source": "https://roadsidethoughts.com/mt/kerr-xx-lake-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -65,18 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://montana.hometownlocator.com/mt/lake/kerr.cfm"
-    },
-    {
-      "id": 5,
-      "text": "Kerr's coordinates are 47.6797° N, 114.1915° W in Lake County in the state of Montana.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://montana.hometownlocator.com/mt/lake/kerr.cfm"
+      "source": "https://montana.hometownlocator.com/mt/lake/kerr.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://montana.hometownlocator.com/mt/lake/kerr.cfm"
+      "source": "https://montana.hometownlocator.com/mt/lake/kerr.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

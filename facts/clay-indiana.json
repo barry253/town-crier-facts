@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clay_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Clay_City%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clay_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Clay_City%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wvcf.org/claycommunitytour6/"
+      "source": "https://wvcf.org/claycommunitytour6/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wvcf.org/claycommunitytour6/"
+      "source": "https://wvcf.org/claycommunitytour6/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,18 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wvcf.org/claycommunitytour6/"
-    },
-    {
-      "id": 6,
-      "text": "Clay City sits at 39°16′37″N 87°6′43″W, right in the heart of Clay County, Indiana.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clay_City%2C_Indiana"
+      "source": "https://wvcf.org/claycommunitytour6/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clay-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Flook",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_City,_Indiana.jpg"
+  }
 }

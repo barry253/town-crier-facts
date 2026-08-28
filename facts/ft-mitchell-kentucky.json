@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Fort Mitchell earned its name from General Ormsby M., a Civil War officer honored by the community.",
+      "text": "Fort Mitchell earned its name from General Ormsby M. Mitchel, a Civil War officer honored by the community.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +82,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +96,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Fort_Mitchell%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ft-mitchell-kentucky.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "RhymesWithAlbatross",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chapel_at_Highland_Cemetery,_Kentucky_03.JPG"
+  }
 }

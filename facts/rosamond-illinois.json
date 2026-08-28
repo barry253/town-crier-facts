@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rosamond is an unincorporated community in Rosamond Township, Christian County, Illinois.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rosamond%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 39.380°N, 89.162°W, a spot that marks the heart of rural Illinois.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rosamond%2C_Illinois"
-    },
-    {
       "id": 3,
       "text": "Early settlers, including Capt. Alfred Cowgill, laid the groundwork for Rosamond’s grain‑driven economy in the 1850s.",
       "sourceSentenceIds": [
@@ -52,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosamond%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rosamond%2C_Illinois",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rosamond%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Rosamond%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/rosamond-xx-christian-profile.htm"
+      "source": "https://roadsidethoughts.com/il/rosamond-xx-christian-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/rosamond-xx-christian-profile.htm"
+      "source": "https://roadsidethoughts.com/il/rosamond-xx-christian-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rosamond-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christian_County_Courthouse,_Taylorville.jpg"
+  }
 }

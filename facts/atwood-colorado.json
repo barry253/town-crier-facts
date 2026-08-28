@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/atwood_colorado"
+      "source": "https://grokipedia.com/page/atwood_colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,21 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/atwood_colorado"
+      "source": "https://grokipedia.com/page/atwood_colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Atwood sits 3,990 feet above sea level, placing it high on Colorado’s eastern plains.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/co/atwood-xx-logan-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "U.S. Route 6 cuts through Atwood, leading 7 miles northeast to Sterling and 6 miles southwest to Merino.",
       "sourceSentenceIds": [
         23
@@ -76,10 +71,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Atwood%2C_Colorado",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town experiences a cold semi‑arid steppe climate, with January lows near –10 °C and July highs around 14 °C.",
       "sourceSentenceIds": [
         7,
@@ -89,7 +87,21 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/atwood_colorado"
+      "source": "https://grokipedia.com/page/atwood_colorado",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/atwood-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atwood,_Colorado.JPG"
+  }
 }

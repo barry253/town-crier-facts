@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bridgeview%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Bridgeview%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bridgeview%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Bridgeview%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Bridgeview,_Illinois"
+      "source": "https://grokipedia.com/page/Bridgeview,_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://bridgeview-il.gov/history-of-bridgeview/"
+      "source": "https://bridgeview-il.gov/history-of-bridgeview/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +83,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Bridgeview,_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "Bridgeview's rectangular borders stretch from Roberts Road to Harlem Avenue, defining its compact shape.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bridgeview%2C_Illinois"
+      "source": "https://grokipedia.com/page/Bridgeview,_Illinois",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bridgeview-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.842,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bridgeview_City_Hall.jpg"
+  }
 }

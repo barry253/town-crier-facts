@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bakewell%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Bakewell%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -44,21 +47,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bakewell%2C_Tennessee"
-    },
-    {
-      "id": 3,
-      "text": "The community lies about 23 miles north‑northeast of Chattanooga, close enough for city services yet far enough to feel peaceful.",
-      "sourceSentenceIds": [
-        3,
-        21,
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bakewell%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Bakewell%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -73,7 +65,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Bakewell,_Tennessee"
+      "source": "https://kids.kiddle.co/Bakewell,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -84,7 +79,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Bakewell,_Tennessee"
+      "source": "https://kids.kiddle.co/Bakewell,_Tennessee",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -98,5 +96,20 @@
       ],
       "source": "https://kids.kiddle.co/Bakewell,_Tennessee"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bakewell-tennessee.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomsonmg2000",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lookout_mountain_TN.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lookout Mountain, Tennessee"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Middle_Grove%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/middle-grove-88246"
+      "source": "https://www.wisdomlib.org/cities/middle-grove-88246",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/middle-grove-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USACE_Mark_Twain_Lake_and_Dam.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Salt River (Missouri)"
+  }
 }

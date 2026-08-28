@@ -21,30 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sorrel lies in Saint Mary Parish, Louisiana, about 3 miles east of Jeanerette.",
-      "sourceSentenceIds": [
-        15,
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://roadsidethoughts.com/la/sorrel-xx-saint-mary-profile.htm"
-    },
-    {
-      "id": 2,
-      "text": "Sorrel sits at 29°53′30″N 91°37′7″W, roughly 6 miles northwest of Baldwin, placing it firmly within the Gulf Coastal Plain.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sorrel%2C_Louisiana"
-    },
-    {
       "id": 3,
       "text": "Sorrel’s name honors King Louis XIV of France, reflecting the area’s French heritage.",
       "sourceSentenceIds": [
@@ -53,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://the50unitedstates.com/louisiana/sorrel"
+      "source": "https://the50unitedstates.com/louisiana/sorrel",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/la/sorrel-xx-saint-mary-profile.htm"
+      "source": "https://roadsidethoughts.com/la/sorrel-xx-saint-mary-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -75,18 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/la/sorrel-xx-saint-mary-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Sorrel is part of the Morgan City Micropolitan Statistical Area, linking it to the regional economy.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sorrel%2C_Louisiana"
+      "source": "https://roadsidethoughts.com/la/sorrel-xx-saint-mary-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

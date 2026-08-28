@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "unverified=['mccarty']"
     },
     {
       "id": 2,
@@ -44,21 +47,12 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Ida sits about 10 miles west of Monroe, perched at 640 feet above sea level.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan"
-    },
-    {
-      "id": 4,
       "text": "The Ida Branch Library, part of Monroe County Library System, is housed in a historic building in the town center.",
       "sourceSentenceIds": [
         15
@@ -66,10 +60,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Ida’s post office, established July 11 1844, moved briefly in 1852 but reopened June 11 1853.",
       "sourceSentenceIds": [
         28,
@@ -79,7 +75,20 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Ida%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ida-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.842,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Notorious4life (talk) (Uploads)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IdaTownshipMI_2020.jpg"
+  }
 }

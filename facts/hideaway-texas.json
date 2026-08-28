@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Hideaway began as part of a vast plantation once owned by Texas governor Richard B.",
+      "text": "Hideaway began as part of a vast plantation once owned by Texas governor Richard B. Hubbard.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hideaway%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Hideaway%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://cityofhideaway.org/about"
+      "source": "https://cityofhideaway.org/about",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofhideaway.org/about"
+      "source": "https://cityofhideaway.org/about",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hideaway%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Hideaway%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,20 +86,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hideaway%2C_Texas"
-    },
-    {
-      "id": 6,
-      "text": "Richard Hubbard Jr., who later served as Texas governor, once ran the plantation that became Hideaway.",
-      "sourceSentenceIds": [
-        26,
-        28,
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://cityofhideaway.org/about"
+      "source": "https://en.wikipedia.org/wiki/Hideaway%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hideaway-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tyler_May_2016_35_(Smith_County_Courthouse).jpg"
+  }
 }

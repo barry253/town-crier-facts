@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_El_Monte%2C_California"
+      "source": "https://en.wikipedia.org/wiki/South_El_Monte%2C_California",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_El_Monte%2C_California"
+      "source": "https://en.wikipedia.org/wiki/South_El_Monte%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The city’s land use is split 54% industrial, 26% residential, 6% retail, 3% office, and 6% other amenities.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.cityofsouthelmonte.org/269/About-Us"
-    },
-    {
-      "id": 4,
       "text": "Over six decades, South El Monte grew into a commercial and industrial hub with more than 2,400 businesses.",
       "sourceSentenceIds": [
         30
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofsouthelmonte.org/269/About-Us"
+      "source": "https://www.cityofsouthelmonte.org/269/About-Us",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community prides itself on a tight‑knit spirit that has guided its development since founding.",
       "sourceSentenceIds": [
         4
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofsouthelmonte.org/269/About-Us"
+      "source": "https://www.cityofsouthelmonte.org/269/About-Us",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Epiphany Catholic School is the city’s private educational institution.",
       "sourceSentenceIds": [
         24
@@ -84,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_El_Monte%2C_California"
+      "source": "https://en.wikipedia.org/wiki/South_El_Monte%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-el-monte-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.256,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "This image uses high-resolution digital topography data from NASA's Shuttle Radar Topography Mission (SRTM) at JPL-Caltech . It is in the public domain in the United States.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Los_Angeles_Basin_JPLLandsat.jpg"
+  }
 }

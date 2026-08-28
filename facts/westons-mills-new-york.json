@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/new-york_westons-mills"
+      "source": "https://www.trawellino.com/destinations/united-states/new-york_westons-mills",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -87,7 +100,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Weston_Mills%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westons-mills-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "David Fulmer from Pittsburgh . . Uploaded by scillystuff",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freeport_bridge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Allegheny River"
+  }
 }

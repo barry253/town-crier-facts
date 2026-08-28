@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/belgium/brussels-capital_saint-gilles"
+      "source": "https://www.trawellino.com/destinations/belgium/brussels-capital_saint-gilles",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/belgium/brussels-capital_saint-gilles"
+      "source": "https://www.trawellino.com/destinations/belgium/brussels-capital_saint-gilles",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium"
+      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -63,18 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium"
-    },
-    {
-      "id": 5,
-      "text": "Saint‑Gilles borders the City of Brussels, Anderlecht, Forest and Ixelles, placing it in the heart of the southern Brussels agglomeration.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium"
+      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium"
+      "source": "https://en.wikipedia.org/wiki/Saint-Gilles%2C_Belgium",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/saint-gilles-brussels.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.232,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jorge Franganillo",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brussels-_Saint-Gilles_-_52190608464.jpg"
+  }
 }

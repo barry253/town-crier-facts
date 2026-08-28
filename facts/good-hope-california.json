@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/"
+      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/"
+      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Good Hope sits at an elevation of 1,624 feet, giving it a mild, high‑land climate.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Good_Hope%2C_California"
-    },
-    {
-      "id": 4,
       "text": "The area enjoys a dry‑summer Mediterranean climate, classified as Csa under the Köppen system.",
       "sourceSentenceIds": [
         9
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Good_Hope%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Good_Hope%2C_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Outdoor lovers can hike the reserve’s trails, spot birds in the wetlands, or play on community sports fields.",
       "sourceSentenceIds": [
         24,
@@ -76,10 +74,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/"
+      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Good Hope’s food scene ranges from family‑owned Mexican eateries to trendy farm‑to‑table restaurants showcasing local produce.",
       "sourceSentenceIds": [
         28,
@@ -88,7 +88,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/"
+      "source": "https://www.california.com/discovering-the-good-life-in-good-hope-california-a-family-friendly-paradise/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/good-hope-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.205,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Z3lvs",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Good_Hope,_California_2.jpg"
+  }
 }

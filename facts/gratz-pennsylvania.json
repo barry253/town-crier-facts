@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://gratzhistoricalsociety.com/"
+      "source": "https://gratzhistoricalsociety.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
-      "text": "Gratz lies at 40°36′35″N 76°43′04″W, placing it in northeastern Dauphin County.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gratz%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gratz-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Shuvaev",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Market_St,_Gratz,_Pennsylvania_01.JPG"
+  }
 }

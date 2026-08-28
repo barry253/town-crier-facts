@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Holland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/South_Holland%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitchicagosouthland.com/494/south-holland-historical-society-and-museum"
+      "source": "https://www.visitchicagosouthland.com/494/south-holland-historical-society-and-museum",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://southholland.org/home-promo/south-holland-a-place-to-visit-invest-and-call-home/"
+      "source": "https://southholland.org/home-promo/south-holland-a-place-to-visit-invest-and-call-home/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://southholland.org/home-promo/south-holland-a-place-to-visit-invest-and-call-home/"
+      "source": "https://southholland.org/home-promo/south-holland-a-place-to-visit-invest-and-call-home/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Holland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/South_Holland%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-holland-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Dennisyerger84",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Holland_Town_Center.jpg"
+  }
 }

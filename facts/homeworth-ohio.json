@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community lies 1,155 feet above sea level, offering gentle hills typical of northwestern Columbiana County.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio"
-    },
-    {
-      "id": 5,
       "text": "Homeworth is part of Knox Township’s southwestern corner, anchoring it within Columbiana County’s rural landscape.",
       "sourceSentenceIds": [
         5
@@ -73,7 +68,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homeworth%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homeworth-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Roseohioresident",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Middle_Sandy_Presbyterian_Church.JPG"
+  }
 }

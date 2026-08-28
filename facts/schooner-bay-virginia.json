@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.schoonerbayassociation.com/"
+      "source": "https://www.schoonerbayassociation.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.schoonerbayassociation.com/"
+      "source": "https://www.schoonerbayassociation.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,32 +58,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schooner_Bay%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Schooner_Bay%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Schooner Bay’s elevation is at sea level, literally 0 feet above sea level.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Schooner_Bay%2C_Virginia"
-    },
-    {
-      "id": 5,
-      "text": "It was first recognized as a census‑designated place in 2010, marking its official status on the map.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Schooner_Bay%2C_Virginia"
-    },
-    {
-      "id": 6,
       "text": "The area lies seven miles northwest of Accomac, the county seat, and borders the community of Deep Creek to the east.",
       "sourceSentenceIds": [
         16
@@ -85,7 +71,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Schooner_Bay%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Schooner_Bay%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/schooner-bay-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Landsat/NASA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeakelandsat.jpeg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chesapeake Bay"
+  }
 }

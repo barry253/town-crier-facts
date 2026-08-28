@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herrick_Center%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Herrick_Center%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Herrick_Center%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Herrick_Center%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/herrick-center-xx-susquehanna-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/herrick-center-xx-susquehanna-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Herrick Center rises 1,710 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/herrick-center-xx-susquehanna-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Locals often shorten the name to Herrick Ctr., though variations like Herrick Cen. or Herrick Cntr. also appear.",
       "sourceSentenceIds": [
         9
@@ -73,18 +70,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/herrick-center-xx-susquehanna-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Herrick Center’s coordinates are listed but still require verification, a reminder of its small, rural character.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/herrick-center-xx-susquehanna-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/herrick-center-xx-susquehanna-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Forest Lake, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/herrick-center-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susquehanna_County_County_Seat.jpg"
+  }
 }

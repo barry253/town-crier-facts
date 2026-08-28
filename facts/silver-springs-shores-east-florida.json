@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Silver Springs Shores East sits at 29.0496° N, 81.8875° W in Marion County, Florida.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/marion/silver-springs-shores-east.cfm"
-    },
-    {
-      "id": 2,
       "text": "The community borders the Ocklawaha River and lies about 20 miles southeast of Ocala, the county seat.",
       "sourceSentenceIds": [
         8
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Silver Springs Shores East is part of the Ocala, Florida Metropolitan Statistical Area.",
       "sourceSentenceIds": [
         9
@@ -51,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
-      "text": "The median age of residents is 47.5 years.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "About 20.2% of residents are under 18 and 25.5% are 65 or older.",
       "sourceSentenceIds": [
         11
@@ -73,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Nearly 98% of the area is classified as rural.",
       "sourceSentenceIds": [
         15
@@ -84,7 +71,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Silver_Springs_Shores_East%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/silver-springs-shores-east-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_East_Lake_Weir_post_office01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "East Lake Weir, Florida"
+  }
 }

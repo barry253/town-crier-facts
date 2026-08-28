@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Located at 7,935 ft above sea level in Fraser River valley, just east of its mouth at Colorado River.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado"
-    },
-    {
-      "id": 4,
       "text": "Route 40 runs through town as Agate Avenue, leading east over Berthoud Pass to Denver and west to Hot Sulphur Springs.",
       "sourceSentenceIds": [
         17
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town sits in an area with average annual snowfall over 128 inches, making it one of the snowiest spots in Colorado.",
       "sourceSentenceIds": [
         16
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Granby%2C_Colorado",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/granby-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granby,_CO,_Town_Hall_IMG_5402.JPG"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://constablehall.org/"
+      "source": "https://constablehall.org/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Constable%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/constable-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mwanner",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saranac_Lake,_NY_-_Broadway.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Franklin County, New York"
+  }
 }

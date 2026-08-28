@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia"
-    },
-    {
-      "id": 3,
-      "text": "Arcade sits at 34°4′37″N 83°33′4″W, right in southern Jackson County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia"
-    },
-    {
-      "id": 4,
-      "text": "To the north, Arcade borders Jefferson, the county seat of Jackson County.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -84,7 +69,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Arcade%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/arcade-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.32,
+    "y": 0.5
+  }
 }

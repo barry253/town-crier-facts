@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Juab sits at 5,082 feet above sea level, overlooking the rugged Juab Valley.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Juab%2C_Utah"
-    },
-    {
-      "id": 5,
       "text": "Most of Juab County’s fertile farmland lies in the Juab Valley near Nephi at the base of Mount Nebo.",
       "sourceSentenceIds": [
         30
@@ -73,7 +68,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.uen.org/utah_history_encyclopedia/j/JUAB_COUNTY.shtml"
+      "source": "https://www.uen.org/utah_history_encyclopedia/j/JUAB_COUNTY.shtml",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/juab-utah.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brück & Sohn Kunstverlag Meißen",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:08103-Riverside,_Cal.-1906-Depot-Br%C3%BCck_%26_Sohn_Kunstverlag.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Los Angeles and Salt Lake Railroad"
+  }
 }

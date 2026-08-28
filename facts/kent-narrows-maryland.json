@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Kent Narrows sits at 38°58′09″N 76°14′25″W, a spot where the Chesapeake Bay meets the Kent County shoreline.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kent_Narrows%2C_Maryland"
-    },
-    {
       "id": 2,
       "text": "Every spring, the Kent Narrows Crab Feast draws locals to taste fresh Maryland hard crabs and oysters right on the waterfront.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.kentnarrowsmd.com/"
+      "source": "https://www.kentnarrowsmd.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.kentnarrowsmd.com/"
+      "source": "https://www.kentnarrowsmd.com/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.kentnarrowsmd.com/"
+      "source": "https://www.kentnarrowsmd.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.kentnarrowsmd.com/"
+      "source": "https://www.kentnarrowsmd.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.kentnarrowsmd.com/"
+      "source": "https://www.kentnarrowsmd.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kent-narrows-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.248,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "S. Clyde",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeake_Country_Scenic_Byway_-_Overlook_of_Kent_Narrows_Channel_-_NARA_-_7717626.jpg"
+  }
 }

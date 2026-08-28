@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Belton was named for Captain Marcus Lindsey Belt, a close friend of surveyor John Scott who helped map the area.",
+      "text": "Belton was named for Captain Marcus Lindsey Belt, an early settler of the region.",
       "sourceSentenceIds": [
         5,
         6
@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.belton.org/Community/History-of-Belton-MIssouri"
+      "source": "https://www.belton.org/Community/History-of-Belton-MIssouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Belton%2C_Missouri",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belton-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tyler Silvest",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belton,_Missouri.jpg"
+  }
 }

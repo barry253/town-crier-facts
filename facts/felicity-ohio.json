@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Felicity%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Felicity%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Felicity%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Felicity%2C_Ohio",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +57,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.felicityohio.us/"
+      "source": "https://www.felicityohio.us/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/felicity-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.373,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Felicity-Walnut-Ln-oh.jpg"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/McFarland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/McFarland%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.mcfarlandcity.org/home-property-community/history/"
+      "source": "https://www.mcfarlandcity.org/home-property-community/history/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-mcfarland-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-mcfarland-nature-adventure-and-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-mcfarland-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-mcfarland-nature-adventure-and-history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McFarland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/McFarland%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -91,7 +102,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McFarland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/McFarland%2C_California",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mc-farland-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Dorothea Lange",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McFarland,_Kern_County,_California._Homes_in_McFarland_shacktown._-_NARA_-_521686.jpg"
+  }
 }

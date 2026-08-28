@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Meadowood sits on heights south of Butler at 40.846949, -79.894440.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The CDP borders Oak Hills to the southwest.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Meadowood%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_meadowood"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_meadowood",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +84,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_meadowood"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_meadowood",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadowood-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.545,
+    "y": 0.5
+  }
 }

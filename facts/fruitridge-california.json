@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Fruitridge Pocket sits at 33 feet above sea level.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fruitridge_Pocket%2C_California"
-    },
-    {
       "id": 2,
       "text": "The sun rises at 6:07 a.m. and sets at 7:22 p.m. in Fruitridge Pocket.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket"
+      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket"
+      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket"
+      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket"
+      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket"
+      "source": "https://www.trawellino.com/destinations/united-states/california_fruitridge-pocket",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fruitridge-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andre m",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacramento,-California---State-Capitol_(cropped).jpg"
+  }
 }

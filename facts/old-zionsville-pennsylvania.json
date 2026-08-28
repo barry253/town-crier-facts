@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Old Zionsville is an unincorporated community in Upper Milford Township, Lehigh County, Pennsylvania.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Old_Zionsville%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Founded in 1979, the Hivel Und Dahl Preservation Society preserves Old Zionsville’s early settlers, farming heritage, and town growth.",
       "sourceSentenceIds": [
@@ -43,7 +32,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27051"
+      "source": "https://museumsdatabase.com/museums/view/27051",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27051"
+      "source": "https://museumsdatabase.com/museums/view/27051",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/27051"
+      "source": "https://museumsdatabase.com/museums/view/27051",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Zionsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Old_Zionsville%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -92,5 +90,16 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Old_Zionsville%2C_Pennsylvania"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/old-zionsville-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Zionsville,_Pennsylvania_(5654930411).jpg"
+  }
 }

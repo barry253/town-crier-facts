@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "La Moca Ranch lies at 27°54'19\"N 99°30'30\"W in Webb County, Texas.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.mapsof.net/la-moca-ranch-colonia"
-    },
-    {
       "id": 2,
       "text": "The community sits along U.S. Route 83, a key corridor north to Carrizo Springs and south to Laredo.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Moca_Ranch%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/La_Moca_Ranch%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/la-moca-ranch-colonia"
+      "source": "https://www.mapsof.net/la-moca-ranch-colonia",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/la-moca-ranch-colonia"
+      "source": "https://www.mapsof.net/la-moca-ranch-colonia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -74,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/la-moca-ranch-colonia"
+      "source": "https://www.mapsof.net/la-moca-ranch-colonia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +86,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Moca_Ranch%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/La_Moca_Ranch%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-moca-ranch-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

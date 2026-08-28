@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "McGovern sits at 40.24 degrees north and 80.22 degrees west, right in the heart of Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McGovern%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The community covers just 4.761 square kilometers, a compact slice of Washington County.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountymcgovern.htm"
+      "source": "https://www.usacitiesonline.com/pacountymcgovern.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountymcgovern.htm"
+      "source": "https://www.usacitiesonline.com/pacountymcgovern.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountymcgovern.htm"
+      "source": "https://www.usacitiesonline.com/pacountymcgovern.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGovern%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McGovern%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGovern%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McGovern%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcgovern-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim.henderson",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
+  }
 }

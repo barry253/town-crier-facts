@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "Roberts is a village in Ford County, located in the central part of Illinois.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-roberts-illinois.html"
-    },
-    {
-      "id": 3,
-      "text": "The village lies roughly 30 miles northwest of Champaign and 100 miles southwest of Chicago.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-roberts-illinois.html"
+      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-roberts-illinois.html"
+      "source": "https://www.citydirectory.us/village-roberts-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://robertsillinoisfordcounty.blogspot.com/"
+      "source": "https://robertsillinoisfordcounty.blogspot.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +70,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://robertsillinoisfordcounty.blogspot.com/"
+      "source": "https://robertsillinoisfordcounty.blogspot.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roberts-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.292,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roberts_Illinois_Post_Office.jpg"
+  }
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wilburton Number One sits at 40.8132 N, 76.3904 W on the western edge of Conyngham Township.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The community is part of the Bloomsburg‑Berwick micropolitan area.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wilburton_Number_One%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://theus50.com/pennsylvania/city.php?cityName=Wilburton"
+      "source": "https://theus50.com/pennsylvania/city.php?cityName=Wilburton",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wilburton-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.685,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilburton_Number_One_fire_company_building.JPG"
+  }
 }

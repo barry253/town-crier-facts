@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,19 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "The village sits at 40°1′31″N 92°40′56″W, just west of the Chariton River.",
-      "sourceSentenceIds": [
-        8,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/South_Gifford%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-south-gifford.html"
+      "source": "https://www.citydirectory.us/village-south-gifford.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-gifford-missouri.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.74,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MACON_COUNTY_COURTHOUSE_AND_ANNEX.jpg"
+  }
 }

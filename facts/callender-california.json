@@ -29,18 +29,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callender%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Callender%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "It began as a railroad town along the Southern Pacific line, named after landowner John S.",
+      "text": "It began as a railroad town along the Southern Pacific line, named after landowner John S. Callender.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callender%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Callender%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callender%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Callender%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callender%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Callender%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_callender"
+      "source": "https://www.trawellino.com/destinations/united-states/california_callender",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +97,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_callender"
+      "source": "https://www.trawellino.com/destinations/united-states/california_callender",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/callender-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomson200",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Nacimiento_2015.JPG"
+  }
 }

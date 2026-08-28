@@ -30,21 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The village lies at 38°41′11″N 90°19′35″W, a precise spot on the map.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri"
-    },
-    {
-      "id": 3,
       "text": "Washington Elementary School, opened in 1930, serves the community’s young learners.",
       "sourceSentenceIds": [
         25,
@@ -53,22 +45,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The median age of residents hovers around 38 years, reflecting a balanced age mix.",
-      "sourceSentenceIds": [
-        6,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "About 85% of Hanley Hills residents identify as African American, with the rest comprising other races.",
       "sourceSentenceIds": [
         13,
@@ -77,20 +59,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri"
-    },
-    {
-      "id": 6,
-      "text": "The village hosts roughly 940 housing units, with a vacancy rate of about 9.5%.",
-      "sourceSentenceIds": [
-        10,
-        12,
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Hanley_Hills%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hanley-hills-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.604,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Paul Sableman",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hanley_Hills_(30540543795).jpg"
+  }
 }

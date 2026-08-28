@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plato_Center%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Plato_Center%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm"
+      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +56,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm"
+      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "Standing 920 feet above sea level, the town sits on gently rolling prairie.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Official records list Plato Center in both the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm"
+      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A detailed list of nearby cemeteries is maintained for genealogical research.",
       "sourceSentenceIds": [
         29
@@ -84,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm"
+      "source": "https://roadsidethoughts.com/il/plato-center-xx-kane-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lily Lake, Illinois"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plato-center-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.5
+  }
 }

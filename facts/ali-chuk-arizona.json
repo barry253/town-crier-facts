@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ali Chuk sits at 1,762 feet above sea level.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona"
-    },
-    {
       "id": 2,
       "text": "The community lies right next to the U.S.–Mexico border.",
       "sourceSentenceIds": [
@@ -40,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona"
-    },
-    {
-      "id": 3,
-      "text": "Its geographic coordinates are 31.8151° N, 112.5568° W in Pima County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/pima/ali-chuk.cfm"
+      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Ali_Chuk%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/ali-chuk-xx-pima-profile.htm"
+      "source": "https://roadsidethoughts.com/az/ali-chuk-xx-pima-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ali-chuk-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gillfoto",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_County_Courthouse_10.JPG"
+  }
 }

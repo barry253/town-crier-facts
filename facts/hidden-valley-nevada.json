@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Hidden Valley sits at 4,470 feet above sea level.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm"
-    },
-    {
-      "id": 2,
       "text": "The community is located in Washoe County, Nevada.",
       "sourceSentenceIds": [
         15
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm"
+      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Hidden Valley Regional Park houses one of the area’s oldest buildings, built in the early 1900s.",
       "sourceSentenceIds": [
         6
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://snoflo.org/parks/nevada/hidden-valley-regional-park"
+      "source": "https://snoflo.org/parks/nevada/hidden-valley-regional-park",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The park offers sweeping views of the surrounding mountains and desert landscape.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://snoflo.org/parks/nevada/hidden-valley-regional-park"
+      "source": "https://snoflo.org/parks/nevada/hidden-valley-regional-park",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Hidden Valley’s elevation is roughly half a mile above sea level.",
       "sourceSentenceIds": [
         17
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm"
+      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Hidden Valley is featured on a Nevada commemorative quarter.",
       "sourceSentenceIds": [
         14
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm"
+      "source": "https://roadsidethoughts.com/nv/hidden-valley-xx-washoe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hidden-valley-nevada.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Saxphile",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miers_Valley_CKL.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Hidden Valley (Antarctica)"
+  }
 }

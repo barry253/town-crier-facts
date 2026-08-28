@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kelseyville_Riviera%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Kelseyville_Riviera%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 1,755 feet above sea level, giving it a mild high‑land climate.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kelseyville_Riviera%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Kelseyville Riviera is a planned community in Lake County, California, designed with residential streets and green spaces.",
       "sourceSentenceIds": [
         4
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kelseyville_Riviera%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Kelseyville_Riviera%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Clear Lake Aquatic Website documents the lake’s 20th‑century human impacts, tracing how development shaped its waters.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ucanr.edu/site/clear-lake-aquatic-website/history-clear-lake"
+      "source": "https://ucanr.edu/site/clear-lake-aquatic-website/history-clear-lake",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Geologists note that Clear Lake’s basin formed when tectonic forces lifted the earth, creating a unique shallow lake.",
       "sourceSentenceIds": [
         3
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://ucanr.edu/site/clear-lake-aquatic-website/history-clear-lake"
+      "source": "https://ucanr.edu/site/clear-lake-aquatic-website/history-clear-lake",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The city’s official website keeps residents informed with alerts, such as emergency notices for sewer spills and other urgent events.",
       "sourceSentenceIds": [
         15
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://clearlake.ca.us/"
+      "source": "https://clearlake.ca.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clearlake-riviera-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Arnaudh",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street_Lakeport_CA.png"
+  }
 }

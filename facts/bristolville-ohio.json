@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bristolville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Bristolville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.bristoltownshipohio.gov/"
+      "source": "https://www.bristoltownshipohio.gov/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.bristoltownshipohio.gov/"
+      "source": "https://www.bristoltownshipohio.gov/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.bristoltownshipohio.gov/"
+      "source": "https://www.bristoltownshipohio.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bristolville-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.248,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bristol_town_green_in_Bristolville.jpg"
+  }
 }

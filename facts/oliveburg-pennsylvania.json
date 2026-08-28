@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oliveburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oliveburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oliveburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oliveburg%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://jefferson.pagenweb.org/townships/oliver.html"
+      "source": "https://jefferson.pagenweb.org/townships/oliver.html",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://jefferson.pagenweb.org/townships/oliver.html"
+      "source": "https://jefferson.pagenweb.org/townships/oliver.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://jefferson.pagenweb.org/townships/oliver.html"
+      "source": "https://jefferson.pagenweb.org/townships/oliver.html",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Falls Creek, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oliveburg-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  }
 }

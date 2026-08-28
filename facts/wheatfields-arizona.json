@@ -29,23 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The town rests at an elevation of 7,287 feet, giving it a high‑altitude feel that’s almost a mile above sea level.",
-      "sourceSentenceIds": [
-        4,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona"
-    },
-    {
-      "id": 3,
       "text": "In 1909 the U.S. government launched an irrigation project to help Navajo residents cultivate the land around Wheatfields.",
       "sourceSentenceIds": [
         6
@@ -53,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Wheatfields is officially a chapter of the Navajo Nation, reflecting its deep ties to Navajo culture and governance.",
       "sourceSentenceIds": [
         7
@@ -64,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Only two places in Arizona share the name Wheatfields—one in Apache County and another in Gila County.",
       "sourceSentenceIds": [
         5
@@ -75,7 +69,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Wheatfields%2C_Apache_County%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wheatfields-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zereshk",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Apache_Sitgreaves_Nima2.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Apache County, Arizona"
+  }
 }

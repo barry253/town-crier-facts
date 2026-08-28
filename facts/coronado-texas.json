@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://coronadohistory.org/about/"
+      "source": "https://coronadohistory.org/about/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/thingstodo/visit-coronado-visitor-center.htm"
+      "source": "https://www.nps.gov/thingstodo/visit-coronado-visitor-center.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://coronadohistory.org/about/"
+      "source": "https://coronadohistory.org/about/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Francisco_V%C3%A1zquez_de_Coronado"
+      "source": "https://en.wikipedia.org/wiki/Francisco_V%C3%A1zquez_de_Coronado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Francisco_V%C3%A1zquez_de_Coronado"
+      "source": "https://en.wikipedia.org/wiki/Francisco_V%C3%A1zquez_de_Coronado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/coronado-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.476,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Post Office -- U.S. Bureau of Engraving and Printing",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:3c_Coronado_Expedition_400th_anniversary_single,_1940_issue.jpg"
+  }
 }

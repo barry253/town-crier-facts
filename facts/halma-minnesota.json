@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Halma is a city located in Kittson County, Minnesota, in the northwestern part of the state.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota"
-    },
-    {
       "id": 2,
       "text": "A post office first opened in Halma in 1904, serving the local community for more than a century.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Halma%2C_Minnesota",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-halma.html"
+      "source": "https://www.citydirectory.us/city-halma.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-halma.html"
+      "source": "https://www.citydirectory.us/city-halma.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

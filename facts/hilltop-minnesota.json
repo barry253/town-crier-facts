@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hilltop is a small enclave within the city of Columbia Heights and consists of 16 city blocks.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota"
-    },
-    {
       "id": 2,
       "text": "In the mid‑1960s, Hilltop constructed a water tower that allowed it to tap the Minneapolis water supply and end its conflict with Columbia Heights.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Hilltop%2C_Minnesota",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

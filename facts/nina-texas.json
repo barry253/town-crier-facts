@@ -31,35 +31,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/nina_texas"
+      "source": "https://grokipedia.com/page/nina_texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Located at 26°16′52″N 98°34′52″W, Nina lies about 16 miles southeast of Rio Grande City near the U.S.-Mexico border.",
-      "sourceSentenceIds": [
-        15,
-        16,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Nina%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Nina’s origins date to Spanish colonial land grants under José de Escandón in 1749, sparking ranching and agriculture in the Rio Grande Valley.",
+      "text": "Nina\u2019s origins date to Spanish colonial land grants under Jos\u00e9 de Escand\u00f3n in 1749, sparking ranching and agriculture in the Rio Grande Valley.",
       "sourceSentenceIds": [
         17
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/nina_texas"
+      "source": "https://grokipedia.com/page/nina_texas",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Irrigation projects near Rio Grande City in the late 1800s shifted the area toward crops like corn, cotton, and vegetables, spawning small farming communities.",
       "sourceSentenceIds": [
         21
@@ -67,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/nina_texas"
+      "source": "https://grokipedia.com/page/nina_texas",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Texas History Navigator app lets drivers explore over 18,000 historical markers across Texas, earning rewards for checking in at sites near Nina.",
       "sourceSentenceIds": [
         10,
@@ -80,18 +72,14 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/travel/texas-history-navigator"
-    },
-    {
-      "id": 6,
-      "text": "Nina’s 2010 census‑designated place status gave the community formal recognition, allowing residents to reference a defined geographic entity.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/nina_texas"
+      "source": "https://thc.texas.gov/travel/texas-history-navigator",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitanf.com/ludlow/"
+      "source": "https://visitanf.com/ludlow/",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitanf.com/ludlow/"
+      "source": "https://visitanf.com/ludlow/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitanf.com/ludlow/"
+      "source": "https://visitanf.com/ludlow/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitanf.com/ludlow/"
+      "source": "https://visitanf.com/ludlow/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ludlow%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ludlow%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -85,7 +97,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ludlow%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ludlow%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ludlow-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "IvoShandor",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mead_Run3.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Allegheny National Forest"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brainard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Brainard%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brainard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Brainard%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Brainard’s elevation is 670 feet above sea level, giving it a mild hilltop view of the surrounding countryside.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/brainard-xx-rensselaer-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The first documented reference to Brainard appears in an 1895 atlas, though the community’s exact founding date remains unknown.",
       "sourceSentenceIds": [
         12
@@ -63,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/brainard-xx-rensselaer-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/brainard-xx-rensselaer-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Brainard is part of the town of East Nassau in Rensselaer County, placing it within the Hudson Valley’s historic corridor.",
       "sourceSentenceIds": [
         7
@@ -74,7 +71,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brainard%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Brainard%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brainard-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Case",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Hoosick_Falls,_NY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Hoosick Falls, New York"
+  }
 }

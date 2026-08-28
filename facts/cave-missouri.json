@@ -22,71 +22,68 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cave, Missouri is a small municipality in Lincoln County, located in eastern Missouri northwest of St. Louis.",
+      "text": "Missouri, known as the Cave State, boasts roughly 7,500 recorded caves, making it one of the most cave-rich states in the U.S.",
       "sourceSentenceIds": [
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-cave.html"
-    },
-    {
-      "id": 2,
-      "text": "The town sits near a network of limestone caves, with Missouri recording about 7,500 caves statewide.",
-      "sourceSentenceIds": [
-        6,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Onondaga Cave, nearby, earned National Natural Landmark status because of its unique karst features.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://mostateparks.com/page/onondaga-cave-state-park/general-information-onondaga"
-    },
-    {
-      "id": 4,
-      "text": "The name 'Cave' reflects the area's karst landscape, where acidic rainwater dissolves carbonate bedrock to create sinkholes and caverns.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri"
-    },
-    {
-      "id": 5,
-      "text": "Historically, the Frisco Railroad brought Louis to Leasburg, then wagons carried them to the cave, linking the town to regional trade.",
-      "sourceSentenceIds": [
+        2,
         3
       ],
       "sourceLabels": [
-        "Web source 2"
+        "Wikipedia"
       ],
-      "source": "https://mostateparks.com/page/onondaga-cave-state-park/general-information-onondaga"
+      "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
-      "text": "The town hall in Cave offers contact info and services, making it easy for residents to reach local government.",
+      "id": 2,
+      "text": "Cave, Missouri, features a unique karst topography, characterized by sinkholes and extensive cavern development due to its underlying carbonate bedrock.",
       "sourceSentenceIds": [
-        12
+        4,
+        5
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://www.citydirectory.us/village-cave.html"
+      "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 3,
+      "text": "Slightly acidic rainwater plays a crucial role in the formation of caves in Cave, Missouri, as it dissolves the carbonate bedrock.",
+      "sourceSentenceIds": [
+        4
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 4,
+      "text": "The list of caves in Missouri includes details like location, length, and the date they were opened to the public or discovered.",
+      "sourceSentenceIds": [
+        1
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/List_of_caves_in_Missouri",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cave-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "aquiamigo",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bluff_Dwellers_Cave.jpg"
+  }
 }

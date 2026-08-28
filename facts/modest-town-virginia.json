@@ -32,7 +32,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -46,25 +49,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits just 36 feet above sea level, a typical elevation for the Eastern Shore’s low‑lying landscape.",
-      "sourceSentenceIds": [
-        7,
-        12,
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Modest_Town%2C_Virginia"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Modest Town in 1822, marking the community’s early establishment as a communication hub.",
       "sourceSentenceIds": [
         23
@@ -72,10 +62,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/modest-town-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/modest-town-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Modest Town is part of Accomack County, a region noted for its historic county boundary changes over time.",
       "sourceSentenceIds": [
         11,
@@ -85,20 +77,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Modest_Town,_Virginia"
-    },
-    {
-      "id": 6,
-      "text": "The community’s coordinates are still being verified, reflecting the challenges of mapping small coastal settlements.",
-      "sourceSentenceIds": [
-        27,
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/modest-town-xx-accomack-profile.htm"
+      "source": "https://kids.kiddle.co/Modest_Town,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/modest-town-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.492,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "self",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Small_commercial_district_in_Modest_Town.jpg"
+  }
 }

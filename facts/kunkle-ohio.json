@@ -31,7 +31,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Kunkle,_Ohio"
+      "source": "https://kids.kiddle.co/Kunkle,_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -44,34 +47,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kunkle%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Kunkle%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Kunkle sits in Williams County, Ohio, about 60 miles west of Toledo.",
-      "sourceSentenceIds": [
-        6,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kunkle%2C_Ohio"
-    },
-    {
-      "id": 4,
-      "text": "The town rests at an elevation of 870 feet above sea level.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/kunkle-xx-williams-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Despite its name, Kunkle is not located in Pennsylvania; it is firmly in Ohio.",
       "sourceSentenceIds": [
         1
@@ -79,10 +60,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/kunkle-xx-williams-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/kunkle-xx-williams-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Kunkle’s coordinates still need verification, hinting at its modest, uncharted nature.",
       "sourceSentenceIds": [
         16,
@@ -91,7 +75,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/kunkle-xx-williams-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/kunkle-xx-williams-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kunkle-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kunkle_Log_House.jpg"
+  }
 }

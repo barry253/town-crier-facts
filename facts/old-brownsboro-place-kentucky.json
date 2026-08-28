@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Old Brownsboro Place’s northern boundary follows Kentucky Route 22, also known as Brownsboro Road.",
-      "sourceSentenceIds": [
-        6,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky"
-    },
-    {
       "id": 2,
       "text": "Goose Creek, a north‑flowing tributary of the Ohio River, touches the eastern edge of Old Brownsboro Place.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky"
-    },
-    {
-      "id": 4,
-      "text": "Downtown Louisville lies roughly nine miles southwest of Old Brownsboro Place in the region.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -75,18 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-old-brownsboro-place.html"
-    },
-    {
-      "id": 6,
-      "text": "Old Brownsboro Place is bordered by Spring Valley to the north, Bancroft to the south, and the rest of its borders share with consolidated Louisville/Jefferson County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Old_Brownsboro_Place%2C_Kentucky"
+      "source": "https://www.citydirectory.us/city-old-brownsboro-place.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Williston%2C_Tennessee"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 35°9′32″N 89°22′24″W, placing it in southwestern Tennessee.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Williston%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Williston%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Williston%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Williston%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +59,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.nationalregisterofhistoricplaces.com/tn/fayette/districts.html"
+      "source": "https://www.nationalregisterofhistoricplaces.com/tn/fayette/districts.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +72,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.nationalregisterofhistoricplaces.com/tn/fayette/districts.html"
+      "source": "https://www.nationalregisterofhistoricplaces.com/tn/fayette/districts.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-williston-tennessee.html"
+      "source": "https://www.citydirectory.us/city-williston-tennessee.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/williston-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomas R Machnitzki (thomas@machnitzki.com)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Williston_TN_002.jpg"
+  }
 }

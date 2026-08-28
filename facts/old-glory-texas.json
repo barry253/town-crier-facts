@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Old_Glory%2C_Texas",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/old-glory-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/old-glory-tx",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/old-glory-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Leaflet",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Glory_Texas_Former_General_Store_2025.jpg"
+  }
 }

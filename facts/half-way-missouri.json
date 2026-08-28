@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Halfway%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Halfway%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Halfway%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Halfway lies within the Springfield, Missouri Metropolitan Statistical Area, linking it to the region’s economic hub.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Halfway%2C_Missouri"
-    },
-    {
-      "id": 4,
-      "text": "The village is located in Polk County, placing it in the heart of southwestern Missouri’s rural landscape.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Halfway%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Halfway%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-halfway-missouri.html"
+      "source": "https://www.citydirectory.us/village-halfway-missouri.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/halfway-xx-polk-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/halfway-xx-polk-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/half-way-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "en:User:Wroller; retouched by Kbh3rd",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bolivarmo2-retouched.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans"
+      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://prcno.org/help-for-homeowners/historic-districts-neighborhoods/uptown/"
+      "source": "https://prcno.org/help-for-homeowners/historic-districts-neighborhoods/uptown/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://prcno.org/help-for-homeowners/historic-districts-neighborhoods/uptown/"
+      "source": "https://prcno.org/help-for-homeowners/historic-districts-neighborhoods/uptown/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans"
+      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans"
+      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans"
+      "source": "https://en.wikipedia.org/wiki/Uptown_New_Orleans",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/uptown-louisiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Infrogmation",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LatterLibraryStoneSignHouse.jpg"
+  }
 }

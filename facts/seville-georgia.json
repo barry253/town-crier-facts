@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +83,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia"
-    },
-    {
-      "id": 6,
-      "text": "At 370 feet above sea level, Seville enjoys a modest elevation typical of central Georgia’s landscape.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ga/seville-xx-wilcox-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Seville%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seville-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.69,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilcox_County_Courthouse_(South_face)_(cropped).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Wilcox County, Georgia"
+  }
 }

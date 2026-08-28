@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/jewell_georgia"
+      "source": "https://grokipedia.com/page/jewell_georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/jewell_georgia"
+      "source": "https://grokipedia.com/page/jewell_georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/jewell_georgia"
+      "source": "https://grokipedia.com/page/jewell_georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/jewell_georgia"
+      "source": "https://grokipedia.com/page/jewell_georgia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://vanishinggeorgia.com/category/jewell-ga/"
+      "source": "https://vanishinggeorgia.com/category/jewell-ga/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/jewell_georgia"
+      "source": "https://grokipedia.com/page/jewell_georgia",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jewell-georgia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Mayer",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Damage_to_Centennial_Olympic_Park_-_14_March_2008_Downtown_Atlanta_storm.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Centennial Olympic Park"
+  }
 }

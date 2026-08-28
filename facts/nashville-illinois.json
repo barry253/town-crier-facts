@@ -31,7 +31,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Nashville,_Illinois"
+      "source": "https://grokipedia.com/page/Nashville,_Illinois",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -44,7 +47,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Nashville,_Illinois"
+      "source": "https://grokipedia.com/page/Nashville,_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nashville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Nashville%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nashville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Nashville%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nashville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Nashville%2C_Illinois",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nashville-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.682,
+    "y": 0.5
+  }
 }

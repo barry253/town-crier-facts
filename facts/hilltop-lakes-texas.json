@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop_Lakes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Hilltop_Lakes%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hilltop_Lakes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Hilltop_Lakes%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/hilltop-lakes-tx",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hilltop-lakes-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Navasota_River_in_TX_IMG_6231.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Navasota River"
+  }
 }

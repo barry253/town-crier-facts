@@ -25,21 +25,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The borough is part of the Johnstown Metropolitan Statistical Area, linking it to a larger regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
       "text": "Since 1968, East Conemaugh has hosted the Conemaugh Valley Youth League, fielding baseball and softball teams.",
       "sourceSentenceIds": [
         16
@@ -47,10 +38,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 2008, the borough council approved a $20,000 grant that enabled night games for the youth league.",
       "sourceSentenceIds": [
         20
@@ -58,21 +51,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/East_Conemaugh%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "East Conemaugh sits 1,300 feet above sea level, giving it a modest elevation within Cambria County.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/east-conemaugh-xx-cambria-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "The first documented mention of East Conemaugh appears on a 1956 map, marking its early recognition.",
       "sourceSentenceIds": [
         23
@@ -80,7 +64,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/east-conemaugh-xx-cambria-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/east-conemaugh-xx-cambria-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-conemaugh-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.663,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Second_east_of_Locust,_East_Conemaugh.jpg"
+  }
 }

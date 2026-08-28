@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Carlton sits in southern Missoula County, in the northern Bitterroot Valley today.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carlton%2C_Montana"
-    },
-    {
       "id": 2,
       "text": "The Bitterroot River borders Carlton to the east, while Carlton Creek flows through the town before joining a tributary.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carlton%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Carlton%2C_Montana",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://discoveringmontana.com/towns/carlton/"
+      "source": "https://discoveringmontana.com/towns/carlton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://discoveringmontana.com/towns/carlton/"
-    },
-    {
-      "id": 5,
-      "text": "Carlton’s southern edge meets the Ravalli County line as it stretches toward the mountains.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carlton%2C_Montana"
+      "source": "https://discoveringmontana.com/towns/carlton/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://discoveringmontana.com/towns/carlton/"
+      "source": "https://discoveringmontana.com/towns/carlton/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

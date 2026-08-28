@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana"
-    },
-    {
-      "id": 3,
-      "text": "Crane’s western edge borders Daviess County, marking the boundary between Martin and Daviess counties.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-crane-indiana.html"
+      "source": "https://www.citydirectory.us/town-crane-indiana.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Crane%2C_Indiana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -86,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofcrane.org/"
+      "source": "https://townofcrane.org/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crane-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.789,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crane-558-Blandy-in.jpg"
+  }
 }

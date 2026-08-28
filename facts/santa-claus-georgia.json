@@ -34,7 +34,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://cityofsantaclaus.org/history/"
+      "source": "https://cityofsantaclaus.org/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Claus%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Santa_Claus%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,19 +61,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofsantaclaus.org/history/"
-    },
-    {
-      "id": 4,
-      "text": "Santa Claus sits at 32°10′15″N 82°19′52″W and is part of the Vidalia micropolitan area.",
-      "sourceSentenceIds": [
-        13,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Claus%2C_Georgia"
+      "source": "https://cityofsantaclaus.org/history/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +74,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofsantaclaus.org/history/"
+      "source": "https://cityofsantaclaus.org/history/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/santa-claus-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santa_Claus_City_Hall.JPG"
+  }
 }

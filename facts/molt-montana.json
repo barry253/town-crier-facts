@@ -33,7 +33,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.mtmemory.org/nodes/view/128539"
+      "source": "https://www.mtmemory.org/nodes/view/128539",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Molt%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Molt%2C_Montana",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Molt%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Molt%2C_Montana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitmt.com/cities-towns/molt"
+      "source": "https://www.visitmt.com/cities-towns/molt",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/molt-montana.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain Time Zone"
+  }
 }

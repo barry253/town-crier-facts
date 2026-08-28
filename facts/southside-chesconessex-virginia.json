@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "South Chesconessex first appeared as a census‑designated place in the 2010 census.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Chesconessex%2C_Virginia"
-    },
-    {
-      "id": 2,
-      "text": "The community sits a mere 3 feet above sea level, practically at sea level.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/South_Chesconessex%2C_Virginia"
-    },
-    {
-      "id": 3,
       "text": "South Chesconessex lies within Accomack County on Virginia’s Eastern Shore.",
       "sourceSentenceIds": [
         7
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Historical 1895 maps show a network of nearby communities that once surrounded South Chesconessex.",
       "sourceSentenceIds": [
         20
@@ -62,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Genealogy enthusiasts can explore a dedicated cemetery list and other family‑history resources for South Chesconessex.",
       "sourceSentenceIds": [
         16,
@@ -74,10 +58,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "A comprehensive list of local newspapers chronicles South Chesconessex’s history.",
       "sourceSentenceIds": [
         22
@@ -85,7 +72,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/south-chesconessex-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/southside-chesconessex-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
+  }
 }

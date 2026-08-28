@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/ellenburg_depot_new_york"
+      "source": "https://grokipedia.com/page/ellenburg_depot_new_york",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/ellenburg_depot_new_york"
+      "source": "https://grokipedia.com/page/ellenburg_depot_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofellenburgny.gov/history.html"
+      "source": "https://www.townofellenburgny.gov/history.html",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/ellenburg_depot_new_york"
+      "source": "https://grokipedia.com/page/ellenburg_depot_new_york",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofellenburgny.gov/history.html"
+      "source": "https://www.townofellenburgny.gov/history.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +100,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ellenburg_Depot%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Ellenburg_Depot%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ellenburg-depot-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.44,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Snapshot Sasquatch",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Clinton_County_Courthouse_-_Plattsburgh,_New_York.jpg"
+  }
 }

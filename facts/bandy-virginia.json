@@ -30,22 +30,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bandy%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Bandy%2C_Virginia",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Bandy sits at 2,160 feet above sea level, about a half‑mile up.",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/bandy-xx-tazewell-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The town’s post office opened in 1901, marking its first official federal recognition.",
       "sourceSentenceIds": [
         8,
@@ -55,10 +45,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/bandy-xx-tazewell-profile.htm"
+      "source": "https://roadsidethoughts.com/va/bandy-xx-tazewell-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Bandy lies at the junction of State Routes 624 and 627.",
       "sourceSentenceIds": [
         5
@@ -66,10 +58,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bandy%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Bandy%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Bandy is 3.4 miles northeast of Richlands, the county seat in Tazewell County.",
       "sourceSentenceIds": [
         5
@@ -77,7 +72,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bandy%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Bandy%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bandy-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Magnolia677",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bandy,_Virginia.jpg"
+  }
 }

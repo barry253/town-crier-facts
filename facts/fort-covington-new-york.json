@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.gsa.gov/real-estate/find-a-historic-federal-building/us-border-stationfort-covington-ft-covington-ny"
+      "source": "https://www.gsa.gov/real-estate/find-a-historic-federal-building/us-border-stationfort-covington-ft-covington-ny",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.gsa.gov/real-estate/find-a-historic-federal-building/us-border-stationfort-covington-ft-covington-ny"
+      "source": "https://www.gsa.gov/real-estate/find-a-historic-federal-building/us-border-stationfort-covington-ft-covington-ny",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Covington_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Fort_Covington_(CDP)%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Covington_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Fort_Covington_(CDP)%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fort_Covington_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Fort_Covington_(CDP)%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +98,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://library.stlawu.edu/collection/fort-covington-collection"
+      "source": "https://library.stlawu.edu/collection/fort-covington-collection",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fort-covington-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adirondack_Presbyterian_Church_02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Clear, New York"
+  }
 }

@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "La Chuparosa sits at 26°24′13″N 98°55′37″W, or 26.403708, –98.926801 on the map.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Chuparosa%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The Census Bureau designates La Chuparosa as a census‑designated place, not a legal municipality.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm"
-    },
-    {
       "id": 3,
       "text": "Its Diversity Index ranges from 0 to 100, measuring how likely two random residents belong to different races.",
       "sourceSentenceIds": [
@@ -51,11 +29,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm"
+      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "The Housing Affordability Index uses 100 as a balance point where a median‑income household can afford a median‑price home.",
+      "text": "The Housing Affordability Index uses 100 as a balance point where a median\u2011income household can afford a median\u2011price home.",
       "sourceSentenceIds": [
         10,
         11
@@ -63,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm"
+      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -75,18 +59,28 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm"
+      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
-      "text": "La Chuparosa reports no water area, covering its entire 0.0 square‑mile footprint.",
+      "text": "La Chuparosa reports no water area, covering its entire 0.0 square\u2011mile footprint.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm"
+      "source": "https://texas.hometownlocator.com/tx/starr/la-chuparosa.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

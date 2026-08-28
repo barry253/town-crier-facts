@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/tarpey-village/30417"
+      "source": "https://hellonation.com/mag/ca/tarpey-village/30417",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
-      "text": "At just 351 feet above sea level, Tarpey Village sits comfortably in the foothills of California’s Central Valley.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tarpey_Village%2C_California"
-    },
-    {
-      "id": 3,
       "text": "The town’s schools—Tarpey Elementary, Alta Sierra Intermediate, and Buchanan High—serve as community hubs for families and students alike.",
       "sourceSentenceIds": [
         13
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tarpey_Village%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tarpey_Village%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Nature lovers find delight in Tarpey’s parks, where lush greenery and peaceful walking trails invite residents to explore the outdoors.",
       "sourceSentenceIds": [
         24
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/tarpey-village/30417"
+      "source": "https://hellonation.com/mag/ca/tarpey-village/30417",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Every doorstep in Tarpey feels like a homecoming, with neighbors quickly turning from strangers into friends during local festivals and farmers markets.",
       "sourceSentenceIds": [
         20,
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/tarpey-village/30417"
+      "source": "https://hellonation.com/mag/ca/tarpey-village/30417",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Tarpey embraces diversity, culture, and opportunity, positioning itself as more than a place to live—it’s a place to belong.",
       "sourceSentenceIds": [
         26
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/tarpey-village/30417"
+      "source": "https://hellonation.com/mag/ca/tarpey-village/30417",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tarpey-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Crd637",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KingsCanyonNP.JPG"
+  }
 }

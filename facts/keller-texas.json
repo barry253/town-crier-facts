@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofkeller.com/about-us/history"
+      "source": "https://www.cityofkeller.com/about-us/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofkeller.com/about-us/history"
+      "source": "https://www.cityofkeller.com/about-us/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kellerhistorymuseum.com/"
+      "source": "https://kellerhistorymuseum.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kellerhistorymuseum.com/"
+      "source": "https://kellerhistorymuseum.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kellerhistorymuseum.com/"
+      "source": "https://kellerhistorymuseum.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/keller-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.349,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "1958publius",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keller_TX_Fire_Trucks.jpg"
+  }
 }

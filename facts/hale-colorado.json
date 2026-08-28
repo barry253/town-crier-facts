@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Camp Hale sits at 9,238 feet, chosen for its high altitude and abundant snowfall, making it ideal for mountain warfare training.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Hale"
-    },
-    {
-      "id": 2,
       "text": "Named after General Irving Hale, the camp’s title honors the officer who pioneered U.S. mountain warfare tactics.",
       "sourceSentenceIds": [
         3
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Hale"
+      "source": "https://en.wikipedia.org/wiki/Camp_Hale",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "During World War II, the 10th Mountain Division trained here in alpine climbing, skiing, and cold‑weather survival before heading to Europe.",
       "sourceSentenceIds": [
         28,
@@ -52,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Hale"
+      "source": "https://en.wikipedia.org/wiki/Camp_Hale",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Hollywood filmed two wartime movies at Camp Hale—\"Mountain Fighters\" (1943) and \"I Love a Soldier\" (1944)—capturing the camp’s rugged scenery.",
       "sourceSentenceIds": [
         17,
@@ -65,10 +58,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Hale"
+      "source": "https://en.wikipedia.org/wiki/Camp_Hale",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In 1992, Camp Hale became a national historic site, and in 2019 it was proposed as Colorado’s first National Historic Landscape under the CORE Act.",
       "sourceSentenceIds": [
         8
@@ -76,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Hale"
+      "source": "https://en.wikipedia.org/wiki/Camp_Hale",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Veteran Pete Seibert, who trained at Camp Hale, founded Vail Ski Resort in 1962, turning the area into a world‑class ski destination.",
       "sourceSentenceIds": [
         23
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Hale"
+      "source": "https://en.wikipedia.org/wiki/Camp_Hale",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hale-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.836,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jonathunder",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:HistoricPlacesNationalRegisterPlaque.JPG"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Glenmoore sits at 440 feet above sea level, offering a modest elevation within Chester County’s rolling landscape.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/glenmoore-xx-chester-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The community lies along Pennsylvania Route 282, a key corridor that connects it to the broader Philadelphia metropolitan area.",
       "sourceSentenceIds": [
         13
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Glenmoore%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "First mentioned in an 1895 atlas, Glenmoore’s earliest documented reference dates back to the late 19th century.",
       "sourceSentenceIds": [
         16
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/glenmoore-xx-chester-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/glenmoore-xx-chester-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glenmoore-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.179,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JERRYE & ROY KLOTZ MD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GLENMOORE_HISTORIC_DISTRICT.jpg"
+  }
 }

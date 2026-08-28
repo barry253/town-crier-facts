@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "New Albany is a borough in Bradford County, Pennsylvania, situated at 41°36′2″N 76°26′30″W.",
-      "sourceSentenceIds": [
-        25,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Albany%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Route 220 cuts through New Albany, linking it north to Towanda and southwest to Williamsport.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Albany%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/New_Albany%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.bradfordcountypa.gov/217/New-Albany-Borough"
+      "source": "https://www.bradfordcountypa.gov/217/New-Albany-Borough",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-new-albany-pennsylvania"
+      "source": "https://hometownhistorymaps.com/pages/history-of-new-albany-pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-new-albany-pennsylvania"
+      "source": "https://hometownhistorymaps.com/pages/history-of-new-albany-pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-new-albany-pennsylvania"
+      "source": "https://hometownhistorymaps.com/pages/history-of-new-albany-pennsylvania",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-albany-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.771,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Albany_PA_United_Methodist.jpg"
+  }
 }

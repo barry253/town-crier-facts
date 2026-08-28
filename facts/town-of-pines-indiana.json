@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-town-of-pines.html"
+      "source": "https://www.citydirectory.us/town-town-of-pines.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Town_of_Pines%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Town_of_Pines%2C_Indiana",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Town_of_Pines%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Town_of_Pines%2C_Indiana",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Town_of_Pines%2C_Indiana"
-    },
-    {
-      "id": 5,
-      "text": "Pines lies east of Gary and west of Michigan City, placing it between two larger urban centers.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-town-of-pines.html"
+      "source": "https://en.wikipedia.org/wiki/Town_of_Pines%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-town-of-pines.html"
+      "source": "https://www.citydirectory.us/town-town-of-pines.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/town-of-pines-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.777,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "David Wilson",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:19671008_25_South_Shore_Line_Lake_Shore_Station_(13914297279).jpg"
+  }
 }

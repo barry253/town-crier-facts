@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laconia%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Laconia%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html"
+      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html"
+      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html"
+      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html"
+      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html"
+      "source": "https://www.laconiadailysun.com/news/local/laconia-history-museum-becomes-reality/article_a23c9e2a-c0f2-4f95-a575-7b392b475b5c.html",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laconia-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomas R Machnitzki (thomas@machnitzki.com)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somerville_TN_01-2012_003.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Tennessee"
+  }
 }

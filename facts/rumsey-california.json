@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.espartoregionalchamber.com/our-towns"
+      "source": "https://www.espartoregionalchamber.com/our-towns",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rumsey%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rumsey%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Rumsey sits at 420 feet above sea level in the Capay Valley, about 18 miles northwest of Esparto.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rumsey%2C_California"
-    },
-    {
-      "id": 4,
       "text": "A 1906 earthquake triggered a landslide that temporarily dammed Cache Creek north of Rumsey, later causing flooding in the town.",
       "sourceSentenceIds": [
         17
@@ -62,7 +55,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rumsey%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Rumsey%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rumsey-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hitchster",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capay_Valley.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Capay Valley"
+  }
 }

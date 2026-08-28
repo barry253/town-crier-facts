@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Suplee%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Suplee%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,22 +44,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The community rests at about 643 feet above sea level, a bit higher than surrounding areas.",
-      "sourceSentenceIds": [
-        18,
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania"
-    },
-    {
-      "id": 4,
       "text": "Suplee’s landscape features rolling hills, farms, and historic charm typical of Pennsylvania’s rural areas.",
       "sourceSentenceIds": [
         2,
@@ -66,10 +60,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Residents rely on Honey Brook Township for services like roads and zoning, as Suplee has no local government.",
       "sourceSentenceIds": [
         11,
@@ -80,10 +77,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The area is popular for outdoor activities such as hiking, biking, and exploring nature, with local farms offering fresh produce.",
       "sourceSentenceIds": [
         22,
@@ -92,7 +92,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Suplee,_Pennsylvania",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/suplee-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-08-31_12_38_19_View_west_along_Interstate_76_(Pennsylvania_Turnpike_Philadelphia_Extension)_from_the_overpass_for_Pennsylvania_State_Route_82_(North_Manor_Road)_in_West_Nantmeal_Township,_Chester_County,_Pennsylvania.jpg"
+  }
 }

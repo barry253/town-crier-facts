@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.exploregwinnett.org/cities/sugar-hill/"
+      "source": "https://www.exploregwinnett.org/cities/sugar-hill/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cityofsugarhill.com/sugar-hill-art-gallery-history-museum/"
+      "source": "https://cityofsugarhill.com/sugar-hill-art-gallery-history-museum/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,18 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia"
-    },
-    {
-      "id": 6,
-      "text": "The U.S. Geological Survey lists Sugar Hill’s elevation at 1,079 feet, giving it a mild hilltop climate.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Sugar_Hill%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sugar-hill-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.396,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomson200",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sugar_Hill,_Georgia_City_Hall_Mar_2017.jpg"
+  }
 }

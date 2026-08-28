@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 3,
-      "text": "About 73.65% of residents identify as White, with 13.14% African American and 6.65% from other races.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida"
-    },
-    {
-      "id": 4,
       "text": "The average household in Plantation Mobile Home Park holds 2.49 people, while families average 3.07 members.",
       "sourceSentenceIds": [
         17
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "A satellite view shows the area mostly cloudy, with a low around 71°F and a chance of showers and thunderstorms.",
       "sourceSentenceIds": [
         23,
@@ -74,19 +72,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mapsof.net/plantation-mobile-home-park"
-    },
-    {
-      "id": 6,
-      "text": "The park’s 4.8% vacancy rate reflects a tight housing market, with a homeowner vacancy of 0.4% and rental vacancy of 3.6%.",
-      "sourceSentenceIds": [
-        13,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Plantation_Mobile_Home_Park%2C_Florida"
+      "source": "https://www.mapsof.net/plantation-mobile-home-park",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plantation-mobile-home-park-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "St. Petersburg Times",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "1921 Tampa Bay hurricane"
+  }
 }

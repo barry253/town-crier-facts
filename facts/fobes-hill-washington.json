@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fobes_Hill%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Fobes_Hill%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits roughly 200 feet above sea level, giving it a gentle hilltop view.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/wa/fobes-hill-xx-snohomish-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "In 1895, Fobes Hill was noted for having a post office or railroad service, marking its early development.",
       "sourceSentenceIds": [
         1
@@ -51,21 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/fobes-hill-xx-snohomish-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/fobes-hill-xx-snohomish-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Its geographic coordinates are 47°56′21″N 122°8′3″W, placing it just north of downtown Snohomish.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fobes_Hill%2C_Washington"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "The Ridge at Fobes Hill housing development is a notable residential subdivision within the community.",
       "sourceSentenceIds": [
         5
@@ -73,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fobes_Hill%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Fobes_Hill%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Fobes Hill lies within Snohomish County, Washington.",
       "sourceSentenceIds": [
         28
@@ -84,7 +68,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/fobes-hill-xx-snohomish-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/fobes-hill-xx-snohomish-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fobes-hill-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Granite Falls, Washington"
+  }
 }

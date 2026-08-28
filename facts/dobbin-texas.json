@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Dobbin is an unincorporated community in Montgomery County, Texas, part of the Houston–Sugar Land–Baytown Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        20,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dobbin%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "In 1909 the town’s name changed from Bobbin to Dobbin after the railroad built through the area.",
       "sourceSentenceIds": [
@@ -43,7 +31,15 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dobbin%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Dobbin%2C_Texas",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dobbin-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.649,
+    "y": 0.5
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Branchville sits at an elevation of 430 feet above sea level, offering gentle hills typical of Perry County.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/branchville-xx-perry-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The Branchville Correctional Facility lies just outside the community, a notable landmark in the area.",
       "sourceSentenceIds": [
         8
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Branchville lies along County Road 40, northeast of Tell City, the county seat of Perry County.",
       "sourceSentenceIds": [
         7
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Branchville%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/branchville-indiana.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Henry the heron at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tell_City,_Indiana_Town_Hall.jpg"
+  }
 }

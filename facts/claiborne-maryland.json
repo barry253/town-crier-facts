@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.claibornemd.org/about-claiborne"
+      "source": "https://www.claibornemd.org/about-claiborne",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.claibornemd.org/about-claiborne"
+      "source": "https://www.claibornemd.org/about-claiborne",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claiborne%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Claiborne%2C_Maryland",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/claiborne_maryland"
+      "source": "https://grokipedia.com/page/claiborne_maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/claiborne_maryland"
+      "source": "https://grokipedia.com/page/claiborne_maryland",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/claiborne-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Landsat/NASA",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chesapeakelandsat.jpeg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chesapeake Bay"
+  }
 }

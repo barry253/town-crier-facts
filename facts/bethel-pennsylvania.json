@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide"
+      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.betheltwp.com/about-us"
+      "source": "https://www.betheltwp.com/about-us",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide"
+      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide"
+      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide"
+      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +98,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide"
+      "source": "https://pennsylvaniainfo.blog/bethel-pennsylvania-ultimate-guide",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bethel-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bethel_Presbyterian_Church_(Pennsylvania)_2.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bethel Park, Pennsylvania"
+  }
 }

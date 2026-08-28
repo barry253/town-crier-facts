@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.movingideas.org/cook-sta-mo/"
+      "source": "https://www.movingideas.org/cook-sta-mo/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Nestled in Crawford County, Cook Station sits 900 feet above sea level.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The town’s name is commonly shortened to Cook Sta., a handy abbreviation for locals and visitors alike.",
       "sourceSentenceIds": [
         23
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "A Gazetteer entry for Cook Station provides historical details and geographic coordinates for the community.",
       "sourceSentenceIds": [
         20
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "An 1895 atlas lists several neighboring communities around Cook Station, illustrating the area’s early settlement pattern.",
       "sourceSentenceIds": [
         28
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Cook Station’s location is recorded in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/cook-station-xx-crawford-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cook-sta-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.292,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Wikideas1",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sales_tax_by_county.webp"
+  }
 }

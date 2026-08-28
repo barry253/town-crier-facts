@@ -32,26 +32,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits high in the Cuyamaca Mountains, about 3,999 feet above sea level.",
-      "sourceSentenceIds": [
-        12,
-        13,
-        18,
-        19,
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California"
-    },
-    {
-      "id": 3,
       "text": "In the 1800s, Guatay hosted a stagecoach station on the San Antonio‑San Diego Mail Line.",
       "sourceSentenceIds": [
         10,
@@ -64,10 +50,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Although unincorporated, Guatay never had its own post office.",
       "sourceSentenceIds": [
         14,
@@ -77,10 +65,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town lies within the southeastern part of San Diego County’s Mountain Empire area.",
       "sourceSentenceIds": [
         12,
@@ -91,10 +82,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "San Diego MTS route 888 stops in Guatay every Monday and Friday, linking it to El Cajon and Jacumba Hot Springs.",
       "sourceSentenceIds": [
         15
@@ -102,7 +96,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Guatay%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/guatay-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cuyamaca_Mountains,_California_(15469763139).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Cuyamaca Mountains"
+  }
 }

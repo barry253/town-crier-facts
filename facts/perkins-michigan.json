@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Michigan",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Perkins,_Michigan"
+      "source": "https://kids.kiddle.co/Perkins,_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Perkins%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/perkins_michigan"
+      "source": "https://grokipedia.com/page/perkins_michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,24 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/perkins_michigan"
+      "source": "https://grokipedia.com/page/perkins_michigan",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/perkins-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Royalbroil",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BarkRiverMichiganDowntownUS2US41.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bark River, Michigan"
+  }
 }

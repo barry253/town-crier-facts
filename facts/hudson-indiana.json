@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Hudson,_Indiana"
+      "source": "https://grokipedia.com/page/Hudson,_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Hudson,_Indiana"
+      "source": "https://grokipedia.com/page/Hudson,_Indiana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://allthingsusa.blog/hudson-indiana-hidden-gems-local-treasures"
+      "source": "https://allthingsusa.blog/hudson-indiana-hidden-gems-local-treasures",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hudson%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Hudson%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hudson-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  }
 }

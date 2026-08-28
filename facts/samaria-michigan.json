@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/samaria_michigan"
+      "source": "https://grokipedia.com/page/samaria_michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,22 +45,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Samaria%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Samaria%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 643 feet above sea level, about 15 miles southwest of Monroe in south‑central Monroe County.",
-      "sourceSentenceIds": [
-        23,
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Samaria%2C_Michigan"
-    },
-    {
-      "id": 4,
       "text": "Bedford Township, where Samaria lies, was organized March 23, 1836 after splitting from Erie Township, part of Monroe County’s early post‑War of 1812 expansion.",
       "sourceSentenceIds": [
         9,
@@ -67,10 +59,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/samaria_michigan"
+      "source": "https://grokipedia.com/page/samaria_michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Samaria Road once carried M‑151 until 1965, after which the route was turned over to local control and US 25 was later decommissioned.",
       "sourceSentenceIds": [
         8
@@ -78,10 +72,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/samaria_michigan"
+      "source": "https://grokipedia.com/page/samaria_michigan",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The first township election in the area took place May 2, 1836 at Levi Lewis’s home on Samaria Road, electing William Dunbar supervisor.",
       "sourceSentenceIds": [
         5,
@@ -90,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/samaria_michigan"
+      "source": "https://grokipedia.com/page/samaria_michigan",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/samaria-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.219,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dwight Burdette",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samaria_Post_Office,_1344_Samaria_Road,_Samaria,_Michigan_-_panoramio.jpg"
+  }
 }

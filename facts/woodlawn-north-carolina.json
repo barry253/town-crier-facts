@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Woodlawn lies in Alamance County, a region formed in 1849 from Orange County's jurisdiction.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.northcarolinagenealogy.net/counties/alamance/towns/woodlawn"
-    },
-    {
       "id": 2,
       "text": "The town is surrounded by scenic landscapes, offering nature trails, craft shops, and farm‑fresh produce.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/north-carolina/woodlawn"
+      "source": "https://triptap.com/locations/us/north-carolina/woodlawn",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/north-carolina/woodlawn"
+      "source": "https://triptap.com/locations/us/north-carolina/woodlawn",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/north-carolina/woodlawn"
+      "source": "https://triptap.com/locations/us/north-carolina/woodlawn",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/north-carolina/woodlawn"
+      "source": "https://triptap.com/locations/us/north-carolina/woodlawn",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

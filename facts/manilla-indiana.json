@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,32 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Manilla%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community sits 890 feet above sea level, making it a modest hilltop town in Indiana.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "Manilla is located in Rush County, Indiana, nestled in the heart of the state’s Midwest.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Historical records from 1895 list whether the community had a post office or railroad service.",
       "sourceSentenceIds": [
         4
@@ -84,7 +68,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm"
+      "source": "https://roadsidethoughts.com/in/manilla-xx-rush-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/manilla-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chris Flook",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manilla,_Indiana.jpg"
+  }
 }

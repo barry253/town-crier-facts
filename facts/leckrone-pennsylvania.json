@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Leckrone%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +83,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/leckrone-xx-fayette-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The community rests at an elevation of 960 feet above sea level.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/leckrone-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/leckrone-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/leckrone-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  }
 }

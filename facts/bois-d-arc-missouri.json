@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Bois D'Arc sits about 15 miles northwest of Springfield, placing it within the city’s metropolitan statistical area.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sgcld.thelibrary.org/lochist/history/holcombe/grch21pt1.html"
+      "source": "https://sgcld.thelibrary.org/lochist/history/holcombe/grch21pt1.html",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bois_D'Arc%2C_Missouri",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bois-d-arc-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.17,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Raschmidt87",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Springfield,_MO_and_Hammons_Field.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Springfield, Missouri"
+  }
 }

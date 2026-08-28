@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ravenswoodchicago.org/neighborhood/ravenswood-history/"
+      "source": "https://ravenswoodchicago.org/neighborhood/ravenswood-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://ravenswoodchicago.org/neighborhood/ravenswood-history/"
+      "source": "https://ravenswoodchicago.org/neighborhood/ravenswood-history/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ravenswoodchicago.org/neighborhood/ravenswood-history/"
+      "source": "https://ravenswoodchicago.org/neighborhood/ravenswood-history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://searchandhelp.com/exploring-ravenswood-history-a-guide-to-the-chicago-area/"
+      "source": "https://searchandhelp.com/exploring-ravenswood-history-a-guide-to-the-chicago-area/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://searchandhelp.com/exploring-ravenswood-history-a-guide-to-the-chicago-area/"
+      "source": "https://searchandhelp.com/exploring-ravenswood-history-a-guide-to-the-chicago-area/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +98,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ravenswood%2C_Chicago"
+      "source": "https://en.wikipedia.org/wiki/Ravenswood%2C_Chicago",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ravenswood-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.662,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "vxla from Chicago, US",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CTA_Brown_Line_Train_in_Ravenswood.jpg"
+  }
 }

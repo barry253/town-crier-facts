@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.thelifeofluxury.com/incline-village-at-lake-tahoe-an-historic-past/"
+      "source": "https://www.thelifeofluxury.com/incline-village-at-lake-tahoe-an-historic-past/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Incline_Village%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Incline_Village%2C_Nevada",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/18626"
+      "source": "https://museumsdatabase.com/museums/view/18626",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Incline Village sits 6,350 feet above sea level, offering panoramic views of Lake Tahoe.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Incline_Village%2C_Nevada"
-    },
-    {
-      "id": 5,
       "text": "The historic Chateau at Incline Village, the town hall, and Crystal Bay Cottage are among sites the Historical Society has worked to preserve.",
       "sourceSentenceIds": [
         21
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/18626"
+      "source": "https://museumsdatabase.com/museums/view/18626",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Incline Village hosts the Diamond Peak Ski Resort, the only ski resort owned by a community in Nevada.",
       "sourceSentenceIds": [
         24
@@ -85,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Incline_Village%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Incline_Village%2C_Nevada",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/incline-village-nevada.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.161,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DimiTalen",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Incline_Village_private_docks_from_Nevada_State_Route_28,_2011.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "High Point inside Montague rises to 1,803 feet, the highest elevation in all of New Jersey.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey"
-    },
-    {
-      "id": 4,
       "text": "The township’s name probably honors George Montagu, 4th Duke of Manchester, after a 1759 royal patent.",
       "sourceSentenceIds": [
         3
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Montague_Township%2C_New_Jersey",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Hikers can trek the Appalachian Trail and Old Mine Road right through Montague’s scenic backcountry.",
       "sourceSentenceIds": [
         8
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://montaguenj.org/welcome_to_montague_township/index.php"
+      "source": "https://montaguenj.org/welcome_to_montague_township/index.php",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Foster‑Armstrong House and Nelden‑Hornbeck Farm in Montague earned spots on the National Register of Historic Places.",
       "sourceSentenceIds": [
         8
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://montaguenj.org/welcome_to_montague_township/index.php"
+      "source": "https://montaguenj.org/welcome_to_montague_township/index.php",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/montague-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.678,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-07-27_09_19_46_View_south_along_U.S._Route_206_and_Sussex_County_Route_521_just_south_of_Old_Mine_Road_and_Sussex_County_Route_650_(Deckertown_Turnpike)_in_Montague_Township,_Sussex_County,_New_Jersey.jpg"
+  }
 }

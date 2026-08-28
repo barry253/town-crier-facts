@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lehighton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lehighton%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://lehightonborough.org/history"
+      "source": "https://lehightonborough.org/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lehighton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lehighton%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -67,7 +74,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lehighton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lehighton%2C_Pennsylvania",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lehighton-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.211,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2022-08-08_10_21_40_View_south_along_U.S._Route_209_(Sergeant_Stanley_Hoffman_Boulevard)_just_south_of_North_First_Street_in_Lehighton,_Carbon_County,_Pennsylvania.jpg"
+  }
 }

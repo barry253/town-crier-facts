@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wylietexas.gov/living/history_of_wylie/index.php"
+      "source": "https://www.wylietexas.gov/living/history_of_wylie/index.php",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wylie%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Wylie%2C_Texas",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://discoverwylie.com/"
+      "source": "https://discoverwylie.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wylie%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Wylie%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wylie%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Wylie%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wylie-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.615,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Wylie_Texas_Wiki_(1_of_1).jpg"
+  }
 }

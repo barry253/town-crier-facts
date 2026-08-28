@@ -25,7 +25,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -36,7 +38,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -47,7 +51,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -58,18 +64,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan"
-    },
-    {
-      "id": 5,
-      "text": "The town lies 11 miles southeast of Howard City, 15 miles northeast of Cedar Springs, and 13 miles northwest of Greenville.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -80,7 +78,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Trufant%2C_Michigan",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/trufant-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "User:Lar (w:en:user:Lar)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WhitesBridge_FlatRiver_Scene_DSCN9933.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Flat River (Michigan)"
+  }
 }

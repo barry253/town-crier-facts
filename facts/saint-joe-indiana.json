@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,21 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Saint Joe’s official website proudly calls itself the home of Indiana’s Famous Annual Pickle Festival.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.stjoeindiana.org/"
-    },
-    {
-      "id": 6,
       "text": "Saint Joe sits within Concord Township in DeKalb County, Indiana, United States.",
       "sourceSentenceIds": [
         4
@@ -86,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Saint_Joe%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/saint-joe-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Derek Jensen (Tysto)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Decatur-indiana-superior-court.jpg"
+  }
 }

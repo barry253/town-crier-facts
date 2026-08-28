@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verdi%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Verdi%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://verdihistory.org/the-verdi-history-museum/"
-    },
-    {
-      "id": 3,
-      "text": "Verdi sits at an elevation of 5,315 feet (1,620 m).",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Verdi%2C_California"
+      "source": "https://verdihistory.org/the-verdi-history-museum/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Verdi%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Verdi%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://verdihistory.org/the-verdi-history-museum/"
+      "source": "https://verdihistory.org/the-verdi-history-museum/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +84,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://verdihistory.org/the-verdi-history-museum/"
+      "source": "https://verdihistory.org/the-verdi-history-museum/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/verdi-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Yngvadottir",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sierraville_1_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Sierra County, California"
+  }
 }

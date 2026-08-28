@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Obion began as Obion Station in 1872 on land owned by William M.",
+      "text": "Obion began as Obion Station in 1872 on land owned by William M. Wilson.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Obion%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Obion%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tennesseeencyclopedia.net/entries/obion-county/"
+      "source": "https://tennesseeencyclopedia.net/entries/obion-county/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Obion%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Obion%2C_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tennesseeencyclopedia.net/entries/obion-county/"
+      "source": "https://tennesseeencyclopedia.net/entries/obion-county/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Obion%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Obion%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/obion-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.561,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Obion-TN183-tn.jpg"
+  }
 }

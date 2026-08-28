@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nord%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nord%2C_California",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nord%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nord%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,21 +59,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nord%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nord%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Nord sits at an elevation of about 151 feet (46 meters) above sea level.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Nord,_California"
-    },
-    {
-      "id": 5,
       "text": "Nord once had a store that operated until recently, but no longer has any businesses.",
       "sourceSentenceIds": [
         7
@@ -76,7 +72,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nord%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Nord%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nord-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.519,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Nord_(November_2023)-0102.jpg"
+  }
 }

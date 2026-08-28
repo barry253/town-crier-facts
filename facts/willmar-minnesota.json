@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.britannica.com/place/Willmar"
+      "source": "https://www.britannica.com/place/Willmar",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.willmarlakesarea.com/travel-ideas/history/"
+      "source": "https://www.willmarlakesarea.com/travel-ideas/history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.willmarlakesarea.com/travel-ideas/history/"
+      "source": "https://www.willmarlakesarea.com/travel-ideas/history/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Willmar%2C_Minnesota"
+      "source": "https://en.wikipedia.org/wiki/Willmar%2C_Minnesota",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/willmar-minnesota.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.728,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Myotus",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Litchfield_Avenue_at_4th_Street,_Willmar,_MN-03.jpg"
+  }
 }

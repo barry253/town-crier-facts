@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofnoonday.com/about/"
+      "source": "https://cityofnoonday.com/about/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofnoonday.com/about/"
+      "source": "https://cityofnoonday.com/about/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Noonday%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Noonday%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofnoonday.com/about/"
+      "source": "https://cityofnoonday.com/about/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.east-texas.com/noonday-texas.htm"
+      "source": "https://www.east-texas.com/noonday-texas.htm",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/noonday-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.684,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Noonday_Texas_Community_Center_2019.jpg"
+  }
 }

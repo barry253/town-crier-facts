@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Catherine%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lake_Catherine%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Catherine%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "The community sits at latitude 42.4792 and longitude –88.1334 in Lake County.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://illinois.hometownlocator.com/il/lake/lake-catherine.cfm"
+      "source": "https://en.wikipedia.org/wiki/Lake_Catherine%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,18 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illinois.hometownlocator.com/il/lake/lake-catherine.cfm"
-    },
-    {
-      "id": 5,
-      "text": "Lake Catherine is officially a census‑designated place, not a legal municipality in Illinois.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://illinois.hometownlocator.com/il/lake/lake-catherine.cfm"
+      "source": "https://illinois.hometownlocator.com/il/lake/lake-catherine.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +70,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Catherine%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lake_Catherine%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Channel Lake, Illinois"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lake-catherine-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_County_Courthouse_in_Waukegan.jpg"
+  }
 }

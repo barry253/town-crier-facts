@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Cissna Park sits in southern Iroquois County, Illinois, nestled within the rural heartland of the Midwest.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cissna_Park%2C_Illinois"
-    },
-    {
       "id": 2,
       "text": "Illinois Route 49 threads through Cissna Park, connecting the village north to Crescent City and south to Rankin.",
       "sourceSentenceIds": [
@@ -40,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cissna_Park%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "The village’s geographic coordinates are 40.5648° N latitude and 87.8931° W longitude.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://illinois.hometownlocator.com/il/iroquois/cissna-park.cfm"
+      "source": "https://en.wikipedia.org/wiki/Cissna_Park%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,18 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illinois.hometownlocator.com/il/iroquois/cissna-park.cfm"
-    },
-    {
-      "id": 5,
-      "text": "The village lies inside Pigeon Grove Township, a minor civil division of Iroquois County.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://illinois.hometownlocator.com/il/iroquois/cissna-park.cfm"
+      "source": "https://illinois.hometownlocator.com/il/iroquois/cissna-park.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +58,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illinois.hometownlocator.com/il/iroquois/cissna-park.cfm"
+      "source": "https://illinois.hometownlocator.com/il/iroquois/cissna-park.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cissna-park-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.677,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Huw Williams (Huwmanbeing)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cissna_Park_watertower.png"
+  }
 }

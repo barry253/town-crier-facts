@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "The median age of Kennard residents is 33 years.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kennard%2C_Texas"
-    },
-    {
-      "id": 6,
       "text": "Kennard prides itself on maintaining a wholesome lifestyle, rich in cultural history, and preserving its environment.",
       "sourceSentenceIds": [
         4
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofkennard.com/about-us"
+      "source": "https://cityofkennard.com/about-us",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kennard-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kennard,_TX,_City_Hall_IMG_0986.JPG"
+  }
 }

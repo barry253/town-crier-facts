@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownwood%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Brownwood%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownwood%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Brownwood%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownwood%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Brownwood%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/brownwood-xx-stoddard-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/brownwood-xx-stoddard-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The community sits 350 feet above sea level, typical of the region’s gentle rise.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/brownwood-xx-stoddard-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Stoddard County’s borders have shifted over time, a fact highlighted in historical atlases.",
       "sourceSentenceIds": [
         4
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/brownwood-xx-stoddard-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/brownwood-xx-stoddard-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brownwood-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skye Marthaler",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stoddard_County_Courthouse,_Missouri.JPG"
+  }
 }

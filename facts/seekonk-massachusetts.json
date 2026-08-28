@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Seekonk%2C_Massachusetts",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.seekonk-ma.gov/354/Historical-Commission"
+      "source": "https://www.seekonk-ma.gov/354/Historical-Commission",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +97,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://greenerpasture.com/Places/Details/984"
+      "source": "https://greenerpasture.com/Places/Details/984",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seekonk-massachusetts.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.825,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "John Phelan",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Grist_Mill_Pond,_Seekonk_MA.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/sedley_virginia"
+      "source": "https://grokipedia.com/page/sedley_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Sedley%2C_Virginia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/sedley_virginia"
+      "source": "https://grokipedia.com/page/sedley_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Sedley sits at an elevation of 89 feet, typical of the low‑lying plains of Southampton County.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sedley%2C_Virginia"
-    },
-    {
-      "id": 5,
       "text": "The town’s early history traces back to indigenous Cheroenhaka and Meherrin tribes who settled along nearby rivers before European colonization.",
       "sourceSentenceIds": [
         7
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/sedley_virginia"
+      "source": "https://grokipedia.com/page/sedley_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "In 2023, the Hubbard Peanut Company celebrated its 70th anniversary, marking seven decades of local peanut production.",
       "sourceSentenceIds": [
         20
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Sedley%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sedley-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.78,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mojo Hand",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southampton_VA_courthouse.JPG"
+  }
 }

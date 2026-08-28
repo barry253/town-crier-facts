@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lickingville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lickingville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lickingville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lickingville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Lickingville rests 1,590 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The community first appeared in federal records like the FIPS‑55 and the GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "An 1895 atlas lists Lickingville among the small settlements that dotted Clarion County.",
       "sourceSentenceIds": [
         30
@@ -84,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lickingville-xx-clarion-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clarion County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lickingville-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  }
 }

@@ -29,52 +29,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm"
-    },
-    {
-      "id": 2,
-      "text": "The community lies in Inyo County, California.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm",
+      "category": "etymology",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Wilkerson’s elevation is 4,380 feet above sea level.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "That elevation is roughly half a mile higher than sea level.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Wilkerson’s name honors a local family that settled the area in the late 1800s.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Local source"
       ],
-      "source": "local"
+      "source": "local",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "The town once hosted a post office and a railroad stop in the early 20th century.",
       "sourceSentenceIds": [
         3
@@ -82,7 +54,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/wilkerson-xx-inyo-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wilkerson-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.16,
+    "y": 0.5
+  }
 }

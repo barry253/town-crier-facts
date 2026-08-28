@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "Wind Gap sits 755 feet above sea level, tucked into the foothills of the Appalachian Mountains.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "The borough maintains 13.45 miles of public roads, with PennDOT responsible for 3.67 miles of that network.",
       "sourceSentenceIds": [
         16
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wind_Gap%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Residents can obtain building permits at the borough hall located at 545 East West Street in Wind Gap.",
       "sourceSentenceIds": [
         29
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-wind-gap.html"
+      "source": "https://www.citydirectory.us/borough-wind-gap.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wind-gap-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wind_Gap_Namesake.jpg"
+  }
 }

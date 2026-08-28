@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callensburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Callensburg%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callensburg%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Callensburg’s geographic coordinates are 41°7′33″N 79°33′28″W, placing it in western Clarion County.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Callensburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Callensburg%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-callensburg.html"
+      "source": "https://www.citydirectory.us/borough-callensburg.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.clarioncounty.info/research-aids/45-organization-histories/210-clarion-county-historical-society-library-collection"
+      "source": "https://www.clarioncounty.info/research-aids/45-organization-histories/210-clarion-county-historical-society-library-collection",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-callensburg.html"
+      "source": "https://www.citydirectory.us/borough-callensburg.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/callensburg-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.642,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Callensburg_post_office_16213.jpg"
+  }
 }

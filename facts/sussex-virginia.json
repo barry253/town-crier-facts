@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sussexcountyva.gov/visit/sussex-history/"
+      "source": "https://sussexcountyva.gov/visit/sussex-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sussexcountyva.gov/visit/sussex-history/"
+      "source": "https://sussexcountyva.gov/visit/sussex-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sussex%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Sussex%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.metrorichmond.com/region/sussex-county-va"
+      "source": "https://www.metrorichmond.com/region/sussex-county-va",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sussexcountyva.gov/visit/sussex-history/"
+      "source": "https://sussexcountyva.gov/visit/sussex-history/",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sussex-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ser Amantio di Nicolao",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Condo_building_in_downtown_Falls_Church.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Falls Church, Virginia"
+  }
 }

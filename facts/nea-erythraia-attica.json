@@ -30,23 +30,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia"
+      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at the western end of the forested Penteli mountain range, averaging 308 m above sea level.",
-      "sourceSentenceIds": [
-        8,
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia"
-    },
-    {
-      "id": 3,
       "text": "Early 20th‑century refugee houses, including double residences built for widows and orphans in 1928, still line Nea Erythraia’s streets.",
       "sourceSentenceIds": [
         1
@@ -54,10 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/nea_erythraia"
+      "source": "https://grokipedia.com/page/nea_erythraia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Kifisos river marks Nea Erythraia’s northwestern border, flowing through the suburb’s green spaces.",
       "sourceSentenceIds": [
         10
@@ -65,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia"
+      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Nea Erythraia’s built‑up area blends seamlessly with neighboring Kifisia, creating a continuous residential corridor.",
       "sourceSentenceIds": [
         12
@@ -76,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia"
+      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The A1 motorway and Greek National Roads 1 and 83 cut through the town, linking it to Athens and beyond.",
       "sourceSentenceIds": [
         13
@@ -87,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia"
+      "source": "https://en.wikipedia.org/wiki/Nea_Erythraia",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nea-erythraia-attica.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.498,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dimorsitanos",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naos-erythraia.jpg"
+  }
 }

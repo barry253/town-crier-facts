@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinklow%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Brinklow%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,32 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/brinklow-xx-montgomery-profile.htm"
+      "source": "https://roadsidethoughts.com/md/brinklow-xx-montgomery-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Brinklow sits at 450 feet above sea level, a modest rise that shapes its local climate.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/md/brinklow-xx-montgomery-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "The town lies on Maryland Route 650, just 3 miles northeast of Olney.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Brinklow%2C_Maryland"
-    },
-    {
-      "id": 5,
       "text": "Brinklow remains an unincorporated community within Montgomery County, Maryland.",
       "sourceSentenceIds": [
         9
@@ -73,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinklow%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Brinklow%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Historical maps from 1895 list Brinklow among the small settlements that dotted Montgomery County’s landscape.",
       "sourceSentenceIds": [
         26
@@ -84,7 +69,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/brinklow-xx-montgomery-profile.htm"
+      "source": "https://roadsidethoughts.com/md/brinklow-xx-montgomery-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brinklow-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bohemian Baltimore",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potomac_River_-_Great_Falls_25.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Montgomery County, Maryland"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The CDP covers 7.8 square miles at an elevation of 54 feet.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://usacity.info/florida/hillsborough/bloomingdale"
-    },
-    {
-      "id": 6,
       "text": "Bloomingdale lies 16 miles southeast of downtown Tampa, offering a quiet suburban feel.",
       "sourceSentenceIds": [
         10
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Bloomingdale%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bloomingdale-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mwanner at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alafia_River_near_Lithia_Springs_Park.jpg"
+  }
 }

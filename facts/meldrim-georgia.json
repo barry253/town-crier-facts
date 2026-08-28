@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Meldrim%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Meldrim,_Georgia"
+      "source": "https://kids.kiddle.co/Meldrim,_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -90,7 +102,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Meldrim,_Georgia"
+      "source": "https://kids.kiddle.co/Meldrim,_Georgia",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meldrim-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bubba73 (Jud McCranie)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Effingham_County_Courthouse,_Springfield,_GA,_US.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Effingham County, Georgia"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tularecountytreasures.org/cutler-park.html"
+      "source": "https://www.tularecountytreasures.org/cutler-park.html",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cutler%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cutler%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cutler-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.85,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Don Graham from Redlands, CA, USA - God bless it!",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_Whitney,_CA_6-20-16_(27765952931)_(cropped).jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://digital.lib.ecu.edu/ncpi/view/22906"
+      "source": "https://digital.lib.ecu.edu/ncpi/view/22906",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Falkland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Falkland%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Falkland%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Falkland%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://digital.lib.ecu.edu/ncpi/view/22906"
+      "source": "https://digital.lib.ecu.edu/ncpi/view/22906",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-falkland.html"
+      "source": "https://www.citydirectory.us/town-falkland.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -86,7 +98,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-falkland.html"
+      "source": "https://www.citydirectory.us/town-falkland.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/falkland-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.246,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Falkland,_North_Carolina.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,32 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "Homeowner vacancy stands at 2.7%, while rental properties show a 5.9% vacancy rate, indicating stable occupancy.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Molino%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "In 2024, Molino’s median household income reached $74,220, a significant rise from $31,793 in 2000.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Molino-Florida.html"
-    },
-    {
-      "id": 6,
       "text": "The December 2024 cost‑of‑living index for Molino is 80.0, well below the national average of 100.",
       "sourceSentenceIds": [
         20
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Molino-Florida.html"
+      "source": "https://www.city-data.com/city/Molino-Florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/molino-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pensacola,_FL,_Courthouse,_Escambia_County,_12-16-2010_(2).JPG"
+  }
 }

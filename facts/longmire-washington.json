@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/mora/planyourvisit/longmire.htm"
+      "source": "https://www.nps.gov/mora/planyourvisit/longmire.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "Longmire sits 2,761 feet above sea level in the Nisqually River valley between Ramparts Ridge and the Tatoosh Range.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington"
-    },
-    {
-      "id": 6,
       "text": "In 1987, the Longmire Buildings were declared a National Historic Landmark, honoring their rustic design.",
       "sourceSentenceIds": [
         2
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Longmire%2C_Washington",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/longmire-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Benjamin Cody",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Longmire_Service_Station_2.JPG"
+  }
 }

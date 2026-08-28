@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Pass%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Grand_Pass%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Pass%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Grand_Pass%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,18 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/grand-pass-conservation-area"
-    },
-    {
-      "id": 4,
-      "text": "Grand Pass sits in Saline County, Missouri, and is classified as a village.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Grand_Pass%2C_Missouri"
+      "source": "https://mdc.mo.gov/discover-nature/places/grand-pass-conservation-area",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/grand-pass-conservation-area"
+      "source": "https://mdc.mo.gov/discover-nature/places/grand-pass-conservation-area",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grand-pass-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Americasroof",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marshall-mo-ch.jpg"
+  }
 }

@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm"
+      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 700 feet above sea level, giving it a modest elevation compared to surrounding Illinois communities.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Within Shelby County, Windsor ranks as the third‑most populous community, reflecting its steady growth over time.",
       "sourceSentenceIds": [
         13
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm"
+      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Illinois hosts two Windsor communities: one in Shelby County and another in Mercer County, a fact that often surprises visitors.",
       "sourceSentenceIds": [
         2
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm"
+      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Windsor is located in Shelby County, placing it in the heart of central Illinois.",
       "sourceSentenceIds": [
         10
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm"
+      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Locals pronounce Windsor as WIN‑zer, a pronunciation that echoes the town’s historical roots.",
       "sourceSentenceIds": [
         11
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm"
+      "source": "https://roadsidethoughts.com/il/windsor-xx-shelby-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/windsor-illinois.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.34,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Boscophotos",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercer_County_Courthouse_Image.jpeg"
+  }
 }

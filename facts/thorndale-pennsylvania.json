@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thorndale%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Thorndale%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thorndale%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Thorndale’s coordinates are 39°59′47″N 75°45′6″W, placing it just south of the Brandywine Valley.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Thorndale%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Thorndale%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/thorndale"
+      "source": "https://triptap.com/locations/us/pennsylvania/thorndale",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,18 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://triptap.com/locations/us/pennsylvania/thorndale"
-    },
-    {
-      "id": 6,
-      "text": "A short drive from Philadelphia, Thorndale lets you enjoy city amenities while staying in the countryside.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://triptap.com/locations/us/pennsylvania/thorndale"
+      "source": "https://triptap.com/locations/us/pennsylvania/thorndale",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thorndale-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.787,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Coemgenus",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thorndale_R5.JPG"
+  }
 }

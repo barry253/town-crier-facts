@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lochloosa%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Lochloosa%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lochloosa%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Lochloosa%2C_Florida",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,21 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Lochloosa rises 60 feet above sea level, giving it a modest elevation compared to much of Florida.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Historical maps from 1895 list Lochloosa among the communities that dotted the Alachua County area.",
       "sourceSentenceIds": [
         19
@@ -74,10 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A dedicated cemetery list for Lochloosa provides an overhead view of the local burial sites.",
       "sourceSentenceIds": [
         16,
@@ -86,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/lochloosa-xx-alachua-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lochloosa-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.813,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "formulanone from Huntsville, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_301_-_Lochloosa_Sign_(29328467213).jpg"
+  }
 }

@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-weber-city.html"
+      "source": "https://www.citydirectory.us/town-weber-city.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +99,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weber_City%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/weber-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.447,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dogwood-RR-US23-Weber-City-va.jpg"
+  }
 }

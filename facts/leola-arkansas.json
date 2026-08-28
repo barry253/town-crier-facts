@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Leola sits in Grant County and is the southernmost town in Central Arkansas.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "Leola’s climate features hot, humid summers and mild to cool winters.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -53,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Leola%2C_Arkansas",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendship_Heights"
+      "source": "https://en.wikipedia.org/wiki/Friendship_Heights",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendship_Heights"
+      "source": "https://en.wikipedia.org/wiki/Friendship_Heights",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendship_Heights"
+      "source": "https://en.wikipedia.org/wiki/Friendship_Heights",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,18 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Friendship_Heights"
-    },
-    {
-      "id": 5,
-      "text": "Friendship Heights straddles Washington, D.C., and Montgomery County, Maryland, roughly bounded by Wisconsin Avenue north of Fessenden Street and River Road to Reno Road.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Friendship_Heights"
+      "source": "https://en.wikipedia.org/wiki/Friendship_Heights",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://friendshipheightsmd.gov/welcome/"
+      "source": "https://friendshipheightsmd.gov/welcome/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/friendship-heights-washington-dc.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.785,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AgnosticPreachersKid",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wisconsin_Avenue_in_Friendship_Heights.jpg"
+  }
 }

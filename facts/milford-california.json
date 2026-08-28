@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Milford%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Milford%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,32 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Milford%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Milford%2C_California",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Milford sits at 4,222 feet above sea level, making it one of the higher communities in Lassen County.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/milford-xx-lassen-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "Milford lies on Mill Creek, 15 miles south of Litchfield, at an elevation of 4,222 feet.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Milford%2C_California"
-    },
-    {
-      "id": 5,
       "text": "In August 2021 the Dixie fire approached Milford, but crews protected the town's historic structures.",
       "sourceSentenceIds": [
         9
@@ -74,18 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Milford%2C_California"
-    },
-    {
-      "id": 6,
-      "text": "Milford is located in Lassen County, California, within the Sierra Nevada foothills.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/milford-xx-lassen-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Milford%2C_California",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/milford-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.87,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "en:User:Mav",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lassen_Peak_from_Devastated_Area-1200px.jpg"
+  }
 }

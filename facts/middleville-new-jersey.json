@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/middleville_new_jersey"
+      "source": "https://grokipedia.com/page/middleville_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/middleville_new_jersey"
+      "source": "https://grokipedia.com/page/middleville_new_jersey",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,35 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/middleville_new_jersey"
+      "source": "https://grokipedia.com/page/middleville_new_jersey",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Middleville sits at the confluence of Stillwater Road, West Shore Drive, and Pond Brook Road along Trout Brook, a tributary of the Paulins Kill.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/middleville_new_jersey"
-    },
-    {
-      "id": 5,
-      "text": "The community lies 5.8 miles west of Newton, within the Skylands Region, and rises to 525 feet above sea level.",
-      "sourceSentenceIds": [
-        12,
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Middleville%2C_New_Jersey"
-    },
-    {
-      "id": 6,
       "text": "A 47‑inch annual rainfall and 38 inches of snow per year give Middleville a humid continental climate with warm summers and snowy winters.",
       "sourceSentenceIds": [
         21,
@@ -91,7 +72,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/middleville_new_jersey"
+      "source": "https://grokipedia.com/page/middleville_new_jersey",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/middleville-new-jersey.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.65,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zeete",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:10_White_Deer_Plaza,_Lake_Mohawk,_NJ.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Mohawk, New Jersey"
+  }
 }

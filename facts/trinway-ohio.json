@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinway%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Trinway%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -47,7 +49,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinway%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Trinway%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/trinway-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tristan Blatt",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muskingum_County_Courthouse_%26_Jail.jpg"
+  }
 }

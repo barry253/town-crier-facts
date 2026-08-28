@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.orchardtexas.net/page/history"
+      "source": "https://www.orchardtexas.net/page/history",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.orchardtexas.net/page/history"
+      "source": "https://www.orchardtexas.net/page/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.orchardtexas.net/page/history"
+      "source": "https://www.orchardtexas.net/page/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,19 +74,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orchard%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "The town center lies along Kibler Road, an important east‑west artery that stretches from FM 1489 to Long Lane.",
-      "sourceSentenceIds": [
-        22,
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Orchard%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Orchard%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -92,7 +89,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orchard%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Orchard%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/orchard-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.608,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Djmaschek",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orchard_TX_Water_Tower.JPG"
+  }
 }

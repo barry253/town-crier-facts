@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.plymouthct.gov/OurHistory"
+      "source": "https://www.plymouthct.gov/OurHistory",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.plymouthct.gov/OurHistory"
+      "source": "https://www.plymouthct.gov/OurHistory",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,10 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plymouth%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Plymouth%2C_Connecticut",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plymouth%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Plymouth%2C_Connecticut",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plymouth%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Plymouth%2C_Connecticut",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,15 @@
         "Web source 2",
         "Web source 2"
       ],
-      "source": "https://plymouthhistoricalsociety.org/"
+      "source": "https://plymouthhistoricalsociety.org/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plymouth-connecticut.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.442,
+    "y": 0.5
+  }
 }

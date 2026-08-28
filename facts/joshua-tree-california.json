@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/jotr/learn/historyculture/index.htm"
+      "source": "https://www.nps.gov/jotr/learn/historyculture/index.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at about 2,700 feet above sea level in the High Desert of California.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Joshua Tree borders Twentynine Palms to the east, Yucca Valley to the west, Landers to the northwest, and the Coachella Valley to the south.",
       "sourceSentenceIds": [
         14
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Bartlett Mountains lie northwest of Joshua Tree, giving the area a rugged backdrop.",
       "sourceSentenceIds": [
         15
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The park’s museum holds more than 241,000 objects and protects hundreds of archaeological sites.",
       "sourceSentenceIds": [
         9
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/jotr/learn/historyculture/index.htm"
+      "source": "https://www.nps.gov/jotr/learn/historyculture/index.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Joshua Tree is home to Joshua Tree National Park, a protected area that shares its name with the iconic Joshua tree plant.",
       "sourceSentenceIds": [
         13
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Joshua_Tree%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/joshua-tree-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.239,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joshua_Tree,_California_01.jpg"
+  }
 }

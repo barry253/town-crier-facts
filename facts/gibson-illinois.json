@@ -35,7 +35,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/illinois_gibson-city"
+      "source": "https://www.trawellino.com/destinations/united-states/illinois_gibson-city",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://gibsoncityillinois.com/about/history/"
+      "source": "https://gibsoncityillinois.com/about/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -58,7 +63,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/illinois_gibson-city"
+      "source": "https://www.trawellino.com/destinations/united-states/illinois_gibson-city",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +76,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://gibsoncityillinois.com/about/history/"
+      "source": "https://gibsoncityillinois.com/about/history/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gibson-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.778,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Buster7",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gibson_City,_IL_Post_Office_mural,_%22Hiawatha_Returning_with_Minnehaha%22_by_Francis_Foy.JPG"
+  }
 }

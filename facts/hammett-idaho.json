@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hammett is an unincorporated community located in Elmore County, Idaho, in the western part of the state.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hammett%2C_Idaho"
-    },
-    {
       "id": 2,
       "text": "The town sits at 2,530 feet above sea level, giving it a mild high‑elevation climate.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/id/hammett-xx-elmore-profile.htm"
+      "source": "https://roadsidethoughts.com/id/hammett-xx-elmore-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/id/hammett-xx-elmore-profile.htm"
+      "source": "https://roadsidethoughts.com/id/hammett-xx-elmore-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/id/hammett-xx-elmore-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "Hammett’s coordinates are 42.9457°N, 115.4662°W, placing it in the western part of Idaho.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://idaho.hometownlocator.com/id/elmore/hammett.cfm"
+      "source": "https://roadsidethoughts.com/id/hammett-xx-elmore-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,

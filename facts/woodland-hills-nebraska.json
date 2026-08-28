@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Woodland Hills sits at 40.7511°N latitude and 96.421°W longitude, placing it in Otoe County, Nebraska.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm"
-    },
-    {
       "id": 2,
       "text": "As a census-designated place, Woodland Hills has no municipal government and relies on county services.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm"
+      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm"
+      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,18 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Woodland_Hills,_Nebraska"
-    },
-    {
-      "id": 5,
-      "text": "Woodland Hills lies within Otoe County, one of Nebraska's 93 counties, placing it in the state's southeastern region.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm"
+      "source": "https://kids.kiddle.co/Woodland_Hills,_Nebraska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm"
+      "source": "https://nebraska.hometownlocator.com/ne/otoe/woodland-hills.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Detroit%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Detroit%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Detroit%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Detroit%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Detroit sits 630 feet above sea level, giving it a modest hilltop feel.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/detroit-xx-pike-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The village lies within Detroit Township in Pike County, Illinois.",
       "sourceSentenceIds": [
         19
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/detroit-xx-pike-profile.htm"
+      "source": "https://roadsidethoughts.com/il/detroit-xx-pike-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Detroit ranks as the county’s 14th most populous community.",
       "sourceSentenceIds": [
         22
@@ -75,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/detroit-xx-pike-profile.htm"
+      "source": "https://roadsidethoughts.com/il/detroit-xx-pike-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/detroit-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mitchazenia",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:IL_100_and_IL_106_in_Detroit.JPG"
+  }
 }

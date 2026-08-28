@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "California Pines sits at 4,406 feet above sea level.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/California_Pines%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The town’s GPS coordinates are 41.4099° N, 120.6791° W in Modoc County.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm"
-    },
-    {
-      "id": 3,
       "text": "California Pines observes Pacific Standard Time, which is eight hours behind Greenwich Mean Time.",
       "sourceSentenceIds": [
         12
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm"
+      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Its Functional Status Code is “S,” marking it as a statistical entity rather than a legal municipality.",
       "sourceSentenceIds": [
         13
@@ -62,21 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm"
+      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
-      "text": "As a census-designated place, California Pines has no governmental functions and is not a legal entity.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm"
-    },
-    {
-      "id": 6,
+      "id": 3,
       "text": "The Diversity Index in California Pines ranges from 0 to 100, indicating the likelihood that two randomly chosen residents belong to different races or ethnic groups.",
       "sourceSentenceIds": [
         16
@@ -84,7 +57,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm"
+      "source": "https://california.hometownlocator.com/ca/modoc/california-pines.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/california-pines-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Miguel Vieira from Redwood City, CA, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goose_Lake_(6024169313)_(cropped).jpg"
+  }
 }

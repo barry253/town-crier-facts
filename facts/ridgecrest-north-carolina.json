@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Ridgecrest sits 2,530 feet above sea level, roughly half a mile higher than surrounding valleys.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nc/ridgecrest-xx-buncombe-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The Ridgecrest post office opened in 1912, long before the nearby town of Black Mountain grew.",
       "sourceSentenceIds": [
         14
@@ -74,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/ridgecrest-xx-buncombe-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/ridgecrest-xx-buncombe-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Ridgecrest lies about 15 miles east-northeast of Asheville, just 1.9 miles from Black Mountain.",
       "sourceSentenceIds": [
         11
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Ridgecrest%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ridgecrest-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ridgecrest_Conference_Center_in_Ridgecrest,_North_Carolina_was_established_in_1907.jpg"
+  }
 }

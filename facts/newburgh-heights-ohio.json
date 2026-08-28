@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://case.edu/ech/articles/n/newburgh-heights"
+      "source": "https://case.edu/ech/articles/n/newburgh-heights",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://case.edu/ech/articles/n/newburgh-heights"
+      "source": "https://case.edu/ech/articles/n/newburgh-heights",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newburgh-oh.gov/history"
-    },
-    {
-      "id": 4,
-      "text": "Newburgh Heights sits on a short stretch of Interstate 77 that is famous for its speed‑trap cameras.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Newburgh_Heights%2C_Ohio"
+      "source": "https://newburgh-oh.gov/history",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newburgh_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Newburgh_Heights%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Newburgh_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Newburgh_Heights%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/newburgh-heights-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.518,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_Park_Boulevard,_Newburgh_Heights.jpg"
+  }
 }

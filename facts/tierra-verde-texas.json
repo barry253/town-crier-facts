@@ -21,39 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Tierra Verde sits at 27.761571° north latitude, placing it just south of Corpus Christi.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Verde%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "Its longitude is –97.717384°, aligning it with the Gulf Coast region of Texas.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Verde%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "The census‑designated place covers 2.0 square miles, all land, with no bodies of water inside its borders.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Verde%2C_Texas"
-    },
-    {
       "id": 4,
       "text": "Del Mar College serves as the community college for all of Nueces County, including Tierra Verde.",
       "sourceSentenceIds": [
@@ -62,7 +29,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Verde%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Tierra_Verde%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tierra-verde-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nueces_county_courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Nueces County, Texas"
+  }
 }

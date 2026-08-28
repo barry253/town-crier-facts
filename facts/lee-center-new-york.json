@@ -31,7 +31,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lee_center_new_york"
+      "source": "https://grokipedia.com/page/lee_center_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lee_center_new_york"
+      "source": "https://grokipedia.com/page/lee_center_new_york",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://oneida.nygenweb.net/towns/lee/leecenterhistory.html"
+      "source": "https://oneida.nygenweb.net/towns/lee/leecenterhistory.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://oneida.nygenweb.net/towns/lee/leecenterhistory.html"
+      "source": "https://oneida.nygenweb.net/towns/lee/leecenterhistory.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/lee_center_new_york"
+      "source": "https://grokipedia.com/page/lee_center_new_york",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +102,19 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lee_center_new_york"
+      "source": "https://grokipedia.com/page/lee_center_new_york",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Oneida County, New York"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lee-center-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  }
 }

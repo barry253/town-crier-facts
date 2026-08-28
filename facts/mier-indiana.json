@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "Mier sits 820 feet above sea level, giving it a modest elevation typical of northwestern Indiana.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/mier-xx-grant-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "An 1895 atlas lists Mier among Grant County communities, showing its long-standing presence on historic maps.",
       "sourceSentenceIds": [
         26
@@ -74,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/mier-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/in/mier-xx-grant-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Marion, the Grant County seat, lies nine miles east of Mier along State Road 18, a short drive for residents.",
       "sourceSentenceIds": [
         11
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Mier%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mier-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tysto",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marion-indiana-from-above.jpg"
+  }
 }

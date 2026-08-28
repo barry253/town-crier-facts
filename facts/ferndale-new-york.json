@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://borschtbelthistoricalmarkerproject.org/ferndale"
+      "source": "https://borschtbelthistoricalmarkerproject.org/ferndale",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +71,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/ferndale-xx-sullivan-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/ferndale-xx-sullivan-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The community rests 1,340 feet above sea level, giving it a mild mountain‑like climate.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/ferndale-xx-sullivan-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Ferndale’s name reflects the dense fern groves that once covered the area.",
       "sourceSentenceIds": [
         1
@@ -85,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://borschtbelthistoricalmarkerproject.org/ferndale"
+      "source": "https://borschtbelthistoricalmarkerproject.org/ferndale",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Kauneonga Lake, New York"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ferndale-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Eric Richards",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shallow_Stream_in_Rock_Hill,_NY.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.oakvillehistory.org/oakville"
+      "source": "https://www.oakvillehistory.org/oakville",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario"
+      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario"
+      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.oakvillehistory.org/oakville"
+      "source": "https://www.oakvillehistory.org/oakville",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario"
+      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario"
+      "source": "https://en.wikipedia.org/wiki/Oakville%2C_Ontario",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oakville-ontario.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.55,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Canmenwalker",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Oakville_2023.jpg"
+  }
 }

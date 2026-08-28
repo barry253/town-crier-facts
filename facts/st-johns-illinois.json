@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,32 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
-      "text": "The village's racial makeup is 92.66% White, 2.75% African American, 0.92% Asian, 0.46% other, and 3.21% two or more races.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois"
-    },
-    {
-      "id": 5,
-      "text": "The median age of St. Johns residents is 40 years.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois"
-    },
-    {
-      "id": 6,
       "text": "For every 100 females in St. Johns, there are 118 males.",
       "sourceSentenceIds": [
         11
@@ -85,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/St._Johns%2C_Illinois",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/st-johns-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perry_County_Courthouse_in_Pinckneyville.jpg"
+  }
 }

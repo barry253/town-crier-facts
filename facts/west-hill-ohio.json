@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "West Hill sits at 1,040 feet above sea level, giving it a modest hilltop view of the surrounding Ohio countryside.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/west-hill-xx-trumbull-profile.htm"
-    },
-    {
-      "id": 2,
       "text": "The community lies in Trumbull County, placing it within the eastern Ohio region known for its rolling hills and historic mills.",
       "sourceSentenceIds": [
         27
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/west-hill-xx-trumbull-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/west-hill-xx-trumbull-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "West Hill observes Eastern Time, switching to daylight saving in the summer, just like the rest of Ohio.",
       "sourceSentenceIds": [
         5
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/west-hill-xx-trumbull-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/west-hill-xx-trumbull-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "It is part of the Youngstown–Warren metropolitan area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         6
@@ -62,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Hill%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/West_Hill%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
-      "text": "West Hill’s coordinates are 41.23° north latitude and 80.52° west longitude, placing it just north of the Ohio River.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/ohcountywesthill.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "The town’s land area totals 4.231 square miles, with no surface water bodies recorded within its boundaries.",
       "sourceSentenceIds": [
         17,
@@ -85,7 +72,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/ohcountywesthill.htm"
+      "source": "https://www.usacitiesonline.com/ohcountywesthill.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-hill-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jack W. Pearce",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Trumbull_County_Courthouse.jpg"
+  }
 }

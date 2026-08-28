@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shannon%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Shannon%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ga/shannon-xx-floyd-profile.htm"
+      "source": "https://roadsidethoughts.com/ga/shannon-xx-floyd-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Shannon sits 690 feet above sea level, offering a modest elevation within Floyd County.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ga/shannon-xx-floyd-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The community is part of the Rome, Georgia Metropolitan Statistical Area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shannon%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Shannon%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Shannon’s climate features consistently warm temperatures and evenly spread rainfall throughout the year.",
       "sourceSentenceIds": [
         24
@@ -73,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shannon%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Shannon%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shannon-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "John Phelan",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Track_Food_Mart,_Shannon_GA.jpg"
+  }
 }

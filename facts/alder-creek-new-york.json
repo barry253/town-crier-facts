@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/alder-creek-xx-oneida-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/alder-creek-xx-oneida-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alder_Creek%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Alder_Creek%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alder_Creek%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Alder_Creek%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,18 +71,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/alder-creek-xx-oneida-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "The hamlet rests 1,190 feet above sea level, giving it a modest elevation within the region.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/alder-creek-xx-oneida-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/alder-creek-xx-oneida-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Oneida County, New York"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alder-creek-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  }
 }

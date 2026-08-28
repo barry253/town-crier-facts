@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Homelake is a quiet unincorporated community located in Rio Grande County, Colorado.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Homelake%2C_Colorado"
-    },
-    {
       "id": 2,
       "text": "The Homelake post office operated from 1919 until its closure in 1965.",
       "sourceSentenceIds": [
@@ -42,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm"
+      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,22 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homelake%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Homelake%2C_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Homelake sits 7,630 feet above sea level, roughly one and a half miles high.",
-      "sourceSentenceIds": [
-        13,
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Historical records from 1895 list Homelake among communities with potential post office or railroad service.",
       "sourceSentenceIds": [
         2
@@ -76,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm"
+      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Homelake appears in both the FIPS‑55 and GNIS geographic databases, confirming its official status.",
       "sourceSentenceIds": [
         1
@@ -87,7 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm"
+      "source": "https://roadsidethoughts.com/co/homelake-xx-rio-grande-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homelake-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.355,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Veterans_Community_Living_Center_at_Homelake.JPG"
+  }
 }

@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 35°22′30″N 89°34′30″W, placing it in southwestern Tennessee near the Mississippi River.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee"
-    },
-    {
-      "id": 3,
       "text": "Braden’s municipal building serves as the town hall, where residents can obtain construction permits and other services.",
       "sourceSentenceIds": [
         16
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-braden.html"
+      "source": "https://www.citydirectory.us/town-braden.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The town’s name honors Joseph P. Braden, a local figure instrumental in its establishment.",
       "sourceSentenceIds": [
         2
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Braden’s population density is about 28.6 people per square mile, reflecting its rural character.",
       "sourceSentenceIds": [
         9
@@ -73,18 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee"
-    },
-    {
-      "id": 6,
-      "text": "The median age of residents is 37, indicating a relatively balanced age distribution.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Braden%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/braden-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomas R Machnitzki (thomas@machnitzki.com)",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somerville_TN_01-2012_003.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/east-niles-18008"
+      "source": "https://www.wisdomlib.org/cities/east-niles-18008",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/10-breathtaking-tourist-places-to-visit-in-east-niles/"
+      "source": "https://touristplaces.guide/10-breathtaking-tourist-places-to-visit-in-east-niles/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/10-breathtaking-tourist-places-to-visit-in-east-niles/"
+      "source": "https://touristplaces.guide/10-breathtaking-tourist-places-to-visit-in-east-niles/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,18 +69,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/10-breathtaking-tourist-places-to-visit-in-east-niles/"
-    },
-    {
-      "id": 5,
-      "text": "East Niles sits at 576 feet above sea level in California today.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Niles%2C_California"
+      "source": "https://touristplaces.guide/10-breathtaking-tourist-places-to-visit-in-east-niles/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "China Lake Acres, California"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-niles-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

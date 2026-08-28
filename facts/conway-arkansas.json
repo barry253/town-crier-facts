@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Conway was founded by Asa P. and named Conway Station after a prominent Arkansas family.",
+      "text": "Conway was founded by Asa P. Robinson and named Conway Station after a prominent Arkansas family.",
       "sourceSentenceIds": [
         4,
         6
@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Conway%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/conway-arkansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ronny Willhite",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Conway.jpg"
+  }
 }

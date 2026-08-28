@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shumway%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Shumway%2C_Arizona",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,22 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/shumway-xx-navajo-profile.htm"
+      "source": "https://roadsidethoughts.com/az/shumway-xx-navajo-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Perched 5,690 feet above sea level, Shumway sits roughly one mile higher than the surrounding plains.",
-      "sourceSentenceIds": [
-        18,
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/shumway-xx-navajo-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Archaeologists have uncovered three 14th‑century Ancestral Pueblo villages in the Silver Creek drainage, including the Shumway Ruin.",
       "sourceSentenceIds": [
         13,
@@ -64,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm"
+      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Shumway Archaeological Project studies pre‑Hispanic settlements north of the Mogollon Rim, focusing on sites from Paleo‑Indian to early Pueblo IV periods.",
       "sourceSentenceIds": [
         7,
@@ -76,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm"
+      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Shumway lies within the White Mountain Apache Tribe’s southern boundary, surrounded by the Sitgreaves National Forest to the south.",
       "sourceSentenceIds": [
         10,
@@ -88,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm"
+      "source": "https://www.uvm.edu/~svankeur/SHAP/project_area/proj_area.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shumway-arizona.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Marine 69-71",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shumway-Shumway_Schoolhouse-1900-3.jpg"
+  }
 }

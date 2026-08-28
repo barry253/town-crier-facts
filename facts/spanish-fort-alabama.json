@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofspanishfort.com/history"
+      "source": "https://www.cityofspanishfort.com/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.cityofspanishfort.com/history"
+      "source": "https://www.cityofspanishfort.com/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spanish_Fort%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Spanish_Fort%2C_Alabama",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +76,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://encyclopediaofalabama.org/article/spanish-fort/"
+      "source": "https://encyclopediaofalabama.org/article/spanish-fort/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofspanishfort.com/history"
+      "source": "https://www.cityofspanishfort.com/history",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +102,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofspanishfort.com/history"
+      "source": "https://www.cityofspanishfort.com/history",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spanish-fort-alabama.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.246,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "JodyB",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sfhs_front.jpg"
+  }
 }

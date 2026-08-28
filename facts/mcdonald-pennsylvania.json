@@ -32,7 +32,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.mcdonaldtrailstation.com/"
+      "source": "https://www.mcdonaldtrailstation.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McDonald%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McDonald%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McDonald%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McDonald%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -66,7 +73,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McDonald%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McDonald%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcdonald-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.438,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McDonald,_Pennsylvania,_3rd_and_W_Lincoln_Ave.jpg"
+  }
 }

@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Caroleen was named after Caroline, the wife of industrialist Simpson B.",
+      "text": "Caroleen was named after Caroline, the wife of industrialist Simpson B. Tanner Sr.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Caroleen%2C_North_Carolina",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/caroleen-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DysonsSphere",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Lure_Flowering_Bridge_NC_210719.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Lure, North Carolina"
+  }
 }

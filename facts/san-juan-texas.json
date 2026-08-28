@@ -31,7 +31,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -76,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/San_Juan%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +100,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mysjtx.us/"
+      "source": "https://www.mysjtx.us/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/san-juan-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Justin Hundsnurscher",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgin_de_San_Juan_Church.JPG"
+  }
 }

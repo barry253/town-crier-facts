@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rock Camp sits in northeastern Perry Township, Lawrence County, Ohio, United States.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Camp%2C_Ohio"
-    },
-    {
-      "id": 2,
       "text": "A post office opened in Rock Camp in 1855, marking its early development.",
       "sourceSentenceIds": [
         19
@@ -40,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
-      "text": "Rock Camp rises to about 600 feet above sea level, offering gentle hills.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "Ohio hosts two distinct communities named Rock Camp, one in Lawrence County and another in Columbiana County.",
       "sourceSentenceIds": [
         1
@@ -62,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Rock Camp is listed in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "The 1895 Gazetteer notes whether Rock Camp had a post office or railroad service.",
       "sourceSentenceIds": [
         3
@@ -84,7 +70,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/rock-camp-xx-lawrence-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rock-camp-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.348,
+    "y": 0.499
+  }
 }

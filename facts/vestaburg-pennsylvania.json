@@ -32,7 +32,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vestaburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Vestaburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -44,7 +47,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/vestaburg_pennsylvania"
+      "source": "https://grokipedia.com/page/vestaburg_pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/vestaburg_pennsylvania"
+      "source": "https://grokipedia.com/page/vestaburg_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/vestaburg_pennsylvania"
+      "source": "https://grokipedia.com/page/vestaburg_pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -79,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/vestaburg_pennsylvania"
+      "source": "https://grokipedia.com/page/vestaburg_pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +103,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/vestaburg_pennsylvania"
+      "source": "https://grokipedia.com/page/vestaburg_pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vestaburg-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_County_Courthouse_(Pennsylvania)_south.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Washington County, Pennsylvania"
+  }
 }

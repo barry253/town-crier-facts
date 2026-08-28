@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,20 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan"
-    },
-    {
-      "id": 5,
-      "text": "The Grosse Pointe Historical Society preserves the area's mid‑1600s settlement history and offers resources at www.gphistorical.org.",
-      "sourceSentenceIds": [
-        1,
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://gpshoresmi.gov/community/"
+      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Grosse_Pointe_Shores%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/village-of-grosse-pointe-shores-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.438,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Notorious4life (talk) (Uploads)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grosse_Pointe_Shores_City_Hall.jpg"
+  }
 }

@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.britannica.com/place/Zanesville"
+      "source": "https://www.britannica.com/place/Zanesville",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.visitzanesville.com/About-Muskingum-County/History/"
+      "source": "https://www.visitzanesville.com/About-Muskingum-County/History/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +65,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Zanesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Zanesville%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,7 +78,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Zanesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Zanesville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -83,7 +91,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Zanesville"
+      "source": "https://www.britannica.com/place/Zanesville",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -94,7 +105,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Zanesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Zanesville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/zanesville-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.792,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Paul Sableman",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zanesville,_Ohio_(2016).jpg"
+  }
 }

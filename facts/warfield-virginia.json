@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warfield%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Warfield%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,41 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/warfield-xx-brunswick-profile.htm"
+      "source": "https://roadsidethoughts.com/va/warfield-xx-brunswick-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Warfield sits 310 feet above sea level, a modest elevation that places it comfortably within Brunswick County’s rolling landscape.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/warfield-xx-brunswick-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "Warfield is located in Brunswick County, Virginia, and its coordinates are verified by the Geographic Names Information System.",
-      "sourceSentenceIds": [
-        11
-      ],
+      "text": "Warfield was served by the Richmond, Petersburg and Carolina Railroad, which connected Petersburg to Ridgeway Junction in North Carolina.",
+      "sourceSentenceIds": [],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warfield%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Warfield%2C%20Virginia",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 4,
+      "text": "The railway line through Warfield was later known as the 'S' line after several mergers, continuing operations until the 1980s.",
+      "sourceSentenceIds": [],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Warfield%2C%20Virginia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Brunswick County, Virginia"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/warfield-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  }
 }

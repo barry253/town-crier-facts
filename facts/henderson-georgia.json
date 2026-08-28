@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Henderson first appeared in the 2010 U.S. Census as a newly designated census-designated place.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia"
-    },
-    {
-      "id": 2,
       "text": "Henderson is part of the Savannah metropolitan statistical area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         4
@@ -40,32 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
-      "text": "Henderson sits in western Chatham County at latitude 32°0′15″N and longitude 81°16′4″W.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia"
-    },
-    {
-      "id": 4,
-      "text": "The town occupies a triangular area bounded by Little Neck Road, Georgia State Route 204, and Interstate 95.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "The Henderson Golf Course dominates the community's south side, with housing developments set around and between the links.",
       "sourceSentenceIds": [
         8
@@ -73,18 +43,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia"
-    },
-    {
-      "id": 6,
-      "text": "The median age of Henderson residents is 33.1 years, reflecting a relatively young community.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Henderson%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/henderson-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DXR",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chatham_County_Courthouse,_Administrative_Center,_Savannah_GA,_East_view_20160705_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Chatham County, Georgia"
+  }
 }

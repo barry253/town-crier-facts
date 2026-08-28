@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stockland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Stockland%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
-      "text": "Its latitude and longitude are 40°36′52″N 87°35′34″W, placing it in the heart of northern Illinois.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stockland%2C_Illinois"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Stockland in 1891, marking the town’s early growth.",
       "sourceSentenceIds": [
         8
@@ -51,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm"
+      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The community sits 670 feet above sea level, a typical elevation for the region’s gently rolling plains.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Locals pronounce the name as “STAHK-luhnd,” a pronunciation that echoes the town’s early settlers’ heritage.",
       "sourceSentenceIds": [
         8
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm"
+      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Stockland earned a place on Illinois’s commemorative quarter, a nod to its place in state history.",
       "sourceSentenceIds": [
         6
@@ -84,7 +70,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm"
+      "source": "https://roadsidethoughts.com/il/stockland-xx-iroquois-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stockland-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  }
 }

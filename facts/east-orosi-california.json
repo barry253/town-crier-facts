@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "East Orosi was founded in 1888 by Daniel R.",
+      "text": "East Orosi was founded in 1888 by Daniel R. Shafer.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Orosi%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/east-orosi-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/east-orosi-xx-tulare-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-orosi-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.673,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2009-0725-CA-Orosi-library.jpg"
+  }
 }

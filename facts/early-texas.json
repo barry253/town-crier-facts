@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Early is a city in Brown County, Texas.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "Early sits in west‑central Texas, near the center of Brown County.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas"
-    },
-    {
       "id": 3,
       "text": "Early donated land for its local schools, helping shape the community’s education.",
       "sourceSentenceIds": [
@@ -51,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "The city lies at 31°44′41″N 98°56′28″W, a precise spot on the map.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +55,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Early%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/early-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

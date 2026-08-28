@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Edgemont rises 970 feet above sea level, offering a modest elevation for the area.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Washington County uniquely hosts two communities named Edgemont, the other located in neighboring Frederick County.",
       "sourceSentenceIds": [
         1
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "An 1895 atlas lists Edgemont among Washington County’s historic communities, preserving its early layout.",
       "sourceSentenceIds": [
         23
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The area maps several cemeteries with overhead views, highlighting local heritage sites.",
       "sourceSentenceIds": [
         20,
@@ -85,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/md/edgemont-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/edgemont-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Washington County, Maryland"
+  }
 }

@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://texastimetravel.com/cities/lago-vista/"
+      "source": "https://texastimetravel.com/cities/lago-vista/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lagovistatexas.gov/259/History"
+      "source": "https://www.lagovistatexas.gov/259/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Lago_Vista%2C_Texas",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lago-vista-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_Hall_Lago_Vista_Texas_2022.jpg"
+  }
 }

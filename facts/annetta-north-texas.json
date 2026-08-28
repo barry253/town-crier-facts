@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://annettanorth.com/index.php?id=37"
+      "source": "https://annettanorth.com/index.php?id=37",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://annettanorth.com/index.php?id=37"
+      "source": "https://annettanorth.com/index.php?id=37",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -90,7 +101,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Annetta_North%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/annetta-north-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parker_County_Courthouse_Weatherford_Wiki_(1_of_1).jpg"
+  }
 }

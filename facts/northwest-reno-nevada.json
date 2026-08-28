@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/University_of_Nevada%2C_Reno"
+      "source": "https://en.wikipedia.org/wiki/University_of_Nevada%2C_Reno",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitrenotahoe.com/things-to-do/arts-and-culture/heritage"
+      "source": "https://www.visitrenotahoe.com/things-to-do/arts-and-culture/heritage",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitrenotahoe.com/things-to-do/arts-and-culture/heritage"
+      "source": "https://www.visitrenotahoe.com/things-to-do/arts-and-culture/heritage",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitrenotahoe.com/things-to-do/arts-and-culture/heritage"
+      "source": "https://www.visitrenotahoe.com/things-to-do/arts-and-culture/heritage",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.nvhistoricalsociety.org/exhibits/reno-history/"
+      "source": "https://www.nvhistoricalsociety.org/exhibits/reno-history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.nvhistoricalsociety.org/exhibits/reno-history/"
+      "source": "https://www.nvhistoricalsociety.org/exhibits/reno-history/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/northwest-reno-nevada.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Geographer at English Wikipedia",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UN_RENO.jpg"
+  }
 }

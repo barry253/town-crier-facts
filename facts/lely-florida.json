@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lely_resort_florida"
+      "source": "https://grokipedia.com/page/lely_resort_florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lely_resort_florida"
+      "source": "https://grokipedia.com/page/lely_resort_florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lely_resort_florida"
+      "source": "https://grokipedia.com/page/lely_resort_florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lely_resort_florida"
+      "source": "https://grokipedia.com/page/lely_resort_florida",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lely%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "The median age in Lely is 65, reflecting its appeal to retirees.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lely%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Lely%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lely-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "formulanone from Huntsville, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_29_-_Deep_Lake_(31408876676).jpg"
+  }
 }

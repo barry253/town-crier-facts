@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellotravel.com/greece/tavros"
+      "source": "https://www.hellotravel.com/greece/tavros",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,23 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellotravel.com/greece/tavros"
+      "source": "https://www.hellotravel.com/greece/tavros",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Since the 2011 local government reform, Tavros has been a municipal unit within the municipality of Moschato‑Tavros.",
-      "sourceSentenceIds": [
-        6,
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://www.hellotravel.com/greece/tavros"
-    },
-    {
-      "id": 4,
       "text": "Tavros lies in the southwestern part of the Athens metropolitan area, making it a close suburb of the capital.",
       "sourceSentenceIds": [
         11
@@ -64,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellotravel.com/greece/tavros"
+      "source": "https://www.hellotravel.com/greece/tavros",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Olive trees dominated Tavros’s landscape through Ottoman rule and into the 19th century, shaping the local economy.",
       "sourceSentenceIds": [
         12
@@ -75,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellotravel.com/greece/tavros"
+      "source": "https://www.hellotravel.com/greece/tavros",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The modern municipality of Moschato‑Tavros was created in 2011 by merging the former municipalities of Moschato and Tavros.",
       "sourceSentenceIds": [
         10
@@ -86,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Moschato-Tavros"
+      "source": "https://en.wikipedia.org/wiki/Moschato-Tavros",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tavros-attica.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.542,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pitichinaccio",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011_Dimos_Moschatou-Tavrou.png"
+  }
 }

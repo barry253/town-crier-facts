@@ -22,20 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bluewater sits at 34.18°N, 114.25°W, just across the Colorado River from Arizona.",
-      "sourceSentenceIds": [
-        3,
-        25,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Bluewater enjoys classic hot desert weather, with large diurnal swings and minimal humidity, except rare monsoons.",
       "sourceSentenceIds": [
         1
@@ -43,10 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Bluewater_California"
+      "source": "https://grokipedia.com/page/Bluewater_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The town spans 1.0 square mile of land and 0.3 square miles of water, 22% of its area.",
       "sourceSentenceIds": [
         4
@@ -54,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
-      "text": "Bluewater's median age is 62.3 years, reflecting its senior-friendly character.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_California"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "As an unincorporated area, Bluewater is governed by San Bernardino County's board of supervisors.",
       "sourceSentenceIds": [
         28
@@ -76,18 +57,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/cacountybluewater.htm"
-    },
-    {
-      "id": 6,
-      "text": "The town sits 367 feet above sea level, placing it in a low desert basin.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/cacountybluewater.htm"
+      "source": "https://www.usacitiesonline.com/cacountybluewater.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bluewater-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.256,
+    "y": 0.5
+  }
 }

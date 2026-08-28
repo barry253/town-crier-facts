@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Piseco%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Piseco%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/21367"
+      "source": "https://museumsdatabase.com/museums/view/21367",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pisecolake.org/pages/historical-piseco-lake.asp"
+      "source": "https://pisecolake.org/pages/historical-piseco-lake.asp",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pisecolake.org/pages/historical-piseco-lake.asp"
+      "source": "https://pisecolake.org/pages/historical-piseco-lake.asp",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/21367"
+      "source": "https://museumsdatabase.com/museums/view/21367",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/piseco-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.547,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "N0236329",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Piseco_camp.JPG"
+  }
 }

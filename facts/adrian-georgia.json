@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adrian%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Adrian%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofadrian.org/"
+      "source": "https://www.cityofadrian.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adrian%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Adrian%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -72,7 +79,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofadrian.org/"
+      "source": "https://www.cityofadrian.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -84,11 +93,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofadrian.org/"
+      "source": "https://www.cityofadrian.org/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "Adrian’s town hall, located at 107 Nora Blvd, hosts council meetings and court dates for the community.",
+      "text": "Adrian’s town hall, located at 107 Nora Boulevard, hosts council meetings and court dates for the community.",
       "sourceSentenceIds": [
         11,
         14
@@ -96,7 +107,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofadrian.org/"
+      "source": "https://www.cityofadrian.org/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/adrian-georgia.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.17,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bubba73",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emanuel_County_Courthouse,_Swainsboro,_GA,_US.jpg"
+  }
 }

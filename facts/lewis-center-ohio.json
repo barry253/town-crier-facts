@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lewis_Center%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lewis_Center%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lewis_Center%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lewis_Center%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Lewis_Center,_Ohio"
+      "source": "https://grokipedia.com/page/Lewis_Center,_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Lewis_Center,_Ohio"
+      "source": "https://grokipedia.com/page/Lewis_Center,_Ohio",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lewis_Center%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lewis_Center%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lewis-center-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Christopher L. Riley",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delaware_County_Courthouse_%E2%80%94_Delaware,_Ohio.jpg"
+  }
 }

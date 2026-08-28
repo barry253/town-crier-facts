@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Onley was named after the estate of Governor Henry A., giving the town its distinctive name.",
+      "text": "Onley was named after the estate of Governor Henry A. Wise, giving the town its distinctive name.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Onley%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Onley%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitesva.com/onley"
-    },
-    {
-      "id": 3,
-      "text": "Onley's coordinates place it at 37°41′25″N 75°43′0″W, a spot just north of the Chesapeake Bay.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Onley%2C_Virginia"
+      "source": "https://visitesva.com/onley",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/onley-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.727,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "self",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Saint_Matthew_Church_and_other_Onley_storefronts.jpg"
+  }
 }

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/camptown_pennsylvania"
+      "source": "https://grokipedia.com/page/camptown_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camptown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Camptown%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/camptown_pennsylvania"
+      "source": "https://grokipedia.com/page/camptown_pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/camptown_pennsylvania"
+      "source": "https://grokipedia.com/page/camptown_pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,19 +85,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camptown%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
-      "text": "The community’s elevation is roughly 751 feet (229 m), placing it in a fertile valley that historically supported early industry.",
-      "sourceSentenceIds": [
-        28,
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/camptown_pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Camptown%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/camptown-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Camptown_Keystone_Marker.jpg"
+  }
 }

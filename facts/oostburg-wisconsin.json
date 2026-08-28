@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin"
+      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin"
-    },
-    {
-      "id": 3,
-      "text": "Oostburg sits at 43°37′27″N 87°47′52″W, placing it in northern Wisconsin.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin"
+      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin"
+      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +68,35 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin"
+      "source": "https://en.wikipedia.org/wiki/Oostburg%2C_Wisconsin",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "Local governance includes a 2026 street project on Heritage Dr and South Ave, showing ongoing infrastructure updates.",
+      "text": "Local governance includes a 2026 street project on Heritage Dr and South Avenue, showing ongoing infrastructure updates.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.oostburgwi.gov/"
+      "source": "https://www.oostburgwi.gov/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oostburg-wisconsin.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "TCP04",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oostburg,_WI.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/middle-valley-36038"
+      "source": "https://www.wisdomlib.org/cities/middle-valley-36038",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Valley%2C_Tennessee"
-    },
-    {
-      "id": 3,
-      "text": "Middle Valley lies at 35°11′21″N 85°11′28″W, placing it just north of the Tennessee River.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Valley%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Middle_Valley%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middle_Valley%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Middle_Valley%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/middle-valley-36038"
+      "source": "https://www.wisdomlib.org/cities/middle-valley-36038",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/middle-valley-36038"
+      "source": "https://www.wisdomlib.org/cities/middle-valley-36038",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/middle-valley-tennessee.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomsonmg2000",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lookout_mountain_TN.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lookout Mountain, Tennessee"
+  }
 }

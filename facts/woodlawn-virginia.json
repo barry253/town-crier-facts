@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 2,510 feet above sea level, giving it a high‑land Appalachian feel.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Woodlawn is nestled in Carroll County, Virginia, part of the state’s western mountain region.",
       "sourceSentenceIds": [
         19
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Eight other Virginia communities share the name Woodlawn, a reminder of the common naming trend in the state.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm",
+      "category": "other",
+      "quality": "poor"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Both the FIPS‑55 and GNIS databases list Woodlawn, confirming its official geographic recognition.",
       "sourceSentenceIds": [
         3
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm",
+      "category": "other",
+      "quality": "poor"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "In 1895, records show Woodlawn had a post office or railroad service, indicating its role in regional transport.",
       "sourceSentenceIds": [
         5
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm"
+      "source": "https://roadsidethoughts.com/va/woodlawn-xx-carroll-profile.htm",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodlawn-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.2,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Akmst11",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Woodlawn_at_Vernon_Hill.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Woodlawn (Vernon Hill, Virginia)"
+  }
 }

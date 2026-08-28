@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +58,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Walston sits 1,330 feet above sea level.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/walston-xx-jefferson-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The community grew around the coal mines that attracted workers in the late 19th century.",
       "sourceSentenceIds": [
         7
@@ -75,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Walston%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Walston is located in Jefferson County, a region whose county lines have shifted over time.",
       "sourceSentenceIds": [
         10,
@@ -88,7 +86,20 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/walston-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/walston-xx-jefferson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Falls Creek, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/walston-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  }
 }

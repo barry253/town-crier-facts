@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadowlands%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Meadowlands%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Meadow Lands rests 970 feet above sea level, giving it a modest hilltop view of the surrounding countryside.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "An 1895 atlas notes that Meadow Lands had either a post office or railroad service, hinting at early connectivity.",
       "sourceSentenceIds": [
         4
@@ -62,21 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "The exact geographic coordinates for Meadow Lands still require verification, according to the latest data.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Meadow Lands is part of Washington County, placing it within the broader historical region of southwestern Pennsylvania.",
       "sourceSentenceIds": [
         8
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/meadow-lands-xx-washington-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadow-lands-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Washington_County_Courthouse_(Pennsylvania)_south.jpg"
+  }
 }

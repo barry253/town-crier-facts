@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Palmer Heights sits at 40.68°N, 75.26°W, right in the heart of Northampton County.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm"
-    },
-    {
       "id": 2,
       "text": "The community covers just over 3.1 square miles of land, with no bodies of water inside its borders.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm"
+      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm"
+      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm"
+      "source": "https://www.usacitiesonline.com/pacountypalmerheights.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmer_Heights%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Palmer_Heights%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -85,7 +86,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/northampton/palmer-heights.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/northampton/palmer-heights.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/palmer-heights-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.571,
+    "y": 0.499
+  }
 }

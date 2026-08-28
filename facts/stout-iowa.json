@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Stout is a city in Grundy County, Iowa.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stout%2C_Iowa"
-    },
-    {
-      "id": 2,
-      "text": "Stout is part of the Waterloo–Cedar Falls Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stout%2C_Iowa"
-    },
-    {
       "id": 3,
       "text": "A post office has operated in Stout since 1900.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stout%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Stout%2C_Iowa",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stout%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Stout%2C_Iowa",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-stout.html"
+      "source": "https://www.citydirectory.us/city-stout.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-stout.html"
+      "source": "https://www.citydirectory.us/city-stout.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

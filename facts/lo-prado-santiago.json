@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://loprado.cl/comuna/resena-historica/"
+      "source": "https://loprado.cl/comuna/resena-historica/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://loprado.cl/comuna/resena-historica/"
+      "source": "https://loprado.cl/comuna/resena-historica/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://loprado.cl/comuna/resena-historica/"
+      "source": "https://loprado.cl/comuna/resena-historica/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.traveldojo.com/lo-prado/"
+      "source": "https://www.traveldojo.com/lo-prado/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://loprado.cl/comuna/resena-historica/"
+      "source": "https://loprado.cl/comuna/resena-historica/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +100,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lo_Prado"
+      "source": "https://en.wikipedia.org/wiki/Lo_Prado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lo-prado-santiago.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.417,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Carlos Figueroa Rojas",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edificio_Consistorial_de_Lo_Prado,_Lo_Prado,_Santiago_20251119.jpg"
+  }
 }

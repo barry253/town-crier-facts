@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ncpedia.org/yadkin-college"
+      "source": "https://www.ncpedia.org/yadkin-college",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ncpedia.org/yadkin-college"
+      "source": "https://www.ncpedia.org/yadkin-college",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ncpedia.org/yadkin-college"
+      "source": "https://www.ncpedia.org/yadkin-college",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.dncr.nc.gov/blog/2024/01/10/yadkin-college-k-24"
+      "source": "https://www.dncr.nc.gov/blog/2024/01/10/yadkin-college-k-24",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yadkin_College%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Yadkin_College%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yadkin_College%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Yadkin_College%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yadkin-college-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.85,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dennis Brown",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Davidson_County_NC_Courthouse.jpg"
+  }
 }

@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Williamsport%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Williamsport%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/williamsport_tennessee"
+      "source": "https://grokipedia.com/page/williamsport_tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,22 +60,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/williamsport_tennessee"
+      "source": "https://grokipedia.com/page/williamsport_tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Williamsport sits 627 feet above sea level on the Western Highland Rim, where limestone bedrock shapes rolling hills.",
-      "sourceSentenceIds": [
-        21,
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/williamsport_tennessee"
-    },
-    {
-      "id": 5,
       "text": "The Duck River’s meandering course creates floodplain environments with river birch and red maple, influencing local wildlife.",
       "sourceSentenceIds": [
         5
@@ -79,10 +73,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/williamsport_tennessee"
+      "source": "https://grokipedia.com/page/williamsport_tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Williamsport’s early economy included flatboat construction and salt transport, linking it to New Orleans markets.",
       "sourceSentenceIds": [
         14,
@@ -91,7 +87,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/williamsport_tennessee"
+      "source": "https://grokipedia.com/page/williamsport_tennessee",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Maury County, Tennessee"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/williamsport-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.55,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "KFlanz",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enterprise_Community_Center.jpg"
+  }
 }

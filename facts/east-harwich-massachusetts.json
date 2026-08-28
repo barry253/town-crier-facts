@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm"
+      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 41°42′28″N 70°1′53″W, a precise spot on Cape Cod’s eastern shore.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Harwich%2C_Massachusetts"
-    },
-    {
-      "id": 3,
       "text": "East Harwich covers roughly 21.4 square miles of land, a modest stretch of Cape Cod coastline.",
       "sourceSentenceIds": [
         24
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm"
+      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Water bodies account for about 1.82 square kilometers of the area, adding to its maritime charm.",
       "sourceSentenceIds": [
         26
@@ -62,29 +56,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm"
-    },
-    {
-      "id": 5,
-      "text": "Its latitude places it 41.70 degrees north of the equator, while its longitude is 70.03 degrees west of the prime meridian.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm"
-    },
-    {
-      "id": 6,
-      "text": "The town’s elevation is 69 feet above sea level, keeping it safely above typical coastal tides.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm"
+      "source": "https://www.usacitiesonline.com/macountyeastharwich.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-harwich-massachusetts.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.479,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Stephen Senter",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Methodist_Church_Cemetery_-_panoramio.jpg"
+  }
 }

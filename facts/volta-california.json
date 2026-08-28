@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Volta%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Volta%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Volta sits about five miles west‑northwest of Los Banos, perched at an elevation of 105 feet.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Volta%2C_California"
-    },
-    {
-      "id": 4,
       "text": "The town’s primary significance lies in its contribution to the agricultural output of Stanislaus County.",
       "sourceSentenceIds": [
         2
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Volta%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Volta occupies southwestern Merced County, positioned between Los Banos to the southeast and Santa Nella to the west.",
       "sourceSentenceIds": [
         19
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Volta%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community rests on the western side of California’s Central Valley, a region famed for its fertile plains.",
       "sourceSentenceIds": [
         20
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Volta%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Volta%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/volta-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.83,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JPxG",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banks_of_San_Luis_Reservoir_in_July_2021_redux_(cropped).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Merced County, California"
+  }
 }

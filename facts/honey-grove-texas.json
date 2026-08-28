@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofhoneygrove.org/community/history.php"
+      "source": "https://www.cityofhoneygrove.org/community/history.php",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofhoneygrove.org/community/history.php"
+      "source": "https://www.cityofhoneygrove.org/community/history.php",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Honey_Grove%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Honey_Grove%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,18 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Honey_Grove%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Honey Grove sits between 580 and 690 feet above sea level, offering mild elevation changes across its landscape.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Honey_Grove%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Honey_Grove%2C_Texas",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/honey-grove-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Honey_Grove6_(1_of_1).jpg"
+  }
 }

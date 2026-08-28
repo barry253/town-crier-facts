@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shoreline%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Shoreline%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shoreline%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Shoreline%2C_Washington",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.destinationshoreline.com/shorelinefaq"
+      "source": "https://www.destinationshoreline.com/shorelinefaq",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shoreline%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Shoreline%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shoreline-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.539,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shoreline,_WA_City_Hall.JPG"
+  }
 }

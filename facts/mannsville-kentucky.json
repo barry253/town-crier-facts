@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mannsville%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Mannsville%2C_Kentucky",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,23 +46,12 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://kyatlas.com/ky-mannsville.html"
+      "source": "https://kyatlas.com/ky-mannsville.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Mannsville sits at an elevation of 738 feet, or 225 meters, above sea level.",
-      "sourceSentenceIds": [
-        9,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mannsville%2C_Kentucky"
-    },
-    {
-      "id": 4,
       "text": "The town experiences a humid subtropical climate, averaging 48 inches of rain yearly with hot, humid summers.",
       "sourceSentenceIds": [
         18,
@@ -69,10 +60,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mannsville_kentucky"
+      "source": "https://grokipedia.com/page/mannsville_kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Mannsville lies at the crossroads of Kentucky Routes 70 and 337, just seven miles east of Campbellsville.",
       "sourceSentenceIds": [
         8
@@ -80,10 +74,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mannsville%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Mannsville%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community drains into the Green River watershed, supporting local agriculture and wildlife habitats.",
       "sourceSentenceIds": [
         16
@@ -91,7 +88,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mannsville_kentucky"
+      "source": "https://grokipedia.com/page/mannsville_kentucky",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mannsville-kentucky.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_Hill_near_Campbellsville,_entrance_closeup.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Taylor County, Kentucky"
+  }
 }

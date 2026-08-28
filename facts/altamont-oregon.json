@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "The community sits at 4,144 feet above sea level, giving it a high‑altitude feel.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon"
-    },
-    {
-      "id": 4,
       "text": "Altamont lies in southern Klamath County, directly adjacent to the city limits of Klamath Falls.",
       "sourceSentenceIds": [
         12
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "All mailing addresses in Altamont use Klamath Falls postcodes, even though the town sits outside the city.",
       "sourceSentenceIds": [
         9
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town falls under the jurisdiction of Klamath Community College, the region’s primary higher‑education institution.",
       "sourceSentenceIds": [
         25
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Altamont%2C_Oregon",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/altamont-oregon.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WolfmanSF",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crater_Lake_winter_pano2.jpg"
+  }
 }

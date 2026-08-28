@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The community rises 587 feet above sea level, offering a modest elevation typical of the Illinois prairie.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Dorsey,_Illinois"
-    },
-    {
-      "id": 5,
       "text": "Dorsey remains an unincorporated community, lacking its own municipal government and instead governed by county authorities.",
       "sourceSentenceIds": [
         4,
@@ -79,10 +75,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Dorsey%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Dorsey has existed for many decades, reflecting its long-standing presence in the region.",
       "sourceSentenceIds": [
         3
@@ -90,7 +89,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dorsey,_Illinois"
+      "source": "https://kids.kiddle.co/Dorsey,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dorsey-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_County_Courthouse,_Edwardsville.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Madison County, Illinois"
+  }
 }

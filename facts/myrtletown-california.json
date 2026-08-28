@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits just 112 feet above sea level, giving it a low‑lying coastal feel.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Myrtletown enjoys a mild, temperate cool‑summer Mediterranean climate, perfect for year‑round outdoor strolls.",
       "sourceSentenceIds": [
         13
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Valentine’s Day civil weddings can be celebrated aboard the historic ship Madaket or in the Humboldt Room of the Eureka Public Library.",
       "sourceSentenceIds": [
         1,
@@ -63,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://humboldtgov.org/"
+      "source": "https://humboldtgov.org/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community is part of the Eureka, California metropolitan area, linking it to the larger coastal region.",
       "sourceSentenceIds": [
         12
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Myrtletown%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Sunrise in Myrtletown is at 6:11 a.m. and sunset at 7:57 p.m., giving drivers a 13‑hour, 46‑minute day of daylight.",
       "sourceSentenceIds": [
         4
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_myrtletown"
+      "source": "https://www.trawellino.com/destinations/united-states/california_myrtletown",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/myrtletown-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ellin Beltz",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArcataAndMadRiverPlaque.jpg"
+  }
 }

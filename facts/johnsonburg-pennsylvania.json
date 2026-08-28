@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/johnsonburg_pennsylvania"
+      "source": "https://grokipedia.com/page/johnsonburg_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitpago.com/counties/elk-county/johnsonburg-wilcox/"
+      "source": "https://visitpago.com/counties/elk-county/johnsonburg-wilcox/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/johnsonburg_pennsylvania"
+      "source": "https://grokipedia.com/page/johnsonburg_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnsonburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Johnsonburg%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnsonburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Johnsonburg%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Johnsonburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Johnsonburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/johnsonburg-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.305,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johnsonburg,_Pennsylvania_(8481551663).jpg"
+  }
 }

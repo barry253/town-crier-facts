@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wellington is a home rule-class city in the metro Louisville area of Jefferson County, Kentucky.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky"
-    },
-    {
       "id": 2,
       "text": "The city was incorporated in 1946, making it a relatively young municipality.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -63,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/Wellington%2C_Kentucky",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -74,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofwellingtonky.com/"
+      "source": "https://cityofwellingtonky.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofwellingtonky.com/"
+      "source": "https://cityofwellingtonky.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

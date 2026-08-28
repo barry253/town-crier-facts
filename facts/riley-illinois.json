@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Riley sits at the intersection of Anthony Road (east–west) and Riley Road (north–south).",
-      "sourceSentenceIds": [
-        1,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Riley%2C_Illinois"
-    },
-    {
       "id": 2,
       "text": "The town hall, built in 1868, remains the oldest operating town hall in McHenry County.",
       "sourceSentenceIds": [
@@ -42,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rileytwp.com/"
+      "source": "https://rileytwp.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +45,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Riley%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Riley%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,18 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rileytwp.com/"
-    },
-    {
-      "id": 5,
-      "text": "The community sits about 807 feet (246 m) above sea level in Illinois.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Riley,_Illinois"
+      "source": "https://rileytwp.com/",
+      "category": "other",
+      "quality": "poor"
     },
     {
       "id": 6,

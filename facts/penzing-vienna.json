@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://connectingvienna.com/vienna/district/14-penzing/"
+      "source": "https://connectingvienna.com/vienna/district/14-penzing/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Penzing"
+      "source": "https://en.wikipedia.org/wiki/Penzing",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Penzing"
+      "source": "https://en.wikipedia.org/wiki/Penzing",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Schutzengel Mountain, rising to 508 meters above sea level, is the district’s highest point.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Penzing"
-    },
-    {
-      "id": 5,
       "text": "Fuhrmannhaus, the oldest building in western Vienna, boasts a baroque fresco hall that still welcomes visitors.",
       "sourceSentenceIds": [
         27
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Penzing"
+      "source": "https://en.wikipedia.org/wiki/Penzing",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "In 1892, Penzing was annexed into Vienna, transferring its territory from Upper Austria.",
       "sourceSentenceIds": [
         17
@@ -84,7 +81,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Penzing"
+      "source": "https://en.wikipedia.org/wiki/Penzing",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/penzing-vienna.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.378,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "My another account (talk)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penzing.JPG"
+  }
 }

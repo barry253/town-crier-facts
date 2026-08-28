@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Pardeesville sits at 41°0′11″N 75°57′46″W.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pardeesville%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The community rises 1,670 feet above sea level on Buck Mountain's crest east of PA 309.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pardeesville%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
       "text": "A post office began serving Pardeesville in 1940, marking its formal recognition.",
       "sourceSentenceIds": [
         29
@@ -51,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/pardeesville-xx-luzerne-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/pardeesville-xx-luzerne-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Historical records list Pardeesville in both the FIPS‑55 and GNIS databases, confirming its official status.",
       "sourceSentenceIds": [
         1
@@ -62,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/pardeesville-xx-luzerne-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/pardeesville-xx-luzerne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "In 1895, the community already had a post office or railroad service, indicating early connectivity.",
       "sourceSentenceIds": [
         2
@@ -73,18 +56,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/pardeesville-xx-luzerne-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Pardeesville’s primary coordinate point is 41.0018 N, –75.9663 W, placing it firmly within Luzerne County.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/luzerne/pardeesville.cfm"
+      "source": "https://roadsidethoughts.com/pa/pardeesville-xx-luzerne-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pardeesville-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_Road_in_Lehman_Township,_Luzerne_County,_Pennsylvania.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Back Mountain"
+  }
 }

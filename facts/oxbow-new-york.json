@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oxbow sits at the south end of a sharp bend in the Oswegatchie River, rising to 351 feet above sea level.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oxbow%2C_New_York"
-    },
-    {
-      "id": 2,
       "text": "Founded in 1970, the Oxbow Historical Association preserves the area’s heritage with a museum, research library, and year‑long events.",
       "sourceSentenceIds": [
         1,
@@ -44,10 +33,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22395"
+      "source": "https://museumsdatabase.com/museums/view/22395",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The Abner Benton House, built in 1819, earned a spot on the National Register of Historic Places in 1984.",
       "sourceSentenceIds": [
         5
@@ -55,10 +46,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oxbow%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Oxbow%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Oxbow lies 29 miles northeast of Watertown and 9 miles southwest of Gouverneur in northern Jefferson County.",
       "sourceSentenceIds": [
         18
@@ -66,22 +59,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oxbow%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Oxbow%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
-      "text": "The town’s coordinates are 44.2873°N, 75.623°W, placing it in the Eastern time zone.",
-      "sourceSentenceIds": [
-        19,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newyork.hometownlocator.com/ny/jefferson/oxbow.cfm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Volunteer‑run, the Oxbow Historical Association also maintains the cemetery, Methodist church, and schoolhouse as historic sites.",
       "sourceSentenceIds": [
         7,
@@ -90,7 +74,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22395"
+      "source": "https://museumsdatabase.com/museums/view/22395",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oxbow-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steven Hamsness",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Church_of_St_Lawrence_in_Alexandria_Bay,_New_York._East_side.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Alexandria Bay, New York"
+  }
 }

@@ -21,31 +21,16 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Tolar is a city in Hood County, Texas, United States.",
-      "sourceSentenceIds": [],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tolar%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "It belongs to the Granbury, Texas micropolitan statistical area.",
-      "sourceSentenceIds": [],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tolar%2C_Texas"
-    },
-    {
       "id": 3,
       "text": "The town’s name was chosen by an early settler named W., though the full story remains brief.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/tolar-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/tolar-tx",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -54,16 +39,22 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cityoftolar.com/index.html"
+      "source": "https://www.cityoftolar.com/index.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "The city’s new mailing address is 8712 W Hwy 377, Tolar, Texas 76476.",
+      "text": "The city’s new mailing address is 8712 W Highway 377, Tolar, Texas 76476.",
       "sourceSentenceIds": [],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cityoftolar.com/index.html"
+      "source": "https://www.cityoftolar.com/index.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -74,5 +65,16 @@
       ],
       "source": "https://www.cityoftolar.com/index.html"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tolar-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.171,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tolar_Texas_January_29_2022_Wiki_(1_of_1).jpg"
+  }
 }

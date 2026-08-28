@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palm_Beach_Gardens%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palm_Beach_Gardens%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.britannica.com/place/Palm-Beach-Florida"
+      "source": "https://www.britannica.com/place/Palm-Beach-Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofpalmbeach.com/343/History-of-Palm-Beach"
+      "source": "https://townofpalmbeach.com/343/History-of-Palm-Beach",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palm_Beach_Gardens%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palm_Beach_Gardens%2C_Florida",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palm_Beach_Gardens%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Palm_Beach_Gardens%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/palm-beach-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "St. Petersburg Times",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
+  }
 }

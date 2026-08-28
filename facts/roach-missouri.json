@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The community rests roughly 1,000 feet above sea level.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/roach-xx-camden-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Littleberry \"Jack\" Roach, a local sheriff in 1868, later served as county clerk and probate judge.",
       "sourceSentenceIds": [
         10
@@ -75,10 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Roach remains an unincorporated community in southern Camden County, Missouri.",
       "sourceSentenceIds": [
         7
@@ -86,7 +84,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Roach%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roach-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.41,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Massie, Gerald -- copy at Missouri State Archives",
+    "license": "No restrictions",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_of_the_Lake_of_the_Ozarks,_%22Missouri_Dragon%22.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake of the Ozarks"
+  }
 }

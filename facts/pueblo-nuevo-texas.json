@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Pueblo Nuevo is a census‑designated place in Webb County, Texas.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Pueblo_Nuevo,_Texas"
-    },
-    {
-      "id": 2,
-      "text": "Its coordinates are 27.493908° N, 99.309882° W, placing it just south of the Rio Grande.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Pueblo_Nuevo,_Texas"
-    },
-    {
       "id": 3,
       "text": "The CDP spans 0.6 square miles, all land, with no lakes or rivers inside its borders.",
       "sourceSentenceIds": [
@@ -53,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pueblo_Nuevo%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Pueblo_Nuevo%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -64,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Pueblo_Nuevo,_Texas"
+      "source": "https://kids.kiddle.co/Pueblo_Nuevo,_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/pueblo-nuevo-xx-webb-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/pueblo-nuevo-xx-webb-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -86,7 +72,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pueblo_Nuevo%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Pueblo_Nuevo%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pueblo-nuevo-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

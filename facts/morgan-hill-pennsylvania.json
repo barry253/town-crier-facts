@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Morgan Hill rises more than 800 feet above sea level, giving the town a commanding hilltop view.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Morgan_Hill%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "The eastern side of Morgan Hill is dominated by the Morgan Hill Golf Course and its surrounding homes.",
       "sourceSentenceIds": [
         7
@@ -40,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Morgan_Hill%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Morgan_Hill%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
-      "text": "Morgan Hill Road cuts through the center of town, leading north to Easton and southwest to Stouts Valley.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Morgan_Hill%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "The Open Space Preserve loop trail invites hikers to explore serpentine biodiversity right in the heart of Morgan Hill.",
       "sourceSentenceIds": [
         1
@@ -62,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitmorganhill.org/itineraries"
+      "source": "https://visitmorganhill.org/itineraries",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Guglielmo Winery, a 100‑year‑old Italian‑inspired estate, is one of Morgan Hill’s oldest wine‑making traditions.",
       "sourceSentenceIds": [
         22
@@ -73,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitmorganhill.org/itineraries"
+      "source": "https://visitmorganhill.org/itineraries",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "The community guide on the Morgan Hill website helps visitors locate local farms, restaurants, and other attractions.",
       "sourceSentenceIds": [
         4
@@ -84,7 +69,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.choosemorganhill.com/marketing-materials"
+      "source": "https://www.choosemorganhill.com/marketing-materials",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/morgan-hill-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Writerchic99 (talk) (Uploads)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bear-creek.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bear Creek Mountain Resort"
+  }
 }

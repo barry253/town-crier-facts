@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,29 +57,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "The community rests at an elevation of 790 feet above sea level.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/tyner-xx-marshall-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "Tyner’s geographic coordinates are 41°24′35″N 86°24′09″W, placing it in northwestern Marshall County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Tyner%2C_Indiana",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tyner-indiana.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "MrHarman at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kankakee_River_at_Kankakee.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Kankakee River"
+  }
 }

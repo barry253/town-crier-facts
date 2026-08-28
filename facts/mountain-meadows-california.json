@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtmeadows.org/cultural-history/"
+      "source": "https://www.mtmeadows.org/cultural-history/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtmeadows.org/cultural-history/"
+      "source": "https://www.mtmeadows.org/cultural-history/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtmeadows.org/cultural-history/"
-    },
-    {
-      "id": 4,
-      "text": "Mountain Meadows sits at 35.1037°N latitude and 118.4387°W longitude in Kern County.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://california.hometownlocator.com/ca/kern/mountain-meadows.cfm"
+      "source": "https://www.mtmeadows.org/cultural-history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://california.hometownlocator.com/ca/kern/mountain-meadows.cfm"
+      "source": "https://california.hometownlocator.com/ca/kern/mountain-meadows.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtmeadows.org/cultural-history/"
+      "source": "https://www.mtmeadows.org/cultural-history/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "China Lake Acres, California"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mountain-meadows-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

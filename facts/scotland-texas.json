@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Scotland was founded by Henry J. and named after him in the early 20th century.",
+      "text": "Scotland was founded by Henry J. Scott and named after him in the early 20th century.",
       "sourceSentenceIds": [
         2,
         3
@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/scotland-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/scotland-tx",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -75,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Scotland%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/scotland-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:J.H._Muerer_House,_Scotland,_TX_Picture_2218.jpg"
+  }
 }

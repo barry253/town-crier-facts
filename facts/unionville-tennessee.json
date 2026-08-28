@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Unionville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Unionville%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Unionville%2C_Tennessee"
-    },
-    {
-      "id": 3,
-      "text": "The town sits at 35.6217° N latitude and 86.5925° W longitude in Bedford County, Tennessee.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://tennessee.hometownlocator.com/tn/bedford/unionville.cfm"
+      "source": "https://en.wikipedia.org/wiki/Unionville%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tennessee.hometownlocator.com/tn/bedford/unionville.cfm"
-    },
-    {
-      "id": 5,
-      "text": "Unionville is a census‑designated place, meaning it has no municipal government and relies on county administration.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://tennessee.hometownlocator.com/tn/bedford/unionville.cfm"
+      "source": "https://tennessee.hometownlocator.com/tn/bedford/unionville.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://tennessee.hometownlocator.com/tn/bedford/unionville.cfm"
+      "source": "https://tennessee.hometownlocator.com/tn/bedford/unionville.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/unionville-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.743,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unionville,_Tennessee_01.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.greateroakton.com/oakton-history"
+      "source": "https://www.greateroakton.com/oakton-history",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakton%2C_Virginia"
-    },
-    {
-      "id": 3,
-      "text": "Oakton sits 16 miles west of Washington, D.C., placing it in the heart of Northern Virginia.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Oakton%2C_Virginia",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/oakton-14425"
+      "source": "https://www.wisdomlib.org/cities/oakton-14425",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Oakton%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oakton-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "sailko",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oakton,_va,_01.JPG"
+  }
 }

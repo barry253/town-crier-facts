@@ -25,7 +25,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r02/psicc/recreation"
+      "source": "https://www.fs.usda.gov/r02/psicc/recreation",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -36,7 +38,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r02/psicc/recreation"
+      "source": "https://www.fs.usda.gov/r02/psicc/recreation",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -47,7 +51,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r02/psicc/recreation"
+      "source": "https://www.fs.usda.gov/r02/psicc/recreation",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -58,7 +64,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r02/psicc/recreation"
+      "source": "https://www.fs.usda.gov/r02/psicc/recreation",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -69,7 +77,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.fs.usda.gov/r02/psicc/recreation"
+      "source": "https://www.fs.usda.gov/r02/psicc/recreation",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -80,7 +90,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Ridge%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Sierra_Ridge%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sierra-ridge-colorado.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.71,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chachpond",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_denver.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Denver–Aurora–Lakewood, CO Metropolitan Statistical Area"
+  }
 }

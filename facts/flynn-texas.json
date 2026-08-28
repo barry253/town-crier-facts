@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flynn-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/flynn-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Patrick Feller from Humble, Texas, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leon_County_Courthouse,_Centerville,_TX_1803221004_(41077408542).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Leon County, Texas"
+  }
 }

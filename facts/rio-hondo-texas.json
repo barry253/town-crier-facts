@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://riohondo.us/about-us"
+      "source": "https://riohondo.us/about-us",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,20 +46,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Hondo%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Rio Hondo sits at 26°14′4″N 97°34′53″W, just 9 miles east of Harlingen in north‑central Cameron County.",
-      "sourceSentenceIds": [
-        21,
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Hondo%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rio_Hondo%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Hondo%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rio_Hondo%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -79,7 +73,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://riohondo.us/about-us"
+      "source": "https://riohondo.us/about-us",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rio-hondo-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

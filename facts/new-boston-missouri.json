@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,21 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "New Boston rests at an elevation of 960 feet above sea level.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/new-boston-xx-linn-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "New Boston is an unincorporated community in eastern Linn County, Missouri.",
       "sourceSentenceIds": [
         7
@@ -86,7 +84,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/New_Boston%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-boston-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

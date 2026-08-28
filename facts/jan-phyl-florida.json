@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village"
+      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jan_Phyl_Village%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Jan_Phyl_Village%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village"
+      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village"
+      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jan_Phyl_Village%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Jan_Phyl_Village%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +98,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village"
+      "source": "https://www.floridasmart.com/city-guide/jan-phyl-village",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jan-phyl-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CKColerEL",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eagle_Lake_Florida_Overlooking_Dock.jpg"
+  }
 }

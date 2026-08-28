@@ -22,18 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oak Hill is a hamlet in Greene County, New York, perched at 643 feet above sea level.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Hill%2C_New_York"
-    },
-    {
-      "id": 2,
       "text": "The Oak Hill Methodist Episcopal Church and its cemetery are listed on the U.S. National Register of Historic Places.",
       "sourceSentenceIds": [
         17
@@ -41,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Oak_Hill%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The Oak Hill Preservation Association, founded in 1997, safeguards historic buildings like the Methodist Church and the cemetery.",
       "sourceSentenceIds": [
         1,
@@ -53,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/21913"
+      "source": "https://museumsdatabase.com/museums/view/21913",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Every July since 2008—except 2020—the Grey Fox Bluegrass Festival lights up Oak Hill with music and community spirit.",
       "sourceSentenceIds": [
         19
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Oak_Hill%2C_New_York",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Oak Hill’s post office opened in 1818, marking the community’s early role in regional communication.",
       "sourceSentenceIds": [
         27
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/oak-hill-xx-greene-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/oak-hill-xx-greene-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Oak Hill is one of two New York communities with that name; the other lies in Washington County.",
       "sourceSentenceIds": [
         3
@@ -86,7 +83,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/oak-hill-xx-greene-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/oak-hill-xx-greene-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oak-hill-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jayu from Harrisburg, PA, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haines_Falls,_New_York_(408802206).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Haines Falls, New York"
+  }
 }

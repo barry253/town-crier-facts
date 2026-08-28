@@ -22,40 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Kaibito sits 5,810 feet above sea level in the high desert of Arizona.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/az/kaibito-xx-coconino-profile.htm"
-    },
-    {
-      "id": 2,
-      "text": "The town lies within the Navajo Nation in Coconino County in the southwestern United States.",
-      "sourceSentenceIds": [
-        22,
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/az/kaibito-xx-coconino-profile.htm"
-    },
-    {
-      "id": 3,
-      "text": "Kaibito is about 40 miles south of Page, midway to Tuba City.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kaibito%2C_Arizona"
-    },
-    {
-      "id": 4,
       "text": "The K‑8 Kaibito Boarding School serves local Native American students in the heart of the community.",
       "sourceSentenceIds": [
         18
@@ -63,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kaibito%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Kaibito%2C_Arizona",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 2,
       "text": "A soil management district headquarters was formed in Kaibito with BIA support.",
       "sourceSentenceIds": [
         2
@@ -74,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kaibiito.navajochapters.org/"
+      "source": "https://kaibiito.navajochapters.org/",
+      "category": "economy",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "The district also included neighboring Navajo chapters such as Lechee, Tonalea, and Inscription House.",
       "sourceSentenceIds": [
         3
@@ -85,7 +56,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kaibiito.navajochapters.org/"
+      "source": "https://kaibiito.navajochapters.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kaibito-arizona.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "P199",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaibito_AZ.JPG"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Monroe_Center%2C_Illinois",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,18 +85,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/monroe-center-xx-ogle-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Monroe Center rises to an elevation of 850 feet above sea level, offering a slight rise over the surrounding terrain.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/monroe-center-xx-ogle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/monroe-center-xx-ogle-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/monroe-center-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ben Jacobson (Kranar Drogin)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monroe_Center,_IL_Post_Office_01.JPG"
+  }
 }

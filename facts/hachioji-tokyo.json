@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji"
+      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji"
+      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.japan-experience.com/all-about-japan/tokyo/attractions-excursions/hachioji"
+      "source": "https://www.japan-experience.com/all-about-japan/tokyo/attractions-excursions/hachioji",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji"
+      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji"
+      "source": "https://en.wikipedia.org/wiki/Hachi%C5%8Dji",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -89,7 +100,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.gotokyo.org/en/destinations/outlying-area/hachioji/index.html"
+      "source": "https://www.gotokyo.org/en/destinations/outlying-area/hachioji/index.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hachioji-tokyo.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.453
+  },
+  "imageAttribution": {
+    "author": "103momo (talk · contribs)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hachioji_Station_South.jpg"
+  }
 }

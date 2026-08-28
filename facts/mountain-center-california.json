@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The town’s elevation is 4,518 feet, giving it a cooler mountain climate than the surrounding lowlands.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Lake Hemet is the only major body of water within Mountain Center’s limits.",
       "sourceSentenceIds": [
         5
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Visible burn scars from the 2018 Mountain Fire and the 2019 Cranston Fire still mark the landscape.",
       "sourceSentenceIds": [
         6
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Idyllwild Shuttle, funded by a Riverside County Transportation Commission grant, offers door‑to‑door service for residents.",
       "sourceSentenceIds": [
         17
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Center%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mountain-center-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Lund",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pines_to_Palms_Scenic_Byway,_Mountain_Center,_California.jpg"
+  }
 }

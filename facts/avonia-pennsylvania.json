@@ -31,20 +31,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town’s coordinates are 42°3′4″N 80°16′13″W, placing it roughly 42 degrees north of the equator and 80 degrees west of the prime meridian.",
-      "sourceSentenceIds": [
-        3,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -55,7 +45,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -66,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -78,7 +74,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountyavonia.htm"
+      "source": "https://www.usacitiesonline.com/pacountyavonia.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -89,7 +88,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Avonia%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/avonia-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.793,
+    "y": 0.5
+  }
 }

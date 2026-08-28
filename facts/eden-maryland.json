@@ -31,23 +31,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community’s latitude and longitude are 38°16′42″N 75°39′09″W.",
-      "sourceSentenceIds": [
-        2,
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland"
-    },
-    {
-      "id": 3,
       "text": "Eden contains 335 housing units, spread over roughly 59.9 units per square mile.",
       "sourceSentenceIds": [
         3,
@@ -57,10 +47,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The average household in Eden holds about 2.57 people, while families average 3.03 members.",
       "sourceSentenceIds": [
         5,
@@ -70,23 +63,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
-      "text": "The median age of residents in Eden is 37 years.",
-      "sourceSentenceIds": [
-        6,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "For every 100 females in Eden, there are 86.6 males.",
       "sourceSentenceIds": [
         7,
@@ -96,7 +79,21 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Eden%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eden-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bwave at English Wikipedia",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SalisburySign.jpg"
+  }
 }

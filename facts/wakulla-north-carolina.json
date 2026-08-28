@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,22 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.theassemblync.com/news/environment/the-contested-swamps-of-robeson-county/"
+      "source": "https://www.theassemblync.com/news/environment/the-contested-swamps-of-robeson-county/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The church began as a brush arbor in 1914 and was built on land donated by Luther and Susan L.",
+      "text": "The church began as a brush arbor in 1914 and was built on land donated by Luther and Susan L. Oxendine.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Wakulla%2C_North_Carolina",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wakulla-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robeson_County_Courthouse_(May_2023)_17_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Robeson County, North Carolina"
+  }
 }

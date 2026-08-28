@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island"
+      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island"
+      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island"
+      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,18 +71,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://huguenotstatenislandneighborhood.org/"
-    },
-    {
-      "id": 5,
-      "text": "Huguenot borders Arden Heights to the north, Woodrow to the west, Prince's Bay to the south, and Annadale to the east.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Huguenot%2C_Staten_Island"
+      "source": "https://huguenotstatenislandneighborhood.org/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/huguenot-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.606,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mikeaigotti89",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huguenot_Town.JPG"
+  }
 }

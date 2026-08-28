@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -41,21 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Mallow rests 1,230 feet above sea level, giving it a modest hilltop feel.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Historical maps from 1895 list Mallow among communities that had either a post office or railroad service.",
       "sourceSentenceIds": [
         3,
@@ -64,22 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "The town’s coordinates are still being verified, so GPS data may be slightly off.",
-      "sourceSentenceIds": [
-        17,
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Mallow’s name appears in both the FIPS‑55 and GNIS geographic databases, confirming its official status.",
       "sourceSentenceIds": [
         2
@@ -87,7 +71,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mallow-xx-alleghany-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mallow-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jarek Tuszyński",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covington,_Va_-_Allegheny_General_District_Court.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Alleghany County, Virginia"
+  }
 }

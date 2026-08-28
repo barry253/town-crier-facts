@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/portageville-xx-wyoming-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/portageville-xx-wyoming-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The hamlet sits 1,110 feet above sea level, offering a modest elevation within the Genesee Valley.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/portageville-xx-wyoming-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "The nearby Genesee River Gorge, sometimes called the Grand Canyon of the East, was carved by glacial debris and dramatic waterfalls.",
       "sourceSentenceIds": [
         10,
@@ -86,7 +84,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Portageville%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/portageville-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pollinator at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Genesee_river_9044.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Genesee River"
+  }
 }

@@ -30,23 +30,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tiki_Island%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Tiki_Island%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village is largely man‑made, built in the 1960s by digging canals and filling the land to an elevation of 4 to 10 feet above sea level.",
-      "sourceSentenceIds": [
-        16,
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tiki_Island%2C_Texas"
-    },
-    {
-      "id": 3,
       "text": "Tiki Island sits on a tiny peninsula in Jones Bay, five miles west of Galveston, just off Interstate 45.",
       "sourceSentenceIds": [
         5
@@ -54,10 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/village-of-tiki-island-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/village-of-tiki-island-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community was incorporated on August 30, 1982, after evolving from a small fishing camp into a weekend‑home area.",
       "sourceSentenceIds": [
         17
@@ -65,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tiki_Island%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Tiki_Island%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Residents enjoy a public park with playground and tennis courts, and a shared city hall and fire station that help maintain the village’s residential character.",
       "sourceSentenceIds": [
         14
@@ -76,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Tiki_Island,_Texas"
+      "source": "https://grokipedia.com/page/Tiki_Island,_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Because of its low elevation, Tiki Island is vulnerable to storm surges and tidal influences from nearby West Bay.",
       "sourceSentenceIds": [
         3
@@ -87,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Tiki_Island,_Texas"
+      "source": "https://grokipedia.com/page/Tiki_Island,_Texas",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tiki-island-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.719,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nsaum75",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tiki_Island_TX_Police_and_Fire_Departments.jpg"
+  }
 }

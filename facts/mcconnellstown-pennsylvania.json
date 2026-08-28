@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McConnellstown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McConnellstown%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McConnellstown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McConnellstown%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McConnellstown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/McConnellstown%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://huntingdonhistory.org/"
+      "source": "https://huntingdonhistory.org/",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,19 +84,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://huntingdonhistory.org/"
-    },
-    {
-      "id": 6,
-      "text": "McConnellstown’s post office opened in 1846, and the town sits roughly 700 feet above sea level.",
-      "sourceSentenceIds": [
-        29,
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/mcconnellstown-xx-huntingdon-profile.htm"
+      "source": "https://huntingdonhistory.org/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcconnellstown-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dough4872",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Juniata_River_west_of_PA_103.jpeg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Juniata River"
+  }
 }

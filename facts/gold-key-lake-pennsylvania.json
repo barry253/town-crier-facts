@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gold_Key_Lake%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gold_Key_Lake%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gold_Key_Lake%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Gold_Key_Lake%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://snoflo.org/reservoir/pennsylvania/pa01898-gold-key-lake"
+      "source": "https://snoflo.org/reservoir/pennsylvania/pa01898-gold-key-lake",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://snoflo.org/reservoir/pennsylvania/pa01898-gold-key-lake"
+      "source": "https://snoflo.org/reservoir/pennsylvania/pa01898-gold-key-lake",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +83,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://snoflo.org/reservoir/pennsylvania/pa01898-gold-key-lake"
+      "source": "https://snoflo.org/reservoir/pennsylvania/pa01898-gold-key-lake",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +97,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_gold-key-lake"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_gold-key-lake",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gold-key-lake-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joeyvandernaald",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gold_Key_Lake_Beach_Front.jpg"
+  }
 }

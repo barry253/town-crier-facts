@@ -22,39 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Westgate sits at 26.6994°N, 80.0988°W in Palm Beach County.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/palm-beach/westgate.cfm"
-    },
-    {
-      "id": 2,
-      "text": "The community is officially a census‑designated place, not a legal municipality.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/palm-beach/westgate.cfm"
-    },
-    {
-      "id": 3,
-      "text": "Westgate is part of the Miami metropolitan area of South Florida.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westgate%2C_Florida"
-    },
-    {
-      "id": 4,
       "text": "The area has 3,110 housing units, averaging 582.9 per square kilometer.",
       "sourceSentenceIds": [
         9
@@ -62,30 +29,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westgate%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "The median age of residents is 31.2 years, with a youthful population under 18 making up 29.4%.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westgate%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "The racial makeup is 62.1% White, 24.1% African American, and 8.1% from other races, reflecting a diverse community.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westgate%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Westgate%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westgate-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  }
 }

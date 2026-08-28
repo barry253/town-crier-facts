@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maysel%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Maysel%2C_West_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maysel%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Maysel%2C_West_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -55,7 +60,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maysel%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Maysel%2C_West_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -66,21 +74,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wv/maysel-xx-clay-profile.htm"
+      "source": "https://roadsidethoughts.com/wv/maysel-xx-clay-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Maysel rests 1,030 feet above sea level, typical of the surrounding hills.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/wv/maysel-xx-clay-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Maysel lies within Clay County, a region known for its coal mining history.",
       "sourceSentenceIds": [
         23
@@ -88,7 +87,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wv/maysel-xx-clay-profile.htm"
+      "source": "https://roadsidethoughts.com/wv/maysel-xx-clay-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/maysel-west-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.34,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tim Kiser (w:User:Malepheasant)",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clay_County_Courthouse_West_Virginia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clay County, West Virginia"
+  }
 }

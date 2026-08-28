@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/missouri_labarque-creek"
+      "source": "https://www.trawellino.com/destinations/united-states/missouri_labarque-creek",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek"
+      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek"
+      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek"
+      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek"
+      "source": "https://mdc.mo.gov/discover-nature/places/natural-areas/labarque-creek",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big River (Missouri)"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/labarque-creek-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jefferson_County_MO_courthouse-20140524-015.jpg"
+  }
 }

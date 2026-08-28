@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parrott%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Parrott%2C_Virginia",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parrott%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Parrott%2C_Virginia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/parrott-xx-pulaski-profile.htm"
+      "source": "https://roadsidethoughts.com/va/parrott-xx-pulaski-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Parrott sits 1,780 feet above sea level, giving it a modest mountain‑hill elevation.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/parrott-xx-pulaski-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Parrott is located in Pulaski County, Virginia, placing it within the western part of the state.",
       "sourceSentenceIds": [
         20
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/parrott-xx-pulaski-profile.htm"
+      "source": "https://roadsidethoughts.com/va/parrott-xx-pulaski-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The New River, the oldest river system on the North American continent, borders Parrott and flows northward through the area.",
       "sourceSentenceIds": [
         7,
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parrott%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Parrott%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parrott-virginia.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skyrunner75",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pulaski_County_Courthouse.JPG"
+  }
 }

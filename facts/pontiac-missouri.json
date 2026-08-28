@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits on a ridge above Bull Shoals Lake at an elevation of about 820 feet.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri"
-    },
-    {
-      "id": 4,
       "text": "Pontiac is accessed via Missouri Route W from Missouri Route 5 south of Gainesville.",
       "sourceSentenceIds": [
         11
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Pontiac%2C_Missouri",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Pontiac lies in the scenic Missouri Ozarks.",
       "sourceSentenceIds": [
         25
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/pontiac-xx-ozark-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/pontiac-xx-ozark-profile.htm",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pontiac-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.199,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bob Warrick",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunrise_on_Highway_W_in_Pontiac,_Missouri.jpg"
+  }
 }

@@ -21,39 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Long Branch is a borough in Washington County, Pennsylvania, United States.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Long_Branch%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The borough sits at 40°5′30″N 79°52′59″W (40.091561, -79.882983).",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Long_Branch%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Long Branch borders Twilight and Speers to the north, Dunlevy to the northeast, Allenport to the east and south, Elco to the southwest, California to the west, and Fallowfield Township in the northwestern corner.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Long_Branch%2C_Pennsylvania"
-    },
-    {
       "id": 4,
       "text": "The historic Long Branch House & Farm opens Monday through Wednesday 10 a.m. to 4 p.m., Thursday and Friday by appointment, and Saturday and Sunday noon to 4 p.m.",
       "sourceSentenceIds": [
@@ -62,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitlongbranch.org/visit/brochures"
+      "source": "https://www.visitlongbranch.org/visit/brochures",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitlongbranch.org/visit/brochures"
+      "source": "https://www.visitlongbranch.org/visit/brochures",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +56,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitlongbranch.org/visit/brochures"
+      "source": "https://www.visitlongbranch.org/visit/brochures",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/long-branch-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Howe_United_Methodist_Church.jpg"
+  }
 }

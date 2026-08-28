@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Carnegie Hill got its name from Andrew Carnegie's 1901 mansion at Fifth Ave and 91st St.",
+      "text": "Carnegie Hill got its name from Andrew Carnegie's 1901 mansion at Fifth Avenue and 91st St.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill"
+      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill"
+      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill"
+      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill"
+      "source": "https://en.wikipedia.org/wiki/Carnegie_Hill",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.carnegiehillneighbors.org/history"
+      "source": "https://www.carnegiehillneighbors.org/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +94,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityneighborhoods.nyc/carnegie-hill"
+      "source": "https://www.cityneighborhoods.nyc/carnegie-hill",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carnegie-hill-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ajay Suresh from New York, NY, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooper_Hewitt_(48059131921).jpg"
+  }
 }

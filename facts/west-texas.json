@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/west-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/west-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/west-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/west-tx",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofwest.com/visit-west-texas/"
+      "source": "https://www.cityofwest.com/visit-west-texas/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Texas"
+      "source": "https://en.wikipedia.org/wiki/West_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Texas"
+      "source": "https://en.wikipedia.org/wiki/West_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.247,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Leaflet",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Texas_Hwy_302_west_of_NoTrees.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Island%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rock_Island%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.historylink.org/File/23001"
+      "source": "https://www.historylink.org/File/23001",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.historylink.org/File/23001"
+      "source": "https://www.historylink.org/File/23001",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Island%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rock_Island%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.historylink.org/File/23001"
+      "source": "https://www.historylink.org/File/23001",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rock-island-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.32,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Island_Washington.jpg"
+  }
 }

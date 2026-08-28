@@ -17,39 +17,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Urbana is a small city located in Benton County, Iowa, United States.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa"
-    },
-    {
-      "id": 2,
-      "text": "Urbana is part of the Cedar Rapids Metropolitan Statistical Area in Iowa.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa"
-    },
-    {
-      "id": 3,
-      "text": "Urbana sits roughly midway between Cedar Rapids and Waterloo in Iowa today.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa"
-    },
-    {
       "id": 4,
       "text": "Urbana was laid out in 1847 during the early settlement of Iowa.",
       "sourceSentenceIds": [
@@ -58,7 +25,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -69,7 +38,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Urbana%2C_Iowa",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -80,7 +51,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://iagenweb.org/benton//history/urbana/urbana_index.htm"
+      "source": "https://iagenweb.org/benton//history/urbana/urbana_index.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

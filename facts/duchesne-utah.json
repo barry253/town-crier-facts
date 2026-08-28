@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://uintahmeridian.com/community-guides/duchesne"
+      "source": "https://uintahmeridian.com/community-guides/duchesne",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Duchesne%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Duchesne%2C_Utah",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Duchesne%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Duchesne%2C_Utah",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Duchesne%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Duchesne%2C_Utah",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://uintahmeridian.com/community-guides/duchesne"
+      "source": "https://uintahmeridian.com/community-guides/duchesne",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/duchesne-utah.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Danenlott",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duchesne_Utah.JPG"
+  }
 }

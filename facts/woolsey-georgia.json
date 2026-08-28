@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woolsey%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Woolsey%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woolsey%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Woolsey%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://friendsofhistoricwoolsey.org/local-and-community-support"
+      "source": "https://friendsofhistoricwoolsey.org/local-and-community-support",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://friendsofhistoricwoolsey.org/local-and-community-support"
+      "source": "https://friendsofhistoricwoolsey.org/local-and-community-support",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,18 +83,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://friendsofhistoricwoolsey.org/local-and-community-support"
-    },
-    {
-      "id": 6,
-      "text": "Woolsey sits along Georgia State Route 92 at latitude 33.363354 and longitude –84.407942.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Woolsey%2C_Georgia"
+      "source": "https://friendsofhistoricwoolsey.org/local-and-community-support",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woolsey-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.55,
+    "y": 0.5
+  }
 }

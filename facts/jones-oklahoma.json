@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Aldrich named Jones after his friend Charles G., giving the town its distinctive name.",
+      "text": "Aldrich named Jones after his friend Charles G. \"Gristmill\" Jones, giving the town its distinctive name.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jones%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Jones%2C_Oklahoma",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jones%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Jones%2C_Oklahoma",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.okhistory.org/publications/enc/entry?entry=JO016"
+      "source": "https://www.okhistory.org/publications/enc/entry?entry=JO016",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.okhistory.org/publications/enc/entry?entry=JO016"
+      "source": "https://www.okhistory.org/publications/enc/entry?entry=JO016",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.okhistory.org/publications/enc/entry?entry=JO016"
+      "source": "https://www.okhistory.org/publications/enc/entry?entry=JO016",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jones-oklahoma.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "MARELBU",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Reno,_OK_USA_-_Carnegie_Library_-_panoramio.jpg"
+  }
 }

@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sunset is a census‑designated place that sits 11 miles southwest of downtown Miami.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida"
-    },
-    {
-      "id": 2,
-      "text": "The community borders Kendale Lakes, Westwood Lakes, Olympia Heights, Glenvar Heights, and Kendall.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida"
-    },
-    {
       "id": 3,
       "text": "Sunset’s streets are entirely urban—no rural areas exist within its limits.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,31 +43,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "Miami‑Dade County Public Schools operates the local schools, including Snapper Creek Elementary and Southwest Miami Senior High.",
-      "sourceSentenceIds": [
-        18,
-        19,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "Sunset’s geographic coordinates are 25°42′21″N 80°21′23″W, placing it firmly in South Florida’s Miami metropolitan area.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://en-academic.com/dic.nsf/enwiki/68227"
+      "source": "https://en.wikipedia.org/wiki/Sunset%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunset-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.232,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ven-Lib",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swfacade.jpg"
+  }
 }

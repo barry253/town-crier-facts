@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://fvlaonline.com/about-us/history-and-lake-information/"
-    },
-    {
-      "id": 2,
-      "text": "The community sits at latitude 39.6332 and longitude –74.966, right in Gloucester County, New Jersey.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/gloucester/victory-lakes.cfm"
-    },
-    {
-      "id": 3,
-      "text": "Victory Lakes is a census‑designated place, meaning it has no legal status or local government of its own.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/gloucester/victory-lakes.cfm"
+      "source": "https://fvlaonline.com/about-us/history-and-lake-information/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/gloucester/victory-lakes.cfm"
-    },
-    {
-      "id": 5,
-      "text": "Water covers about 0.12 square miles of the CDP, giving the community its lake‑filled character.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/gloucester/victory-lakes.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/gloucester/victory-lakes.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +56,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://fvlaonline.com/about-us/history-and-lake-information/"
+      "source": "https://fvlaonline.com/about-us/history-and-lake-information/",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/victory-lakes-new-jersey.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike Sheridan",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GCC_AT_Dusk.jpg"
+  }
 }

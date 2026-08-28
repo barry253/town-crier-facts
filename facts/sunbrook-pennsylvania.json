@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunbrook%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Sunbrook%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunbrook%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Sunbrook%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,32 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunbrook%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Sunbrook%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "Sunbrook’s geographic coordinates are 40.4334° N latitude and 78.4331° W longitude.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/sunbrook.cfm"
-    },
-    {
-      "id": 5,
-      "text": "The town sits 1,130 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/sunbrook-xx-blair-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Historical records first noted Sunbrook on a 1911 map, later appearing in FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -84,7 +71,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/sunbrook-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/sunbrook-xx-blair-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunbrook-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Blair County, Pennsylvania"
+  }
 }

@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lindsey%2C_Ohio"
-    },
-    {
-      "id": 2,
-      "text": "Lindsey sits roughly midway between Detroit and Cleveland.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lindsey%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lindsey%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lindsey%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lindsey%2C_Ohio",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-lindsey.html"
+      "source": "https://www.citydirectory.us/village-lindsey.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-lindsey.html"
-    },
-    {
-      "id": 6,
-      "text": "Lindsey’s location in northwestern Ohio places it southeast of Toledo and northwest of Fremont, offering a quiet small‑town vibe.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-lindsey.html"
+      "source": "https://www.citydirectory.us/village-lindsey.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lindsey-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:South_Main_in_Lindsey,_Ohio.jpg"
+  }
 }

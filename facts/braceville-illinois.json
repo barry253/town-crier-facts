@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Braceville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Braceville%2C_Illinois",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "length_mismatch before=56 after=90"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.theroute-66.com/braceville.html"
+      "source": "https://www.theroute-66.com/braceville.html",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Braceville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Braceville%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.theroute-66.com/braceville.html"
+      "source": "https://www.theroute-66.com/braceville.html",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Braceville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Braceville%2C_Illinois",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/braceville-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.479,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Roger McCredie, Photographer, Historic American Engineering Record",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Braceville_US_66_bridge.jpg"
+  }
 }

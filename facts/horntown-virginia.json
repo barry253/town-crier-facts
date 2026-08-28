@@ -31,21 +31,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horntown%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Horntown%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 30 feet above sea level, a modest rise in the flat Accomack County landscape.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Horntown in 1792, marking the town’s early establishment.",
       "sourceSentenceIds": [
         23
@@ -53,10 +44,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Horntown lies within Accomack County, one of Virginia’s easternmost counties on the Delmarva Peninsula.",
       "sourceSentenceIds": [
         22
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town’s name appears in both the FIPS‑55 and GNIS geographic databases, confirming its official status.",
       "sourceSentenceIds": [
         2
@@ -75,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/horntown-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/horntown-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.633,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "self",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Buildings_in_Horntown,_VA.jpg"
+  }
 }

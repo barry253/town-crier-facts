@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belmont_University"
+      "source": "https://en.wikipedia.org/wiki/Belmont_University",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.belmont-hillsboro.com/history"
+      "source": "https://www.belmont-hillsboro.com/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.belmont-hillsboro.com/history"
+      "source": "https://www.belmont-hillsboro.com/history",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.belmont-hillsboro.com/history"
+      "source": "https://www.belmont-hillsboro.com/history",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.belmont-hillsboro.com/history"
+      "source": "https://www.belmont-hillsboro.com/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.nashvillescene.com/news/coverstory/the-battle-for-belmont-hillsboro/article_e6b8f5f6-89d1-4334-8329-5fe327e3cbd9.html"
+      "source": "https://www.nashvillescene.com/news/coverstory/the-battle-for-belmont-hillsboro/article_e6b8f5f6-89d1-4334-8329-5fe327e3cbd9.html",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belmont-hillsboro-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "EVula",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WTN_EVula_084.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/central_garage"
+      "source": "https://grokipedia.com/page/central_garage",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/VA/CentralGarage/49921"
+      "source": "https://hellonation.com/mag/VA/CentralGarage/49921",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/VA/CentralGarage/49921"
+      "source": "https://hellonation.com/mag/VA/CentralGarage/49921",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/VA/CentralGarage/49921"
+      "source": "https://hellonation.com/mag/VA/CentralGarage/49921",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/VA/CentralGarage/49921"
+      "source": "https://hellonation.com/mag/VA/CentralGarage/49921",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +96,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/VA/CentralGarage/49921"
+      "source": "https://hellonation.com/mag/VA/CentralGarage/49921",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/central-garage-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bryan Pilati",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:King_William_County_Courthouse_001.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "King William County, Virginia"
+  }
 }

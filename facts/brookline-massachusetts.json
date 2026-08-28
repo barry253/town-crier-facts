@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brookline%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Brookline%2C_Massachusetts",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://travelingtulls.com/things-to-do-brookline-ma/"
+      "source": "https://travelingtulls.com/things-to-do-brookline-ma/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,21 +58,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brookline%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Brookline%2C_Massachusetts",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Olmsted’s 1880 plan for Blake Park transformed a banker’s estate into a landscaped neighborhood, showcasing early suburban design in Brookline.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.brooklinema.gov/795/Places-to-Visit"
-    },
-    {
-      "id": 5,
       "text": "Brookline’s historic Blake Park neighborhood was laid out by banker Arthur Welland Blake with Frederick Law Olmsted’s subdivision plans in 1880.",
       "sourceSentenceIds": [
         6
@@ -76,10 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.brooklinema.gov/795/Places-to-Visit"
+      "source": "https://www.brooklinema.gov/795/Places-to-Visit",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Brookline Village blends local commerce with historic landmarks such as the Old Lincoln School and the charming Linden Park.",
       "sourceSentenceIds": [
         8
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travelingtulls.com/things-to-do-brookline-ma/"
+      "source": "https://travelingtulls.com/things-to-do-brookline-ma/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brookline-massachusetts.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pesotsky",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coolidge_Corner_South_Side,_Brookline,_MA,_USA_-_panoramio.jpg"
+  }
 }

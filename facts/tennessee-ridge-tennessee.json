@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://tnridgeblog.wordpress.com/"
+      "source": "https://tnridgeblog.wordpress.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 742 feet above sea level, just north of the 36°19′15″N latitude line.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee"
-    },
-    {
-      "id": 3,
       "text": "State Routes 49 and 147, known locally as Main Street, cut through Tennessee Ridge, linking it to neighboring communities.",
       "sourceSentenceIds": [
         9
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Tennessee Ridge Elementary School serves the town’s young residents, reflecting the community’s commitment to education.",
       "sourceSentenceIds": [
         10
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town’s name honors the nearby Tennessee Ridge, a prominent hill that has guided travelers for generations.",
       "sourceSentenceIds": [
         7
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Tennessee_Ridge%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tennessee-ridge-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Houston_County_Courthouse,_Erin.jpg"
+  }
 }

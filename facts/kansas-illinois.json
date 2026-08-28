@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kansasillinois.gov/history/"
+      "source": "https://kansasillinois.gov/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kansas%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Kansas%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kansas%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Kansas%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +69,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kansasillinois.com/history/timeline/"
+      "source": "https://kansasillinois.com/history/timeline/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kansas-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.605,
+    "y": 0.499
+  }
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Oakbrook is a census‑designated place in eastern Boone County, Kentucky, bordered by Florence to the east and south and by Burlington to the west.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakbrook%2C_Kentucky"
-    },
-    {
       "id": 2,
       "text": "Kentucky Route 18, also known as Burlington Pike, marks Oakbrook’s northern edge.",
       "sourceSentenceIds": [
@@ -40,29 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oakbrook%2C_Kentucky"
-    },
-    {
-      "id": 3,
-      "text": "Interstate 75/71 lies just half a mile east of Oakbrook, offering quick regional access.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oakbrook%2C_Kentucky"
-    },
-    {
-      "id": 4,
-      "text": "Oakbrook sits at roughly 38.99°N latitude and 84.68°W longitude in the United States.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/kycountyoakbrook.htm"
+      "source": "https://en.wikipedia.org/wiki/Oakbrook%2C_Kentucky",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -74,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/kycountyoakbrook.htm"
+      "source": "https://www.usacitiesonline.com/kycountyoakbrook.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,

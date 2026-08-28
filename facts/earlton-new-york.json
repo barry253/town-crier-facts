@@ -21,40 +21,7 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Earlton is a hamlet in Greene County, New York, United States.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Earlton%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The community sits along New York State Route 81 in western Coxsackie.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Earlton%2C_New_York"
-    },
-    {
       "id": 3,
-      "text": "Earlton is located in Greene County, New York, in the state of New York.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/earlton-xx-greene-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Earlton in 1929 and served the community.",
       "sourceSentenceIds": [
         20
@@ -62,21 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/earlton-xx-greene-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/earlton-xx-greene-profile.htm",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
-      "text": "Earlton sits 410 feet above sea level and offers a modest elevation.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/earlton-xx-greene-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Earlton appears in federal geographic databases like FIPS‑55 and GNIS.",
       "sourceSentenceIds": [
         3
@@ -84,7 +43,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/earlton-xx-greene-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/earlton-xx-greene-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/earlton-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jayu from Harrisburg, PA, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haines_Falls,_New_York_(408802206).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Haines Falls, New York"
+  }
 }

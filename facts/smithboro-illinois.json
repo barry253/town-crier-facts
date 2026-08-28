@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Founded 1870 as Henderson Station, renamed after postmaster Henry H. in Illinois.",
+      "text": "Founded 1870 as Henderson Station, renamed after postmaster Henry H. Smith in Illinois.",
       "sourceSentenceIds": [
         1,
         5
@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Smithboro%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Smithboro,_Illinois"
+      "source": "https://kids.kiddle.co/Smithboro,_Illinois",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/smithboro-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Holly Cheng",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BondCountyCourthouse_GreenvilleIL.jpg"
+  }
 }

@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callisburg%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Callisburg%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/callisburg-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/callisburg-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -56,7 +61,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/callisburg-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/callisburg-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -67,7 +75,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callisburg%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Callisburg%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -78,7 +89,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Callisburg%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Callisburg%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/callisburg-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooke_county_tx_courthouse_2015.jpg"
+  }
 }

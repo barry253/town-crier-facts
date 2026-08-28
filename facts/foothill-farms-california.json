@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms"
+      "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms"
+      "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,18 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms"
-    },
-    {
-      "id": 4,
-      "text": "Foothill Farms sits at 38°40.9′N 121°20.9′W (38.6817, –121.3478).",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Foothill_Farms%2C_California"
+      "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Foothill_Farms%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Foothill_Farms%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,5 +87,16 @@
       ],
       "source": "https://www.trawellino.com/destinations/united-states/california_foothill-farms"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/foothill-farms-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andre m",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacramento,-California---State-Capitol_(cropped).jpg"
+  }
 }

@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Longfellow sits along Pennsylvania Route 103 in southern Mifflin County, making it a quiet stop for travelers heading toward the state capital.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Longfellow%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "Its geographic coordinates are 40.5045 degrees north latitude and 77.6736 degrees west longitude, placing it just north of the Susquehanna River.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/mifflin/longfellow.cfm"
-    },
-    {
-      "id": 3,
       "text": "The town’s post office first opened in 1879, marking the beginning of formal communication services for early settlers in the area.",
       "sourceSentenceIds": [
         29
@@ -51,32 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/longfellow-xx-mifflin-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/longfellow-xx-mifflin-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Longfellow stands 550 feet above sea level, giving it a mild elevation that influences local weather patterns compared to surrounding lowlands.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/longfellow-xx-mifflin-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "As a census‑designated place, Longfellow has no governmental functions, meaning residents rely on county services for public administration.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/mifflin/longfellow.cfm"
-    },
-    {
-      "id": 6,
+      "id": 2,
       "text": "The community observes Eastern Standard Time, GMT‑5, shifting to daylight saving time in the summer months like the rest of Pennsylvania.",
       "sourceSentenceIds": [
         8
@@ -84,7 +42,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/mifflin/longfellow.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/mifflin/longfellow.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/longfellow-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Henry%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Henry%2C_Tennessee",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://henrycotourauth.azurewebsites.net/the-community/"
+      "source": "https://henrycotourauth.azurewebsites.net/the-community/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,29 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://henrycotourauth.azurewebsites.net/the-community/"
-    },
-    {
-      "id": 4,
-      "text": "Henry sits in southwestern Henry County at latitude 36°12′8″N and longitude 88°25′6″W.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Henry%2C_Tennessee"
-    },
-    {
-      "id": 5,
-      "text": "Henry is officially recognized as a town within Henry County, Tennessee.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Henry%2C_Tennessee"
+      "source": "https://henrycotourauth.azurewebsites.net/the-community/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Henry%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Henry%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/henry-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Cj4258",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Henry_County_Tennessee_Courthouse_24nov05.jpg"
+  }
 }

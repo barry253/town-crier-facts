@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/neapolis-187104"
+      "source": "https://www.wisdomlib.org/cities/neapolis-187104",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Neapolis%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Neapolis%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Neapolis%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Neapolis%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/neapolis-187104"
+      "source": "https://www.wisdomlib.org/cities/neapolis-187104",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/neapolis-187104"
+      "source": "https://www.wisdomlib.org/cities/neapolis-187104",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +96,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/neapolis-187104"
+      "source": "https://www.wisdomlib.org/cities/neapolis-187104",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/neapolis-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.43,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joel Rossol",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucas_County,_Ohio_Courthouse_at_night.jpg"
+  }
 }

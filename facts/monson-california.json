@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Monson sits at 325 feet above sea level.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Monson%2C_California"
-    },
-    {
-      "id": 2,
       "text": "A post office opened in Monson in 1889, marking its early development.",
       "sourceSentenceIds": [
         19
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Monson observes Pacific Time, switching to daylight saving like the rest of California.",
       "sourceSentenceIds": [
         7
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Monson is located in Tulare County, a central part of California’s agricultural heartland.",
       "sourceSentenceIds": [
         18
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Four other U.S. communities share the name Monson, in Colorado, Maine, Massachusetts, and West Virginia.",
       "sourceSentenceIds": [
         1
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical maps from 1895 list Monson among communities that had post office or railroad service.",
       "sourceSentenceIds": [
         4
@@ -84,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/monson-xx-tulare-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

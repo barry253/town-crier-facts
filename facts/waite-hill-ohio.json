@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Waite_Hill%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Waite_Hill%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.localoffices.org/visitors-center/ohio/waite-hill/historic-kirtland-oh-visitors-center/904033"
+      "source": "https://www.localoffices.org/visitors-center/ohio/waite-hill/historic-kirtland-oh-visitors-center/904033",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,22 +59,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-waite-hill.html"
+      "source": "https://www.citydirectory.us/village-waite-hill.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The village’s median age is about 52 years, reflecting its mature, family‑friendly community.",
-      "sourceSentenceIds": [
-        14,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Waite_Hill%2C_Ohio"
-    },
-    {
-      "id": 5,
       "text": "Waite Hill has no local passport office; travelers must use nearby post offices in Garfield Heights or Aurora.",
       "sourceSentenceIds": [
         7,
@@ -78,18 +74,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-waite-hill.html"
-    },
-    {
-      "id": 6,
-      "text": "As part of the Greater Cleveland metropolitan area, Waite Hill offers a serene residential feel while staying connected to a major city.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-waite-hill.html"
+      "source": "https://www.citydirectory.us/village-waite-hill.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/waite-hill-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.365,
+    "y": 0.498
+  }
 }

@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm"
+      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 490 feet above sea level, giving it a modest elevation within Illinois.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Paderborn lies in Saint Clair County, placing it in the southeastern corner of Illinois.",
       "sourceSentenceIds": [
         6
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm"
+      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Both the FIPS‑55 and GNIS databases record Paderborn, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm"
+      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "An 1895 atlas notes that Paderborn had a post office and possibly railroad service, hinting at early connectivity.",
       "sourceSentenceIds": [
         2,
@@ -74,7 +71,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm"
+      "source": "https://roadsidethoughts.com/il/paderborn-xx-saint-clair-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/paderborn-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "artistmac",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:County_Courthouse,_Belleville,_IL.jpg"
+  }
 }

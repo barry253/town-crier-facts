@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,21 +62,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Rising 5,906 feet above sea level, Squaw Butte sits at Emmett’s north end, once a winter resort for Native Americans.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho"
-    },
-    {
-      "id": 5,
       "text": "Downtown Emmett’s Gem County Historical Society and Village Museum showcases pioneer life, Native American history, and agricultural traditions.",
       "sourceSentenceIds": [
         15,
@@ -81,10 +76,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitemmettid.com/"
+      "source": "https://visitemmettid.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Emmett is the county seat of Gem County, the only city in the county, and part of the Boise metropolitan area.",
       "sourceSentenceIds": [
         22,
@@ -94,7 +91,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Emmett%2C_Idaho",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/emmett-idaho.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.771,
+    "y": 0.5
+  }
 }

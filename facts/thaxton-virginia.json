@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +98,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Thaxton%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thaxton-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coleman_Falls_Methodist_church.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Coleman Falls, Virginia"
+  }
 }

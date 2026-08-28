@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Simpson is a village in Pitt County that sits within the Greenville Metropolitan Area.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Simpson%2C_North_Carolina"
-    },
-    {
       "id": 2,
       "text": "Simpson’s community park offers a walking trail, playground, basketball goals, and a baseball field for locals.",
       "sourceSentenceIds": [
@@ -41,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofsimpsonnc.com/"
+      "source": "https://villageofsimpsonnc.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,18 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofsimpsonnc.com/"
-    },
-    {
-      "id": 4,
-      "text": "Simpson lies just east of Greenville and about an hour west of Raleigh.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://villageofsimpsonnc.com/"
+      "source": "https://villageofsimpsonnc.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofsimpsonnc.com/"
+      "source": "https://villageofsimpsonnc.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -85,7 +70,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://villageofsimpsonnc.com/"
+      "source": "https://villageofsimpsonnc.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/simpson-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.615,
+    "y": 0.5
+  }
 }

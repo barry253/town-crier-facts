@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Pine Mountain Lake sits at 2,795 feet above sea level, giving it a mild mountain climate.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The private 202‑acre lake stretches 6 miles of shoreline, perfect for water sports.",
       "sourceSentenceIds": [
         16
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Spring water and Big Creek feed the lake, keeping its waters clear and cool.",
       "sourceSentenceIds": [
         21
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Pine Mountain Lake Association regularly stocks the lake with trout, supporting local fishing.",
       "sourceSentenceIds": [
         25
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Between 1916 and 1924, the area hosted workers building the Hetch Hetchy Railroad for the O'Shaughnessy Dam.",
       "sourceSentenceIds": [
         6
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Developed in the late 1960s by Boise Cascade, the subdivision now hosts about 3,600 homesites.",
       "sourceSentenceIds": [
         27
@@ -84,7 +81,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Pine_Mountain_Lake%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pine-mountain-lake-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.683,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Velo Steve",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:DunnCtCoveSnow.jpg"
+  }
 }

@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Brent was founded in 1898 along the Gulf, Mobile & Ohio Railroad line in southern Bibb County, named after surveyor Brent H.",
+      "text": "Brent was founded in 1898 along the Gulf, Mobile & Ohio Railroad line in southern Bibb County, named after surveyor Brent H. Armstrong.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brent%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Brent%2C_Alabama",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/brent/"
+      "source": "https://encyclopediaofalabama.org/article/brent/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/brent/"
+      "source": "https://encyclopediaofalabama.org/article/brent/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://encyclopediaofalabama.org/article/brent/"
+      "source": "https://encyclopediaofalabama.org/article/brent/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brent%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Brent%2C_Alabama",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brent-alabama.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Fish and Wildlife Service",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CahabaRiverNWR1.jpg"
+  }
 }

@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield"
+      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield"
+      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield"
+      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +76,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield"
+      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +89,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield"
+      "source": "https://www.moderncities.com/article/2026-jan-7-historical-facts-about-fairfield",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -92,7 +103,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fairfield-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_East_Lake_Weir_post_office01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "East Lake Weir, Florida"
+  }
 }

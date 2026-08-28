@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Alleghenyville sits at latitude 40.2343 and longitude –75.9885 in Berks County, Pennsylvania.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/berks/alleghenyville.cfm"
-    },
-    {
-      "id": 2,
-      "text": "Alleghenyville is a census‑designated place in Berks County, meaning it has no governmental functions.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/berks/alleghenyville.cfm"
-    },
-    {
       "id": 3,
       "text": "Alleghenyville observes Eastern Standard Time, GMT‑5, during the winter months.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/berks/alleghenyville.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/berks/alleghenyville.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/berks/alleghenyville.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/berks/alleghenyville.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://berksconnect.com/berks-county/alleghenyville/things-to-do"
+      "source": "https://berksconnect.com/berks-county/alleghenyville/things-to-do",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://berksconnect.com/berks-county/alleghenyville/things-to-do"
+      "source": "https://berksconnect.com/berks-county/alleghenyville/things-to-do",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alleghenyville-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alleghenyville,_Pennsylvania_(5655205109).jpg"
+  }
 }

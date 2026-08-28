@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Helena%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Helena%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,29 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Helena%2C_Ohio"
-    },
-    {
-      "id": 3,
-      "text": "Helena sits southeast of Toledo, near the junction of State Route 6 and State Route 635.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-helena-ohio.html"
-    },
-    {
-      "id": 4,
-      "text": "Helena (HEL-ən-ə) is a village located in Sandusky County, Ohio, United States.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Helena%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Helena%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-helena-ohio.html"
+      "source": "https://www.citydirectory.us/village-helena-ohio.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,5 +71,16 @@
       ],
       "source": "https://www.citydirectory.us/village-helena-ohio.html"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/helena-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Photo by and ©2006 Dustin M. Ramsey (Kralizec!)",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Helena,_Ohio_as_viewed_from_Main_Street.JPG"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/granada/"
+      "source": "https://www.uncovercolorado.com/towns/granada/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.uncovercolorado.com/towns/granada/"
+      "source": "https://www.uncovercolorado.com/towns/granada/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Granada sits at 3,484 feet above sea level, roughly 12 miles west of the Colorado‑Kansas border.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.uncovercolorado.com/towns/granada/"
-    },
-    {
-      "id": 4,
       "text": "A post office has served Granada since 1873, marking its continuous community presence.",
       "sourceSentenceIds": [
         14
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Granada%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Granada%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "For over three decades, tens of thousands of cowboys herded millions of longhorn cattle through Granada, earning it the nickname “cattle country.”.",
       "sourceSentenceIds": [
         30
@@ -75,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/granada/"
+      "source": "https://www.uncovercolorado.com/towns/granada/",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/granada-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.352,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_Granada,_Colorado.jpg"
+  }
 }

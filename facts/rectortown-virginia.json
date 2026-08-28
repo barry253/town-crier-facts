@@ -34,7 +34,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide"
+      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide"
+      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rectortown%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Rectortown%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide"
+      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide"
+      "source": "https://allthingsusa.blog/uncover-rectortown-va-hidden-past-guide",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rectortown-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-10-22_11_22_19_View_west_along_Interstate_66_and_Virginia_State_Route_55_and_north_along_U.S._Route_17_from_the_overpass_for_Ashville_Road_(Virginia_State_Route_723)_in_Ashville,_Fauquier_County,_Virginia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fauquier County, Virginia"
+  }
 }

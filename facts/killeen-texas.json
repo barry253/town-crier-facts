@@ -22,14 +22,17 @@
   "facts": [
     {
       "id": 1,
-      "text": "Killeen was laid out in 1882 as Palo Alto by the Santa Fe Railway and named for railroad official Frank P. (source 5).",
+      "text": "Killeen was laid out in 1882 as Palo Alto by the Santa Fe Railway and named for railroad official Frank P.",
       "sourceSentenceIds": [
         5
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Killeen"
+      "source": "https://www.britannica.com/place/Killeen",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -41,29 +44,46 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Killeen%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Killeen%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Fort Hood was renamed Fort Cavazos in 2023, marking the latest change in the area’s military heritage (source 6).",
+      "text": "Fort Hood was renamed Fort Cavazos in 2023, marking the latest change in the area’s military heritage.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Killeen"
+      "source": "https://www.britannica.com/place/Killeen",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Killeen’s economy remains tightly linked to the nearby army post, with soldiers and families driving local business (source 22).",
+      "text": "Killeen’s economy remains tightly linked to the nearby army post, with soldiers and families driving local business.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Killeen%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Killeen%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/killeen-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Summerdeleon",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Killeen_High_School_03.jpg"
+  }
 }

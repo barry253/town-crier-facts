@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The community rests 1,330 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Graff appears in both the FIPS‑55 and GNIS databases, confirming its recognized geographic status.",
       "sourceSentenceIds": [
         3
@@ -62,24 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
-      "text": "Coordinates for Graff are estimated but still need verification, a common issue for small rural spots.",
-      "sourceSentenceIds": [
-        18,
-        19,
-        20,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/graff-xx-wright-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "While the town shares its name with a lunar and Martian crater, those celestial features are unrelated to Graff’s local history.",
       "sourceSentenceIds": [
         8
@@ -87,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graff"
+      "source": "https://en.wikipedia.org/wiki/Graff",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/graff-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.85,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wright_County_MO_Courthouse_20151022-163.jpg"
+  }
 }

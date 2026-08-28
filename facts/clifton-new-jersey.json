@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/"
+      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/"
+      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,21 +60,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clifton%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Clifton%2C_New_Jersey",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Clifton Museum’s mission is to collect, preserve, exhibit, and interpret the city’s historical, cultural, and industrial heritage.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/"
-    },
-    {
-      "id": 5,
       "text": "Rock‑and‑roll icon Tommy James, known for “Mony Mony,” was born in Clifton in 1947.",
       "sourceSentenceIds": [
         3
@@ -78,10 +73,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clifton%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Clifton%2C_New_Jersey",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Clifton Museum Passaic County stands as the definitive institution dedicated to preserving, interpreting, and celebrating the rich and complex history of Clifton and its surrounding areas.",
       "sourceSentenceIds": [
         23
@@ -89,7 +86,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/"
+      "source": "https://www.wonderfulmuseums.com/museum/clifton-museum-passaic-county/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clifton-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.5
+  }
 }

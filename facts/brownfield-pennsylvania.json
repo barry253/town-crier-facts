@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownfield%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Brownfield%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownfield%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Brownfield%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community rests roughly 1,200 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Historical maps from 1895 list Brownfield among Fayette County’s communities, showing its long‑standing presence.",
       "sourceSentenceIds": [
         21
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Local records include a detailed list of cemeteries around Brownfield, reflecting its heritage.",
       "sourceSentenceIds": [
         18
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/brownfield-xx-fayette-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brownfield-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  }
 }

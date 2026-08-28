@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.markedtreearkansas.org/about/"
+      "source": "https://www.markedtreearkansas.org/about/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.markedtreearkansas.org/about/"
+      "source": "https://www.markedtreearkansas.org/about/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marked_Tree%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Marked_Tree%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -64,7 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marked_Tree%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Marked_Tree%2C_Arkansas",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marked-tree-arkansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.147,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Colinhester",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marked_Tree_Commercial_Historic_District.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jadwin%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Jadwin%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jadwin%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Jadwin%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 1,290 feet above sea level.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/jadwin-xx-dent-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Jadwin lies within Dent County, a region whose county boundaries have shifted over time.",
       "sourceSentenceIds": [
         3,
@@ -63,21 +57,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/jadwin-xx-dent-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/jadwin-xx-dent-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
-      "text": "The exact coordinates of Jadwin are still being verified by local sources.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/jadwin-xx-dent-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "The community’s name originates from an early settler named J., though the full story is brief.",
       "sourceSentenceIds": [
         6
@@ -85,7 +71,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jadwin%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Jadwin%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jadwin-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Good Free Photos",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rapids-at-montauk.jpg_-_panoramio.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Montauk State Park"
+  }
 }

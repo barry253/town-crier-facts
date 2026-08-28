@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "Positioned in southeastern Lake County, Ferndale borders Minneola to the west, Montverde to the southeast, and Lake Apopka to the northeast.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ferndale%2C_Florida"
-    },
-    {
-      "id": 3,
       "text": "About 85% of Ferndale residents own their homes, with median home values hovering near $410,000 as of 2024.",
       "sourceSentenceIds": [
         12
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.ourstates.org/city/ferndale"
+      "source": "https://florida.ourstates.org/city/ferndale",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Renters find limited options, paying roughly $2,000 per month for the few available apartments.",
       "sourceSentenceIds": [
         13
@@ -62,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.ourstates.org/city/ferndale"
+      "source": "https://florida.ourstates.org/city/ferndale",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Most houses are single‑family dwellings on generous lots, with very few apartment complexes scattered around.",
       "sourceSentenceIds": [
         14
@@ -73,18 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.ourstates.org/city/ferndale"
-    },
-    {
-      "id": 6,
-      "text": "Property taxes average about 1.1% of a home’s assessed value, translating to roughly $4,500 a year on a median‑priced house.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.ourstates.org/city/ferndale"
+      "source": "https://florida.ourstates.org/city/ferndale",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ferndale-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ferndale_FL_Green_Mtn_Scenic_Byway_455_south02.jpg"
+  }
 }

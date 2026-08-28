@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://towns-and-nature.blogspot.com/2025/07/wallingford-pa-1890-septapennsywest.html"
+      "source": "https://towns-and-nature.blogspot.com/2025/07/wallingford-pa-1890-septapennsywest.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 4,
@@ -71,7 +78,21 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wallingford%2C_Pennsylvania",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wallingford-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wallingford_PA_post_office_19086.JPG"
+  }
 }

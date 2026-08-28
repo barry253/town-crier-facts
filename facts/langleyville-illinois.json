@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Langleyville sits at 39°33′40″N 89°21′37″W, a precise spot in central Illinois.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Langleyville,_Illinois"
-    },
-    {
       "id": 2,
       "text": "The town’s land area is entirely terrestrial—no lakes or rivers touch its borders.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Langleyville,_Illinois"
+      "source": "https://kids.kiddle.co/Langleyville,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/langleyville-xx-christian-profile.htm"
+      "source": "https://roadsidethoughts.com/il/langleyville-xx-christian-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/langleyville-xx-christian-profile.htm"
+      "source": "https://roadsidethoughts.com/il/langleyville-xx-christian-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +70,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Langleyville,_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "The town’s coordinates place it just north of the 39th parallel, a subtle marker of its geographic setting.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Langleyville,_Illinois"
+      "source": "https://kids.kiddle.co/Langleyville,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/langleyville-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christian_County_Courthouse,_Taylorville.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Christian County, Illinois"
+  }
 }

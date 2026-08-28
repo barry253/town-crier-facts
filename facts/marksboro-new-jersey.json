@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Marksboro’s latitude is 40.9884 and longitude –74.9074, placing it right in the heart of Warren County, New Jersey.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm"
-    },
-    {
       "id": 2,
       "text": "The town’s water area measures zero square miles, meaning every inch of Marksboro is land.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,18 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm"
-    },
-    {
-      "id": 4,
-      "text": "As a census-designated place, Marksboro has no legal government and relies on county services.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/warren/marksboro.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marksboro-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.604,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tom Zmuda",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oxford_NJ_USA_Oxford_Furnace_Tom_ZmudaIMG_5709.jpg"
+  }
 }

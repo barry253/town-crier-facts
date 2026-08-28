@@ -22,50 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sierra Brooks sits at 5,180 feet above sea level.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Brooks%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The median age of residents is 46.8 years.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Brooks%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "Average household size is 2.54 people.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Brooks%2C_California"
-    },
-    {
-      "id": 4,
-      "text": "Nearly all housing is owner‑occupied, with 95.7% of units owned.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sierra_Brooks%2C_California"
-    },
-    {
-      "id": 5,
       "text": "The community covers only land, with no lakes or rivers inside its borders.",
       "sourceSentenceIds": [
         17
@@ -73,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sierra_Brooks,_California"
+      "source": "https://kids.kiddle.co/Sierra_Brooks,_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 2,
       "text": "Sierra Brooks is perched high in California’s Sierra Nevada foothills.",
       "sourceSentenceIds": [
         12
@@ -84,7 +43,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sierra_Brooks,_California"
+      "source": "https://kids.kiddle.co/Sierra_Brooks,_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sierra-brooks-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.15,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Yngvadottir",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sierraville_1_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Sierra County, California"
+  }
 }

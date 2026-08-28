@@ -25,7 +25,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Bloomington%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/New_Bloomington%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -36,21 +38,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/New_Bloomington%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/New_Bloomington%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "The village sits at 40.5837° N latitude and 83.3126° W longitude, a precise GPS reference for mapping.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/new-bloomington-xx-marion-summary.htm"
-    },
-    {
-      "id": 4,
       "text": "Phone numbers in New Bloomington use the 419 or 567 area codes, common to northwestern Ohio.",
       "sourceSentenceIds": [
         23
@@ -58,10 +52,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/new-bloomington-xx-marion-summary.htm"
+      "source": "https://roadsidethoughts.com/oh/new-bloomington-xx-marion-summary.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Elevation estimates for the area around New Bloomington vary, but the general height is higher in some spots and lower in others.",
       "sourceSentenceIds": [
         24
@@ -69,7 +66,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/new-bloomington-xx-marion-summary.htm"
+      "source": "https://roadsidethoughts.com/oh/new-bloomington-xx-marion-summary.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-bloomington-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.539,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Post_office_in_New_Bloomington.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/flintstone_maryland"
+      "source": "https://grokipedia.com/page/flintstone_maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/flintstone_maryland"
+      "source": "https://grokipedia.com/page/flintstone_maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flintstone%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Flintstone%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/flintstone_maryland"
+      "source": "https://grokipedia.com/page/flintstone_maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flintstone%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Flintstone%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/flintstone_maryland"
+      "source": "https://grokipedia.com/page/flintstone_maryland",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/flintstone-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-06-25_13_03_53_View_west_along_Maryland_State_Route_144_(National_Pike)_entering_Flintstone,_Allegany_County,_Maryland.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,19 +68,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mtpleasant-tn.gov/"
-    },
-    {
-      "id": 5,
-      "text": "The city sits at 35.544977, -87.198683 on a broad plain surrounded by low hills to the east, south, and west.",
-      "sourceSentenceIds": [
-        13,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee"
+      "source": "https://www.mtpleasant-tn.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Mount_Pleasant%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mount-pleasant-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mhaywood720",
+    "license": "CC-BY-SA-4.0",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:DJI_0251_W.JPG"
+  }
 }

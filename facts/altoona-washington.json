@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,18 +86,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-altoona-washington"
-    },
-    {
-      "id": 6,
-      "text": "Altoona’s census‑designated place includes the small communities of Carlson Landing and Dahlia.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Altoona%2C_Washington"
+      "source": "https://hometownhistorymaps.com/pages/history-of-altoona-washington",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/altoona-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steven Pavlov",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbia_River_from_Rowena_Crest_Viewpoint_looking_east.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Columbia River"
+  }
 }

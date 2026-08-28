@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Las Lomitas sits at 27°20′34″N 98°40′8″W in northern Jim Hogg County.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community borders Hebbronville to the west and Duval County to the north.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas"
-    },
-    {
-      "id": 3,
       "text": "In 2020 there were 87 housing units, about 22 per square mile.",
       "sourceSentenceIds": [
         4
@@ -51,34 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
-      "text": "The median age of residents is just 20 years, one of the youngest in Texas.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Per capita income climbed from $7,506 in 2000 to $19,837 in 2024.",
-      "sourceSentenceIds": [
-        10,
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas"
-    },
-    {
-      "id": 6,
+      "id": 2,
       "text": "All schools serving Las Lomitas belong to the Hebbronville Independent School District.",
       "sourceSentenceIds": [
         11
@@ -86,7 +43,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Las_Lomitas%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/las-lomitas-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duval_courthouse.jpg"
+  }
 }

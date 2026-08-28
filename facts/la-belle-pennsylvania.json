@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Belle%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/La_Belle%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Belle%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/La_Belle%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Belle%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/La_Belle%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,21 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/la-belle-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/la-belle-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town sits 1,000 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/la-belle-xx-fayette-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Across the United States, five communities share the name La Belle, including ones in Florida, Missouri, New Mexico, and Texas.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/la-belle-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/la-belle-xx-fayette-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-belle-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  }
 }

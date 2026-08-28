@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brainardsville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Brainardsville%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brainardsville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Brainardsville%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The hamlet sits 1,340 feet above sea level, typical of Adirondack elevations.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Brainardsville lies within the Adirondack Mountains, a region famed for its rugged natural beauty.",
       "sourceSentenceIds": [
         17
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Both the FIPS‑55 database and the GNIS record Brainardsville, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/brainardsville-xx-franklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brainardsville-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adirondack_Presbyterian_Church_02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Clear, New York"
+  }
 }

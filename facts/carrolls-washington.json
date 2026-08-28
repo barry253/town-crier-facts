@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carrolls%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Carrolls%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.pacific-hwy.net/carrolls.htm"
+      "source": "https://www.pacific-hwy.net/carrolls.htm",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/"
+      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/"
+      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/"
+      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +100,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/"
+      "source": "https://carrollskelsoneighborhood.org/carrolls-washington-roots-landmarks-and-lasting-legacy-along-the-columbia/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carrolls-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nesnad",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silver_Lake_Washington_-_view_-_2017_8_29.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Silver Lake, Washington"
+  }
 }

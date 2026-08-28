@@ -32,19 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/mill_spring_north_carolina"
-    },
-    {
-      "id": 2,
-      "text": "Mill Spring sits in the Blue Ridge foothills at 1,001 feet, 35°17′51″N 82°09′40″W.",
-      "sourceSentenceIds": [
-        26,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/mill_spring_north_carolina"
+      "source": "https://grokipedia.com/page/mill_spring_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mill_spring_north_carolina"
+      "source": "https://grokipedia.com/page/mill_spring_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mill_spring_north_carolina"
+      "source": "https://grokipedia.com/page/mill_spring_north_carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mill_spring_north_carolina"
+      "source": "https://grokipedia.com/page/mill_spring_north_carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +86,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mill_Spring%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Mill_Spring%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mill-spring-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Polk-County-Courthouse-W-nc.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Polk County, North Carolina"
+  }
 }

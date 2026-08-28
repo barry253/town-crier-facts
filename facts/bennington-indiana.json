@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,21 +56,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "The community lies in Pleasant Township, central Switzerland County, at an elevation of 880 feet above sea level.",
-      "sourceSentenceIds": [
-        9,
-        15,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Bennington%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bennington-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Warren LeMay from Cullowhee, NC, United States",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Switzerland_County_Courthouse,_Vevay,_IN_(48458045947).jpg"
+  }
 }

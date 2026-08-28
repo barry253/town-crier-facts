@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Steeles_Tavern%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Steeles_Tavern%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community rises to 1,683 feet, offering a higher‑elevation view of the surrounding Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Steeles_Tavern%2C_Virginia"
-    },
-    {
-      "id": 3,
       "text": "The Cyrus McCormick Farm, the birthplace of the mechanical reaper inventor, was added to the National Register of Historic Places in 1966.",
       "sourceSentenceIds": [
         4,
@@ -53,10 +45,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Steeles_Tavern%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Steeles_Tavern%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Steeles Tavern’s quiet streets hide a rich history tied to early American agriculture and innovation.",
       "sourceSentenceIds": [
         1
@@ -64,10 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Steeles_Tavern,_Virginia"
+      "source": "https://kids.kiddle.co/Steeles_Tavern,_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The farm’s historic buildings now serve as a National Historic Place, preserving the legacy of Cyrus McCormick’s inventions.",
       "sourceSentenceIds": [
         2,
@@ -77,10 +73,12 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Steeles_Tavern,_Virginia"
+      "source": "https://kids.kiddle.co/Steeles_Tavern,_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Steeles Tavern’s name reflects its past as a crossroads tavern, a common gathering spot for travelers in the 19th century.",
       "sourceSentenceIds": [
         1
@@ -88,7 +86,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Steeles_Tavern,_Virginia"
+      "source": "https://kids.kiddle.co/Steeles_Tavern,_Virginia",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/steeles-tavern-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.211,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-10-30_17_26_47_View_east_along_Virginia_State_Route_56_(Tye_River_Turnpike)_at_U.S._Route_11_(Lee_Highway)_in_Steeles_Tavern,_Augusta_County,_Virginia.jpg"
+  }
 }

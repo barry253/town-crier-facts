@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Mustoe sits 2,380 feet above sea level, offering a high‑altitude Appalachian view.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The town lies within Highland County, a region noted for its rugged terrain.",
       "sourceSentenceIds": [
         9
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Mustoe appears in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "An 1895 atlas lists Mustoe among communities that once had post offices or railroad service.",
       "sourceSentenceIds": [
         29
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm"
+      "source": "https://roadsidethoughts.com/va/mustoe-xx-highland-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mustoe-virginia.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.58,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "MountainRail",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cows_Blue_Grass,_Virginia.jpg"
+  }
 }

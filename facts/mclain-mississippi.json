@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.townofmclain.com/about-us"
+      "source": "https://www.townofmclain.com/about-us",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,19 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofmclain.com/"
-    },
-    {
-      "id": 3,
-      "text": "McLain lies on the western side of the Leaf River valley, southwest within Greene County.",
-      "sourceSentenceIds": [
-        14,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McLain%2C_Mississippi"
+      "source": "https://www.townofmclain.com/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +59,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/McLain%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/McLain%2C_Mississippi",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McLain%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/McLain%2C_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -89,7 +86,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofmclain.com/"
+      "source": "https://www.townofmclain.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

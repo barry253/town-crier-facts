@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cripple_Creek%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cripple-creek-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Detroit Publishing Co.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_Mountain_mines,_Cripple_Creek,_Colorado,_ca._1898.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Cripple Creek (folk song)"
+  }
 }

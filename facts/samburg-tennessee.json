@@ -32,7 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://obioncounty.org/live/major-towns/samburg"
+      "source": "https://obioncounty.org/live/major-towns/samburg",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Samburg%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Samburg%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +63,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Samburg%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Samburg%2C_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -71,7 +77,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitreelfootlake.com/"
+      "source": "https://visitreelfootlake.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -82,7 +91,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Samburg%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Samburg%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/samburg-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.415,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Samburg-Lakeview-tn.jpg"
+  }
 }

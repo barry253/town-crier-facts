@@ -29,22 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinkhaven%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Brinkhaven%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village lies along the Mohican River, where the Bridge of Dreams spans the water.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Brinkhaven%2C_Ohio"
-    },
-    {
-      "id": 3,
       "text": "The Bridge of Dreams, a pedestrian bridge, crosses the Mohican River within Brinkhaven.",
       "sourceSentenceIds": [
         7
@@ -52,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brinkhaven%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Brinkhaven%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "New village signage—“Welcome to Brinkhaven” at the Holmes County entrance—helps create a unified visual identity.",
       "sourceSentenceIds": [
         28,
@@ -64,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.brinkhaven.gov/"
+      "source": "https://www.brinkhaven.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Council meetings are held the second Monday of every month, inviting residents to shape Brinkhaven’s future.",
       "sourceSentenceIds": [
         24
@@ -75,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.brinkhaven.gov/"
+      "source": "https://www.brinkhaven.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Brinkhaven’s municipal code, adopted by the council, is publicly available and guides local governance.",
       "sourceSentenceIds": [
         25,
@@ -88,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.brinkhaven.gov/"
+      "source": "https://www.brinkhaven.gov/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brinkhaven-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.389,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Roseohioresident",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brinkhaven,_Ohio_Post_Office.jpg"
+  }
 }

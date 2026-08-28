@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityneighborhoods.nyc/soundview"
+      "source": "https://www.cityneighborhoods.nyc/soundview",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Soundview%2C_Bronx"
+      "source": "https://en.wikipedia.org/wiki/Soundview%2C_Bronx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Soundview%2C_Bronx"
+      "source": "https://en.wikipedia.org/wiki/Soundview%2C_Bronx",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityneighborhoods.nyc/soundview"
+      "source": "https://www.cityneighborhoods.nyc/soundview",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Soundview%2C_Bronx"
+      "source": "https://en.wikipedia.org/wiki/Soundview%2C_Bronx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +96,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://theneighborhoods.substack.com/p/soundview-the-bronx"
+      "source": "https://theneighborhoods.substack.com/p/soundview-the-bronx",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/soundview-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "formulanone from Huntsville, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soundview_-_Clason_Point_-_Castle_Hill,_Bronx_(34432171054).jpg"
+  }
 }

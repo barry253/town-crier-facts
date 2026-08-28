@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/monroeville_new_jersey"
+      "source": "https://grokipedia.com/page/monroeville_new_jersey",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/monroeville_new_jersey"
+      "source": "https://grokipedia.com/page/monroeville_new_jersey",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/monroeville_new_jersey"
+      "source": "https://grokipedia.com/page/monroeville_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monroeville%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Monroeville%2C_New_Jersey",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,19 +89,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/monroeville_new_jersey"
-    },
-    {
-      "id": 6,
-      "text": "The community sits at 39°37′44″N 75°09′34″W, with an elevation of roughly 138 feet above sea level.",
-      "sourceSentenceIds": [
-        25,
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/monroeville_new_jersey"
+      "source": "https://grokipedia.com/page/monroeville_new_jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/monroeville-new-jersey.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike Sheridan",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:GCC_AT_Dusk.jpg"
+  }
 }

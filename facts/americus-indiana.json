@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +58,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "Americus is 550 feet above sea level.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/americus-xx-tippecanoe-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Americus falls under the Tippecanoe School Corporation for public education.",
       "sourceSentenceIds": [
         8
@@ -75,10 +72,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Americus%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "There are five other U.S. communities named Americus, in Colorado, Georgia, Kansas, Mississippi, and Missouri.",
       "sourceSentenceIds": [
         1
@@ -86,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/americus-xx-tippecanoe-profile.htm"
+      "source": "https://roadsidethoughts.com/in/americus-xx-tippecanoe-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/americus-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Huw Williams (Huwmanbeing)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Americus,_Indiana.png"
+  }
 }

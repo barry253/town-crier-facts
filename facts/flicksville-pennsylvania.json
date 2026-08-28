@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,22 +59,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "At 40.8442630°N, 75.2015672°W, Flicksville sits about 75 miles west of New York City.",
-      "sourceSentenceIds": [
-        4,
-        6,
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Flicksville%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +72,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://alchetron.com/Flicksville%2C-Pennsylvania"
+      "source": "https://alchetron.com/Flicksville%2C-Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +85,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Flicksville,_Pennsylvania"
+      "source": "https://kids.kiddle.co/Flicksville,_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/flicksville-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Writerchic99 (talk) (Uploads)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bear-creek.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bear Creek Mountain Resort"
+  }
 }

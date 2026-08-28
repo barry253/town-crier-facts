@@ -33,7 +33,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.homervillage.com/about"
+      "source": "https://www.homervillage.com/about",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homer%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Homer%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homer%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Homer%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -70,7 +77,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homer%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Homer%2C_Illinois",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homer-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.487,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Omnedon",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homer_Illinois_aerial_picture.jpg"
+  }
 }

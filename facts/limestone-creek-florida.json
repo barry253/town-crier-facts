@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Limestone Creek is a census‑designated place entirely surrounded by the town of Jupiter.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida"
-    },
-    {
       "id": 2,
       "text": "The community sits within the Miami metropolitan area of South Florida.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -82,7 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Limestone_Creek%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/limestone-creek-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "St. Petersburg Times",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "1921 Tampa Bay hurricane"
+  }
 }

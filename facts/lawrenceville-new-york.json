@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "Lawrenceville rests 440 feet above sea level, giving it a modest elevation within the Adirondacks.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "It is part of Saint Lawrence County, a northern New York county that borders Canada.",
       "sourceSentenceIds": [
         15
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical records list Lawrenceville in both the FIPS‑55 and the GNIS, confirming its official geographic status.",
       "sourceSentenceIds": [
         3
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "An 1895 atlas notes that the community once had a post office or railroad service, indicating early transportation links.",
       "sourceSentenceIds": [
         4
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/lawrenceville-xx-saint-lawrence-profile.htm",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lawrenceville-new-york.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dfmock~commonswiki",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Belmont8_1999-05.jpg"
+  }
 }

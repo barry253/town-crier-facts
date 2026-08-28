@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://philadelphia.wiki/a/Pennsport"
+      "source": "https://philadelphia.wiki/a/Pennsport",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://philadelphia.wiki/a/Pennsport"
+      "source": "https://philadelphia.wiki/a/Pennsport",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -89,7 +100,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Pennsport%2C_Philadelphia",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pennsport-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.474,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nick-philly",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Grand_Battery_Historical_Marker_S_Columbus_Blvd_at_US_Coast_Guard_Station_Philadelphia_PA_(DSC_2949).jpg"
+  }
 }

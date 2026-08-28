@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Austell%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Austell%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Austell%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Austell%2C_Georgia",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.austellga.gov/default.aspx/HistoryOfAustell.aspx"
+      "source": "https://www.austellga.gov/default.aspx/HistoryOfAustell.aspx",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Austell,_Georgia"
+      "source": "https://grokipedia.com/page/Austell,_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.austellga.gov/default.aspx/HistoryOfAustell.aspx"
+      "source": "https://www.austellga.gov/default.aspx/HistoryOfAustell.aspx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/austell-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CalleyD01",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_of_Austell_Georgia_Threadmill_Complex.jpg"
+  }
 }

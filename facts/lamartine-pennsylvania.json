@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lamartine%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lamartine%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lamartine%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lamartine%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +59,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/lamartine-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lamartine-xx-clarion-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/lamartine_pennsylvania"
+      "source": "https://grokipedia.com/page/lamartine_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +85,19 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/lamartine_pennsylvania"
-    },
-    {
-      "id": 6,
-      "text": "Lamartine sits 1,410 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/lamartine-xx-clarion-profile.htm"
+      "source": "https://grokipedia.com/page/lamartine_pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clarion County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lamartine-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  }
 }

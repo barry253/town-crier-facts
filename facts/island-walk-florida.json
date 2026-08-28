@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
-      "text": "The median age in Island Walk is 70.3 years, reflecting its popularity among retirees.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida"
-    },
-    {
-      "id": 5,
       "text": "Only 5.4% of Island Walk residents are under 18, while 63.0% are 65 or older, highlighting its senior‑friendly community.",
       "sourceSentenceIds": [
         7
@@ -73,18 +70,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida"
-    },
-    {
-      "id": 6,
-      "text": "Island Walk’s layout features a network of bridges that connect homes across a maze of ponds, a hallmark of its unique design.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Island_Walk%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/island-walk-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Naples,_FL,_Courthouse,_Collier_County,_04-18-2010_(1).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Collier County, Florida"
+  }
 }

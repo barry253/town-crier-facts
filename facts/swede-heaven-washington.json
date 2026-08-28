@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swede_Heaven%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Swede_Heaven%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swede_Heaven%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Swede_Heaven%2C_Washington",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://archive.seattletimes.com/archive/20030430/swede30n/its-not-heaven-or-even-the-haven-it-once-was"
+      "source": "https://archive.seattletimes.com/archive/20030430/swede30n/its-not-heaven-or-even-the-haven-it-once-was",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://archive.seattletimes.com/archive/20030430/swede30n/its-not-heaven-or-even-the-haven-it-once-was"
+      "source": "https://archive.seattletimes.com/archive/20030430/swede30n/its-not-heaven-or-even-the-haven-it-once-was",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://archive.seattletimes.com/archive/20030430/swede30n/its-not-heaven-or-even-the-haven-it-once-was"
+      "source": "https://archive.seattletimes.com/archive/20030430/swede30n/its-not-heaven-or-even-the-haven-it-once-was",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/swede-heaven-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Granite Falls, Washington"
+  }
 }

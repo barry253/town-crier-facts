@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitutah.com/places-to-go/cities-and-towns/blanding"
+      "source": "https://www.visitutah.com/places-to-go/cities-and-towns/blanding",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.blanding-ut.gov/about"
+      "source": "https://www.blanding-ut.gov/about",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Blanding%2C_Utah",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blanding-utah.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.708,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "formulanone",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blanding_Utah_Aerial_(49806542326).jpg"
+  }
 }

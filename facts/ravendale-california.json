@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The town sits 5,305 feet above sea level, 7 miles southeast of Termo.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Ravendale’s post office opened in 1910, closed a decade later, and reopened in 1921.",
       "sourceSentenceIds": [
         27
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The county maintains an unattended airstrip at Ravendale for light aircraft, identified as FAA O39.",
       "sourceSentenceIds": [
         28
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Ravendale was a station on the Nevada-California-Oregon Railway and survived the line’s late‑1990s abandonment.",
       "sourceSentenceIds": [
         4
@@ -73,7 +69,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Ravendale%2C_California",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ravendale-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.87,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "en:User:Mav",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lassen_Peak_from_Devastated_Area-1200px.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lassen County, California"
+  }
 }

@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://lunenburgva.gov/government/county_administration/county_history.php"
+      "source": "https://lunenburgva.gov/government/county_administration/county_history.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://lunenburgva.com/lunenburg-county/"
+      "source": "https://lunenburgva.com/lunenburg-county/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lunenburg_County%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Lunenburg_County%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://lunenburgva.gov/government/county_administration/county_history.php"
+      "source": "https://lunenburgva.gov/government/county_administration/county_history.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lunenburgva.com/lunenburg-county/"
+      "source": "https://lunenburgva.com/lunenburg-county/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lunenburg-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.492,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rhyssdavies",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LunenburgCourthouse2018.jpg"
+  }
 }

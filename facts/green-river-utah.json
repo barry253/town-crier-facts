@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Green_River,_Utah"
+      "source": "https://grokipedia.com/page/Green_River,_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Green_River%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Green_River%2C_Utah",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +63,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.visitutah.com/places-to-go/cities-and-towns/green-river"
+      "source": "https://www.visitutah.com/places-to-go/cities-and-towns/green-river",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +76,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Green_River%2C_Utah"
+      "source": "https://en.wikipedia.org/wiki/Green_River%2C_Utah",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -81,7 +90,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitutah.com/places-to-go/cities-and-towns/green-river"
+      "source": "https://www.visitutah.com/places-to-go/cities-and-towns/green-river",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/green-river-utah.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.516,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2010-Aerial_photograph_of_Green_River,_Utah.jpg"
+  }
 }

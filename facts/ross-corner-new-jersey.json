@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Ross Corner sits at latitude 41.1201 and longitude –74.7127 in Sussex County.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
-    },
-    {
-      "id": 2,
       "text": "The community is crossed by Route 206 and County Route 565.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ross_Corner%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ross_Corner%2C_New_Jersey",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Sussex County observes Eastern Time, which is GMT‑5.",
       "sourceSentenceIds": [
         9
@@ -51,21 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
-      "text": "As a census‑designated place, Ross Corner has no governmental functions.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "The CDP contains no water area, measuring 0.0 square miles.",
       "sourceSentenceIds": [
         8
@@ -73,18 +57,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm"
-    },
-    {
-      "id": 6,
-      "text": "The median age of residents is 64.5 years.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ross_Corner%2C_New_Jersey"
+      "source": "https://newjersey.hometownlocator.com/nj/sussex/ross-corner.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ross-corner-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mr. Matté (if there is an issue with this image, contact me using this image's Commons talk page, my Commons user talk page, or my English Wikipedia user talk page; I'll know about it a lot faster)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_206_sb_approaching_NJ_Route_15_and_CR_565,_Jan._2026.jpg"
+  }
 }

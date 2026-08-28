@@ -32,7 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.poestenkillny.com/history"
+      "source": "https://www.poestenkillny.com/history",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.newyorkalmanack.com/2021/09/the-poestenkill-mountains-waterfalls-and-waterworks/"
+      "source": "https://www.newyorkalmanack.com/2021/09/the-poestenkill-mountains-waterfalls-and-waterworks/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.newyorkalmanack.com/2021/09/the-poestenkill-mountains-waterfalls-and-waterworks/"
+      "source": "https://www.newyorkalmanack.com/2021/09/the-poestenkill-mountains-waterfalls-and-waterworks/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.poestenkillny.com/history"
+      "source": "https://www.poestenkillny.com/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.poestenkillny.com/history"
+      "source": "https://www.poestenkillny.com/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -90,7 +101,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.poestenkillny.com/history"
+      "source": "https://www.poestenkillny.com/history",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/poestenkill-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "William Lynd",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Poestenkill,_NY_RT_351.JPG"
+  }
 }

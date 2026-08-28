@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "East 14th Street, once the main artery of Old Oakland, was renamed International Blvd after annexation, a nod to its historic role in the city.",
+      "text": "East 14th Street, once the main artery of Old Oakland, was renamed International Boulevard after annexation, a nod to its historic role in the city.",
       "sourceSentenceIds": [
         4,
         5
@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitoakland.com/things-to-do/neighborhoods/old-oakland/"
+      "source": "https://www.visitoakland.com/things-to-do/neighborhoods/old-oakland/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitoakland.com/things-to-do/neighborhoods/old-oakland/"
+      "source": "https://www.visitoakland.com/things-to-do/neighborhoods/old-oakland/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +95,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/East_Oakland%2C_Oakland%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/old-oakland-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.73,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The original uploader was Daniel Olsen at English Wikipedia.",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maxwell_Park,_Oakland.jpg"
+  }
 }

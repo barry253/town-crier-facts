@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm"
+      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm"
+      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm"
+      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm",
+      "category": "economy",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,18 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm"
-    },
-    {
-      "id": 5,
-      "text": "The town is part of Navarro County in north‑central Texas.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eureka%2C_Texas"
+      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -87,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm"
+      "source": "https://texaslocalhistory.com/navarro/towns/eureka/index.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eureka-texas.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Aualliso",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crockett_County_Courthouse_November_2020.jpg"
+  }
 }

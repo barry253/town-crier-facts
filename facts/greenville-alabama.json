@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.greenvilleal.gov/244/History"
+      "source": "https://www.greenvilleal.gov/244/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://encyclopediaofalabama.org/article/greenville/"
+      "source": "https://encyclopediaofalabama.org/article/greenville/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Alabama"
+      "source": "https://en.wikipedia.org/wiki/Greenville%2C_Alabama",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.greenvilleal.gov/244/History"
+      "source": "https://www.greenvilleal.gov/244/History",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/greenville-alabama.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.438,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Slipdigit at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenville_AL_Greenville_Depot.JPG"
+  }
 }

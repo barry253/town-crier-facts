@@ -30,22 +30,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/indian_lake_missouri"
+      "source": "https://grokipedia.com/page/indian_lake_missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The lake sits at 925 feet above sea level and reaches a maximum depth of about 88 feet.",
-      "sourceSentenceIds": [
-        16,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/indian_lake_missouri"
-    },
-    {
-      "id": 3,
       "text": "Indian Lake Property Owners Association, formed by residents, manages the lake and coordinates restoration projects with University of Missouri limnologists.",
       "sourceSentenceIds": [
         8,
@@ -55,10 +45,12 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://ilpoa.org/"
+      "source": "https://ilpoa.org/",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community lies roughly 5 miles northwest of Cuba and is surrounded by the Mark Twain National Forest, offering a secluded family‑oriented retreat.",
       "sourceSentenceIds": [
         6,
@@ -68,10 +60,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Indian_Lake%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Indian_Lake%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Fish from Indian Lake are considered safe to eat, with no current advisories as of 2024 after past chlordane testing in 1986.",
       "sourceSentenceIds": [
         1
@@ -79,10 +74,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/indian_lake_missouri"
+      "source": "https://grokipedia.com/page/indian_lake_missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Indian Lake’s shoreline stretches about five miles, providing ample space for boating, fishing, and swimming within a forested Ozark setting.",
       "sourceSentenceIds": [
         7,
@@ -92,7 +89,24 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://ilpoa.org/"
+      "source": "https://ilpoa.org/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/indian-lake-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.64,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CrawfordCo_courthouse_Steeleville_MO_20140330-6.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Crawford County, Missouri"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Jacksontown%2C_Ohio",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitjacksoncountyohio.com/explore/"
+      "source": "https://visitjacksoncountyohio.com/explore/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://visitjacksoncountyohio.com/explore/"
+      "source": "https://visitjacksoncountyohio.com/explore/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jacksontown-ohio.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crane_Lake_in_Buckeye_Lake.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Buckeye Lake, Ohio"
+  }
 }

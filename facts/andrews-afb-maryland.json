@@ -34,7 +34,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.jba.af.mil/About/"
+      "source": "https://www.jba.af.mil/About/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -47,7 +49,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base"
+      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,7 +64,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base"
+      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -71,7 +77,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base"
+      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -82,7 +90,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base"
+      "source": "https://en.wikipedia.org/wiki/Andrews_Air_Force_Base",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/andrews-afb-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.421,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Robert Knudsen. White House Photographs.",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:President_John_F._Kennedy_at_Andrews_Air_Force_Base,_Maryland,_27_April_1962.jpg"
+  }
 }

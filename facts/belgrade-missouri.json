@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,48 +45,25 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "The community sits on the north bank of the Big River along Missouri Route C.",
-      "sourceSentenceIds": [
-        7,
-        29,
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri"
-    },
-    {
-      "id": 4,
-      "text": "Belgrade is an unincorporated community in south central Washington County, Missouri, United States.",
-      "sourceSentenceIds": [
-        3,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri"
-    },
-    {
-      "id": 5,
-      "text": "The town lies about five miles west of Caledonia and ten miles south of Potosi on Missouri Supplemental Route C.",
-      "sourceSentenceIds": [
-        4,
-        22,
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Belgrade%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big River (Missouri)"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/belgrade-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.56,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": ". Original: Americasroof . Modification: Kbh3rd",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Potossi-courthouse_enh.jpg"
+  }
 }

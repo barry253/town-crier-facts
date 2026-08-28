@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +65,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -74,7 +81,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -88,7 +97,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -101,7 +112,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Mountain_Lodge_Park%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mountain-lodge-park-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Daniel Case",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Schunemunk_conglomerate_and_pine.jpg"
+  }
 }

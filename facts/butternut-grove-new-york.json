@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Butternut Grove is a hamlet in Delaware County, New York, United States.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Butternut_Grove%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "East-southeast of East Branch, Butternut Grove sits on the north shore of Beaver Kill.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Butternut_Grove%2C_New_York"
-    },
-    {
       "id": 3,
       "text": "Butternut Grove’s post office opened in 1872, long before the hamlet’s official founding date.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/butternut-grove-xx-delaware-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

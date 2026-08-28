@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miami_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Miami_Heights%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miami_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Miami_Heights%2C_Ohio",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/miami-heights-xx-hamilton-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/miami-heights-xx-hamilton-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town’s elevation is listed at 830 meters above sea level, giving it a slightly higher viewpoint than surrounding areas.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://travel.nears.me/countries/united-states/miami-heights-ohio-travel-guide/"
-    },
-    {
-      "id": 5,
       "text": "Miami Heights blends traditional American values with modern visitor amenities, creating a harmonious local atmosphere.",
       "sourceSentenceIds": [
         19
@@ -77,10 +72,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travel.nears.me/countries/united-states/miami-heights-ohio-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/miami-heights-ohio-travel-guide/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community’s main road, Ohio State Route 264, serves as a key artery for residents traveling to nearby towns and Cincinnati.",
       "sourceSentenceIds": [
         12,
@@ -90,7 +88,20 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Miami_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Miami_Heights%2C_Ohio",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/miami-heights-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Warren LeMay from Chicago, IL, United States",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg"
+  }
 }

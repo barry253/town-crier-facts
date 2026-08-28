@@ -32,21 +32,12 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Forrest-City"
+      "source": "https://www.britannica.com/place/Forrest-City",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Forrest City sits on the fertile Delta, with an elevation of about 253 feet, and its landscape is shaped by the nearby Crowley's Ridge upland.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/Forrest_City,_Arkansas"
-    },
-    {
-      "id": 3,
       "text": "Post‑World War II manufacturing grew, with plants like Sanyo producing cathode‑ray tubes for nearly 2,000 workers before closing in 2016, a recent economic challenge.",
       "sourceSentenceIds": [
         22,
@@ -56,7 +47,42 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/Forrest_City,_Arkansas"
+      "source": "https://grokipedia.com/page/Forrest_City,_Arkansas",
+      "category": "economy",
+      "quality": "good"
+    },
+    {
+      "id": 3,
+      "text": "Forrest City is the county seat of St. Francis County, serving as a central hub for the region.",
+      "sourceSentenceIds": [],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Forrest%20City%2C%20Arkansas",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 4,
+      "text": "Known as the 'Jewel of the Delta', Forrest City celebrates its rich cultural heritage and vibrant community events.",
+      "sourceSentenceIds": [],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Forrest%20City%2C%20Arkansas",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forrest-city-arkansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ardelta",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20160414_132253570_iOS.jpg"
+  }
 }

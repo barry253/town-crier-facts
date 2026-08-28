@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowder%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lowder%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -42,21 +45,12 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/lowder-xx-sangamon-profile.htm"
+      "source": "https://roadsidethoughts.com/il/lowder-xx-sangamon-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 690 feet above sea level, a modest elevation for central Illinois.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/il/lowder-xx-sangamon-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Lowder lies about 5.5 miles northwest of Virden, right along a historic railroad line.",
       "sourceSentenceIds": [
         3,
@@ -67,10 +61,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowder%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Lowder%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Lowder serves as the main community for Talkington Township, the local administrative unit.",
       "sourceSentenceIds": [
         12
@@ -78,10 +74,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Lowder,_Illinois"
+      "source": "https://kids.kiddle.co/Lowder,_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The pronunciation of Lowder is “LOW-der,” a simple two‑syllable name that locals use every day.",
       "sourceSentenceIds": [
         26
@@ -89,7 +88,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/il/lowder-xx-sangamon-profile.htm"
+      "source": "https://roadsidethoughts.com/il/lowder-xx-sangamon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lowder-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.146,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "User:Visviva",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edge_of_Lowder_2026-06-06.jpg"
+  }
 }

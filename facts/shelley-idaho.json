@@ -35,7 +35,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -48,7 +50,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +65,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.usacitiesonline.com/idcountyshelley.htm"
+      "source": "https://www.usacitiesonline.com/idcountyshelley.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -73,7 +79,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -84,7 +92,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Shelley%2C_Idaho",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shelley-idaho.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Sociotard",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shelley_ID_Skyline.JPG"
+  }
 }

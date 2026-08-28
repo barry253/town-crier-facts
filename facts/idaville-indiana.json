@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Idaville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Idaville%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,32 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Idaville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Idaville%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Idaville sits at 40°45′25″N 86°38′58″W, placing it in the heart of White County, Indiana.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Idaville%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "The town rises 710 feet above sea level, giving it a modest elevation within the Midwest plains.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/in/idaville-xx-white-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Idaville appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         3
@@ -73,7 +55,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/in/idaville-xx-white-profile.htm"
+      "source": "https://roadsidethoughts.com/in/idaville-xx-white-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/idaville-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.518,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Idaville_elevator_complex.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Neelyton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Neelyton%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Neelyton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Neelyton%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Neelyton rests 980 feet above sea level, offering a modest hilltop view of the surrounding valley.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "An 1895 atlas lists Neelyton among communities that had either a post office or railroad service.",
       "sourceSentenceIds": [
         19
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/neelyton-xx-huntingdon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/neelyton-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrison Keely",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huntingdon_County_Courthouse_in_Huntingdon,_Pennsylvania,_was_built_in_1883_03.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Huntingdon County, Pennsylvania"
+  }
 }

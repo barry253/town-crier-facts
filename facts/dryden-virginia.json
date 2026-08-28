@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia"
-    },
-    {
-      "id": 3,
-      "text": "Geographically, Dryden sits at 36°46′33″N 82°56′39″W, right in northeastern Lee County, Virginia.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Dryden%2C_Virginia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://archive.org/details/pictorial-history-of-dryden-pennington-gap"
+      "source": "https://archive.org/details/pictorial-history-of-dryden-pennington-gap",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dryden-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.583,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dryden-buildings-va.jpg"
+  }
 }

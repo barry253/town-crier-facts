@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grass_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Grass_Creek%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grass_Creek%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Grass_Creek%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,18 +56,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grass_Creek%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "Grass Creek’s elevation is 770 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/grass-creek-xx-fulton-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Grass_Creek%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grass-creek-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Derek Jensen (Tysto)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fulton_County_Courthouse_in_Rochester.jpg"
+  }
 }

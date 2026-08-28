@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo"
+      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo"
+      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo"
+      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Carabayllo sits 238 meters above sea level, placing it in the low coastal plain of Lima.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carabayllo_District"
-    },
-    {
-      "id": 5,
       "text": "The district lies in the north of Lima’s metropolitan area, within the Chillon River valley.",
       "sourceSentenceIds": [
         14
@@ -74,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo"
+      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Early agricultural innovation in Carabayllo introduced new irrigation, fishing, and pottery techniques that shaped the region.",
       "sourceSentenceIds": [
         18
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo"
+      "source": "https://www.limaeasy.com/lima-guide/districts-lima/the-district-carabayllo",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carabayllo-lima.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.677,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joseperuano",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plaza_de_Armas_de_Carabayllo.jpg"
+  }
 }

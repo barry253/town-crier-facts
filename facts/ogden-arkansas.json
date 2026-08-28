@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Ogden lies just 1.5 miles northeast of the Red River, the Texas–Arkansas border.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ogden%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "Ogden is a city located in Little River County, Arkansas, United States.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ogden%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "To request a permit in Ogden, contact City Hall where staff guide the application process.",
       "sourceSentenceIds": [
@@ -51,18 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-ogden-arkansas.html"
-    },
-    {
-      "id": 4,
-      "text": "Ogden Town Hall sits at P.O. Box 159 and can be reached by phone for inquiries about permits, code enforcement, or local services.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/town-ogden-arkansas.html"
+      "source": "https://www.citydirectory.us/town-ogden-arkansas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-ogden-arkansas.html"
+      "source": "https://www.citydirectory.us/town-ogden-arkansas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ogden%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Ogden%2C_Arkansas",
+      "category": "people",
+      "quality": "good"
     }
   ]
 }

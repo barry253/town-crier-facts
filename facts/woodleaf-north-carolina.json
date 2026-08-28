@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodleaf%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Woodleaf%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitrowancountync.com/blog/post/in-and-around-woodleaf-nc/"
+      "source": "https://www.visitrowancountync.com/blog/post/in-and-around-woodleaf-nc/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodleaf%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Woodleaf%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitrowancountync.com/blog/post/in-and-around-woodleaf-nc/"
+      "source": "https://www.visitrowancountync.com/blog/post/in-and-around-woodleaf-nc/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Woodleaf%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Woodleaf%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitrowancountync.com/blog/post/in-and-around-woodleaf-nc/"
+      "source": "https://www.visitrowancountync.com/blog/post/in-and-around-woodleaf-nc/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/woodleaf-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AlexiusHoratius",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rowan_County_Courthouse.jpg"
+  }
 }

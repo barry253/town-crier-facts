@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/bayview-72426"
+      "source": "https://www.wisdomlib.org/cities/bayview-72426",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/bayview-72426"
+      "source": "https://www.wisdomlib.org/cities/bayview-72426",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/bayview-72426"
+      "source": "https://www.wisdomlib.org/cities/bayview-72426",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -65,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/bayview-72426"
+      "source": "https://www.wisdomlib.org/cities/bayview-72426",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -76,7 +86,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/bayview-72426"
+      "source": "https://www.wisdomlib.org/cities/bayview-72426",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +99,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/bayview-72426"
+      "source": "https://www.wisdomlib.org/cities/bayview-72426",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bayview-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.43,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Paul Hermans",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_Bend_TC_27-09-2012_15-34-14.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Pamlico River"
+  }
 }

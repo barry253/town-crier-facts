@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/st_martins_missouri"
+      "source": "https://grokipedia.com/page/st_martins_missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/st_martins_missouri"
-    },
-    {
-      "id": 3,
-      "text": "St. Martins sits at 38°35′41″N 92°20′13″W, right in the heart of Cole County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/St._Martins%2C_Missouri"
+      "source": "https://grokipedia.com/page/st_martins_missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Martins%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/St._Martins%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://stmartinsmo.us/"
+      "source": "https://stmartinsmo.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -85,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://stmartinsmo.us/"
+      "source": "https://stmartinsmo.us/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/st-martins-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "TCP04",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Martins,_Missouri.jpg"
+  }
 }

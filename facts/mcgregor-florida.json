@@ -32,7 +32,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -44,7 +47,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -67,7 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +89,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/McGregor,_Florida"
+      "source": "https://kids.kiddle.co/McGregor,_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +104,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/McGregor%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcgregor-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ecomerford",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Base_Operations_at_Page_Field.jpg"
+  }
 }

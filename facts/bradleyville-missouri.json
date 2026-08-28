@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -43,7 +46,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -56,7 +62,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +77,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +91,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +104,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bradleyville%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bradleyville-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Vsmith",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beaver_Creek_-_Cowskin_Creek.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Beaver Creek (White River)"
+  }
 }

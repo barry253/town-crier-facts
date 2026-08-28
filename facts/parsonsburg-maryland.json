@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Parsonsburg is part of the Salisbury, Maryland‑Delaware Metropolitan Statistical Area, linking it to a larger regional economy and community network.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland"
-    },
-    {
       "id": 2,
       "text": "Parsonsburg experiences hot, humid summers that bring lush greenery and occasional thunderstorms, a hallmark of the Mid‑Atlantic climate.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Parsonsburg%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://theus50.com/maryland/city.php?cityName=Parsonsburg"
+      "source": "https://theus50.com/maryland/city.php?cityName=Parsonsburg",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://theus50.com/maryland/city.php?cityName=Parsonsburg"
+      "source": "https://theus50.com/maryland/city.php?cityName=Parsonsburg",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parsonsburg-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AviationFreak",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParsonsburgMDFireDepartment.jpg"
+  }
 }

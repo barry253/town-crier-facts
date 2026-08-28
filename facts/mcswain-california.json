@@ -21,55 +21,7 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "McSwain sits at 144 feet above sea level in California's Central Valley.",
-      "sourceSentenceIds": [
-        4,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McSwain%2C_California"
-    },
-    {
       "id": 2,
-      "text": "McSwain borders Atwater to the north and is bounded on the north by State Route 99.",
-      "sourceSentenceIds": [
-        5,
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McSwain%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "Merced, the county seat, lies just 5 miles east along State Route 140.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McSwain%2C_California"
-    },
-    {
-      "id": 4,
-      "text": "The median age of McSwain residents is 40.5 years as reported by the 2020 census.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://en-academic.com/dic.nsf/enwiki/11718070"
-    },
-    {
-      "id": 5,
       "text": "Lake McSwain Campground features a 150,000‑square‑foot floating water park called Splash‑n‑Dash, the largest inflatable waterpark in North America.",
       "sourceSentenceIds": [
         1
@@ -77,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.lakemcclure.com/lake-mcswain-camping-recreation/"
+      "source": "https://www.lakemcclure.com/lake-mcswain-camping-recreation/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "The campground offers 111 sites, 65 with water‑electric hookups, and free hot showers for guests.",
       "sourceSentenceIds": [
         2
@@ -88,7 +42,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.lakemcclure.com/lake-mcswain-camping-recreation/"
+      "source": "https://www.lakemcclure.com/lake-mcswain-camping-recreation/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcswain-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.83,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JPxG",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banks_of_San_Luis_Reservoir_in_July_2021_redux_(cropped).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Merced County, California"
+  }
 }

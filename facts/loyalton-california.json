@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Loyalton sits at about 4,930 feet above sea level, overlooking the Sierra Valley.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Loyalton%2C_California"
-    },
-    {
-      "id": 5,
       "text": "Loyalton now boasts a high‑speed broadband network, keeping residents connected while enjoying the scenic Sierra Valley.",
       "sourceSentenceIds": [
         6
@@ -75,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofloyalton.org/"
+      "source": "https://www.cityofloyalton.org/",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/loyalton-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.353,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Carol M. Highsmith",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sierra_Valley_Home_Center_in_Loyalton,_California_LCCN2013633851.jpg"
+  }
 }

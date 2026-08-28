@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Swan Valley sits in Bonneville County, Idaho, a rural community in the eastern part of the state.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Swan_Valley%2C_Idaho"
-    },
-    {
-      "id": 2,
-      "text": "Swan Valley is part of the Idaho Falls Metropolitan Statistical Area, linking it to the larger regional economy.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Swan_Valley%2C_Idaho"
-    },
-    {
       "id": 3,
       "text": "The hottest recorded temperature in Swan Valley was 104°F on July 13, 2026, while the coldest was -45°F on February 9, 1933.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swan_Valley%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Swan_Valley%2C_Idaho",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-swan-valley.html"
+      "source": "https://www.citydirectory.us/city-swan-valley.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Swan_Valley%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Swan_Valley%2C_Idaho",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-swan-valley.html"
+      "source": "https://www.citydirectory.us/city-swan-valley.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

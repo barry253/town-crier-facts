@@ -32,24 +32,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keene%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Keene%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town was renamed Keene to honor James P. Wells, a local rancher who helped shape the area.",
-      "sourceSentenceIds": [
-        8,
-        10,
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Keene%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Keene is home to the United Farm Workers headquarters, called Nuestra Señora Reina de La Paz.",
       "sourceSentenceIds": [
         24
@@ -57,10 +45,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Keene%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Keene%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The 187‑acre UFW site hosts 26 historic buildings, a memorial garden, and César Chávez’s burial site.",
       "sourceSentenceIds": [
         15,
@@ -71,10 +61,12 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.nps.gov/articles/chavez.htm"
+      "source": "https://www.nps.gov/articles/chavez.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Before moving to Keene, the UFW operated from Forty Acres, which became a National Historic Landmark in 1972.",
       "sourceSentenceIds": [
         7,
@@ -83,18 +75,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nps.gov/articles/chavez.htm"
-    },
-    {
-      "id": 6,
-      "text": "Keene sits 8.5 miles northwest of Tehachapi at an elevation of 2,602 feet.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Keene%2C_California"
+      "source": "https://www.nps.gov/articles/chavez.htm",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/keene-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.813,
+    "y": 0.5
+  }
 }

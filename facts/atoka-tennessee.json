@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Atoka,_Tennessee"
+      "source": "https://kids.kiddle.co/Atoka,_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Atoka,_Tennessee"
+      "source": "https://kids.kiddle.co/Atoka,_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atoka%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Atoka%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +72,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Atoka%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Atoka%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/atoka-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.429,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Andrew P. Bohrman, Stephanie Bohrman",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_of_Atoka_Sign,_Atoka,_Tennessee.JPG"
+  }
 }

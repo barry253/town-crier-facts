@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-valley-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-valley-city-illinois.html",
+      "category": "etymology",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-valley-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-valley-city-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,29 +73,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-valley-city-illinois.html"
-    },
-    {
-      "id": 5,
-      "text": "The village’s median age is 32 years, reflecting a relatively young community.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "Median household income in Valley City stands at $41,250, matching the median family income.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Valley_City%2C_Illinois"
+      "source": "https://www.citydirectory.us/village-valley-city-illinois.html",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valley-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mingusboodle at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Courthouse,_Pike_County,_Illinois.jpg"
+  }
 }

@@ -29,29 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunlevy%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The borough sits at 40°7′3″N 79°51′51″W, placing it just south of the Monongahela River.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dunlevy%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Dunlevy shares borders with Allenport to the east, Long Branch to the south, and Speers to the west.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dunlevy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Dunlevy%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dunlevy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Dunlevy%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://dunlevyboro.com/history-and-recreation"
+      "source": "https://dunlevyboro.com/history-and-recreation",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://dunlevyboro.com/history-and-recreation"
+      "source": "https://dunlevyboro.com/history-and-recreation",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dunlevy-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Generic1139",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dunlevy,_Pennsylvania_Wharf_St.jpg"
+  }
 }

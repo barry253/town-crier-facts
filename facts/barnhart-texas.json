@@ -32,7 +32,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/barnhart_texas"
+      "source": "https://grokipedia.com/page/barnhart_texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barnhart%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Barnhart%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barnhart%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Barnhart%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Barnhart%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Barnhart%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/barnhart-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Aualliso",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Irion_County_courthouse_May_2020.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Irion County, Texas"
+  }
 }

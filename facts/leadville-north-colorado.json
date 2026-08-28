@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leadville_North%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Leadville_North%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leadville_North%2C_Colorado"
-    },
-    {
-      "id": 3,
-      "text": "The Leadville North census‑designated place covers 1,567 acres—every inch of land, no water bodies.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Leadville_North%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Leadville_North%2C_Colorado",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.historicleadville.com/"
+      "source": "https://www.historicleadville.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.historicleadville.com/"
+      "source": "https://www.historicleadville.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://leadville.com/a-time-line-of-leadvilles-history/"
+      "source": "https://leadville.com/a-time-line-of-leadvilles-history/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/leadville-north-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.36,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leadville_North,_Colorado.JPG"
+  }
 }

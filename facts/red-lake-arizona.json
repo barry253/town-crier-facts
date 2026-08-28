@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html"
+      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html"
+      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "At 6,300 feet elevation, Red Lake offers sweeping views of the Bill Williams River, Kendrick Mountain, Sitgreaves, and the San Francisco Peaks.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html"
-    },
-    {
-      "id": 4,
       "text": "Red Lake’s roots run deep in ranching, forming a key chapter of Williams’ unique livestock heritage.",
       "sourceSentenceIds": [
         6
@@ -64,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html"
+      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town’s quiet residential vibe belies its historical significance as a former ranching hub in the high desert.",
       "sourceSentenceIds": [
         1
@@ -75,18 +71,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html"
-    },
-    {
-      "id": 6,
-      "text": "Red Lake is entirely rural, with every resident living outside urban boundaries according to census data.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Red_Lake%2C_Arizona"
+      "source": "https://www.williamsnews.com/features/out-past/out-of-the-past-red-lake-community-part-of-williams-unique-ranching-history/article_71388267-1cf6-52d0-b83b-dc040707e4ce.html",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/red-lake-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kaibab National Forest",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacob_Lake_Ranger_Station.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Jacob Lake, Arizona"
+  }
 }

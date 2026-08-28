@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Maple Glen sits at 40.175358°N, 75.180131°W, placing it just north of the Schuylkill River.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Maple_Glen%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Our Lady of Mercy Regional Catholic School, formed in 2012 from a merger, serves Maple Glen’s Catholic community.",
       "sourceSentenceIds": [
@@ -43,18 +32,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maple_Glen%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Maple Glen is a census‑designated place in Montgomery County, Pennsylvania, and has no municipal government of its own.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm"
+      "source": "https://en.wikipedia.org/wiki/Maple_Glen%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +73,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/montgomery/maple-glen.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/maple-glen-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Douglas Muth",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montgomery_County_Courthouse_Pennsylvania_-_Douglas_Muth.jpg"
+  }
 }

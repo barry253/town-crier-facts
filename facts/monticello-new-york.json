@@ -31,18 +31,22 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.monticellolodge532.org/"
+      "source": "https://www.monticellolodge532.org/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "John and his brothers began building the village in 1804, chopping the first tree on September 4, 1804.",
+      "text": "John Patterson Jones and his brother Samuel began building Monticello in 1804, chopping the first tree on September 4 of that year.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Monticello%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/monticello-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.838,
+    "y": 0.598
+  },
+  "imageAttribution": {
+    "author": "P0tato112",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monticello_Coach_USA_Shortline_Terminal.jpg"
+  }
 }

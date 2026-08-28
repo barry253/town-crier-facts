@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,33 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/matheson-xx-elbert-profile.htm"
+      "source": "https://roadsidethoughts.com/co/matheson-xx-elbert-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Matheson sits 5,790 feet above sea level, roughly one mile higher than sea level.",
-      "sourceSentenceIds": [
-        14,
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/co/matheson-xx-elbert-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "The census-designated place covers 1,098 acres, all land, with no water bodies inside its borders.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado"
-    },
-    {
-      "id": 5,
       "text": "The TV series *Honey, I Shrunk the Kids: The TV Show* was filmed in Matheson, though the show portrays it as a larger high‑tech hub.",
       "sourceSentenceIds": [
         6,
@@ -75,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Matheson is part of the Denver–Aurora–Lakewood Metropolitan Statistical Area, linking it to the larger Denver region.",
       "sourceSentenceIds": [
         7
@@ -86,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Matheson%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/matheson-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matheson,_Colorado.JPG"
+  }
 }

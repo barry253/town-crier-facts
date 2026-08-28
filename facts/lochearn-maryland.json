@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lochearn borders Baltimore City to the east, the Beltway to the west, and Gwynn Oak Avenue and Dogwood Road to the south.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland"
-    },
-    {
-      "id": 2,
       "text": "Liberty Road is the main artery that cuts through Lochearn, linking neighborhoods and local businesses.",
       "sourceSentenceIds": [
         9
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The CityLink Lime bus line follows Liberty Road, giving residents a direct link to downtown Baltimore.",
       "sourceSentenceIds": [
         11
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Woodmoor Shopping Center sits where Essex and Liberty Roads meet, offering a local hub for groceries and services.",
       "sourceSentenceIds": [
         3
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Lochearn experiences hot, humid summers and generally mild to cool winters, typical of the Mid-Atlantic.",
       "sourceSentenceIds": [
         8
@@ -73,18 +68,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland"
-    },
-    {
-      "id": 6,
-      "text": "Lochearn sits at 39°21′02″N 76°43′47″W, placing it just northwest of Baltimore.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Lochearn%2C_Maryland",
+      "category": "other",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lochearn-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-07-12_08_31_38_View_west_along_Maryland_State_Route_26_(Liberty_Road)_at_Liberty_Terrace_in_Lochearn,_Baltimore_County,_Maryland.jpg"
+  }
 }

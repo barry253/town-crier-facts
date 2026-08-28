@@ -30,21 +30,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.floridasmart.com/city-guide/hunters-creek"
+      "source": "https://www.floridasmart.com/city-guide/hunters-creek",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community’s name appears without an apostrophe in the Census Bureau’s CDP designation, though locals write “Hunter’s Creek.”",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida"
-    },
-    {
-      "id": 3,
       "text": "Lake Calabay, a man‑made dredged freshwater lake, sits in the heart of Hunters Creek and is a local gathering spot.",
       "sourceSentenceIds": [
         11
@@ -52,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The area that became Hunters Creek once covered 3,840 acres owned by Genstar Development, a Canadian firm, before being sold in stages to American Newland Associates.",
       "sourceSentenceIds": [
         6,
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Hunters Creek is part of the Orlando–Kissimmee–Sanford Metropolitan Statistical Area, placing it within Central Florida’s growing metro region.",
       "sourceSentenceIds": [
         4
@@ -75,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community hosts 38 single‑family neighborhoods and ten multi‑family ones, reflecting its planned residential layout.",
       "sourceSentenceIds": [
         22,
@@ -87,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Hunter's_Creek%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hunters-creek-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.835,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hunter%E2%80%99s_Creek_Middle_School.jpg"
+  }
 }

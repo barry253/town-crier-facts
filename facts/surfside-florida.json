@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Surfside%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Surfside%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Surfside%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Surfside%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Surfside%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Surfside%2C_Florida",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitflorida.com/places-to-go/southeast/surfside/"
+      "source": "https://www.visitflorida.com/places-to-go/southeast/surfside/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,15 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitflorida.com/places-to-go/southeast/surfside/"
+      "source": "https://www.visitflorida.com/places-to-go/southeast/surfside/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/surfside-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.228,
+    "y": 0.5
+  }
 }

@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Yale is an unincorporated community in rural Sussex County, Virginia.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia"
-    },
-    {
-      "id": 2,
       "text": "The historic Hunting Quarter plantation sits just outside Yale and is listed on the National Register of Historic Places.",
       "sourceSentenceIds": [
         1,
@@ -44,10 +33,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Hunting Quarter was built after 1745 by Captain Henry Harrison, a veteran of the French and Indian War.",
       "sourceSentenceIds": [
         7,
@@ -57,10 +48,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Harrison family owned Hunting Quarter until 1887, when it passed out of their hands.",
       "sourceSentenceIds": [
         10,
@@ -70,10 +63,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Captain Henry Harrison was a brother of Benjamin Harrison V, signer of the Declaration of Independence, and uncle of President William Henry Harrison.",
       "sourceSentenceIds": [
         8,
@@ -84,10 +79,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Yale lies within Sussex County, a rural county in southeastern Virginia.",
       "sourceSentenceIds": [
         6
@@ -95,7 +92,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Yale%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yale-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  }
 }

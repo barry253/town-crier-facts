@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Chevy Chase Heights sits at 40°38′11″N 79°8′51″W, a precise spot in western Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Chevy_Chase_Heights%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The community lies 1,430 feet above sea level, giving it a mild hilltop feel.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/chevy-chase-heights-xx-indiana-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A 1956 map first recorded Chevy Chase Heights, hinting at its mid‑century origins.",
       "sourceSentenceIds": [
         21
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/chevy-chase-heights-xx-indiana-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/chevy-chase-heights-xx-indiana-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "From the town, Washington, D.C., is 167 miles away, a quick drive to the nation’s capital.",
       "sourceSentenceIds": [
         12
@@ -62,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountychevychaseheights.htm"
+      "source": "https://www.usacitiesonline.com/pacountychevychaseheights.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "The state capital, Harrisburg, is 122 miles distant, placing Chevy Chase Heights comfortably in central PA.",
       "sourceSentenceIds": [
         13
@@ -73,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountychevychaseheights.htm"
+      "source": "https://www.usacitiesonline.com/pacountychevychaseheights.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Chevy Chase Heights appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
       "sourceSentenceIds": [
         1
@@ -84,7 +71,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/chevy-chase-heights-xx-indiana-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/chevy-chase-heights-xx-indiana-profile.htm",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chevy-chase-heights-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim.henderson",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegheny_County_Medical_Examiner_jeh.jpg"
+  }
 }

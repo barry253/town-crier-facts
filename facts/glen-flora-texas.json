@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/glen-flora-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/glen-flora-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Glen_Flora,_Texas"
+      "source": "https://kids.kiddle.co/Glen_Flora,_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/glen-flora-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/glen-flora-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,20 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/glen-flora-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/glen-flora-tx",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glen-flora-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.303,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Djmaschek",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glen_Flora_TX_Post_Office.JPG"
+  }
 }

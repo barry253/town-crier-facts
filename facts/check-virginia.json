@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Check is an unincorporated community in Floyd County, Virginia.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia"
-    },
-    {
-      "id": 2,
-      "text": "The town sits along Route 221, about 12.1 miles northeast of Floyd.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia"
-    },
-    {
       "id": 3,
       "text": "The origin of the name \"Check\" is obscure, with no clear historical record.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Check%2C_Virginia",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +57,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.commonwealth.virginia.gov/about-virginia/history-and-facts-on-virginia/"
+      "source": "https://www.commonwealth.virginia.gov/about-virginia/history-and-facts-on-virginia/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Floyd County, Virginia"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/check-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andrew Bain",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floyd_Co_CH.jpg"
+  }
 }

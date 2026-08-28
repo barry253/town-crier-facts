@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.gibsonvillenc.org/about"
+      "source": "https://www.gibsonvillenc.org/about",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibsonville%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Gibsonville%2C_North_Carolina",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gibsonville%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Gibsonville%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gibsonville-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gibsonville,_North_Carolina_2.jpg"
+  }
 }

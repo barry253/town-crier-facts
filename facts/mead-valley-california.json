@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Mead Valley sits at an elevation of 1,663 feet, giving it a mild mountain climate.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mead_Valley%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Nestled in the northeastern Temescal Mountains, Mead Valley lies south of Riverside and west of Perris.",
       "sourceSentenceIds": [
         9
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mead_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mead_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The valley is drained by the north fork of Cajalco Creek, feeding local waterways.",
       "sourceSentenceIds": [
         10
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mead_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Mead_Valley%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Mead Valley’s name probably comes from historic honey production or wild bee activity, hinting at mead.",
       "sourceSentenceIds": [
         3
@@ -62,21 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mead-valley-24686"
+      "source": "https://www.wisdomlib.org/cities/mead-valley-24686",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "Its geographic coordinates are 33.8334° N latitude and 117.2962° W longitude in Riverside County.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://california.hometownlocator.com/ca/riverside/mead-valley.cfm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Early settlers in Mead Valley focused on farming and ranching, reflecting Southern California’s broader development.",
       "sourceSentenceIds": [
         4
@@ -84,7 +69,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/mead-valley-24686"
+      "source": "https://www.wisdomlib.org/cities/mead-valley-24686",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mead-valley-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pf1127",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canyon_Lake_City_Hall.jpg"
+  }
 }

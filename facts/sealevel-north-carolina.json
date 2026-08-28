@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "Sea Level sits just 4 feet above sea level, making it one of the lowest points in the state.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina"
-    },
-    {
-      "id": 3,
       "text": "The community lies adjacent to Core Sound, a narrow inlet that feeds the Atlantic.",
       "sourceSentenceIds": [
         4
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Early settlers called the area Hunting Quarters, a name that hints at its fishing heritage.",
       "sourceSentenceIds": [
         5
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Roughly 75 percent of Sea Level floods during hurricanes, a fact that shapes local life.",
       "sourceSentenceIds": [
         6
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "US 70 runs through Sea Level, while the southern end of NC 12 begins right there.",
       "sourceSentenceIds": [
         9,
@@ -85,7 +84,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sea_Level%2C_North_Carolina",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sealevel-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.614,
+    "y": 0.5
+  }
 }

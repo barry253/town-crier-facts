@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Richfield%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Richfield%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Richfield%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Richfield%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,23 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/richfield_california"
+      "source": "https://grokipedia.com/page/richfield_california",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Richfield sits at 269 feet above sea level in Tehama County, California.",
-      "sourceSentenceIds": [
-        13,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Richfield%2C_California"
-    },
-    {
-      "id": 5,
       "text": "The town lies within Tehama County, formed in 1856 from parts of Butte, Colusa, and Shasta counties.",
       "sourceSentenceIds": [
         6
@@ -77,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/richfield_california"
+      "source": "https://grokipedia.com/page/richfield_california",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Richfield’s landscape features palm‑lined roads, historic barns, and fertile alluvial plains irrigated by the Sacramento River.",
       "sourceSentenceIds": [
         12
@@ -88,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/richfield_california"
+      "source": "https://grokipedia.com/page/richfield_california",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/richfield-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "LassenNPS",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brokeoff_(15168792867).jpg"
+  }
 }

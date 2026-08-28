@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eccles_cake"
+      "source": "https://en.wikipedia.org/wiki/Eccles_cake",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.townandvillageguide.com/Greater_Manchester/Eccles.html"
+      "source": "https://www.townandvillageguide.com/Greater_Manchester/Eccles.html",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eccles.org.uk/"
+      "source": "https://eccles.org.uk/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eccles.org.uk/"
+      "source": "https://eccles.org.uk/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eccles.org.uk/"
+      "source": "https://eccles.org.uk/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://eccles.org.uk/"
+      "source": "https://eccles.org.uk/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eccles-england.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.422,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Sean Whitton (User:Xyrael)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eccles_cake.jpg"
+  }
 }

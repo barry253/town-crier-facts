@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/hotevilla-bacavi-xx-navajo-profile.htm"
+      "source": "https://roadsidethoughts.com/az/hotevilla-bacavi-xx-navajo-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 6,310 feet above sea level, roughly 1.188 miles up.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/az/hotevilla-bacavi-xx-navajo-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Hotevilla-Bacavi lies within the Hopi Nation, specifically on Third Mesa.",
       "sourceSentenceIds": [
         25
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/hotevilla-bacavi-xx-navajo-profile.htm"
+      "source": "https://roadsidethoughts.com/az/hotevilla-bacavi-xx-navajo-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 1906, a group of Hopi residents expelled from Oraibi founded Hotevilla, known as the 'hostiles'.",
       "sourceSentenceIds": [
         3
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hotevilla-Bacavi%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Hotevilla-Bacavi%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "On December 2, 1911, the U.S. Army seized Hotevilla children, sending them to boarding schools.",
       "sourceSentenceIds": [
         4
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hotevilla-Bacavi%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Hotevilla-Bacavi%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The community is overwhelmingly Native American, with 96% of residents identifying as such.",
       "sourceSentenceIds": [
         15
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hotevilla-Bacavi%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Hotevilla-Bacavi%2C_Arizona",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hotevilla-bacavi-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jackson, William Henry, 1843-1942, photographer; Detroit Photographic Co., publisher",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thanksgiving_dance,_Oraibi,_Arizona_LCCN2017658704.jpg"
+  }
 }

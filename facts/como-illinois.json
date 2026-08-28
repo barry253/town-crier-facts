@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm"
+      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Como sits 620 feet above sea level, offering gentle hills typical of northern Illinois.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Como lies in Whiteside County, Illinois, placing it in the state's northwest region.",
       "sourceSentenceIds": [
         12
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm"
+      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Como observes Central Time and daylight saving, aligning its schedule with the rest of Illinois.",
       "sourceSentenceIds": [
         9
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm"
+      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town hosts an annual Apple Festival featuring carnival, arts, parade, and a queen pageant.",
       "sourceSentenceIds": [
         7
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://southernillinoistourism.org/"
+      "source": "https://southernillinoistourism.org/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Como is one of 24 U.S. communities sharing its name, including locations in Arkansas, California, and Wisconsin.",
       "sourceSentenceIds": [
         3
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm"
+      "source": "https://roadsidethoughts.com/il/como-xx-whiteside-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/como-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.51,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pdubs.94",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Falls_downtown_10-2024.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Rock Falls, Illinois"
+  }
 }

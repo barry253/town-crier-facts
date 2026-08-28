@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_harbor-hills"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_harbor-hills",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/ohio_harbor-hills"
+      "source": "https://www.trawellino.com/destinations/united-states/ohio_harbor-hills",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +97,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Harbor_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/harbor-hills-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.456,
+    "y": 0.498
+  }
 }

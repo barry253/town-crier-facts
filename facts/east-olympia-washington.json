@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +98,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/East_Olympia%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-olympia-washington.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "OceanLoop",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thurston_County_Courthouse,_aka_Capitol_Court_Building,_Olympia,_Washington,_June_23,_2025.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Thurston County, Washington"
+  }
 }

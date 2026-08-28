@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Surrency%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Surrency%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Surrency%2C_Georgia"
-    },
-    {
-      "id": 3,
-      "text": "Surrency sits at 31°43′27″N 82°11′55″W, a precise spot in Appling County, Georgia.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Surrency%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Surrency%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://georgia.hometownlocator.com/ga/appling/surrency.cfm"
+      "source": "https://georgia.hometownlocator.com/ga/appling/surrency.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-surrency.html"
+      "source": "https://www.citydirectory.us/town-surrency.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-surrency.html"
+      "source": "https://www.citydirectory.us/town-surrency.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/surrency-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bubba73 (Jud McCranie)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Appling_County_Courthouse,_Baxley,_GA,_US.jpg"
+  }
 }

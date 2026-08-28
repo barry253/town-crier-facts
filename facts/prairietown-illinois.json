@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairietown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Prairietown%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/prairietown-xx-madison-profile.htm"
+      "source": "https://roadsidethoughts.com/il/prairietown-xx-madison-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
-      "text": "The community sits 570 feet above sea level.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/prairietown-xx-madison-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Prairietown’s earliest documented mention appears in an 1895 atlas, though its founding date remains unknown.",
       "sourceSentenceIds": [
         11
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/prairietown-xx-madison-profile.htm"
+      "source": "https://roadsidethoughts.com/il/prairietown-xx-madison-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Water from Prairietown drains west toward Joulters Creek and east toward Sherry Creek, both feeding Cahokia Creek toward the Mississippi.",
       "sourceSentenceIds": [
         8
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairietown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Prairietown%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Prairietown is part of the Metro East region of Greater St. Louis.",
       "sourceSentenceIds": [
         6
@@ -84,7 +84,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairietown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Prairietown%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prairietown-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Madison_County_Courthouse,_Edwardsville.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Madison County, Illinois"
+  }
 }

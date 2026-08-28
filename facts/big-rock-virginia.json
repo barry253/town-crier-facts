@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Big_Rock%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Big_Rock%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Big_Rock%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Big_Rock%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Big_Rock%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Big_Rock%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The town sits 910 feet above sea level, offering a modest elevation for the region.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/big-rock-xx-buchanan-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Big Rock is located in Buchanan County, Virginia.",
       "sourceSentenceIds": [
         10
@@ -77,10 +73,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/big-rock-xx-buchanan-profile.htm"
+      "source": "https://roadsidethoughts.com/va/big-rock-xx-buchanan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Gazetteer notes that there are 12 communities named Big Rock across the United States, including one in Virginia.",
       "sourceSentenceIds": [
         1
@@ -88,7 +87,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/big-rock-xx-buchanan-profile.htm"
+      "source": "https://roadsidethoughts.com/va/big-rock-xx-buchanan-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/big-rock-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.646,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Magnolia677",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mine_in_Big_Rock,_Virginia.jpg"
+  }
 }

@@ -29,18 +29,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horton%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Horton%2C_Kansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town was named after Albert H., a local pioneer who helped establish the first post office.",
+      "text": "The town was named after Albert H. Horton, a local pioneer who helped establish the first post office.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horton%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Horton%2C_Kansas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-horton-kansas"
+      "source": "https://hometownhistorymaps.com/pages/history-of-horton-kansas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.travelks.com/places-to-visit/cities/horton/"
+      "source": "https://www.travelks.com/places-to-visit/cities/horton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.travelks.com/places-to-visit/cities/horton/"
+      "source": "https://www.travelks.com/places-to-visit/cities/horton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +97,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Horton%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Horton%2C_Kansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/horton-kansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ammodramus",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horton,_KS_post_office_from_SE_1.JPG"
+  }
 }

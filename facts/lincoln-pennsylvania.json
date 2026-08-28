@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,19 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "Lincoln sits at 40°17′27″N 79°51′5″W, just east of the Youghiogheny River and west of the Monongahela River.",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lincoln%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -91,7 +88,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://lincolnborough.com/index.html"
+      "source": "https://lincolnborough.com/index.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lincoln-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.767,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wylie_Run_along_Lovedale_Road.jpg"
+  }
 }

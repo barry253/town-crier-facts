@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Knox is a city in Benson County, North Dakota, United States.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Knox%2C_North_Dakota"
-    },
-    {
       "id": 2,
       "text": "Amtrak’s Empire Builder passes through Knox on BNSF tracks but makes no stop.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Knox%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Knox%2C_North_Dakota",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Knox%2C_North_Dakota"
+      "source": "https://en.wikipedia.org/wiki/Knox%2C_North_Dakota",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,18 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-knox-north-dakota.html"
-    },
-    {
-      "id": 5,
-      "text": "Requests for permits can be made through the local government office in Knox.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/city-knox-north-dakota.html"
+      "source": "https://www.citydirectory.us/city-knox-north-dakota.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,

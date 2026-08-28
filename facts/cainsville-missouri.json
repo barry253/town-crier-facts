@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cainsville began in 1854 when Peter Cain built a watermill on the site.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri"
-    },
-    {
-      "id": 2,
       "text": "By 1858 a post office, blacksmith shop, and trading post had sprung up, forming a small town.",
       "sourceSentenceIds": [
         8
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The town sits just half a mile west of the Harrison‑Mercer county line on the Thompson River floodplain.",
       "sourceSentenceIds": [
         9
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Cainsville lies at the crossroads of Missouri Routes N and V, about seven miles north of Mount Moriah.",
       "sourceSentenceIds": [
         10
@@ -62,22 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
-      "text": "The community sits 860 feet above sea level, making it the sixth‑most populous spot in Harrison County.",
-      "sourceSentenceIds": [
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/cainsville-xx-harrison-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Cainsville’s name honors its founder, Peter Cain, whose mill sparked the town’s early growth.",
       "sourceSentenceIds": [
         7
@@ -85,7 +70,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Cainsville%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cainsville-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Americasroof",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bethany-harrison.jpg"
+  }
 }

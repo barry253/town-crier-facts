@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,7 +64,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -73,19 +80,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada"
-    },
-    {
-      "id": 5,
-      "text": "The community is bounded by Charleston Boulevard to the north, Hualapai Way to the east, and Russell Road to the south.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Summerlin_South%2C_Nevada",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -96,7 +93,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Summerlin_South,_Nevada"
+      "source": "https://kids.kiddle.co/Summerlin_South,_Nevada",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/summerlin-south-nevada.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Coolcaesar at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clarkcountygovernmentcenter.jpg"
+  }
 }

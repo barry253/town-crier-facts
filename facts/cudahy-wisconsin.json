@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cudahy%2C_Wisconsin"
+      "source": "https://en.wikipedia.org/wiki/Cudahy%2C_Wisconsin",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cudahy-wi.gov/visitors/index.php"
+      "source": "https://www.cudahy-wi.gov/visitors/index.php",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cudahy-wi.gov/visitors/index.php"
+      "source": "https://www.cudahy-wi.gov/visitors/index.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cudahy%2C_Wisconsin"
-    },
-    {
-      "id": 5,
-      "text": "The city’s coordinates are 42°56′54″N 87°51′40″W, placing it firmly on Wisconsin’s western shore.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cudahy%2C_Wisconsin"
+      "source": "https://en.wikipedia.org/wiki/Cudahy%2C_Wisconsin",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cudahyhistoricalsociety.org/"
+      "source": "https://www.cudahyhistoricalsociety.org/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cudahy-wisconsin.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Sulfur at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patrick_Cudahy.jpg"
+  }
 }

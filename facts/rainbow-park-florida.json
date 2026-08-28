@@ -21,39 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rainbow Park sits northwest of Florida State Road 40, about 14 miles west of Ocala and 10 miles northeast of Dunnellon.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rainbow_Park%2C_Florida"
-    },
-    {
-      "id": 2,
-      "text": "Rainbow Park is included in the Ocala, Florida Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rainbow_Park%2C_Florida"
-    },
-    {
-      "id": 3,
-      "text": "The town’s center is at latitude 29.1669 and longitude –82.3743 in Marion County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/marion/rainbow-park.cfm"
-    },
-    {
       "id": 4,
       "text": "Marion County, where Rainbow Park lies, observes Eastern Standard Time, shifting to daylight saving in summer.",
       "sourceSentenceIds": [
@@ -62,18 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://florida.hometownlocator.com/fl/marion/rainbow-park.cfm"
-    },
-    {
-      "id": 5,
-      "text": "Rainbow Park is a census-designated place, meaning it has no municipal government and relies on county services.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://florida.hometownlocator.com/fl/marion/rainbow-park.cfm"
+      "source": "https://florida.hometownlocator.com/fl/marion/rainbow-park.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +43,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.floridaspringscouncil.org/rainbow"
+      "source": "https://www.floridaspringscouncil.org/rainbow",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rainbow-park-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FL_East_Lake_Weir_post_office01.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "East Lake Weir, Florida"
+  }
 }

@@ -29,43 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village sits in the western part of Will County, southeast of Pecatonica Township and partly in Burritt Township.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "Westlake Village lies 5 miles northwest of Winnebago and 11 miles west‑northwest of Rockford.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois"
-    },
-    {
-      "id": 4,
-      "text": "The community rests at 620 feet above sea level.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/westlake-xx-will-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "All residents live in rural areas, with 100 % of the population classified as rural.",
       "sourceSentenceIds": [
         20
@@ -73,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "The Westlake Village Homeowners Association oversees local community matters and neighborhood events.",
       "sourceSentenceIds": [
         23
@@ -84,7 +56,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Westlake_Village%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/westlake-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Department of Agriculture . Preston Keres/Office of Communications-Photography Services Center",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20170506-OC-PJK-0243_1_(34111882220).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Summerset, Illinois"
+  }
 }

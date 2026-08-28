@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/lacoste-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/lacoste-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.gomedinacounty.com/lacoste"
+      "source": "https://www.gomedinacounty.com/lacoste",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/LaCoste%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/LaCoste%2C_Texas",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,29 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/LaCoste%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "The median age of LaCoste residents is 32 years, reflecting a relatively young community.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/LaCoste%2C_Texas"
-    },
-    {
-      "id": 6,
-      "text": "LaCoste’s racial makeup is 79.6% White, 1.4% African American, 1.2% Native American, 0.4% Asian, 14.0% other races, and 3.4% two or more races.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/LaCoste%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/LaCoste%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lacoste-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.205,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_LaCoste_Wiki_(1_of_1).jpg"
+  }
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bruceville was named for Lucien N., whose land donation helped build the railroad station that opened in 1882.",
+      "text": "Bruceville was named for Lucien N. Bruce, whose land donation helped build the railroad station that opened in 1882.",
       "sourceSentenceIds": [
         6,
         7,
@@ -36,7 +36,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -47,7 +49,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -59,7 +63,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bruceville-Eddy%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bruceville-eddy-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bruceville-Eddy_First_National_Bank_Wiki-1.jpg"
+  }
 }

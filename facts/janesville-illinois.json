@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Janesville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Janesville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,21 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Janesville sits 680 feet above sea level, giving it a modest hilltop feel.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Seven U.S. communities share the name Janesville, from California to Wisconsin.",
       "sourceSentenceIds": [
         1
@@ -74,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town’s pronunciation is “JAYNZ‑vil,” a detail often noted by locals and visitors alike.",
       "sourceSentenceIds": [
         9
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm"
+      "source": "https://roadsidethoughts.com/il/janesville-xx-cumberland-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/janesville-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bubba73 (Jud McCranie)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coles_County,_IL,_USA_courthouse.JPG"
+  }
 }

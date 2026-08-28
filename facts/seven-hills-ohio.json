@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://case.edu/ech/articles/s/seven-hills"
-    },
-    {
-      "id": 3,
-      "text": "Geographically, Seven Hills sits at 41°23′16″N 81°40′31″W, just north of downtown Cleveland.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio"
+      "source": "https://case.edu/ech/articles/s/seven-hills",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Seven_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seven-hills-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.455,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Froelich_House.jpg"
+  }
 }

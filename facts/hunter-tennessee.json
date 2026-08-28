@@ -29,22 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community sits at 36°22′36″N 82°9′18″W, just north of the Watauga River and south of Holston Mountain.",
-      "sourceSentenceIds": [
-        4,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee"
-    },
-    {
-      "id": 3,
       "text": "Hunter is a suburb of Elizabethton, sharing the same local culture and history.",
       "sourceSentenceIds": [
         3
@@ -52,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Carter County Schools operate Hunter Elementary (PK‑8) and Unaka Elementary (PK‑8), while Unaka High serves grades 9‑12.",
       "sourceSentenceIds": [
         13
@@ -63,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Hunter%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
-      "text": "In 2024, Hunter’s median household income is estimated at $53,603, up from $30,968 in 2000.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.city-data.com/city/Hunter-Tennessee.html"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "The 2024 cost‑of‑living index for Hunter is 81.3, below the national average of 100.",
       "sourceSentenceIds": [
         28
@@ -85,7 +71,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Hunter-Tennessee.html"
+      "source": "https://www.city-data.com/city/Hunter-Tennessee.html",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hunter-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hunter-Carter-County-tn1.jpg"
+  }
 }

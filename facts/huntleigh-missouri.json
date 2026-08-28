@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://huntleigh.org/history/"
+      "source": "https://huntleigh.org/history/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 3,
@@ -53,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://huntleigh.org/history/"
+      "source": "https://huntleigh.org/history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -86,7 +99,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Huntleigh%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/huntleigh-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.51,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Charles_County_Missouri_Courthouse_20141018_A.jpg"
+  }
 }

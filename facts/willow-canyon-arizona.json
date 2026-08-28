@@ -22,18 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Willow Canyon sits at about 6,970 feet above sea level, roughly a quarter mile higher than sea level.",
-      "sourceSentenceIds": [
-        5,
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm"
-    },
-    {
-      "id": 2,
       "text": "The community’s name appears in an 1895 atlas, indicating it existed over a century ago.",
       "sourceSentenceIds": [
         12
@@ -41,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm"
+      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Willow Canyon’s elevation estimate varies across the area, with some spots higher and others lower.",
       "sourceSentenceIds": [
         26
@@ -52,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm"
+      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "A list of cemeteries around Willow Canyon is available, offering an overhead view of burial sites.",
       "sourceSentenceIds": [
         9,
@@ -64,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm"
+      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical newspapers from the Willow Canyon area are catalogued, giving insight into local journalism history.",
       "sourceSentenceIds": [
         14,
@@ -76,10 +72,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm"
+      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The official Pima County website provides resources for residents, including utility billing and trash services.",
       "sourceSentenceIds": [
         25
@@ -87,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm"
+      "source": "https://roadsidethoughts.com/az/willow-canyon-xx-pima-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/willow-canyon-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gillfoto",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pima_County_Courthouse_10.JPG"
+  }
 }

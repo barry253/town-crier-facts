@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Northwood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Northwood%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The town rests at about 990 feet above sea level, giving it a mild hilltop climate.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A commemorative quarter featuring Northwood was issued, celebrating the town’s heritage.",
       "sourceSentenceIds": [
         27
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Historical records show Northwood once had a post office and railroad service, key to its early growth.",
       "sourceSentenceIds": [
         3
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Northwood is one of two Pennsylvania communities with that name; the other lies in Philadelphia County.",
       "sourceSentenceIds": [
         1
@@ -73,7 +70,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/northwood-xx-blair-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/northwood-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
+  }
 }

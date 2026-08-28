@@ -29,29 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia"
-    },
-    {
-      "id": 2,
-      "text": "Rock Spring is part of the Chattanooga, TN‑GA Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia"
-    },
-    {
-      "id": 3,
-      "text": "The nearest major city is Chattanooga, with Chickamauga and La Fayette as the closest incorporated towns.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +42,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
-      "text": "Walker County moved its tag and tax office to a former bank building at US 27 and Hwy 95.",
+      "text": "Walker County moved its tag and tax office to a former bank building at US 27 and Highway 95.",
       "sourceSentenceIds": [
         7
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rock_Spring%2C_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,5 +72,16 @@
       ],
       "source": "https://walkercountyga.gov/government/board-of-commissioners/boards-commissions-committees-of-walker-county/tourism/"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rock-spring-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.787,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "BombDiggady",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lookout_Mountain_From_Rock_Spring.JPG"
+  }
 }

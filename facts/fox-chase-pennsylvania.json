@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://philadelphiabeautiful.com/fox-chase/"
+      "source": "https://philadelphiabeautiful.com/fox-chase/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,18 +47,22 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fox_Chase%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Fox_Chase%2C_Philadelphia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Fox Chase’s Memorial Presbyterian Church, founded in 1884, stands at 7902 Oxford Ave and is one of the neighborhood’s oldest religious institutions.",
+      "text": "Fox Chase’s Memorial Presbyterian Church, founded in 1884, stands at 7902 Oxford Avenue and is one of the neighborhood’s oldest religious institutions.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fox_Chase%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Fox_Chase%2C_Philadelphia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fox_Chase%2C_Philadelphia"
+      "source": "https://en.wikipedia.org/wiki/Fox_Chase%2C_Philadelphia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fox-chase-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Coemgenus at en.wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fox_Chase_Farm.JPG"
+  }
 }

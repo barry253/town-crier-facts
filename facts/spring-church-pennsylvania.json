@@ -21,39 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Spring Church sits in Armstrong County, Pennsylvania, an unincorporated community with a quiet rural feel.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Church%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town lies along Pennsylvania Route 56, just 4.4 miles east‑northeast of Apollo.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Church%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Spring Church’s geographic coordinates are 40.6062° N latitude and 79.4889° W longitude.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/spring-church.cfm"
-    },
-    {
       "id": 4,
       "text": "The community’s name reflects its historic roots in early American church settlements.",
       "sourceSentenceIds": [
@@ -62,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Church%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_Church%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Spring_Church%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Spring_Church%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +56,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/spring-church.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/armstrong/spring-church.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spring-church-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kittanning,_Pennsylvania_(8482749220).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Armstrong County, Pennsylvania"
+  }
 }

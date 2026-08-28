@@ -22,31 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Tierra Grande sits at 27°41′44″N 97°34′47″W, right on the Gulf Coast of Texas.",
-      "sourceSentenceIds": [
-        4,
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Grande%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The town rises just 50 feet above sea level, giving it a low‑lying coastal feel.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tx/tierra-grande-xx-nueces-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Located in Nueces County, Tierra Grande shares its county seat with Corpus Christi.",
       "sourceSentenceIds": [
         16
@@ -54,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/tierra-grande-xx-nueces-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/tierra-grande-xx-nueces-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "The community contains 116 housing units, spread over a modest 4.7 square miles.",
       "sourceSentenceIds": [
         5
@@ -65,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Grande%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Tierra_Grande%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Del Mar College serves as the designated community college for all of Nueces County, including Tierra Grande.",
       "sourceSentenceIds": [
         13
@@ -76,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tierra_Grande%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Tierra_Grande%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Tierra Grande is highlighted on Texas’s commemorative quarter, celebrating its local heritage.",
       "sourceSentenceIds": [
         14
@@ -87,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/tierra-grande-xx-nueces-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/tierra-grande-xx-nueces-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tierra-grande-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nueces_county_courthouse.jpg"
+  }
 }

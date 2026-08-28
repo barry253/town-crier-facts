@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Niskayuna_(CDP)%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 42°49′2″N 73°53′51″W, placing it just north of the Mohawk River.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Niskayuna_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Niskayuna_(CDP)%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.niskayuna.gov/about_niskayuna/"
+      "source": "https://www.niskayuna.gov/about_niskayuna/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.niskayuna.gov/about_niskayuna/"
+      "source": "https://www.niskayuna.gov/about_niskayuna/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.niskayuna.gov/about_niskayuna/"
+      "source": "https://www.niskayuna.gov/about_niskayuna/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.niskayuna.gov/about_niskayuna/"
+      "source": "https://www.niskayuna.gov/about_niskayuna/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/niskayuna-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "UpstateNYer",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nott_and_Chapel.JPG"
+  }
 }

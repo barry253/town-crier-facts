@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/vicksburg-xx-union-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/vicksburg-xx-union-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,29 +44,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/vicksburg-xx-union-profile.htm"
-    },
-    {
-      "id": 3,
-      "text": "Vicksburg rises 530 feet above sea level, giving it a modest elevation within the region.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/vicksburg-xx-union-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "Vicksburg’s coordinates are still marked as needing verification, a reminder of the town’s small, unincorporated nature.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/vicksburg-xx-union-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/vicksburg-xx-union-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vicksburg-pennsylvania.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "BotMultichill",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
+  }
 }

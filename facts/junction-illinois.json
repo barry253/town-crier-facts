@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Junction City is a village in Marion County, Illinois, United States, today.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "The village sits 3 miles south of Sandoval, 4 miles north of Centralia, and 12 miles west-southwest of Salem, the county seat.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois"
-    },
-    {
       "id": 3,
       "text": "Water from Junction City flows south into tributaries of Crooked Creek, a west‑flowing branch of the Kaskaskia River.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Junction_City%2C_Illinois",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-junction-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-junction-city-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-junction-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-junction-city-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-junction-city-illinois.html"
+      "source": "https://www.citydirectory.us/village-junction-city-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/junction-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaskaskia_River_Illinois_and_barges.jpg"
+  }
 }

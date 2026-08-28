@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "Storrs’ median age is just 20.6 years, reflecting its large student population.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Storrs%2C_Connecticut"
-    },
-    {
-      "id": 5,
       "text": "Storrs sits in Connecticut’s culturally rich, geographically diverse state, offering a blend of historic charm and modern amenities.",
       "sourceSentenceIds": [
         10
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travel.nears.me/countries/united-states/storrs-connecticut-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/storrs-connecticut-travel-guide/",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town’s climate and seasonal patterns shape every visitor experience, from spring blossoms to winter sports.",
       "sourceSentenceIds": [
         8
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://travel.nears.me/countries/united-states/storrs-connecticut-travel-guide/"
+      "source": "https://travel.nears.me/countries/united-states/storrs-connecticut-travel-guide/",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/storrs-connecticut.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.256,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Artsistra",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WRTD_Route_674B_bus_in_Storrs.jpg"
+  }
 }

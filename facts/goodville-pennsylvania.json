@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goodville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Goodville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goodville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Goodville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goodville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Goodville%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/goodville-xx-lancaster-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/goodville-xx-lancaster-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Goodville rests 530 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/goodville-xx-lancaster-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Two Pennsylvania communities share the name Goodville, one in Lancaster County and another in Juniata County.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/goodville-xx-lancaster-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/goodville-xx-lancaster-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/goodville-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.609,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goodville_Pennsylvania_State_Route_23.jpg"
+  }
 }

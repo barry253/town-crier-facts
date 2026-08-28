@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cressontx.org/general/page/about-us"
+      "source": "https://www.cressontx.org/general/page/about-us",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cresson%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Cresson%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cresson%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Cresson%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cresson-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  }
 }

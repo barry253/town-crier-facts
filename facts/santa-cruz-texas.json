@@ -22,25 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Santa Cruz was named after the Santa Cruz de Concepción land grant that once covered the area.",
+      "text": "Santa Cruz was named after the Santa Cruz de Concepci\u00f3n land grant that once covered the area.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 26°21′13″ N, 98°46′3″ W, a spot that places it in southeastern Duval County, Texas.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Cruz%2C_Starr_County%2C_Texas"
+      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +42,23 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county"
+      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "By 1947 Santa Cruz had only one business operating, reflecting its small‑town character.",
+      "text": "By 1947 Santa Cruz had only one business operating, reflecting its small\u2011town character.",
       "sourceSentenceIds": [
         18
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county"
+      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county"
+      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +84,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county"
+      "source": "https://www.tshaonline.org/handbook/entries/santa-cruz-tx-duval-county",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://avim.parks.ca.gov/"
+      "source": "https://avim.parks.ca.gov/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://avim.parks.ca.gov/"
+      "source": "https://avim.parks.ca.gov/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +84,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +99,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Antelope%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/antelope-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "7 Zeta",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antelope,_California.jpg"
+  }
 }

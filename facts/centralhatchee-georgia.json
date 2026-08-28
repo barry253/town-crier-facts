@@ -32,7 +32,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.townofcentralhatchee.com/"
+      "source": "https://www.townofcentralhatchee.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,11 +45,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Centralhatchee%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Centralhatchee%2C_Georgia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town’s public library, part of the West Georgia Regional Library system, opens Tuesday through Friday at 171 Notnomis Rd.",
+      "text": "The town’s public library, part of the West Georgia Regional Library system, opens Tuesday through Friday at 171 Notnomis Road.",
       "sourceSentenceIds": [
         3,
         4
@@ -55,11 +59,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofcentralhatchee.com/"
+      "source": "https://www.townofcentralhatchee.com/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
-      "text": "Centralhatchee City Park, located at 139 Nutt Rd, centers a veterans memorial and hosts a baseball field, basketball court, and tennis court.",
+      "text": "Centralhatchee City Park, located at 139 Nutt Road, centers a veterans memorial and hosts a baseball field, basketball court, and tennis court.",
       "sourceSentenceIds": [
         23,
         24,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofcentralhatchee.com/"
+      "source": "https://www.townofcentralhatchee.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +90,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofcentralhatchee.com/"
+      "source": "https://www.townofcentralhatchee.com/",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofcentralhatchee.com/"
+      "source": "https://www.townofcentralhatchee.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/centralhatchee-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.594,
+    "y": 0.499
+  }
 }

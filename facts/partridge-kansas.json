@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Partridge is a city in Reno County, Kansas, located in the heart of the Great Plains.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas"
-    },
-    {
       "id": 2,
       "text": "The town was laid out in 1886 and became an incorporated city in 1906.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Partridge%2C_Kansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
   ]
 }

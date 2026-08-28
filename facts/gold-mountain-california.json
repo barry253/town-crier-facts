@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Gold Mountain sits at an elevation of 5,341 feet, giving it a high‑altitude feel even before you hit the road.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gold_Mountain%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Empire Mine State Historic Park houses one of California’s oldest, deepest, and richest gold mines, a legacy of the Gold Rush era.",
       "sourceSentenceIds": [
         7
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/EmpireMine/"
+      "source": "https://www.parks.ca.gov/EmpireMine/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The park’s mine network stretches 367 miles of abandoned and flooded shafts, a vast underground labyrinth beneath the town.",
       "sourceSentenceIds": [
         8
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/EmpireMine/"
+      "source": "https://www.parks.ca.gov/EmpireMine/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "A 45‑minute guided tour of the historic grounds is included with your entry fee, letting you see the mine’s highlights.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/EmpireMine/"
+      "source": "https://www.parks.ca.gov/EmpireMine/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Dogs are welcome on roads and trails within the park, but they cannot enter historic buildings or mine shafts.",
       "sourceSentenceIds": [
         5,
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/EmpireMine/"
+      "source": "https://www.parks.ca.gov/EmpireMine/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Bodie State Historic Park, nearby, is celebrated as one of California’s best preserved ghost towns, echoing Gold Rush history.",
       "sourceSentenceIds": [
         13
@@ -85,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://theatlasheart.com/bodie-state-park/"
+      "source": "https://theatlasheart.com/bodie-state-park/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gold-mountain-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portola_Regional_Courthouse.png"
+  }
 }

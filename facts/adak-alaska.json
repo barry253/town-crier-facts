@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Adak sits 1,200 miles southwest of Anchorage, making it the westernmost city in the United States and a remote outpost of Alaska.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://thetundradrums.com/interesting-facts-about-adak-city-ak/"
-    },
-    {
       "id": 2,
       "text": "During World War II and the Cold War, Adak hosted a naval air station that peaked at over 6,000 personnel, making it a bustling military hub.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adak%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Adak%2C_Alaska",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +44,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thetundradrums.com/interesting-facts-about-adak-city-ak/"
+      "source": "https://thetundradrums.com/interesting-facts-about-adak-city-ak/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -64,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adak%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Adak%2C_Alaska",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -75,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adak%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Adak%2C_Alaska",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +87,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thetundradrums.com/interesting-facts-about-adak-city-ak/"
+      "source": "https://thetundradrums.com/interesting-facts-about-adak-city-ak/",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

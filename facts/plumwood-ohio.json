@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Plumwood was laid out on December 23, 1895 by Charles F., marking the town’s official founding.",
+      "text": "Plumwood was laid out on December 23, 1895 by Charles F. Sanford, marking the town’s official founding.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Plumwood%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/oh/plumwood-xx-madison-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Plumwood rests about 1,000 feet above sea level, giving it a modest elevation within Madison County.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/oh/plumwood-xx-madison-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/plumwood-xx-madison-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plumwood-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.663,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monroe_Township_hall_at_Plumwood.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee"
-    },
-    {
-      "id": 4,
-      "text": "Parsons sits at 35.6488°N 88.1234°W, right in the heart of Decatur County.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Parsons%2C_Tennessee",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.prismnews.com/local/decatur-tn/parsons-museum-highlights-railroad-roots-anchors-downtown-visitor-experience"
+      "source": "https://www.prismnews.com/local/decatur-tn/parsons-museum-highlights-railroad-roots-anchors-downtown-visitor-experience",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parsons-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ThaesOfereode",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parsons,_Tennessee_(2024).jpg"
+  }
 }

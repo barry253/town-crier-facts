@@ -30,21 +30,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The town’s elevation reaches 840 feet above sea level, offering gentle hills typical of the region.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Muir in 1892, marking its emergence as a recognized community.",
       "sourceSentenceIds": [
         9
@@ -52,10 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Muir shares its name with nine other U.S. communities, including ones in Arkansas, California, and Kentucky.",
       "sourceSentenceIds": [
         1
@@ -63,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm",
+      "category": "other",
+      "quality": "poor"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Nearby communities Reinerton and Orwin border Muir, forming a small cluster of historic settlements.",
       "sourceSentenceIds": [
         5
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muir%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Muir%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Exact founding date of Muir remains unknown, a common mystery for many 19th‑century towns.",
       "sourceSentenceIds": [
         9
@@ -85,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/muir-xx-schuylkill-profile.htm",
+      "category": "other",
+      "quality": "poor"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/muir-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Own work ( Original text: self-made )",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wiconiscoavemuri.JPG"
+  }
 }

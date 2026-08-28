@@ -29,23 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 449 feet above sea level.",
-      "sourceSentenceIds": [
-        8,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia"
-    },
-    {
-      "id": 3,
       "text": "US Route 17 splits from Routes 15 and 29 in Opal, heading southeast toward Fredericksburg.",
       "sourceSentenceIds": [
         10
@@ -53,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The northern and eastern parts of Opal drain into the Potomac River via Licking Run, Cedar Run, and the Occoquan River.",
       "sourceSentenceIds": [
         12
@@ -64,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Opal%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Opal’s early records note a post office and railroad service, reflecting its 19th‑century growth.",
       "sourceSentenceIds": [
         5
@@ -75,7 +70,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/opal-xx-fauquier-profile.htm"
+      "source": "https://roadsidethoughts.com/va/opal-xx-fauquier-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/opal-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ser Amantio di Nicolao",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Opal,_Virginia.JPG"
+  }
 }

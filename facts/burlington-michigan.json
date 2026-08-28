@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burlington%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Burlington%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burlington%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Burlington%2C_Michigan",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Burlington%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Burlington%2C_Michigan",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-burlington-michigan.html"
+      "source": "https://www.citydirectory.us/village-burlington-michigan.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-burlington-michigan.html"
+      "source": "https://www.citydirectory.us/village-burlington-michigan.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +98,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-burlington-michigan.html"
+      "source": "https://www.citydirectory.us/village-burlington-michigan.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/burlington-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Coemgenus (talk) (Uploads)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Battle_Creek.JPG"
+  }
 }

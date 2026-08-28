@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dhr.virginia.gov/historic-registers/060-0224/"
+      "source": "https://www.dhr.virginia.gov/historic-registers/060-0224/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.dhr.virginia.gov/historic-registers/060-0224/"
+      "source": "https://www.dhr.virginia.gov/historic-registers/060-0224/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -78,7 +87,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +101,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Prices_Fork%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prices-fork-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Skye Marthaler",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montgomery_County_Courthouse_-_new.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Montgomery County, Virginia"
+  }
 }

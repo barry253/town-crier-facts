@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Wilkesville is a village in Vinton County, Ohio, United States, known for its rich Appalachian heritage.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio"
-    },
-    {
       "id": 2,
       "text": "Wilkesville was laid out in 1810 and named after its original owner, Wilkes.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Wilkesville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.discovervintoncounty.com/"
+      "source": "https://www.discovervintoncounty.com/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +82,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.discovervintoncounty.com/"
+      "source": "https://www.discovervintoncounty.com/",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wilkesville-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilkesville_Presbyterian_Church.jpg"
+  }
 }

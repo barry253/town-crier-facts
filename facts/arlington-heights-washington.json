@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ahpd.org/arlington-heights-historical-museum/"
+      "source": "https://www.ahpd.org/arlington-heights-historical-museum/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ahpd.org/arlington-heights-historical-museum/"
+      "source": "https://www.ahpd.org/arlington-heights-historical-museum/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arlingtonwa.org/our-historic-city/"
+      "source": "https://arlingtonwa.org/our-historic-city/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arlingtonwa.org/our-historic-city/"
+      "source": "https://arlingtonwa.org/our-historic-city/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arlingtonwa.org/our-historic-city/"
+      "source": "https://arlingtonwa.org/our-historic-city/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://arlingtonwa.org/our-historic-city/"
+      "source": "https://arlingtonwa.org/our-historic-city/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/arlington-heights-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  }
 }

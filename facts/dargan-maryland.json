@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Dargan sits at latitude 39.3773 and longitude –77.733, right in the heart of Washington County, Maryland.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://maryland.hometownlocator.com/md/washington/dargan.cfm"
-    },
-    {
       "id": 2,
       "text": "Dargan is an unincorporated community, meaning it has no city council or mayor of its own.",
       "sourceSentenceIds": [
@@ -41,7 +30,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dargan,_Maryland"
+      "source": "https://kids.kiddle.co/Dargan,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +45,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dargan,_Maryland"
+      "source": "https://kids.kiddle.co/Dargan,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,7 +60,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dargan,_Maryland"
+      "source": "https://kids.kiddle.co/Dargan,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dargan,_Maryland"
+      "source": "https://kids.kiddle.co/Dargan,_Maryland",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +88,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/washington/dargan.cfm"
+      "source": "https://maryland.hometownlocator.com/md/washington/dargan.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dargan-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2019-07-14_13_12_11_View_west_along_Interstate_68_and_U.S._Route_40_(National_Freeway)_from_the_Victor_Cushwa_Memorial_Bridge_as_it_passes_through_the_Sideling_Hill_Road_Cut_in_Forest_Park,_Washington_County,_Maryland.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Washington County, Maryland"
+  }
 }

@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Doyle sits high in the Sierra, rising to 4,270 feet above sea level.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm"
-    },
-    {
-      "id": 2,
       "text": "The town’s post office first opened its doors in 1908, marking the start of formal communication.",
       "sourceSentenceIds": [
         9
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "California actually has two places named Doyle—one in Lassen County and another in Tulare County.",
       "sourceSentenceIds": [
         1
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Doyle is firmly rooted in Lassen County, a detail that appears in every official record.",
       "sourceSentenceIds": [
         8
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical maps from 1895 show Doyle as a small community with a post office and railroad service.",
       "sourceSentenceIds": [
         4
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A dedicated cemetery list chronicles the graves of Doyle’s early settlers, preserving the town’s heritage.",
       "sourceSentenceIds": [
         25
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/doyle-xx-lassen-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/doyle-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.85,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Don Graham from Redlands, CA, USA - God bless it!",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mt_Whitney,_CA_6-20-16_(27765952931)_(cropped).jpg"
+  }
 }

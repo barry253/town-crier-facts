@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illiopolis.illinois.gov/community/about-illiopolis/"
+      "source": "https://illiopolis.illinois.gov/community/about-illiopolis/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://sangamon.illinoisgenweb.org/twp-illio.htm"
+      "source": "https://sangamon.illinoisgenweb.org/twp-illio.htm",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://sangamon.illinoisgenweb.org/twp-illio.htm"
+      "source": "https://sangamon.illinoisgenweb.org/twp-illio.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illiopolis.illinois.gov/community/about-illiopolis/"
+      "source": "https://illiopolis.illinois.gov/community/about-illiopolis/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://illiopolis.illinois.gov/community/about-illiopolis/"
+      "source": "https://illiopolis.illinois.gov/community/about-illiopolis/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/illiopolis-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.313,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sangamon_Ordnance_Plant_ruins.jpg"
+  }
 }

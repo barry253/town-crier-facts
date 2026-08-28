@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carlisle%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "It sits at 34°47′10″N 91°44′41″W, placing it firmly in the heart of Arkansas's eastern plains.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carlisle%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Carlisle%2C_Arkansas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Carlisle%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Carlisle%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.carlislear.org/"
+      "source": "https://www.carlislear.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,18 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.carlislear.org/"
-    },
-    {
-      "id": 6,
-      "text": "Proximity to Little Rock gives residents access to metropolitan amenities while preserving a small‑town feel.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.carlislear.org/"
+      "source": "https://www.carlislear.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carlisle-arkansas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brandonrush",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lonoke,_AR_001.jpg"
+  }
 }

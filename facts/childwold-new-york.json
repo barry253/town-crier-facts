@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Childwold%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Childwold%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Childwold%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Childwold%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tupperlake.com/story/2015/10/destination-childwold"
+      "source": "https://www.tupperlake.com/story/2015/10/destination-childwold",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/childwold-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/childwold-xx-saint-lawrence-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/childwold-xx-saint-lawrence-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "At 1,620 feet above sea level, Childwold enjoys a higher elevation than many nearby towns.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/childwold-xx-saint-lawrence-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/childwold-xx-saint-lawrence-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/childwold-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Childwold_Memorial_Presbyterian_Church_02.jpg"
+  }
 }

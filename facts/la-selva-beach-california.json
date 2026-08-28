@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "La Selva Beach sits 151 feet above sea level, a modest rise that keeps it safe from tides.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California"
-    },
-    {
-      "id": 4,
       "text": "The town lies near the San Andreas Fault and felt the tremors of the 1989 Loma Prieta earthquake.",
       "sourceSentenceIds": [
         9
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Triangle Park, the community’s central green, features a triangular layout, a world‑flag sculpture, and a horseshoe pit.",
       "sourceSentenceIds": [
         26,
@@ -77,10 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Just east of town, Manresa State Beach offers locals a spot to fish, surf, and boogie board.",
       "sourceSentenceIds": [
         24
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/La_Selva_Beach%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/la-selva-beach-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DanDawson at English Wikipedia . ( Original text: en:User:DanDawson )",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monterey_Bay_Academy_2005-04-21.jpg"
+  }
 }

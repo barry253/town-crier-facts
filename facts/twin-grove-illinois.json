@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Twin Grove sits on both sides of Illinois Route 9 in western McLean County.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Twin_Grove%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "The town lies just five miles west of Bloomington, the county seat.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Twin_Grove%2C_Illinois"
-    },
-    {
-      "id": 3,
       "text": "Kings Mill Creek runs through Twin Grove, feeding the Middle Fork of Sugar Creek and eventually the Illinois River.",
       "sourceSentenceIds": [
         6
@@ -51,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Twin_Grove%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Twin_Grove%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Sunrise in Twin Grove is at 6:09 AM while sunset is at 8:10 PM, giving a 14‑hour day.",
       "sourceSentenceIds": [
         2
@@ -62,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": ""
+      "source": "",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "The community enjoys a moderate climate with temperatures around 18‑19 °C and mild breezes.",
       "sourceSentenceIds": [
         22
@@ -73,18 +56,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": ""
-    },
-    {
-      "id": 6,
-      "text": "Twin Grove has a homeowner vacancy rate of 1.5 % and no rental vacancies.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Twin_Grove%2C_Illinois"
+      "source": "",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/twin-grove-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael from Palatine, Illinois",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:McLean_County_Courthouse_and_Square_(7436726814).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "McLean County, Illinois"
+  }
 }

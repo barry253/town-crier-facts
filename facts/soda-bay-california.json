@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Soda Bay sits on Clear Lake, 7.5 miles east‑southeast of Lakeport, at an elevation of 1,398 feet.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Soda_Bay%2C_California"
-    },
-    {
-      "id": 2,
       "text": "By 1910, the Soda Bay Springs resort could host 150 guests in its health‑retreat accommodations.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Soda_Bay%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Soda_Bay%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The area is famed for geothermal activity, with hot springs and mineral‑rich waters historically used for healing retreats.",
       "sourceSentenceIds": [
         15
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay"
+      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Soda Bay’s proximity to the Geysers, the world’s largest geothermal field, draws visitors to its volcanic landscape.",
       "sourceSentenceIds": [
         16
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay"
+      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Lakeside diners often serve fresh catfish or bass, grilled or fried, showcasing the local culinary tradition.",
       "sourceSentenceIds": [
         4
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay"
+      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Sunrise in Soda Bay occurs at 07:24 and sunset at 20:09, giving a daylight span of 12 hours and 45 minutes.",
       "sourceSentenceIds": [
         1
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay"
+      "source": "https://www.trawellino.com/destinations/united-states/california_soda-bay",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/soda-bay-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Urban~commonswiki",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ClearLakeCA.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Clear Lake (California)"
+  }
 }

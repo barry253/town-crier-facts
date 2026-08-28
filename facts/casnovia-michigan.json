@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,32 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Main Street runs north‑south along the Muskegon‑Kent county line, literally marking the border between the two counties.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan"
-    },
-    {
-      "id": 5,
-      "text": "Casnovia sits on the boundary between Muskegon and Kent counties, lying partially in each.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan"
-    },
-    {
-      "id": 6,
       "text": "Located in western Michigan, Casnovia occupies the eastern part of Muskegon County and the northwest part of Kent County.",
       "sourceSentenceIds": [
         10
@@ -84,7 +68,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Casnovia%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/casnovia-michigan.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Al Rau",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_in_Kent_County,_Michigan,_USA_(85521817).jpg"
+  }
 }

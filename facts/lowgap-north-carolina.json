@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
-      "text": "The town sits at an elevation of 1,440 feet, offering a mild mountain climate.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina"
-    },
-    {
-      "id": 4,
       "text": "A post office, a library, a fire department, and several churches form the heart of Lowgap.",
       "sourceSentenceIds": [
         20
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The library occupies the former Lowgap School building, preserving a piece of local history.",
       "sourceSentenceIds": [
         20
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Lowgap’s location in the Blue Ridge Mountains makes it a quiet retreat for nature lovers.",
       "sourceSentenceIds": [
         1
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Lowgap%2C_North_Carolina",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lowgap-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Thomas",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainy_Blue_Ridge-27527.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Blue Ridge Mountains"
+  }
 }

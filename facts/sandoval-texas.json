@@ -21,30 +21,21 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sandoval sits on Farm Road 1063, about thirty‑nine miles northeast of Austin in Williamson County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/sandoval-tx"
-    },
-    {
       "id": 2,
-      "text": "The town’s name likely honors Manuel de Sandoval, the Spanish governor of Texas from 1734 to 1736.",
+      "text": "The town\u2019s name likely honors Manuel de Sandoval, the Spanish governor of Texas from 1734 to 1736.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://williamsoncountytexashistory.org/sandoval-texas-in-williamson-county/"
+      "source": "https://williamsoncountytexashistory.org/sandoval-texas-in-williamson-county/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Zion Lutheran Church, founded March 5, 1893, served as the town’s first school until a separate building opened in 1920.",
+      "text": "Zion Lutheran Church, founded March 5, 1893, served as the town\u2019s first school until a separate building opened in 1920.",
       "sourceSentenceIds": [
         4,
         29
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://williamsoncountytexashistory.org/sandoval-texas-in-williamson-county/"
+      "source": "https://williamsoncountytexashistory.org/sandoval-texas-in-williamson-county/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,11 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/sandoval-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/sandoval-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The Sandoval post office operated from 1894 until it closed in 1904, after which the local school merged with Thrall’s in 1949.",
+      "text": "The Sandoval post office operated from 1894 until it closed in 1904, after which the local school merged with Thrall\u2019s in 1949.",
       "sourceSentenceIds": [
         28,
         30
@@ -75,7 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/sandoval-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/sandoval-tx",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holcomb%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Holcomb%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holcomb%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Holcomb%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Holcomb sits 830 feet above sea level, giving it a gentle elevation.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/holcomb-xx-ogle-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Holcomb lies just three miles south of Davis Junction, a short drive away.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holcomb%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Holcomb%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town’s post office opened in 1875, a year before Holcomb’s official founding.",
       "sourceSentenceIds": [
         13
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/holcomb-xx-ogle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/holcomb-xx-ogle-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Locals pronounce Holcomb as “HOHL-kuhm,” a distinctive regional sound that echoes the area’s rural heritage.",
       "sourceSentenceIds": [
         13
@@ -84,7 +82,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/holcomb-xx-ogle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/holcomb-xx-ogle-profile.htm",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/holcomb-illinois.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ben Jacobson (Kranar Drogin)",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leaf_River,_IL_Sign_01.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Leaf River, Illinois"
+  }
 }

@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Chaparrito sits at 26°20′27″N 98°44′7″W, right in the heart of Starr County.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Chaparrito%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The town rises just 170 feet above sea level, typical of the South Texas Plains.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "An 1895 atlas lists Chaparrito among the early communities, noting its post office and railroad links.",
       "sourceSentenceIds": [
         1,
@@ -52,10 +30,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "The Texas Legislature honors the Texas Almanac as the State Book, and Chaparrito is featured in its pages.",
       "sourceSentenceIds": [
         4
@@ -63,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.texasalmanac.com/places/chaparrito"
+      "source": "https://www.texasalmanac.com/places/chaparrito",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Chaparrito is part of the South Texas Plains, a region known for its flat, open landscapes.",
       "sourceSentenceIds": [
         9
@@ -74,10 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Locally, Chaparrito is also called 'Chaparrito Colonia', reflecting its historic settlement style.",
       "sourceSentenceIds": [
         8
@@ -85,7 +70,14 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/chaparrito-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

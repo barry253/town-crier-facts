@@ -25,7 +25,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -37,7 +39,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -49,7 +54,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska"
+      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -60,18 +67,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-fairfield-nebraska.html"
-    },
-    {
-      "id": 5,
-      "text": "The median age of Fairfield residents is 41 years, reflecting a balanced mix of families and retirees.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Fairfield%2C_Nebraska"
+      "source": "https://www.citydirectory.us/city-fairfield-nebraska.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fairfield-nebraska.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.318,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ammodramus",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fairfield,_Nebraska_D_Street_3.JPG"
+  }
 }

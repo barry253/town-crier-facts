@@ -31,21 +31,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Stratford sits 14 miles southwest of Hanford at an elevation of 203 feet.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California"
-    },
-    {
-      "id": 3,
       "text": "The Kings River channels into the dry Tulare Lake bed about 10 miles south of Stratford.",
       "sourceSentenceIds": [
         16
@@ -53,10 +44,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "From the 1930s through the 1970s, Stratford hosted Irigaray's, a Basque‑inspired restaurant that helped pioneer California cuisine.",
       "sourceSentenceIds": [
         20
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Stratford%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Stratford’s development has been shaped by Kings County’s agricultural industry, serving surrounding farms and ranches.",
       "sourceSentenceIds": [
         7
@@ -75,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/stratford-91272"
+      "source": "https://www.wisdomlib.org/cities/stratford-91272",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stratford-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.281,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "LeoBC",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stratford_CA_Main_St_view_east.jpeg"
+  }
 }

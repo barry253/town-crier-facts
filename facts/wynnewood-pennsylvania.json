@@ -33,7 +33,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travelpal.ai/destinations/north-america/united-states/pennsylvania/wynnewood"
+      "source": "https://travelpal.ai/destinations/north-america/united-states/pennsylvania/wynnewood",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://travelpal.ai/destinations/north-america/united-states/pennsylvania/wynnewood"
+      "source": "https://travelpal.ai/destinations/north-america/united-states/pennsylvania/wynnewood",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wynnewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wynnewood%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Wynnewood,_Pennsylvania"
+      "source": "https://grokipedia.com/page/Wynnewood,_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wynnewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Wynnewood%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wynnewood-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.422,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ii2nmd",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wynnewood_post_office.jpg"
+  }
 }

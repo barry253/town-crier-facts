@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/kurten-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/kurten-tx",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kurten%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Kurten sits 10 miles northeast of Bryan and 26 miles southwest of Madisonville, placing it in northern Brazos County.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kurten%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Kurten%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +55,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kurten%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "In April 1906, the city council banned the sale of guinea fowl after reports of aggressive bird attacks.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kurten%2C_Texas"
-    },
-    {
-      "id": 6,
-      "text": "Kurten is part of the Bryan‑College Station metropolitan area, home to Texas A&M University.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.citydirectory.us/city-kurten.html"
+      "source": "https://en.wikipedia.org/wiki/Kurten%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kurten-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.69,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brazos_county_texas_courthouse_2014.jpg"
+  }
 }

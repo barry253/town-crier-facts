@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/french-valley-12669"
+      "source": "https://www.wisdomlib.org/cities/french-valley-12669",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,20 +87,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/"
-    },
-    {
-      "id": 6,
-      "text": "French Valley sits at 1,368 feet above sea level, giving it a mild climate ideal for vineyards and citrus groves.",
-      "sourceSentenceIds": [
-        17,
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/French_Valley%2C_California"
+      "source": "https://touristplaces.guide/top-10-places-to-visit-in-french-valley-nature-adventure-and-history/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/french-valley-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Z3lvs",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:French_Valley,_California.jpg"
+  }
 }

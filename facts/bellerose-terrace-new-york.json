@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cityneighborhoods.nyc/bellerose"
+      "source": "https://www.cityneighborhoods.nyc/bellerose",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellerose_Terrace%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Bellerose_Terrace%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/new-york_bellerose-terrace"
+      "source": "https://www.trawellino.com/destinations/united-states/new-york_bellerose-terrace",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellerose_Terrace%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Bellerose_Terrace%2C_New_York",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bellerose-terrace-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.703,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AITFFan1",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:246th_Street_from_Superior_Road,_Bellerose_Terrace,_NY_August_31,_2022.jpg"
+  }
 }

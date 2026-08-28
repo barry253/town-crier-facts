@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Ball%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Blue_Ball%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Ball%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Blue_Ball%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -53,7 +58,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvaniainfo.blog/blueball-pennsylvania-hidden-charms"
+      "source": "https://pennsylvaniainfo.blog/blueball-pennsylvania-hidden-charms",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blue-ball-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.305,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andrew Bossi",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007_09_18_-_Blue_Ball_-_US_322_at_SR_23_a.JPG"
+  }
 }

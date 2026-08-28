@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Flint was named after local landowner Robert P., whose name was misspelled on early post office applications.",
+      "text": "Flint was named after local landowner Robert P. Flynt, whose name was misspelled on early post office applications.",
       "sourceSentenceIds": [
         5,
         6,
@@ -33,7 +33,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flint%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Flint%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flint-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flint-tx",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/flint-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/flint-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -67,7 +74,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flint%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Flint%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/flint-texas.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tyler_May_2016_42_(People%27s_Petroleum_Building_and_Plaza_Tower).jpg"
+  }
 }

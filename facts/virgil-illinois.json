@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,20 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "Virgil sits in western Kane County, part of the rural outskirts of the Chicago metropolitan area.",
-      "sourceSentenceIds": [
-        8,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Virgil%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -76,7 +70,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.hellonation.com/mag/IL/Virgil/14753"
+      "source": "https://www.hellonation.com/mag/IL/Virgil/14753",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -88,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-virgil-illinois.html"
+      "source": "https://www.citydirectory.us/village-virgil-illinois.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/virgil-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.534,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "railfan 44",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4_of_Roger_Puta%27s_CGW_Depots_(27491178662).jpg"
+  }
 }

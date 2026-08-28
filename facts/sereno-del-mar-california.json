@@ -29,23 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California"
+      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits about 190 feet (58 meters) above sea level.",
-      "sourceSentenceIds": [
-        1,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sereno_del_Mar%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Sereno del Mar is a quiet place located near the ocean.",
       "sourceSentenceIds": [
         11
@@ -53,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California"
+      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "It lies within Sonoma County, California.",
       "sourceSentenceIds": [
         17
@@ -64,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California"
+      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "There is no water within Sereno del Mar’s official borders.",
       "sourceSentenceIds": [
         18
@@ -75,18 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California"
-    },
-    {
-      "id": 6,
-      "text": "The median age of residents is 55.9 years.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sereno_del_Mar%2C_California"
+      "source": "https://kids.kiddle.co/Sereno_del_Mar,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sereno-del-mar-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Alfred Twu",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
+  }
 }

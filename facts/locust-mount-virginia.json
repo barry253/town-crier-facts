@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Locust_Mount%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Locust_Mount%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community rests only 7 feet above sea level, typical of the Eastern Shore’s low‑lying terrain.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Locust_Mount%2C_Virginia"
-    },
-    {
-      "id": 3,
       "text": "A post office has served Locust Mount since 1839, marking it as one of the region’s oldest postal stops.",
       "sourceSentenceIds": [
         10
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "An 1895 atlas lists Locust Mount among the small communities that dotted Accomack County in the late nineteenth century.",
       "sourceSentenceIds": [
         22
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Local records include a dedicated cemetery list, giving insight into the area’s historic burials.",
       "sourceSentenceIds": [
         19
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The U.S. Geological Survey’s GNIS and the FIPS‑55 database both recognize Locust Mount as a distinct geographic entity.",
       "sourceSentenceIds": [
         3
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm"
+      "source": "https://roadsidethoughts.com/va/locust-mount-xx-accomack-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/locust-mount-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Earth Science and Remote Sensing Unit, Lyndon B. Johnson Space Center",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISS067-E-1774_-_View_of_Earth.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Accomack County, Virginia"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.casscounty.com/2266/County-History"
+      "source": "https://www.casscounty.com/2266/County-History",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -40,7 +43,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gunn_City%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Gunn_City%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gunn-city-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.771,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rowen Hansen",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_st_and_State_Route_M_Gunn_City,_MO.jpg"
+  }
 }

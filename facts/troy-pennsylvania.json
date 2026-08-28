@@ -29,20 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The borough sits centrally in Bradford County, just shy of its western border.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 2"
-      ],
-      "source": "https://troyborough.com/"
+      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +69,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://troyborough.com/"
-    },
-    {
-      "id": 6,
-      "text": "Geographically, Troy sits at 41°46′56″N 76°47′22″W, a latitude and longitude that pinpoints its center.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Troy%2C_Pennsylvania"
+      "source": "https://troyborough.com/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/troy-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.233,
+    "y": 0.5
+  }
 }

@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Lacarne is an unincorporated community in southwestern Erie Township, Ottawa County, Ohio.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lacarne%2C_Ohio"
-    },
-    {
-      "id": 2,
       "text": "The community most likely bears the French surname of a pioneer settler.",
       "sourceSentenceIds": [
         5
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lacarne%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Lacarne%2C_Ohio",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "A post office opened in Lacarne in 1875, marking its early development.",
       "sourceSentenceIds": [
         19
@@ -51,40 +42,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/lacarne-xx-ottawa-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "Lacarne sits 570 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/lacarne-xx-ottawa-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "Lacarne appears in both the FIPS‑55 and GNIS databases, confirming its official geographic status.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/lacarne-xx-ottawa-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Located in Ottawa County, Lacarne lies within the southwestern part of Erie Township.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/lacarne-xx-ottawa-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/lacarne-xx-ottawa-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lacarne-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.767,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lacarne_post_office_43439.jpg"
+  }
 }

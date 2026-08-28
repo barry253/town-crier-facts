@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Garden_Farms%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Garden_Farms%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://santamargaritahistoricalsociety.org/garden-farms"
+      "source": "https://santamargaritahistoricalsociety.org/garden-farms",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,22 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://santamargaritahistoricalsociety.org/garden-farms"
+      "source": "https://santamargaritahistoricalsociety.org/garden-farms",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Garden Farms sits at an elevation of 955 feet (291 m) between Santa Margarita and Atascadero.",
-      "sourceSentenceIds": [
-        8,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Garden_Farms%2C_California"
-    },
-    {
-      "id": 5,
       "text": "The historic Santa Margarita rancho was granted to Joaquin Estrada in 1841, and later Edward Gardner Lewis bought land from it in 1918.",
       "sourceSentenceIds": [
         5,
@@ -77,10 +71,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://santamargaritahistoricalsociety.org/garden-farms"
+      "source": "https://santamargaritahistoricalsociety.org/garden-farms",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Garden Farms never expanded beyond the area south of Atascadero’s city limits, remaining linked to Lewis’s model community vision.",
       "sourceSentenceIds": [
         6
@@ -88,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://santamargaritahistoricalsociety.org/garden-farms"
+      "source": "https://santamargaritahistoricalsociety.org/garden-farms",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/garden-farms-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomson200",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Nacimiento_2015.JPG"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dixonville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Dixonville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dixonville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Dixonville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dixonville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Dixonville%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/dixonville-xx-indiana-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/dixonville-xx-indiana-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Dixonville sits 1,270 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/dixonville-xx-indiana-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Six other U.S. communities share the name Dixonville, located in Alabama, Alberta, Florida, Ohio, Oregon, and Tennessee.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/dixonville-xx-indiana-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/dixonville-xx-indiana-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dixonville-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Indiana County, Pennsylvania"
+  }
 }

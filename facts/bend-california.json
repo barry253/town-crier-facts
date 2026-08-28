@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bend%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bend%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bend%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bend%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bend%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bend%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Homeowners in Bend enjoy a median house value of about $357,500, reflecting the area's modest real‑estate market.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city//Bend-California.html"
-    },
-    {
-      "id": 5,
       "text": "Bend is entirely rural; 100 percent of its residents live outside urban areas.",
       "sourceSentenceIds": [
         9
@@ -73,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bend%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bend%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bend-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nickdp190",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacramento_River_in_Bend,_California.jpg"
+  }
 }

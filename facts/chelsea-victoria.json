@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://localhistory.kingston.vic.gov.au/articles/682"
+      "source": "https://localhistory.kingston.vic.gov.au/articles/682",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria"
+      "source": "https://en.wikipedia.org/wiki/Chelsea%2C_Victoria",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://localhistory.kingston.vic.gov.au/articles/682"
+      "source": "https://localhistory.kingston.vic.gov.au/articles/682",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chelsea-victoria.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.451,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": ". File:Chelsea shopping.jpg: Celco85 . derivative work: Georgfotoart",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chelsea_shopping_b.jpg"
+  }
 }

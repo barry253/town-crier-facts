@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +61,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 4,
@@ -67,7 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +90,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -91,7 +104,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Simms%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Bowie County, Texas"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/simms-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  }
 }

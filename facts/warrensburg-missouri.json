@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Warrensburg was founded in 1835 by settlers John and Martin D., who named the town after Martin Warren’s family name.",
+      "text": "Warrensburg was founded in 1835 by settlers John and Martin D. Warren, who named the town after Martin Warren’s family name.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warrensburg%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Warrensburg%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History"
+      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History"
+      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History"
+      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +82,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History"
+      "source": "https://www.warrensburg-mo.com/590/Warrensburg-History",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/warrensburg-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.271,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "25or6to4",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cord-Lobban-Smith_Block,_Warrensburg,_MO.jpg"
+  }
 }

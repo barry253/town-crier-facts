@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/aultman_pennsylvania"
+      "source": "https://grokipedia.com/page/aultman_pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/aultman_pennsylvania"
+      "source": "https://grokipedia.com/page/aultman_pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/aultman_pennsylvania"
+      "source": "https://grokipedia.com/page/aultman_pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Aultman’s elevation is 1,115 feet, typical of the rolling Appalachian Plateau that shapes its gentle slopes and forested landscape.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/aultman_pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "The community sits along Pennsylvania Route 286, about seven miles southwest of Indiana, the county seat.",
       "sourceSentenceIds": [
         15
@@ -74,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Aultman%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Aultman%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Former coal mining sites, including unreclaimed slate dumps and spoil piles, still mark the landscape, illustrating the town’s industrial legacy.",
       "sourceSentenceIds": [
         26
@@ -85,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/aultman_pennsylvania"
+      "source": "https://grokipedia.com/page/aultman_pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/aultman-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indiana_County_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Indiana County, Pennsylvania"
+  }
 }

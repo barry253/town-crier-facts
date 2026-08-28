@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tn/blanche-xx-lincoln-profile.htm"
+      "source": "https://roadsidethoughts.com/tn/blanche-xx-lincoln-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits 900 feet above sea level, giving it a modest hilltop view of the surrounding countryside.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tn/blanche-xx-lincoln-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Tennessee State Route 110 runs through Blanche, linking it 7 miles southwest to Ardmore and 18 miles northeast to Fayetteville.",
       "sourceSentenceIds": [
         8
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Water from Blanche’s east side flows into Pinnel Creek, while the west side feeds Kelly Creek, both joining the Elk River system.",
       "sourceSentenceIds": [
         9
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Blanche lies in the southwest corner of Lincoln County, bordered to the southeast by the community of Taft.",
       "sourceSentenceIds": [
         7,
@@ -75,10 +71,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The south part of Blanche drains into Limestone Creek, which carries water southward to the Tennessee River in Alabama.",
       "sourceSentenceIds": [
         10
@@ -86,7 +85,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Blanche%2C_Tennessee",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blanche-tennessee.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.255,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mike Tilley",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cowley_Bridge_-_panoramio.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Elk River (Tennessee River tributary)"
+  }
 }

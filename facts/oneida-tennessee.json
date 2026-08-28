@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oneida%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Oneida%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oneida%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Oneida%2C_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitoneidatn.gov/"
+      "source": "https://www.visitoneidatn.gov/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oneida%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Oneida%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 5,
@@ -75,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.townofoneida.com/"
+      "source": "https://www.townofoneida.com/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oneida-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.282,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oneida-library-tn1.jpg"
+  }
 }

@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,18 +45,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri"
-    },
-    {
-      "id": 3,
-      "text": "Bolckow sits in Benton Township, within Andrew County, Missouri.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,18 +58,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri"
-    },
-    {
-      "id": 5,
-      "text": "Bolckow is part of the Joseph, MO–KS Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Bolckow%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bolckow-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SamuelNelsonGISP",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bolckow_Missouri.jpg"
+  }
 }

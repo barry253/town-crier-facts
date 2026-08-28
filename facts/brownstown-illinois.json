@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-brownstown-illinois.html"
+      "source": "https://www.citydirectory.us/village-brownstown-illinois.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +97,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Brownstown%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brownstown-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.227,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floyd_and_Glenora_Dycus_House.jpg"
+  }
 }

@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Allenhurst is a city in Liberty County, Georgia, United States.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Allenhurst%2C_Georgia"
-    },
-    {
-      "id": 2,
-      "text": "It is part of the Hinesville metropolitan area within the southeastern region of Georgia.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Allenhurst%2C_Georgia"
-    },
-    {
       "id": 3,
       "text": "Allenhurst was platted in 1910 by B. Allen, the proprietor of a local sawmill.",
       "sourceSentenceIds": [
@@ -52,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allenhurst%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Allenhurst%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allenhurst%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Allenhurst%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allenhurst.municipalimpact.com/"
+      "source": "https://allenhurst.municipalimpact.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allenhurst.municipalimpact.com/"
+      "source": "https://allenhurst.municipalimpact.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/allenhurst-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.438,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allenhurst_Town_Hall.jpg"
+  }
 }

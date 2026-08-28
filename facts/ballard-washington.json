@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ballardhistory.org/mapping-ballard-new/ballard-overview/"
+      "source": "https://www.ballardhistory.org/mapping-ballard-new/ballard-overview/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.visitballard.com/"
+      "source": "https://www.visitballard.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.ballardhistory.org/mapping-ballard-new/ballard-overview/"
+      "source": "https://www.ballardhistory.org/mapping-ballard-new/ballard-overview/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ballard%2C_Seattle"
+      "source": "https://en.wikipedia.org/wiki/Ballard%2C_Seattle",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ballard%2C_Seattle"
+      "source": "https://en.wikipedia.org/wiki/Ballard%2C_Seattle",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ballard-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Seachaz",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ballard_Locks.jpg"
+  }
 }

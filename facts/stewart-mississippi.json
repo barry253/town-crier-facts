@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Stewart sits in eastern Montgomery County, bordered by Webster County to the north.",
-      "sourceSentenceIds": [
-        8,
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi"
-    },
-    {
       "id": 2,
       "text": "Route 82 cuts through Stewart, linking it west to Kilmichael and northeast to Eupora.",
       "sourceSentenceIds": [
@@ -45,7 +32,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -58,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -71,7 +63,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi"
+      "source": "https://en.wikipedia.org/wiki/Stewart%2C_Mississippi",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -82,7 +76,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Stewart,_Mississippi"
+      "source": "https://kids.kiddle.co/Stewart,_Mississippi",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

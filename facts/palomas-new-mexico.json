@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Palomas%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Las_Palomas%2C_New_Mexico",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Las_Palomas%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Las_Palomas%2C_New_Mexico",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.santafenewmexican.com/news/local_news/timeline-the-history-of-columbus-and-puerto-palomas/article_22db1f97-cebf-45e6-ab8b-a6a3b9bf74bc.html"
+      "source": "https://www.santafenewmexican.com/news/local_news/timeline-the-history-of-columbus-and-puerto-palomas/article_22db1f97-cebf-45e6-ab8b-a6a3b9bf74bc.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.emnrd.nm.gov/spd/find-a-park/pancho-villa-state-park/"
+      "source": "https://www.emnrd.nm.gov/spd/find-a-park/pancho-villa-state-park/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/palomas-new-mexico.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain Time Zone"
+  }
 }

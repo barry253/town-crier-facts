@@ -31,23 +31,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s coordinates are 31°49′49″N 83°55′15″W, placing it just north of Lake Blackshear.",
-      "sourceSentenceIds": [
-        8,
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia"
-    },
-    {
-      "id": 3,
       "text": "Warwick is part of the Albany, Georgia metropolitan statistical area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         7
@@ -55,10 +44,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The National Grits Festival, first held in 1999, paused for four years before returning in 2017 with 3,000 fans.",
       "sourceSentenceIds": [
         9,
@@ -67,10 +59,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Warwick%2C_Georgia",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Lake Blackshear, a notable landmark, borders Warwick’s eastern edge, offering recreational opportunities for residents.",
       "sourceSentenceIds": [
         2
@@ -78,7 +72,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-warwick-georgia.html"
+      "source": "https://www.citydirectory.us/city-warwick-georgia.html",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/warwick-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.688,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warwick_City_Hall,_Georgia.jpg"
+  }
 }

@@ -21,18 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bernard sits in Dubuque County, Iowa, and is part of the Dubuque Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa"
-    },
-    {
       "id": 2,
       "text": "The town’s name appears in both the FIPS‑55 and GNIS databases, confirming its official status as a community.",
       "sourceSentenceIds": [
@@ -41,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -52,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,18 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa"
-    },
-    {
-      "id": 5,
-      "text": "The city’s zoning includes Cascade Elementary School and Cascade Junior‑Senior High School, both in the nearby town of Cascade.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Bernard%2C_Iowa",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

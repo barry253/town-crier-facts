@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rauchtown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rauchtown%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rauchtown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rauchtown%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Rauchtown sits 880 feet above sea level, a detail noted in local records.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/rauchtown-xx-clinton-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Rauchtown in 1884, marking the town’s early development.",
       "sourceSentenceIds": [
         9
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/rauchtown-xx-clinton-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/rauchtown-xx-clinton-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical maps from 1895 list Rauchtown as a community that had a post office or railroad service.",
       "sourceSentenceIds": [
         2
@@ -73,18 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/rauchtown-xx-clinton-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The town’s coordinates are still marked as needing verification in some records, hinting at its small, rural character.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/rauchtown-xx-clinton-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/rauchtown-xx-clinton-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rauchtown-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.195,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas A. Tonelli from Pennsylvania, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flickr_-_Nicholas_T_-_Complementary.jpg"
+  }
 }

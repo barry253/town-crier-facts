@@ -32,7 +32,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.townofconcrete.com/about/"
+      "source": "https://www.townofconcrete.com/about/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Concrete%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Concrete%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://concrete-wa.com/"
+      "source": "https://concrete-wa.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.townofconcrete.com/about/"
+      "source": "https://www.townofconcrete.com/about/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -77,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Concrete%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Concrete%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -89,7 +101,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://concrete-wa.com/"
+      "source": "https://concrete-wa.com/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/concrete-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.188,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SkagitRiverQueen (talk) .",
+    "license": "Cc-by-sa-3.0",
+    "sourceUrl": "https://en.wikipedia.org/wiki/File:Welcome_to_concrete.jpg"
+  }
 }

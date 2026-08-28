@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marble_Falls%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Marble_Falls%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://marblefallstx.gov/280/About-Marble-Falls"
+      "source": "https://marblefallstx.gov/280/About-Marble-Falls",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://marblefallstx.gov/280/About-Marble-Falls"
+      "source": "https://marblefallstx.gov/280/About-Marble-Falls",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marble_Falls%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Marble_Falls%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marble_Falls%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Marble_Falls%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -91,7 +101,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitmarblefalls.org/"
+      "source": "https://visitmarblefalls.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marble-falls-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.588,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marble_falls_2007.jpg"
+  }
 }

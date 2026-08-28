@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Carlyss is part of the Lake Charles metropolitan statistical area in Louisiana.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carlyss%2C_Louisiana"
-    },
-    {
-      "id": 2,
-      "text": "Carlyss lies south of Calcasieu Parish’s center and is bordered to the north by Sulphur.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Carlyss%2C_Louisiana"
-    },
-    {
       "id": 3,
       "text": "Carlyss covers about 30.8 square miles of land, with no surface water.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/lacountycarlyss.htm"
+      "source": "https://www.usacitiesonline.com/lacountycarlyss.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/la/carlyss-xx-calcasieu-profile.htm"
+      "source": "https://roadsidethoughts.com/la/carlyss-xx-calcasieu-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/la/carlyss-xx-calcasieu-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Carlyss is listed in both the FIPS‑55 and GNIS geographic databases for official identification.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/la/carlyss-xx-calcasieu-profile.htm"
+      "source": "https://roadsidethoughts.com/la/carlyss-xx-calcasieu-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
   ]
 }

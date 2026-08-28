@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deer_River%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Deer_River%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Deer_River%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Deer_River%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/deer-river-xx-lewis-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/deer-river-xx-lewis-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community sits at an elevation of 780 feet above sea level.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/deer-river-xx-lewis-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "A post office first opened in Deer River in 1845, marking its early development.",
       "sourceSentenceIds": [
         11
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/deer-river-xx-lewis-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/deer-river-xx-lewis-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Recreational visitors in Deer River’s state forest must follow Leave No Trace principles to protect natural resources.",
       "sourceSentenceIds": [
         4
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://dec.ny.gov/places/deer-river-state-forest"
+      "source": "https://dec.ny.gov/places/deer-river-state-forest",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/deer-river-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rja141",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackriverwatertownny.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Black River (New York)"
+  }
 }

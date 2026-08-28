@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shadybrook%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Shadybrook%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shadybrook%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Shadybrook%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shadybrook%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "The primary coordinate point for Shadybrook is at latitude 32.1108 and longitude –95.4212.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/cherokee/shadybrook.cfm"
+      "source": "https://en.wikipedia.org/wiki/Shadybrook%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://shadybrookcommunity.com/"
+      "source": "https://shadybrookcommunity.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +85,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://shadybrookcommunity.com/"
+      "source": "https://shadybrookcommunity.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shadybrook-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Buddpaul",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Palestine_boat_launch_August_2011.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Palestine"
+  }
 }

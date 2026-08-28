@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://elkgrovehistoricalsociety.com/history-town-of-wilton/"
+      "source": "https://elkgrovehistoricalsociety.com/history-town-of-wilton/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://elkgrovehistoricalsociety.com/history-town-of-wilton/"
+      "source": "https://elkgrovehistoricalsociety.com/history-town-of-wilton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://elkgrovehistoricalsociety.com/history-town-of-wilton/"
+      "source": "https://elkgrovehistoricalsociety.com/history-town-of-wilton/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilton%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Wilton%2C_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://wiltonrancheria-nsn.gov/about-us/historical-timeline/"
+      "source": "https://wiltonrancheria-nsn.gov/about-us/historical-timeline/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilton%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Wilton%2C_California",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wilton-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AnonymousEditor95",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cosumnes_River_(drone).jpg"
+  }
 }

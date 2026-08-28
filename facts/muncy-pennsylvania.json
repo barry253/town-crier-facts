@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muncy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Muncy%2C_Pennsylvania",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muncy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Muncy%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The Muncy Historical Society is dedicated to preserving and sharing the town’s rich history.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://lumberheritage.org/resources/historical-societies/muncy-historical-society-and-museum/"
-    },
-    {
-      "id": 4,
       "text": "In 1787, four McCarty brothers from Bucks County settled in Muncy, laying early foundations.",
       "sourceSentenceIds": [
         12
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://muncyboro.org/information/history/"
+      "source": "https://muncyboro.org/information/history/",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "John Brady built a private stockade called Fort Brady in 1776, near present‑day Muncy, to protect settlers.",
       "sourceSentenceIds": [
         30
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Muncy%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Muncy%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The society’s museum and research library house artifacts, documents, and genealogical records that showcase Muncy’s heritage.",
       "sourceSentenceIds": [
         19
@@ -84,7 +81,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://lumberheritage.org/resources/historical-societies/muncy-historical-society-and-museum/"
+      "source": "https://lumberheritage.org/resources/historical-societies/muncy-historical-society-and-museum/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/muncy-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dincher",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muncy_Ritz.JPG"
+  }
 }

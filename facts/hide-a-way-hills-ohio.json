@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hide-A-Way_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Hide-A-Way_Hills%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hide-A-Way_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Hide-A-Way_Hills%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,19 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hide-A-Way_Hills,_Ohio"
-    },
-    {
-      "id": 4,
-      "text": "Hide‑A‑Way Hills lies in both Hocking and Fairfield counties, with most land in Hocking County’s Marion Township.",
-      "sourceSentenceIds": [
-        13,
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hide-A-Way_Hills%2C_Ohio"
+      "source": "https://kids.kiddle.co/Hide-A-Way_Hills,_Ohio",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,20 +71,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Hide-A-Way_Hills,_Ohio"
-    },
-    {
-      "id": 6,
-      "text": "Residents are members of a private club; ownership includes club membership and assessments fund maintenance.",
-      "sourceSentenceIds": [
-        4,
-        5,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hide-A-Way_Hills%2C_Ohio"
+      "source": "https://kids.kiddle.co/Hide-A-Way_Hills,_Ohio",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hide-a-way-hills-ohio.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crane_Lake_in_Buckeye_Lake.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Buckeye Lake, Ohio"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/whitmore-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/whitmore-xx-shasta-profile.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/whitmore-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/whitmore-xx-shasta-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Perched at 2,240 feet above sea level, Whitmore sits high in Shasta County.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/whitmore-xx-shasta-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "A single general store, The Way Station, sits beside the Whitmore post office.",
       "sourceSentenceIds": [
         11,
@@ -63,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitmore%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Whitmore%2C_California",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Two churches anchor the community: Whitmore Grace Community Church and Whitmore Seventh‑Day Advent.",
       "sourceSentenceIds": [
         13
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitmore%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Whitmore%2C_California",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Former Major League pitcher Vida Blue once owned ranch land in Whitmore in the early 2000s.",
       "sourceSentenceIds": [
         15
@@ -85,7 +84,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Whitmore%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Whitmore%2C_California",
+      "category": "people",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whitmore-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Astronomy1",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_River_Mills_Airport.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Fall River Mills, California"
+  }
 }

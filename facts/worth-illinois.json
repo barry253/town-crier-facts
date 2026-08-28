@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois"
-    },
-    {
-      "id": 3,
-      "text": "Worth’s geographic coordinates are 41°41′20″N 87°47′34″W, placing it in the heart of Cook County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Worth%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitchicagosouthland.com/633/village-of-worth"
+      "source": "https://www.visitchicagosouthland.com/633/village-of-worth",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/worth-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andrew Horne",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicago-00.jpg"
+  }
 }

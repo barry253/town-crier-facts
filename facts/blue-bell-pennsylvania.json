@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Blue Bell got its name from the historic Blue Bell Inn that opened in 1743.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Bell%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "The Blue Bell Inn, founded in 1743, is one of America’s oldest continually operating inns.",
       "sourceSentenceIds": [
         1
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wvalleyhs.org/blue-bells-finest/"
+      "source": "https://www.wvalleyhs.org/blue-bells-finest/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Blue Bell’s Dutchman, a historic stone house, stands as a well‑known landmark in the town.",
       "sourceSentenceIds": [
         3
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blue_Bell%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Blue_Bell%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Blue Bell Inn’s menu has always paired history with good taste, celebrating centuries of local heritage.",
       "sourceSentenceIds": [
         6
@@ -62,7 +55,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cbsnews.com/philadelphia/news/blue-bell-inn-montgomery-county-pa-history/"
+      "source": "https://www.cbsnews.com/philadelphia/news/blue-bell-inn-montgomery-county-pa-history/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blue-bell-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.517,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jerrye & Roy Klotz, MD",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:NORMANDY_HOMESTEAD,_MONTGOMERY_COUNTY,_PA.jpg"
+  }
 }

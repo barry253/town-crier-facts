@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nikep%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Nikep%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,18 +47,10 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nikep%2C_Maryland"
-    },
-    {
-      "id": 3,
-      "text": "The community’s latitude and longitude are 39.5506° N and 78.9972° W, placing it in the Appalachian foothills.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://maryland.hometownlocator.com/md/allegany/nikep.cfm"
+      "source": "https://en.wikipedia.org/wiki/Nikep%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -67,7 +61,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Nikep,_Maryland"
+      "source": "https://kids.kiddle.co/Nikep,_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -78,7 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/allegany/nikep.cfm"
+      "source": "https://maryland.hometownlocator.com/md/allegany/nikep.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -89,7 +89,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://maryland.hometownlocator.com/md/allegany/nikep.cfm"
+      "source": "https://maryland.hometownlocator.com/md/allegany/nikep.cfm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nikep-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.306,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-06-18_15_07_10_View_south_along_Maryland_State_Route_935_(Lower_Georges_Creek_Road)_between_Nikep_Street_and_Mine_Street_in_Nikep,_Allegany_County,_Maryland.jpg"
+  }
 }

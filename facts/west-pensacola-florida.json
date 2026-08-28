@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitpensacola.com/plan-your-trip/neighborhoods/west-pensacola/"
+      "source": "https://www.visitpensacola.com/plan-your-trip/neighborhoods/west-pensacola/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitpensacola.com/plan-your-trip/neighborhoods/west-pensacola/"
+      "source": "https://www.visitpensacola.com/plan-your-trip/neighborhoods/west-pensacola/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The community sits at an elevation of 76 feet above sea level, typical for the Gulf Coast lowlands.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida"
-    },
-    {
-      "id": 5,
       "text": "Within its boundaries, West Pensacola encompasses the neighborhood of Brownsville, adding to its local character.",
       "sourceSentenceIds": [
         5
@@ -75,10 +71,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "West Pensacola is part of the Pensacola–Ferry Pass–Brent Metropolitan Statistical Area, linking it to the larger regional economy.",
       "sourceSentenceIds": [
         4
@@ -86,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/West_Pensacola%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-pensacola-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pensacola,_FL,_Courthouse,_Escambia_County,_12-16-2010_(2).JPG"
+  }
 }

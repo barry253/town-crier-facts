@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiatt%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Fiatt%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiatt%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Fiatt%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiatt%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Fiatt%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,21 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/fiatt-xx-fulton-profile.htm"
+      "source": "https://roadsidethoughts.com/il/fiatt-xx-fulton-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Fiatt sits 670 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/fiatt-xx-fulton-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Locals pronounce Fiatt as FEYE-uht that echoes the town's early settlers' heritage.",
       "sourceSentenceIds": [
         9
@@ -84,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/fiatt-xx-fulton-profile.htm"
+      "source": "https://roadsidethoughts.com/il/fiatt-xx-fulton-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fulton County, Illinois"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fiatt-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.36,
+    "y": 0.5
+  }
 }

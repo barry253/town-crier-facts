@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bluewater first appeared on the 1990 U.S. Census as a census‑designated place.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_Arizona"
-    },
-    {
       "id": 2,
       "text": "The community sits on the Colorado River Indian Reservation, home to Mohave, Chemehuevi, Hopi, and Navajo tribes.",
       "sourceSentenceIds": [
@@ -42,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_Arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bluewater_arizona"
+      "source": "https://grokipedia.com/page/bluewater_arizona",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bluewater_arizona"
+      "source": "https://grokipedia.com/page/bluewater_arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Bluewater%2C_Arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bluewater_arizona"
+      "source": "https://grokipedia.com/page/bluewater_arizona",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bluewater-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Charles Wang",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_Bend_13_February_2023.jpg"
+  }
 }

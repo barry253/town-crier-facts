@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Crestview sits in western McKinley County, just south of Williams Acres.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crestview%2C_New_Mexico"
-    },
-    {
       "id": 2,
       "text": "The community drains into Twin Buttes Wash, a north-flowing tributary of the Puerco River.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crestview%2C_New_Mexico"
+      "source": "https://en.wikipedia.org/wiki/Crestview%2C_New_Mexico",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newmexico.hometownlocator.com/nm/mckinley/crestview.cfm"
+      "source": "https://newmexico.hometownlocator.com/nm/mckinley/crestview.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

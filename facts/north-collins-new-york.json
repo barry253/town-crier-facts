@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "North Collins was founded in 1852 as the Town of Shirley, carved from the northern part of Collins.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York"
-    },
-    {
-      "id": 2,
       "text": "The town adopted the name North Collins in 1853, shortly after its founding.",
       "sourceSentenceIds": [
         25
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "In 1911, the village of North Collins incorporated, separating itself from the surrounding town.",
       "sourceSentenceIds": [
         26
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The North Collins Historical Society, founded in 1976, runs a museum that houses artifacts, documents, and photographs of the town.",
       "sourceSentenceIds": [
         1,
@@ -63,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22469"
+      "source": "https://museumsdatabase.com/museums/view/22469",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The society also maintains a research library open by appointment, offering books, maps, newspapers, and genealogical records.",
       "sourceSentenceIds": [
         7,
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/22469"
+      "source": "https://museumsdatabase.com/museums/view/22469",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Gamel Hexadecagon Barn, an eight‑sided landmark, was listed on the National Register of Historic Places in 1984.",
       "sourceSentenceIds": [
         8
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/North_Collins%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/north-collins-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.188,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Andre Carrotflower",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gowanda_State_Road,_North_Collins,_New_York_-_20210418.jpg"
+  }
 }

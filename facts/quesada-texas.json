@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Quesada sits at latitude 26.281478 and longitude –98.581994, placing it just north of the Rio Grande.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Quesada%2C_Texas"
-    },
-    {
-      "id": 2,
       "text": "Located in Starr County, Quesada lies within the boundaries of Texas' southernmost county on the Rio Grande.",
       "sourceSentenceIds": [
         6
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The community rests on the South Texas Plains, a flat expanse that stretches across the region.",
       "sourceSentenceIds": [
         5
@@ -51,21 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
-      "text": "Quesada sits approximately 200 feet above sea level, giving it a modest elevation compared to nearby lowlands.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Locals often refer to Quesada as Quesada Colonia, reflecting its status as a traditional Mexican colonia.",
       "sourceSentenceIds": [
         4
@@ -73,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Historical records show that Quesada was included in an 1895 atlas, indicating its existence over a century ago.",
       "sourceSentenceIds": [
         19
@@ -84,7 +71,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/quesada-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

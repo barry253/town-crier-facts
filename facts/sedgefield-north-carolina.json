@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Sedgefield,_North_Carolina"
+      "source": "https://kids.kiddle.co/Sedgefield,_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Sedgefield,_North_Carolina"
+      "source": "https://kids.kiddle.co/Sedgefield,_North_Carolina",
+      "category": "transport",
+      "quality": "good",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedgefield%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sedgefield%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedgefield%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sedgefield%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sedgefield%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Sedgefield%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Guilford County, North Carolina"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sedgefield-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Upstateherd",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guilford_County_Courthouse.jpg"
+  }
 }

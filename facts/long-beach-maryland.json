@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach"
+      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach"
-    },
-    {
-      "id": 3,
-      "text": "Before 2010, Long Beach was part of the Calvert Beach‑Long Beach census‑designated place, then became its own community.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Long_Beach%2C_Maryland"
+      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach"
+      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach"
+      "source": "https://www.city-usa.top/state-maryland-city-calvert-beach-long-beach",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitcalvert.com/"
+      "source": "https://www.visitcalvert.com/",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/long-beach-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-07-20_17_33_07_View_south_along_Maryland_State_Route_2_and_Maryland_State_Route_4_(Solomons_Island_Road)_just_south_of_Southern_Maryland_Boulevard_in_Calvert_County,_Maryland.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Calvert County, Maryland"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Sitting just 46 feet above sea level, Grimes lies in the low-lying Sacramento Valley.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California"
-    },
-    {
-      "id": 5,
       "text": "Travelers pass through Grimes on State Route 45, which connects the town to Colusa and the broader region.",
       "sourceSentenceIds": [
         9
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Grimes%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Grimes sits on Grand Island, a fertile plain between the Sacramento River and Sycamore Slough where Cleaton Grimes first built a cabin in 1851.",
       "sourceSentenceIds": [
         26,
@@ -85,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.countyofcolusaca.gov/219/Grand-Island-Grimes"
+      "source": "https://www.countyofcolusaca.gov/219/Grand-Island-Grimes",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grimes-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.14,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Sheila Sund",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_geese_overwintering_at_Colusa_Wildlife_Refuge.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Colusa County, California"
+  }
 }

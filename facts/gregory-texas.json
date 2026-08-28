@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofgregorytx.gov/history"
+      "source": "https://www.cityofgregorytx.gov/history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town was named for United States Attorney General Thomas Watt Gregory, a close friend of President George W. Bush.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.tshaonline.org/handbook/entries/gregory-tx"
-    },
-    {
-      "id": 3,
       "text": "Gregory High School once educated locals before relocating to Portland, where it now operates as Gregory‑Portland High School.",
       "sourceSentenceIds": [
         2,
@@ -52,29 +43,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "The 1981 film Raggedy Man, starring Sissy Spacek, was filmed in Gregory during 1944.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Gregory lies within San Patricio County in southern Texas, positioned at 27°55′14″N 97°17′33″W.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Gregory%2C_Texas",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gregory-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_patricio_courthouse.jpg"
+  }
 }

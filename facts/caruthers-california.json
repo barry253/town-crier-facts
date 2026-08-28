@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/caruthers_california"
+      "source": "https://grokipedia.com/page/caruthers_california",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,21 +45,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Caruthers%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Caruthers%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Caruthers sits 15 miles south of downtown Fresno at an elevation of 246 feet, nestled in the San Joaquin Valley’s agricultural heart.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Caruthers%2C_California"
-    },
-    {
-      "id": 4,
       "text": "The area that is now Caruthers was originally inhabited by Yokuts people who settled the San Joaquin Valley between 50,000 and 7,000 years ago.",
       "sourceSentenceIds": [
         2
@@ -65,10 +58,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/caruthers_california"
+      "source": "https://grokipedia.com/page/caruthers_california",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Caruthers is upgrading its streets with a Complete Streets project that aims to make sidewalks and bike lanes safer for pedestrians and cyclists.",
       "sourceSentenceIds": [
         2
@@ -76,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fresnocountyca.gov/Departments/Public-Works-and-Planning/divisions-of-public-works-and-planning/Design-Division/Current-Projects/Caruthers-Complete-Streets"
+      "source": "https://www.fresnocountyca.gov/Departments/Public-Works-and-Planning/divisions-of-public-works-and-planning/Design-Division/Current-Projects/Caruthers-Complete-Streets",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/caruthers-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.563,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Lund from Reno, Nevada, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caruthers,_California_(21591321081).jpg"
+  }
 }

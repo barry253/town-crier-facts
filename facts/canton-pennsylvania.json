@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.bradfordcountypa.gov/206/Canton-Borough"
+      "source": "https://www.bradfordcountypa.gov/206/Canton-Borough",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitbradfordcounty.com/places/united-states/pennsylvania/canton/"
+      "source": "https://visitbradfordcounty.com/places/united-states/pennsylvania/canton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,22 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visitbradfordcounty.com/places/united-states/pennsylvania/canton/"
-    },
-    {
-      "id": 4,
-      "text": "Canton sits in the valley of Towanda Creek at 41°39′21″N 76°51′3″W, surrounded by Canton Township on all sides.",
-      "sourceSentenceIds": [
-        9,
-        10,
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Canton%2C_Pennsylvania"
+      "source": "https://visitbradfordcounty.com/places/united-states/pennsylvania/canton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.bradfordcountypa.gov/206/Canton-Borough"
+      "source": "https://www.bradfordcountypa.gov/206/Canton-Borough",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Canton%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/canton-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canton,_Pennsylvania.jpg"
+  }
 }

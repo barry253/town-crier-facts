@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/"
+      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/River_Ranch%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/River_Ranch%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/"
+      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/"
+      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/River_Ranch%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/River_Ranch%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -89,7 +99,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/"
+      "source": "https://writinginbed.com/the-history-and-heritage-of-river-ranch-a-journey-through-time/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/river-ranch-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.18,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tony Santana, U.S. Army Corps of Engineers",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kissimmee_River_canal_section.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Kissimmee River"
+  }
 }

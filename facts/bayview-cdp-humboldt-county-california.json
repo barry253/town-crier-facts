@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/bayview_humboldt_county_california"
+      "source": "https://grokipedia.com/page/bayview_humboldt_county_california",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/bayview_humboldt_county_california"
+      "source": "https://grokipedia.com/page/bayview_humboldt_county_california",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bayview_humboldt_county_california"
+      "source": "https://grokipedia.com/page/bayview_humboldt_county_california",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,21 +72,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Humboldt_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bayview%2C_Humboldt_County%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The median age in Bayview is about 42, showing a balanced mix of families and retirees in its 1,050 occupied housing units.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/bayview_humboldt_county_california"
-    },
-    {
-      "id": 6,
       "text": "Bayview’s close‑knit atmosphere offers parks and waterfront views in one of California’s most ecologically diverse coastal regions.",
       "sourceSentenceIds": [
         27
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/bayview_humboldt_county_california"
+      "source": "https://grokipedia.com/page/bayview_humboldt_county_california",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bayview-cdp-humboldt-county-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ellin Beltz",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArcataAndMadRiverPlaque.jpg"
+  }
 }

@@ -34,7 +34,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weston%2C_West_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.britannica.com/place/Weston-West-Virginia"
+      "source": "https://www.britannica.com/place/Weston-West-Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wvencyclopedia.org/entries/1100"
+      "source": "https://www.wvencyclopedia.org/entries/1100",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wvencyclopedia.org/entries/1100"
+      "source": "https://www.wvencyclopedia.org/entries/1100",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weston%2C_West_Virginia",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -89,7 +100,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Weston%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Weston%2C_West_Virginia",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/weston-west-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.421,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "David Wilson",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Avenue,_Weston,_West_Virginia_(2019).jpg"
+  }
 }

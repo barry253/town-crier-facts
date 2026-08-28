@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "unverified=['smith']"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/maryneal-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/maryneal-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,18 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Maryneal sits at an elevation of 2,566 feet, giving it a high‑plain view of the surrounding Nolan County landscape.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Maryneal%2C_Texas",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/maryneal-texas.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.57,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CletusDitto",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweetwater_Texas_Municipal_Building.jpg"
+  }
 }

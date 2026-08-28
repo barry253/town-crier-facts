@@ -30,21 +30,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm"
+      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
-      "text": "The community sits at 39.10°N, 84.33°W, placing it in central Ohio today.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm"
-    },
-    {
-      "id": 3,
       "text": "Washington, D.C. lies 415 miles from Dry Run, while Columbus is just 97 miles away.",
       "sourceSentenceIds": [
         23,
@@ -53,21 +45,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm"
+      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
-      "text": "Census data shows 2,118 housing units in Dry Run, averaging 445.5 per square mile.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dry_Run%2C_Ohio"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Family counts grew from about 1,701 in 1990 to 2,328 in 2010.",
       "sourceSentenceIds": [
         20
@@ -75,18 +59,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm"
-    },
-    {
-      "id": 6,
-      "text": "The median age of Dry Run residents is 38 years as of the latest census.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dry_Run%2C_Ohio"
+      "source": "https://www.usacitiesonline.com/ohcountydryrun.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dry-run-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Warren LeMay from Chicago, IL, United States",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg"
+  }
 }

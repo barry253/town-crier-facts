@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Pekin%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/South_Pekin%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pekinpubliclibrary.org/houses-on-wheels-south-pekins-early-history/"
+      "source": "https://pekinpubliclibrary.org/houses-on-wheels-south-pekins-early-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Pekin%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/South_Pekin%2C_Illinois",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://pekinpubliclibrary.org/houses-on-wheels-south-pekins-early-history/"
+      "source": "https://pekinpubliclibrary.org/houses-on-wheels-south-pekins-early-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-pekin-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "BetacommandBot",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greaterstl.png"
+  }
 }

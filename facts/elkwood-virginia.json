@@ -21,29 +21,7 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Elkwood is a town in Culpeper County, Virginia.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia"
-    },
-    {
       "id": 2,
-      "text": "Elkwood sits 310 feet above sea level.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/va/elkwood-xx-culpeper-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The town’s post office opened in 1894, marking its early growth.",
       "sourceSentenceIds": [
         17
@@ -51,22 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/va/elkwood-xx-culpeper-profile.htm"
+      "source": "https://roadsidethoughts.com/va/elkwood-xx-culpeper-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Elkwood lies 8.1 miles east‑northeast of Culpeper along U.S. Route 15.",
-      "sourceSentenceIds": [
-        12,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia"
-    },
-    {
-      "id": 5,
       "text": "The area experiences hot, humid summers and mild to cool winters, typical of the region.",
       "sourceSentenceIds": [
         14
@@ -74,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Elkwood%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historic farms, mills, and stately manor homes surround Elkwood, reflecting its rural heritage.",
       "sourceSentenceIds": [
         10
@@ -85,7 +56,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://experienceclarkecounty.com/"
+      "source": "https://experienceclarkecounty.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Culpeper County, Virginia"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/elkwood-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ser Amantio di Nicolao at English Wikipedia",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Route_211_in_Culpeper_County.jpg"
+  }
 }

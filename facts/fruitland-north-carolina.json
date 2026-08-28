@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://fphistory.com/local-histories/"
+      "source": "https://fphistory.com/local-histories/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.johnstonnc.gov/content.cfm?id=252"
+      "source": "https://www.johnstonnc.gov/content.cfm?id=252",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.johnstonnc.gov/content.cfm?id=252"
+      "source": "https://www.johnstonnc.gov/content.cfm?id=252",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.johnstonnc.gov/content.cfm?id=252"
+      "source": "https://www.johnstonnc.gov/content.cfm?id=252",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fruitland-north-carolina.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.65,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mccunicano",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_Ridge_Parkway_shield.png"
+  }
 }

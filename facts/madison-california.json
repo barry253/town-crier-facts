@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Madison%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Madison%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,21 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Madison%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Madison%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Madison sits 10.5 miles west of Woodland at an elevation of 151 feet.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Madison%2C_California"
-    },
-    {
-      "id": 5,
       "text": "Historic Sanborn Fire Insurance Maps from 1888 to 1913 let residents see Madison’s downtown layout over time.",
       "sourceSentenceIds": [
         10,
@@ -76,10 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hometownhistorymaps.com/pages/history-of-madison-california"
+      "source": "https://hometownhistorymaps.com/pages/history-of-madison-california",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Madison offers mouthwatering local bites, eclectic shops, and stunning natural beauty that make it a must‑visit for foodies and nature lovers.",
       "sourceSentenceIds": [
         24
@@ -87,7 +84,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitmadison.com/madison-like-a-local/"
+      "source": "https://www.visitmadison.com/madison-like-a-local/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/madison-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Epolk",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hotel_Woodland.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Yolo County, California"
+  }
 }

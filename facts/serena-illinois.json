@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Serena sits at 41°29′14″N 88°43′55″W in La Salle County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Serena%2C_Illinois"
-    },
-    {
-      "id": 2,
-      "text": "The town rises 630 feet above sea level.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Serena in 1848, marking its early development.",
       "sourceSentenceIds": [
         13
@@ -51,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Serena was home to Peg McDonnell Breslin, the first woman elected to the Illinois Appellate Court outside Cook County.",
       "sourceSentenceIds": [
         2,
@@ -65,10 +45,12 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Serena,_Illinois"
+      "source": "https://kids.kiddle.co/Serena,_Illinois",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Locals pronounce Serena as “ser‑EE‑nah.”.",
       "sourceSentenceIds": [
         13
@@ -76,10 +58,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "The 1895 atlas lists Serena as a community with either a post office or railroad service.",
       "sourceSentenceIds": [
         4
@@ -87,7 +72,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm"
+      "source": "https://roadsidethoughts.com/il/serena-xx-la-salle-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/serena-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Teemu08",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LaSalle_County_Courthouse_(8745757340).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "LaSalle County, Illinois"
+  }
 }

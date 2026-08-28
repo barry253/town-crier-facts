@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Cross Roads sits in Bradford County, Pennsylvania, as an unincorporated community.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Columbia_Cross_Roads%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The town lies along Pennsylvania Route 14, just 3.5 miles north of Troy.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Columbia_Cross_Roads%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Columbia_Cross_Roads%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,29 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountycrossroads.htm"
-    },
-    {
-      "id": 4,
-      "text": "The state capital, Harrisburg, is roughly 35 miles from Cross Roads.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/pacountycrossroads.htm"
-    },
-    {
-      "id": 5,
-      "text": "Cross Roads sits at 39.82 degrees north latitude and 76.57 degrees west longitude.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.usacitiesonline.com/pacountycrossroads.htm"
+      "source": "https://www.usacitiesonline.com/pacountycrossroads.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -85,7 +58,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/pacountycrossroads.htm"
+      "source": "https://www.usacitiesonline.com/pacountycrossroads.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cross-roads-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Towanda_Main_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Bradford County, Pennsylvania"
+  }
 }

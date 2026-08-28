@@ -32,21 +32,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fairplains%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Fairplains%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Fairplains sits 1,280 feet above sea level, giving it a mild mountain‑influenced climate.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nc/fairplains-xx-wilkes-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The first documented reference to Fairplains appears in an 1895 book, marking the town’s early 19th‑century roots.",
       "sourceSentenceIds": [
         25
@@ -54,10 +45,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/fairplains-xx-wilkes-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/fairplains-xx-wilkes-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Fairplains is listed in both the FIPS‑55 and GNIS databases, confirming its official recognition.",
       "sourceSentenceIds": [
         5
@@ -65,10 +59,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/fairplains-xx-wilkes-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/fairplains-xx-wilkes-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Settlers in Fairplains navigated land disputes amid ongoing conflicts with Native American groups like the Cherokee.",
       "sourceSentenceIds": [
         6
@@ -76,7 +73,15 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/fairplains_north_carolina"
+      "source": "https://grokipedia.com/page/fairplains_north_carolina",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fairplains-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.615,
+    "y": 0.5
+  }
 }

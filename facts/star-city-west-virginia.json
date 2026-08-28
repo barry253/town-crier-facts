@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.starcitywv.com/about-us/"
+      "source": "https://www.starcitywv.com/about-us/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.starcitywv.com/about-us/"
+      "source": "https://www.starcitywv.com/about-us/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.starcitywv.com/about-us/"
+      "source": "https://www.starcitywv.com/about-us/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.starcitywv.com/about-us/"
+      "source": "https://www.starcitywv.com/about-us/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Star_City%2C_West_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Star_City%2C_West_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/star-city-west-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.71,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Carol M. Highsmith",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Monongalia_County_Courthouse_in_Morgantown,_West_Virginia_LCCN2015631558.jpg"
+  }
 }

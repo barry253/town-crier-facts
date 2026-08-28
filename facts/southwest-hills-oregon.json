@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,18 +69,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon"
+      "source": "https://en.wikipedia.org/wiki/Southwest_Hills%2C_Portland%2C_Oregon",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The Southwest Hills Residential League holds quarterly board meetings at 434 NW 6th Ave, coordinating community events.",
+      "text": "The Southwest Hills Residential League holds quarterly board meetings at 434 NW 6th Avenue, coordinating community events.",
       "sourceSentenceIds": [
         30
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.portland.gov/neighborhoods/southwest-hills"
+      "source": "https://www.portland.gov/neighborhoods/southwest-hills",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +96,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.portland.gov/neighborhoods/southwest-hills"
+      "source": "https://www.portland.gov/neighborhoods/southwest-hills",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/southwest-hills-oregon.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Visitor7",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portland,_Oregon_skyline_from_the_Ross_Island_Bridge.jpg"
+  }
 }

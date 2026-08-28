@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Gillham sits in Sevier County, Arkansas, a rural community in the state's northwestern region.",
-      "sourceSentenceIds": [
-        3,
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gillham%2C_Arkansas"
-    },
-    {
       "id": 2,
       "text": "Gillham lies six miles from Gillham Lake, a local waterway that offers scenic views.",
       "sourceSentenceIds": [
@@ -42,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gillham%2C_Arkansas"
-    },
-    {
-      "id": 3,
-      "text": "Gillham sits at 34°10′12″N, 94°18′56″W, pinpointing its exact geographic coordinates for mapping and navigation purposes.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gillham%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Gillham%2C_Arkansas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gillham%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Gillham%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -75,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-gillham.html"
+      "source": "https://www.citydirectory.us/town-gillham.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,

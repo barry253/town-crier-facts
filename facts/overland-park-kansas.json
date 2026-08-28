@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitoverlandpark.com/plan-your-stay/about-overland-park/"
+      "source": "https://www.visitoverlandpark.com/plan-your-stay/about-overland-park/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.travelks.com/places-to-visit/cities/overland-park/"
+      "source": "https://www.travelks.com/places-to-visit/cities/overland-park/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Overland_Park%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Overland_Park%2C_Kansas",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,33 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Overland_Park%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Overland_Park%2C_Kansas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The city’s historic downtown features a farmers’ market, a clocktower plaza, and a statue of founder William B.",
+      "text": "The city’s historic downtown features a farmers’ market, a clocktower plaza, and a statue of founder William B. Strang Jr.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Overland_Park%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Overland_Park%2C_Kansas",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/overland-park-kansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.813,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "City of Overland Park from Overland Park, United States",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_View_of_Oak_Park_Mall_(7590693896).jpg"
+  }
 }

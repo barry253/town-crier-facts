@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.marincountyvisitor.com/places-to-go/olema/"
+      "source": "https://www.marincountyvisitor.com/places-to-go/olema/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.marincountyvisitor.com/places-to-go/olema/"
+      "source": "https://www.marincountyvisitor.com/places-to-go/olema/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olema%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Olema%2C_California",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -68,21 +75,13 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.marincountyvisitor.com/places-to-go/olema/"
+      "source": "https://www.marincountyvisitor.com/places-to-go/olema/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
-      "text": "Olema lies on Olema Creek, 2.25 miles south-southeast of Point Reyes Station, at an elevation of 69 feet.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Olema%2C_California"
-    },
-    {
-      "id": 6,
       "text": "Olema offers two restaurants—Sir and Star and Due West—alongside a lodge and several charming bed‑and‑breakfasts.",
       "sourceSentenceIds": [
         16
@@ -90,7 +89,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olema%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Olema%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/olema-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.244,
+    "y": 0.498
+  }
 }

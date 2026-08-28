@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights"
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://thebha.org/neighborhood/"
+      "source": "https://thebha.org/neighborhood/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights"
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thebha.org/neighborhood/"
+      "source": "https://thebha.org/neighborhood/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights"
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights"
+      "source": "https://en.wikipedia.org/wiki/Brooklyn_Heights",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brooklyn-heights-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.455,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ajay_suresh",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brooklyn_Heights_(55268557434).jpg"
+  }
 }

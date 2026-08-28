@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://homewoodlivingmartinsburg.com/"
+      "source": "https://homewoodlivingmartinsburg.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://homewoodlivingmartinsburg.com/"
+      "source": "https://homewoodlivingmartinsburg.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://homewoodlivingmartinsburg.com/"
+      "source": "https://homewoodlivingmartinsburg.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://homewoodlivingmartinsburg.com/"
+      "source": "https://homewoodlivingmartinsburg.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +88,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homewood_at_Martinsburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Homewood_at_Martinsburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -90,7 +102,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://homewoodlivingmartinsburg.com/"
+      "source": "https://homewoodlivingmartinsburg.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homewood-at-martinsburg-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blair_County_Courthouse_Apr_10.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Blair County, Pennsylvania"
+  }
 }

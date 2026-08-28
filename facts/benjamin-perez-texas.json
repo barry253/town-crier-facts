@@ -21,48 +21,18 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Benjamin Perez sits at 26.406028°N, 98.899653°W in Starr County, Texas.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Benjamin_Perez%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community first appeared as a census‑designated place in the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Benjamin_Perez%2C_Texas"
-    },
-    {
       "id": 3,
-      "text": "Benjamin Perez is classified as a statistical entity with a Functional Status Code of “S”.",
+      "text": "Benjamin Perez is classified as a statistical entity with a Functional Status Code of \u201cS\u201d.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/starr/benjamin-perez.cfm"
-    },
-    {
-      "id": 4,
-      "text": "As a census‑designated place, it has no governmental functions and is not a legal entity.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/starr/benjamin-perez.cfm"
+      "source": "https://texas.hometownlocator.com/tx/starr/benjamin-perez.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,18 +43,28 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Benjamin-Perez-Texas.html"
+      "source": "https://www.city-data.com/city/Benjamin-Perez-Texas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
-      "text": "The 2024 cost‑of‑living index for Benjamin Perez is 78.8, indicating a lower cost than the national average.",
+      "text": "The 2024 cost\u2011of\u2011living index for Benjamin Perez is 78.8, indicating a lower cost than the national average.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Benjamin-Perez-Texas.html"
+      "source": "https://www.city-data.com/city/Benjamin-Perez-Texas.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

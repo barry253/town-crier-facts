@@ -22,28 +22,19 @@
   "facts": [
     {
       "id": 1,
-      "text": "Choctaw Valley sits mostly on the north bank of the Kern River, straddling the river until it meets Alfred Harrell Hwy.",
+      "text": "Choctaw Valley sits mostly on the north bank of the Kern River, straddling the river until it meets Alfred Harrell Highway.",
       "sourceSentenceIds": [
         4
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The median age in Choctaw Valley is 51.8 years, reflecting a mature community.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California"
-    },
-    {
-      "id": 3,
       "text": "About 21.9% of residents are under 18 while 23.2% are 65 or older, showing a balanced age spread.",
       "sourceSentenceIds": [
         6
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "For every 100 females, there are 102.6 males, and among adults the ratio rises to 120.2 males per 100 females.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "100% of Choctaw Valley residents live in rural areas, with no urban population.",
       "sourceSentenceIds": [
         8
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Choctaw_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Nature enthusiasts in Choctaw Valley enjoy breathtaking hiking trails and lush parks surrounding the gentle, rolling hills.",
       "sourceSentenceIds": [
         20
@@ -84,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/ca/choctaw-valley/29636"
+      "source": "https://hellonation.com/mag/ca/choctaw-valley/29636",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "China Lake Acres, California"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/choctaw-valley-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

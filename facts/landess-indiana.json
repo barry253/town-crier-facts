@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Landess%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Landess%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Landess%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Landess%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Landess%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Landess%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "The town rises to 860 feet above sea level.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/landess-xx-grant-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Landess appears in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/landess-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/in/landess-xx-grant-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Landess is located in northeastern Grant County, Indiana.",
       "sourceSentenceIds": [
         8
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/landess-xx-grant-profile.htm"
+      "source": "https://roadsidethoughts.com/in/landess-xx-grant-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/landess-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tysto",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marion-indiana-from-above.jpg"
+  }
 }

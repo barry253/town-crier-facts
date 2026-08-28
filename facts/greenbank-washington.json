@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://scenicwa.com/poi/greenbank"
+      "source": "https://scenicwa.com/poi/greenbank",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Greenbank%2C_Washington",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/greenbank-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.473,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greenbank_Farm,_Whidbey_Island_(front_view).jpg"
+  }
 }

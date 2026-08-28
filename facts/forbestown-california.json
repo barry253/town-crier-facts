@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://westernmininghistory.com/towns/california/forbestown/"
+      "source": "https://westernmininghistory.com/towns/california/forbestown/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westernmininghistory.com/towns/california/forbestown/"
+      "source": "https://westernmininghistory.com/towns/california/forbestown/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westernmininghistory.com/towns/california/forbestown/"
+      "source": "https://westernmininghistory.com/towns/california/forbestown/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,21 +72,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forbestown%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Forbestown%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The elevation of Forbestown is 2,772 feet (845 meters), placing it high in the Sierra Nevada foothills.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Forbestown%2C_California"
-    },
-    {
-      "id": 6,
       "text": "Forbestown’s post office opened in 1854, closed in 1925, and reopened in 1936, reflecting the town’s fluctuating fortunes.",
       "sourceSentenceIds": [
         10
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Forbestown%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Forbestown%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/forbestown-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.487,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author . Photo fron CSU Chico archives",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shalkespeaare_Mine_Forbestown_CA_ca1860.jpg"
+  }
 }

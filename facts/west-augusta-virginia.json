@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Augusta%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/West_Augusta%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Augusta%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/West_Augusta%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Augusta%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/West_Augusta%2C_Virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,21 +71,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/va/west-augusta-xx-augusta-profile.htm"
+      "source": "https://roadsidethoughts.com/va/west-augusta-xx-augusta-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town sits at 1,880 feet above sea level.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/va/west-augusta-xx-augusta-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Augusta County’s pastoral landscape, preserved by generations of farming, frames West Augusta’s surroundings.",
       "sourceSentenceIds": [
         16
@@ -85,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitaugustacounty.com/"
+      "source": "https://www.visitaugustacounty.com/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-augusta-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.211,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-05-19_16_52_52_View_east_along_Shenandoah_Mountain_Road_(U.S._Route_250)_in_West_Augusta,_Augusta_County,_Virginia.jpg"
+  }
 }

@@ -8,7 +8,7 @@
   "sources": [
     {
       "label": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/List_of_census-designated_places_in_New_York"
+      "url": "https://en.wikipedia.org/wiki/Breesport%2C_New_York"
     },
     {
       "label": "Web source 1",
@@ -22,69 +22,97 @@
   "facts": [
     {
       "id": 1,
-      "text": "Breesport began with two log houses built in 1816, marking the earliest settlement in the area.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/breesport_new_york"
-    },
-    {
-      "id": 2,
-      "text": "The Chemung County poorhouse opened in 1837 on an 180‑acre farm in Breesport and served the disadvantaged until 1971.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://chemungcountyny.gov/289/History"
-    },
-    {
-      "id": 3,
-      "text": "In 1857 Joseph Rodbourn built Breesport’s first steam‑powered sawmill, capable of 3 million feet of lumber per year, boosting local industry.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/breesport_new_york"
-    },
-    {
-      "id": 4,
-      "text": "Rodbourn also helped fund the Utica‑Ithaca‑Elmira Railroad in 1874, making Breesport a rail link to regional markets.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/breesport_new_york"
-    },
-    {
-      "id": 5,
-      "text": "New York State Route 223 runs through Breesport, connecting the hamlet to Horseheads and Erin over a span of about six miles.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/breesport_new_york"
-    },
-    {
-      "id": 6,
-      "text": "Breesport sits at 1,099 feet above sea level, giving it a moderate highland setting in upstate New York.",
+      "text": "Breesport, New York, experienced rapid growth in the late nineteenth century, largely due to the contributions of the Rodbourn family.",
       "sourceSentenceIds": [
         16
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/breesport_new_york"
+      "source": "https://en.wikipedia.org/wiki/Breesport%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 2,
+      "text": "The first steam-powered mill in Breesport was built in 1857 by Joseph Rodbourn, producing three million feet of lumber yearly.",
+      "sourceSentenceIds": [
+        17
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Breesport%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 3,
+      "text": "In 1830, the Heller family established the first sawmill in Breesport, just two years after settling in the area.",
+      "sourceSentenceIds": [
+        8
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Breesport%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 4,
+      "text": "Breesport's first store was created in 1855 by Ulysses and William R. Breese, brothers of the town's namesake, Azariah Breese.",
+      "sourceSentenceIds": [
+        15
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Breesport%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 5,
+      "text": "Adam Kinley, a notable economic leader in Breesport, developed several brickyards along Newton Creek during the late nineteenth century.",
+      "sourceSentenceIds": [
+        23
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Breesport%2C_New_York",
+      "category": "history",
+      "quality": "good"
+    },
+    {
+      "id": 6,
+      "text": "The Rodbourn House, a hotel in Breesport, officially opened in January 1855 and was built shortly after the village was surveyed.",
+      "sourceSentenceIds": [
+        13,
+        11
+      ],
+      "sourceLabels": [
+        "Wikipedia"
+      ],
+      "source": "https://en.wikipedia.org/wiki/Breesport%2C_New_York",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/breesport-new-york.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.13,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kenneth C. Zirkel",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseheads_Public_LIbrary,_New_York.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Chemung County, New York"
+  }
 }

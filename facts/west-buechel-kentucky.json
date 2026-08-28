@@ -21,29 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "West Buechel is a home rule-class city in Jefferson County, Kentucky.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Buechel%2C_Kentucky"
-    },
-    {
-      "id": 2,
-      "text": "The city sits in central Jefferson County, bordered on the west by Watterson Park and surrounded by consolidated Louisville/Jefferson County.",
-      "sourceSentenceIds": [
-        4,
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Buechel%2C_Kentucky"
-    },
-    {
       "id": 3,
       "text": "Route 150 marks West Buechel's northeast boundary while Newburg Road outlines most of its southwest edge.",
       "sourceSentenceIds": [
@@ -52,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Buechel%2C_Kentucky"
+      "source": "https://en.wikipedia.org/wiki/West_Buechel%2C_Kentucky",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westbuechel.ky.gov/Pages/index.aspx"
+      "source": "https://westbuechel.ky.gov/Pages/index.aspx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://westbuechel.ky.gov/Pages/index.aspx"
+      "source": "https://westbuechel.ky.gov/Pages/index.aspx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-west-buechel.html"
+      "source": "https://www.citydirectory.us/city-west-buechel.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

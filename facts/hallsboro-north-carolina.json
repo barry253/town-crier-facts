@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/hallsboro-xx-columbus-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/hallsboro-xx-columbus-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Hallsboro rises just 50 feet above sea level, a modest elevation for the coastal plain.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nc/hallsboro-xx-columbus-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Local students attend Hallsboro Elementary and Hallsboro Middle School, the town’s only public schools.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "There is no library in Hallsboro; the nearest is Rube McCray Memorial Library, 5.3 miles away in Lake Waccamaw.",
       "sourceSentenceIds": [
         6
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Ann Atwater, born in Hallsboro, became a noted civil‑rights activist in Durham, working with Operation Breakthrough.",
       "sourceSentenceIds": [
         2
@@ -84,7 +84,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Hallsboro%2C_North_Carolina",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hallsboro-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WaccamawLovers",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_at_Lake_Waccamaw_in_2001.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Waccamaw"
+  }
 }

@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Salford%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Salford%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://salfordtownship.com/p-87-Salford-Township-History"
+      "source": "https://salfordtownship.com/p-87-Salford-Township-History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://salfordtownship.com/p-87-Salford-Township-History"
+      "source": "https://salfordtownship.com/p-87-Salford-Township-History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://alchetron.com/Salford-Township%2C-Montgomery-County%2C-Pennsylvania"
+      "source": "https://alchetron.com/Salford-Township%2C-Montgomery-County%2C-Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://alchetron.com/Salford-Township%2C-Montgomery-County%2C-Pennsylvania"
+      "source": "https://alchetron.com/Salford-Township%2C-Montgomery-County%2C-Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/salford-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Douglas Muth",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Montgomery_County_Courthouse_Pennsylvania_-_Douglas_Muth.jpg"
+  }
 }

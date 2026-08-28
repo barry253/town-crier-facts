@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Wyatt%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/wyatt-xx-saint-joseph-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The town sits 830 feet above sea level, giving it a modest elevation compared to surrounding areas.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/wyatt-xx-saint-joseph-profile.htm"
+      "source": "https://roadsidethoughts.com/in/wyatt-xx-saint-joseph-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wyatt-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.516,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tysto",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wyatt-indiana-from-above.jpg"
+  }
 }

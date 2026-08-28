@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Drifting%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Drifting%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Drifting%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Drifting%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Drifting rests 1,600 feet above sea level, giving it a high‑land feel.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The community is listed in both the FIPS‑55 and GNIS databases.",
       "sourceSentenceIds": [
         1
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Historical records show Drifting had its own newspapers and a number of cemeteries recorded in local archives.",
       "sourceSentenceIds": [
         21,
@@ -85,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/drifting-xx-clearfield-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/drifting-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clearfield_County_Courthouse_Apr_10.JPG"
+  }
 }

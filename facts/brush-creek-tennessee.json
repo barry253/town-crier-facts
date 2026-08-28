@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee"
+      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee"
+      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee"
+      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee"
+      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,19 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee"
-    },
-    {
-      "id": 6,
-      "text": "The Isola Bella Plantation is one of the most famous historical buildings in Brush Creek.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee"
+      "source": "https://kids.kiddle.co/Brush_Creek,_Williamson_County,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brush-creek-tennessee.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ruth Marshall, U.S. Army Corps of Engineers",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USACE_Brush_Creek_Kansas_City.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Brush Creek (Blue River tributary)"
+  }
 }

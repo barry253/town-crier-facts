@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uniondale%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Uniondale%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Uniondale%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Uniondale%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The Old Grain Mill, a vestige of the town’s agricultural past, still stands on Main Street.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide"
-    },
-    {
-      "id": 4,
       "text": "Historic Main Street showcases preserved storefronts that reflect early 20th‑century commercial architecture.",
       "sourceSentenceIds": [
         7
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide"
+      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Uniondale’s local museum and historical society chronicle the region’s heritage through artifacts and exhibits.",
       "sourceSentenceIds": [
         8
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide"
+      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Uniondale’s Old Grain Mill remains a historic landmark, echoing the town’s milling heritage.",
       "sourceSentenceIds": [
         6
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide"
+      "source": "https://allthingsusa.blog/uniondale-indiana-hidden-gem-guide",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/uniondale-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Derek Jensen (Tysto)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Decatur-indiana-superior-court.jpg"
+  }
 }

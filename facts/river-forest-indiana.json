@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The only roads in River Forest are River Forest Street, a dead‑end north‑south road, and West 8th Street, which marks the town’s southern border.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana"
-    },
-    {
-      "id": 3,
       "text": "River Forest is located in central Madison County, in the northwest part of Anderson Township.",
       "sourceSentenceIds": [
         8
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "River Forest is part of the Indianapolis–Carmel–Anderson metropolitan statistical area for commuters.",
       "sourceSentenceIds": [
         7
@@ -62,21 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/River_Forest%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
-      "text": "River Forest’s elevation is 870 feet above sea level in the Midwest.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/in/river-forest-xx-madison-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "River Forest historically had no post office or railroad service, as noted in the Gazetteer.",
       "sourceSentenceIds": [
         3
@@ -84,7 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/in/river-forest-xx-madison-profile.htm"
+      "source": "https://roadsidethoughts.com/in/river-forest-xx-madison-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/river-forest-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ONUnicorn",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:River_Forest,_Indiana.jpg"
+  }
 }

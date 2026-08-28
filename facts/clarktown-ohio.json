@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Clarktown sits at the intersection of State Route 139 with Burns Hollow and Blue Run roads.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio"
-    },
-    {
-      "id": 2,
       "text": "The community lies 5 miles southeast of Lucasville and 10 miles northeast of Portsmouth, the county seat.",
       "sourceSentenceIds": [
         8
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Long Run, a tributary of the Rocky Fork of the Little Scioto River, flows past Clarktown.",
       "sourceSentenceIds": [
         9
@@ -51,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Clarktown sits 670 feet above sea level.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/clarktown-xx-scioto-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Clarktown is located in Scioto County, Ohio.",
       "sourceSentenceIds": [
         18
@@ -73,10 +56,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/clarktown-xx-scioto-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/clarktown-xx-scioto-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Clarktown is part of the Little Scioto River watershed, feeding into the Ohio River system.",
       "sourceSentenceIds": [
         9
@@ -84,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Clarktown%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clarktown-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.767,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Clarktown_Charity_FWB_Church.jpg"
+  }
 }

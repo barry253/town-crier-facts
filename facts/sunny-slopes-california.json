@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Sunny Slopes sits at 7,198 feet above sea level, offering panoramic mountain views.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunny_Slopes%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Most of the community lies within Inyo National Forest, preserving its rugged wilderness character.",
       "sourceSentenceIds": [
         16
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunny_Slopes%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sunny_Slopes%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Route 395 links Sunny Slopes to Mammoth Lakes 19 miles northwest and Bishop 25 miles southeast.",
       "sourceSentenceIds": [
         15
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunny_Slopes%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sunny_Slopes%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Sunnyslope Historical Society, founded in 1989, preserves local history and operates a museum with two galleries.",
       "sourceSentenceIds": [
         8,
@@ -63,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sunnyslopehistoricalsociety.org/sunnyslope-historical-society-museum/"
+      "source": "https://sunnyslopehistoricalsociety.org/sunnyslope-historical-society-museum/",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Society digitizes its collection and shares it online at theArtHubSunnyslope.org, making history accessible.",
       "sourceSentenceIds": [
         6,
@@ -75,10 +71,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sunnyslopehistoricalsociety.org/sunnyslope-historical-society-museum/"
+      "source": "https://sunnyslopehistoricalsociety.org/sunnyslope-historical-society-museum/",
+      "category": "other",
+      "quality": "poor"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The 1945 house, a historic building, is part of the museum and needs repair funding.",
       "sourceSentenceIds": [
         29
@@ -86,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://sunnyslopehistoricalsociety.org/sunnyslope-historical-society-museum/"
+      "source": "https://sunnyslopehistoricalsociety.org/sunnyslope-historical-society-museum/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunny-slopes-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kate McGahan",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Town_of_June_Lake.JPG"
+  }
 }

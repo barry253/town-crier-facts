@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,19 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee"
-    },
-    {
-      "id": 4,
-      "text": "Rural Hill sits at 36°7′7″N 86°31′8″W, placing it just four miles west of Gladeville on Stewart Ferry Pike.",
-      "sourceSentenceIds": [
-        4,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +83,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Rural_Hill%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rural-hill-tennessee.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hal Jespersen (User:Hlj) at en.wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:6-pounder_Wiard_cannon_at_Stones_River_National_Battlefield.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Battle of Stones River"
+  }
 }

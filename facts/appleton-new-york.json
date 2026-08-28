@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Appleton%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Appleton%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
-      "text": "Appleton sits 330 feet above sea level, giving it a gentle elevation within the Niagara region.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/appleton-xx-niagara-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The hamlet’s post office opened in 1895, marking the start of its formal community services.",
       "sourceSentenceIds": [
         14
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/appleton-xx-niagara-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/appleton-xx-niagara-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Appleton is home to the Winery at Marjim Manor, a local vineyard that showcases regional wines.",
       "sourceSentenceIds": [
         8
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Appleton%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Appleton%2C_New_York",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "A 19th‑century mansion, nearly two centuries old, stands as a historic landmark in Appleton.",
       "sourceSentenceIds": [
         9
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Appleton%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Appleton%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Appleton is located within Niagara County, a detail that places it in the broader Niagara region of New York.",
       "sourceSentenceIds": [
         13
@@ -84,7 +82,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/appleton-xx-niagara-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/appleton-xx-niagara-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/appleton-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nandaro",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Niagara_Falls_001.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Niagara Falls, New York"
+  }
 }

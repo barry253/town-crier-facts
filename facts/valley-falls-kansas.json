@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_Falls%2C_Kansas"
+      "source": "https://en.wikipedia.org/wiki/Valley_Falls%2C_Kansas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/11467"
+      "source": "https://museumsdatabase.com/museums/view/11467",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,19 +57,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/11467"
-    },
-    {
-      "id": 4,
-      "text": "Located at 39°20′35″N 95°27′38″W, Valley Falls is part of the Topeka Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        19,
-        21
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Valley_Falls%2C_Kansas"
+      "source": "https://museumsdatabase.com/museums/view/11467",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valley-falls-kansas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ichabod",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valley_Falls_Kansas_9-16-2014.JPG"
+  }
 }

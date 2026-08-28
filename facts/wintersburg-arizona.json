@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wintersburg%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Wintersburg%2C_Arizona",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Wintersburg,_Arizona"
+      "source": "https://kids.kiddle.co/Wintersburg,_Arizona",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://digitizingwintersburg.com/"
+      "source": "https://digitizingwintersburg.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://digitizingwintersburg.com/"
+      "source": "https://digitizingwintersburg.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Wintersburg,_Arizona"
+      "source": "https://kids.kiddle.co/Wintersburg,_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -88,7 +99,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://digitizingwintersburg.com/"
+      "source": "https://digitizingwintersburg.com/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wintersburg-arizona.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.563,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Marine 69-71",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wintersburg-Wintersburg_Post_Office-1931.jpg"
+  }
 }

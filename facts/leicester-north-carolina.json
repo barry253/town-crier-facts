@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leicester%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Leicester%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,22 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Leicester%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Leicester%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 3,
-      "text": "The town sits at about 2,100 feet elevation, roughly 10 miles northwest of Asheville, giving it a mountain climate.",
-      "sourceSentenceIds": [
-        15,
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Leicester%2C_North_Carolina"
-    },
-    {
-      "id": 4,
       "text": "The Blue Ridge Craft Trails feature studios like Macadoo Pottery and Cat Jarosz Pottery, which host open‑studio weekends every third August.",
       "sourceSentenceIds": [
         21,
@@ -67,10 +60,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.blueridgeheritage.com/itineraries/leicester-a-hidden-cove-of-beauty/"
+      "source": "https://www.blueridgeheritage.com/itineraries/leicester-a-hidden-cove-of-beauty/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Leicester History Project, a partnership between Buncombe County Special Collections and the Leicester Branch Library, preserves photographs, scrapbooks, and oral histories.",
       "sourceSentenceIds": [
         2,
@@ -81,7 +76,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://leicesternc.omeka.net/"
+      "source": "https://leicesternc.omeka.net/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/leicester-north-carolina.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mojo Hand",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Mountain_NC_downtown.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Black Mountain, North Carolina"
+  }
 }

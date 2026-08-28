@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/georgia_broxton"
+      "source": "https://www.trawellino.com/destinations/united-states/georgia_broxton",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Broxton%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Broxton%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Broxton%2C_Georgia"
-    },
-    {
-      "id": 4,
-      "text": "Broxton sits in north‑central Coffee County at 31°37′39″N 82°53′23″W, a rural spot in southern Georgia.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Broxton%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Broxton%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -75,7 +71,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/city-broxton.html"
+      "source": "https://www.citydirectory.us/city-broxton.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/broxton-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Broxton_Post_Office.JPG"
+  }
 }

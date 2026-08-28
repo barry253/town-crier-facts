@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Timber Hills sits in southwestern Lebanon County at 40°14′56″N 76°28′40″W, right in the southeastern corner of South Londonderry Township.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Timber_Hills%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "To the east, the borough of Mount Gretna borders Timber Hills, giving the area a quiet, residential feel.",
       "sourceSentenceIds": [
         5
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Timber_Hills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Timber_Hills%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Lebanon, the county seat, lies just nine miles northeast of Timber Hills, a short drive for residents.",
       "sourceSentenceIds": [
         6
@@ -51,33 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Timber_Hills%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Timber_Hills%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
-      "text": "Conewago Lake occupies the southern part of the census-designated place, while its outlet, Conewago Creek, flows southwest toward the Susquehanna River.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Timber_Hills%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
-      "text": "The community sits at an elevation of 650 feet above sea level, offering gentle hills and scenic views.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/timber-hills-xx-lebanon-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 3,
       "text": "Timber Hills is part of Lebanon County, a region known for its rich agricultural heritage and historic mills.",
       "sourceSentenceIds": [
         18
@@ -85,7 +57,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/timber-hills-xx-lebanon-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/timber-hills-xx-lebanon-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/timber-hills-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Lukes_LebCo_PA_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lebanon County, Pennsylvania"
+  }
 }

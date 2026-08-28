@@ -22,41 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Loma Linda sits at 28°0′25″N 97°29′58″W, right in the heart of West Texas.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Loma_Linda%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community lies in Hudspeth County, part of West Texas’s Big Bend Country.",
-      "sourceSentenceIds": [
-        7,
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm"
-    },
-    {
-      "id": 3,
-      "text": "Loma Linda Estates rises about 5,060 feet above sea level—roughly one mile high.",
-      "sourceSentenceIds": [
-        9,
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "An 1895 atlas records that Loma Linda had a post office or railroad service.",
       "sourceSentenceIds": [
         1
@@ -64,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 2,
       "text": "The same 1895 atlas lists nearby communities that existed around Loma Linda Estates.",
       "sourceSentenceIds": [
         29
@@ -75,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "Locally, Loma Linda Estates is also called ‘Loma Linda Estates Colonia’.",
       "sourceSentenceIds": [
         6
@@ -86,7 +57,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/loma-linda-estates-xx-hudspeth-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Ingleside on the Bay, Texas"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/loma-linda-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_patricio_courthouse.jpg"
+  }
 }

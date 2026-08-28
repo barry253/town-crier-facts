@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harwich_Center%2C_Massachusetts"
+      "source": "https://en.wikipedia.org/wiki/Harwich_Center%2C_Massachusetts",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://harwichhistorical.org/history-of-harwich/"
+      "source": "https://harwichhistorical.org/history-of-harwich/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://harwichhistorical.org/history-of-harwich/"
+      "source": "https://harwichhistorical.org/history-of-harwich/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://harwichhistorical.org/history-of-harwich/"
+      "source": "https://harwichhistorical.org/history-of-harwich/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +82,15 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://harwichhistorical.org/history-of-harwich/"
-    },
-    {
-      "id": 6,
-      "text": "Harwich Center’s coordinates place it at 41°41′18″N 70°4′19″W, right in the heart of Cape Cod.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Harwich_Center%2C_Massachusetts"
+      "source": "https://harwichhistorical.org/history-of-harwich/",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/harwich-center-massachusetts.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.375,
+    "y": 0.499
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,29 +69,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/co/otis-xx-washington-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "The town sits at an elevation of 4,330 feet above sea level.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/co/otis-xx-washington-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Otis is located at 40°9′2″N 102°57′45″W (40.150645, –102.962521).",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Otis%2C_Colorado"
+      "source": "https://roadsidethoughts.com/co/otis-xx-washington-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/otis-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.65,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otis,_Colorado.JPG"
+  }
 }

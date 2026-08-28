@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The valley sits at an elevation of 433 feet (132 meters) above sea level.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California"
-    },
-    {
-      "id": 3,
       "text": "It lies north of Newbury Park, between Thousand Oaks and Camarillo, and borders Conejo Valley to the south.",
       "sourceSentenceIds": [
         24
@@ -51,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Norwegian Grade, built by the Norwegian Colony, links Santa Rosa Valley to Thousand Oaks via the historic road.",
       "sourceSentenceIds": [
         25
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Before colonization, the valley hosted a Chumash village called Šumpaši along Conejo Creek.",
       "sourceSentenceIds": [
         30
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rosa_Valley%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The National Women’s History Alliance was founded in Santa Rosa Valley in 1980 to bring women’s history into the mainstream.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://historicalsocietysantarosa.org/"
+      "source": "https://historicalsocietysantarosa.org/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/santa-rosa-valley-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CameronK23",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sherwood.jpg"
+  }
 }

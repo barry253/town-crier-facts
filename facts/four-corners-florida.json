@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Four_Corners_Florida"
+      "source": "https://grokipedia.com/page/Four_Corners_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Four_Corners_Florida"
+      "source": "https://grokipedia.com/page/Four_Corners_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,21 +60,12 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/Four_Corners_Florida"
+      "source": "https://grokipedia.com/page/Four_Corners_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Four Corners is the only community in Florida that lies within four counties simultaneously.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Four_Corners%2C_Florida"
-    },
-    {
-      "id": 5,
       "text": "The area experiences more lightning strikes per square mile than any other place in the United States.",
       "sourceSentenceIds": [
         25
@@ -78,10 +73,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Four_Corners%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Four_Corners%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "In summer 2019, Sunset Walk restaurants and shops opened beside the resort, adding a lively dining scene.",
       "sourceSentenceIds": [
         15
@@ -89,7 +86,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Four_Corners%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Four_Corners%2C_Florida",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/four-corners-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.188,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Osceola_County_Fire_Rescue_Station_71.jpg"
+  }
 }

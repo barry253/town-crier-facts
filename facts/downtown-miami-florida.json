@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Downtown Miami spans 3.8 square miles east of I‑95, bounded by Rickenbacker Causeway to the south and Julia Tuttle Causeway to the north.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami"
-    },
-    {
       "id": 2,
       "text": "Flagler Street, named after railroad tycoon Henry Flagler, has been Downtown’s main shopping artery since the 19th century.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami"
+      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami"
+      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami"
+      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami"
+      "source": "https://en.wikipedia.org/wiki/Greater_Downtown_Miami",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/downtown-miami-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.699,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Comayagua99 (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miami_neighborhoodsmap.png"
+  }
 }

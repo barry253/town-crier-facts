@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Clio is served by the Union Pacific Railroad, after the Chicago & Northwestern bought the Minneapolis‑Kansas City “Spine Line” from the Rock Island in the 1980s.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa"
-    },
-    {
-      "id": 2,
       "text": "Rollo Eberline was the depot agent for Clio’s Rock Island station in the 1920s and 1930s before moving to Letts as a section foreman.",
       "sourceSentenceIds": [
         2,
@@ -41,10 +30,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/iacountyclio.htm"
+      "source": "https://www.usacitiesonline.com/iacountyclio.htm",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "In 2011, Clio’s local schools merged into the Wayne Community Schools system in Corydon.",
       "sourceSentenceIds": [
         29
@@ -52,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Clio is a city located in Wayne County, Iowa.",
       "sourceSentenceIds": [
         9
@@ -63,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Before becoming part of Union Pacific, Clio sat on the historic Minneapolis‑Kansas City “Spine Line” that once ran through the town.",
       "sourceSentenceIds": [
         4
@@ -74,7 +71,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa"
+      "source": "https://en.wikipedia.org/wiki/Clio%2C_Iowa",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clio-iowa.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.295,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "PopePompus",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ClioIowaBaseballClub.jpg"
+  }
 }

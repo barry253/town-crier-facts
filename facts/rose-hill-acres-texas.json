@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +86,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -86,7 +100,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rose_Hill_Acres%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rose-hill-acres-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

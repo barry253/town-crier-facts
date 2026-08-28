@@ -32,7 +32,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/mccoy_colorado"
+      "source": "https://grokipedia.com/page/mccoy_colorado",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mccoy_colorado"
+      "source": "https://grokipedia.com/page/mccoy_colorado",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mccoy_colorado"
+      "source": "https://grokipedia.com/page/mccoy_colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mccoy_colorado"
+      "source": "https://grokipedia.com/page/mccoy_colorado",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mccoy_colorado"
+      "source": "https://grokipedia.com/page/mccoy_colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +101,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/mccoy_colorado"
+      "source": "https://grokipedia.com/page/mccoy_colorado",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "McCoy Lake"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mc-coy-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": null,
+    "license": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Striped_Bass.jpg"
+  }
 }

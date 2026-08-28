@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Peters sits at an elevation of 112 feet (34 m).",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Peters%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The town’s latitude and longitude are 37.9808° N, 121.048° W, placing it in central California’s San Joaquin Valley.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm"
-    },
-    {
-      "id": 3,
       "text": "Peters observes Pacific Time, shifting to daylight saving like the rest of California.",
       "sourceSentenceIds": [
         13
@@ -51,21 +29,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm"
+      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 4,
-      "text": "Peters is officially a census‑designated place, meaning it has no municipal government.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "The area’s Functional Status Code is “S,” identifying it as a statistical entity for census purposes.",
       "sourceSentenceIds": [
         14
@@ -73,10 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm"
+      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "Peters covers a tiny water area of just 0.01 square miles, almost all land.",
       "sourceSentenceIds": [
         12
@@ -84,7 +57,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm"
+      "source": "https://california.hometownlocator.com/ca/san-joaquin/peters.cfm",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/peters-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.65,
+    "y": 0.5
+  }
 }

@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Springwater Colony sits at 46.4594°N, 109.7563°W in Wheatland County, Montana, in the heart of the state's rugged plains.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://montana.hometownlocator.com/mt/wheatland/springwater-colony.cfm"
-    },
-    {
       "id": 2,
       "text": "The community is a census‑designated place, meaning it has no legal government and relies on county services.",
       "sourceSentenceIds": [
@@ -40,19 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://montana.hometownlocator.com/mt/wheatland/springwater-colony.cfm"
-    },
-    {
-      "id": 3,
-      "text": "Springwater Colony lies just 4 miles northeast of Harlowton, the county seat, and is zoned to its public schools.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Springwater_Colony%2C_Montana"
+      "source": "https://montana.hometownlocator.com/mt/wheatland/springwater-colony.cfm",
+      "category": "other",
+      "quality": "poor"
     },
     {
       "id": 4,
@@ -65,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://city-stats.com/montana/springwater-colony/"
+      "source": "https://city-stats.com/montana/springwater-colony/",
+      "category": "other",
+      "quality": "poor"
     },
     {
       "id": 5,
@@ -76,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://city-stats.com/montana/springwater-colony/"
+      "source": "https://city-stats.com/montana/springwater-colony/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     },
     {
       "id": 6,
@@ -87,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://montana.hometownlocator.com/mt/wheatland/springwater-colony.cfm"
+      "source": "https://montana.hometownlocator.com/mt/wheatland/springwater-colony.cfm",
+      "category": "other",
+      "quality": "poor"
     }
   ]
 }

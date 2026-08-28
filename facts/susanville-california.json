@@ -32,22 +32,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Susanville%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Susanville%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits on a high‑desert plateau, 4,186 feet above sea level, overlooking the Honey Lake Valley.",
-      "sourceSentenceIds": [
-        22,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Susanville%2C_California"
-    },
-    {
-      "id": 3,
       "text": "Susanville once served as a key overland freight hub where the Nobles Emigrant Trail met the Humboldt Wagon Road.",
       "sourceSentenceIds": [
         12
@@ -55,10 +45,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Susanville%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Susanville%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Lassen Historical Museum houses rare photos and memorabilia that chronicle Susanville’s pioneer days.",
       "sourceSentenceIds": [
         5
@@ -66,10 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.visitcalifornia.com/places-to-visit/susanville/"
+      "source": "https://www.visitcalifornia.com/places-to-visit/susanville/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In 1863, tensions over jurisdiction sparked the brief Sagebrush War, a local conflict that shaped early county politics.",
       "sourceSentenceIds": [
         11
@@ -77,7 +71,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofsusanville.gov/216/History"
+      "source": "https://www.cityofsusanville.gov/216/History",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/susanville-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.516,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ShakataGaNai",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_Susanville_1.jpg"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olde_Towne_East"
+      "source": "https://en.wikipedia.org/wiki/Olde_Towne_East",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.experiencecolumbus.com/neighborhoods/near-east-side/"
+      "source": "https://www.experiencecolumbus.com/neighborhoods/near-east-side/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.oldetowneeast.org/"
+      "source": "https://www.oldetowneeast.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olde_Towne_East"
+      "source": "https://en.wikipedia.org/wiki/Olde_Towne_East",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Olde_Towne_East"
+      "source": "https://en.wikipedia.org/wiki/Olde_Towne_East",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.experiencecolumbus.com/neighborhoods/near-east-side/"
+      "source": "https://www.experiencecolumbus.com/neighborhoods/near-east-side/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/olde-towne-east-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ɱ",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parsons_Avenue_business_corridor.jpg"
+  }
 }

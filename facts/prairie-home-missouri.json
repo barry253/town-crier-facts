@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Prairie_Home%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://mdc.mo.gov/discover-nature/places/prairie-home-conservation-area"
+      "source": "https://mdc.mo.gov/discover-nature/places/prairie-home-conservation-area",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/prairie-home-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kbh3rd",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cooper_County_MO_Courthouse_20140920-pano1_crop.jpg"
+  }
 }

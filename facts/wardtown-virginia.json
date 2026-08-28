@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wardtown%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Wardtown%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wardtown,_Virginia"
+      "source": "https://kids.kiddle.co/Wardtown,_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wardtown,_Virginia"
+      "source": "https://kids.kiddle.co/Wardtown,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -66,7 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wardtown,_Virginia"
+      "source": "https://kids.kiddle.co/Wardtown,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -78,19 +89,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Wardtown,_Virginia"
-    },
-    {
-      "id": 6,
-      "text": "The historic building Grapeland in Wardtown earned its place on the National Register of Historic Places, protecting it for future generations.",
-      "sourceSentenceIds": [
-        5,
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Wardtown,_Virginia"
+      "source": "https://kids.kiddle.co/Wardtown,_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wardtown-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Alexiskferia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastville_Courthouse.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Northampton County, Virginia"
+  }
 }

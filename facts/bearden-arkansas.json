@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Bearden is a city in northeastern Ouachita County, Arkansas, known for its rural charm.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bearden%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "Bearden is part of the Camden Micropolitan Statistical Area, linking it to regional commerce.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bearden%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "In 1895, Bearden had a railroad service, according to historical records, boosting local trade.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/bearden-xx-ouachita-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/bearden-xx-ouachita-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/bearden-xx-ouachita-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/bearden-xx-ouachita-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ar/bearden-xx-ouachita-profile.htm"
+      "source": "https://roadsidethoughts.com/ar/bearden-xx-ouachita-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bearden%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Bearden%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     }
   ]
 }

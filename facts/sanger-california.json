@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.sangerdepotmuseum.com/"
+      "source": "https://www.sangerdepotmuseum.com/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,18 +75,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California"
-    },
-    {
-      "id": 5,
-      "text": "Sanger sits 13 miles east-southeast of Fresno at an elevation of 371 feet.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sanger%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sanger-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.196,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bobak Ha'Eri",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2009-0725-CA-SangerDepotMuseum.jpg"
+  }
 }

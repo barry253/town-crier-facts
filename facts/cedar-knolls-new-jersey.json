@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cedar Knolls is an unincorporated community within Hanover Township, Morris County, New Jersey.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey"
-    },
-    {
-      "id": 2,
-      "text": "It lies in eastern Morris County, part of western Hanover Township today.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey"
-    },
-    {
-      "id": 3,
       "text": "Interstate 287 borders Cedar Knolls to the east, linking it to Morristown and Parsippany.",
       "sourceSentenceIds": [
         6
@@ -51,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "The Whippany River flows through Cedar Knolls’ southeast, joining the Passaic River watershed.",
       "sourceSentenceIds": [
         7
@@ -62,29 +43,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey"
-    },
-    {
-      "id": 5,
-      "text": "Cedar Knolls sits at latitude 40.822 and longitude –74.4488 in Morris County.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/morris/cedar-knolls.cfm"
-    },
-    {
-      "id": 6,
-      "text": "The entire community is urban, with no rural areas reported in the latest census data.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Cedar_Knolls%2C_New_Jersey",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cedar-knolls-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.767,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Joelincoln at English Wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malapardis_Park_Cedar_Knolls_NJ.jpg"
+  }
 }

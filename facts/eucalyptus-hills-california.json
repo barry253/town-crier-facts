@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Eucalyptus Hills sits at an elevation of 627 feet, giving it a mild, rolling hilltop feel.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eucalyptus_Hills%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The median age of residents is 40 years, a typical figure for a suburban community.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eucalyptus_Hills%2C_California"
-    },
-    {
-      "id": 3,
       "text": "About 73% of the 1,879 housing units are owner‑occupied, showing a strong home‑ownership culture.",
       "sourceSentenceIds": [
         7,
@@ -52,21 +30,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eucalyptus_Hills%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Eucalyptus_Hills%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
-      "text": "The homeowner vacancy rate is a mere 0.2%, while rentals sit at 2.9%, indicating a tight housing market.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Eucalyptus_Hills%2C_California"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "Average rental prices in Eucalyptus Hills hover around $3,695 a month, reflecting its upscale status.",
       "sourceSentenceIds": [
         30
@@ -74,10 +44,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.neighborhoodscout.com/ca/lakeside/eucalyptus-hills"
+      "source": "https://www.neighborhoodscout.com/ca/lakeside/eucalyptus-hills",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "Median real‑estate prices reach $936,761, higher than 51.6% of California neighborhoods and 78.2% nationwide.",
       "sourceSentenceIds": [
         29
@@ -85,7 +58,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.neighborhoodscout.com/ca/lakeside/eucalyptus-hills"
+      "source": "https://www.neighborhoodscout.com/ca/lakeside/eucalyptus-hills",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eucalyptus-hills-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Davidlud",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4.3LasPlayasSunset1_copy_1.jpg"
+  }
 }

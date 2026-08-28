@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blanch_north_carolina"
+      "source": "https://grokipedia.com/page/blanch_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blanch_north_carolina"
+      "source": "https://grokipedia.com/page/blanch_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,22 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blanch_north_carolina"
+      "source": "https://grokipedia.com/page/blanch_north_carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Blanch sits at 384 feet elevation in Dan River Township, just west of the Dan River that borders Virginia.",
-      "sourceSentenceIds": [
-        5,
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/blanch_north_carolina"
-    },
-    {
-      "id": 5,
       "text": "The community hosts two North Carolina Department of Adult Correction facilities: Caswell Correctional Center (medium security) and Dan River Prison Work Farm (minimum security).",
       "sourceSentenceIds": [
         10
@@ -75,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blanch_north_carolina"
+      "source": "https://grokipedia.com/page/blanch_north_carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Early settlers in the mid‑1700s were Scotch‑Irish, English, and German farmers who cleared land for mixed crops and livestock, laying the rural foundation of Blanch.",
       "sourceSentenceIds": [
         21,
@@ -87,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blanch_north_carolina"
+      "source": "https://grokipedia.com/page/blanch_north_carolina",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blanch-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.28,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "NatalieMaynor from Jackson, Mississippi, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caswell_County_Courthouse.jpg"
+  }
 }

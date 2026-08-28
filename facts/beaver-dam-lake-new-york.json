@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.orangecountygov.com/2734/History"
+      "source": "https://www.orangecountygov.com/2734/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.orangecountygov.com/2734/History"
+      "source": "https://www.orangecountygov.com/2734/History",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.orangecountygov.com/2734/History"
+      "source": "https://www.orangecountygov.com/2734/History",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.orangecountygov.com/2734/History"
+      "source": "https://www.orangecountygov.com/2734/History",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -76,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.orangecountygov.com/2734/History"
+      "source": "https://www.orangecountygov.com/2734/History",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -88,7 +100,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beaver_Dam_Lake%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Beaver_Dam_Lake%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/beaver-dam-lake-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.762,
+    "y": 0.5
+  }
 }

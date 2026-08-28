@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://perfectitinerary.io/switzerland/zurich/neighborhoods/wipkingen"
+      "source": "https://perfectitinerary.io/switzerland/zurich/neighborhoods/wipkingen",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Z%C3%BCrich_Wipkingen_railway_station",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/publikationen-und-dienstleistungen/publikationen/quartierspiegel/quartier-102.html"
+      "source": "https://www.stadt-zuerich.ch/de/politik-und-verwaltung/statistik-und-daten/publikationen-und-dienstleistungen/publikationen/quartierspiegel/quartier-102.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wipkingen-zurich.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.254,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "GleisReis",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Z%C3%BCrich_Wipkingen_railway_station.jpg"
+  }
 }

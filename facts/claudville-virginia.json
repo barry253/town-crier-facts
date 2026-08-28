@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Claudville, named after Virginia governor Claude A., sits near the North Carolina line.",
+      "text": "Claudville, named after Virginia governor Claude A. Swanson, sits near the North Carolina line.",
       "sourceSentenceIds": [
         1,
         14
@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +82,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia"
-    },
-    {
-      "id": 6,
-      "text": "The town lies at the crossroads of Virginia State Routes 103 and 104.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Claudville%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/claudville-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jquesen2003",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bull_Mountain.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Patrick County, Virginia"
+  }
 }

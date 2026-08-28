@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/whittington_illinois"
+      "source": "https://grokipedia.com/page/whittington_illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/whittington_illinois"
+      "source": "https://grokipedia.com/page/whittington_illinois",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,18 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/whittington_illinois"
-    },
-    {
-      "id": 4,
-      "text": "Located at 38°05′21″N 88°54′10″W, Whittington sits 443 feet above sea level in southern Illinois.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/whittington_illinois"
+      "source": "https://grokipedia.com/page/whittington_illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/whittington_illinois"
+      "source": "https://grokipedia.com/page/whittington_illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +85,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/whittington_illinois"
+      "source": "https://grokipedia.com/page/whittington_illinois",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/whittington-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Aaron Lucas",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Franklin_County_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Franklin County, Illinois"
+  }
 }

@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "West Goshen sits about 272 feet above sea level.",
-      "sourceSentenceIds": [
-        5,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Goshen%2C_California"
-    },
-    {
-      "id": 2,
       "text": "West Goshen Township was born in 1817 when Goshen split into east and west.",
       "sourceSentenceIds": [
         18,
@@ -43,10 +30,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32"
+      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Goshen Road, the first major route to Philadelphia, was mapped in 1710.",
       "sourceSentenceIds": [
         17
@@ -54,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32"
+      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "West Goshen’s oldest surviving house, the Boot Tavern, opened its doors in 1765.",
       "sourceSentenceIds": [
         18
@@ -65,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32"
+      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The final trolley ride along West Chester Pike took place in 1954.",
       "sourceSentenceIds": [
         27
@@ -76,10 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32"
+      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "West Goshen’s name reflects its Welsh Quaker roots from the 1704 Welsh Tract.",
       "sourceSentenceIds": [
         17
@@ -87,7 +82,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32"
+      "source": "https://www.westgoshen.org/CivicAlerts.asp?AID=32",
+      "category": "etymology",
+      "quality": "good"
     }
   ]
 }

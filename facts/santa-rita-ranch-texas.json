@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rita_Ranch%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rita_Ranch%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rita_Ranch%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "The community’s geographic center lies at latitude 30.6638 and longitude ‑97.84.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/williamson/santa-rita-ranch.cfm"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rita_Ranch%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,18 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/williamson/santa-rita-ranch.cfm"
-    },
-    {
-      "id": 5,
-      "text": "As a census‑designated place, Santa Rita Ranch has no legal government or municipal functions.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/williamson/santa-rita-ranch.cfm"
+      "source": "https://texas.hometownlocator.com/tx/williamson/santa-rita-ranch.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Santa_Rita_Ranch%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Santa_Rita_Ranch%2C_Texas",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/santa-rita-ranch-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Williamson_County_Courthouse_(1_of_1).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Williamson County, Texas"
+  }
 }

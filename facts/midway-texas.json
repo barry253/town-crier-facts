@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texasinsight.blog/midway-texas-living-guide"
+      "source": "https://texasinsight.blog/midway-texas-living-guide",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midway%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Midway sits at 31°1′23″N 95°45′4″W, a precise geographic marker for travelers.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Midway%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Midway%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midway%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Midway%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texasinsight.blog/midway-texas-living-guide"
+      "source": "https://texasinsight.blog/midway-texas-living-guide",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://midway.municipalimpact.com/"
+      "source": "https://midway.municipalimpact.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/midway-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.232,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Post_office_in_Midway,_TX_IMG_3294.JPG"
+  }
 }

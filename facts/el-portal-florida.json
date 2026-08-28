@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,18 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida"
-    },
-    {
-      "id": 3,
-      "text": "Its borders run from 91st Street north to the Little River Canal south, flanked by Northeast Fifth and Northwest Fifth Avenues.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -88,7 +86,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/El_Portal%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/el-portal-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.684,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Averette",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Portal_neighborhood_20110216.jpg"
+  }
 }

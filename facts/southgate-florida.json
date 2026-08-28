@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.southgatefl.com/"
+      "source": "https://www.southgatefl.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.southgatefl.com/"
+      "source": "https://www.southgatefl.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.southgatefl.com/"
+      "source": "https://www.southgatefl.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southgate%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Southgate%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southgate%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Southgate%2C_Florida",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +97,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Southgate%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Southgate%2C_Florida",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/southgate-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": null,
+    "license": null,
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarasota_Skyline.jpeg"
+  }
 }

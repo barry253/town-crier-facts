@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heidelberg_West"
+      "source": "https://en.wikipedia.org/wiki/Heidelberg_West",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.olympics.com/ioc/news/melbourne-1956-heidelberg-west-olympic-village"
+      "source": "https://www.olympics.com/ioc/news/melbourne-1956-heidelberg-west-olympic-village",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.victorianplaces.com.au/heidelberg-west-and-heidelberg-heights"
+      "source": "https://www.victorianplaces.com.au/heidelberg-west-and-heidelberg-heights",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heidelberg_West"
+      "source": "https://en.wikipedia.org/wiki/Heidelberg_West",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Heidelberg_West"
+      "source": "https://en.wikipedia.org/wiki/Heidelberg_West",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/heidelberg-west-victoria.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Philip Mallis",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melbourne_Olympic_Village_houses,_West_Heidelberg.jpg"
+  }
 }

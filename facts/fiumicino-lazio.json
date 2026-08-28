@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station"
+      "source": "https://en.wikipedia.org/wiki/Fiumicino_Aeroporto_railway_station",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitfiumicino.com/?lang=en"
+      "source": "https://www.visitfiumicino.com/?lang=en",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +101,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.visitfiumicino.com/?lang=en"
+      "source": "https://www.visitfiumicino.com/?lang=en",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/fiumicino-lazio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.707,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "GaeC86",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:StazioneFiumicino.jpg"
+  }
 }

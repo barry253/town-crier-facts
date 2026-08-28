@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Water_View%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Water_View%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community’s name reflects its waterfront setting, with elevations ranging only 10 to 26 feet above sea level, making tides a daily influence.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/water_view_virginia"
-    },
-    {
-      "id": 3,
       "text": "Water View’s history dates back to the Rappahannock Indian Tribe, part of the Powhatan Confederacy, who first inhabited the area before European arrival.",
       "sourceSentenceIds": [
         1
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/water_view_virginia"
+      "source": "https://grokipedia.com/page/water_view_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 1608, Captain John Smith’s expedition first charted the Chesapeake Bay near what is now Water View, where a stingray bite was treated with local herbal remedies.",
       "sourceSentenceIds": [
         4
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/water_view_virginia"
+      "source": "https://grokipedia.com/page/water_view_virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The surrounding marshes support vital wildlife, serving as nurseries for menhaden and blue crabs and breeding grounds for prothonotary warblers and bald eagles.",
       "sourceSentenceIds": [
         30
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/water_view_virginia"
+      "source": "https://grokipedia.com/page/water_view_virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A post office operated in Water View until March 8, 2008, marking the end of a long‑standing local institution.",
       "sourceSentenceIds": [
         8
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Water_View%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Water_View%2C_Virginia",
+      "category": "other",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/water-view-virginia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.14,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ivy Jennings; U.S. Fish and Wildlife Service source page states \"Media Usage Rights/License: Public Domain\"",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rappahannock_River_19_August_2024.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Rappahannock River"
+  }
 }

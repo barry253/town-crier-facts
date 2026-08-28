@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri"
-    },
-    {
-      "id": 4,
-      "text": "Allendale is a town in eastern Worth County, Missouri, United States in the state of Missouri.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -73,7 +69,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Allendale%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/allendale-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.398,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SamuelNelsonGISP",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AllendaleMOPostOffice.jpg"
+  }
 }

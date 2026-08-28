@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/vona/"
+      "source": "https://www.uncovercolorado.com/towns/vona/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/vona/"
+      "source": "https://www.uncovercolorado.com/towns/vona/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -52,18 +57,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vona%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Vona%2C_Colorado",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "Vona’s name honors Pearl S., niece of a Burlington attorney, giving the town a personal touch.",
+      "text": "Vona’s name honors Pearl S. King, niece of a Burlington attorney, giving the town a personal touch.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vona%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Vona%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,7 +84,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-vona.html"
+      "source": "https://www.citydirectory.us/town-vona.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +98,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/vona/"
+      "source": "https://www.uncovercolorado.com/towns/vona/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vona-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.18,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vona,_Colorado.JPG"
+  }
 }

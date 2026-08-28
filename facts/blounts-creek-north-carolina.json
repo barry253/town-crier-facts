@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blounts_creek_north_carolina"
+      "source": "https://grokipedia.com/page/blounts_creek_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blounts_creek_north_carolina"
+      "source": "https://grokipedia.com/page/blounts_creek_north_carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blounts_creek_north_carolina"
+      "source": "https://grokipedia.com/page/blounts_creek_north_carolina",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/blounts_creek_north_carolina"
+      "source": "https://grokipedia.com/page/blounts_creek_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,18 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Blounts_Creek%2C_North_Carolina"
-    },
-    {
-      "id": 6,
-      "text": "Blounts Creek’s rural setting includes extensive swamps and pocosons, with elevations ranging from 2 to 67 feet above sea level.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/blounts_creek_north_carolina"
+      "source": "https://en.wikipedia.org/wiki/Blounts_Creek%2C_North_Carolina",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/blounts-creek-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tradewinds",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beaufort_County_Courthouse.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Beaufort County, North Carolina"
+  }
 }

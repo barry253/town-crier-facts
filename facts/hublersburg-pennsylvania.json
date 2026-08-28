@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hublersburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Hublersburg%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hublersburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Hublersburg%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm"
+      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm"
+      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm"
+      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +98,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm"
+      "source": "https://centre.pagenweb.org/twpsboros/waltwp1.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hublersburg-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.485,
+    "y": 0.5
+  }
 }

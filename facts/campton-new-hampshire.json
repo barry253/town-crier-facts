@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,21 +58,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Mount Weetamoo, Campton’s highest point, rises to 2,548 feet above sea level.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire"
-    },
-    {
-      "id": 5,
       "text": "The Campton Historical Society, founded in 1991, preserves artifacts and documents and welcomes anyone interested in the town’s heritage.",
       "sourceSentenceIds": [
         8,
@@ -79,10 +74,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://camptonhistorical.org/"
+      "source": "https://camptonhistorical.org/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Campton lies in the foothills of the White Mountains, with parts of the White Mountain National Forest in its northeast and northwest corners.",
       "sourceSentenceIds": [
         15
@@ -90,7 +87,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire"
+      "source": "https://en.wikipedia.org/wiki/Campton%2C_New_Hampshire",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/campton-new-hampshire.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.664,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "P199",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Campton_NH_1.JPG"
+  }
 }

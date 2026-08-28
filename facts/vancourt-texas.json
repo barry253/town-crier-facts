@@ -31,21 +31,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Vancourt is an unincorporated community in eastern Tom Green County, Texas.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas"
-    },
-    {
-      "id": 3,
       "text": "It lies east of San Angelo along Route 87, the county seat of Tom Green County.",
       "sourceSentenceIds": [
         19
@@ -53,21 +44,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
-      "text": "The town sits at an elevation of 1,867 feet, or 569 meters, above sea level.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Vancourt’s economy has long depended on ranching, with cattle grazing the surrounding plains.",
       "sourceSentenceIds": [
         21
@@ -75,10 +58,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Vancourt%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "In 1937 the Works Progress Administration built a brick schoolhouse that served the community until 1940.",
       "sourceSentenceIds": [
         29
@@ -86,7 +71,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/vancourt-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/vancourt-tx",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/vancourt-texas.jpg",
+  "imageSource": "wikipedia_town",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:San_Angelo_September_2019_03_(San_Angelo_City_Hall).jpg"
+  }
 }

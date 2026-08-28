@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunrise_Shores%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community’s geographic coordinates are 32.1838° N, 95.5075° W, placing it in Henderson County, Texas.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/henderson/sunrise-shores.cfm"
+      "source": "https://en.wikipedia.org/wiki/Sunrise_Shores%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,29 +42,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://texas.hometownlocator.com/tx/henderson/sunrise-shores.cfm"
-    },
-    {
-      "id": 4,
-      "text": "As a census‑designated place, Sunrise Shores has no municipal government and relies on county services.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://texas.hometownlocator.com/tx/henderson/sunrise-shores.cfm"
-    },
-    {
-      "id": 5,
-      "text": "The area first appeared as a census‑designated place in the 2020 U.S. Census.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunrise_Shores%2C_Texas"
+      "source": "https://texas.hometownlocator.com/tx/henderson/sunrise-shores.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +56,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thc.texas.gov/travel/texas-history-navigator"
+      "source": "https://thc.texas.gov/travel/texas-history-navigator",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunrise-shores-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.42,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Buddpaul",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Palestine_boat_launch_August_2011.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Palestine"
+  }
 }

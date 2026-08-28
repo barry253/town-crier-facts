@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wautec%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Wautec%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/wautec_california"
+      "source": "https://grokipedia.com/page/wautec_california",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/wautec_california"
+      "source": "https://grokipedia.com/page/wautec_california",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,22 +72,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/wautec_california"
+      "source": "https://grokipedia.com/page/wautec_california",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "Wautec’s elevation is roughly 200 feet, placing it in the middle section of the Klamath River’s rugged Klamath Mountains terrain.",
-      "sourceSentenceIds": [
-        13,
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/wautec_california"
-    },
-    {
-      "id": 6,
       "text": "The Yurok, called Oohl in their language, maintained over 50 villages along the lower Klamath, with Wautec a key upriver settlement.",
       "sourceSentenceIds": [
         17
@@ -88,7 +86,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/wautec_california"
+      "source": "https://grokipedia.com/page/wautec_california",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wautec-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ellin Beltz",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArcataAndMadRiverPlaque.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Blue Lake, California"
+  }
 }

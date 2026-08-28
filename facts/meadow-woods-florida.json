@@ -25,7 +25,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -36,7 +39,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -47,7 +53,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -58,21 +66,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
-      "text": "The median age of Meadow Woods residents is 33 years, reflecting a relatively young community.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida"
-    },
-    {
-      "id": 6,
       "text": "Meadow Woods contains 4,441 housing units, averaging 150.8 units per square kilometer.",
       "sourceSentenceIds": [
         11
@@ -80,7 +80,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Meadow_Woods%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/meadow-woods-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.69,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "LittleT889",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Meadow_Woods,_Florida.jpg"
+  }
 }

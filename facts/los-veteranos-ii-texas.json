@@ -21,32 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Los Veteranos II is one of several colonias in Webb County, a rural area near the U.S.–Mexico border.",
-      "sourceSentenceIds": [
-        1,
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community sits at 27°46′16″N 99°26′36″W, just north of Laredo.",
-      "sourceSentenceIds": [
-        2,
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas"
-    },
-    {
       "id": 3,
       "text": "Los Veteranos II covers about 0.2 square miles—every inch of its 0.52 km² is land.",
       "sourceSentenceIds": [
@@ -57,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -68,20 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Los_Veteranos_II,_Texas"
-    },
-    {
-      "id": 5,
-      "text": "The census‑designated place first appeared before the 2010 U.S. Census, after splitting from Botines.",
-      "sourceSentenceIds": [
-        24,
-        14
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas"
+      "source": "https://kids.kiddle.co/Los_Veteranos_II,_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -94,5 +60,20 @@
       ],
       "source": "https://en.wikipedia.org/wiki/Los_Veteranos_II%2C_Texas"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/los-veteranos-ii-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

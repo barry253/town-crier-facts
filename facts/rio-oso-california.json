@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Rio Oso sits at an elevation of 52 feet, giving it a low-lying coastal feel.",
-      "sourceSentenceIds": [
-        3,
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Oso%2C_California"
-    },
-    {
-      "id": 2,
       "text": "Rio Oso is described as an interesting place to visit, noted for its unique culture, history and character.",
       "sourceSentenceIds": [
         1
@@ -42,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.triphobo.com/places/rio-oso-california-united-states"
+      "source": "https://www.triphobo.com/places/rio-oso-california-united-states",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "A typical visit to Rio Oso can last one to two days, perfect for a quick getaway.",
       "sourceSentenceIds": [
         16
@@ -53,7 +43,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.triphobo.com/places/rio-oso-california-united-states"
+      "source": "https://www.triphobo.com/places/rio-oso-california-united-states",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rio-oso-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Lora Haller/USFW",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sutter_Ntl._Wildlife_Refuge_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Sutter County, California"
+  }
 }

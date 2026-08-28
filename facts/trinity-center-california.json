@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The town sits 2,390 feet above sea level, giving it a high desert climate.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Gold rush arrivals included about 3,000 Chinese laborers who helped shape the region.",
       "sourceSentenceIds": [
         3
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://visittrinity.com/history/"
+      "source": "https://visittrinity.com/history/",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Mine tailings at the north end of Trinity Lake are a visible reminder of the town’s gold‑mining past.",
       "sourceSentenceIds": [
         28
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A few historic structures, such as the I.O.O.F. building, were moved to the new site to preserve the town’s heritage.",
       "sourceSentenceIds": [
         26
@@ -86,7 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Trinity_Center%2C_California",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/trinity-center-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.67,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Weaverville,_April_2020-2148_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Trinity County, California"
+  }
 }

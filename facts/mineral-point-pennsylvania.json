@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Mineral Point is an unincorporated community in Cambria County, Pennsylvania.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The village was wiped out in the Great Flood of 1889 when the South Fork Dam failed on May 31.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Mineral_Point%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/mineral-point-xx-cambria-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/mineral-point-xx-cambria-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mineral-point-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Publichall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cambria_County_Courthouse_-_Ebensburg,_PA.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Cambria County, Pennsylvania"
+  }
 }

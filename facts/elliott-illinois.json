@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elliott%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Elliott%2C_Illinois",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/elliott_illinois"
+      "source": "https://grokipedia.com/page/elliott_illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/elliott_illinois"
+      "source": "https://grokipedia.com/page/elliott_illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/elliott_illinois"
+      "source": "https://grokipedia.com/page/elliott_illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Elliott%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Elliott%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/elliott-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elliott_Illinois_Post_Office.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/White_Plains%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://whiteplainslibrary.org/local-history/"
+      "source": "https://whiteplainslibrary.org/local-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +83,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/md/white-plains-xx-charles-profile.htm"
+      "source": "https://roadsidethoughts.com/md/white-plains-xx-charles-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "wrong_article"
     },
     {
       "id": 6,
@@ -84,7 +97,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://whiteplainslibrary.org/local-history/"
+      "source": "https://whiteplainslibrary.org/local-history/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/white-plains-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Habre_de_Venture_Front_Sept_09.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Charles County, Maryland"
+  }
 }

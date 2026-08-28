@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_Farms%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Valley_Farms%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm"
+      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Valley Farms rises to 1,470 feet above sea level, offering a mild desert climate.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Two other U.S. communities share the name Valley Farms, one in Michigan and one in Texas.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm"
+      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Valley Farms is officially an unincorporated town, meaning it lacks a municipal government.",
       "sourceSentenceIds": [
         5
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Valley_Farms%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Valley_Farms%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town is catalogued in both the FIPS‑55 and GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -84,7 +84,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm"
+      "source": "https://roadsidethoughts.com/az/valley-farms-xx-pinal-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/valley-farms-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Transferred from en.wikipedia to Commons by FastilyClone using MTC!.",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sacaton.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Gila River Indian Community"
+  }
 }

@@ -34,7 +34,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -47,7 +49,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -58,7 +63,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +77,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -81,7 +90,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Dillon_Beach%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dillon-beach-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.61,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Alfred Twu",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_Point_(cropped).jpg"
+  }
 }

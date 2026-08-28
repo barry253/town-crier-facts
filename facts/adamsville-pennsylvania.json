@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Adamsville sits at 41.510643, -80.369802 in southern West Fallowfield Township.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Adamsville%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "Pennsylvania Route 18 cuts through Adamsville, connecting it 3 miles north to Hartstown and 8 miles south to Greenville.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adamsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Adamsville%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Adamsville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Adamsville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/16110"
+      "source": "https://www.allplaces.us/z/16110",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.allplaces.us/z/16110"
+      "source": "https://www.allplaces.us/z/16110",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +85,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.any-village.com/US/Pennsylvania/Crawford/Adamsville/home.aspx"
+      "source": "https://www.any-village.com/US/Pennsylvania/Crawford/Adamsville/home.aspx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/adamsville-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.547,
+    "y": 0.5
+  }
 }

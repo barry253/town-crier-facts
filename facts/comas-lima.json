@@ -31,23 +31,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima"
+      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The district sits 140 meters above sea level, overlooking the Pacific coast and the Andes foothills.",
-      "sourceSentenceIds": [
-        10,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima"
-    },
-    {
-      "id": 3,
       "text": "Comas covers 48.75 km², making it one of Lima’s larger districts by land area.",
       "sourceSentenceIds": [
         9
@@ -55,10 +44,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima"
+      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 2019, the Mall Plaza Comas opened, bringing national brands like Adidas and Nike to the community.",
       "sourceSentenceIds": [
         18,
@@ -67,10 +59,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima"
+      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The district once hosted Peru’s only civil aviation school, the Aeroclub de Collique, a key training ground for pilots.",
       "sourceSentenceIds": [
         23
@@ -78,10 +72,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima"
+      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Comas has grown rapidly over the last decade, expanding its middle‑class population and infrastructure at a fast pace.",
       "sourceSentenceIds": [
         20,
@@ -90,7 +87,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima"
+      "source": "https://en.wikipedia.org/wiki/Comas_District%2C_Lima",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/comas-lima.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.845,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Marco Carrasco",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centro_C%C3%ADvico_de_Comas.jpg"
+  }
 }

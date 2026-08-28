@@ -29,21 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pomerene%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Pomerene%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
-      "text": "Pomerene sits 3,540 feet above sea level.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/pomerene-xx-cochise-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "The town’s post office opened in 1915.",
       "sourceSentenceIds": [
         23
@@ -51,10 +43,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/pomerene-xx-cochise-profile.htm"
+      "source": "https://roadsidethoughts.com/az/pomerene-xx-cochise-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Pomerene lies just 2 miles north of Benson.",
       "sourceSentenceIds": [
         9
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pomerene%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Pomerene%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "A commemorative quarter was issued to honor Pomerene’s heritage.",
       "sourceSentenceIds": [
         21
@@ -73,18 +70,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/az/pomerene-xx-cochise-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "Pomerene’s coordinates have been verified by the GNIS.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/az/pomerene-xx-cochise-profile.htm"
+      "source": "https://roadsidethoughts.com/az/pomerene-xx-cochise-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pomerene-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain Time Zone"
+  }
 }

@@ -29,32 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Union_Park%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Union_Park%2C_Florida",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
-      "text": "The community rests 82 feet (25 meters) above sea level, offering a modest elevation typical of Central Florida.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Union_Park%2C_Florida"
-    },
-    {
-      "id": 3,
-      "text": "Union Park’s borders run along North Dean Road, the Econlockhatchee River, J Blanchard Trail, Rouse Road, and Bloomfield Drive.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Union_Park%2C_Florida"
-    },
-    {
-      "id": 4,
       "text": "Downtown Orlando lies just nine miles to the west, making the city a short drive for residents.",
       "sourceSentenceIds": [
         22
@@ -62,10 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Union_Park%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Union_Park%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Residents are urged to clean up after pets, as dog waste can harm shared green spaces and waterways.",
       "sourceSentenceIds": [
         23,
@@ -75,10 +59,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.unionparkcdd.org/"
+      "source": "https://www.unionparkcdd.org/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Avoid fertilizing near ponds; runoff can trigger algae growth and degrade water quality in local stormwater ponds.",
       "sourceSentenceIds": [
         26,
@@ -88,7 +75,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.unionparkcdd.org/"
+      "source": "https://www.unionparkcdd.org/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/union-park-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Reedy_Creek_Improvement_District_Fire_Department_Emergency_Services.jpg"
+  }
 }

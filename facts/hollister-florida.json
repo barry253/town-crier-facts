@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hollister%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Hollister%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hollister%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Hollister%2C_Florida",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
-      "text": "The community’s coordinates are 29°37′21″N 81°48′50″W, placing it in central Florida.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hollister%2C_Florida"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Hollister in 1885, marking its early development.",
       "sourceSentenceIds": [
         23
@@ -62,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/hollister-xx-putnam-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/hollister-xx-putnam-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "Hollister stands 70 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/fl/hollister-xx-putnam-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "The town is featured on a commemorative Florida quarter, celebrating its local heritage.",
       "sourceSentenceIds": [
         21
@@ -84,7 +70,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/fl/hollister-xx-putnam-profile.htm"
+      "source": "https://roadsidethoughts.com/fl/hollister-xx-putnam-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hollister-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Excel23",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PutnamCCourtPalatka.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Putnam County, Florida"
+  }
 }

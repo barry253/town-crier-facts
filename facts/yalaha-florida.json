@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,43 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Yalaha lies 9 miles southeast of Leesburg, 16 miles north of Groveland, and 10 miles southwest of Tavares.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
-    },
-    {
-      "id": 4,
-      "text": "Yalaha is part of the Orlando–Kissimmee Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "The median age of Yalaha residents is about 51 years, indicating a mature community.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
-    },
-    {
-      "id": 6,
       "text": "Nearly 96 % of Yalaha’s residents live in rural areas, with only 4 % in urban settings.",
       "sourceSentenceIds": [
         9
@@ -84,7 +56,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Yalaha%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yalaha-florida.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ebyabe",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yalaha_FL_Lake_Harris03.jpg"
+  }
 }

@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/goldsboro_texas"
+      "source": "https://grokipedia.com/page/goldsboro_texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/goldsboro-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/goldsboro-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Goldsboro%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Goldsboro%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/goldsboro_texas"
+      "source": "https://grokipedia.com/page/goldsboro_texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -77,7 +86,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/goldsboro_texas"
+      "source": "https://grokipedia.com/page/goldsboro_texas",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/goldsboro-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.18,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coleman_courthouse_2009.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Coleman County, Texas"
+  }
 }

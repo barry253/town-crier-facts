@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -64,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crowell%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Crowell%2C_Texas",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 5,
@@ -75,7 +85,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/crowell-tx",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crowell-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.479,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicolas Henderson from Coppell, Texas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foard_County_Courthouse,_Crowell,_Texas.jpg"
+  }
 }

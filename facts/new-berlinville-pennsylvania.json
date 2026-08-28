@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "New Berlinville sits just a mile from the Boyertown Museum of Historic Vehicles and the Colebrookdale Railroad, a living rail museum.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville"
-    },
-    {
       "id": 2,
       "text": "New Berlinville blends small‑town charm with historical intrigue, making every street feel like a living chapter of Pennsylvania’s past.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -51,29 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville"
-    },
-    {
-      "id": 4,
-      "text": "New Berlinville lies along Pennsylvania Route 100, just one mile northeast of Boyertown, anchoring it in the county’s historic corridor.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/New_Berlinville%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
-      "text": "The town is about 50 miles northwest of Philadelphia, placing it within easy reach of the city’s cultural buzz.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +57,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville"
+      "source": "https://www.trawellino.com/destinations/united-states/pennsylvania_new-berlinville",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/new-berlinville-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.229,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hshuvaeva",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Andrew_United_Methodist_Church,_New_Berlinville,_PA.JPG"
+  }
 }

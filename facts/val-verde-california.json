@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "unverified=['mcdonald']"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Nestled in the San Martinez Chiquito Canyon, the town sits between 1,250 and 1,400 feet above sea level.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California"
-    },
-    {
-      "id": 4,
       "text": "In 1939, the community celebrated the laying of the cornerstone for its Olympic‑era swimming pool, a ceremony attended by actress Hattie McDaniel.",
       "sourceSentenceIds": [
         3
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Local residents once protested a new cell site, arguing it served broader industrial areas rather than the small community of Val Verde.",
       "sourceSentenceIds": [
         7,
@@ -74,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Val_Verde%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Val Verde Historical Society, a registered 501(c)(3), preserves the town’s legacy through archives, events, and public outreach.",
       "sourceSentenceIds": [
         8,
@@ -86,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.valverdehistory.org/"
+      "source": "https://www.valverdehistory.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/val-verde-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ponderosapine210",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Val_Verde,_California.jpg"
+  }
 }

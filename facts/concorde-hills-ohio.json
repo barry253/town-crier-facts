@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,32 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The census‑designated place contains 222 housing units, according to recent data.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio"
-    },
-    {
-      "id": 4,
-      "text": "Average household size in Concorde Hills is 2.75, while families average 3.33 members.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio"
-    },
-    {
-      "id": 5,
       "text": "Gender balance is nearly even, with 98.8 males for every 100 females.",
       "sourceSentenceIds": [
         6
@@ -73,18 +57,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio"
-    },
-    {
-      "id": 6,
-      "text": "Its geographic coordinates are 39.2108°N, 84.3573°W in Hamilton County.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://ohio.hometownlocator.com/oh/hamilton/concorde-hills.cfm"
+      "source": "https://en.wikipedia.org/wiki/Concorde_Hills%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/concorde-hills-ohio.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Warren LeMay from Chicago, IL, United States",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton_County_Courthouse,_Cincinnati,_OH.jpg"
+  }
 }

@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Laredo Ranchettes sits at 27°29′28″N 99°21′36″W, a pinpoint in Webb County, Texas.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community covers just 0.6 square miles, all land, a compact slice of Texas life.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas"
-    },
-    {
       "id": 3,
       "text": "The Webb County Heritage Foundation runs two year‑round museums—the Republic of the Rio Grande and Villa Antigua Border Heritage Museum—showing Laredo’s origins.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://webbheritage.org/About-Us"
+      "source": "https://webbheritage.org/About-Us",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://webbheritage.org/About-Us"
+      "source": "https://webbheritage.org/About-Us",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +70,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Laredo_Ranchettes%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laredo-ranchettes-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Copernico Contreras",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Webb_County_Courthouse_North_Side.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Webb County, Texas"
+  }
 }

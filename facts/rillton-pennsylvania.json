@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rillton%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town sits 2.9 miles southwest of Irwin, placing it just outside the city limits.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rillton%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rillton%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Rillton rises 1,090 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "An 1895 atlas lists Rillton among the communities in the area, showing its long‑standing presence.",
       "sourceSentenceIds": [
         27
@@ -73,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Local records include a detailed list of cemeteries around Rillton, reflecting its historical roots.",
       "sourceSentenceIds": [
         24
@@ -84,7 +69,19 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/rillton-xx-westmoreland-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Westmoreland County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rillton-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.54,
+    "y": 0.5
+  }
 }

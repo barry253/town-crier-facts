@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Bellville was named after Thomas B., a key figure in the town’s early history.",
+      "text": "Bellville was named after Thomas B. Bell, a key figure in the town’s early history.",
       "sourceSentenceIds": [
         3,
         4
@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -77,7 +86,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Bellville%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -88,7 +99,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofbellville.com/"
+      "source": "https://www.cityofbellville.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bellville-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.266,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bellville_Downtown_WS_(1_of_1).jpg"
+  }
 }

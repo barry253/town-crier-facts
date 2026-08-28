@@ -22,18 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Jacumba Hot Springs sits 2,829 feet above sea level, giving it a high desert climate.",
-      "sourceSentenceIds": [
-        11,
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California"
-    },
-    {
-      "id": 2,
       "text": "In 2013, the U.S. Board on Geographic Names approved changing the town’s name from Jacumba to Jacumba Hot Springs.",
       "sourceSentenceIds": [
         13
@@ -41,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Before settlers, the Kumeyaay people frequented the 104‑degree‑F hot spring that still bubbles today.",
       "sourceSentenceIds": [
         14,
@@ -53,10 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "A 1919 rail link on the San Diego and Arizona Eastern Railway brought tourists straight to Jacumba’s hot springs.",
       "sourceSentenceIds": [
         20
@@ -64,10 +56,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "By 1925 the Hotel Jacumba was a world‑class resort that drew Hollywood stars for a relaxing getaway.",
       "sourceSentenceIds": [
         21,
@@ -76,10 +70,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "When Interstate 8 bypassed Jacumba two miles away, most roadside businesses folded and the community entered decline.",
       "sourceSentenceIds": [
         29
@@ -87,7 +83,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Jacumba_Hot_Springs%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jacumba-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Perdelsky (talk) / Perdelsky at en.wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacumba_California.jpg"
+  }
 }

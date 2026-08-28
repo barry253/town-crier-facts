@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coopers_Plains%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Coopers_Plains%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/coopers-plains-xx-steuben-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/coopers-plains-xx-steuben-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Coopers Plains rests 980 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/coopers-plains-xx-steuben-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "It is located in Steuben County, New York, within the eastern part of the county.",
       "sourceSentenceIds": [
         12
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/coopers-plains-xx-steuben-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/coopers-plains-xx-steuben-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Cohocton River, a southeast‑flowing tributary of the Chemung River, runs through the area, linking it to the Susquehanna watershed.",
       "sourceSentenceIds": [
         9
@@ -73,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coopers_Plains%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Coopers_Plains%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Coopers Plains lies in eastern Steuben County, straddling the northern edge of Erwin and extending north into southern Campbell.",
       "sourceSentenceIds": [
         7
@@ -84,7 +82,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coopers_Plains%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Coopers_Plains%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/coopers-plains-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DSKEO",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chemung_River_Elmira.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chemung River"
+  }
 }

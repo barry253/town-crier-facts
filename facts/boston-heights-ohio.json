@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Boston_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Boston_Heights%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Boston_Heights%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Boston_Heights%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -52,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofbostonheights.com/"
+      "source": "https://www.villageofbostonheights.com/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +72,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofbostonheights.com/"
+      "source": "https://www.villageofbostonheights.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -74,18 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.villageofbostonheights.com/"
-    },
-    {
-      "id": 6,
-      "text": "Boston Heights is located along East Boston Mills Road, a key local thoroughfare.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.villageofbostonheights.com/"
+      "source": "https://www.villageofbostonheights.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/boston-heights-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.809,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luther_B._Ranney_Farmhouse.jpg"
+  }
 }

@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Farwell was named for brothers Charles B. and William B. Farwell, who helped establish the town in the late 1800s.",
+      "text": "Farwell was named for brothers Charles B. Farwell and John V. Farwell, who helped establish the town in the late 1800s.",
       "sourceSentenceIds": [
         2,
         5
@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Farwell%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Farwell%2C_Texas",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/farwell-tx-parmer-county"
+      "source": "https://www.tshaonline.org/handbook/entries/farwell-tx-parmer-county",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Farwell%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Farwell%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Farwell%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Farwell%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -77,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/farwell-tx-parmer-county"
+      "source": "https://www.tshaonline.org/handbook/entries/farwell-tx-parmer-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/farwell-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.262,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Farwell_Texas_City_Hall_2019.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,32 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Lyons sits at 40°28′49″N 75°45′25″W, placing it in eastern Berks County, Pennsylvania.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "The borough is bordered by Maxatawny Township on three sides and Richmond Township to the southwest.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania"
-    },
-    {
-      "id": 5,
       "text": "The unincorporated community of Bowers lies just east of Lyons, sharing the same local landscape.",
       "sourceSentenceIds": [
         28
@@ -73,7 +55,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lyons%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lyon-station-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dough4872",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyons_PA_welcome_sign_North_Main_Street.jpg"
+  }
 }

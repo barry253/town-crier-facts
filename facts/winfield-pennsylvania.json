@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Winfield was formally established in 1799 and named after General Winfield Scott, a notable figure in American military history.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://aurica.ai/en/article/martin-sparks/winfield-pennsylvania/"
-    },
-    {
-      "id": 2,
       "text": "Early industry in Winfield began with a sawmill on Rough Run in 1806, followed by a gristmill in 1809 and a flour mill by 1817.",
       "sourceSentenceIds": [
         27
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.winfieldpa.gov/history"
+      "source": "https://www.winfieldpa.gov/history",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Jeremiah Smith and his family were among the first settlers of Winfield Township in 1796, laying its early foundations.",
       "sourceSentenceIds": [
         7
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.winfieldpa.gov/history"
+      "source": "https://www.winfieldpa.gov/history",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Winfield sits where Pennsylvania Route 304 meets U.S. Route 15, right beside the West Branch Susquehanna River.",
       "sourceSentenceIds": [
         22,
@@ -63,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Winfield%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Winfield%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Limestone mining became the most common business in Winfield, shaping its industrial heritage for generations.",
       "sourceSentenceIds": [
         30
@@ -74,7 +70,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.winfieldpa.gov/history"
+      "source": "https://www.winfieldpa.gov/history",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/winfield-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.206,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pennsylvania_Route_304_in_Winfield.JPG"
+  }
 }

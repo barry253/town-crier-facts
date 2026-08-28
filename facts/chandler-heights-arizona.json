@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "economy",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +98,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chandler_heights_arizona"
+      "source": "https://grokipedia.com/page/chandler_heights_arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chandler-heights-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.59,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Zeb Micelli",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maricopa_County_Courthouse_October_6_2013_Phoenix_Arizona_2816x2112_Rear.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Maricopa County, Arizona"
+  }
 }

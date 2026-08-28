@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.centralcityil.com/"
+      "source": "https://www.centralcityil.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.centralcityil.com/"
+      "source": "https://www.centralcityil.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Central_City%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Central_City%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,30 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Central_City%2C_Illinois"
-    },
-    {
-      "id": 5,
-      "text": "Central City is a village located in Marion County, Illinois, United States, known for its historic school and proximity to Crooked Creek.",
-      "sourceSentenceIds": [
-        4,
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Central_City%2C_Illinois"
-    },
-    {
-      "id": 6,
-      "text": "Central City sits at latitude 38°32′53″N and longitude 89°07′43″W, placing it in southwestern Marion County.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.centralcityil.com/"
+      "source": "https://en.wikipedia.org/wiki/Central_City%2C_Illinois",
+      "category": "nature",
+      "quality": "good"
     }
   ]
 }

@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/carter-texas"
+      "source": "https://www.historictexas.net/city/carter-texas",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/carter-tx-parker-county"
+      "source": "https://www.tshaonline.org/handbook/entries/carter-tx-parker-county",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/carter-tx-parker-county"
+      "source": "https://www.tshaonline.org/handbook/entries/carter-tx-parker-county",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +74,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.historictexas.net/city/carter-texas"
+      "source": "https://www.historictexas.net/city/carter-texas",
+      "category": "other",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/carter-tx-parker-county"
+      "source": "https://www.tshaonline.org/handbook/entries/carter-tx-parker-county",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/carter-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.37,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parker_County_Courthouse_Weatherford_Wiki_(1_of_1).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Parker County, Texas"
+  }
 }

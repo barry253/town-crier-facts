@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.michiganhistorytrail.com/explore-michigan-history/frankenhilf"
+      "source": "https://www.michiganhistorytrail.com/explore-michigan-history/frankenhilf",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.michiganhistorytrail.com/explore-michigan-history/frankenhilf"
+      "source": "https://www.michiganhistorytrail.com/explore-michigan-history/frankenhilf",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Richville sits in Michigan’s Thumb region, 630 feet above sea level today.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mi/richville-xx-tuscola-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "A post office opened in Richville in 1862, marking the town’s formal establishment.",
       "sourceSentenceIds": [
         28
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mi/richville-xx-tuscola-profile.htm"
+      "source": "https://roadsidethoughts.com/mi/richville-xx-tuscola-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Richville is located within Denmark Township, a civil township organized in 1853.",
       "sourceSentenceIds": [
         10
@@ -73,7 +68,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Denmark_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Denmark_Township%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/richville-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.84,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WeaponizingArchitecture",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bay_City,_Michigan_(2022).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bay City, Michigan"
+  }
 }

@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Seattle"
+      "source": "https://en.wikipedia.org/wiki/West_Seattle",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Myrtle Reservoir Park, West Seattle’s highest point, rises 520 feet above sea level.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/West_Seattle"
-    },
-    {
-      "id": 3,
       "text": "Alki Point, the western tip of West Seattle, was the original landing spot of the Denny Party that founded Seattle.",
       "sourceSentenceIds": [
         7
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Seattle"
+      "source": "https://en.wikipedia.org/wiki/West_Seattle",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Alki Beach, West Seattle’s most popular beach, features a historic bath house and a restored light station.",
       "sourceSentenceIds": [
         9
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Seattle"
+      "source": "https://en.wikipedia.org/wiki/West_Seattle",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Log House Museum on Alki Point, operated by the Southwest Seattle Historical Society, preserves early settler life.",
       "sourceSentenceIds": [
         14
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Seattle"
+      "source": "https://en.wikipedia.org/wiki/West_Seattle",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A ferry linked West Seattle to Seattle in 1888, followed by a railroad and streetcar trestle two years later.",
       "sourceSentenceIds": [
         15
@@ -84,7 +81,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Seattle"
+      "source": "https://en.wikipedia.org/wiki/West_Seattle",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-seattle-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.495,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Adbar",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duwamish_Head_West_Seattle.JPG"
+  }
 }

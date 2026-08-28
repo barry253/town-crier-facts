@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cedar_Lane%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Cedar_Lane%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +59,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +98,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/cedar-lane-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cedar-lane-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.279,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Djmaschek",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cedar_Lane_TX_Baptist_Church.jpg"
+  }
 }

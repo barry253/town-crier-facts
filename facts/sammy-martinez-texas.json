@@ -21,37 +21,30 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sammy Martinez sits at 26°25′58″N 98°45′5″W, placing it just south of the Rio Grande.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sammy_Martinez%2C_Texas"
-    },
-    {
       "id": 2,
-      "text": "Sammy Martinez’s streets echo a cultural tapestry woven from local art and rich history.",
+      "text": "Sammy Martinez\u2019s streets echo a cultural tapestry woven from local art and rich history.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249"
+      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Neighbors in Sammy Martinez greet each other by name, creating a welcoming, family‑like atmosphere.",
+      "text": "Neighbors in Sammy Martinez greet each other by name, creating a welcoming, family\u2011like atmosphere.",
       "sourceSentenceIds": [
         8
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249"
+      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249"
+      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249"
+      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249"
+      "source": "https://hellonation.com/mag/tx/sammy_martinez/49249",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

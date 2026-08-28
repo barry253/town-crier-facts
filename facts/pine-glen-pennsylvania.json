@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://centrehistory.org/the-abcs-of-centre-county/"
+      "source": "https://centrehistory.org/the-abcs-of-centre-county/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "The community lies in northwestern Centre County at 41°5′14″N 78°3′14″W, placing it just west of the Susquehanna River basin.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
       "text": "Pine Glen is part of the State College, Pennsylvania Metropolitan Statistical Area, linking it to the region’s college town economy.",
       "sourceSentenceIds": [
         17
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Pennsylvania Route 879 threads through Pine Glen, connecting it northwest to Karthaus and southeast to Moshannon.",
       "sourceSentenceIds": [
         20
@@ -73,7 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Pine_Glen%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pine-glen-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_County_Courthouse.jpg"
+  }
 }

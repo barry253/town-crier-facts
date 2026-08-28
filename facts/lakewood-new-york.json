@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Lakewood is a village located in Chautauqua County, New York, United States.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York"
-    },
-    {
-      "id": 2,
-      "text": "Lakewood sits at the south end of Chautauqua Lake, at 42°6′3″N 79°19′19″W.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York"
-    },
-    {
       "id": 3,
       "text": "New York State Route 394 runs through Lakewood, paralleling Chautauqua Lake along its shore.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -74,18 +57,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lakewoodny.gov/"
-    },
-    {
-      "id": 6,
-      "text": "Lakewood lies in the northern part of the town of Busti, New York.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lakewood%2C_New_York"
+      "source": "https://www.lakewoodny.gov/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lakewood-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.69,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Hameltion",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chautauqua_Lake_fireworks_2017.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chautauqua Lake"
+  }
 }

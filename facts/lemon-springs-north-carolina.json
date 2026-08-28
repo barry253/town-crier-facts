@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lemon_springs_north_carolina"
+      "source": "https://grokipedia.com/page/lemon_springs_north_carolina",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lemon_springs_north_carolina"
+      "source": "https://grokipedia.com/page/lemon_springs_north_carolina",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lemon_springs_north_carolina"
+      "source": "https://grokipedia.com/page/lemon_springs_north_carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,22 +69,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lemon_springs_north_carolina"
+      "source": "https://grokipedia.com/page/lemon_springs_north_carolina",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Located at roughly 390 feet elevation in the Carolina Sandhills, Lemon Springs sits on well‑drained Tertiary sands that shape its landscape.",
-      "sourceSentenceIds": [
-        24,
-        30
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/lemon_springs_north_carolina"
-    },
-    {
-      "id": 6,
       "text": "Lemon Springs enjoys a humid subtropical climate, averaging 61°F annually and offering about 200 frost‑free days that support local farming.",
       "sourceSentenceIds": [
         27,
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/lemon_springs_north_carolina"
+      "source": "https://grokipedia.com/page/lemon_springs_north_carolina",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lemon-springs-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Upstateherd",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lee_County_Courthouse_-_Sanford,_NC_1.jpg"
+  }
 }

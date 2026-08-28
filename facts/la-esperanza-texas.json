@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "La Esperanza sits at 26°25′53″N 98°53′32″W, a spot that marks the heart of a tight‑knit Texas community.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/La_Esperanza%2C_Texas"
-    },
-    {
       "id": 2,
       "text": "The town calls itself a hidden gem, radiating warmth and community spirit that locals love to brag about.",
       "sourceSentenceIds": [
@@ -40,40 +29,49 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740"
+      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
-      "text": "Cozy cafés and farmer’s markets line the streets, offering artisanal coffee and fresh produce that showcase local talent.",
+      "text": "Cozy caf\u00e9s and farmer\u2019s markets line the streets, offering artisanal coffee and fresh produce that showcase local talent.",
       "sourceSentenceIds": [
         9
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740"
+      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Nature lovers find plenty to enjoy in La Esperanza’s lush parks and scenic trails, perfect for a spontaneous hike.",
+      "text": "Nature lovers find plenty to enjoy in La Esperanza\u2019s lush parks and scenic trails, perfect for a spontaneous hike.",
       "sourceSentenceIds": [
         10
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740"
+      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Annual festivals and volunteer initiatives keep the town’s spirit alive, turning neighbors into friends.",
+      "text": "Annual festivals and volunteer initiatives keep the town\u2019s spirit alive, turning neighbors into friends.",
       "sourceSentenceIds": [
         11
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740"
+      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740"
+      "source": "https://www.hellonation.com/mag/TX/LaEsperanza/48740",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

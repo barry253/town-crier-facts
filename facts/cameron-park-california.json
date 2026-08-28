@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,21 +71,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town’s elevation ranges from about 1,200 to 1,450 feet, keeping it outside the Sierra Nevada snow zone.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California"
-    },
-    {
-      "id": 6,
       "text": "Summers often hit 110°F in Cameron Park, hotter than the nearby Central Valley thanks to its higher elevation.",
       "sourceSentenceIds": [
         27
@@ -87,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Cameron_Park%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cameron-park-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.492,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "UncleVinny",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cameron_Park,_CA_384_-_panoramio.jpg"
+  }
 }

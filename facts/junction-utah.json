@@ -22,69 +22,70 @@
   "facts": [
     {
       "id": 1,
-      "text": "Junction, Utah, sits where US 89 and SR‑153 intersect, making it the county seat of Piute County.",
+      "text": "Junction, Utah, serves as the county seat of Piute County, where US 89 and SR-153 intersect.",
       "sourceSentenceIds": [
-        1
+        6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/List_of_named_highway_junctions_in_Utah"
+      "source": "https://en.wikipedia.org/wiki/List_of_named_highway_junctions_in_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "First called City Creek, Junction was settled in 1880 at the confluence of the East Fork and the Sevier River.",
+      "text": "The name Junction, Utah, refers not only to the highway junction but also to the surrounding community.",
       "sourceSentenceIds": [
-        5
+        3
       ],
       "sourceLabels": [
-        "Web source 2"
+        "Wikipedia"
       ],
-      "source": "https://www.usacitiesonline.com/utcountyjunction.htm"
+      "source": "https://en.wikipedia.org/wiki/List_of_named_highway_junctions_in_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "As Piute County seat, Junction offers a charming small‑town vibe and a glimpse into classic Utah life.",
+      "text": "In Junction, Utah, the highway junction shares its name with the nearby town, emphasizing the connection between the two.",
       "sourceSentenceIds": [
-        13
+        4
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://roamingverse.com/explore/united-states/utah/junction-UT"
+      "source": "https://en.wikipedia.org/wiki/List_of_named_highway_junctions_in_Utah",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Junction boasts seriously dark skies, perfect for unforgettable nights under a blanket of stars.",
+      "text": "Junction, Utah, is part of a larger network of named highway junctions throughout the state, recognized in maps and state laws.",
       "sourceSentenceIds": [
-        15
+        2
       ],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://roamingverse.com/explore/united-states/utah/junction-UT"
-    },
-    {
-      "id": 5,
-      "text": "Nestled amid stunning red rock canyons and the Fishlake National Forest, Junction is a launchpad for unforgettable outdoor experiences.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roamingverse.com/explore/united-states/utah/junction-UT"
-    },
-    {
-      "id": 6,
-      "text": "After a day of exploring, unwind with friendly locals and savor the small‑town charm of Junction.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roamingverse.com/explore/united-states/utah/junction-UT"
+      "source": "https://en.wikipedia.org/wiki/List_of_named_highway_junctions_in_Utah",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/junction-utah.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Charles Wang",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horseshoe_Bend_13_February_2023.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Colorado River"
+  }
 }

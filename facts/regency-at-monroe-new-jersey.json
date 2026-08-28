@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/regency_at_monroe_new_jersey"
+      "source": "https://grokipedia.com/page/regency_at_monroe_new_jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,32 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Regency at Monroe is located at latitude 40.321 and longitude -74.3927 in Middlesex County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/middlesex/regency-at-monroe.cfm"
-    },
-    {
-      "id": 4,
-      "text": "The median age of residents is 72.1 years, reflecting its senior‑focused design.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
-    },
-    {
-      "id": 5,
       "text": "Only 1.8% of residents are under 18, while 80.7% are 65 or older.",
       "sourceSentenceIds": [
         7
@@ -73,18 +55,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
-    },
-    {
-      "id": 6,
-      "text": "The community borders Mounts Mills Road to the north, Spotswood‑Englishtown Road to the east, and Buckelew Avenue to the southwest.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Regency_at_Monroe%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/regency-at-monroe-new-jersey.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-05-20_10_18_51_View_north_along_New_Jersey_State_Route_444_(Garden_State_Parkway)_just_south_of_Exit_120_in_Old_Bridge_Township,_Middlesex_County,_New_Jersey.jpg"
+  }
 }

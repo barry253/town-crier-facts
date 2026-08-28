@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/el_prado_estates_arizona"
+      "source": "https://grokipedia.com/page/el_prado_estates_arizona",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/el_prado_estates_arizona"
-    },
-    {
-      "id": 3,
-      "text": "The census-designated place covers 0.97 square miles—entirely land with no water bodies.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/El_Prado_Estates%2C_Arizona"
+      "source": "https://grokipedia.com/page/el_prado_estates_arizona",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,29 +56,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/El_Prado_Estates%2C_Arizona"
-    },
-    {
-      "id": 5,
-      "text": "El Prado Estates is a CDP, meaning it has no governmental functions and is not a legal entity.",
-      "sourceSentenceIds": [
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/el-prado-estates.cfm"
-    },
-    {
-      "id": 6,
-      "text": "Its geographic coordinates are 32.7062° N latitude and 114.5215° W longitude.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://arizona.hometownlocator.com/az/yuma/el-prado-estates.cfm"
+      "source": "https://en.wikipedia.org/wiki/El_Prado_Estates%2C_Arizona",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/el-prado-estates-arizona.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain Standard Time Zone"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,21 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Jasper sits west of Corning, placing it in the southwestern corner of Steuben County.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York"
-    },
-    {
-      "id": 5,
       "text": "The hamlet of Jasper lies along NY‑417 beside Tuscarora Creek, a stream that flows through the southeast part of the town.",
       "sourceSentenceIds": [
         17
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Jasper is a town located in Steuben County, New York, United States.",
       "sourceSentenceIds": [
         3
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Jasper%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jasper-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kenneth C. Zirkel",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Steuben_County_Courthouse,_Corning,_New_York.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Steuben County, New York"
+  }
 }

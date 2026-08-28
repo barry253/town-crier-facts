@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Clearview%2C_Washington",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/clearview-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.76,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ECTran71",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Granite_Falls,_WA_-_Stanley_Street.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Granite Falls, Washington"
+  }
 }

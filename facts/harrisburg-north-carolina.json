@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.harrisburgnc.gov/324/History"
+      "source": "https://www.harrisburgnc.gov/324/History",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.harrisburgnc.gov/324/History"
+      "source": "https://www.harrisburgnc.gov/324/History",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.harrisburgnc.gov/324/History"
+      "source": "https://www.harrisburgnc.gov/324/History",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Harrisburg%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Harrisburg%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.harrisburgnc.gov/324/History"
+      "source": "https://www.harrisburgnc.gov/324/History",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/harrisburg-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.724,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Harrisburg_11",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harrisburg_nc.jpg"
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mineralcountymuseum.com/"
-    },
-    {
-      "id": 5,
-      "text": "Hawthorne sits almost entirely inside the Hawthorne Army Depot, a massive military installation that surrounds the town.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://www.mineralcountymuseum.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Hawthorne%2C_Nevada",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hawthorne-nevada.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2015-04-29_16_23_21_View_south_along_E_Street_(U.S._Route_95)_near_6th_Street_in_Hawthorne,_Nevada.jpg"
+  }
 }

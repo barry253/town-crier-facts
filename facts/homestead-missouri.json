@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homestead%2C_Missouri"
-    },
-    {
-      "id": 2,
-      "text": "The village sits at 39.3628 degrees north latitude and 94.2008 degrees west longitude.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://missouri.hometownlocator.com/mo/ray/homestead.cfm"
+      "source": "https://en.wikipedia.org/wiki/Homestead%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://missouri.hometownlocator.com/mo/ray/homestead.cfm"
+      "source": "https://missouri.hometownlocator.com/mo/ray/homestead.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/mocountyhomestead.htm"
+      "source": "https://www.usacitiesonline.com/mocountyhomestead.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/mocountyhomestead.htm"
+      "source": "https://www.usacitiesonline.com/mocountyhomestead.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/mocountyhomestead.htm"
+      "source": "https://www.usacitiesonline.com/mocountyhomestead.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homestead-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.5,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "JERRYE & ROY KLOTZ MD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RAY_COUNTY_COURTHOUSE.jpg"
+  }
 }

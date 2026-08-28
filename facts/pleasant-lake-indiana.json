@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Lake%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Lake%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Lake%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Lake%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,18 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Pleasant_Lake%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "Its geographic center lies at latitude 41.5753 and longitude –85.0161.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://indiana.hometownlocator.com/in/steuben/pleasant-lake.cfm"
+      "source": "https://en.wikipedia.org/wiki/Pleasant_Lake%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +69,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://indiana.hometownlocator.com/in/steuben/pleasant-lake.cfm"
-    },
-    {
-      "id": 6,
-      "text": "As a census-designated place, Pleasant Lake has no legal status or governmental functions.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://indiana.hometownlocator.com/in/steuben/pleasant-lake.cfm"
+      "source": "https://indiana.hometownlocator.com/in/steuben/pleasant-lake.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/pleasant-lake-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "MrHarman",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pleasant_Lake_Station,_IN_USA_1.jpg"
+  }
 }

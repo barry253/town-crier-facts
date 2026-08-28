@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/rule-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/rule-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rule%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rule%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,7 +58,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rule%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rule%2C_Texas",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,7 +72,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rule%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Rule%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rule-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.192,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Lothar the Terrible",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rule_wiki.JPG"
+  }
 }

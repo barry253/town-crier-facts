@@ -34,7 +34,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.townofbiscoe.gov/about/index.php"
+      "source": "https://www.townofbiscoe.gov/about/index.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biscoe%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Biscoe%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.townofbiscoe.gov/about/index.php"
+      "source": "https://www.townofbiscoe.gov/about/index.php",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/biscoe-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.197,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biscoe,_North_Carolina.jpg"
+  }
 }

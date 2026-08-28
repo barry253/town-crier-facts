@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/graingers_north_carolina"
+      "source": "https://grokipedia.com/page/graingers_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/graingers_north_carolina"
+      "source": "https://grokipedia.com/page/graingers_north_carolina",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/graingers_north_carolina"
+      "source": "https://grokipedia.com/page/graingers_north_carolina",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +68,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/nc/graingers-xx-lenoir-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/graingers-xx-lenoir-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Graingers sits just 70 feet above sea level, a modest elevation typical of eastern North Carolina’s lowlands.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/nc/graingers-xx-lenoir-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "A four‑lane freeway segment near Grainger Station Road was built to redirect traffic from older routes, modernizing the area’s connectivity.",
       "sourceSentenceIds": [
         9
@@ -84,7 +81,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/graingers_north_carolina"
+      "source": "https://grokipedia.com/page/graingers_north_carolina",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/graingers-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tradewinds",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lenoir_County_Courthouse.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lenoir County, North Carolina"
+  }
 }

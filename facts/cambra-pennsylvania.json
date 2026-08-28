@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Cambra is an unincorporated community in Huntington Township, Luzerne County, Pennsylvania.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cambra%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town sits just 1.8 miles north‑northwest of New Columbus along Pennsylvania Route 239.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cambra%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
       "text": "A post office opened in Cambra in 1838, marking its early role in regional communication.",
       "sourceSentenceIds": [
         20
@@ -51,21 +29,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Cambra rests 1,020 feet above sea level, giving it a modest hilltop setting.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "The community is part of Luzerne County, a region known for its historic coal mining heritage.",
       "sourceSentenceIds": [
         19
@@ -73,10 +42,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "Local genealogists can find a curated list of cemeteries around Cambra, useful for tracing family roots.",
       "sourceSentenceIds": [
         28,
@@ -85,7 +57,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/cambra-xx-luzerne-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cambra-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.19,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jakec",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cornell_Road_in_Lehman_Township,_Luzerne_County,_Pennsylvania.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Back Mountain"
+  }
 }

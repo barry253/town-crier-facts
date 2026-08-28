@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://aboutstlouis.com/local/communities/velda-city-missouri"
+      "source": "https://aboutstlouis.com/local/communities/velda-city-missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The city sits 600 feet above sea level, giving it a modest elevation within the St. Louis County landscape.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/mo/velda-city-xx-saint-louis-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Velda City’s early development included a post office and railroad service, reflecting its 19th‑century roots.",
       "sourceSentenceIds": [
         1
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/velda-city-xx-saint-louis-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/velda-city-xx-saint-louis-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Key thoroughfares such as Maywood Avenue, Lincoln Avenue, and Lucas & Hunt Road have long connected residents to the broader region.",
       "sourceSentenceIds": [
         20
@@ -62,10 +55,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://aboutstlouis.com/local/communities/velda-city-missouri"
+      "source": "https://aboutstlouis.com/local/communities/velda-city-missouri",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Velda City lies in the Mid St. Louis area, placing it centrally within the greater metropolitan region.",
       "sourceSentenceIds": [
         18
@@ -73,10 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://aboutstlouis.com/local/communities/velda-city-missouri"
+      "source": "https://aboutstlouis.com/local/communities/velda-city-missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "As part of St. Louis County, Velda City shares the county’s governance structure and regional services.",
       "sourceSentenceIds": [
         28
@@ -84,7 +83,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/mo/velda-city-xx-saint-louis-profile.htm"
+      "source": "https://roadsidethoughts.com/mo/velda-city-xx-saint-louis-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/velda-city-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Lightmetro",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:MetroLink_Blue_Line_in_Clayton.jpg"
+  }
 }

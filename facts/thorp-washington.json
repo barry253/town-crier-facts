@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thorp%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Thorp%2C_Washington",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thorp%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Thorp%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Thorp%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Thorp%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.thorp.org/"
+      "source": "https://www.thorp.org/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -74,7 +83,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://centralwashingtonoutdoor.com/outdoor-activities/history/thorp-history/"
+      "source": "https://centralwashingtonoutdoor.com/outdoor-activities/history/thorp-history/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/thorp-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.537,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ThorpTrainNo255ca1900.jpg"
+  }
 }

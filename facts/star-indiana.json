@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Star_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Star_City%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Star_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Star_City%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Star_City%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Star_City%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.in.gov/library/collections-and-services/indiana/county-history-holdings-guide/pulaski-county/"
+      "source": "https://www.in.gov/library/collections-and-services/indiana/county-history-holdings-guide/pulaski-county/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +82,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city/Star-City-Indiana.html"
-    },
-    {
-      "id": 6,
-      "text": "The median gross rent in Star City in 2024 was $900.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.city-data.com/city/Star-City-Indiana.html"
+      "source": "https://www.city-data.com/city/Star-City-Indiana.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/star-indiana.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.49,
+    "y": 0.5
+  }
 }

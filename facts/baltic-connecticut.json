@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://alchetron.com/Baltic,-Connecticut"
+      "source": "https://alchetron.com/Baltic,-Connecticut",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.livingplaces.com/CT/New_London_County/Sprague_Town/Baltic_Historic_District.html"
+      "source": "https://www.livingplaces.com/CT/New_London_County/Sprague_Town/Baltic_Historic_District.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -91,7 +102,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut"
+      "source": "https://en.wikipedia.org/wiki/Baltic%2C_Connecticut",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/baltic-connecticut.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.372,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jerry Dougherty",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baltic_Mill_Warehouse.jpg"
+  }
 }

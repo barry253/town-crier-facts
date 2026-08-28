@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/mcarthur-xx-shasta-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/mcarthur-xx-shasta-profile.htm",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McArthur%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "The community’s latitude and longitude are 41°3′2″N 121°23′59″W, placing it in the northern part of California.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McArthur%2C_California"
+      "source": "https://en.wikipedia.org/wiki/McArthur%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://en.wikivoyage.org/wiki/McArthur"
+      "source": "https://en.wikivoyage.org/wiki/McArthur",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +69,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/McArthur%2C_California"
+      "source": "https://en.wikipedia.org/wiki/McArthur%2C_California",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mcarthur-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Astronomy1",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fall_River_Mills_Airport.JPG"
+  }
 }

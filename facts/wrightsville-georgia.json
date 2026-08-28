@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Wrightsville takes its name from early settler John B., giving the town its distinctive Georgian identity.",
+      "text": "Wrightsville takes its name from early settler John B. Bain, giving the town its distinctive Georgian identity.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://museumsdatabase.com/museums/view/7906"
+      "source": "https://museumsdatabase.com/museums/view/7906",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Wrightsville%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wrightsville-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bravelake",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Johnson_County,_Georgia_Courthouse.jpg"
+  }
 }

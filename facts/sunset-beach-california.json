@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Sunset_Beach,_California"
+      "source": "https://grokipedia.com/page/Sunset_Beach,_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,21 +44,12 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sunset_Beach%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Sunset Beach’s low-lying terrain averages 3 to 10 feet above sea level, making it vulnerable to tidal influences and coastal processes.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/Sunset_Beach,_California"
-    },
-    {
-      "id": 4,
       "text": "The historic water tower, dating to the late 19th-century rail era, stands as a landmark of Sunset Beach’s early transportation history.",
       "sourceSentenceIds": [
         10
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/Sunset_Beach,_California"
+      "source": "https://grokipedia.com/page/Sunset_Beach,_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Sunset Beach’s surf culture attracts enthusiasts for body surfing, kitesurfing, and board sports, supported by nearby rental spots like OEX Sunset Beach and Huntington Surf & Sport.",
       "sourceSentenceIds": [
         8
@@ -75,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.surfcityusa.com/blog/stories/post/everything-you-need-to-know-about-sunset-beach/"
+      "source": "https://www.surfcityusa.com/blog/stories/post/everything-you-need-to-know-about-sunset-beach/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Sunset Beach Art Festival, held annually during Mother’s Day weekend, showcases local artists and has become a cherished community tradition.",
       "sourceSentenceIds": [
         30
@@ -86,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Beach%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Sunset_Beach%2C_California",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunset-beach-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Regular Daddy",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Beach_-10.JPG"
+  }
 }

@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.nvexpeditions.com/elko/wells.php"
+      "source": "https://www.nvexpeditions.com/elko/wells.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.nevadaweb.com/wells-nevada-history-and-description/"
+      "source": "https://www.nevadaweb.com/wells-nevada-history-and-description/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,20 +64,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.nvexpeditions.com/elko/wells.php"
-    },
-    {
-      "id": 4,
-      "text": "Wells sits at the junction of Interstate 80 and U.S. Route 93, about 50 miles east of Elko, anchoring its role in regional travel.",
-      "sourceSentenceIds": [
-        20,
-        21,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Wells%2C_Nevada"
+      "source": "https://www.nvexpeditions.com/elko/wells.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -85,7 +78,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wells%2C_Nevada"
+      "source": "https://en.wikipedia.org/wiki/Wells%2C_Nevada",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wells-nevada.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.258,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2012-10-20_View_of_Wells_in_Nevada_from_Angel_Lake_Road_(Nevada_State_Route_231).jpg"
+  }
 }

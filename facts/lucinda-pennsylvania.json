@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Lucinda is an unincorporated community in Clarion County, Pennsylvania.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lucinda%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town sits on Pennsylvania Route 66, just 6.5 miles north of Clarion.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lucinda%2C_Pennsylvania"
-    },
-    {
       "id": 3,
       "text": "In 1895 Lucinda had its own post office and was served by a railroad line.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lucinda%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lucinda%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -86,5 +72,15 @@
       ],
       "source": "https://roadsidethoughts.com/pa/lucinda-xx-clarion-profile.htm"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Clarion County, Pennsylvania"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lucinda-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  }
 }

@@ -33,7 +33,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa"
+      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa"
+      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa"
+      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa"
+      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,7 +87,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa"
+      "source": "https://en.wikipedia.org/wiki/Lake_Berryessa",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -91,7 +102,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://theoriginzone.com/2025/04/03/origin-of-lake-berryessa/"
+      "source": "https://theoriginzone.com/2025/04/03/origin-of-lake-berryessa/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/berryessa-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.785,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Finlay McWalter",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wfm_lake_berryessa_landsat.jpg"
+  }
 }

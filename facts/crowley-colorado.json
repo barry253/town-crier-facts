@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crowley%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Crowley%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.uncovercolorado.com/activities/crowley-county-heritage-center/"
+      "source": "https://www.uncovercolorado.com/activities/crowley-county-heritage-center/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.crowleyheritagecenter.com/"
+      "source": "https://www.crowleyheritagecenter.com/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,18 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.crowleyheritagecenter.com/"
-    },
-    {
-      "id": 5,
-      "text": "Crowley sits at an elevation of 4,354 feet (1,327 meters) just north of the 38.1931°N latitude line.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Crowley%2C_Colorado"
+      "source": "https://www.crowleyheritagecenter.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.crowleyheritagecenter.com/"
+      "source": "https://www.crowleyheritagecenter.com/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crowley-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.324,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Ammodramus",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crowley_County_Heritage_Center_from_SE_1.JPG"
+  }
 }

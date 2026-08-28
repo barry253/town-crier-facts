@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Mars_Hill%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Mars_Hill%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://townofmarshill.org/history2.php"
+      "source": "https://townofmarshill.org/history2.php",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmarshill.org/history2.php"
+      "source": "https://townofmarshill.org/history2.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,21 +72,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://townofmarshill.org/history2.php"
+      "source": "https://townofmarshill.org/history2.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Mars Hill sits at 2,330 feet elevation, giving it a cooler climate than typical for a southern town.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Mars_Hill%2C_North_Carolina"
-    },
-    {
-      "id": 6,
       "text": "The town’s first church, Pleasant Hill Baptist Church, was organized in 1856 and later became Mars Hill Baptist Church in 1860.",
       "sourceSentenceIds": [
         5
@@ -88,7 +85,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmarshill.org/history2.php"
+      "source": "https://townofmarshill.org/history2.php",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mars-hill-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.539,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Warren LeMay from Cincinnati, OH, United States",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street,_Mars_Hill,_NC_(46628943712).jpg"
+  }
 }

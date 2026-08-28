@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.ci.seaside.ca.us/375/About-Seaside"
+      "source": "https://www.ci.seaside.ca.us/375/About-Seaside",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "Seaside sits just 2.25 miles east‑northeast of Monterey at an elevation of 33 feet above sea level.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California"
-    },
-    {
-      "id": 3,
       "text": "California State University, Monterey Bay occupies a campus built on the former Fort Ord military base within Seaside.",
       "sourceSentenceIds": [
         15
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "In 2012, Seaside became the gateway to the newly created Fort Ord National Monument.",
       "sourceSentenceIds": [
         17
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Mediterranean climate keeps summer highs below 72°F, with most rainfall falling between November and April.",
       "sourceSentenceIds": [
         14
@@ -73,10 +68,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Originally laid out in 1888 as East Monterey, the town was renamed Seaside to reflect its coastal character.",
       "sourceSentenceIds": [
         18,
@@ -85,7 +83,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Seaside%2C_California",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seaside-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.236,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DirectorG at en.wikipedia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CSU_Monterey_Bay_2003.jpg"
+  }
 }

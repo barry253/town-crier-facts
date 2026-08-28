@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong"
+      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong"
+      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong"
+      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://lens-wanderings.com/khlong-san/"
+      "source": "https://lens-wanderings.com/khlong-san/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +82,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong"
-    },
-    {
-      "id": 6,
-      "text": "The canals of Klong San once supported floating foundations that were the city’s main transport arteries, now remnants of a floating city.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong"
+      "source": "https://thethaiger.com/travel/bangkok-travel/life-along-bangkok-khlong",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/klong-san-bangkok.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.353,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chitipat Witee",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SRTRedline_HitachiClass1000.jpg"
+  }
 }

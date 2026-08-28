@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,18 +70,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia"
-    },
-    {
-      "id": 5,
-      "text": "The community’s coordinates are 37°21′40″N 79°54′16″W, placing it in the foothills of the Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Cloverdale%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/cloverdale-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Kerr from Albany, NY, United States",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fincastle,_Virginia_(14197862266)_(2).jpg"
+  }
 }

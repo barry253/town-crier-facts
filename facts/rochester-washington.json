@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.experienceolympia.com/our-communities/rochester/"
+      "source": "https://www.experienceolympia.com/our-communities/rochester/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Rochester%2C_Washington",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rochester-washington.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "OceanLoop",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thurston_County_Courthouse,_aka_Capitol_Court_Building,_Olympia,_Washington,_June_23,_2025.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Thurston County, Washington"
+  }
 }

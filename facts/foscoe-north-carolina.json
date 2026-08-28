@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Foscoe sits on NC 105, just southwest of Boone, nestled in the Blue Ridge Mountains.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina"
-    },
-    {
-      "id": 2,
-      "text": "The community lies between Seven Devils and Shulls Mill, a quiet valley below Grandfather Mountain.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina"
-    },
-    {
       "id": 3,
       "text": "In 1956, NC 105 was built over the original East Tennessee and Western North Carolina Railroad bed that once carried the Tweetsie train.",
       "sourceSentenceIds": [
@@ -52,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Foscoe%2C_North_Carolina",
+      "category": "history",
+      "quality": "good",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -63,21 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.foscoenc.com/about"
+      "source": "https://www.foscoenc.com/about",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Foscoe’s elevation of about 3,000 feet means snow on nearby hilltops can be a dusting while neighboring Banner Elk sees inches.",
-      "sourceSentenceIds": [
-        18
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.foscoenc.com/about"
-    },
-    {
-      "id": 6,
       "text": "The Foscoe-Grandfather Community Center & Park, run by volunteers, offers a gathering spot that reflects the town’s strong sense of community.",
       "sourceSentenceIds": [
         13
@@ -85,7 +57,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.foscoenc.com/about"
+      "source": "https://www.foscoenc.com/about",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Beech Mountain, North Carolina"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/foscoe-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.32,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "G Keith Hall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Post_Office_Boone.jpg"
+  }
 }

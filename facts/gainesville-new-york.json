@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Gainesville was named after General Edmund P., a Revolutionary War officer honored by early settlers.",
+      "text": "Gainesville was named after General Edmund P. Gaines, a Revolutionary War officer honored by early settlers.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -65,18 +72,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York"
-    },
-    {
-      "id": 5,
-      "text": "Coordinates place Gainesville at 42.6409°N, 78.1339°W, situating it firmly within Wyoming County.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newyork.hometownlocator.com/ny/wyoming/gainesville.cfm"
+      "source": "https://en.wikipedia.org/wiki/Gainesville%2C_New_York",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gainesville-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pollinator (talk) (Uploads)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ground_moraine_9004.jpg"
+  }
 }

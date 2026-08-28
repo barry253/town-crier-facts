@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minetto_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Minetto_(CDP)%2C_New_York",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Minetto_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Minetto_(CDP)%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.seamagazine.com/locations/lock-oswego-canal-lock-2-minetto-new-york-20020"
+      "source": "https://www.seamagazine.com/locations/lock-oswego-canal-lock-2-minetto-new-york-20020",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +69,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.seamagazine.com/locations/lock-oswego-canal-lock-2-minetto-new-york-20020"
-    },
-    {
-      "id": 5,
-      "text": "Minetto’s geographic coordinates are 43°23′46″N 76°28′27″W, placing it in north‑central New York State.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Minetto_(CDP)%2C_New_York"
+      "source": "https://www.seamagazine.com/locations/lock-oswego-canal-lock-2-minetto-new-york-20020",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,16 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-minetto.html"
+      "source": "https://www.citydirectory.us/town-minetto.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/minetto-new-york.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.36,
+    "y": 0.5
+  }
 }

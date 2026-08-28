@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/village-green-green-ridge-44905"
+      "source": "https://www.wisdomlib.org/cities/village-green-green-ridge-44905",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Village_Green-Green_Ridge%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Village_Green-Green_Ridge%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,7 +59,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Village_Green-Green_Ridge%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Village_Green-Green_Ridge%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -65,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/village-green-green-ridge-44905"
+      "source": "https://www.wisdomlib.org/cities/village-green-green-ridge-44905",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.wisdomlib.org/cities/village-green-green-ridge-44905"
+      "source": "https://www.wisdomlib.org/cities/village-green-green-ridge-44905",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/village-green-green-ridge-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Media_PA_Delco_Courthouse_South.JPG"
+  }
 }

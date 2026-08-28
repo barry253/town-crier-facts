@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/san-isidro-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/san-isidro-tx",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/san-isidro-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/san-isidro-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -53,18 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/San_Isidro%2C_Texas"
-    },
-    {
-      "id": 4,
-      "text": "San Isidro’s coordinates are 26°43′8″N 98°26′39″W, placing it near the Rio Grande’s floodplain.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/San_Isidro%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/San_Isidro%2C_Texas",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/san-isidro-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/san-isidro-tx",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/san-isidro-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.707,
+    "y": 0.5
+  }
 }

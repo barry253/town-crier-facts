@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Locustdale sits on the border of Columbia and Schuylkill counties at 40°46′43″N 76°22′37″W.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Locustdale%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "The community first appears in an 1895 atlas, though its founding date remains unknown.",
       "sourceSentenceIds": [
         18
@@ -40,21 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 3,
-      "text": "Locustdale’s elevation is 1,020 feet above sea level, giving it a mild hilltop view.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm"
-    },
-    {
-      "id": 4,
+      "id": 2,
       "text": "Historically, Locustdale’s 1895 community had a post office and railroad service, linking it to regional trade.",
       "sourceSentenceIds": [
         2
@@ -62,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "The CDP lies just one mile west of Ashland, placing it within the Bloomsburg‑Berwick micropolitan area.",
       "sourceSentenceIds": [
         5,
@@ -74,10 +57,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Locustdale%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Locustdale%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Locustdale is primarily in Columbia County, with a portion spilling into Schuylkill County.",
       "sourceSentenceIds": [
         16,
@@ -86,7 +72,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/locustdale-xx-columbia-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/locustdale-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tconrad",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beury%27s_Lake_(aka_Moon_Lake).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Beurys Lake, Pennsylvania"
+  }
 }

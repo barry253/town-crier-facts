@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shallowater%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Shallowater%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shallowater%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Shallowater%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +65,21 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Shallowater%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Shallowater%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/shallowater-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.422,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shallowater,_TX,_welcome_sign_IMG_4757.JPG"
+  }
 }

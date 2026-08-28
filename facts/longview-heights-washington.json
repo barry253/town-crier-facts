@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Longview Heights is a census-designated place locally called Columbia Heights.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Longview_Heights%2C_Washington"
-    },
-    {
       "id": 2,
       "text": "The Cowlitz County Historical Museum in Longview Heights houses interactive displays that bring the region’s industrial past to life.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://beckdc.com/historical-places-in-longview-heights/"
+      "source": "https://beckdc.com/historical-places-in-longview-heights/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://beckdc.com/historical-places-in-longview-heights/"
+      "source": "https://beckdc.com/historical-places-in-longview-heights/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://wsac.org/county-spotlights/county-spotlight-cowlitz/"
+      "source": "https://wsac.org/county-spotlights/county-spotlight-cowlitz/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://beckdc.com/historical-places-in-longview-heights/"
+      "source": "https://beckdc.com/historical-places-in-longview-heights/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +83,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://beckdc.com/historical-places-in-longview-heights/"
+      "source": "https://beckdc.com/historical-places-in-longview-heights/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/longview-heights-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nesnad",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silver_Lake_Washington_-_view_-_2017_8_29.jpg"
+  }
 }

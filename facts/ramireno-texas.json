@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramireno%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ramireno%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/ramireno-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/ramireno-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,10 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/ramireno-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/ramireno-tx",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -68,29 +75,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramireno%2C_Texas"
-    },
-    {
-      "id": 5,
-      "text": "Geographically, Ramireno sits at 27°0′46″N 99°22′39″W, right on the Texas‑Mexico border.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ramireno%2C_Texas"
-    },
-    {
-      "id": 6,
-      "text": "The census‑designated place covers 1.5 square miles, all land, with no bodies of water inside its limits.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ramireno%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Ramireno%2C_Texas",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ramireno-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The original uploader was Billy Hathorn at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zapata_County,_TX,_Courthouse_IMG_2030.JPG"
+  }
 }

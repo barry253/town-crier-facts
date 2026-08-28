@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Pinar%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Rio_Pinar%2C_Florida",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,43 +43,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Pinar%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/Rio_Pinar%2C_Florida",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Residents enjoy a median age of 50.1 years, noticeably older than Florida’s state median of 42.7.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Rio-Pinar-Florida.html"
-    },
-    {
-      "id": 4,
-      "text": "Households in Rio Pinar earn a median income of $82,152, comfortably above the state average of $77,735.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Rio-Pinar-Florida.html"
-    },
-    {
-      "id": 5,
-      "text": "The median home value here is $432,500, higher than Florida’s median of $396,900.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.city-data.com/city/Rio-Pinar-Florida.html"
-    },
-    {
-      "id": 6,
       "text": "Rio Pinar’s cost‑of‑living index is 93.5, indicating expenses lower than the national average.",
       "sourceSentenceIds": [
         11
@@ -84,7 +56,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Rio-Pinar-Florida.html"
+      "source": "https://www.city-data.com/city/Rio-Pinar-Florida.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rio-pinar-florida.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "St. Petersburg Times",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1921_Tampa_hurricane_headline.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "1921 Tampa Bay hurricane"
+  }
 }

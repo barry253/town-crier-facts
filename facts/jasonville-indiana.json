@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.in.gov/cities/jasonville/visiting-jasonville/about-jasonville/"
+      "source": "https://www.in.gov/cities/jasonville/visiting-jasonville/about-jasonville/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://greenecountyhistoricalsociety.org/jasonville.php"
+      "source": "https://greenecountyhistoricalsociety.org/jasonville.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://greenecountyhistoricalsociety.org/jasonville.php"
+      "source": "https://greenecountyhistoricalsociety.org/jasonville.php",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.in.gov/cities/jasonville/visiting-jasonville/about-jasonville/"
+      "source": "https://www.in.gov/cities/jasonville/visiting-jasonville/about-jasonville/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasonville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Jasonville%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +97,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jasonville%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Jasonville%2C_Indiana",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jasonville-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.746,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "ANKAWÜ",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:USA-IN_-_Jasonville,_Mainstreet.JPG"
+  }
 }

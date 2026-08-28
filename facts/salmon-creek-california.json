@@ -29,18 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Salmon_Creek%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "Salmon Creek is bounded to the north by the creek itself, to the east by State Route 1, and to the west and south by Sonoma Coast State Beach.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Salmon_Creek%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Salmon_Creek%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Salmon_Creek%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Salmon_Creek%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/?page_id=451&ref=mountcalifornia"
+      "source": "https://www.parks.ca.gov/?page_id=451&ref=mountcalifornia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/?page_id=451&ref=mountcalifornia"
+      "source": "https://www.parks.ca.gov/?page_id=451&ref=mountcalifornia",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.parks.ca.gov/?page_id=451&ref=mountcalifornia"
+      "source": "https://www.parks.ca.gov/?page_id=451&ref=mountcalifornia",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/salmon-creek-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Photo taken by Emily Bryden / Ebryden at en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bodega_Bay_viewed_from_Dillon_Beach,_CA.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bodega Bay"
+  }
 }

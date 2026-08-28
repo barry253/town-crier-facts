@@ -34,21 +34,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.mtmemory.org/nodes/view/127886"
+      "source": "https://www.mtmemory.org/nodes/view/127886",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits at 4,576 feet above sea level, a height that shapes its crisp, continental climate.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.mtmemory.org/nodes/view/127886"
-    },
-    {
-      "id": 3,
       "text": "Roberts lies along Montana Highway 212, roughly twelve miles east of Red Lodge.",
       "sourceSentenceIds": [
         14
@@ -56,10 +47,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Montana",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "South of town, Rock Creek meanders through the landscape, providing a natural waterway for early settlers.",
       "sourceSentenceIds": [
         15
@@ -67,10 +61,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Montana",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The area experiences a Dfb Köppen climate—warm summers and cold, snowy winters typical of the Rockies.",
       "sourceSentenceIds": [
         16
@@ -78,10 +74,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Montana"
+      "source": "https://en.wikipedia.org/wiki/Roberts%2C_Montana",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Milnor Roberts, a Northern Pacific surveyor, championed the Yellowstone River route that helped spur the town’s development.",
       "sourceSentenceIds": [
         8
@@ -89,7 +87,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mtmemory.org/nodes/view/127886"
+      "source": "https://www.mtmemory.org/nodes/view/127886",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/roberts-montana.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.7,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "CIA World Factbook",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_American_Time_Zones_2026.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain Time Zone"
+  }
 }

@@ -29,30 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The city sits in southern Hidalgo County at 26°15′3″N 98°18′27″W, placing it just 7 miles north of the Rio Grande border.",
-      "sourceSentenceIds": [
-        18,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas"
-    },
-    {
-      "id": 3,
-      "text": "Palmhurst borders Alton to the north, West Sharyland to the west, Mission to the south, and McAllen to the east, forming a tight cluster of communities.",
-      "sourceSentenceIds": [
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofpalmhursttx.com/?SEC=69ED1401-DAC8-40AE-81F7-123CBD4D85D7"
+      "source": "https://www.cityofpalmhursttx.com/?SEC=69ED1401-DAC8-40AE-81F7-123CBD4D85D7",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -85,7 +69,15 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Palmhurst%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/palmhurst-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

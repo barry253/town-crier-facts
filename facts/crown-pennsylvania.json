@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Crown%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Crown%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "At 1,640 feet above sea level, Crown sits high enough to offer a clear view of the surrounding valleys.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Crown is one of eleven U.S. communities that share its name, spanning states from Arkansas to West Virginia.",
       "sourceSentenceIds": [
         1
@@ -62,22 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
-      "text": "The town’s coordinates are estimated but are believed to be near the center of Clarion County.",
-      "sourceSentenceIds": [
-        13,
-        14
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "An 1895 atlas lists Crown among several nearby communities, hinting at a once-bustling local network of towns.",
       "sourceSentenceIds": [
         21
@@ -85,7 +70,15 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/crown-xx-clarion-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/crown-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  }
 }

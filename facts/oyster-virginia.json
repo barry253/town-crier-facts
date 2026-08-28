@@ -22,18 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oyster sits on Virginia’s Eastern Shore, just 3 feet above sea level, where tides bring the famed Atlantic oyster to shore.",
-      "sourceSentenceIds": [
-        4,
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oyster%2C_Virginia"
-    },
-    {
-      "id": 2,
       "text": "Long before English settlers, Native Americans harvested oysters here, making them a staple of early Virginia diets.",
       "sourceSentenceIds": [
         1,
@@ -42,10 +30,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://virginiahistory.org/learn/oysters-virginia"
+      "source": "https://virginiahistory.org/learn/oysters-virginia",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "In colonial times, oysters were cheaper than beef and filled menus in homes and taverns across the Old Dominion.",
       "sourceSentenceIds": [
         2,
@@ -54,10 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://virginiahistory.org/learn/oysters-virginia"
+      "source": "https://virginiahistory.org/learn/oysters-virginia",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The oyster’s scientific name, Crassostrea virginica, honors Virginia, where the species was first described.",
       "sourceSentenceIds": [
         23
@@ -65,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://virginiahistory.org/learn/oysters-virginia"
+      "source": "https://virginiahistory.org/learn/oysters-virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Each oyster can filter up to 50 gallons of water, a fact that helped Virginia restore its once‑depleted oyster reefs.",
       "sourceSentenceIds": [
         24,
@@ -77,10 +72,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://virginiahistory.org/learn/oysters-virginia"
+      "source": "https://virginiahistory.org/learn/oysters-virginia",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Today, Virginia leads the East Coast in oyster aquaculture, supplying sustainable seafood and green jobs to the region.",
       "sourceSentenceIds": [
         25,
@@ -89,7 +86,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://virginiahistory.org/learn/oysters-virginia"
+      "source": "https://virginiahistory.org/learn/oysters-virginia",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oyster-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.584,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ccospel",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oyster_VA_Sign.JPG"
+  }
 }

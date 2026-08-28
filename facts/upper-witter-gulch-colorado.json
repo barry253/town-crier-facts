@@ -29,29 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Witter_Gulch%2C_Colorado"
-    },
-    {
-      "id": 2,
-      "text": "The census‑designated place covers 583 acres, all of which is land.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Witter_Gulch%2C_Colorado"
-    },
-    {
-      "id": 3,
-      "text": "Its geographic center sits at 39.6602 N latitude and 105.428 W longitude.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/clear-creek/upper-witter-gulch.cfm"
+      "source": "https://en.wikipedia.org/wiki/Upper_Witter_Gulch%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colorado.hometownlocator.com/co/clear-creek/upper-witter-gulch.cfm"
+      "source": "https://colorado.hometownlocator.com/co/clear-creek/upper-witter-gulch.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://issuu.com/visitclearcreek/docs/ccc_guide_2024"
+      "source": "https://issuu.com/visitclearcreek/docs/ccc_guide_2024",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +70,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://issuu.com/visitclearcreek/docs/ccc_guide_2024"
+      "source": "https://issuu.com/visitclearcreek/docs/ccc_guide_2024",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/upper-witter-gulch-colorado.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.71,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Chachpond",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Downtown_denver.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Denver–Aurora–Lakewood, CO Metropolitan Statistical Area"
+  }
 }

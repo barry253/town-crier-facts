@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Albert%2C_Alberta"
+      "source": "https://en.wikipedia.org/wiki/St._Albert%2C_Alberta",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Albert%2C_Alberta"
+      "source": "https://en.wikipedia.org/wiki/St._Albert%2C_Alberta",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "St. Albert is Alberta’s oldest non‑fortified community, established in 1861 and remains a living testament to early Métis life.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://stalbert.ca/exp/heritage/fast-facts/"
-    },
-    {
-      "id": 4,
       "text": "The city has hosted major sporting events, including the 1979 Alberta Summer Games, 1994 Winter Games, 2011 55+ Winter Games, and 2012 Special Olympics Canada Winter Games.",
       "sourceSentenceIds": [
         2
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://stalbert.ca/exp/heritage/fast-facts/"
+      "source": "https://stalbert.ca/exp/heritage/fast-facts/",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Michif Institute, founded by former Senator Thelma Chalifoux, preserves and spreads knowledge of St. Albert’s Métis heritage.",
       "sourceSentenceIds": [
         8
@@ -73,7 +68,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/St._Albert%2C_Alberta"
+      "source": "https://en.wikipedia.org/wiki/St._Albert%2C_Alberta",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/st-albert-alberta.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.724,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steve Boer",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alberta_Wheat_Pool_Grain_Elevators.jpg"
+  }
 }

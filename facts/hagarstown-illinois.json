@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 530 feet above sea level, giving it a modest elevation within the Illinois plains.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Locals pronounce Hagarstown as HAY-gerz-town, a detail noted by regional guides.",
       "sourceSentenceIds": [
         8
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Hagarstown is catalogued in both the GNIS and FIPS‑55 geographic databases, confirming its official status.",
       "sourceSentenceIds": [
         1
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Historical maps from 1895 list Hagarstown among nearby communities, reflecting its 19th‑century presence.",
       "sourceSentenceIds": [
         22
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A dedicated cemetery list for the area highlights several historic burial sites surrounding Hagarstown.",
       "sourceSentenceIds": [
         19
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm"
+      "source": "https://roadsidethoughts.com/il/hagarstown-xx-fayette-profile.htm",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/hagarstown-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fayette_County_Courthouse,_Vandalia.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Fayette County, Illinois"
+  }
 }

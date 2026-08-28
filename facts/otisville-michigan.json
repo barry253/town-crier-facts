@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://kids.kiddle.co/Otisville,_Michigan"
+      "source": "https://kids.kiddle.co/Otisville,_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://museumsdatabase.com/museums/view/15753"
+      "source": "https://museumsdatabase.com/museums/view/15753",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,11 +88,14 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
-      "text": "The village was incorporated in 1877, following its platting by William F. in the late 1870s.",
+      "text": "The village was incorporated in 1877, following its platting by William F. Otis in the late 1870s.",
       "sourceSentenceIds": [
         24,
         25
@@ -92,7 +103,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Otisville%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/otisville-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.78,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Notorious4life (talk) (Uploads)",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otisville,_MI_location.png"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://westernmininghistory.com/towns/colorado/jamestown/"
+      "source": "https://westernmininghistory.com/towns/colorado/jamestown/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/jamestown/"
+      "source": "https://www.uncovercolorado.com/towns/jamestown/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -66,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Jamestown%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -78,7 +87,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://westernmininghistory.com/towns/colorado/jamestown/"
+      "source": "https://westernmininghistory.com/towns/colorado/jamestown/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/jamestown-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.29,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jared Winkler",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jamestown,_CO.jpg"
+  }
 }

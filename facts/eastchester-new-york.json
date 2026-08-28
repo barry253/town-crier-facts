@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.eastchester.gov/general_information/local_history.php"
+      "source": "https://www.eastchester.gov/general_information/local_history.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.eastchester.gov/general_information/local_history.php"
+      "source": "https://www.eastchester.gov/general_information/local_history.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.eastchester.gov/general_information/local_history.php"
+      "source": "https://www.eastchester.gov/general_information/local_history.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.eastchester.gov/general_information/local_history.php"
+      "source": "https://www.eastchester.gov/general_information/local_history.php",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +81,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.eastchester.gov/general_information/local_history.php"
+      "source": "https://www.eastchester.gov/general_information/local_history.php",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +95,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eastchester_(CDP)%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Eastchester_(CDP)%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eastchester-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.469,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jim.henderson",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eastchester_NY_Fire_HQ_Main_St_cloudy_jeh.jpg"
+  }
 }

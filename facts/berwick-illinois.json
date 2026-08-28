@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Berwick%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Berwick%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Berwick%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Berwick%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +69,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
-      "text": "The community sits 700 feet above sea level, offering gentle hills in the area.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Across the U.S. and Canada, fourteen other towns share the name Berwick.",
       "sourceSentenceIds": [
         1
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm"
+      "source": "https://roadsidethoughts.com/il/berwick-xx-warren-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/berwick-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Warren_County_Courthouse_in_Monmouth.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Warren County, Illinois"
+  }
 }

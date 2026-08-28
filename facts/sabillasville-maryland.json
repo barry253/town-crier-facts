@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The village sits in Harbaugh Valley between South Mountain and Wertenbaker Hill, elevation 1,100 ft.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland"
-    },
-    {
-      "id": 3,
       "text": "In 1872 the Western Maryland Railroad reached Sabillasville, turning the area into a summer resort called Pen Mar.",
       "sourceSentenceIds": [
         9
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The Victor Cullen School Power House in Sabillasville was listed on the National Register of Historic Places in 1987.",
       "sourceSentenceIds": [
         8
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The first European settlers were Swiss immigrants in the late 1750s, including Peter Zollinger who owned the land.",
       "sourceSentenceIds": [
         17,
@@ -74,10 +69,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland",
+      "category": "people",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Route 550 runs through Sabillasville, leading 2 miles to Blue Ridge Summit and 7 miles to Thurmont.",
       "sourceSentenceIds": [
         19
@@ -85,7 +82,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Sabillasville%2C_Maryland",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sabillasville-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2016-09-20_12_20_18_View_north_along_Maryland_State_Route_550_(Sabillasville_Road)_at_Harbaugh_Valley_Road_in_Sabillasville,_Frederick_County,_Maryland.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,18 +43,22 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The Rio Terrace Community League, founded in 1960, runs a community hall, outdoor rink and tennis courts at 155 St and 76 Ave.",
+      "text": "The Rio Terrace Community League, founded in 1960, runs a community hall, outdoor rink and tennis courts at 155 St and 76 Avenue.",
       "sourceSentenceIds": [
         6
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +82,37 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
-      "text": "The Rio Terrace Moravian Church sits on 76 Ave.",
+      "text": "The Rio Terrace Moravian Church sits on 76 Avenue.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton"
+      "source": "https://en.wikipedia.org/wiki/Rio_Terrace%2C_Edmonton",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rio-terrace-alberta.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Kiyoteru Awaji",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Big_Lake_Area,_Edmonton.png"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Big Lake, Edmonton"
+  }
 }

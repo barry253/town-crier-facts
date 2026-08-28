@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia"
-    },
-    {
-      "id": 3,
-      "text": "Stony Creek sits at 36°56′47″N 77°23′59″W in Sussex County, Virginia.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-stony-creek-virginia.html"
+      "source": "https://www.citydirectory.us/town-stony-creek-virginia.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +69,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stony_Creek%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stony-creek-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.805,
+    "y": 0.5
+  }
 }

@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/glenn_georgia"
+      "source": "https://grokipedia.com/page/glenn_georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glenn%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Glenn%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,23 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/glenn_georgia"
+      "source": "https://grokipedia.com/page/glenn_georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "At 820 feet above sea level, Glenn lies in Georgia’s Piedmont region between the Blue Ridge Mountains and the Upper Coastal Plain.",
-      "sourceSentenceIds": [
-        13,
-        22
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Glenn%2C_Georgia"
-    },
-    {
-      "id": 5,
       "text": "The area averages 62°F yearly, with July highs near 90°F, January lows around 35°F, 52 inches of rain, and occasional spring tornadoes.",
       "sourceSentenceIds": [
         24,
@@ -79,10 +73,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/glenn_georgia"
+      "source": "https://grokipedia.com/page/glenn_georgia",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Mid‑1830s settlers arrived via state land lotteries, choosing the gently rolling terrain for small‑scale farming rather than large plantations.",
       "sourceSentenceIds": [
         28,
@@ -91,7 +88,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/glenn_georgia"
+      "source": "https://grokipedia.com/page/glenn_georgia",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glenn-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.563,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Rivers Langley; SaveRivers",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glenn,_Georgia_(Heard_County).JPG"
+  }
 }

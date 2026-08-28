@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-west-middletown.html"
+      "source": "https://www.citydirectory.us/borough-west-middletown.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,21 +44,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-west-middletown.html"
+      "source": "https://www.citydirectory.us/borough-west-middletown.html",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "The median age of West Middletown residents is 46 years, reflecting a mature community.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.allplaces.us/z/15379"
-    },
-    {
-      "id": 4,
       "text": "West Middletown does not host a passport office; travelers must use nearby post offices such as the one in Wellsburg.",
       "sourceSentenceIds": [
         19
@@ -63,10 +57,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-west-middletown.html"
+      "source": "https://www.citydirectory.us/borough-west-middletown.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The borough hall provides contact details, office hours, and email options, making it easy to reach city officials.",
       "sourceSentenceIds": [
         6
@@ -74,10 +71,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-west-middletown.html"
+      "source": "https://www.citydirectory.us/borough-west-middletown.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Local schools, hospitals, and parks are highlighted on the borough’s website, offering residents quick access to essential services.",
       "sourceSentenceIds": [
         7,
@@ -86,7 +86,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/borough-west-middletown.html"
+      "source": "https://www.citydirectory.us/borough-west-middletown.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-middletown-pennsylvania.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Niagara",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dauphin_County_Courthouse.jpg"
+  }
 }

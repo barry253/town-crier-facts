@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +68,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://vanishinggeorgia.com/category/alston-ga/"
+      "source": "https://vanishinggeorgia.com/category/alston-ga/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Geographically, Alston sits at 32°04′49″N 82°28′42″W, placing it in southeastern Montgomery County, Georgia.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia"
-    },
-    {
-      "id": 6,
       "text": "Georgia State Route 135 threads through Alston, connecting it northward to Higgston and southwest to Uvalda.",
       "sourceSentenceIds": [
         13
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Alston%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/alston-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Rivera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alston_City_Hall.JPG"
+  }
 }

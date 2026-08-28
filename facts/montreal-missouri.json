@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -54,21 +59,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town rests 1,030 feet above sea level, giving it a modest elevation.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/montreal-xx-camden-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Montreal is an unincorporated community, meaning it lacks its own municipal government.",
       "sourceSentenceIds": [
         9
@@ -76,7 +72,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Montreal%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/montreal-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.297,
+    "y": 0.5
+  }
 }

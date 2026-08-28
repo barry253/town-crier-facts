@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Zion%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Zion%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Zion%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Zion%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,40 +57,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/zion-xx-centre-profile.htm"
-    },
-    {
-      "id": 4,
-      "text": "Zion rises to 1,010 feet above sea level, offering a modest elevation within Centre County.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/zion-xx-centre-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "The census-designated place of Zion straddles southwestern Walker Township while extending into neighboring Spring Township.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Zion%2C_Pennsylvania"
-    },
-    {
-      "id": 6,
-      "text": "Located northeast of Centre County’s center, Zion’s coordinates are 40°54′57″N 77°40′50″W.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Zion%2C_Pennsylvania"
+      "source": "https://roadsidethoughts.com/pa/zion-xx-centre-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/zion-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_County_Courthouse.jpg"
+  }
 }

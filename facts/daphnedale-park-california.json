@@ -22,39 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Daphnedale Park sits 1.5 miles north of Alturas at 4,449 feet elevation.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Daphnedale_Park%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "Two main streets, Saralane and Lucilane, link the subdivision to Alturas’s northern boundary.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Daphnedale_Park%2C_California"
-    },
-    {
-      "id": 3,
-      "text": "The median age of residents is 44.3 years, matching the county’s overall trend.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Daphnedale_Park%2C_California"
-    },
-    {
-      "id": 4,
       "text": "In 2024, no residents were reported living in poverty, a 0.0% rate.",
       "sourceSentenceIds": [
         15
@@ -62,29 +29,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.city-data.com/city/Daphnedale-Park-California.html"
-    },
-    {
-      "id": 5,
-      "text": "Of 56 housing units, 83.9% are owner‑occupied while 16.1% are renter‑occupied.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Daphnedale_Park%2C_California"
-    },
-    {
-      "id": 6,
-      "text": "Average household size is 2.3 people, reflecting modest family units.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Daphnedale_Park%2C_California"
+      "source": "https://www.city-data.com/city/Daphnedale-Park-California.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "census_demographic"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/daphnedale-park-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Miguel Vieira from Redwood City, CA, USA",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Goose_Lake_(6024169313)_(cropped).jpg"
+  }
 }

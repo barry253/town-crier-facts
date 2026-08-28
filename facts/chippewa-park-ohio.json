@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chippewa_Park%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Chippewa_Park%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://medinacountyparks.com/park/chippewa-lake-park/"
+      "source": "https://medinacountyparks.com/park/chippewa-lake-park/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://medinacountyparks.com/park/chippewa-lake-park/"
+      "source": "https://medinacountyparks.com/park/chippewa-lake-park/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -69,7 +75,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://medinacountyparks.com/park/chippewa-lake-park/"
+      "source": "https://medinacountyparks.com/park/chippewa-lake-park/",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -80,7 +89,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://medinacountyparks.com/park/chippewa-lake-park/"
+      "source": "https://medinacountyparks.com/park/chippewa-lake-park/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chippewa-park-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.809,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mohawk_near_Blue_Jacket,_Chippewa_Park.jpg"
+  }
 }

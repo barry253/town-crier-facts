@@ -21,29 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Laguna Vista is a town in Cameron County, Texas, part of the Brownsville–Harlingen–Raymondville metropolitan area.",
-      "sourceSentenceIds": [
-        2,
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Laguna_Vista%2C_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at 26.103381° N, 97.296053° W, right on the Gulf Coast.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Laguna_Vista%2C_Texas"
-    },
-    {
       "id": 3,
       "text": "Laguna Vista is surrounded by the natural beauty of Laguna Madre Bay, where sea breezes and sunsets are a daily sight.",
       "sourceSentenceIds": [
@@ -52,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lvtexas.us/about"
+      "source": "https://www.lvtexas.us/about",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +42,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.cameroncountytx.gov/southtexasecotourism/"
+      "source": "https://www.cameroncountytx.gov/southtexasecotourism/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laguna_Vista%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Laguna_Vista%2C_Texas",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -86,7 +70,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laguna_Vista%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Laguna_Vista%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laguna-vista-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.647,
+    "y": 0.5
+  }
 }

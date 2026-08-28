@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oval is not a separately incorporated community but is part of Limestone Township, a municipality under Pennsylvania law.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
       "text": "Oval sits in the north-central area of Limestone Township, placing it in the southwestern quadrant of Lycoming County.",
       "sourceSentenceIds": [
         2
@@ -40,10 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The community lies in the eastern part of the Nippenose Valley, where small streams feed into Antes Creek.",
       "sourceSentenceIds": [
         6,
@@ -53,10 +45,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Antes Creek, which drains Oval, flows northwest into the West Branch Susquehanna River.",
       "sourceSentenceIds": [
         6,
@@ -66,10 +60,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Oval’s geographic setting places it within the watershed that ultimately reaches the Susquehanna River system.",
       "sourceSentenceIds": [
         6,
@@ -79,10 +75,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Oval’s location in Limestone Township means it shares the township’s governance and services rather than having its own municipal government.",
       "sourceSentenceIds": [
         1,
@@ -92,7 +90,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Oval%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oval-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mr. Matté (if there is an issue with this image, contact me using this image's Commons talk page, my Commons user talk page, or my English Wikipedia user talk page; I'll know about it a lot faster)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PA_44_sb_in_Oval,_Aug._2024.jpg"
+  }
 }

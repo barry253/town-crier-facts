@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.krugerville.org/nav/about_us.php"
+      "source": "https://www.krugerville.org/nav/about_us.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.krugerville.org/nav/about_us.php"
+      "source": "https://www.krugerville.org/nav/about_us.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.krugerville.org/nav/about_us.php"
+      "source": "https://www.krugerville.org/nav/about_us.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.krugerville.org/nav/about_us.php"
+      "source": "https://www.krugerville.org/nav/about_us.php",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,7 +85,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Krugerville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Krugerville%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -87,7 +99,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.krugerville.org/nav/about_us.php"
+      "source": "https://www.krugerville.org/nav/about_us.php",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/krugerville-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mick Watson from Atascocita, Texas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Denton_County_Courts_Building.jpg"
+  }
 }

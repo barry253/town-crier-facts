@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,18 +85,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio"
-    },
-    {
-      "id": 6,
-      "text": "At 1,070 feet above sea level, Homerville enjoys a modest elevation typical of northern Ohio’s rolling hills.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/homerville-xx-medina-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Homerville%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/homerville-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.499
+  }
 }

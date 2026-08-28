@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Unityville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Unityville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Unityville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Unityville%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,21 +57,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Unityville rests 1,220 feet above sea level, giving it a modest hilltop view.",
-      "sourceSentenceIds": [
-        22
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The community is listed in both the FIPS‑55 and the GNIS geographic databases.",
       "sourceSentenceIds": [
         2
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "An 1895 atlas notes whether Unityville had a post office or railroad service, reflecting its 19th‑century connectivity.",
       "sourceSentenceIds": [
         3
@@ -84,7 +84,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/unityville-xx-lycoming-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/unityville-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.751,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Casey Monaghan",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Unityville,_Pennsylvania_(PA)_post_office.jpg"
+  }
 }

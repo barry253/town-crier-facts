@@ -31,7 +31,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/wasola_missouri"
+      "source": "https://grokipedia.com/page/wasola_missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,10 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/wasola_missouri"
+      "source": "https://grokipedia.com/page/wasola_missouri",
+      "category": "etymology",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -57,21 +62,13 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wasola%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Wasola%2C_Missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
-      "text": "At 1,280 feet above sea level, Wasola enjoys the high‑land climate typical of the Missouri Ozarks.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/wasola-xx-ozark-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "The area remains largely rural, with homes and small businesses tucked among farms and wooded hills.",
       "sourceSentenceIds": [
         7
@@ -79,10 +76,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/wasola_missouri"
+      "source": "https://grokipedia.com/page/wasola_missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Wasola experiences a humid subtropical climate, bringing hot, humid summers and mild winters shaped by both continental and subtropical air masses.",
       "sourceSentenceIds": [
         8
@@ -90,7 +89,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/wasola_missouri"
+      "source": "https://grokipedia.com/page/wasola_missouri",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wasola-missouri.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.39,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Vsmith",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Douglas_County_Court_House_-_Ava,_MO.jpg"
+  }
 }

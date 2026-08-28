@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -63,18 +70,23 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The Eastern Fresno County Historical Society, located at 33280 Lodge Rd, preserves local history of mining, logging, ranching, and Native heritage.",
+      "text": "The Eastern Fresno County Historical Society, located at 33280 Lodge Road, preserves local history of mining, logging, ranching, and Native heritage.",
       "sourceSentenceIds": [
         25
       ],
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://efchs.com/"
+      "source": "https://efchs.com/",
+      "category": "landmark",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -85,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Tollhouse%2C_California",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/tollhouse-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.691,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Gene Daniels",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:OLD_STYLE_%22WIGWAM%22_BURNER,_YANCEY_LUMBER_CO_-_NARA_-_542620.jpg"
+  }
 }

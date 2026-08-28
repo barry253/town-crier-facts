@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,21 +68,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/md/ellerslie-xx-allegany-profile.htm"
+      "source": "https://roadsidethoughts.com/md/ellerslie-xx-allegany-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town sits 730 feet above sea level, offering a mild mountain climate.",
-      "sourceSentenceIds": [
-        15
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/md/ellerslie-xx-allegany-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Ellerslie is part of the Cumberland, MD‑WV Metropolitan Statistical Area, linking it to a larger regional economy.",
       "sourceSentenceIds": [
         8
@@ -84,7 +81,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Ellerslie%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ellerslie-maryland.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Preservation Maryland",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegany_County_Courthouse_(25181526054).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Allegany County, Maryland"
+  }
 }

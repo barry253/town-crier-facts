@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Allentown takes its name from Lewis F., a prominent early settler whose influence helped shape the neighborhood.",
+      "text": "Allentown takes its name from Lewis F. Allen, a prominent early settler whose influence helped shape the neighborhood.",
       "sourceSentenceIds": [
         2
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo"
+      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo"
+      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo"
+      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo"
+      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.alleganyhistory.org/places/towns-and-villages/a-e274/alma269/related-articles54/938-allentown-history"
+      "source": "https://www.alleganyhistory.org/places/towns-and-villages/a-e274/alma269/related-articles54/938-allentown-history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo"
+      "source": "https://en.wikipedia.org/wiki/Allentown%2C_Buffalo",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/allentown-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.366,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Buffaboy",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AllentownBuffalo2.jpg"
+  }
 }

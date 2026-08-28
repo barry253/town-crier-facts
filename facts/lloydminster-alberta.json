@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.lloydminster.ca/recreation-culture-community/history-and-heritage/"
+      "source": "https://www.lloydminster.ca/recreation-culture-community/history-and-heritage/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lloydminster"
+      "source": "https://en.wikipedia.org/wiki/Lloydminster",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lloydminster"
+      "source": "https://en.wikipedia.org/wiki/Lloydminster",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lloydminster"
+      "source": "https://en.wikipedia.org/wiki/Lloydminster",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lloydminster"
+      "source": "https://en.wikipedia.org/wiki/Lloydminster",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lloydminster"
+      "source": "https://en.wikipedia.org/wiki/Lloydminster",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lloydminster-alberta.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.727,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jason Whiting",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lloydminster_City_Hall.jpg"
+  }
 }

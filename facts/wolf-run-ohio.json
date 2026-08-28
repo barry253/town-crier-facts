@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wolf_Run%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Wolf_Run%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wolf_Run%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Wolf_Run%2C_Ohio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wolf_Run%2C_Ohio"
+      "source": "https://en.wikipedia.org/wiki/Wolf_Run%2C_Ohio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,21 +69,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/wolf-run-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/wolf-run-xx-jefferson-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The community rests at 1,010 feet above sea level.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/oh/wolf-run-xx-jefferson-profile.htm"
-    },
-    {
-      "id": 6,
       "text": "Three other U.S. places share the name Wolf Run, located in Pennsylvania and West Virginia.",
       "sourceSentenceIds": [
         1
@@ -84,7 +82,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/oh/wolf-run-xx-jefferson-profile.htm"
+      "source": "https://roadsidethoughts.com/oh/wolf-run-xx-jefferson-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wolf-run-ohio.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.348,
+    "y": 0.499
+  }
 }

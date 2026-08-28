@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee"
+      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee"
+      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -54,7 +59,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee"
+      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 4,
@@ -65,7 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee"
+      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -76,18 +87,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee"
-    },
-    {
-      "id": 6,
-      "text": "Dodson Branch’s designation as a census‑designated place means it is recognized for statistical purposes but lacks formal city status.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee"
+      "source": "https://kids.kiddle.co/Dodson_Branch,_Tennessee",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dodson-branch-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.45,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jackson-county-courthouse-tn2.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Jackson County, Tennessee"
+  }
 }

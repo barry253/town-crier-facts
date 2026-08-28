@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://experiencearmstrong.org/"
+      "source": "https://experiencearmstrong.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://ruralvalleyhistory.com/"
+      "source": "https://ruralvalleyhistory.com/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Valley%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rural_Valley%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +68,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Valley%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Rural_Valley%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +81,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://experiencearmstrong.org/"
-    },
-    {
-      "id": 6,
-      "text": "Rural Valley sits at 40°47′55″N 79°18′57″W, placing it in eastern Armstrong County.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Rural_Valley%2C_Pennsylvania"
+      "source": "https://experiencearmstrong.org/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rural-valley-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.539,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street,_Rural_Valley.jpg"
+  }
 }

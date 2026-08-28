@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town sits 11 miles south of downtown Fresno, just 279 feet above sea level.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California"
-    },
-    {
-      "id": 3,
       "text": "A post office served Bowles from 1904 until 1943, marking a key era of community growth.",
       "sourceSentenceIds": [
         11
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Bowles takes its name from a pioneering family that helped settle the area.",
       "sourceSentenceIds": [
         12
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Bowles%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Each year the town hosts a harvest festival, complete with a tractor parade and 4‑H ribbons.",
       "sourceSentenceIds": [
         1
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wikixm.com/us-ca-bowles-overview"
+      "source": "https://www.wikixm.com/us-ca-bowles-overview",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Locals often chat at the post office or diner about crop yields, school board decisions, and memories of the old train depot.",
       "sourceSentenceIds": [
         5
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wikixm.com/us-ca-bowles-overview"
+      "source": "https://www.wikixm.com/us-ca-bowles-overview",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bowles-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Crd637",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:KingsCanyonNP.JPG"
+  }
 }

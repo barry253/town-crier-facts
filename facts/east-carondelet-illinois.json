@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/East_Carondelet%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/East_Carondelet%2C_Illinois",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,56 +43,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-east-carondelet.html"
-    },
-    {
-      "id": 3,
-      "text": "The village is part of the Greater St. Louis metropolitan area, linking it to a major urban center.",
-      "sourceSentenceIds": [
-        28,
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-east-carondelet.html"
-    },
-    {
-      "id": 4,
-      "text": "East Carondelet is located in St. Clair County, the southwesternmost county of Illinois.",
-      "sourceSentenceIds": [
-        6,
-        7,
-        26
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Carondelet%2C_Illinois"
-    },
-    {
-      "id": 5,
-      "text": "The village sits in the southwestern region of Illinois, near the state’s border with Missouri.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://www.citydirectory.us/village-east-carondelet.html"
-    },
-    {
-      "id": 6,
-      "text": "East Carondelet is a village in the United States.",
-      "sourceSentenceIds": [
-        6,
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/East_Carondelet%2C_Illinois"
+      "source": "https://www.citydirectory.us/village-east-carondelet.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/east-carondelet-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.243,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Wtwilson3",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boismenue1.jpg"
+  }
 }

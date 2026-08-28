@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Runville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Runville%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community lies 870 feet above sea level, giving it a mild hilltop feel.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/runville-xx-centre-profile.htm"
-    },
-    {
-      "id": 3,
       "text": "Pennsylvania Route 144 threads through Runville, linking it to Milesburg four miles south and Snow Shoe nine miles northwest.",
       "sourceSentenceIds": [
         7
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Runville%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Runville%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "A post office opened in Runville in 1897, marking the town’s early 20th‑century growth.",
       "sourceSentenceIds": [
         10
@@ -62,10 +56,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/runville-xx-centre-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/runville-xx-centre-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Runville’s name appears in the 1895 atlas, though its founding date remains unrecorded.",
       "sourceSentenceIds": [
         3
@@ -73,18 +69,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/runville-xx-centre-profile.htm"
-    },
-    {
-      "id": 6,
-      "text": "The CDP is part of Boggs Township in north‑central Centre County, anchoring it within the county’s historic core.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Runville%2C_Pennsylvania"
+      "source": "https://roadsidethoughts.com/pa/runville-xx-centre-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/runville-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "User:Ruhrfisch",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_Creek_from_PA_150.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bald Eagle Creek (West Branch Susquehanna River tributary)"
+  }
 }

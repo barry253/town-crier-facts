@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chase_mills_new_york"
+      "source": "https://grokipedia.com/page/chase_mills_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chase_Mills%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Chase_Mills%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Chase Mills rests at about 269 feet above sea level, typical of the low‑lying St. Lawrence Valley.",
-      "sourceSentenceIds": [
-        29
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/chase_mills_new_york"
-    },
-    {
-      "id": 4,
       "text": "It lies within the Ogdensburg‑Massena micropolitan area, close to the industrial and recreational opportunities of the Saint Lawrence Seaway.",
       "sourceSentenceIds": [
         18
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chase_mills_new_york"
+      "source": "https://grokipedia.com/page/chase_mills_new_york",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Before becoming Chase Mills, the area was called Long Rapids, where water‑powered mills sparked early economic growth.",
       "sourceSentenceIds": [
         4
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chase_mills_new_york"
+      "source": "https://grokipedia.com/page/chase_mills_new_york",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Grasse River flows northeast through Chase Mills before joining the Saint Lawrence about 21 miles downstream.",
       "sourceSentenceIds": [
         27,
@@ -85,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/chase_mills_new_york"
+      "source": "https://grokipedia.com/page/chase_mills_new_york",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chase-mills-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "WonderWhy",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autumn_Trees_2.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Grasse River"
+  }
 }

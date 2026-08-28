@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -58,7 +62,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.sultanwa.gov/223/History"
+      "source": "https://www.sultanwa.gov/223/History",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -70,7 +76,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -81,7 +90,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Sultan%2C_Washington",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sultan-washington.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.205,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "SounderBruce",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_Street_from_3rd_Street,_Sultan,_WA.jpg"
+  }
 }

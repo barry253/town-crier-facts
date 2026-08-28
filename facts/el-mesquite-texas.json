@@ -29,18 +29,22 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofmesquite.com/3770/About-Mesquite"
+      "source": "https://www.cityofmesquite.com/3770/About-Mesquite",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The town’s name comes from nearby Mesquite Creek, a feature that helped early settlers identify the area.",
+      "text": "The town\u2019s name comes from nearby Mesquite Creek, a feature that helped early settlers identify the area.",
       "sourceSentenceIds": [
         13
       ],
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/mesquite-tx-dallas-county"
+      "source": "https://www.tshaonline.org/handbook/entries/mesquite-tx-dallas-county",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/mesquite-tx-dallas-county"
+      "source": "https://www.tshaonline.org/handbook/entries/mesquite-tx-dallas-county",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,18 +68,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/mesquite-tx-dallas-county"
-    },
-    {
-      "id": 5,
-      "text": "El Mesquite’s coordinates are 26°23′5″N 98°46′18″W, placing it in southern Texas near the Rio Grande.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/El_Mesquite%2C_Texas"
+      "source": "https://www.tshaonline.org/handbook/entries/mesquite-tx-dallas-county",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

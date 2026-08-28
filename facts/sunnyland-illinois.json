@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunnyland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Sunnyland%2C_Illinois",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,21 +43,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Sunnyland%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Sunnyland%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Sunnyland stands 680 feet above sea level, giving it a modest elevation compared to the surrounding Illinois plains.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "Although small, Sunnyland shares its name with communities in Florida, Georgia, Ohio, and Pennsylvania, a fact noted in regional gazetteers.",
       "sourceSentenceIds": [
         1
@@ -62,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm"
+      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm",
+      "category": "other",
+      "quality": "poor"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Sunnyland is part of Tazewell County, Illinois, a county that historically developed around agriculture and early railroad lines.",
       "sourceSentenceIds": [
         8
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm"
+      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Sunnyland has a documented list of cemeteries that trace the community’s 19th‑century roots.",
       "sourceSentenceIds": [
         15
@@ -84,7 +83,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm"
+      "source": "https://roadsidethoughts.com/il/sunnyland-xx-tazewell-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunnyland-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.26,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Teemu008 from Palatine, Illinois",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flanders_House_(5978683004).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Will County, Illinois"
+  }
 }

@@ -22,19 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Casa Loma is a historic community in Placer County, California, perched 4,030 feet above sea level.",
-      "sourceSentenceIds": [
-        19,
-        20,
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm"
-    },
-    {
-      "id": 2,
       "text": "The name Casa Loma appears twice in California: one in Placer County and another in Riverside County.",
       "sourceSentenceIds": [
         1
@@ -42,10 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Casa Loma sits near Emigrant Gap, a historic mining town about 8 miles northeast.",
       "sourceSentenceIds": [
         6
@@ -53,10 +43,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The community once had a post office and railroad service in 1895, reflecting its mining era.",
       "sourceSentenceIds": [
         7
@@ -64,10 +57,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Local genealogists can find a list of cemeteries around Casa Loma, useful for tracing family roots.",
       "sourceSentenceIds": [
         30
@@ -75,10 +70,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "A commemorative quarter for California celebrates Casa Loma, highlighting its place in state history.",
       "sourceSentenceIds": [
         18
@@ -86,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/casa-loma-xx-placer-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

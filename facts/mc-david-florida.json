@@ -31,53 +31,24 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida"
-    },
-    {
-      "id": 2,
-      "text": "McDavid is an unincorporated community in Escambia County, Florida.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida"
-    },
-    {
-      "id": 3,
-      "text": "The town sits within the Pensacola–Ferry Pass–Brent Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida"
-    },
-    {
-      "id": 4,
-      "text": "McDavid’s geographic coordinates are 30.866297° N, 87.319698° W.",
-      "sourceSentenceIds": [
-        30
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida"
-    },
-    {
-      "id": 5,
-      "text": "McDavid’s history dates back to the late 19th century, reflecting the broader development of Escambia County.",
-      "sourceSentenceIds": [
-        1,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida"
+      "source": "https://en.wikipedia.org/wiki/McDavid%2C_Florida",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/mc-david-florida.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Georgia Guercio",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pensacola,_FL,_Courthouse,_Escambia_County,_12-16-2010_(2).JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Escambia County, Florida"
+  }
 }

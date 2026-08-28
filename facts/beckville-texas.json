@@ -22,7 +22,7 @@
   "facts": [
     {
       "id": 1,
-      "text": "Beckville was named for early settler Matthew W. in the 19th century.",
+      "text": "Beckville was named for early settler Matthew W. Beck in the 19th century.",
       "sourceSentenceIds": [
         3,
         11
@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Beckville%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Beckville%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://www.historictexas.net/city/beckville-texas"
+      "source": "https://www.historictexas.net/city/beckville-texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +59,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/beckville-texas"
+      "source": "https://www.historictexas.net/city/beckville-texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/beckville-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Michael Barera",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carthage_July_2017_09_(Panola_County_Courthouse).jpg"
+  }
 }

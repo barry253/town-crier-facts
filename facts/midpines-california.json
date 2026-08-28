@@ -22,14 +22,16 @@
   "facts": [
     {
       "id": 1,
-      "text": "Midpines began as a resort founded by Newell D., giving the town its early tourism roots.",
+      "text": "Midpines began as a resort founded by Newell D. Chamberlain, giving the town its early tourism roots.",
       "sourceSentenceIds": [
         3
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mariposamuseum.com/about-3"
+      "source": "https://www.mariposamuseum.com/about-3",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.mariposamuseum.com/about-3"
+      "source": "https://www.mariposamuseum.com/about-3",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Midpines%2C_California",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/midpines-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.663,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Foo39",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Midpines,_California_during_the_winter.jpg"
+  }
 }

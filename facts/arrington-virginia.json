@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arrington%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Arrington%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nelsonhistorical.org/Visit"
+      "source": "https://nelsonhistorical.org/Visit",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nelsonhistorical.org/Visit"
+      "source": "https://nelsonhistorical.org/Visit",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -64,7 +72,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Arrington%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Arrington%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +87,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nelsonhistorical.org/Visit"
+      "source": "https://nelsonhistorical.org/Visit",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -87,7 +101,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://nelsonhistorical.org/Visit"
+      "source": "https://nelsonhistorical.org/Visit",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/arrington-virginia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.73,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pubdog (talk)",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nelson_Co_Courthouse_Dec_08.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Nelson County, Virginia"
+  }
 }

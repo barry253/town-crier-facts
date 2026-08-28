@@ -29,21 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The community sits at latitude 39.9287 and longitude –74.9438 in Burlington County.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://newjersey.hometownlocator.com/nj/burlington/ramblewood.cfm"
-    },
-    {
-      "id": 3,
       "text": "Burlington County, where Ramblewood lies, observes Eastern Time (GMT‑5).",
       "sourceSentenceIds": [
         25
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://newjersey.hometownlocator.com/nj/burlington/ramblewood.cfm"
+      "source": "https://newjersey.hometownlocator.com/nj/burlington/ramblewood.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Ramblewood is entirely urban, with 100% of residents living in urban areas.",
       "sourceSentenceIds": [
         6
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The CDP contains 2,718 housing units, 5.3% of which are vacant.",
       "sourceSentenceIds": [
         7
@@ -73,18 +70,16 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey"
-    },
-    {
-      "id": 6,
-      "text": "The neighborhood’s racial composition is roughly 83% White, 7% Black or African American, and 6% Asian.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_New_Jersey",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ramblewood-new-jersey.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.406,
+    "y": 0.499
+  }
 }

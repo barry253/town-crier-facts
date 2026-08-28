@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.timeout.com/singapore/city/things-to-do/ultimate-guide-admiralty"
+      "source": "https://www.timeout.com/singapore/city/things-to-do/ultimate-guide-admiralty",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore"
+      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore"
+      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore"
+      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore"
+      "source": "https://en.wikipedia.org/wiki/Admiralty%2C_Singapore",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +96,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.timeout.com/singapore/city/things-to-do/ultimate-guide-admiralty"
+      "source": "https://www.timeout.com/singapore/city/things-to-do/ultimate-guide-admiralty",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/admiralty-singapore.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bjoertvedt",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Strait_-_Changi_Bay_IMG_9106.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Changi Bay"
+  }
 }

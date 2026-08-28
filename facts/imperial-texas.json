@@ -33,7 +33,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,18 +48,23 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/imperial-tx-pecos-county"
+      "source": "https://www.tshaonline.org/handbook/entries/imperial-tx-pecos-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "A post office and school opened in 1910, marking the formal establishment of Imperial on land owned by Benjamin E.",
+      "text": "A post office and school opened in 1910, marking the formal establishment of Imperial on land owned by Benjamin E. Bush.",
       "sourceSentenceIds": [
         22
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +75,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +89,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +103,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Imperial%2C_Texas",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/imperial-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.773,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Billy Hathorn",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sand_dunes_at_Imperial,_TX_SCN1050.JPG"
+  }
 }

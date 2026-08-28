@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://99wfmk.com/chippewa-lake-hills/"
+      "source": "https://99wfmk.com/chippewa-lake-hills/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://99wfmk.com/chippewa-lake-hills/"
+      "source": "https://99wfmk.com/chippewa-lake-hills/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://99wfmk.com/chippewa-lake-hills/"
+      "source": "https://99wfmk.com/chippewa-lake-hills/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://99wfmk.com/chippewa-lake-hills/"
+      "source": "https://99wfmk.com/chippewa-lake-hills/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chippewa_Township%2C_Mecosta_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Chippewa_Township%2C_Mecosta_County%2C_Michigan",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +97,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://99wfmk.com/chippewa-lake-hills/"
+      "source": "https://99wfmk.com/chippewa-lake-hills/",
+      "category": "culture",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Chippewa River (Michigan)"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chippewa-lake-michigan.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Doug Coldwell",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nisbett-Fairman_Residences.JPG"
+  }
 }

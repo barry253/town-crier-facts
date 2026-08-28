@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Robbins sits at an elevation of just 23 feet above sea level.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Robbins%2C_California"
-    },
-    {
-      "id": 2,
-      "text": "The community first appeared as a census‑designated place in the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Robbins%2C_California"
-    },
-    {
-      "id": 3,
       "text": "The valley around Robbins is known for its extensive grasslands and lush greenery.",
       "sourceSentenceIds": [
         10
@@ -51,10 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.aboutbayarea.com/robbins/"
+      "source": "https://www.aboutbayarea.com/robbins/",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 2,
       "text": "Exploring the local ruins offers a glimpse into Robbins’ historic past.",
       "sourceSentenceIds": [
         12
@@ -62,10 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.aboutbayarea.com/robbins/"
+      "source": "https://www.aboutbayarea.com/robbins/",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "Donahue Road Park and McGriff Lakes provide family‑friendly spots for picnics and outdoor fun.",
       "sourceSentenceIds": [
         11
@@ -73,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.aboutbayarea.com/robbins/"
+      "source": "https://www.aboutbayarea.com/robbins/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "The Sting Rayz Restaurant serves authentic regional flavors that locals love.",
       "sourceSentenceIds": [
         13
@@ -84,7 +68,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.aboutbayarea.com/robbins/"
+      "source": "https://www.aboutbayarea.com/robbins/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/robbins-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.31,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Lora Haller/USFW",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sutter_Ntl._Wildlife_Refuge_(cropped).jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Sutter County, California"
+  }
 }

@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://rabunhistory.org/towns/rabun-gap/"
+      "source": "https://rabunhistory.org/towns/rabun-gap/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Rabun_Gap%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Rabun_Gap%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -54,7 +59,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rabunhistory.org/towns/rabun-gap/"
+      "source": "https://rabunhistory.org/towns/rabun-gap/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rabunhistory.org/towns/rabun-gap/"
+      "source": "https://rabunhistory.org/towns/rabun-gap/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +85,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rabunhistory.org/towns/rabun-gap/"
+      "source": "https://rabunhistory.org/towns/rabun-gap/",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +98,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://rabunhistory.org/towns/rabun-gap/"
+      "source": "https://rabunhistory.org/towns/rabun-gap/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rabun-gap-georgia.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomson200",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_23_in_Mountain_City,_Georgia_May_2017.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Mountain City, Georgia"
+  }
 }

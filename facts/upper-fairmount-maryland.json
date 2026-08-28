@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Fairmount%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Upper_Fairmount%2C_Maryland",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -43,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113"
+      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +62,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Upper_Fairmount%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Upper_Fairmount%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -71,7 +78,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113"
+      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -83,7 +92,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113"
+      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -95,7 +106,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113"
+      "source": "https://apps.mht.maryland.gov/nr/NRDetail.aspx?NRID=1113",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/upper-fairmount-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.682,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Linda Roy Walls",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LRWalls-Upper_Fairmont_Historic_District_2_ME_Church.jpg"
+  }
 }

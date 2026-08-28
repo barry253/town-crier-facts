@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lanoka_Harbor%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Lanoka_Harbor%2C_New_Jersey",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lanoka_Harbor%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Lanoka_Harbor%2C_New_Jersey",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +61,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lanoka_Harbor%2C_New_Jersey"
+      "source": "https://en.wikipedia.org/wiki/Lanoka_Harbor%2C_New_Jersey",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.barnegatbaymaritimemuseum.org/news/maritime-warp-1892-founding-of-lanoka-harbor"
+      "source": "https://www.barnegatbaymaritimemuseum.org/news/maritime-warp-1892-founding-of-lanoka-harbor",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Barnegat Bay"
+  },
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lanoka-harbor-new-jersey.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.66,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Famartin",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2018-09-16_15_25_28_View_north_along_New_Jersey_State_Route_444_(Garden_State_Parkway)_between_Exit_50_and_Exit_58,_entering_Little_Egg_Harbor_Township,_Ocean_County_from_Bass_River_Township,_Burlington_County_in_New_Jersey.jpg"
+  }
 }

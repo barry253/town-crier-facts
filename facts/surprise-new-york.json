@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/surprise_new_york"
+      "source": "https://grokipedia.com/page/surprise_new_york",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 2,
@@ -40,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/surprise_new_york"
+      "source": "https://grokipedia.com/page/surprise_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/surprise_new_york"
+      "source": "https://grokipedia.com/page/surprise_new_york",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/surprise_new_york"
+      "source": "https://grokipedia.com/page/surprise_new_york",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/surprise_new_york"
+      "source": "https://grokipedia.com/page/surprise_new_york",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/surprise_new_york"
+      "source": "https://grokipedia.com/page/surprise_new_york",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/surprise-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jayu from Harrisburg, PA, U.S.A.",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haines_Falls,_New_York_(408802206).jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Haines Falls, New York"
+  }
 }

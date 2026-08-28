@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +55,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -62,7 +69,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_gray"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_gray",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +82,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Gray%2C_Tennessee",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +95,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.trawellino.com/destinations/united-states/tennessee_gray"
+      "source": "https://www.trawellino.com/destinations/united-states/tennessee_gray",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gray-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.67,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steven C. Price",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chester-Inn1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Washington County, Tennessee"
+  }
 }

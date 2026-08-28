@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Oak Glen sits 15 miles east of San Bernardino at an elevation of 4,734 feet.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California"
-    },
-    {
-      "id": 2,
       "text": "The first apple orchard opened in 1876 by Enoch Parrish, followed by the Wilshire family.",
       "sourceSentenceIds": [
         12
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "The Rivers brothers founded Los Rios Rancho in 1906, and it remains Southern California’s largest historic ranch.",
       "sourceSentenceIds": [
         3
@@ -51,10 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "Los Rios Rancho draws more than 300,000 visitors yearly, offering apple picking and historic tours.",
       "sourceSentenceIds": [
         21
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In the 1940s, local farms began selling apples, pies, cider, and butter at roadside stands, sparking Oak Glen’s apple boom.",
       "sourceSentenceIds": [
         10
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California",
+      "category": "culture",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The Wildlands Conservancy acquired Los Rios Rancho in 1996 and opened Oak Glen Preserve, adding hiking trails and picnic areas.",
       "sourceSentenceIds": [
         16,
@@ -85,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Oak_Glen%2C_San_Bernardino_County%2C_California",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/oak-glen-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.195,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Columbia",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oak_Tree_Village_Glen_(Oak_Glen,_CA)_1950s-60s_Postcard.jpg"
+  }
 }

@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://genealogytrails.com/ill/rockisland/townshiphistory.html"
+      "source": "https://genealogytrails.com/ill/rockisland/townshiphistory.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://genealogytrails.com/ill/rockisland/townshiphistory.html"
+      "source": "https://genealogytrails.com/ill/rockisland/townshiphistory.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +57,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://genealogytrails.com/ill/rockisland/townshiphistory.html"
+      "source": "https://genealogytrails.com/ill/rockisland/townshiphistory.html",
+      "category": "transport",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/coyne-center-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Farragutful",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rock_Island_County_Justice_Center.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Rock Island County, Illinois"
+  }
 }

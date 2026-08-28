@@ -31,7 +31,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Brier_Hill%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Brier_Hill%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -44,7 +47,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/brier_hill_new_york"
+      "source": "https://grokipedia.com/page/brier_hill_new_york",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/brier_hill_new_york"
+      "source": "https://grokipedia.com/page/brier_hill_new_york",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,23 +73,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/brier_hill_new_york"
+      "source": "https://grokipedia.com/page/brier_hill_new_york",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Brier Hill sits at 341 feet above sea level, nestled in lowlands near the St. Lawrence River’s rolling terrain.",
-      "sourceSentenceIds": [
-        26,
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/brier_hill_new_york"
-    },
-    {
-      "id": 6,
       "text": "Lake‑effect snow often tops 80 inches in Brier Hill, shaping its harsh winter weather.",
       "sourceSentenceIds": [
         4
@@ -90,7 +86,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/brier_hill_new_york"
+      "source": "https://grokipedia.com/page/brier_hill_new_york",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/brier-hill-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mwanner",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cranberry_Lake,_Black_Duck_Hole,_Wanakena,_NY.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Cranberry Lake, New York"
+  }
 }

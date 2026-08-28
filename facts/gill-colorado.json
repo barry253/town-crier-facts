@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gill%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Gill%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Gill%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Gill%2C_Colorado",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "At 4,680 feet above sea level, Gill sits high in the plains, offering a distinctive Colorado elevation.",
-      "sourceSentenceIds": [
-        16
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/co/gill-xx-weld-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The railroad once threaded through Gill, but its final trains left the town in the 1980s.",
       "sourceSentenceIds": [
         7
@@ -62,21 +55,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://rockymountainprofiles.com/colorado/derry-ranch-thru-hull-city/gill-colorado/"
+      "source": "https://rockymountainprofiles.com/colorado/derry-ranch-thru-hull-city/gill-colorado/",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
-      "text": "Gill’s coordinates are 40°27′14″N 104°32′30″W, placing it firmly within Weld County.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Gill%2C_Colorado"
-    },
-    {
-      "id": 6,
+      "id": 4,
       "text": "Today, Gill’s streets feature a mix of abandoned buildings and occupied homes, reflecting its quiet, evolving character.",
       "sourceSentenceIds": [
         6
@@ -84,7 +68,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://rockymountainprofiles.com/colorado/derry-ranch-thru-hull-city/gill-colorado/"
+      "source": "https://rockymountainprofiles.com/colorado/derry-ranch-thru-hull-city/gill-colorado/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/gill-colorado.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.35,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Peter Romero",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greeley,_Colorado_Courthouse.JPG"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Weld County, Colorado"
+  }
 }

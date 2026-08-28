@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graham%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Graham%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Graham%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Graham%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Graham sits at 31°49′59″N 82°30′13″W, placing it in the southeastern part of Appling County.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Graham%2C_Georgia"
-    },
-    {
-      "id": 4,
       "text": "Residents say Graham is defined more by shared values than by map boundaries.",
       "sourceSentenceIds": [
         11
@@ -62,10 +55,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofgrahamga.com/"
+      "source": "https://cityofgrahamga.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The town emphasizes preserving its historical, cultural, and natural heritage as a core principle.",
       "sourceSentenceIds": [
         2
@@ -73,10 +68,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofgrahamga.com/"
+      "source": "https://cityofgrahamga.com/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Graham’s public library, the Ohoopee Regional Library, serves the community and surrounding counties.",
       "sourceSentenceIds": [
         4
@@ -84,7 +81,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/city-graham-georgia.html"
+      "source": "https://www.citydirectory.us/city-graham-georgia.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/graham-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.46,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Bubba73 (Jud McCranie)",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Appling_County_Courthouse,_Baxley,_GA,_US.jpg"
+  }
 }

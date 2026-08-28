@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Eldena%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Eldena%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/eldena-xx-lee-profile.htm"
+      "source": "https://roadsidethoughts.com/il/eldena-xx-lee-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Eldena sits 800 feet above sea level, giving it a modest hilltop feel compared to surrounding flat farmland.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/il/eldena-xx-lee-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "An 1895 atlas lists Eldena among the small communities that dotted Lee County, highlighting its early 19th‑century roots.",
       "sourceSentenceIds": [
         18
@@ -62,7 +55,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/il/eldena-xx-lee-profile.htm"
+      "source": "https://roadsidethoughts.com/il/eldena-xx-lee-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/eldena-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dual Freq",
+    "license": "CC BY 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Illinois_wind_farm_near_I-39_exit_82.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lee County, Illinois"
+  }
 }

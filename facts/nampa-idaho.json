@@ -35,7 +35,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Nampa%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Nampa%2C_Idaho",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -46,7 +48,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.cityofnampa.us/328/History-of-Nampa"
+      "source": "https://www.cityofnampa.us/328/History-of-Nampa",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -60,7 +64,20 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.cityofnampa.us/328/History-of-Nampa"
+      "source": "https://www.cityofnampa.us/328/History-of-Nampa",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/nampa-idaho.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.4,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tamanoeconomico",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nampa_Department_Store_(Nampa,_Idaho).jpg"
+  }
 }

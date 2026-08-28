@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.uncovercolorado.com/towns/coalmont/"
+      "source": "https://www.uncovercolorado.com/towns/coalmont/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.uncovercolorado.com/towns/coalmont/"
+      "source": "https://www.uncovercolorado.com/towns/coalmont/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://unitedstatesghosttowns.com/coalmont-colorado-ghost-town/"
+      "source": "https://unitedstatesghosttowns.com/coalmont-colorado-ghost-town/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://unitedstatesghosttowns.com/coalmont-colorado-ghost-town/"
+      "source": "https://unitedstatesghosttowns.com/coalmont-colorado-ghost-town/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Coalmont%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Coalmont%2C_Colorado",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/coalmont-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.75,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Craig Talbert",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Coalmont_School_House_(48660799002).jpg"
+  }
 }

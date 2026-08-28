@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stanleytown%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stanleytown%2C_Virginia",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,20 +44,10 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stanleytown%2C_Virginia"
-    },
-    {
-      "id": 3,
-      "text": "The town sits at 36°45′6″N 79°56′55″W, roughly 36.75 degrees north and 79.95 degrees west of the prime meridian.",
-      "sourceSentenceIds": [
-        4,
-        28
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 2"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Stanleytown%2C_Virginia"
+      "source": "https://en.wikipedia.org/wiki/Stanleytown%2C_Virginia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -67,7 +59,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/vacountystanleytown.htm"
+      "source": "https://www.usacitiesonline.com/vacountystanleytown.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -78,7 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/vacountystanleytown.htm"
+      "source": "https://www.usacitiesonline.com/vacountystanleytown.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -89,7 +87,16 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.usacitiesonline.com/vacountystanleytown.htm"
+      "source": "https://www.usacitiesonline.com/vacountystanleytown.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stanleytown-virginia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.685,
+    "y": 0.5
+  }
 }

@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Point MacKenzie sits on the Knik Arm and is officially part of the Anchorage, Alaska Metropolitan Statistical Area.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Point_MacKenzie%2C_Alaska"
-    },
-    {
-      "id": 2,
-      "text": "Point MacKenzie lies at 61°22′30″N 149°54′45″W, placing it just north of Anchorage.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Point_MacKenzie%2C_Alaska"
-    },
-    {
       "id": 3,
       "text": "In Dena'ina lore, Point MacKenzie was known as Dilhi Tunch’del’usht Beydegh, a trading hub between mountain and coastal peoples.",
       "sourceSentenceIds": [
@@ -51,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Point_MacKenzie%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Point_MacKenzie%2C_Alaska",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Point_MacKenzie%2C_Alaska"
+      "source": "https://en.wikipedia.org/wiki/Point_MacKenzie%2C_Alaska",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -73,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://matsu.gov/communities/point-mackenzie"
+      "source": "https://matsu.gov/communities/point-mackenzie",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +69,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://matsu.gov/communities/point-mackenzie"
+      "source": "https://matsu.gov/communities/point-mackenzie",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
   ]
 }

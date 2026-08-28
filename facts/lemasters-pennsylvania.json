@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lemasters%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The town sits at the intersection of Lemar Road and Steele Avenue, northeast of Mercersburg.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Lemasters%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Lemasters%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.yahoo.com/news/lemasters-pennsylvania-special-little-town-100755074.html"
+      "source": "https://www.yahoo.com/news/lemasters-pennsylvania-special-little-town-100755074.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +58,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.yahoo.com/news/lemasters-pennsylvania-special-little-town-100755074.html"
+      "source": "https://www.yahoo.com/news/lemasters-pennsylvania-special-little-town-100755074.html",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lemasters-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Epstein.Mark",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Square_Chambersburg.jpg"
+  }
 }

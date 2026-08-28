@@ -32,7 +32,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://wilmington-chamber.com/visit-wilmington/"
+      "source": "https://wilmington-chamber.com/visit-wilmington/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.wilmingtonhistory.org/research.html"
+      "source": "https://www.wilmingtonhistory.org/research.html",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilmington%2C_Los_Angeles"
+      "source": "https://en.wikipedia.org/wiki/Wilmington%2C_Los_Angeles",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,7 +74,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wilmingtonhistory.org/research.html"
+      "source": "https://www.wilmingtonhistory.org/research.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 5,
@@ -79,7 +88,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wilmington-chamber.com/visit-wilmington/"
+      "source": "https://wilmington-chamber.com/visit-wilmington/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +101,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wilmington%2C_Los_Angeles"
+      "source": "https://en.wikipedia.org/wiki/Wilmington%2C_Los_Angeles",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wilmington-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.302,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Cbl62 (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SS._Peter_and_Paul%27s_Catholic_Church,_Wilmington,_California.JPG"
+  }
 }

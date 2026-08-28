@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -51,22 +56,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/glade-valley-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/glade-valley-xx-alleghany-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Glade Valley rests 2,760 feet above sea level, roughly half a mile higher than sea level.",
-      "sourceSentenceIds": [
-        23,
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/nc/glade-valley-xx-alleghany-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Glade Valley is an unincorporated community, meaning it has no municipal government of its own.",
       "sourceSentenceIds": [
         5
@@ -74,10 +69,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The town’s name reflects its setting in a valley surrounded by the Blue Ridge Mountains.",
       "sourceSentenceIds": [
         5
@@ -85,7 +83,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Glade_Valley%2C_North_Carolina",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/glade-valley-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "G Keith Hall",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alleghany_County_Courthouse_Sparta_NC.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Alleghany County, North Carolina"
+  }
 }

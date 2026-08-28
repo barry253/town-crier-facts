@@ -35,7 +35,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://www.tshaonline.org/handbook/entries/paige-tx"
+      "source": "https://www.tshaonline.org/handbook/entries/paige-tx",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -50,11 +52,13 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paige%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Paige%2C_Texas",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Paige’s depot now houses the Paige Historical Museum, located in the old train station beside the community center on Hwy 290.",
+      "text": "Paige’s depot now houses the Paige Historical Museum, located in the old train station beside the community center on Highway 290.",
       "sourceSentenceIds": [
         19,
         20
@@ -63,7 +67,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://bastropcountyhistorical.org/museum/paige-historical-museum/"
+      "source": "https://bastropcountyhistorical.org/museum/paige-historical-museum/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -74,7 +80,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Paige%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Paige%2C_Texas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/paige-texas.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.632,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_Train_Station_Paige_Texas.jpg"
+  }
 }

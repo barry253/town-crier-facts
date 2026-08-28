@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,21 +46,13 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "Malaga sits 680 feet above sea level, giving it a mild river‑front climate.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/wa/malaga-xx-chelan-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "In 2025, Helion Energy began building a commercial fusion plant in Malaga, aiming to supply power to Microsoft data centers by 2028.",
       "sourceSentenceIds": [
         7,
@@ -67,10 +61,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Helion facility is expected to employ between ten and fifty people during its construction and operation.",
       "sourceSentenceIds": [
         9
@@ -78,10 +74,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington"
+      "source": "https://en.wikipedia.org/wiki/Malaga%2C_Washington",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Malaga’s post office opened in 1903, marking the town’s early development along the river corridor.",
       "sourceSentenceIds": [
         24
@@ -89,7 +87,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/wa/malaga-xx-chelan-profile.htm"
+      "source": "https://roadsidethoughts.com/wa/malaga-xx-chelan-profile.htm",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/malaga-washington.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.81,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Steven Pavlov",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Columbia_River_from_Rowena_Crest_Viewpoint_looking_east.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Columbia River"
+  }
 }

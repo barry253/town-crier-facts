@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Watton sits at 46°32′15″N 88°36′23″W, about four miles west of Covington on M‑28.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Covington_Township%2C_Michigan"
-    },
-    {
-      "id": 2,
       "text": "A post office opened in Watton in 1912, marking its growth as a rural hub.",
       "sourceSentenceIds": [
         14
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Covington_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Covington_Township%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Watton lies in western Upper Peninsula’s Baraga County, a region known for its dense forests.",
       "sourceSentenceIds": [
         19
@@ -51,21 +42,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/mi/watton-xx-baraga-profile.htm"
+      "source": "https://roadsidethoughts.com/mi/watton-xx-baraga-profile.htm",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "The community sits 1,460 feet above sea level, offering a mild elevation compared to surrounding peaks.",
-      "sourceSentenceIds": [
-        21
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mi/watton-xx-baraga-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 3,
       "text": "Founded in 1903 by Finnish immigrant August Kotila, Watton began as a small settlement along a railroad.",
       "sourceSentenceIds": [
         1
@@ -73,7 +55,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Covington_Township%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Covington_Township%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/watton-michigan.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.462,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "rossograph",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Covington_Town_Hall.jpg"
+  }
 }

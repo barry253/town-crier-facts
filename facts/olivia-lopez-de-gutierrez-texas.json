@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Olivia Lopez de Gutierrez first appeared as a census‑designated place in the 2010 U.S. Census.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://kids.kiddle.co/Olivia_Lopez_de_Gutierrez,_Texas"
-    },
-    {
-      "id": 2,
-      "text": "The community sits at 26°19′40″N 98°43′0″W, placing it in the heart of the South Texas Plains.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Olivia_Lopez_de_Gutierrez%2C_Texas"
-    },
-    {
-      "id": 3,
       "text": "Olivia Lopez de Gutierrez lies within Starr County, a region known for its rich ranching heritage.",
       "sourceSentenceIds": [
         7
@@ -51,21 +29,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
-      "text": "The town sits roughly 150 feet above sea level, typical of the gently rolling terrain in this part of Texas.",
-      "sourceSentenceIds": [
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm"
-    },
-    {
-      "id": 5,
+      "id": 2,
       "text": "Historically, the area was part of an 1895 atlas that mapped early communities around what is now Olivia Lopez de Gutierrez.",
       "sourceSentenceIds": [
         15
@@ -73,10 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 3,
       "text": "The community is also known locally as 'Olivia Lopez de Gutierrez Colonia,' a nickname that reflects its colonia status.",
       "sourceSentenceIds": [
         5
@@ -84,7 +56,14 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm"
+      "source": "https://roadsidethoughts.com/tx/olivia-lopez-de-gutierrez-xx-starr-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Starr County, Texas"
+  }
 }

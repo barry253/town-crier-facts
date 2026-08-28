@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stoneham%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Stoneham%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,30 +43,43 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stoneham%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Stoneham%2C_Colorado",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
-      "text": "Stoneham sits at 40°36′17″N 103°39′56″W, roughly 24 miles west of Sterling and 56 miles northeast of Greeley, nestled in the high plains of Weld County.",
-      "sourceSentenceIds": [
-        18,
-        14
-      ],
+      "text": "Stoneham's name is believed to be derived from Stoneham, Massachusetts, reflecting the influence of early settlers from the East Coast.",
+      "sourceSentenceIds": [],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Stoneham%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Stoneham%2C%20Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The community’s elevation is about 4,580 feet above sea level, giving it a high‑plain climate distinct from lower Colorado towns.",
-      "sourceSentenceIds": [
-        23
-      ],
+      "text": "The Stoneham Post Office has been serving the community since 1907, making it a historic landmark in the area.",
+      "sourceSentenceIds": [],
       "sourceLabels": [
-        "Web source 1"
+        "Wikipedia"
       ],
-      "source": "https://roadsidethoughts.com/co/stoneham-xx-weld-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Stoneham%2C%20Colorado",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stoneham-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.67,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stoneham,_Colorado.JPG"
+  }
 }

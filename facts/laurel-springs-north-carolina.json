@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laurel_Springs%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Laurel_Springs%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Laurel_Springs%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Laurel_Springs%2C_North_Carolina",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,21 +58,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/laurel-springs-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/laurel-springs-xx-alleghany-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "The town rests at an elevation of 2,740 feet above sea level.",
-      "sourceSentenceIds": [
-        24
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/nc/laurel-springs-xx-alleghany-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Two North Carolina communities share the name Laurel Springs, one in Alleghany and one in Orange County.",
       "sourceSentenceIds": [
         1
@@ -75,7 +71,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/nc/laurel-springs-xx-alleghany-profile.htm"
+      "source": "https://roadsidethoughts.com/nc/laurel-springs-xx-alleghany-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/laurel-springs-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.22,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Idawriter",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Freeborne%27s_Motel_and_Restaurant_-_panoramio.jpg"
+  }
 }

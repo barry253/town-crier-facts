@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holters_Crossing%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Holters_Crossing%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holters_Crossing%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Holters_Crossing%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,18 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holters_Crossing%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "The primary coordinate point for Holters Crossing is latitude 40.9724, longitude –77.7234.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/centre/holters-crossing.cfm"
+      "source": "https://en.wikipedia.org/wiki/Holters_Crossing%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,18 +69,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/centre/holters-crossing.cfm"
-    },
-    {
-      "id": 6,
-      "text": "As a census‑designated place, Holters Crossing has no governmental functions of its own.",
-      "sourceSentenceIds": [
-        7
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/centre/holters-crossing.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/centre/holters-crossing.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/holters-crossing-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "User:Ruhrfisch",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bald_Eagle_Creek_from_PA_150.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Bald Eagle Creek (West Branch Susquehanna River tributary)"
+  }
 }

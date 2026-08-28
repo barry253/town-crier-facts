@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/grovertown_indiana"
+      "source": "https://grokipedia.com/page/grovertown_indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/grovertown_indiana"
+      "source": "https://grokipedia.com/page/grovertown_indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/grovertown_indiana"
+      "source": "https://grokipedia.com/page/grovertown_indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/grovertown_indiana"
+      "source": "https://grokipedia.com/page/grovertown_indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,21 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Grovertown%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Grovertown%2C_Indiana",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/grovertown-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.326,
+    "y": 0.499
+  },
+  "imageAttribution": {
+    "author": "Chris Light",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grovertown_Post_Office_9330.jpg"
+  }
 }

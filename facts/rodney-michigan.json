@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Rodney sits at 43°40′25″N 85°19′42″W in the southeast corner of Colfax Township.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan"
-    },
-    {
       "id": 2,
       "text": "A post office operated in Rodney from 1877 until 1902.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan",
+      "category": "nature",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +83,25 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan"
+      "source": "https://en.wikipedia.org/wiki/Colfax_Township%2C_Mecosta_County%2C_Michigan",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/rodney-michigan.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.73,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Tim Kiser (User:Malepheasant)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Little_Muskegon_River_Morley_Michigan.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Little Muskegon River"
+  }
 }

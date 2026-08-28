@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millersville%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/Millersville%2C_Maryland",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,10 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://waterdamagemillersvillemd.com/millersville-maryland/"
+      "source": "https://waterdamagemillersvillemd.com/millersville-maryland/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
@@ -59,7 +64,9 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://waterdamagemillersvillemd.com/millersville-maryland/"
+      "source": "https://waterdamagemillersvillemd.com/millersville-maryland/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,7 +79,20 @@
         "Web source 1",
         "Web source 1"
       ],
-      "source": "https://waterdamagemillersvillemd.com/millersville-maryland/"
+      "source": "https://waterdamagemillersvillemd.com/millersville-maryland/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millersville-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.445,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "thisisbossi from Washington, DC, USA",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2007_11_24_-_229_-_Millersville_-_Old_Mill_Blvd_(3109099425).jpg"
+  }
 }

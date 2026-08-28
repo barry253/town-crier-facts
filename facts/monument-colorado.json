@@ -31,7 +31,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monument%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Monument%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -45,7 +47,9 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://palmerdividehistory.org/monument-history/"
+      "source": "https://palmerdividehistory.org/monument-history/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmonument.org/351/History-Arts-and-Culture"
+      "source": "https://townofmonument.org/351/History-Arts-and-Culture",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Monument%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Monument%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -78,7 +87,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmonument.org/351/History-Arts-and-Culture"
+      "source": "https://townofmonument.org/351/History-Arts-and-Culture",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/monument-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.43,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2nd_Street_in_Monument_Colorado.jpg"
+  }
 }

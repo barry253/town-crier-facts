@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,18 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana"
-    },
-    {
-      "id": 4,
-      "text": "Worthington sits within the Bloomington, Indiana Metropolitan Statistical Area, connecting it to a larger regional economy.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana"
+      "source": "https://en.wikipedia.org/wiki/Worthington%2C_Indiana",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.citydirectory.us/town-worthington-indiana.html"
+      "source": "https://www.citydirectory.us/town-worthington-indiana.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +82,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.in.gov/towns/worthington/"
+      "source": "https://www.in.gov/towns/worthington/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/worthington-indiana.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.632,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Commercial_south_of_First,_Worthington.jpg"
+  }
 }

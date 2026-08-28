@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,18 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
-      "text": "Seven Springs is part of the Pittsburgh metropolitan area on the Fayette County side and the Johnstown metropolitan area on the Somerset County side.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Seven_Springs%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wonderfulmuseums.com/museum/seven-springs-museum/"
+      "source": "https://www.wonderfulmuseums.com/museum/seven-springs-museum/",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/seven-springs-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.256,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "smittenkittenorig on Flickr",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss_Mountain_Condo_Rainy_Morning_7_Springs.jpg"
+  }
 }

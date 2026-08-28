@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Camp Pendleton South is one of two census‑designated places on the Marine Corps base.",
-      "sourceSentenceIds": [
-        12
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_South%2C_California"
-    },
-    {
       "id": 2,
       "text": "The area’s history spans prehistoric times, Native American culture, the Spanish mission era, rancho life, and Marine Corps ownership since 1942.",
       "sourceSentenceIds": [
@@ -40,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_South%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_South%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -51,7 +42,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://camppendletonhistoricalsociety.org/"
+      "source": "https://camppendletonhistoricalsociety.org/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +55,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/camp-pendleton-south-30137"
+      "source": "https://www.wisdomlib.org/cities/camp-pendleton-south-30137",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +68,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wisdomlib.org/cities/camp-pendleton-south-30137"
+      "source": "https://www.wisdomlib.org/cities/camp-pendleton-south-30137",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +81,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_South%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Camp_Pendleton_South%2C_California",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/camp-pendleton-south-california.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Davidlud",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:4.3LasPlayasSunset1_copy_1.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "San Diego County, California"
+  }
 }

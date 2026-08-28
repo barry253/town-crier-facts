@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Turtlepoint is an unincorporated community in Annin Township, McKean County, Pennsylvania, United States.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania"
-    },
-    {
       "id": 2,
       "text": "The community lies along Pennsylvania Route 155, about 5.2 miles northwest of Port Allegany.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 3,
@@ -51,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -62,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +69,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +82,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Turtlepoint%2C_Pennsylvania",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/turtlepoint-pennsylvania.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.521,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Voyageur67",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Road_sign_for_Turtlepoint,_PA.jpg"
+  }
 }

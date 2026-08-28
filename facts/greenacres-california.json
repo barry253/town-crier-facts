@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,23 +46,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "At 381 feet above sea level, Greenacres enjoys a modest elevation typical of the surrounding valley floor.",
-      "sourceSentenceIds": [
-        8,
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California"
-    },
-    {
-      "id": 4,
       "text": "Greenacres first appeared as an unincorporated place in the 1970 U.S. Census, before later being deleted from the 2000 Census.",
       "sourceSentenceIds": [
         3,
@@ -70,10 +62,13 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Greenacres%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The community’s name echoes a common theme, as six other places in the United States also share the name Greenacres.",
       "sourceSentenceIds": [
         2
@@ -81,10 +76,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://roadsidethoughts.com/ca/greenacres-xx-kern-profile.htm"
+      "source": "https://roadsidethoughts.com/ca/greenacres-xx-kern-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Greenacres is entirely land, with no large lakes or rivers within its borders, a fact noted in local geographic profiles.",
       "sourceSentenceIds": [
         23
@@ -92,7 +90,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Greenacres,_California"
+      "source": "https://kids.kiddle.co/Greenacres,_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/greenacres-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Matt Affolter (QFL247) (talk)",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RidgecrestCA.JPG"
+  }
 }

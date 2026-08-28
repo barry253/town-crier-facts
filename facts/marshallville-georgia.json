@@ -33,7 +33,9 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://www.cityofmarshallville.org/city-history"
+      "source": "https://www.cityofmarshallville.org/city-history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -47,7 +49,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.cityofmarshallville.org/city-history"
+      "source": "https://www.cityofmarshallville.org/city-history",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -61,7 +65,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.cityofmarshallville.org/city-history"
+      "source": "https://www.cityofmarshallville.org/city-history",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -72,7 +78,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marshallville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Marshallville%2C_Georgia",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -84,7 +92,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Marshallville%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Marshallville%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 6,
@@ -98,7 +109,20 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.cityofmarshallville.org/city-history"
+      "source": "https://www.cityofmarshallville.org/city-history",
+      "category": "people",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/marshallville-georgia.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.33,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Mbclark2",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macon_County_Courthouse.JPG"
+  }
 }

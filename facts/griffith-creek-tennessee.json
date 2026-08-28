@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Griffith_Creek%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Griffith_Creek%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 2,
@@ -40,21 +43,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Griffith_Creek,_Tennessee"
+      "source": "https://kids.kiddle.co/Griffith_Creek,_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Griffith Creek rises to 2,234 feet above sea level.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Griffith_Creek%2C_Tennessee"
-    },
-    {
-      "id": 4,
       "text": "Tennessee State Route 108 cuts through Griffith Creek, linking it to the rest of the county.",
       "sourceSentenceIds": [
         6
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Griffith_Creek%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Griffith_Creek%2C_Tennessee",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "The Cumberland Plateau is a flat‑topped mountain range that stretches across Tennessee, Kentucky, and Alabama.",
       "sourceSentenceIds": [
         17
@@ -73,10 +70,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Griffith_Creek,_Tennessee"
+      "source": "https://kids.kiddle.co/Griffith_Creek,_Tennessee",
+      "category": "nature",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The plateau is famed for its deep valleys, cool streams, and lush forests that attract hikers and nature lovers.",
       "sourceSentenceIds": [
         19,
@@ -85,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Griffith_Creek,_Tennessee"
+      "source": "https://kids.kiddle.co/Griffith_Creek,_Tennessee",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/griffith-creek-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.72,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Griffith-Creek-TN108-tn1.jpg"
+  }
 }

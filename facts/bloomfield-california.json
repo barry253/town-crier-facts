@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -40,7 +42,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California"
+      "source": "https://en.wikipedia.org/wiki/North_Bloomfield%2C_California",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://wrealestate.net/bloomfield"
+      "source": "https://wrealestate.net/bloomfield",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/bloomfield-california.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.53,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Phreakdigital",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:French_Lake.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "French Lake, California"
+  }
 }

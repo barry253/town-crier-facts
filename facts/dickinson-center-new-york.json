@@ -31,32 +31,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dickinson_Center%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Dickinson_Center%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 2,
-      "text": "The community sits 15.6 miles southwest of Malone, the county seat of Franklin County.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Dickinson_Center%2C_New_York"
-    },
-    {
-      "id": 3,
-      "text": "Dickinson Center rises to 950 feet above sea level, a typical elevation for Adirondack hamlets.",
-      "sourceSentenceIds": [
-        11
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm"
-    },
-    {
-      "id": 4,
       "text": "The first documented reference to Dickinson Center appears in an 1895 atlas, though the exact founding date remains unknown.",
       "sourceSentenceIds": [
         10
@@ -64,10 +45,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "A historic 1895 atlas lists Dickinson Center among the communities that once dotted the Franklin County landscape.",
       "sourceSentenceIds": [
         19
@@ -75,10 +59,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Dickinson Center’s name is often shortened to Dickinson Ctr., a common abbreviation used in local records.",
       "sourceSentenceIds": [
         11
@@ -86,7 +73,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm"
+      "source": "https://roadsidethoughts.com/ny/dickinson-center-xx-franklin-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dickinson-center-new-york.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.27,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dclemens1971",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adirondack_Presbyterian_Church_02.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Clear, New York"
+  }
 }

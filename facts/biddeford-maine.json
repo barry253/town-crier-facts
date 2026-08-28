@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.biddefordhistoricalsociety.org/"
+      "source": "https://www.biddefordhistoricalsociety.org/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biddeford%2C_Maine"
+      "source": "https://en.wikipedia.org/wiki/Biddeford%2C_Maine",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biddeford%2C_Maine"
+      "source": "https://en.wikipedia.org/wiki/Biddeford%2C_Maine",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.biddefordmaine.org/2372/Visit-Biddeford"
+      "source": "https://www.biddefordmaine.org/2372/Visit-Biddeford",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +84,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.biddefordmaine.org/2372/Visit-Biddeford"
+      "source": "https://www.biddefordmaine.org/2372/Visit-Biddeford",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -87,7 +98,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Biddeford%2C_Maine"
+      "source": "https://en.wikipedia.org/wiki/Biddeford%2C_Maine",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/biddeford-maine.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.3,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Quintin Soloviev",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Biddeford,_Maine_2026.jpg"
+  }
 }

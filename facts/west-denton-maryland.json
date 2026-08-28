@@ -32,7 +32,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/"
+      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/"
+      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/"
+      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/West_Denton%2C_Maryland"
+      "source": "https://en.wikipedia.org/wiki/West_Denton%2C_Maryland",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -80,7 +88,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/"
+      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -92,7 +102,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/"
+      "source": "https://carolinehistory.org/crh-inventory/upper-sites/west-denton/",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/west-denton-maryland.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.21,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "AMK1211",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Choptank_River_Denton_MD.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Choptank River"
+  }
 }

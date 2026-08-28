@@ -29,33 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Columbiaville%2C_New_York"
+      "source": "https://en.wikipedia.org/wiki/Columbiaville%2C_New_York",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 2,
-      "text": "The community sits along U.S. Route 9, just under five miles north‑northeast of Hudson.",
-      "sourceSentenceIds": [
-        3,
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Columbiaville%2C_New_York"
-    },
-    {
-      "id": 3,
-      "text": "Columbiaville lies within Columbia County, which is on the east side of the Hudson River.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Columbiaville%2C_New_York"
-    },
-    {
-      "id": 4,
       "text": "Visitors to Columbiaville can explore historic hikes and sample local treats highlighted in the county’s visitor guide.",
       "sourceSentenceIds": [
         1
@@ -63,10 +43,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://columbiacountytourism.org/"
+      "source": "https://columbiacountytourism.org/",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 5,
+      "id": 3,
       "text": "The area is popular for cycling, with scenic backroads that attract riders.",
       "sourceSentenceIds": [
         1
@@ -74,10 +57,13 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://columbiacountytourism.org/"
+      "source": "https://columbiacountytourism.org/",
+      "category": "culture",
+      "quality": "good",
+      "qualityReason": "editorial_filler"
     },
     {
-      "id": 6,
+      "id": 4,
       "text": "Columbiaville offers arts and culture experiences, from craft markets to outdoor dining.",
       "sourceSentenceIds": [
         1
@@ -85,7 +71,20 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://columbiacountytourism.org/"
+      "source": "https://columbiacountytourism.org/",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/columbiaville-new-york.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.507,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Acroterion",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Octagon_House_Columbiaville,_NY1.jpg"
+  }
 }

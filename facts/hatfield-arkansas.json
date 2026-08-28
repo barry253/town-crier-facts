@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Hatfield is a town located in western Polk County, Arkansas, United States.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hatfield%2C_Arkansas"
-    },
-    {
-      "id": 2,
-      "text": "Hatfield sits at 34°29′13″N 94°22′42″W, placing it in the central part of Arkansas.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Hatfield%2C_Arkansas"
-    },
-    {
       "id": 3,
       "text": "The climate features hot, humid summers and mild to cool winters in Hatfield.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hatfield%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Hatfield%2C_Arkansas",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Hatfield%2C_Arkansas"
+      "source": "https://en.wikipedia.org/wiki/Hatfield%2C_Arkansas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/arcountyhatfield.htm"
+      "source": "https://www.usacitiesonline.com/arcountyhatfield.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -84,7 +70,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.usacitiesonline.com/arcountyhatfield.htm"
+      "source": "https://www.usacitiesonline.com/arcountyhatfield.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
   ]
 }

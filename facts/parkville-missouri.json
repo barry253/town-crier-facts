@@ -22,58 +22,79 @@
   "facts": [
     {
       "id": 1,
-      "text": "Parkville’s post office opened in 1841, named after settler George S. (source 1).",
+      "text": "Parkville’s post office opened in 1841, named after settler George S. Park.",
       "sourceSentenceIds": [
         1
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The city hosts Park University, English Landing Park, Platte Landing Park, and the National Golf Club of Kansas City (source 12).",
+      "text": "The city hosts Park University, English Landing Park, Platte Landing Park, and the National Golf Club of Kansas City.",
       "sourceSentenceIds": [
         12
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Historic downtown features buildings on the National Register: Benjamin Banneker School, Mackay Building, Charles Smith Scott Observatory, Waddell “A” Truss Bridge, Washington Chapel C.M.E. (source 15).",
+      "text": "Historic downtown features buildings on the National Register: Benjamin Banneker School, Mackay Building, Charles Smith Scott Observatory, Waddell “A” Truss Bridge, Washington Chapel C.M.E.",
       "sourceSentenceIds": [
         15
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Parkville sits on hilly terrain beside the Missouri River, offering scenic bluffs and riverfront views (source 16).",
+      "text": "Parkville sits on hilly terrain beside the Missouri River, offering scenic bluffs and riverfront views.",
       "sourceSentenceIds": [
         16
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "The town was platted in 1844, and its post office operated until 1962 (source 14).",
+      "text": "The town was platted in 1844, and its post office operated until 1962.",
       "sourceSentenceIds": [
         14
       ],
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Parkville%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parkville-missouri.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.328,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The original uploader was Americasroof at English Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mckay-hall-parkville.jpg"
+  }
 }

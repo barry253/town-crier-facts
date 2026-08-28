@@ -30,7 +30,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middlesex%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Middlesex%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -41,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmiddlesexnc.com/our-town"
+      "source": "https://townofmiddlesexnc.com/our-town",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmiddlesexnc.com/our-town"
+      "source": "https://townofmiddlesexnc.com/our-town",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -63,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Middlesex%2C_North_Carolina"
+      "source": "https://en.wikipedia.org/wiki/Middlesex%2C_North_Carolina",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -74,7 +85,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmiddlesexnc.com/our-town"
+      "source": "https://townofmiddlesexnc.com/our-town",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -85,7 +99,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://townofmiddlesexnc.com/our-town"
+      "source": "https://townofmiddlesexnc.com/our-town",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/middlesex-north-carolina.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.234,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Indy beetle",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Middlesex,_North_Carolina_03.jpg"
+  }
 }

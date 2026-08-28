@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Frizzleburg sits at 41°4′40″N 80°27′17″W, in south‑central Pulaski Township, Lawrence County.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The community borders Mahoning Township to the south.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania"
-    },
-    {
       "id": 3,
       "text": "Pennsylvania Route 551 skirts Frizzleburg’s eastern edge, linking it north to Pulaski and I‑376 and south to Edinburg.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
@@ -62,7 +43,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -73,7 +56,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Frizzleburg%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -84,7 +69,25 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.city-data.com/city//Frizzleburg-Pennsylvania.html"
+      "source": "https://www.city-data.com/city//Frizzleburg-Pennsylvania.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/frizzleburg-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.79,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beaver_River_Beaver_Falls.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Beaver River (Pennsylvania)"
+  }
 }

@@ -31,7 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.cityofkerman.gov/256/History"
+      "source": "https://www.cityofkerman.gov/256/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.cityofkerman.gov/256/History"
+      "source": "https://www.cityofkerman.gov/256/History",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,23 +61,12 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.cityofkerman.gov/256/History"
+      "source": "https://www.cityofkerman.gov/256/History",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "Kerman sits at the crossroads of State Routes 180 and 145, 15 miles west of Fresno, at 220 feet elevation.",
-      "sourceSentenceIds": [
-        17,
-        18
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Kerman%2C_California"
-    },
-    {
-      "id": 5,
       "text": "The original pump and tank caretaker, who kept water for thirsty engines, resigned after months of solitude, never meeting anyone else.",
       "sourceSentenceIds": [
         19,
@@ -83,7 +76,21 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Kerman%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Kerman%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/kerman-california.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.798,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "David Jordan at English Wikipedia",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kerman_2006.jpg"
+  }
 }

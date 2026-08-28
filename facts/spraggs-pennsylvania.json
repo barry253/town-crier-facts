@@ -22,28 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Spraggs is an unincorporated community in Greene County, Pennsylvania, United States.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spraggs%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The community sits along Pennsylvania Route 218, just 8.2 miles south of Waynesburg.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Spraggs%2C_Pennsylvania"
-    },
-    {
-      "id": 3,
       "text": "The earliest documented reference to Spraggs dates back to an 1895 atlas.",
       "sourceSentenceIds": [
         8
@@ -51,38 +29,12 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/spraggs-xx-greene-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/spraggs-xx-greene-profile.htm",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 4,
-      "text": "Spraggs rests at an elevation of 1,060 feet above sea level.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/spraggs-xx-greene-profile.htm"
-    },
-    {
-      "id": 5,
-      "text": "The coordinates for Spraggs are estimated and still require verification.",
-      "sourceSentenceIds": [
-        11,
-        12,
-        13,
-        14,
-        15,
-        16,
-        17
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/pa/spraggs-xx-greene-profile.htm"
-    },
-    {
-      "id": 6,
+      "id": 2,
       "text": "A dedicated list of cemeteries in the Spraggs area is available, complete with locations and an overhead view.",
       "sourceSentenceIds": [
         19,
@@ -92,7 +44,25 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://roadsidethoughts.com/pa/spraggs-xx-greene-profile.htm"
+      "source": "https://roadsidethoughts.com/pa/spraggs-xx-greene-profile.htm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/spraggs-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.47,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greene_County_Courthouse,_Waynesburg.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Greene County, Pennsylvania"
+  }
 }

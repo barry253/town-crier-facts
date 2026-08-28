@@ -31,20 +31,9 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/"
-    },
-    {
-      "id": 2,
-      "text": "The city sits at the crossroads of Interstate 37 and Priest and Mathis roads, just south of Elmendorf.",
-      "sourceSentenceIds": [
-        17,
-        8
-      ],
-      "sourceLabels": [
-        "Web source 1",
-        "Wikipedia"
-      ],
-      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/"
+      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -57,7 +46,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/"
+      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -68,7 +60,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/"
+      "source": "https://cityofsandyoaks.com/about-the-city-of-sandy-oaks-tx/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -80,7 +75,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.wikixm.com/us/tx/sandy-oaks/overview"
+      "source": "https://www.wikixm.com/us/tx/sandy-oaks/overview",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -93,5 +90,20 @@
       ],
       "source": "https://www.wikixm.com/us/tx/sandy-oaks/overview"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sandy-oaks-texas.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.86,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Pismo~commonswiki",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canyon_Lake_TX_wide.JPG"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Canyon Lake, Texas"
+  }
 }

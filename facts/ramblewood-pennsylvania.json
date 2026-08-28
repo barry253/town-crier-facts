@@ -30,19 +30,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The community lies at 40°44′3″N 77°56′40″W, just south of Ferguson Township’s center.",
-      "sourceSentenceIds": [
-        13,
-        29
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 4,
@@ -65,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,7 +71,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -87,7 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Ramblewood%2C_Pennsylvania",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/ramblewood-pennsylvania.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nicholas",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_County_Courthouse.jpg"
+  }
 }

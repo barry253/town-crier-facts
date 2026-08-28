@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,7 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -51,7 +57,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fs.usda.gov/r03/tonto/recreation/flowing-springs"
+      "source": "https://www.fs.usda.gov/r03/tonto/recreation/flowing-springs",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -62,18 +71,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.fs.usda.gov/r03/tonto/recreation/flowing-springs"
-    },
-    {
-      "id": 5,
-      "text": "The town’s latitude and longitude are 34.309304°N, 111.334731°W, placing it in Arizona’s high desert.",
-      "sourceSentenceIds": [
-        4
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona"
+      "source": "https://www.fs.usda.gov/r03/tonto/recreation/flowing-springs",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +85,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona"
+      "source": "https://en.wikipedia.org/wiki/Flowing_Springs%2C_Arizona",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/flowing-springs-arizona.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Marine 69-71",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Globe-Gila_County_Courthouse-101_North_Broad_Street-1910-2.jpg"
+  }
 }

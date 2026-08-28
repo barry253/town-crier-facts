@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Aberdeen Proving Ground takes its name from Brigadier General Eli D., whose leadership helped shape early 20th‑century U.S. artillery testing.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground"
-    },
-    {
       "id": 2,
       "text": "The airfield at Aberdeen, called Phillips Army Air Field, supported early bombing table development during World War I.",
       "sourceSentenceIds": [
@@ -40,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://home.army.mil/apg/about/history"
+      "source": "https://home.army.mil/apg/about/history",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 3,
@@ -53,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground"
+      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +58,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground"
+      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +71,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground"
+      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground"
+      "source": "https://en.wikipedia.org/wiki/Aberdeen_Proving_Ground",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/aberdeen-proving-ground-maryland.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.481,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "DanTD",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aberdeen_Proving_Ground_Plaque.JPG"
+  }
 }

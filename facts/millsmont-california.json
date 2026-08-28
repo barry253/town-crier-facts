@@ -29,11 +29,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
-      "text": "The neighborhood sits in Oakland's foothills, bordered by Seminary Ave north, Edwards Ave south, MacArthur Blvd west, and I‑580 east.",
+      "text": "The neighborhood sits in Oakland's foothills, bordered by Seminary Avenue north, Edwards Avenue south, MacArthur Boulevard west, and I‑580 east.",
       "sourceSentenceIds": [
         4,
         15,
@@ -43,22 +45,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 3,
-      "text": "At 239 feet elevation, Millsmont’s wooded hills give homes sweeping views of Alameda, the San Francisco Peninsula, and the Oakland hills.",
-      "sourceSentenceIds": [
-        5,
-        9
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California"
-    },
-    {
-      "id": 4,
       "text": "After the 1906 earthquake, many displaced San Franciscans settled on small plots in Millsmont, later expanding their homes.",
       "sourceSentenceIds": [
         10,
@@ -68,10 +61,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "In the early 1900s, buyers could purchase a quarter‑acre plot with building plans and materials for about $500, and most houses were one‑bedroom designs.",
       "sourceSentenceIds": [
         7,
@@ -83,10 +78,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California"
+      "source": "https://en.wikipedia.org/wiki/Millsmont%2C_Oakland%2C_California",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "Today, Millsmont remains a lively, diverse enclave that still preserves its historic charm and panoramic vistas.",
       "sourceSentenceIds": [
         29,
@@ -95,7 +93,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Millsmont,_Oakland,_California"
+      "source": "https://kids.kiddle.co/Millsmont,_Oakland,_California",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/millsmont-california.jpg",
+  "imageSource": "wikipedia_county_courthouse",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Swaziloo",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alameda_Island_June_2023.jpg"
+  }
 }

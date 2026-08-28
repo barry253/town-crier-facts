@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofholladay.com/government/about/history.php"
+      "source": "https://cityofholladay.com/government/about/history.php",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofholladay.com/government/about/history.php"
+      "source": "https://cityofholladay.com/government/about/history.php",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://holladayarts.org/events/history_markers.php"
+      "source": "https://holladayarts.org/events/history_markers.php",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -63,7 +69,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Holladay%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Holladay%2C_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -75,7 +84,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://cityofholladay.com/government/about/history.php"
+      "source": "https://cityofholladay.com/government/about/history.php",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/holladay-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.34,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Brian Stansberry",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benton-county-courthouse-tn1.jpg"
+  }
 }

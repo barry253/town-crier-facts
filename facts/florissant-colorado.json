@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Florissant%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Florissant%2C_Colorado",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,23 +46,12 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Florissant%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Florissant%2C_Colorado",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
-      "text": "Florissant’s elevation is 8,173 feet, giving it crisp mountain air and sweeping views of the surrounding canyons.",
-      "sourceSentenceIds": [
-        14,
-        19
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Florissant%2C_Colorado"
-    },
-    {
-      "id": 4,
       "text": "The Gold Belt Tour Scenic Byway, a 131‑mile loop that starts and ends in Florissant, showcases historic mining towns and rugged scenery.",
       "sourceSentenceIds": [
         1,
@@ -70,10 +61,12 @@
         "Web source 2",
         "Web source 1"
       ],
-      "source": "https://jettsetterstravel.com/florissant-colorado/"
+      "source": "https://jettsetterstravel.com/florissant-colorado/",
+      "category": "transport",
+      "quality": "good"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Florissant was officially established in 1870, and its post office opened the following year on November 20, 1872.",
       "sourceSentenceIds": [
         17,
@@ -83,7 +76,20 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.uncovercolorado.com/towns/florissant/"
+      "source": "https://www.uncovercolorado.com/towns/florissant/",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/florissant-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.301,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Holly Cheng",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:FlorissantHeritageMuseum.jpg"
+  }
 }

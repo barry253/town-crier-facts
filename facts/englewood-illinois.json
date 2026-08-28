@@ -32,7 +32,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Englewood%2C_Chicago"
+      "source": "https://en.wikipedia.org/wiki/Englewood%2C_Chicago",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.chipublib.org/fa-englewood-historical-association-records/"
+      "source": "https://www.chipublib.org/fa-englewood-historical-association-records/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.chipublib.org/fa-englewood-historical-association-records/"
+      "source": "https://www.chipublib.org/fa-englewood-historical-association-records/",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -65,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://chicagology.com/prefire/prefire263/"
+      "source": "https://chicagology.com/prefire/prefire263/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -76,18 +85,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Englewood%2C_Chicago"
-    },
-    {
-      "id": 6,
-      "text": "Englewood is bounded by Garfield Boulevard, 75th Street, Racine Avenue, and a jagged line following Metra tracks to the east.",
-      "sourceSentenceIds": [
-        17
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Englewood%2C_Chicago"
+      "source": "https://en.wikipedia.org/wiki/Englewood%2C_Chicago",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/englewood-illinois.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.849,
+    "y": 0.498
+  },
+  "imageAttribution": {
+    "author": "MrHarman",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Englewood_Chicago_1.JPG"
+  }
 }

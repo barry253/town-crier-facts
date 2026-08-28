@@ -31,7 +31,10 @@
         "Web source 1",
         "Wikipedia"
       ],
-      "source": "https://www.historictexas.net/city/doss-texas"
+      "source": "https://www.historictexas.net/city/doss-texas",
+      "category": "history",
+      "quality": "poor",
+      "qualityReason": "dropped_surname_no_wiki_source"
     },
     {
       "id": 2,
@@ -42,7 +45,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Doss%2C_Gillespie_County%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Doss%2C_Gillespie_County%2C_Texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,7 +60,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.historictexas.net/city/doss-texas"
+      "source": "https://www.historictexas.net/city/doss-texas",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -68,23 +75,12 @@
         "Wikipedia",
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Doss%2C_Gillespie_County%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Doss%2C_Gillespie_County%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
-      "text": "Doss sits on Mormon Creek, about nineteen miles northwest of Fredericksburg, and its elevation is 1,729 feet above sea level.",
-      "sourceSentenceIds": [
-        18,
-        27
-      ],
-      "sourceLabels": [
-        "Web source 2",
-        "Wikipedia"
-      ],
-      "source": "https://www.hillcountryportal.com/doss.html"
-    },
-    {
-      "id": 6,
       "text": "Peter Lutheran Church, founded in 1896 under Rev. Peter's leadership, remains a historic landmark in the community.",
       "sourceSentenceIds": [
         5
@@ -92,7 +88,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Doss%2C_Gillespie_County%2C_Texas"
+      "source": "https://en.wikipedia.org/wiki/Doss%2C_Gillespie_County%2C_Texas",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/doss-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.52,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Travis K. Witt",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gillespie_County_Courthouse_Fredericksburg_TX.JPG"
+  }
 }

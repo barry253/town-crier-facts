@@ -21,19 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Parrottsville sits in northeastern Cocke County, Tennessee, nestled in the Appalachian foothills near the Great Smoky Mountains.",
-      "sourceSentenceIds": [
-        10,
-        27
-      ],
-      "sourceLabels": [
-        "Wikipedia",
-        "Web source 1"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Parrottsville%2C_Tennessee"
-    },
-    {
       "id": 2,
       "text": "The town lies roughly halfway between the historic cities of Newport and Greeneville, making it a quiet crossroads in the region.",
       "sourceSentenceIds": [
@@ -42,7 +29,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-parrottsville.html"
+      "source": "https://www.citydirectory.us/town-parrottsville.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 3,
@@ -53,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-parrottsville.html"
+      "source": "https://www.citydirectory.us/town-parrottsville.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 4,
@@ -64,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/town-parrottsville.html"
+      "source": "https://www.citydirectory.us/town-parrottsville.html",
+      "category": "landmark",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 5,
@@ -77,7 +73,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-cocke-county"
+      "source": "https://sos.tn.gov/tsla/pages/genealogical-fact-sheets-about-cocke-county",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 6,
@@ -88,7 +87,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Parrottsville%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Parrottsville%2C_Tennessee",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/parrottsville-tennessee.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.208,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Dwight Burdette",
+    "license": "CC BY 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parrottsville_Tennessee_Town_Hall_2011.JPG"
+  }
 }

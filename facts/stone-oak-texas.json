@@ -30,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/stone_oak_san_antonio"
+      "source": "https://grokipedia.com/page/stone_oak_san_antonio",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/stone_oak_san_antonio"
+      "source": "https://grokipedia.com/page/stone_oak_san_antonio",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -52,7 +56,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/stone_oak_san_antonio"
+      "source": "https://grokipedia.com/page/stone_oak_san_antonio",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,30 +70,21 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/stone_oak_san_antonio"
-    },
-    {
-      "id": 5,
-      "text": "The community covers roughly 35 subdivisions bounded by U.S. Highway 87, Loop 1604, and the Balcones Escarpment.",
-      "sourceSentenceIds": [
-        19,
-        23
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/stone_oak_san_antonio"
-    },
-    {
-      "id": 6,
-      "text": "Stone Oak’s elevation ranges from 900 to 1,200 feet, making it one of the higher‑elevation zones in San Antonio.",
-      "sourceSentenceIds": [
-        25
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/stone_oak_san_antonio"
+      "source": "https://grokipedia.com/page/stone_oak_san_antonio",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/stone-oak-texas.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.6,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Renelibrary",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bexar_County_Courthouse_2015.jpg"
+  }
 }

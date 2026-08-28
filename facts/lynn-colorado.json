@@ -29,7 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 2,
@@ -40,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Colorado"
-    },
-    {
-      "id": 3,
-      "text": "Its geographic coordinates are 37.4272° N, 104.6411° W, placing it just north of the San Luis Valley.",
-      "sourceSentenceIds": [
-        6
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/las-animas/lynn.cfm"
+      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,18 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://colorado.hometownlocator.com/co/las-animas/lynn.cfm"
-    },
-    {
-      "id": 5,
-      "text": "Lynn is a census‑designated place with no municipal government, meaning it relies on county services for administration.",
-      "sourceSentenceIds": [
-        10
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://colorado.hometownlocator.com/co/las-animas/lynn.cfm"
+      "source": "https://colorado.hometownlocator.com/co/las-animas/lynn.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 6,
@@ -84,7 +71,21 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/Lynn%2C_Colorado",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/lynn-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.82,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Jeffrey Beall",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lynn,_Colorado.JPG"
+  }
 }

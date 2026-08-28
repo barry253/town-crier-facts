@@ -29,18 +29,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania"
-    },
-    {
-      "id": 2,
-      "text": "The census‑designated place sits in Blair County, within the northeastern part of Allegheny Township.",
-      "sourceSentenceIds": [
-        5
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -51,18 +43,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania"
-    },
-    {
-      "id": 4,
-      "text": "Canan Station’s geographic coordinates are 40.4586 N latitude and –78.4311 W longitude.",
-      "sourceSentenceIds": [
-        2
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/canan-station.cfm"
+      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 5,
@@ -73,7 +57,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://pennsylvania.hometownlocator.com/pa/blair/canan-station.cfm"
+      "source": "https://pennsylvania.hometownlocator.com/pa/blair/canan-station.cfm",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 6,
@@ -84,7 +71,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Canan_Station%2C_Pennsylvania",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/canan-station-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.63,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Smallbones",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Pike_Bridge_1889_3.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Frankstown Branch Juniata River"
+  }
 }

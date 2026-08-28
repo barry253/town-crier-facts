@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -44,7 +46,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Colorado",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -55,21 +59,12 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://grokipedia.com/page/South_Fork,_Colorado"
+      "source": "https://grokipedia.com/page/South_Fork,_Colorado",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
-      "text": "South Fork’s elevation of 8,209 feet places it high in the San Juan foothills, offering alpine scenery and winter sports opportunities.",
-      "sourceSentenceIds": [
-        28
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://grokipedia.com/page/South_Fork,_Colorado"
-    },
-    {
-      "id": 5,
       "text": "The town’s economy shifted from timber and mining to tourism, with recent decades seeing tourism surpass forestry and mining in employment.",
       "sourceSentenceIds": [
         5,
@@ -79,10 +74,12 @@
         "Web source 2",
         "Wikipedia"
       ],
-      "source": "https://grokipedia.com/page/South_Fork,_Colorado"
+      "source": "https://grokipedia.com/page/South_Fork,_Colorado",
+      "category": "economy",
+      "quality": "good"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "South Fork was incorporated in 1992, making it one of Colorado’s newest statutory towns and the youngest in the state.",
       "sourceSentenceIds": [
         18
@@ -90,7 +87,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Colorado"
+      "source": "https://en.wikipedia.org/wiki/South_Fork%2C_Colorado",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/south-fork-colorado.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.68,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "DrunkDriver",
+    "license": "CC BY-SA 3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:SouthForkColoradoFromAguaRamonMountainNovember2011.JPG"
+  }
 }

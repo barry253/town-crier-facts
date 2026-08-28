@@ -21,28 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Sunset Village is located at 32°53′57″N 84°24′34″W.",
-      "sourceSentenceIds": [
-        3
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Village%2C_Georgia"
-    },
-    {
-      "id": 2,
-      "text": "Sunset Village first appeared as a census designated place in 2000.",
-      "sourceSentenceIds": [
-        20
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Sunset_Village%2C_Georgia"
-    },
-    {
       "id": 3,
       "text": "Sunset Village is a city located in the county of Upson in the U.S.",
       "sourceSentenceIds": [
@@ -51,7 +29,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sunset-village"
+      "source": "https://www.mapsof.net/sunset-village",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 4,
@@ -62,7 +43,10 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sunset-village"
+      "source": "https://www.mapsof.net/sunset-village",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -73,18 +57,21 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://www.mapsof.net/sunset-village"
-    },
-    {
-      "id": 6,
-      "text": "Sunset Village’s latitude and longitude are 32.8979, -84.4038.",
-      "sourceSentenceIds": [
-        13
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://www.mapsof.net/sunset-village"
+      "source": "https://www.mapsof.net/sunset-village",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/sunset-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.8,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "LittleT889",
+    "license": "CC BY-SA 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sunset_Village,_Georgia.jpg"
+  }
 }

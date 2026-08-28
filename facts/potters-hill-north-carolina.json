@@ -21,17 +21,6 @@
   ],
   "facts": [
     {
-      "id": 1,
-      "text": "Potters Hill lies at 34°58′6″N 77°42′38″W, 92 feet above sea level today.",
-      "sourceSentenceIds": [
-        9
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://grokipedia.com/page/potters_hill_north_carolina"
-    },
-    {
       "id": 2,
       "text": "The community sits on sandy loam soils ideal for tobacco and soybeans.",
       "sourceSentenceIds": [
@@ -41,7 +30,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/potters_hill_north_carolina"
+      "source": "https://grokipedia.com/page/potters_hill_north_carolina",
+      "category": "economy",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +44,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/potters_hill_north_carolina"
+      "source": "https://grokipedia.com/page/potters_hill_north_carolina",
+      "category": "people",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +58,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/potters_hill_north_carolina"
+      "source": "https://grokipedia.com/page/potters_hill_north_carolina",
+      "category": "nature",
+      "quality": "good",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -76,7 +72,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/potters_hill_north_carolina"
+      "source": "https://grokipedia.com/page/potters_hill_north_carolina",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -87,7 +85,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://grokipedia.com/page/potters_hill_north_carolina"
+      "source": "https://grokipedia.com/page/potters_hill_north_carolina",
+      "category": "economy",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/potters-hill-north-carolina.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.38,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "APK",
+    "license": "CC BY 4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duplin_County_Courthouse_-_North_Carolina.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Duplin County, North Carolina"
+  }
 }

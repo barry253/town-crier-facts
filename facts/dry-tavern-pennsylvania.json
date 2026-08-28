@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.observer-reporter.com/news/local-news/2025/aug/10/dry-taverns-straight-forward-name-has-a-murky-history/"
+      "source": "https://www.observer-reporter.com/news/local-news/2025/aug/10/dry-taverns-straight-forward-name-has-a-murky-history/",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 2"
       ],
-      "source": "https://en.wikipedia.org/wiki/Dry_Tavern%2C_Pennsylvania"
+      "source": "https://en.wikipedia.org/wiki/Dry_Tavern%2C_Pennsylvania",
+      "category": "transport",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -54,7 +58,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.observer-reporter.com/news/local-news/2025/aug/10/dry-taverns-straight-forward-name-has-a-murky-history/"
+      "source": "https://www.observer-reporter.com/news/local-news/2025/aug/10/dry-taverns-straight-forward-name-has-a-murky-history/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -65,7 +71,24 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.observer-reporter.com/news/local-news/2025/aug/10/dry-taverns-straight-forward-name-has-a-murky-history/"
+      "source": "https://www.observer-reporter.com/news/local-news/2025/aug/10/dry-taverns-straight-forward-name-has-a-murky-history/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/dry-tavern-pennsylvania.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "The original uploader was Ronjamin at English Wikipedia.",
+    "license": "CC BY-SA 2.5",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monongahela_River_-_Southsidefromwash.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Monongahela River"
+  }
 }

@@ -31,7 +31,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yonah%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Yonah%2C_Georgia",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Yonah,_Georgia"
+      "source": "https://kids.kiddle.co/Yonah,_Georgia",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "editorial_filler"
     },
     {
       "id": 3,
@@ -55,21 +60,13 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Yonah%2C_Georgia"
+      "source": "https://en.wikipedia.org/wiki/Yonah%2C_Georgia",
+      "category": "transport",
+      "quality": "poor",
+      "qualityReason": "route_only"
     },
     {
       "id": 4,
-      "text": "The community sits at 1,540 feet above sea level, giving it a mild mountain climate.",
-      "sourceSentenceIds": [
-        23
-      ],
-      "sourceLabels": [
-        "Web source 2"
-      ],
-      "source": "https://roadsidethoughts.com/ga/yonah-xx-white-profile.htm"
-    },
-    {
-      "id": 5,
       "text": "Locals pronounce Yonah in a distinctive way, a tradition that honors its Cherokee linguistic heritage.",
       "sourceSentenceIds": [
         11
@@ -77,7 +74,20 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Yonah,_Georgia"
+      "source": "https://kids.kiddle.co/Yonah,_Georgia",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/yonah-georgia.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.25,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Thomson200",
+    "license": "CC0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Yonah_viewed_from_Yonah_Georgia_April_2017_2.jpg"
+  }
 }

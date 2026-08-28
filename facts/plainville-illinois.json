@@ -22,17 +22,6 @@
   "facts": [
     {
       "id": 1,
-      "text": "Plainville was originally called Stone's Prairie after early settler Samuel Stone who arrived in 1822.",
-      "sourceSentenceIds": [
-        1
-      ],
-      "sourceLabels": [
-        "Wikipedia"
-      ],
-      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois"
-    },
-    {
-      "id": 2,
       "text": "The village’s early history includes the 1860 Stone's Prairie Riot, where Republican Wide Awakes clashed with Democratic supporters.",
       "sourceSentenceIds": [
         7
@@ -40,10 +29,12 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois",
+      "category": "history",
+      "quality": "good"
     },
     {
-      "id": 3,
+      "id": 2,
       "text": "Plainville sits in western Illinois, southwest of Quincy and close to the Mississippi River.",
       "sourceSentenceIds": [
         21
@@ -51,10 +42,13 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.citydirectory.us/village-plainville-illinois.html"
+      "source": "https://www.citydirectory.us/village-plainville-illinois.html",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 4,
+      "id": 3,
       "text": "The village is part of the Quincy, IL–MO Micropolitan Statistical Area, linking it to a broader regional community.",
       "sourceSentenceIds": [
         6
@@ -62,10 +56,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 5,
+      "id": 4,
       "text": "Plainville lies within Adams County, a region known for its agricultural heritage and historic sites.",
       "sourceSentenceIds": [
         5
@@ -73,10 +70,13 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
-      "id": 6,
+      "id": 5,
       "text": "The village’s name changed from Stone's Prairie to Plainville as it grew into a formal settlement in the 19th century.",
       "sourceSentenceIds": [
         1
@@ -84,7 +84,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois"
+      "source": "https://en.wikipedia.org/wiki/Plainville%2C_Illinois",
+      "category": "etymology",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/plainville-illinois.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.23,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Nyttend",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adams_County_Courthouse,_Quincy.jpg"
+  }
 }

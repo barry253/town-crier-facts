@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Wynnburg%2C_Tennessee"
+      "source": "https://en.wikipedia.org/wiki/Wynnburg%2C_Tennessee",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://kids.kiddle.co/Wynnburg,_Tennessee"
+      "source": "https://kids.kiddle.co/Wynnburg,_Tennessee",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "other"
     },
     {
       "id": 3,
@@ -53,7 +58,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/"
+      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +71,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/"
+      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +84,9 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/"
+      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -86,7 +97,24 @@
       "sourceLabels": [
         "Web source 2"
       ],
-      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/"
+      "source": "https://cumberlandnationalscenicbyway.com/campbell-county/",
+      "category": "landmark",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/wynnburg-tennessee.jpg",
+  "imageSource": "wikipedia_county",
+  "imageFocus": {
+    "x": 0.77,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Flickr user chiacomo",
+    "license": "CC BY 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_County_Tennessee_Courthouse.jpg"
+  },
+  "imageFallback": {
+    "strategy": "county",
+    "source": "Lake County, Tennessee"
+  }
 }

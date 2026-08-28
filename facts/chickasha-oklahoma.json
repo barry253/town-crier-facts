@@ -31,7 +31,9 @@
         "Web source 1",
         "Web source 2"
       ],
-      "source": "https://www.chickasha.gov/550/Historic-Chickasha"
+      "source": "https://www.chickasha.gov/550/Historic-Chickasha",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -43,7 +45,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.chickasha.gov/550/Historic-Chickasha"
+      "source": "https://www.chickasha.gov/550/Historic-Chickasha",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -56,7 +60,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chickasha%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Chickasha%2C_Oklahoma",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -67,7 +73,10 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://www.chickasha.gov/550/Historic-Chickasha"
+      "source": "https://www.chickasha.gov/550/Historic-Chickasha",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "vague"
     },
     {
       "id": 5,
@@ -79,7 +88,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chickasha%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Chickasha%2C_Oklahoma",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 6,
@@ -90,7 +101,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chickasha%2C_Oklahoma"
+      "source": "https://en.wikipedia.org/wiki/Chickasha%2C_Oklahoma",
+      "category": "culture",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chickasha-oklahoma.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.498,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Unknown author Unknown author or not provided",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oklahoma_-_Chickasha_-_NARA_-_68147114_(cropped).jpg"
+  }
 }

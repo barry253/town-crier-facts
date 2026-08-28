@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri",
+      "category": "etymology",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -42,7 +44,9 @@
         "Wikipedia",
         "Web source 1"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -66,7 +72,9 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri"
+      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -79,18 +87,24 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri"
-    },
-    {
-      "id": 6,
-      "text": "Silva rises 400 feet above sea level, giving it a modest elevation compared to surrounding terrain.",
-      "sourceSentenceIds": [
-        26
-      ],
-      "sourceLabels": [
-        "Web source 1"
-      ],
-      "source": "https://roadsidethoughts.com/mo/silva-xx-wayne-profile.htm"
+      "source": "https://en.wikipedia.org/wiki/Silva%2C_Missouri",
+      "category": "nature",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/silva-missouri.jpg",
+  "imageSource": "wikipedia_geo_link",
+  "imageFocus": {
+    "x": 0.48,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+    "license": "Public domain",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wappapello_Lake_Missouri.jpg"
+  },
+  "imageFallback": {
+    "strategy": "geo_link",
+    "source": "Lake Wappapello"
+  }
 }

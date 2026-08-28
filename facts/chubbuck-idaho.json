@@ -29,7 +29,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/"
+      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/",
+      "category": "landmark",
+      "quality": "good"
     },
     {
       "id": 2,
@@ -41,7 +43,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/"
+      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/",
+      "category": "culture",
+      "quality": "good"
     },
     {
       "id": 3,
@@ -53,7 +57,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/"
+      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/",
+      "category": "nature",
+      "quality": "good"
     },
     {
       "id": 4,
@@ -64,7 +70,9 @@
       "sourceLabels": [
         "Web source 1"
       ],
-      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/"
+      "source": "https://touristplaces.guide/top-10-must-visit-tourist-places-in-chubbuck/",
+      "category": "history",
+      "quality": "good"
     },
     {
       "id": 5,
@@ -75,7 +83,10 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chubbuck%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Chubbuck%2C_Idaho",
+      "category": "other",
+      "quality": "poor",
+      "qualityReason": "location_description"
     },
     {
       "id": 6,
@@ -86,7 +97,20 @@
       "sourceLabels": [
         "Wikipedia"
       ],
-      "source": "https://en.wikipedia.org/wiki/Chubbuck%2C_Idaho"
+      "source": "https://en.wikipedia.org/wiki/Chubbuck%2C_Idaho",
+      "category": "history",
+      "quality": "good"
     }
-  ]
+  ],
+  "imageUrl": "https://pub-1feff31ff8ec4ecfafa5cf1a7a5146c7.r2.dev/images/chubbuck-idaho.jpg",
+  "imageSource": "wikipedia",
+  "imageFocus": {
+    "x": 0.656,
+    "y": 0.5
+  },
+  "imageAttribution": {
+    "author": "Ken Lund",
+    "license": "CC BY-SA 2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chubbuck,_Idaho_entrance.jpg"
+  }
 }
