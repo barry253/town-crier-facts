@@ -281,13 +281,17 @@ function runOnMac({ prompt, phase, repoPath, logger }) {
 
 // --- Format result for Claude chat ------------------------------------
 
-function formatResult({ result, agent, phase, repoPath }) {
+function formatResult({ result, agent, phase, repoPath, prompt }) {
   const mins   = (result.duration_ms / 60000).toFixed(1);
+  const promptSnippet = prompt
+    ? prompt.replace(/\[You are [^\]]+\]\n\n/g, "").slice(0, 60).replace(/\n/g, " ").trim()
+    : "";
   const header = [
     `## ${agent} CC — ${phase} phase`,
     `Repo: \`${repoPath}\`  |  Duration: ${mins}m  |  Exit: ${result.exit_code}`,
+    promptSnippet ? `Task: "${promptSnippet}${prompt.replace(/\[You are [^\]]+\]\n\n/g, "").length > 60 ? "…" : ""}"` : "",
     "",
-  ].join("\n");
+  ].filter(l => l !== null).join("\n");
   const AUTH_ERROR_STRINGS = [
     "OAuth session expired",
     "Failed to authenticate",
@@ -388,7 +392,7 @@ server.tool(
     try {
       const result = await enqueue("win", () => runOnDell({ prompt, phase, repoPath: REPOS.win, logger: log.win }));
       clearInterval(heartbeat);
-      return { content: [{ type: "text", text: formatResult({ result, agent: "Win", phase, repoPath: REPOS.win }) }] };
+      return { content: [{ type: "text", text: formatResult({ result, agent: "Win", phase, repoPath: REPOS.win, prompt }) }] };
     } catch (err) {
       clearInterval(heartbeat);
       log.win(`[OFFLINE] ${err.message}`);
@@ -418,7 +422,7 @@ server.tool(
     try {
       const result = await enqueue("ds", () => runOnDell({ prompt, phase, repoPath: REPOS.ds, logger: log.ds }));
       clearInterval(heartbeat);
-      return { content: [{ type: "text", text: formatResult({ result, agent: "DS", phase, repoPath: REPOS.ds }) }] };
+      return { content: [{ type: "text", text: formatResult({ result, agent: "DS", phase, repoPath: REPOS.ds, prompt }) }] };
     } catch (err) {
       clearInterval(heartbeat);
       log.ds(`[OFFLINE] ${err.message}`);
@@ -446,7 +450,7 @@ server.tool(
     if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     try {
       const result = await runOnPi({ prompt, phase, logger: log.pi });
-      return { content: [{ type: "text", text: formatResult({ result, agent: "Pi", phase, repoPath: REPOS.pi }) }] };
+      return { content: [{ type: "text", text: formatResult({ result, agent: "Pi", phase, repoPath: REPOS.pi, prompt }) }] };
     } catch (err) {
       log.pi(`[ERROR] ${err.message}`);
       return {
@@ -473,7 +477,7 @@ server.tool(
     if (routeErr) return { content: [{ type: "text", text: routeErr }] };
     try {
       const result = await runOnMac({ prompt, phase, repoPath: REPOS.mac_tc, logger: log.mac_tc });
-      return { content: [{ type: "text", text: formatResult({ result, agent: "Mac TC", phase, repoPath: REPOS.mac_tc }) }] };
+      return { content: [{ type: "text", text: formatResult({ result, agent: "Mac TC", phase, repoPath: REPOS.mac_tc, prompt }) }] };
     } catch (err) {
       log.mac_tc(`[ERROR] ${err.message}`);
       return {
@@ -498,7 +502,7 @@ server.tool(
     log.mac_menucha(`[TOOL] run_mac_menucha_cc phase=${phase}`);
     try {
       const result = await runOnMac({ prompt, phase, repoPath: REPOS.mac_menucha, logger: log.mac_menucha });
-      return { content: [{ type: "text", text: formatResult({ result, agent: "Mac Menucha", phase, repoPath: REPOS.mac_menucha }) }] };
+      return { content: [{ type: "text", text: formatResult({ result, agent: "Mac Menucha", phase, repoPath: REPOS.mac_menucha, prompt }) }] };
     } catch (err) {
       log.mac_menucha(`[ERROR] ${err.message}`);
       return {
@@ -523,7 +527,7 @@ server.tool(
     log.menucha(`[TOOL] run_menucha_cc phase=${phase}`);
     try {
       const result = await enqueue("menucha", () => runOnDell({ prompt, phase, repoPath: REPOS.menucha, logger: log.menucha }));
-      return { content: [{ type: "text", text: formatResult({ result, agent: "Menucha", phase, repoPath: REPOS.menucha }) }] };
+      return { content: [{ type: "text", text: formatResult({ result, agent: "Menucha", phase, repoPath: REPOS.menucha, prompt }) }] };
     } catch (err) {
       log.menucha(`[OFFLINE] ${err.message}`);
       return {
