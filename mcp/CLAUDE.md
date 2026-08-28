@@ -104,3 +104,15 @@ Currently commented out — re-enable Thursday after Mac confirmed stable.
 - Pi CC machine identity anchor prepended to every prompt
 - Auth error banner in `formatResult` with exact re-auth command (Win CC only)
 - Pi CC output discipline + relay pattern documented in `~/town-crier-facts/CLAUDE.md`
+
+## Hardening changes (Aug 2026 — ongoing)
+
+- **10-minute task timeout** (`TASK_TIMEOUT_MS=10min`) — was 5min, large tasks were timing out
+- **Per-agent dispatch queue** (`agentQueue` Map + `enqueue()`) — serializes concurrent SSH calls to the same machine; win/ds/menucha wrapped; prevents SSH race conditions from multi-chat sessions
+- **Progress heartbeat every 5s** — `notifications/message` fallback when no `progressToken`; keeps Claude.ai HTTP/2 stream alive during long tasks
+- **Prompt snippet in response header** — first 60 chars of prompt (preamble stripped) shown as `Task: "..."` in every response; enables multi-chat attribution without reading full output
+- **Content-based routing validator** (`ROUTE_SIGNALS`) — rejects misrouted prompts before SSH dispatch; returns actionable error with matched pattern
+- **Pending queue removed** — Dell-unreachable errors now fail immediately with tunnel-restart hint; watcher service (`town-crier-watcher`) disabled
+- **tcagent SSH key** — ed25519 keypair generated Aug 20 2026, authorized on Pi; `TownCrierReverseTunnel` task can now self-authenticate (currently disabled — manual-only by design)
+- **Mac CC output discipline** — machine identity anchor + verbatim output instruction prepended to every Mac CC prompt
+- **Tool description guardrails** — `NOT for` exclusions on run_win_cc, run_pi_cc, run_mac_tc_cc to reduce model-level misrouting
